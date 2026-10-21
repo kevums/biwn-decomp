@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-13T03:27:02.505181+00:00",
+  "status": "long_run_stable_boundaries_and_direct_calls_exported",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/long-observed-disassembly-20261013T032644.137384Z",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "baseline": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/shared-volatile-20261012T224014.275244Z",
+  "baseline_instructions": 18225,
+  "matching_stable_sampled_PCs": 2793,
+  "missing_before": 81,
+  "new_instructions": 78,
+  "instructions_total": 18303,
+  "missing_after": 3,
+  "instruction_seed_results": {
+    "decoded_exact_observed_instruction": 78,
+    "not_decoded": 1,
+    "defined_data_conflict_retained": 2
+  },
+  "boundary_exclusions": [],
+  "entry_candidates": 0,
+  "created_entries": 0,
+  "entry_results": [],
+  "function_count": 206,
+  "decompiled_functions": 206,
+  "baseline_project_and_manifest_unchanged": true,
+  "original_instruction_rows_retained": true,
+  "artifact_sha256": {
+    "instruction-plan.json": "3f740d8854c9baf1a2b1adb0ae72d70328998a0b912fc6eb9ff32f19ab736a19",
+    "entry-plan.json": "8d78c23a3c1b32127b006167aab64b4fcc75c34ee2b15341f3e4820efeee872e",
+    "added-instructions.json": "89cbfddd9565fb03a44dccacf63180d67cf38d7ccbefde6eab460d1f21d75a6e",
+    "entries.json": "07e389c8ec6945595642e98b5f077c0622392141bfd3c199162ac7c9878e6db0",
+    "export/manifest.json": "9683234b3cffcc63c9e973312e1f890581fcd73769a574575ddfb25a35d5ce6f",
+    "export/listing.asm": "f75f3c1fa0ce756cf187ad6451e7e88fd444d015446358d1fbd4db92d4dff0f2",
+    "export/decompiled.c": "57229065264d332e658c446f5bcab171ea6f46369d766810ae6536ac262ea59a"
+  },
+  "scope": "Separate project retains earlier volatile GPU words. Added exact static bytes/boundaries and direct-call entry candidates only; C bodies, original function ABI, timing and rebuilt-game behavior remain unverified."
+}

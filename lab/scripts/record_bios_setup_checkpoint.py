@@ -1,0 +1,29 @@
+"""Archive real BIOS setup linkage, plain local explanation and source limits."""
+import hashlib,json,shutil
+from pathlib import Path
+from datetime import datetime,timezone
+ROOT=Path(__file__).resolve().parents[1]
+read=lambda p:json.loads(p.read_text())
+save=lambda p,v:p.write_text(json.dumps(v,indent=2,ensure_ascii=False)+'\n')
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+    cp=read(ROOT/'verification/startup-loading-movie-world-checkpoint.json');assert cp['actual_BIOS3000_CPU_setup_linked']and cp['actual_BIOS3048_controller_CPU_linked']and not cp['BIOS3000_noop_adapter']and not cp['BIOS3048_preserve_register_adapter']and not cp['source_boot_verified']
+    assert cp['BIOS_setup_proof']['source_instruction_coverage']==[22,22]and cp['BIOS_controller_proof']['source_instruction_coverage']==[7,7]and cp['verified_profiles']==2
+    local=Path(read(ROOT/'verification/easy-bios-setup-scope-pointer.json')['directory']);a=read(local/'protocol.json');item=a['results'][0]
+    assert a['status']=='completed_pending_coordinator_review'and not item['quality_flags']and item['words']<160 and all(s['stats']['stopReason']=='eosFound'for s in item['prediction_stats'])
+    assert all(t in item['answer']for t in ['No. We are not doing a real BIOS boot','host-loaded','not playable','BIOS3006'])
+    now=datetime.now(timezone.utc);out=ROOT/'verification/bios-setup-local-review'/now.strftime('%Y%m%dT%H%M%S.%fZ');out.mkdir(parents=True)
+    files=[local/'protocol.json',local/'prompts-and-responses.txt',ROOT/'verification/startup-loading-movie-world-checkpoint.json',ROOT/'verification/bios-setup-CPU-checks.json',ROOT/'verification/bios-controller-CPU-checks.json',ROOT/'verification/bios-setup-MCP-check.json',ROOT/'verification/music-command-call-site-inspection.json',ROOT/'scripts/generate_biwn_bios_setup_cpu.py',ROOT/'scripts/generate_biwn_bios_controller_cpu.py',ROOT/'scripts/check_biwn_bios_setup_cpu.py',ROOT/'scripts/check_biwn_bios_controller_cpu.py',ROOT/'scripts/biwn_bios_setup_runtime.py',ROOT/'scripts/biwn_bios_controller_runtime.py',ROOT/'scripts/check_biwn_source_entry_boot.py',ROOT/'scripts/test_bios_setup_scope.py',ROOT/'chat_tools.py',Path(__file__)]
+    manifest=[]
+    for i,p in enumerate(files):
+        dest=out/f'{i:02d}-{p.name}';shutil.copy2(p,dest);assert sha(p)==sha(dest);manifest.append(dict(source=str(p),snapshot=str(dest),sha256=sha(p)))
+    report=dict(status='actual_BIOS3000_3048_linkage_verified_local_boot_scope_accepted',recorded_at=now.isoformat(),directory=str(out),source_audit=cp['audit'],interface=a['interface'],model=a['model'],seconds=item['seconds'],words=item['words'],semantic_review=['Correctly distinguishes actual BIOS3000/3048 execution from hostloaded resident bytes and unverified firmware boot; reports remaining adapter/transport/timing and playability limits.','GPUCDISR execution is not implemented/verified, rather than itself an executed provider; file-disc model substitutes transport. Last paragraph exposes internal boolean field names unnecessarily.'],native_Chat_verified=False,new_training=False,model_defaults_changed=False,whole_goal_complete=False,authorship=cp['implementation_authorship'],manifest=manifest)
+    save(out/'review.json',report);save(ROOT/'verification/bios-setup-local-review.json',report)
+    transcript='COORDINATOR\n'+cp['implementation_authorship']+'\nVerified residentBIOS bytes directly against supplied ROM;22setup and7controller instructions eachmatch24standalone inputs. Real3000/3048 linked into2source-entry/startup/movie/world runs. C CPU reads owned GPU flags instead of stale emulator shadow. Other BIOS/transport/timing providers remain. Direct stop-routine literal search foundnone; this does not exclude indirect/runtime-loaded callers.\n\nLOCAL GAME ASSISTANT EXACT SYSTEM/USER PROMPT, TOOL CALLS, RESPONSE\n'+(local/'prompts-and-responses.txt').read_text()+'\n\nCOORDINATOR REVIEW\n'+'\n'.join(report['semantic_review'])+'\n';(out/'who-prompts-and-responses.txt').write_text(transcript)
+    note='LATEST — ACTUAL USER BIOS3000 /3048\n'+now.isoformat()+'\n\nReplaced3000noop and3048preserve-register adapter with actualuserBIOS CPU code.3000 installsGPUCDISR vector/code56longs/enablesIRQ1;3048 initializesBUTCH controller/DSC/I2S/reset/DSA7001.22and7instructions eachmatch24standalone inputs, with fullCPU/privateRAM/peripherals.2freshNative/C connected source4000/startup/187frame125enqueue movie/12worldcycles stillmatch, including saved snapshots/requests/AVdigests/WAVbytes. ResidentBIOS RAM3000..3E00 ishostloaded from suppliedROM84A6..92A6; firmwareboot/relocation,3006mode/305ATOC/transport/GPUCDISRexecution, globaltime/physicalrates/scanout/playability/nativeChat remainunverified.\n\n'+f'Local GameAssistant:{item["words"]}words/{item["seconds"]:.2f}s, one evidence call, natural completion, core scope accepted. Internalflag wording at end could be plainer. No newtraining/defaultchanges/generalreliability claim.\n\nWHO / EXACT PROMPTS / RESPONSES\n'+str(out/'who-prompts-and-responses.txt')+'\n\nSOURCE AUDIT\n'+cp['audit']+'\n\nREVIEW\n'+str(out/'review.json')+'\n\n'
+    for name in ['START HERE.txt','CURRENT LOCAL INFERENCE.txt']:
+        p=ROOT/name;p.write_text(note+p.read_text())
+    (out/'readable-results.txt').write_text(note)
+    p=ROOT/'verification/NEXT SOURCE AND INFERENCE WORK.json';n=read(p);n.update(last_turn_classification='progress',source_audit=cp['audit'],local_audit=str(out));n['next_source_work'][0]='ActualBIOS3000/3048 nowlinked from hostloaded residentROM bytes. Implement source BIOS3006 mode/DSA wait,305A TOC and remaining transport/GPUCDISR; remove firmware relocation/stage-load/boot providers without claiming a full BIOS boot prematurely.';save(p,n)
+    print(json.dumps(dict(status=report['status'],directory=str(out),local_seconds=item['seconds'])))
+if __name__=='__main__':main()

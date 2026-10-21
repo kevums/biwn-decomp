@@ -1,0 +1,24 @@
+{
+  "status": "terminal_relocated_heap_native_blitter_and_ordered_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-layout-heap-operations/20261019T084052.533802Z",
+  "planned": 3392,
+  "completed": 3392,
+  "heap_floor": "0x164d80",
+  "resident_reserve": 24512,
+  "native_cases": 3392,
+  "ordered_cases": 3392,
+  "original_instruction_sites": 251,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_layout_heap_operations.py": "b66aa542405b693175669b6905e99cf8bff9d94f1c121684f020d4e2af908c4e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_load_scan_bundle_heap.py": "c4ca5cd1ff4b809adbc6e0593f3687665c8f221463ad85b1581ae6a0ae0addfa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_memory.py": "86f81782c897227ca42731bcdff4dec65562d058005ad74fc154bf47fde5ef7e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-initializer-layout-materialized-current.json": "69f57a80ef17833016b37d0c0a79689e74e1dca444225e30bd05a53b2bc923f5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-initializer-layout/20261019T083828.840520Z/resident-layout-padded.bin": "d4536d91e35337774638d8a615e0ba8b583bca51bb68f71833f587449fac27a6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-initializer-layout/20261019T083828.840520Z/mainstage-native-layout.bin": "928368387281c3e76929277b51f5ff33a17091885e34755a86906e05fafc4941",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3"
+  },
+  "scope": "Validate actual relocated resident heap/copy bytes at the raised boundary. Native lanes execute actual copy and pinned emulated blitter; ordered trace lanes prescribe copy effects/returned caller registers/CCR. Original compactors are intentionally patched to the same declared new boundary. Private8KBstack/installedcode/entryJMPexclusions; no arbitraryfault/IRQ/concurrency/fullgame proof.",
+  "new_predictions": 0
+}

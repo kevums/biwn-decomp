@@ -1,0 +1,993 @@
+{
+  "status": "terminal_direct_dispatch_fixed_input_prefix_reviewed",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-review-v1/20261021T025245.389871Z",
+  "frames_per_lane": 1000,
+  "runs": {
+    "candidate": {
+      "pointer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6-candidate-current.json",
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/measurement/report.json",
+      "schedule_sha256": "61d7580c8102026c2bb0cf98603a50acace0196c8ed4d726b73c1f66ff58a846",
+      "boundary": {
+        "pre_finish_arena_errors": 0,
+        "region_errors": 0,
+        "deck_open_at_end": 0,
+        "active": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "used": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "raw_arena_errors": 0,
+      "rotation": {
+        "entries": 333,
+        "returns": 333,
+        "helper_entries": 333,
+        "helper_returns": 333,
+        "errors": 0,
+        "pending": 0
+      },
+      "clear": {
+        "entries": 334,
+        "returns": 334,
+        "errors": 0,
+        "pending": 0,
+        "original_global_entries": 1,
+        "original_global_returns": 1
+      },
+      "display": {
+        "entries": 333,
+        "returns": 333,
+        "errors": 0,
+        "pending": 0,
+        "original_global_entries": 1,
+        "original_global_returns": 1
+      }
+    },
+    "control": {
+      "pointer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6-control-current.json",
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/measurement/report.json",
+      "schedule_sha256": "61d7580c8102026c2bb0cf98603a50acace0196c8ed4d726b73c1f66ff58a846",
+      "boundary": {
+        "pre_finish_arena_errors": 0,
+        "region_errors": 0,
+        "deck_open_at_end": 0,
+        "active": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "used": [
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "raw_arena_errors": 0,
+      "rotation": {
+        "entries": 0,
+        "returns": 0,
+        "helper_entries": 0,
+        "helper_returns": 0,
+        "errors": 0,
+        "pending": 0
+      },
+      "clear": {
+        "entries": 0,
+        "returns": 0,
+        "errors": 0,
+        "pending": 0,
+        "original_global_entries": 339,
+        "original_global_returns": 339
+      },
+      "display": {
+        "entries": 0,
+        "returns": 0,
+        "errors": 0,
+        "pending": 0,
+        "original_global_entries": 339,
+        "original_global_returns": 339
+      }
+    }
+  },
+  "comparisons": {
+    "wait": {
+      "video_sha256": {
+        "count": 189,
+        "first_frame": 549,
+        "recorded_pairs": 1000
+      },
+      "raw_player_X": {
+        "count": 1,
+        "first_frame": 945,
+        "recorded_pairs": 1000
+      },
+      "raw_player_Z": {
+        "count": 92,
+        "first_frame": 646,
+        "recorded_pairs": 1000
+      },
+      "scene_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "player_mode_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "tile_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "equipped_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "movie_flag_words": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "held_buttons": {
+        "count": 1,
+        "first_frame": 600,
+        "recorded_pairs": 1000
+      },
+      "CPU_full": {
+        "count": 624,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_GPU_state_sha256": {
+        "count": 620,
+        "first_frame": 376,
+        "recorded_pairs": 1000
+      },
+      "full_DSP_state_sha256": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "active_actor_snapshot": {
+        "count": 9,
+        "first_frame": 421,
+        "recorded_pairs": 17
+      }
+    },
+    "direct-poll": {
+      "video_sha256": {
+        "count": 194,
+        "first_frame": 549,
+        "recorded_pairs": 1000
+      },
+      "raw_player_X": {
+        "count": 2,
+        "first_frame": 742,
+        "recorded_pairs": 1000
+      },
+      "raw_player_Z": {
+        "count": 107,
+        "first_frame": 646,
+        "recorded_pairs": 1000
+      },
+      "scene_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "player_mode_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "tile_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "equipped_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "movie_flag_words": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "held_buttons": {
+        "count": 1,
+        "first_frame": 600,
+        "recorded_pairs": 1000
+      },
+      "CPU_full": {
+        "count": 623,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_GPU_state_sha256": {
+        "count": 623,
+        "first_frame": 376,
+        "recorded_pairs": 1000
+      },
+      "full_DSP_state_sha256": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "active_actor_snapshot": {
+        "count": 9,
+        "first_frame": 421,
+        "recorded_pairs": 17
+      }
+    },
+    "rotation": {
+      "video_sha256": {
+        "count": 444,
+        "first_frame": 549,
+        "recorded_pairs": 1000
+      },
+      "raw_player_X": {
+        "count": 359,
+        "first_frame": 642,
+        "recorded_pairs": 1000
+      },
+      "raw_player_Z": {
+        "count": 196,
+        "first_frame": 645,
+        "recorded_pairs": 1000
+      },
+      "scene_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "player_mode_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "tile_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "equipped_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "movie_flag_words": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "held_buttons": {
+        "count": 1,
+        "first_frame": 600,
+        "recorded_pairs": 1000
+      },
+      "CPU_full": {
+        "count": 624,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_GPU_state_sha256": {
+        "count": 621,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_DSP_state_sha256": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "active_actor_snapshot": {
+        "count": 10,
+        "first_frame": 421,
+        "recorded_pairs": 17
+      }
+    },
+    "clear": {
+      "video_sha256": {
+        "count": 279,
+        "first_frame": 551,
+        "recorded_pairs": 1000
+      },
+      "raw_player_X": {
+        "count": 7,
+        "first_frame": 642,
+        "recorded_pairs": 1000
+      },
+      "raw_player_Z": {
+        "count": 190,
+        "first_frame": 644,
+        "recorded_pairs": 1000
+      },
+      "scene_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "player_mode_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "tile_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "equipped_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "movie_flag_words": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "held_buttons": {
+        "count": 2,
+        "first_frame": 634,
+        "recorded_pairs": 1000
+      },
+      "CPU_full": {
+        "count": 623,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_GPU_state_sha256": {
+        "count": 620,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_DSP_state_sha256": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "active_actor_snapshot": {
+        "count": 9,
+        "first_frame": 421,
+        "recorded_pairs": 17
+      }
+    },
+    "display-list": {
+      "video_sha256": {
+        "count": 442,
+        "first_frame": 549,
+        "recorded_pairs": 1000
+      },
+      "raw_player_X": {
+        "count": 359,
+        "first_frame": 642,
+        "recorded_pairs": 1000
+      },
+      "raw_player_Z": {
+        "count": 213,
+        "first_frame": 653,
+        "recorded_pairs": 1000
+      },
+      "scene_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "player_mode_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "tile_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "equipped_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "movie_flag_words": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "held_buttons": {
+        "count": 1,
+        "first_frame": 634,
+        "recorded_pairs": 1000
+      },
+      "CPU_full": {
+        "count": 622,
+        "first_frame": 378,
+        "recorded_pairs": 1000
+      },
+      "full_GPU_state_sha256": {
+        "count": 623,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_DSP_state_sha256": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "active_actor_snapshot": {
+        "count": 10,
+        "first_frame": 421,
+        "recorded_pairs": 17
+      }
+    },
+    "direct-dispatch": {
+      "video_sha256": {
+        "count": 445,
+        "first_frame": 550,
+        "recorded_pairs": 1000
+      },
+      "raw_player_X": {
+        "count": 359,
+        "first_frame": 642,
+        "recorded_pairs": 1000
+      },
+      "raw_player_Z": {
+        "count": 348,
+        "first_frame": 644,
+        "recorded_pairs": 1000
+      },
+      "scene_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "player_mode_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "tile_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "equipped_word": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "movie_flag_words": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "held_buttons": {
+        "count": 2,
+        "first_frame": 600,
+        "recorded_pairs": 1000
+      },
+      "CPU_full": {
+        "count": 622,
+        "first_frame": 378,
+        "recorded_pairs": 1000
+      },
+      "full_GPU_state_sha256": {
+        "count": 620,
+        "first_frame": 377,
+        "recorded_pairs": 1000
+      },
+      "full_DSP_state_sha256": {
+        "count": 0,
+        "first_frame": null,
+        "recorded_pairs": 1000
+      },
+      "active_actor_snapshot": {
+        "count": 8,
+        "first_frame": 421,
+        "recorded_pairs": 17
+      }
+    }
+  },
+  "new_control_versus_prior_layout": {
+    "video_sha256": {
+      "count": 100,
+      "first_frame": 196,
+      "recorded_pairs": 1000
+    },
+    "raw_player_X": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "raw_player_Z": {
+      "count": 41,
+      "first_frame": 649,
+      "recorded_pairs": 1000
+    },
+    "scene_word": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "player_mode_word": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "tile_word": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "equipped_word": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "movie_flag_words": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "held_buttons": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "CPU_full": {
+      "count": 631,
+      "first_frame": 177,
+      "recorded_pairs": 1000
+    },
+    "full_GPU_state_sha256": {
+      "count": 794,
+      "first_frame": 196,
+      "recorded_pairs": 1000
+    },
+    "full_DSP_state_sha256": {
+      "count": 805,
+      "first_frame": 196,
+      "recorded_pairs": 1000
+    },
+    "active_actor_snapshot": {
+      "count": 7,
+      "first_frame": 481,
+      "recorded_pairs": 17
+    }
+  },
+  "identical_frontend_schedule": true,
+  "preview_changed": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "whole_game_fidelity_proven": false,
+  "scope": "Candidate/control share the v29 layout and receive the exact original recorded frontend buttons. Comparison with earlier variants retains their separate layouts and measured control changes. Prefix boundaries may contain live calls; raw pending/end-arena counts and independent fence checks are preserved. This is not a complete route, cycle, IRQ, audio or console proof.",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/review_scene17_direct_dispatch_fixed_prefix_v1.py": "b21c408b55ccbb481c00420e1881950438f19967f64363d3130cb9b2f9860b2c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-display-list-fixed-prefix-review-v1-current.json": "de8fddeef403d298d826882aed59487e8303bef9e1cf1c62aa2aa1738817c61a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6-candidate-current.json": "257c17bea692a4a4ece9ab0965b2f33870f3efdf697a2bb5e42386714b040f79",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/measurement/report.json": "3c4c10908b2cd1103e9e915acca051ff9588aa4600cd49f767bc71b3bf9146aa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/run_scene17_fixed_prefix_v6.py": "bee895c45426c5b6dc811b2e05ac3d16d505287ae8a81ddc469ea125a15b7e95",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-disc-build-v1-current.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-wait-fresh-v2-control-current.json": "bd28417b76cdb56621ebad324a603c70fa760bd9492cee43004bf24b92c8d831",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-wait-fresh-route-v2/20261020T235456.848631Z-control/probe.py": "5987dbe6992cdd040f5af0f3c4062a3f794da1bb5a86a67fb65e6883a8a7a699",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.c": "1bf2c0bc616f652d247a91d5633a7246deafe547560a03310d8b5984a635476b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/observer.c": "02eb05f023fbb5898884a791205d98aae3aabbcba1df17463365090835ef28eb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/observer.dylib": "df6d2ae8da3dc8086aca68d08b49e39dd91122f85d83cb498ca982698ed7d211",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/fixed-inputs.json": "61d7580c8102026c2bb0cf98603a50acace0196c8ed4d726b73c1f66ff58a846",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/probe.py": "8313d3b2205ce099c69cdff54849ba8da906d86c01e2eda59f467b048b2ae016",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.533966Z-candidate/measurement/prefix-boundary.json": "cf349a36cfc0283624585e204384159d1223f2162039db5f294862a78562a0a3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6-control-current.json": "9ea9f3b145c402330c629f4d1dcbc2498d19e32a6d2bbd5b17dc6c56db7d05a7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/measurement/report.json": "fdfb26a4868e98198a7f1938ebcd97f02e4f1cf0f8d8b34b728edddf0ca908e6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/observer.c": "02eb05f023fbb5898884a791205d98aae3aabbcba1df17463365090835ef28eb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/observer.dylib": "98754e239db1d7fd36d304efd0a2fd967ae94ba70e0999c2608b21705789dfa9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/fixed-inputs.json": "61d7580c8102026c2bb0cf98603a50acace0196c8ed4d726b73c1f66ff58a846",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/probe.py": "ee0b00c11c2b62c318634f69f2a141f89ef79364e744fed7be030a4ab121e59a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-fixed-prefix-v6/20261021T025150.523599Z-control/measurement/prefix-boundary.json": "cf349a36cfc0283624585e204384159d1223f2162039db5f294862a78562a0a3"
+  }
+}

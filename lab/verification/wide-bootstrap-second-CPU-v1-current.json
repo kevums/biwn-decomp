@@ -1,0 +1,27 @@
+{
+  "status": "terminal_wide_copy_clear_native_and_Unicorn_full_RAM_CPU_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/wide-bootstrap-second-CPU-v1/20261021T101901.667438Z",
+  "pid": 57839,
+  "completed": 3,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "new_disc_built": false,
+  "game_frames": 0,
+  "prospective_v34_and_v37_sizes_verified": true,
+  "source_model_function_unedited": true,
+  "physical_console_verified": false,
+  "game_image_qualified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_wide_bootstrap_second_CPU_v1.py": "733ae3689de35555f146048d312677df36f96e356257ed72e6b909e3e6918006",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-wide-bootstrap-reviewed-v1-current.json": "49501cc4ad9c4116e25c42a1749f4bbf99cd6d32ce1194a7038fec866eece3df",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-wide-startup-prototype-v1/widen_loader.py": "1b05553d06e9f41f5921e64df7dd90b1c0c32d268206e8fbe998037a04eadbd4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/wide-bootstrap-second-CPU-v1/20261021T101901.667438Z/cases.json": "fd7dcdc77b205b88adfc020e6873e3fef39d1debb79928c726165693025a1bd9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-wide-bootstrap-reviewed-v1/20261021T101713.000849Z/integrated-131072-00000000/clear.bin": "385062e5cb965d1712ceb1c355a9ad3e08bb572fecb19895789f91859f7b5b98",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-wide-bootstrap-reviewed-v1/20261021T101713.000849Z/integrated-132096-00000000/clear.bin": "8b6af20a3fb5227e9cf3432b7a22b7c736b434741eb7084549b6858a61cef280",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-wide-bootstrap-reviewed-v1/20261021T101713.000849Z/integrated-132160-00000000/clear.bin": "a11b56727be286456fc6c467556fcd309109e18889f52eeb8b5ca50ff01a1f66"
+  },
+  "scope": "Threefreshsyntheticstartupcases131072/132096/132160copybytes. ActualpinnedM68000andUnicornexecutecopy/longclear/GPRrestoreto400A;entireRAM/canaries/allGPR/SR/SSP/USPmatchoracle. No gameframes,GPUororiginal400Aexecution;not module/arena/heaprelink or freshgame/consolequalification."
+}

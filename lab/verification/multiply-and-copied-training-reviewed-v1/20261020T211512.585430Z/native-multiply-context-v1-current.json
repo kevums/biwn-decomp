@@ -1,0 +1,20 @@
+{
+  "status": "terminal_native_multiply_context_2192_full_CPU_RAM_order_cases_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-context-v1/20261020T205401.099820Z",
+  "pid": 54729,
+  "completed": 2192,
+  "new_predictions": 0,
+  "new_training": false,
+  "disc_changed": false,
+  "payload": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-context-v1/20261020T205401.099820Z/native-multiply.bin",
+  "payload_sha256": "6e5aab103e9b6a62490e788e2ec6693642485cb749ff3d7aaff635bfedf82fb6",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_multiply_context_v1.py": "298b6551aeab5ca6efb15d57b758328c4f8095444ea9d0d53bd94eaefc1a7e2f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-context-v1/20261020T205401.099820Z/native-multiply-wrapper.c": "1098cab8f16a4e0326de0d0d36d9532104407069399a5fd02c625263a6871102",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-v13-multiply/native-multiply-context.inc": "77ce6c4d2cb5f031b87405e9db453e9109ce8ce8c03c2c2fdbae677a582d96cc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-context-v1/20261020T205401.099820Z/native-multiply.bin": "6e5aab103e9b6a62490e788e2ec6693642485cb749ff3d7aaff635bfedf82fb6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_helpers_v1.py": "1caacf5db7c60eb1a931b941acec47c478cdeb1db2ec64e07800c72d16e3d325",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-context-v1/20261020T205401.099820Z/cases.json": "d488c5222b26f30e00ff8bff0e91a6668b14adb2ea203ae36fcdcfd280228184"
+  },
+  "scope": "Recovered E540 in the native software-CPU context vs original full return.\nExact public argument/sign-word/RTS bus order is checked independently in\nUnicorn. Ordinary nonaliasing task RAM, successful bus, no IRQ/disc claim.\n1024critical scalar/all32CCR/both-mode cases,144boundarygrid and1024seededrandom pairs. All logical D/A/PC/SR/USP/SSP and public stackbytes match. Physical callee-saved C registers and private fence preserved. No modelauthorship/adoption or sharedmodule integration implied."
+}

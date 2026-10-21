@@ -1,0 +1,28 @@
+BIWN native number conversion — 2026-10-18T18:45:09.883847+00:00
+
+New source-specific C reconstruction
+Original1B212..1B29C number-to-text body is lowered from pinned recovered instruction semantics into static C labels/branches, volatile guest accesses and native arithmetic C callees. The new code has no runtime CPUdecoder or original helper execution. It preserves original stack saves, register upperbits, the shared15B7A0 digit buffer and liveCCR requirements. This is deterministic coordinator source recovery, not recovered original source or accepted local-model C.
+Source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/format-number-native.c
+Generator: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/lower_biwn_format_number_native.py
+
+Standalone and exact linked verification
+Each passed1196normal nativeCPU cases,1196ordered public native-width access comparisons,16controlled changing-remaining traces and256radixzero cases with two realDIVU faults per case. All50original instruction addresses reached. Both stack modes/all32CCR covered; fullD/A,PC,SR,USP,SSP and public2MBRAM compared, including original56byte maximum public stack effects and digit scratch. Zero faults use a declared inertRTEhandler, compare trapCPU/savedSR and finalCPU with savedPC relocation. No arbitrary handlers,aliases,asynchronous argument mutation,nonterminating radix1/nonzero,IRQ/cycle/physical proof. Padding fixtures have bounded positive output; two initial original-code fixture runs hit the instruction budget on width0x8000/count0x7FFF wrapping into long padding. Their failed snapshots are retained. The matrix bounds that case to254remaining and separately checks0x7FFFremaining with width0. No C change was needed for those harness failures.
+Minimum observed compiled realSP was0x1DFF08,248bytes below callerSP; zero-bridge private bookkeeping begins at least540bytes below callerSP. This finite observation supplements compiler stack-usage records; it is not an arbitrary call-depth/interrupt proof.
+A deliberate C mutation toggled the final result bit: originalD0=0,badD0=1. The unmodified comparator rejected it; badcode was not installed.
+Exact linked unsigned helpers separately pass3592normalCPU/ordered and512zero cases,43/43source addresses. Pad1668+16changing and string1945+16changing also pass.
+1654complete original formatter/core calls match finalCPU/publicRAM/ordered sequence and8815outer helper returns:5140pad,3654number,21string. Nested math is observed at the number boundary; full direct arithmetic/number matrices are separate.
+
+New compiled mixed disc
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-number-format/20261018T183942.455657Z/BIWN-23-native-number-format-experimental.cdi
+Payload11224bytes,reservation11264,padding40,heapstart0x1619C0. Heapstart moves2048bytes. Seven previous-prefix bytes change in address literals; every previous function symbol stays in place. All19exact-layout component/install/resource gates pass, including96startup/5151installed keyABIcases, heap init/allocation/compaction,loader,resource,lifecycle and readiness. Staging remains12KB atFB000..FE000; entry+reservation is11304bytes.28stageJMPredirects is not a recovered-routine total or decompilation percentage.
+
+Fresh gameplay
+Separate2600frame Deckpair shares38declared-byte selector/count repairs and the same fixed ordinary pad schedule. Control restores ONLYthe6byte number-entryJMP, with identical payload/heap/arithmetic. Candidate445calls=445returns,old number-body steps0,task-stack violations0,trackingerrors0,pending0,minimum observed headroom444bytes. Control837original-number calls/returns. PositionX differs1968frames,Z1960,video1988; scene/mode/floor match. Different call counts and frames are not a speedup or algorithm-equivalence proof.
+Separate raw-disc adaptive routes,without selectorrepairs, both reach merchant,descendfloor0 andholdoutdoors. Immediateparent24958frames versus new24974; firstscene8549 versus8547. Both finalX13049/scene312/mode1/floor0; finalZ42401 versus42402. Capturednonzeroaudio1609492 versus1609490samples. Same policy is not identical inputs; no cycle/frame/PCM/listening-quality equivalence. The earlier missing late media relative to an older ancestor is not resolved by this small parent comparison.
+
+Local inference and scope
+No localLLMsourceAuthor or training update was invoked for this lowering step. Compiler/checkers are deterministic tools, not agents. The LMStudioChat computer-use call timedout120.6605seconds; no screen-lock inference or unlock request. Prior nativeChat demonstrations remain historical. The current status shortcut is updated and tested separately after this publication, with actual prompt/tool/response logs. OriginalCDI,defaultpreview and weights remain unchanged. Advertising research/education training reliability and the larger256GB deployment remain active goal requirements.
+
+Rebuild from /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k
+make -f /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-number-bundle/20261018T183855.460072Z/Makefile format-bundle BUILD=/tmp/biwn-number-rebuild
+Original engine code, retained emulator/HLEfirmware and devices remain. Complete source-owned console rebuild/physical boot is not achieved.

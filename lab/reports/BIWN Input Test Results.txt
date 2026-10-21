@@ -1,0 +1,15 @@
+The new BIWN input implementation completed a fresh CD boot and controller test. The candidate ran 24,968 frames; the same-layout control ran 24,969. The control uses the original input routine while retaining the same compiled geometry code. The rebuilt reset executed and returned once. All watched calls completed, with no runtime or observer guard errors.
+
+The paired runs differ on eight video frames and finish with matching video. Recorded player position, scene, floor, equipment, movement state and navigation agree throughout. Movie flags differ on two frames, and held controls differ on two other frames. Both audio captures are silent. This test does not establish full visual, audio or timing fidelity. The previous layout had 14 video differences against its own control; that is not an isolated comparison of one optimization.
+
+The input code restores seven explicit 68000 CLR instruction sites, including their operand reads. The earlier implementation reached the right final memory values but missed four of those reads in a checked case. The new code passes 13 watched public bus-order cases. Separate CPU, memory, stack, alias and combined-task checks also pass. The portable package rebuilds identical final machine code. Eight earlier component samples measured 27–34% less native input work; it remains slower than the original in those samples.
+
+The updated monitor derives the start of C code from the linked ELF function table. All 44 C function starts passed stack-boundary controls. Reset checks cover 64 original/native input pairs and 16 fault controls. Geometry, outer-task and memory-region checks also passed. These finite checks do not prove arbitrary interrupts, reentry or physical-console behavior.
+
+The Desktop BIWN Test Preview.app remains unchanged. Open it, click the game window, and use the arrows to move. P pauses or resumes the preview. Shift+Up sends the run input; its speed ratio has not been measured. LM Studio is not required for that window.
+
+No local inference or training ran during this fresh test. Earlier copied Reader responses took 13.69 and 15.68 seconds but still need accuracy improvements. Two earlier unedited local Author reset functions passed 768 standalone cases each with supplied primitives; those bodies have not replaced the disc function. The two-update copied training capability check is complete, with no adapter promotion or demonstrated quality gain.
+
+Next: restore the scene caller at 0x17E0E as readable code with its complete CPU and helper-call contract, then qualify its console integration. Logical C and instruction-level C already exist for this routine, so this is not a newly discovered function. GPU submission at 0xE26C and controller polling at 0xE4C0 already have native redirects. Whole-game source rebuilding remains unfinished.
+
+Technical review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Native Input CLR Fresh Gameplay Review.txt

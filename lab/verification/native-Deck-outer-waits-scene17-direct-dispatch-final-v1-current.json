@@ -1,0 +1,17 @@
+{
+  "status": "terminal_native_outer_192_wait_and_resume_pairs_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-scene17-direct-dispatch-final-v1/20261021T024639.251351Z",
+  "completed": 192,
+  "comparisons": 384,
+  "maximum_C_stack_bytes": 356,
+  "new_training": false,
+  "native_disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-scene17-direct-dispatch-final-v1/20261021T024305.646293Z/waits-outer.py": "0957ec5fc14169e9026ec167a93f02027cede2f3852e503186dd3a9315a3371f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-scene17-direct-dispatch-final-v1/20261021T024305.646293Z/native_outer_final_checker.py": "d896354d1a2f9f0cf694e538371eacd8bae849696409f2e8b339ef57fa68a155",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-scene17-direct-dispatch-final-v1-current.json": "ee9d718ed467cc0f935c5a8469982c8952de5ce6ecb7042438900157cd632e7b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-scene17-direct-dispatch-final-v1/20261021T024550.103729Z/build/native-outer.bin": "3b8958b2dbedcc8d6f5547d1de72133a56883e27647fde697cb413ca97e315d2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-scene17-direct-dispatch-final-v1/20261021T024639.251351Z/cases.json": "6ae37dcf4441bf2ce149859842805ac154ce08cb132874cfa5ad53839645286d"
+  },
+  "scope": "Actual native volatile wait slices and resumed helper calls versus original.192pairs, both stack banks/all32CCR and three nonzero volatile flags. Native64read slices compare to original64polls at11F50; released flag resumes actual native private context. Helpers are fixtures; no clock/IRQ event injected, no exact-cycle or real scheduler proof."
+}

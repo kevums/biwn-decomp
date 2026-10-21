@@ -1,0 +1,13 @@
+BIWN — record stride optimization prototype
+
+Two40-record loops now calculate signed206/30byte strides with actual68000 MULS.W. It replaces only temporary index arithmetic and dead MOVE flags;logical X/upperSR,full registers,bus/helper/guest-stack effects are preserved at the qualified boundaries. New code is coordinator-authored,zero new unique original functions.
+
+Eight measured CPU fixtures each save8080cycles relative to v33,about4–15percent of record-body CPU cost. Module54,134bytes versus54,214,80bytes smaller. CPUcycles are sums returned by m68k_execute(1),including declared copy/matrix/wait CPUproviders;GPUtime is excluded. The reference stops before original outerRTS and native includes its C ABIreturn. Relative v33/v34measurements use the same boundaries. This is not measured game-frame speed or hardware timing.
+
+Host512cases+19error guards pass,including5782actualcopy and2569matrix submissions. Actual68000body512cases pass full logical CPU,banks,nonprivateRAM,helper boundaries and scoped ordered public bus;nativeCLRdummyreads included. Continuous trace remains armed. Connectedscene772cases pass with declared original copy/matrix providers and synchronousGPU4320fixture. BodyCstack120bytes;scene168/208. Copied source+SDKrebuild is byte-identical54,134bytes.
+
+This is an unintegrated source/component prototype. There is no new CDI,exact final relocation/nesting/observer or fresh-route proof for v34. Latest gameplay-tested disc remains v33:25020/24965frames,5668native scene returns,4666record bodies,8381copy returns,ZERO record-matrix calls;8764video differences,finalvideo/selectedfields agree,silentaudio. Sampled active-outer heap14256bytes,not globalminimum. The Desktopcheckpoint preview is unchanged.
+
+Local model:full-function v1Author/Repair and compactv2Author all truncated;three actual predictions,no compiled body or new optimizer updates. A bounded22instruction prologue Author/Repair worker is separate;it respects the shared model lease and has not supplied adopted code.
+
+Integrate the verified v34stride prototype into a relocated candidate disc,then qualify its exact addresses,fallbacks/aliases,read-only observers and fresh route before any preview promotion. Exercise E220through ordinary controls;current v33fresh record-matrix count is zero. Continue remaining CPU/GPU/DSP/HLE source recovery,source-only same-console rebuild,video/audio/IRQ fidelity,useful untouched-task training and copied-weight LM Studio Chat usability.

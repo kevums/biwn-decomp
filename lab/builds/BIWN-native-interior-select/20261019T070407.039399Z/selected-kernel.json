@@ -1,0 +1,38 @@
+{
+  "status": "terminal_local_interior_kernel_component_reviewed",
+  "recorded_at": "2026-10-19T07:04:06.747824+00:00",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-interior-selection/20261019T070406.747824Z",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-kernel.c",
+  "source_sha256": "39359b668cb4c150c49910ab2ec0916fdf29c93edcf65d786e48ecb22fd15d82",
+  "component_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-interior-select/20261019T070257.589884Z/protocol.json",
+  "component_proof_sha256": "7655a35f339e1d41df146bc1bf11ea0ba0a8a0eed91b0b036280af3a00526b1d",
+  "source_accepted": true,
+  "actual_model_predictions": 4,
+  "raw_candidates_attempted": 2,
+  "raw_candidates_passed": 1,
+  "accepted_local_body_edited": false,
+  "format_normalization": "single outer fence removed",
+  "prompt_compliance_limit": "Local output uses volatile scalar read/write helpers, not the requested struct fields; semantic ABI/read widths/order passed.",
+  "first_draft_failure": "Unclosed Markdown fence caused compiler rejection. Coordinator inspection also found uninitialized X state, reversed lower-bound comparisons and missing D0 updates; these were supplied in one guided repair. First draft did not execute semantic tests. Same-weight Reviewer returned no issues.",
+  "independent_review": false,
+  "coordinator_supplied": [
+    "native ABI shim",
+    "layout header",
+    "exact assembly contract",
+    "verifier",
+    "withheld reference",
+    "guided repair findings",
+    "linking/integration"
+  ],
+  "model_source": {
+    "author": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-interior-select-20261019T065743.514633Z/protocol.json",
+    "repair": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-interior-select-repair-20261019T070048.515100Z/protocol.json"
+  },
+  "negative_controls": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-interior-gate-negative-controls-current.json",
+  "native_Chat_verified": false,
+  "new_training": false,
+  "default_promoted": false,
+  "whole_game_complete": false,
+  "new_logical_function_count": 0,
+  "game_frames": 0
+}

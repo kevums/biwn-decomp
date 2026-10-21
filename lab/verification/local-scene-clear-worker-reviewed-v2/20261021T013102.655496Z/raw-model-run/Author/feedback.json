@@ -1,0 +1,3 @@
+{
+  "log": "Traceback (most recent call last):\n  File \"/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/native-harness.py\", line 6, in <module>\n    from check_native_scene_reset_core_bus_v1 import Event\nModuleNotFoundError: No module named 'check_native_scene_reset_core_bus_v1'\n"
+}

@@ -1,0 +1,152 @@
+{
+  "time": "2026-10-15T11:37:17.601094+00:00",
+  "status": "packaged_unpromoted",
+  "base": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+  "selected_adapter": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/selected-adapter",
+  "adapter_sha256": "253650c08aea82847937c2309a45cf6a728bf700535b1a82e16e0b3f014b2c42",
+  "destination": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2",
+  "promotion": "unpromoted",
+  "method": "Only adapted modules fused at dequantized precision; all other modules retain original weights and quantization.",
+  "adapted_modules": [
+    {
+      "name": "language_model.model.layers.63.mlp.up_proj",
+      "shape": [
+        17408,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 356515840
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.down_proj",
+      "shape": [
+        5120,
+        17408
+      ],
+      "fp32_upper_bound_bytes": 356515840
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.gate_proj",
+      "shape": [
+        17408,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 356515840
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.o_proj",
+      "shape": [
+        5120,
+        6144
+      ],
+      "fp32_upper_bound_bytes": 125829120
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.v_proj",
+      "shape": [
+        1024,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 20971520
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.k_proj",
+      "shape": [
+        1024,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 20971520
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.q_proj",
+      "shape": [
+        12288,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 251658240
+    },
+    {
+      "name": "language_model.model.layers.62.mlp.up_proj",
+      "shape": [
+        17408,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 356515840
+    },
+    {
+      "name": "language_model.model.layers.62.mlp.down_proj",
+      "shape": [
+        5120,
+        17408
+      ],
+      "fp32_upper_bound_bytes": 356515840
+    },
+    {
+      "name": "language_model.model.layers.62.mlp.gate_proj",
+      "shape": [
+        17408,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 356515840
+    },
+    {
+      "name": "language_model.model.layers.62.linear_attn.out_proj",
+      "shape": [
+        5120,
+        6144
+      ],
+      "fp32_upper_bound_bytes": 125829120
+    },
+    {
+      "name": "language_model.model.layers.62.linear_attn.in_proj_a",
+      "shape": [
+        48,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 983040
+    },
+    {
+      "name": "language_model.model.layers.62.linear_attn.in_proj_b",
+      "shape": [
+        48,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 983040
+    },
+    {
+      "name": "language_model.model.layers.62.linear_attn.in_proj_z",
+      "shape": [
+        6144,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 125829120
+    },
+    {
+      "name": "language_model.model.layers.62.linear_attn.in_proj_qkv",
+      "shape": [
+        10240,
+        5120
+      ],
+      "fp32_upper_bound_bytes": 209715200
+    }
+  ],
+  "adapted_fp32_upper_bound_bytes": 3021864960,
+  "weight_bytes": 22753256448,
+  "peak_metal_bytes": 23690332172,
+  "model_files_sha256": {
+    "model-00003-of-00005.safetensors": "0d1d68175ddea4b4604a3ca40a66c40ee147d51eb27d30200166b2153576ae90",
+    "tokenizer_config.json": "2e5e17ee148f9709cc3e70b4751fae1c3262683d5c1a356a1a051285e9ba68b7",
+    "config.json": "025e0c8370f4a75d59df69690a2252117b08278524f0e897434d614c2bdb34e9",
+    "model-00002-of-00005.safetensors": "5cf1dad3b3e54d39845032685e909040b5da857c7f4f0e7c92d307a03a7c80d9",
+    "tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+    "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+    "README.md": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+    "chat_template.jinja": "a06e17bbf9c5819c494f80839c3be9235184298b3abafcbb046ac1ca9212ca62",
+    "model-00001-of-00005.safetensors": "369f70b3d05abc5cce01753b9aa25a37e82b28dba622a5451c0a95ee931e48bc",
+    "model-00004-of-00005.safetensors": "ea0a604270b471ad6f93d0dc5e6706d2caea160555c616b7b1a38dfcf3ef9408",
+    "model.safetensors.index.json": "0aca560e5c2a1e608472d8d7bf4d7633d07ed4cace2297f4872fcb6702314df5",
+    "model-00005-of-00005.safetensors": "06d194c7e49d316dd1c7a9bc80acd8a5e37f03343766cfb5d181816e5e263d58"
+  },
+  "completed_at": "2026-10-15T11:37:28.386934+00:00",
+  "chat_template_reasoning": "fixed off in experimental package only",
+  "metadata_override_report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/native-check/template-off-review.json"
+}

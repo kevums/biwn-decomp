@@ -1,0 +1,54 @@
+{
+  "status": "generated_unverified",
+  "instructions": 5,
+  "instructions_decoded": [
+    {
+      "address": 57858,
+      "size": 6,
+      "bytes": "4eb90000e098",
+      "assembly": "jsr $e098.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57864,
+      "size": 10,
+      "bytes": "23fc000057a000f03204",
+      "assembly": "move.l #$57a0, $f03204.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57874,
+      "size": 10,
+      "bytes": "0cb9000057a000f03204",
+      "assembly": "cmpi.l #$57a0, $f03204.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57884,
+      "size": 2,
+      "bytes": "67f4",
+      "assembly": "beq.b $e212",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57886,
+      "size": 2,
+      "bytes": "4e75",
+      "assembly": "rts",
+      "classification": "decoded_instruction",
+      "manual_semantics": {
+        "scope": "RTS only; M68000 manual printed 4-169",
+        "stack_pointer_delta": 4,
+        "program_counter": "loaded from return stack; value unknown",
+        "condition_codes": "unchanged",
+        "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+      }
+    }
+  ],
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "generator_sha256": "96c076fa11e2d79e588d21883f6f2250c24190f11d4bfb5aff285b135154908a",
+  "source_sha256": {
+    "biwn_gpu_draw_submit_cpu.c": "1e7f9de9efeb93a5ce3e8871e36e93fbe672be1f7eb78f177595a408424ad8be",
+    "biwn_gpu_draw_submit_cpu.h": "43783adc5d41d4833ac69f713d7e6b7168fe4ce7f22d937574e6bf0e44ed69b2"
+  }
+}

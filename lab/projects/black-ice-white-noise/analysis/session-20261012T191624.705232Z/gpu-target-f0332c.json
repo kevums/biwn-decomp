@@ -1,0 +1,217 @@
+{
+  "time": "2026-10-12T19:31:54.550680+00:00",
+  "basis": "First GPU MOVEI initializes R24=0xf0332c followed by JUMP (R24) at 0xf03226. Static transfer target; no execution or delay-slot validation. Mapping: payload offset0x188 corresponds to GPU0xf03200; target offset0x2b4. Decode64 bytes only.",
+  "observations": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/binary-analysis/20261012T193154.549922Z/observations.json",
+  "instructions": [
+    {
+      "address": 15741740,
+      "size": 6,
+      "bytes": "98003ff000f0",
+      "assembly": "movei   $f03ff0,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741746,
+      "size": 2,
+      "bytes": "a401",
+      "assembly": "load    (r0),r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741748,
+      "size": 2,
+      "bytes": "0880",
+      "assembly": "addq    $4,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741750,
+      "size": 2,
+      "bytes": "a402",
+      "assembly": "load    (r0),r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741752,
+      "size": 2,
+      "bytes": "0880",
+      "assembly": "addq    $4,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741754,
+      "size": 2,
+      "bytes": "a403",
+      "assembly": "load    (r0),r3",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741756,
+      "size": 2,
+      "bytes": "8820",
+      "assembly": "move    r1,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741758,
+      "size": 2,
+      "bytes": "0880",
+      "assembly": "addq    $4,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741760,
+      "size": 2,
+      "bytes": "a404",
+      "assembly": "load    (r0),r4",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741762,
+      "size": 2,
+      "bytes": "0900",
+      "assembly": "addq    $8,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741764,
+      "size": 2,
+      "bytes": "0024",
+      "assembly": "add     r1,r4",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741766,
+      "size": 2,
+      "bytes": "63c2",
+      "assembly": "shlq    $2,r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741768,
+      "size": 2,
+      "bytes": "0040",
+      "assembly": "add     r2,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741770,
+      "size": 2,
+      "bytes": "a402",
+      "assembly": "load    (r0),r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741772,
+      "size": 2,
+      "bytes": "0041",
+      "assembly": "add     r2,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741774,
+      "size": 2,
+      "bytes": "9c22",
+      "assembly": "loadb   (r1),r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741776,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741778,
+      "size": 2,
+      "bytes": "9c25",
+      "assembly": "loadb   (r1),r5",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741780,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741782,
+      "size": 2,
+      "bytes": "9c35",
+      "assembly": "loadb   (r1),r21",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741784,
+      "size": 2,
+      "bytes": "8860",
+      "assembly": "move    r3,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741786,
+      "size": 2,
+      "bytes": "6115",
+      "assembly": "shlq    $18,r21",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741788,
+      "size": 2,
+      "bytes": "1980",
+      "assembly": "subq    $c,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741790,
+      "size": 2,
+      "bytes": "6f15",
+      "assembly": "sharq   $18,r21",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741792,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741794,
+      "size": 2,
+      "bytes": "b815",
+      "assembly": "storew  r21,(r0)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741796,
+      "size": 2,
+      "bytes": "9c35",
+      "assembly": "loadb   (r1),r21",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741798,
+      "size": 2,
+      "bytes": "6115",
+      "assembly": "shlq    $18,r21",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741800,
+      "size": 2,
+      "bytes": "0840",
+      "assembly": "addq    $2,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741802,
+      "size": 2,
+      "bytes": "6f15",
+      "assembly": "sharq   $18,r21",
+      "classification": "decoded_instruction"
+    }
+  ]
+}

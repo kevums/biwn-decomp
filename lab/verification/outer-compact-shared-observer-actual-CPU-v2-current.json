@@ -1,0 +1,24 @@
+{
+  "status": "terminal_six_root_shared_monitor_actual_scene_fallback_reentry_lanes_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-actual-CPU-v2/20261021T040120.648141Z",
+  "CPU_lanes": 512,
+  "counts": {
+    "body": 64,
+    "fallback": 384,
+    "reentry": 64
+  },
+  "all_observer_error_pending_outside_zero": true,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_outer_compact_shared_observer_actual_CPU_v1.py": "a3545a5dbb2eaa4c767a4a5a62f13a19d5ba8cb4b3a09a7f80b0d0a118cbb071",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1-current.json": "2924930c5826bc8d8463c2764cc447a7a3b74ea187a54724588c77b80caa34ed",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/fixture.dylib": "141fc132a1739a4ed0c5c2cd772e856016e3711abb30bc5c777ad56f1cda62da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-actual-CPU-v2/20261021T040120.648141Z/body-harness.py": "ef2dec22f390d5ce9a5cd7c5f800bcbbc80bd871a6e1be3dbc614fca9ccba2f6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-actual-CPU-v2/20261021T040120.648141Z/fallback-harness.py": "3c7c6e9f2db9ac56af84b19f315b4d5cc9c04610e6d95a9709a2234f6c7e1c6a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-actual-CPU-v2/20261021T040120.648141Z/reentry-harness.py": "244c8c2e70feb50db0f222c0aa64a60102ec8c6f8197920920c1eaafc6c61b10",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-actual-CPU-v2/20261021T040120.648141Z/cases.json": "ec3745073d273650949a550bdaa1b80278d22538f054a3e171735a690e8f0034"
+  },
+  "scope": "Exact new shared monitor over actual compiled scene/invalid/busy/reentry lanes.\nCopies CPU/RAM into a host observer;never mutates guest state for observation.\nUnderlying harnesses retain declared helper/busy-read fixtures.\n64nativebodycases,384actualinvalid/busyfallbacks,64actualinjectednestedJSRcases. FullunderlyingCPU/RAM/helperentrycomparisonsalsopass. Native-entryattemptsseparatefromacceptedbodyentries;no monitorstateRAM/CPUrepair. Notfreshgameplay/naturalIRQ."
+}

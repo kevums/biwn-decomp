@@ -1,0 +1,12 @@
+BIWN progress — display-list native prototype
+
+The already recovered 185B2 display-list builder now has a compact C prototype with full final CPU/bank state and original guest stack/table effects. It passes 1,217 host cases, 17 host guards, 64 distinct supplementary reread fixtures, 1,153 actual native body cases and 772 connected scene cases. Actual native data-bus checks preserve the original memory-CLR dummy reads missed by the historical C/Unicorn trace.
+
+Selected module: 48,494 bytes. Direct helper stack: 96 bytes. Connected scene stack: 208 of 208 bytes, with no remaining partition margin. The copied SDK builds identical bytes. Earlier larger/stack-failing variants are preserved.
+
+This is a component prototype, not a new game disc. Retained callers, fallback, actual nesting, cross-root aliases, final image/resource checks and fresh candidate/control routes are pending. The installed Desktop preview and latest fresh-tested v26 disc are unchanged. Current game fidelity still has 8,160 feedback-route video differences, 279 fixed-input-prefix differences and silent audio captures.
+
+No new model predictions or optimizer updates. Exact previous model prompts and responses are retained. LM Studio UI inspection timed out; copied-weight native Chat remains unverified. Whole-game readable source, complete same-console rebuilding, useful training quality, audio/IRQ fidelity and physical Jaguar CD validation remain unfinished.
+
+Detailed review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Display List Native Prototype Review.txt
+Next: Qualify the compact185B2prototype with retained callers, fallback/nesting/public-bus and alias matrices, then final image/address/resource gates and fresh candidate/control gameplay with an extended read-only display witness. Connected C stack uses208of208bytes. Keep v26 game/preview unchanged until broader qualification; whole-game source, useful model training, audio/IRQ and physical-console fidelity remain open.

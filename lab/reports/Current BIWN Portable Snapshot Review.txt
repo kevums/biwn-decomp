@@ -1,0 +1,13 @@
+CURRENT BIWN PORTABLE SNAPSHOT
+
+Current game snapshot moved and offline-verified: MCPv22/18tools,currentfacts,exact40062byte native rebuild,4targetCPU/15budget smoke cases,preview artifact hashes,10009SDKfiles and10modelweightshards pass.171savedprompt/transcriptrecords export. New model inference/training and nativeChattransport/rendering remain unverified;the installed playablepreview and liveMCP stay unchanged.
+
+Folder: /Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved
+Open: /Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/Open BIWN Lab.command
+After moving: /Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/Restore BIWN Setup.command
+
+The current experimental disc and saved source/model evidence are retained alongside the separately reviewed checkpoint preview. This is not a whole-game rebuild or verified256GBhardware configuration. Default32Kcontext/oneworker;local roles run sequentially. Future256GBcapacity candidates are unmeasured. The previous package is preserved. No new prediction,optimizer update,live model switch or profile installation occurred in this refresh.
+
+Saved-frame analysis:all62newcandidate/controlvideo differences occur at the same trialoffsets as the previous clear candidate. Intervals:56,59,61..104,201..214,225..226. Sampledplayerposition,equipment andother listedpublicfields match;movieflagandheldbuttonstate differ briefly.36video differences have a matchingcontrolhashwithin8frames;26do not. The extra candidate tailframe401is retained. This narrows evidence but does not prove fidelity.
+
+Remaining:adaptnativeChatprivateworkspace/socket transport,verifyactualChatdisplay andnewpackageinference/training;improvebroaderlocalcodingquality;resolvegameplaydifferences andcontinueoriginalsource/wholegamebuild.

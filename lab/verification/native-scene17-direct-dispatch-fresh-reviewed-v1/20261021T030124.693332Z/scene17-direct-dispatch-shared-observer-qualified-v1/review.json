@@ -1,0 +1,30 @@
+{
+  "status": "terminal_six_root_admission_C_floor_and_scene_commit_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z",
+  "fixture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/fixture.c",
+  "fixture_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/fixture.dylib",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.c",
+  "ELF_C_functions": 49,
+  "C_floor": "0x16e87e",
+  "C_floor_legal_controls": 588,
+  "C_floor_rejected_controls": 588,
+  "invalid_admission_legal_cases": 1920,
+  "busy_fallback_controls": 54,
+  "invalid_admission_corruption_controls": 42,
+  "scene_commit_controls": 704,
+  "new_predictions": 0,
+  "new_training": false,
+  "host_guest_RAM_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_scene17_direct_dispatch_shared_observer_v1.py": "fb45dee953b9e250f14b2c42f20afa64cb96bb28275b03032a0010160129ebd7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-disc-build-v1-current.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualified-v1-current.json": "efd53422447fb19d385c4bd496b89a0ee325c2b6411bc2e0c35d56694d0e2426",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.c": "1bf2c0bc616f652d247a91d5633a7246deafe547560a03310d8b5984a635476b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/fixture.c": "c4ddafb41830beeeab05a6549fd06ab7ddf431cfa5f2c9f3c38995cc71ff0605",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/fixture.dylib": "2af3249d5a3e21f0bfaa5219b62eac2ce3e632106cbb13faf247af996c588771",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-dispatch-v1/20261021T024239.597935Z/five-build/native-shared.elf": "7c19575e7cae208d82e695be00784a9bf429334d198df025cdf7d6cbff01a28f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/ELF-symbols.txt": "8f472e5b9573b7792124cfdcbe91f6a10fa19e0d944db7054ee4ec7f7867a274",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/cases.json": "7020dfd568c4fdb1e1bbafc1ac54ea2bb00643a3e6c19f853edcf1d22668a230"
+  },
+  "scope": "Synthetic controls for exact six-root admission, C-stack and scene commit observer.\nHost memory/CPU fixtures only;no guest execution or runtime repair.\nNativeentriescountacceptedbodyadmissions;attemptsandvalidatedfallbacksseparate.Invalidtaskfallbackmustpreserveall16registersandSR.Busyaliasfallbackalsopreserves118byteframeanddeclaredCstack.NativeCmustbelongtoexactlyonependingframe.Scenecommitchecksallregisters,SR,logicalPC,activebankandclearedactive/error."
+}

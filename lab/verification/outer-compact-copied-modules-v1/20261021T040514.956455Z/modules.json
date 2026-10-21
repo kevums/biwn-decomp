@@ -1,0 +1,18 @@
+[
+  {
+    "profile": "deck-shared-v30-scene-gpu-commands-v1",
+    "payload": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-copied-modules-v1/20261021T040514.956455Z/deck-shared-v30-scene-gpu-commands-v1/native-shared.bin",
+    "bytes": 48738,
+    "sha256": "ca601d1c9494683dd99bb6a7ef830293388b293d7ccad53e485d1373d55fa588",
+    "deployed_module_byte_identical": true,
+    "copied_source": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-v30-scene-gpu-commands-v1"
+  },
+  {
+    "profile": "deck-outer-v32-compact-v1",
+    "payload": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-copied-modules-v1/20261021T040514.956455Z/deck-outer-v32-compact-v1/native-outer.bin",
+    "bytes": 6060,
+    "sha256": "338b081a5b9d44a8cd359a3b722b226cd3d27ea811d94600e73e623b1c833480",
+    "deployed_module_byte_identical": true,
+    "copied_source": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v32-compact-v1"
+  }
+]

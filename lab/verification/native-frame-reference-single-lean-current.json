@@ -1,0 +1,32 @@
+{
+  "status": "terminal_native_frame_reference_single_CPU_RAM_ordered_pass",
+  "pid": 13633,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-reference-single-lean/20261019T020424.268785Z",
+  "source_accepted": true,
+  "game_frames": 0,
+  "new_training": false,
+  "local_model_authored": false,
+  "whole_game_complete": false,
+  "variant": "lean native C ABI shim; separate from context-array port",
+  "completed": 1281,
+  "native_cases": 1376,
+  "trace_cases": 1632,
+  "changing_read_cases": 256,
+  "changing_read_full_native_CPU_cases": 256,
+  "original_instruction_coverage": [
+    18,
+    18
+  ],
+  "binary_bytes": 136,
+  "compiled_binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-reference-single-lean/20261019T020424.268785Z/build/frame-reference-single-lean.bin",
+  "compiled_binary_sha256": "788690cee21b237c3ddfdd8cb5c93b9ca1ef2101dbcecd4ee69f1d90e618d409",
+  "source_sha256": "9382b18b4dcb8e447f8bb6e46002244a8c58f3eaa0359e56bab7e4b5547673bb",
+  "artifacts_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_frame_reference_single_lean.py": "dc4bbbb4220126591d5afe828f42828eb57b35b6a430c88e15357f4f9aea933a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_format_pad.py": "4e76eacd5ca111d54b488b61f80d615b22737821a0bc58b7f6a027cbfec715cc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-reference-single-lean.c": "9382b18b4dcb8e447f8bb6e46002244a8c58f3eaa0359e56bab7e4b5547673bb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-reference-single-lean-shim.S": "21dc0d9e123730d516c83631335d22c5bcbb585624e6042c99e3aa6ede921ace",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.frame-reference-single-lean": "c97cfa428266a54d09fa991efec98d6221a1af7c96308af791d8ef8a8615b055"
+  },
+  "scope": "Complete original1AE56 routine compiled for68000;fullD/A/PC/SR/USP/SSP and2MBpublicRAM including original4byte D2 save. All32CCR/two stack modes,first/last/no/multiple matches,negative ID/reference words,and256controlled TST/RMWread variations checked in ordered Unicorn plus full nativeCPU/RAM with declared external updates before the corresponding read instructions. First-match semantics and no negative-ID repair. Private8KBstack,code/entry excluded. No arbitraryalias/fault/IRQ/concurrency/cycles/gameplay/physical/whole-game proof. Coordinator native adaptation,not new local-model authorship or training."
+}

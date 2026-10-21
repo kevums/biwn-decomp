@@ -1,0 +1,66 @@
+{
+  "status": "terminal_local_shared_clear_CPU_cost_samples_measured",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-cost-v1/20261020T201213.640020Z",
+  "completed": 8,
+  "comparisons": [
+    {
+      "variant": 0,
+      "faces": 0,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 103402,
+      "local_geometry_cycles": 222368,
+      "local_vs_optimized_geometry_ratio": 2.1505
+    },
+    {
+      "variant": 1,
+      "faces": 0,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 92508,
+      "local_geometry_cycles": 211474,
+      "local_vs_optimized_geometry_ratio": 2.286
+    },
+    {
+      "variant": 3,
+      "faces": 1,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 110004,
+      "local_geometry_cycles": 228970,
+      "local_vs_optimized_geometry_ratio": 2.0815
+    },
+    {
+      "variant": 12,
+      "faces": 6,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 195276,
+      "local_geometry_cycles": 314242,
+      "local_vs_optimized_geometry_ratio": 1.6092
+    }
+  ],
+  "new_predictions": 0,
+  "new_training": false,
+  "native_disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/profile_native_local_clear_cost_v1.py": "16c35ae62707c9fa89b8188f5fe0c5d9ac871d0036f1710a86fb203e20ad32f5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-real-v1-current.json": "e55a26516c536b96a0bea5e73f1d3ec08c5a3f50d082aca3caa42b3457f8dcf6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_debug_real_v1.py": "8d73a0000784599ff3288416e3c92301c4f8f689616c9542632a160178493199",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-real-v1/20261020T191026.658147Z/build/native-shared.bin": "51f1cea14570f8ae3fe5063104b4b1bc9b127c69323d3406fa83ed4d6c0d1b8d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-local-clear-real-v1-current.json": "79d35c162faf59ec438eb766e4379f7b9f72197a8cc4df47d5687ad68287877f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_local_clear_v1.py": "dd8de33965456d3e28b0b0f8320a9cb929e96114e53c9fcb31f7096f11cda46f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-local-clear-real-v1/20261020T201002.772831Z/build/native-shared.bin": "2597267a2f361129d1af52b8bf8c90ebff94f75f90fca7d566f37d993e5cc21a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-cost-v1/20261020T201213.640020Z/cases.json": "5e6b039d96cc3d789949d5e92fe95186318084fabfc54e11ce548b511457c329",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-cost-v1/20261020T201213.640020Z/comparisons.json": "a731361166ad5c49f8248e37deb8490e4d02688878c882b64ecea2d081513c30"
+  },
+  "scope": "Compare original,optimized coordinator and unedited local-body CPU work.\nPinned emulator instruction costs,not host wall time or physical-console timing.\nGPU submission is the same declared fixture;formatter/text execute original CPU.\n Four fixedgeometrycases,includingbothstackbanks and0/1/6faces. Leaf costs include ownC/originalRTS butexclude callerJSR;wholegeometry includes bridges. Active debug isdisabled only for thesecostsamples;thefull256casecomponent gate separatelytests all4flag groups. No physicaltiming,freshgameplay orfidelityclaim."
+}

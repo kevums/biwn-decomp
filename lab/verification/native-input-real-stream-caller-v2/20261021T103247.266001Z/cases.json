@@ -1,0 +1,3737 @@
+[
+  {
+    "input_case": 0,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 788776,
+    "original_stack": 122,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        4294953561,
+        2464088065,
+        0,
+        1351811073,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953561,
+        789732
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resident_remove",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 0,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 788776,
+    "original_stack": 122,
+    "candidate_stack": 122,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        4294953561,
+        2464088065,
+        0,
+        1351811073,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953561,
+        789732
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resident_remove",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 0,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 788776,
+    "original_stack": 122,
+    "candidate_stack": 122,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        4294953561,
+        2464088065,
+        0,
+        1351811073,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953561,
+        789212
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resident_remove",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 1,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 789800,
+    "original_stack": 150,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593928,
+          0,
+          1125724,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593928,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469912,
+        2464104448,
+        2147483647,
+        1351827456,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        790756
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          0
+        ]
+      ],
+      [
+        110340,
+        [
+          2
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resident_add",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 1,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 789800,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593928,
+          0,
+          1125724,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593928,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469912,
+        2464104448,
+        2147483647,
+        1351827456,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        790756
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          0
+        ]
+      ],
+      [
+        110340,
+        [
+          2
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resident_add",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 1,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 789800,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593928,
+          0,
+          1125724,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593928,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469912,
+        2464104448,
+        2147483647,
+        1351827456,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        790236
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          0
+        ]
+      ],
+      [
+        110340,
+        [
+          2
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resident_add",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 2,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 790824,
+    "original_stack": 150,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469913,
+        2464088064,
+        2147483649,
+        1351811072,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        791780
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        87132,
+        [
+          593924
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resource_evict",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 2,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 790824,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469913,
+        2464088064,
+        2147483649,
+        1351811072,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        791780
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        87132,
+        [
+          593924
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resource_evict",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 2,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 790824,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469913,
+        2464088064,
+        2147483649,
+        1351811072,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        791260
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        87132,
+        [
+          593924
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resource_evict",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 3,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 791848,
+    "original_stack": 196,
+    "candidate_stack": 458,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          1125724,
+          0,
+          1125720,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 1,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      1834496,
+      1834752,
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        4294953560,
+        2464120832,
+        4294967295,
+        1351811072,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953560,
+        792804
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        86690,
+        [
+          512
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resource_cache_miss",
+    "real_loader_calls": [
+      [
+        1193046,
+        1296388944,
+        1125724,
+        512,
+        1422652
+      ]
+    ],
+    "transport_calls": [
+      [
+        53766,
+        [
+          2,
+          1193046
+        ]
+      ],
+      [
+        54000,
+        [
+          1835008,
+          1868288,
+          4951
+        ]
+      ],
+      [
+        54022,
+        []
+      ]
+    ],
+    "transport_events": [
+      {
+        "kind": "supplied_transport_data",
+        "stream_start": 1835008,
+        "stream_end": 1868288,
+        "bytes": 33280
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 0
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 1868288
+      }
+    ],
+    "loader_yield_calls": 1,
+    "blitter_commands": 1,
+    "loaded_data_checks": [
+      {
+        "handle": 1125724,
+        "data_address": 1834496,
+        "size": 512,
+        "all_payload_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "input_case": 3,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 791848,
+    "original_stack": 196,
+    "candidate_stack": 196,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          1125724,
+          0,
+          1125720,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 1,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      1834496,
+      1834752,
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        4294953560,
+        2464120832,
+        4294967295,
+        1351811072,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953560,
+        792804
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        86690,
+        [
+          512
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resource_cache_miss",
+    "real_loader_calls": [
+      [
+        1193046,
+        1296388944,
+        1125724,
+        512,
+        1422652
+      ]
+    ],
+    "transport_calls": [
+      [
+        53766,
+        [
+          2,
+          1193046
+        ]
+      ],
+      [
+        54000,
+        [
+          1835008,
+          1868288,
+          4951
+        ]
+      ],
+      [
+        54022,
+        []
+      ]
+    ],
+    "transport_events": [
+      {
+        "kind": "supplied_transport_data",
+        "stream_start": 1835008,
+        "stream_end": 1868288,
+        "bytes": 33280
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 0
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 1868288
+      }
+    ],
+    "loader_yield_calls": 1,
+    "blitter_commands": 1,
+    "loaded_data_checks": [
+      {
+        "handle": 1125724,
+        "data_address": 1834496,
+        "size": 512,
+        "all_payload_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "input_case": 3,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 791848,
+    "original_stack": 196,
+    "candidate_stack": 196,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          1125724,
+          0,
+          1125720,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 1,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      1834496,
+      1834752,
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        4294953560,
+        2464120832,
+        4294967295,
+        1351811072,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953560,
+        792284
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        86690,
+        [
+          512
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "resource_cache_miss",
+    "real_loader_calls": [
+      [
+        1193046,
+        1296388944,
+        1125724,
+        512,
+        1422652
+      ]
+    ],
+    "transport_calls": [
+      [
+        53766,
+        [
+          2,
+          1193046
+        ]
+      ],
+      [
+        54000,
+        [
+          1835008,
+          1868288,
+          4951
+        ]
+      ],
+      [
+        54022,
+        []
+      ]
+    ],
+    "transport_events": [
+      {
+        "kind": "supplied_transport_data",
+        "stream_start": 1835008,
+        "stream_end": 1868288,
+        "bytes": 33280
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 0
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 1868288
+      }
+    ],
+    "loader_yield_calls": 1,
+    "blitter_commands": 1,
+    "loaded_data_checks": [
+      {
+        "handle": 1125724,
+        "data_address": 1834496,
+        "size": 512,
+        "all_payload_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "input_case": 4,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 792872,
+    "original_stack": 128,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469914,
+        2464088065,
+        2147483649,
+        1351811073,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        793828
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [
+      [
+        57228,
+        [
+          1
+        ]
+      ],
+      [
+        57228,
+        [
+          1
+        ]
+      ]
+    ],
+    "resource_scenario": "resource_pending",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 4,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 792872,
+    "original_stack": 128,
+    "candidate_stack": 128,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469914,
+        2464088065,
+        2147483649,
+        1351811073,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        793828
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [
+      [
+        57228,
+        [
+          1
+        ]
+      ],
+      [
+        57228,
+        [
+          1
+        ]
+      ]
+    ],
+    "resource_scenario": "resource_pending",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 4,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 792872,
+    "original_stack": 128,
+    "candidate_stack": 128,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        0
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        0,
+        2147469914,
+        2464088065,
+        2147483649,
+        1351811073,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        793308
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [
+      [
+        57228,
+        [
+          1
+        ]
+      ],
+      [
+        57228,
+        [
+          1
+        ]
+      ]
+    ],
+    "resource_scenario": "resource_pending",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 5,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 793896,
+    "original_stack": 196,
+    "candidate_stack": 458,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          1125724,
+          0,
+          1125720,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 1,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      1834496,
+      1834752,
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464153599,
+        2147483647,
+        1351827455,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        794852
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        86690,
+        [
+          512
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [
+      [
+        57244,
+        [
+          1
+        ]
+      ]
+    ],
+    "resource_scenario": "resource_load_shared",
+    "real_loader_calls": [
+      [
+        1193046,
+        1296388944,
+        1125724,
+        512,
+        1422652
+      ]
+    ],
+    "transport_calls": [
+      [
+        53766,
+        [
+          2,
+          1193046
+        ]
+      ],
+      [
+        54000,
+        [
+          1835008,
+          1868288,
+          4951
+        ]
+      ],
+      [
+        54022,
+        []
+      ]
+    ],
+    "transport_events": [
+      {
+        "kind": "supplied_transport_data",
+        "stream_start": 1835008,
+        "stream_end": 1868288,
+        "bytes": 33280
+      },
+      {
+        "kind": "controlled_concurrent_reference_event",
+        "address": 1422650,
+        "value": 2
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 0
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 1868288
+      }
+    ],
+    "loader_yield_calls": 1,
+    "blitter_commands": 1,
+    "loaded_data_checks": [
+      {
+        "handle": 1125724,
+        "data_address": 1834496,
+        "size": 512,
+        "all_payload_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "input_case": 5,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 793896,
+    "original_stack": 196,
+    "candidate_stack": 196,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          1125724,
+          0,
+          1125720,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 1,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      1834496,
+      1834752,
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464153599,
+        2147483647,
+        1351827455,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        794852
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        86690,
+        [
+          512
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [
+      [
+        57244,
+        [
+          1
+        ]
+      ]
+    ],
+    "resource_scenario": "resource_load_shared",
+    "real_loader_calls": [
+      [
+        1193046,
+        1296388944,
+        1125724,
+        512,
+        1422652
+      ]
+    ],
+    "transport_calls": [
+      [
+        53766,
+        [
+          2,
+          1193046
+        ]
+      ],
+      [
+        54000,
+        [
+          1835008,
+          1868288,
+          4951
+        ]
+      ],
+      [
+        54022,
+        []
+      ]
+    ],
+    "transport_events": [
+      {
+        "kind": "supplied_transport_data",
+        "stream_start": 1835008,
+        "stream_end": 1868288,
+        "bytes": 33280
+      },
+      {
+        "kind": "controlled_concurrent_reference_event",
+        "address": 1422650,
+        "value": 2
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 0
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 1868288
+      }
+    ],
+    "loader_yield_calls": 1,
+    "blitter_commands": 1,
+    "loaded_data_checks": [
+      {
+        "handle": 1125724,
+        "data_address": 1834496,
+        "size": 512,
+        "all_payload_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "input_case": 5,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 793896,
+    "original_stack": 196,
+    "candidate_stack": 196,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          1125724,
+          0,
+          1125720,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 1,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      1834496,
+      1834752,
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464153599,
+        2147483647,
+        1351827455,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        794332
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        86690,
+        [
+          512
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [
+      [
+        57244,
+        [
+          1
+        ]
+      ]
+    ],
+    "resource_scenario": "resource_load_shared",
+    "real_loader_calls": [
+      [
+        1193046,
+        1296388944,
+        1125724,
+        512,
+        1422652
+      ]
+    ],
+    "transport_calls": [
+      [
+        53766,
+        [
+          2,
+          1193046
+        ]
+      ],
+      [
+        54000,
+        [
+          1835008,
+          1868288,
+          4951
+        ]
+      ],
+      [
+        54022,
+        []
+      ]
+    ],
+    "transport_events": [
+      {
+        "kind": "supplied_transport_data",
+        "stream_start": 1835008,
+        "stream_end": 1868288,
+        "bytes": 33280
+      },
+      {
+        "kind": "controlled_concurrent_reference_event",
+        "address": 1422650,
+        "value": 2
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 0
+      },
+      {
+        "kind": "controlled_progress_read",
+        "value": 1868288
+      }
+    ],
+    "loader_yield_calls": 1,
+    "blitter_commands": 1,
+    "loaded_data_checks": [
+      {
+        "handle": 1125724,
+        "data_address": 1834496,
+        "size": 512,
+        "all_payload_bytes_equal": true
+      }
+    ]
+  },
+  {
+    "input_case": 6,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 794920,
+    "original_stack": 150,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464120831,
+        2147483647,
+        1351843839,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        795876
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_previous",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 6,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 794920,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464120831,
+        2147483647,
+        1351843839,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        795876
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_previous",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 6,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 794920,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464120831,
+        2147483647,
+        1351843839,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        302166,
+        795356
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_previous",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 7,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 795944,
+    "original_stack": 150,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464120831,
+        0,
+        1351843839,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953561,
+        796900
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_next",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 7,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 795944,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464120831,
+        0,
+        1351843839,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953561,
+        796900
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_next",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 7,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 795944,
+    "original_stack": 150,
+    "candidate_stack": 150,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464120831,
+        0,
+        1351843839,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953561,
+        796380
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_next",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 8,
+    "input_state": 1,
+    "path": "native",
+    "actual_route": "native",
+    "task": 796968,
+    "original_stack": 122,
+    "candidate_stack": 432,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464088065,
+        0,
+        1351827455,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953560,
+        797924
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_both",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 8,
+    "input_state": 1,
+    "path": "supervisor_fallback",
+    "actual_route": "original",
+    "task": 796968,
+    "original_stack": 122,
+    "candidate_stack": 122,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 0,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464088065,
+        0,
+        1351827455,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953560,
+        797924
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_both",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  },
+  {
+    "input_case": 8,
+    "input_state": 1,
+    "path": "headroom_fallback",
+    "actual_route": "original",
+    "task": 796968,
+    "original_stack": 122,
+    "candidate_stack": 122,
+    "final_SR_equal": true,
+    "public_RAM_bus_helper_contracts_equal": true,
+    "raw_volatile_register_differences": [],
+    "guard_identity_reads": 1,
+    "actual_animation": [
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          602112,
+          0
+        ]
+      ],
+      [
+        60164,
+        [
+          302156
+        ]
+      ],
+      [
+        60100,
+        [
+          593920,
+          0,
+          1125724,
+          0
+        ]
+      ]
+    ],
+    "actual_camera": [
+      [
+        1,
+        1
+      ]
+    ],
+    "GPU_stats": {
+      "GPUExec1_calls": 532,
+      "C_sprite_decodes": 0,
+      "original_GPU_sprite_decodes": 0,
+      "blit_commands": 0,
+      "game_frames_executed": 0,
+      "device_error": 0
+    },
+    "GPU_coherent_blocks": [
+      302080,
+      293632
+    ],
+    "actual_targeting_incoming": [
+      [
+        1,
+        0,
+        3952607233,
+        1,
+        14,
+        2464088065,
+        0,
+        1351827455,
+        1124032,
+        0,
+        302358,
+        302172,
+        302164,
+        302160,
+        4294953560,
+        797404
+      ]
+    ],
+    "target_slot": 65535,
+    "cursor": [
+      112,
+      90
+    ],
+    "actual_resources": [
+      [
+        110594,
+        [
+          1
+        ]
+      ],
+      [
+        110340,
+        [
+          0
+        ]
+      ],
+      [
+        87132,
+        [
+          602112
+        ]
+      ],
+      [
+        86690,
+        [
+          272
+        ]
+      ]
+    ],
+    "resource_backend_calls": [],
+    "resource_scenario": "heap_merge_both",
+    "real_loader_calls": [],
+    "transport_calls": [],
+    "transport_events": [],
+    "loader_yield_calls": 0,
+    "blitter_commands": 0,
+    "loaded_data_checks": []
+  }
+]

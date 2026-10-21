@@ -1,0 +1,9 @@
+BIWN v34 — scene timing onset
+
+The read-only trace retains196candidate/240control events at selected scene/provider boundaries during frames370–390. Both instrumented1000frame runs exactly reproduce every recorded video,CPU,fullRAM,GPU,DSP and held-button hash/value from their corresponding uninstrumented fixed-input prefix. No host guest-state writes or execution ownership.
+
+The first18selected events agree byte-for-byte,through the first scene entry17E0E at frame376,observer ordinal5964982,taskC0D28,return17DE0. Both first returns are observed in frame377,but the second scene starts379candidate/378control. There are7candidate/9control scene entries in the traced window;the ninth control call remains outside the logged return window. This is scene-cadence evidence,not a gameplay speed ratio.
+
+The compiled scene return bridge and original finalRTS are different observation boundaries. The callback ordinal is not an instruction-cycle cost. The trace cannot isolate the stride edit or prove which helper caused the timing change. The standard1000frame comparison still has450video differences(first378),CPU/GPU divergence376,identical heldbuttons and DSPstate,zero nonzeroaudio. Original-control global native providers are retained.
+
+Profile instructions and original logical stages inside the first scene call,including internal clear/record/rotation/display and mailbox wait work. Separate logical result equivalence from the compiled scheduling/timing changes;do not insert guessed delays or relax fidelity masks.

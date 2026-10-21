@@ -1,0 +1,13 @@
+BIWN new input CLR image — fresh route and live witnesses
+
+Fresh HLE CD boot:24968candidate/24969controlframes;8paired video differences,finalvideoequal. Recorded position,scene,mode,tile,equipment,floor,locomotion,navigation and movie-controller state agree throughout. Movieflags differ on2frames;heldcontrols differ on2otherframes. Pretrialvideo matches. Control restores only the original10byte input entry;all6compiled geometry helpers stay active in both. This is not originalgeometry/fullgame control.
+
+Candidate:21native input returns,20geometry returns,120GPUhelper returns and1native reset entry/marker/return. Control:original input943steps,0native input/reset,2original global reset entries;candidate retains1original global reset elsewhere. All retained/shared/face/geometry/outer/reset guards clear;allwatched calls quiescent. Both captures contain0nonzero audio samples;no audio fidelity claim. No checkpoints or hostguestRAM/CPU/task seeds in either fresh run.
+
+Reset observer passes64real original/native pairs+16faultcontrols. Geometry8legal/89fault,outer2legal/18fault,region88negative and64actual combinedCPUlanes pass. Optimizer removed oldbit symbol;separate observer chain derives Cfloor from linkedELF44FUNCsymbols. Exact watcher passes440legal/440outside-stack and5assembly-boundary controls. Initial unused-function fixture compilation failed before execution and is retained;successful fixture also asserts pending-state count. Old observer sources/evidence unchanged.
+
+Prior layout had14video differences versus its own original-input control;new layout has8. Heap/layout and frame phase changed,so this is not an isolated attribution to one optimization. OriginalCPU/GPU/DSP/HLE/device/IRQ dependencies,arbitraryIRQ,fidelity,whole-game rebuilding and learned-model quality remain incomplete. Desktoppreview unchanged. No inference,training or optimizer update this turn.
+
+Next source target:17E0Escene caller. ReadableD0/bus C and staticfullCPU C already exist;newdisc still enters originalcode. A native/readablefullCPUrestoration must preserve helpers,flags,bus order,private frames and wait contracts. E26C/E4C0already native;do not count them asnewrecoveries.
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-clr-fresh-reviewed-v1/20261020T225822.475557Z/comparison.json

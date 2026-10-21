@@ -1,0 +1,18 @@
+BIWN — current game, memory and local model
+
+The compact experimental disc passes a fresh route of 24,985 candidate and 24,969 control frames. All 6,299 native scene calls return; display-list, rotation, clear and captured geometry-record services each return 5,297 times. All monitors finish clear and quiescent. No checkpoint or host CPU/RAM/task repair was used.
+
+The capacity change is verified: sampled free heap while the outer task was active rises from 560 to 19,696 bytes in both lanes. This is not the global minimum. Outer slots shrink from 576 to 384 bytes, reclaiming 19,392 bytes; code/alignment costs 256 bytes, leaving a 19,136-byte net gain. Initial heap is 139,456 bytes. Outer stack is 164/224 bytes; scene stack remains 168/208 bytes. All relocated component, startup, heap, nesting, alias and read-only observer checks pass. Both deployed modules rebuild byte for byte with the copied SDK.
+
+Fidelity is open: 7,351 paired video differences; final video and selected final fields agree. Both audio captures are silent. Game-latched controller RAM differs on 359 frames and actual frontend schedules on 338 frames. The identical-input prefix differs on 437 of 1,000 video frames; compact versus v30 controls differ on 216 frames. The memory gain does not establish a rendering or speed improvement.
+
+Local-model test: copied Reader37 generated 140 words in 13.2 seconds, with correct numbers but an invented pending disc. Prompt/evidence clarification led Reader38 to generate 127 words in 11.02 seconds and correctly identify the prototype as a component. Reader38 was correct for its supplied v30 snapshot, omitted the requested explicit code-authorship statement, and predates the compact-image publication. Generation times exclude queue waiting; total launcher latency was not instrumented. Both raw prompts and responses are saved. No weight update or general/held-out quality improvement is claimed. The earlier quality pilot remains base 0/4 and adapter 0/4.
+
+The copied current-evidence preflight and actual Root/copied MCP transports verify the new 19,696-byte heap and compact-image facts. Root launchers now use the copied workbench instead of Reader29: BIWN Current Status reads checked saved evidence, Live Local BIWN Briefing requests a fresh local answer, and Model Prompts and Responses shows exact saved exchanges. Reader38 is the default; no current compact-facts response or copied-weight Native Chat rendering has been approved. Native-window inspection timed out, so work continued headlessly.
+
+Current outer-context/layout changes are coordinator-authored. Earlier linked hybrid components retain their recorded attribution. No new model body, adapter or trained weights were adopted. The Desktop checkpoint preview is unchanged.
+
+Next: implement and qualify readable 170A0 geometry-record processing and its copy/movement-matrix providers using the recovered capacity. Complete same-console/source rebuilding, remaining CPU/GPU/DSP/HLE/device/rendering recovery, useful training quality and audio/IRQ/physical-console fidelity remain open. Future hardware performance has not been measured.
+
+Game review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Compact Outer Memory and Fresh Route Review.txt
+Reader review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/copied-Reader38-reviewed-v1-current.json

@@ -1,0 +1,5 @@
+SOURCE_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+BUILD ?= $(SOURCE_DIR)/build-actor-group-restored
+.PHONY: actor-group-restored
+actor-group-restored:
+	$(MAKE) -f "$(SOURCE_DIR)/Makefile.actor-group-candidate" actor-group-candidate BUILD="$(BUILD)" NATIVE_SOURCE="$(SOURCE_DIR)/actor-group-restored.c"

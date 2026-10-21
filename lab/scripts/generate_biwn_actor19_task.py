@@ -1,0 +1,18 @@
+"""Recover fixed source EFA0..F0BC task; generation alone is not verification."""
+import json,hashlib
+from pathlib import Path
+import generate_biwn_entry_setup_cpu as gen
+ROOT=gen.ROOT
+observation=json.loads((ROOT/'verification/natural-actor20-task-current.json').read_text());ram=(Path(observation['directory'])/'native-RAM.bin').read_bytes();rows=gen.loader.base.binary_tools.m68k_instructions(ram[0xefa0:0xf0bc],0xefa0)[0];stage=Path(json.loads((ROOT/'projects/black-ice-white-noise/analysis/current-session.json').read_text())['directory'])/'nextstage-68000-candidate.bin';assert ram[0xefa0:0xf0bc]==stage.read_bytes()[0xefa0-0x4000:0xf0bc-0x4000]
+def rename(text):return gen.rename(text).replace('biwn_entry_setup_cpu','biwn_actor19_task_cpu').replace('BIWN_ENTRY_SETUP_CPU','BIWN_ACTOR19_TASK_CPU')
+prefix=rename(gen.loader.base.PREFIX).replace('s->cpu.usp=s->cpu.registers[15];','if(s->cpu.sr&0x2000u)s->cpu.ssp=s->cpu.registers[15];else s->cpu.usp=s->cpu.registers[15];').replace('||(state->sr&0x2000u)','')
+# This source uses MOVEQ and ASL, so retain sx8/shift helpers.
+prefix=prefix.replace('struct dispatch s;', '(void)full_call;struct dispatch s;')
+body='\n'.join(rename(gen.emit({**r,'assembly':r['assembly'].replace('addi.l','add.l',1)}))for r in rows);suffix=rename(gen.loader.base.SUFFIX);header=rename(gen.loader.base.HEADER).replace('BIWN_INPUT_DISPATCH_CPU_H','BIWN_ACTOR19_TASK_CPU_H');start=header.index('/* Static');end=header.index('enum biwn_actor19_task_cpu_status biwn_actor19_task_cpu_body',start);header=header[:start]+'''/* SourceEFA0..F0BC type19actor scan/lifecycle task. Scans40records
+ * at49D6C,stride206; initializes/updates type19 through declared
+ * 101E0/10252/EB04/13C9A/resource/sound helper interfaces.
+ * Real source privateframes/stackbanks/yields. Generation is not
+ * verification of lifecycle/helpers/audio/game/globaltiming. */
+'''+header[end:];dest=ROOT/'projects/black-ice-white-noise/restoration/experimental';dest.mkdir(exist_ok=True);(dest/'biwn_actor19_task_cpu.c').write_text(prefix+body+'\n'+suffix);(dest/'biwn_actor19_task_cpu.h').write_text(header)
+record=dict(status='generated_unverified',instructions=len(rows),instructions_decoded=rows,source_range=['0xefa0','0xf0bc'],source_sha256={p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in [dest/'biwn_actor19_task_cpu.c',dest/'biwn_actor19_task_cpu.h']},generator_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),whole_game_complete=False)
+(ROOT/'verification/actor19-task-generation.json').write_text(json.dumps(record,indent=2)+'\n');print(len(rows),'fixed source instructions generated')

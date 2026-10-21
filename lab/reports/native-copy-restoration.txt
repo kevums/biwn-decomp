@@ -1,0 +1,58 @@
+BLACK ICE WHITE NOISE — PARTIAL NATIVE COPY REBUILD
+Updated 2026-10-18T07:40:57.168431+00:00
+
+Both original public copy entry paths, 0xE3E0 and 0xE3EE, now redirect to target-compiled C in a separate experimental disc image. The build has 23 source-backed ABI entry contracts, not 23 new C functions or a completion percentage. The two copy conventions share one C body. Many original engine, GPU/DSP, CD, HLE and emulator providers remain; this is not a complete source-built game.
+
+Evidence against the original
+The copy preserves forward byte overlap, the original wrapped subtraction-N thresholds, ordered blitter setup/chunks, public register saves/restores and complete return registers/flags. Large copies use the retained emulated Jaguar blitter, rather than a host memcpy.
+
+Component                 Native CPU cases    Separate ordered-access cases
+Copy                      3,260               3,260
+Allocator / compactor     3,392               3,392
+Controller                1,216               1,024
+RNG                       1,682                 298
+Task creation             1,280               1,280
+Scheduler                 1,664                 896
+
+All checks use the same linked binary. All 57 original copy instruction starts were exercised. Twelve huge-count probes compare only three byte/command units; they do not claim full successful returns. The ordered-access engine treats MMIO as ordinary storage, so actual device effects and full condition codes are checked separately with the native CPU/emulated blitter. The original 12 stack-save bytes remain visible to the comparisons. Arbitrary aliases, faults, concurrency, interrupts and physical timing are outside these finite component fixtures.
+A coupled compactor witness relocates 232 known payload bytes through two 128-byte compiled-copy calls. Startup passes 96 register/CCR cases and 5,151 installed keypad ABI cases. Heap initialization, allocation and compaction preserve the resident code.
+The 4,726 linked bytes fit the existing reservation of 6,144 bytes, leaving 1,418 bytes of padding. The temporary staging window remains 8,192 bytes at FC000..FE000 and is restored before the original startup continues.
+
+Fresh game runs
+Both runs load their CDI through retained emulator HLE and use ordinary pad feedback plus read-only observers. There is no checkpoint restoration, guest RAM/code patching during play, CPU reseed or source-owned execution handler.
+
+Profile       Frames    Nonzero PCM samples    Original copy-body steps    Compiled copy-body entries
+native21      29,802    7,324,866               5,651,809                   0
+native23      29,783    7,324,814               0                           28,026
+
+Both complete the merchant visit, floor 2→1→0 descents, outdoor clearance and a 120-frame hold. Final tracked position/mode/floor/scene agree. The native21 control reproduces its earlier recorded rows and PCM exactly. The new route observes only the source-first convention; destination-first is covered by component tests. Video and PCM differ between builds. The 19-frame difference is not a speed benchmark or proof of fixed-input/timing equivalence. Listening and physical authenticated boot remain unverified.
+
+Who did what
+Local Author took 62.62 seconds. Its draft mapped registers incorrectly and mishandled constants/flags. The zero-count CPU preflight rejected it.
+The same-weight Reviewer took 18.05 seconds and incorrectly approved that draft. Agreement was not validation.
+Local Repair Author took 46.51 seconds and produced the accepted C unchanged, after the coordinator supplied the complete repair algorithm, ABI/flags and exact public-stack read contract.
+The coordinator wrote the header, native frame, linker/build/loader adaptations, tests and observers, and reviewed the results. No new weights were trained. The failure/repair record is unused and unassigned; both calling conventions remain in one source-module split group for any future training.
+
+Initial Author and Reviewer prompts/responses:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-copy-20261018T071157.500770Z/prompts-and-responses.txt
+Repair Author prompt/response:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-copy-repair-20261018T071502.548525Z/prompts-and-responses.txt
+
+Local inference output check
+A leading word-budget phrase initially caused the host router to miss the copy topic. The assistant retrieved an older formatter and gave the wrong answer. That failure is retained. Routing now recognizes formatting preambles without turning action requests into status lookups. Disclosure checks also distinguish the emulated CPU from the blitter and require coordinator algorithm credit.
+The actual installed assistant, running under its own Python environment, returned an accepted unchanged 100-word answer in a reported 21.93 seconds, including one same-model revision. It distinguishes 3,260 component cases from 28,026 game entry observations, names the retained emulated M68000 backend, credits coordinator and Repair Author, and preserves the unfinished rebuild/physical scope. This is a repeated development question, not fresh or general reliability evidence.
+/Users/kevin/.lmstudio/local-ai-lab/runs/ask-20261018T073605.370252Z-game/prompts-and-responses.txt
+The secondary installed environment lacked the SDK. It now has lmstudio 1.5.0 and cached dependencies; pip reports no broken requirements. The main launcher's source environment is unchanged. The native-team context helper selects the published native23 copy proof. Visible native Chat selection/rendering/cancellation remains unverified.
+
+Use and remaining work
+Show BIWN Native Disc.command reveals the new image:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-copy/20261018T072053.680070Z/BIWN-23-native-copy-experimental.cdi
+Accepted C:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/copy-native.c
+Rebuild from the native-m68k folder:
+make -f Makefile.copy-bundle copy-bundle BUILD=build-copy
+Immutable publication (709 dependencies, 136 source snapshots):
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-copy-publication/20261018T072735.321276Z/publication.json
+
+The original CDI hash is unchanged. The 112-file P and 84-file O preview recipes still match; those previews were not restarted or switched. Click inside the preview and hold C+Up to run.
+Remaining work includes the full CPU/GPU/DSP engine/source link/package/provider replacement, other/internal copy paths, timing/IRQ/fixed-input behavior, arbitrary aliases/faults, authenticated hardware boot and listening. Existing RNG divisor and marker-scan limits remain. Advertising quality, native Chat UI checks and future 256 GB hardware measurements remain open. The overall goal is active.

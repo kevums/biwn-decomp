@@ -1,0 +1,118 @@
+{
+  "all_tensors_finite": true,
+  "LoRA_B_nonzero": true,
+  "tensors": [
+    {
+      "name": "language_model.model.layers.63.mlp.down_proj.lora_a",
+      "shape": [
+        17408,
+        8
+      ],
+      "nonzero": 139264
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.down_proj.lora_b",
+      "shape": [
+        8,
+        5120
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.gate_proj.lora_a",
+      "shape": [
+        5120,
+        8
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.gate_proj.lora_b",
+      "shape": [
+        8,
+        17408
+      ],
+      "nonzero": 139264
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.up_proj.lora_a",
+      "shape": [
+        5120,
+        8
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.mlp.up_proj.lora_b",
+      "shape": [
+        8,
+        17408
+      ],
+      "nonzero": 139264
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.k_proj.lora_a",
+      "shape": [
+        5120,
+        8
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.k_proj.lora_b",
+      "shape": [
+        8,
+        1024
+      ],
+      "nonzero": 8192
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.o_proj.lora_a",
+      "shape": [
+        6144,
+        8
+      ],
+      "nonzero": 49152
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.o_proj.lora_b",
+      "shape": [
+        8,
+        5120
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.q_proj.lora_a",
+      "shape": [
+        5120,
+        8
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.q_proj.lora_b",
+      "shape": [
+        8,
+        12288
+      ],
+      "nonzero": 98304
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.v_proj.lora_a",
+      "shape": [
+        5120,
+        8
+      ],
+      "nonzero": 40960
+    },
+    {
+      "name": "language_model.model.layers.63.self_attn.v_proj.lora_b",
+      "shape": [
+        8,
+        1024
+      ],
+      "nonzero": 8192
+    }
+  ]
+}

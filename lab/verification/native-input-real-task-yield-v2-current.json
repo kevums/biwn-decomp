@@ -1,0 +1,37 @@
+{
+  "status": "terminal_two_original_tasks_TRAP_RTE_native_input_resumes_stack_fences_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-real-task-yield-v2/20261021T091826.567579Z",
+  "pid": 53875,
+  "completed": 16,
+  "new_predictions": 0,
+  "new_training": false,
+  "new_game_image": false,
+  "current_case": [
+    7,
+    1823
+  ],
+  "maximum_native_task_stack": 392,
+  "maximum_B_task_stack": 52,
+  "maximum_supervisor_stack": 6,
+  "actual_switches": 104,
+  "original_DF60_TRAP_DE08_RTE_DF66_executed": true,
+  "second_task_clobbers_D2_D7_A2_A6": true,
+  "native_callee_saved_locals_survive": true,
+  "actual_task_bytes": 1024,
+  "guarded_task_stack_capacity": 960,
+  "raw_first_task_saved_context_equal": false,
+  "arbitrary_IRQ_or_all_task_paths_qualified": false,
+  "scope": "Sixteenpaired two-task fixtures:original DF60/TRAP/DE08/RTE/DF66execute. TaskBchanges animation flag after1/2/3/7turns andclobbers allcallee-save registers. NativeinputCframe resumes correctly,helperargs/D0/publiceffects match,and secondtask all1024bytesmatch. Firsttaskprivatecontext/frame andsupervisor exception scratch intentionallylayout-dependent and excludedfrom cross-laneRAMequality;theirbounds/fencesseparatelychecked. Animation/resourcehelpersscripted;no realhelperbody,arbitraryIRQ,freshgame or imagequalification.",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_input_real_task_yield_v2.py": "69656827e35efa0e19c14a024b3d7c8033b02e5009efc1d5889ed8ff48f1ff66",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-entry-ABI-v2-current.json": "0cb9e7a888fd8d00e0a4a0c8905173c4a7cda9c57d306e4e12269dedb27e5ec0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v3-entry/build-portable/native-input.bin": "da1f50af470d01d9eb57926d15e7a016e0b6e2a5bc3f2e11882df3231efaa942",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-real-task-yield-v2/20261021T091826.567579Z/task-B.S": "1153409d526bee233f82389432ce6d7aa853e0ac22ec44aefffe0af76e246ecc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-real-task-yield-v2/20261021T091826.567579Z/task-B.ld": "f598e26673e136ac1e4de111feaf7682bcbaacc66b58ab43c829c0311f1ff6fd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-real-task-yield-v2/20261021T091826.567579Z/task-B.bin": "14cb7a3eba4f00ffd44c4aa5651b4053ddf28ed676684a7f953a67c05c5a7eb5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-real-task-yield-v2/20261021T091826.567579Z/cases.json": "d5907a70531a851f37eeb7a03d99e11cd5d25bea308df4104d499385716d4f94",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3"
+  }
+}

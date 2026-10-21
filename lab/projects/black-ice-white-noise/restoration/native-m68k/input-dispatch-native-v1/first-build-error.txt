@@ -1,0 +1,1 @@
+Initial strict -m68000 -Werror build stopped on GCC -Wmisleading-indentation at original biwn_input_dispatch.c:207. No warning demotion. A separate local copy braces the conditional and moves subsequent statements to a new line;the guarded original is unchanged. A subsequent path-preparation attempt failed before editing and repeated this same compiler diagnostic.

@@ -1,0 +1,29 @@
+{
+  "status": "terminal_status23_entry36_Root_copied_CLI_and_actual_MCP_verified",
+  "default_lines": 12,
+  "CLI_timings": {
+    "Root": {
+      "exit_code": 0,
+      "seconds": 28.501,
+      "lines": 12,
+      "command": [
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/.venv/bin/python3.12",
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/show_native_status_v23.py",
+        "--brief"
+      ]
+    },
+    "copied": {
+      "exit_code": 0,
+      "seconds": 28.838,
+      "lines": 12,
+      "command": [
+        "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/runtime/python/bin/python3.12",
+        "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/portable_biwn.py",
+        "status"
+      ]
+    }
+  },
+  "concurrent_status_QA_not_inference_latency": true,
+  "new_predictions": 0,
+  "new_training": false
+}

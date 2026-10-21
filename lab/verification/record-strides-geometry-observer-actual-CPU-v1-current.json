@@ -1,0 +1,21 @@
+{
+  "status": "terminal_exact_debug_observer_actual_combined_CPU_contracts_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-actual-CPU-v1/20261021T060222.329381Z",
+  "CPU_lanes": 64,
+  "geometry_calls": 8,
+  "active_debug_calls": 6,
+  "original_and_native_dependency_calls": 96,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_geometry_observer_actual_cpu_v1.py": "4806f8e04312c12de02ea5b58afc9274ad7f80b7ff3b756766abcafcbd96997e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_record_strides_v1.py": "7ac8254ed2469dcabf8e44acd7578e489d067482c6730e8d2183e1c0f4f17d02",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-qualified-v1-current.json": "a83e7ff6a967419086c3510d085240ae0819a56a90c0f52b6c0964b995564104",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-qualification-v1/20261021T055732.061394Z/fixture.c": "77d2e7cd9affe5f1f644837b4887e1d8549db4768a46b9da0dff273faa5123cc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-actual-CPU-v1/20261021T060222.329381Z/fixture.c": "77dfa7fc99c366d89ea8f2e8d1e6dca3b14e4355724732c8afaa030bf80af65d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-actual-CPU-v1/20261021T060222.329381Z/fixture.dylib": "a0c66baaa58d85f8f2d5e02ee62e49f059f4de4b751f132ce68b0b4bb468db2f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-actual-CPU-v1/20261021T060222.329381Z/cases.json": "bdff1c9ab749f7f4ab60e4c3574af82011dad975bc341a2ea645e8824ceeb92f"
+  },
+  "scope": "Read-only exact geometry monitor over combined original/native CPU execution.\nRAM and register snapshots are copied into a separate host observer fixture.\nOriginal outer/caller/helper bodies execute; GPU/formatter/text effects remain\nexplicit component fixtures. This is not fresh gameplay or an IRQ test.\n"
+}

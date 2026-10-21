@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "language": "68000:BE:32:BIWN_DIVU_CANDIDATE",
+  "removed_split_entry_d1ec": true,
+  "signatures": [
+    {
+      "entry": "0000d1e0",
+      "name": "analyst_u32_div_u16",
+      "signature": "uint analyst_u32_div_u16(ushort divisor, uint numerator)",
+      "return_storage": "D1:4",
+      "parameters": [
+        "divisor:D0w:2",
+        "numerator:D1:4"
+      ]
+    },
+    {
+      "entry": "0000d206",
+      "name": "analyst_cd_offset_msf",
+      "signature": "uint analyst_cd_offset_msf(uint selector, uint byte_offset)",
+      "return_storage": "D0:4",
+      "parameters": [
+        "selector:Stack[0x4]:4",
+        "byte_offset:Stack[0x8]:4"
+      ]
+    }
+  ],
+  "scope": "Local analyst annotations from selected CPU fixtures; original names/compiler ABI/whole-game behavior not established."
+}

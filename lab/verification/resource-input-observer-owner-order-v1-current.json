@@ -1,0 +1,19 @@
+{
+  "status": "terminal_resource_input_observer_both_owner_orders_isolated_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-observer-owner-order-v1/20261021T114652.816142Z",
+  "controls": 16,
+  "same_task_rejected": 8,
+  "different_task_accepted": 8,
+  "boot_slot_included": true,
+  "observer_only_not_production_reentry_guard": true,
+  "actual_guest_execution": false,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_resource_input_observer_owner_order_v1.py": "5c81df2acb7245fe5ab69dd657453d6c7e4c4e7fc4e5017123e673a60d2f2826",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1-current.json": "b5d2dcc1b99083acb43b18232c63dbb81c9799f06c3ef750d6e8d0e6348505ae",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-disc-build-v1-current.json": "095a47f201dd1ca19983d25a03415074c0cc68555e951f24ec7539d292c244ad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/fixture.dylib": "7b8956c1ed815593a86374f2fefe254e19309b3d2a5c83c46afe4ac362809920",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-observer-owner-order-v1/20261021T114652.816142Z/cases.json": "715fc8b7b667a4705c6e32fb1dbf29bfe49f50b4a0366bb8bb66ec02072f0f89"
+  }
+}

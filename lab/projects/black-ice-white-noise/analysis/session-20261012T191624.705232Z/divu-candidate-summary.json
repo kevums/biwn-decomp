@@ -1,0 +1,23 @@
+{
+  "time": "2026-10-14T03:17:19.860862+00:00",
+  "language": "68000:BE:32:BIWN_DIVU_CANDIDATE",
+  "compiler_profile": "stack2candidate",
+  "original_default_pcode": {
+    "cases": 592,
+    "DIVU_failures": 507,
+    "helper_failures": 429
+  },
+  "separate_candidate_pcode": {
+    "cases": 592,
+    "DIVU_failures": 0,
+    "helper_failures": 0
+  },
+  "verbatim_exported_division_C_cases_passed": 296,
+  "static_export": {
+    "function_entries": 199,
+    "decompiled": 199,
+    "instructions_matching_previous_export_and_image": 17712,
+    "C_warning_count": 119
+  },
+  "scope": "One nonzero-divisor arithmetic helper was checked. Two function signatures and one merged boundary are analyst annotations. Other automatic C remains approximate; zero-divisor traps and the full condition-code ABI are excluded. The decoder is still a 68040 superset."
+}

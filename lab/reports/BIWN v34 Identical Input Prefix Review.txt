@@ -1,0 +1,9 @@
+BIWN v34 — identical input prefix
+
+Two new fresh1000frame runs use the exact same per-frame button schedule. Video differs on450frames,first378;CPU and GPU state hashes first differ at376. Recorded held-button RAM values match on every frame. PlayerX first differs at643(358frames total),Zat650(342). Scene,mode,tile,equipped and movie fields agree throughout. FullDSPstate hashes match throughout. Movement inputs start600,so adaptive control feedback cannot solely explain the first divergence. This does not identify a unique causal instruction or prove fidelity.
+
+Both lanes emit800000audio frames and zero nonzero samples. Candidate prefix ends with one pending native scene call;control ends with one active GPUarena/end-only count. Pre-finish errors and independent region checks are zero;fences and unused slots pass. These unfinished states are preserved. This truncated measurement is not a complete route or quiescence acceptance.
+
+The control keeps the v34 layout and inherited global native copy/matrix/wait providers and restores only10original scene-entry bytes. Prior v33prefixes use the same frontend schedule but a different layout. New versus old control differs on199video frames,first227,before current candidate/control divergence. This warns against treating450versus prior448as an isolated stride improvement/regression. No replay of old tests,no game-state injection,no new prediction or optimizer update. Preview unchanged.
+
+Next:trace original/compiled scene entry and GPU submission/return timing around frames375–379 using read-only instrumentation;retain full differences and avoid masking state to manufacture equality. Continue silent-audio and whole-game source recovery.

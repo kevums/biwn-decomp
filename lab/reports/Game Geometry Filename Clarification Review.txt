@@ -1,0 +1,11 @@
+GAME MODEL — FILENAME-CLARIFIED COMPARISON
+
+The separate paired diagnostic completed eight local generations. Base:0/4accepted. Selected step40adapter:0/4accepted. Explicit filenames removed the missing-header failures;no output was hand-edited and no acceptance gate was relaxed. Both phases restored the daily LMStudio model.
+
+Base release,acquire and plane-layout outputs reached functional CPU/RAM failures. Base load failed the existing compiler warning checks. Adapter release reached a functional mismatch;acquire and load failed compiler warning checks. Adapter plane-layout reached the5,000token limit and failed compilation. The base plane output finished in4,209tokens but failed the full gate. These outputs do not justify promoting the trained adapter.
+
+The diagnostic was frozen after inspecting the original pilot failures. It changes only a filename clarification in each prompt. The checkpoint was already selected from validation and was not reselected. This is an adaptive development comparison,not an untouched holdout or a general model ranking. The original4+4benchmark results and selection hashes remain unchanged.
+
+Next:use bounded local repair with actual compiler/emulator counterexamples and compare the installed coder model on identical tasks. Record each Author/Repair prompt and unchanged response;only the complete machine checks may accept generated game code. No further blind training is justified by loss alone.
+
+Exact requests/results:Model Prompts and Responses.command. Summary:Game Model Training Progress.command.

@@ -1,0 +1,30 @@
+{
+  "status": "terminal_six_root_admission_C_floor_and_scene_commit_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z",
+  "fixture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/fixture.c",
+  "fixture_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/fixture.dylib",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-qualification-v1/20261021T055732.061394Z/observer.c",
+  "ELF_C_functions": 52,
+  "C_floor": "0x16e6ce",
+  "C_floor_legal_controls": 624,
+  "C_floor_rejected_controls": 624,
+  "invalid_admission_legal_cases": 1920,
+  "busy_fallback_controls": 54,
+  "invalid_admission_corruption_controls": 42,
+  "scene_commit_controls": 704,
+  "new_predictions": 0,
+  "new_training": false,
+  "host_guest_RAM_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_record_strides_shared_observer_v1.py": "18c9bf1325d020635998bf363118ad57b94b7454a53cb80c105ab03da0d613d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-record-strides-disc-build-v1-current.json": "973bd8d70d0e04d2e234ff8a0d8fda9b61edf83d13276f3d9b7f2473b845d2da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-qualified-v1-current.json": "a83e7ff6a967419086c3510d085240ae0819a56a90c0f52b6c0964b995564104",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-geometry-observer-qualification-v1/20261021T055732.061394Z/observer.c": "818c24ec3d1512ef1b7d0eab4bd470948b9aee4fc85cbcbfa44aef2ea9c6b19b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/fixture.c": "04e07bf250ba5cce22ebb4aab159cee826da95183c73956f583132c6abc37887",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/fixture.dylib": "4a86dbd55fc2a759a6c9f2c9a2e55dbcab5c1482d3462bda3e1d7065c2c3c7bb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-record-strides-v1/20261021T055653.754394Z/five-build/native-shared.elf": "6805d102f4363f752a459729107440cfed5b3b1ff351dcf49623e42b2c0d313c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/ELF-symbols.txt": "16a57a5ee5161115bcd4962dc210a191a97dba02c5a623884b56eeb49c320c92",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/cases.json": "97e5452f01a231c0d80462b22e1cd47aeca1d0c72cd4732c3fa5311ae081f97a"
+  },
+  "scope": "Synthetic controls for exact six-root admission, C-stack and scene commit observer.\nHost memory/CPU fixtures only;no guest execution or runtime repair.\nNativeentriescountacceptedbodyadmissions;attemptsandvalidatedfallbacksseparate.Invalidtaskfallbackmustpreserveall16registersandSR.Busyaliasfallbackalsopreserves118byteframeanddeclaredCstack.NativeCmustbelongtoexactlyonependingframe.Scenecommitchecksallregisters,SR,logicalPC,activebankandclearedactive/error."
+}

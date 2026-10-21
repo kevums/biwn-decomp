@@ -1,0 +1,23 @@
+{
+  "status": "terminal_compact_outer_monitor_128_actual_root_and_iteration_CPU_lanes_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-outer-observer-actual-CPU-v2/20261021T122536.065059Z",
+  "CPU_lanes": 128,
+  "actual_public_root_entries": 128,
+  "all_errors_outside_zero": true,
+  "boundary_pending_explicitly_verified": true,
+  "complete_task_lifetime_verified": false,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_outer_observer_actual_CPU_v2.py": "a0f74a8edc683a222a51ce697176449ecab6946b93986d56bd5aa106b519605b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-frame-phased-image-geometry-observer-qualified-v1-current.json": "4ea8b49e4cb98de321c06fb6cbf9a0327f23494adf34b3d1cc86b9dcd44eddea",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-frame-phased-image-geometry-observer-qualification-v1/20261021T122531.177381Z/fixture.c": "b8cd3aa8dc4195133fe9da5b3bbc6b53b65310285e2d9ee02b2e5f5594761da5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-outer-observer-actual-CPU-v2/20261021T122536.065059Z/fixture.c": "5a9be6f83c5667c9a211d2def862399ab9dd5d68cd7146d59d66132598d9266f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-outer-observer-actual-CPU-v2/20261021T122536.065059Z/fixture.dylib": "e9c168da220568a7909d0df9b379105d9ac083e367f2af8599c8b024c782fd00",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_frame_phased_image_v1.py": "3da0bfe1c8b8b3f38903e0c44f0fa7b7851c289aaec3c67788bb36c7e85f3195",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-outer-observer-actual-CPU-v2/20261021T122536.065059Z/root-harness.py": "438d4142e0ff01d393145bde9d123e6312938f708ccbdda5594ece1b43fe8f20",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-outer-observer-actual-CPU-v2/20261021T122536.065059Z/cases.json": "670998fcbbbcafd36b9e0e8926570b19d5bba7df12b9bd935f23ce8fd70ff225"
+  },
+  "scope": "Read-only actual CPU/RAM replay for the compact persistent-context outer watcher.\n\nSixty-four seeded root entries run original/native lanes. Unlike continuation\nfixtures, every lane witnesses its actual public root before monitoring.\nNo observer reconstruction or CPU/RAM writes are applied to the guest.\n Root plus one full subsequent iteration runs to an explicit status6 boundary; one active outer monitor is expected there and checked, while helper pending/errors/outside must be zero. Actual helper/capture CPU sites, persistent CPU pointer and compact stack bounds are checked. Both underlying lanes also compare CPU/nonarenaRAM/ordered helper entries. Component fixtures do not establish arbitrary IRQ or live game timing."
+}

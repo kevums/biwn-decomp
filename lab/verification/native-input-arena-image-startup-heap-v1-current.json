@@ -1,0 +1,50 @@
+{
+  "status": "terminal_actual_input_image_wide_startup_dual_CPU_and_heap_initialize_pass",
+  "pid": 62040,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-image-startup-heap-v1/20261021T112416.937955Z",
+  "native_startup_cases": 6,
+  "Unicorn_startup_cases": 6,
+  "heap_initialize_cases": 192,
+  "game_frames": 0,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "original_heap_initializer_declared_operand_changes": [
+    {
+      "delta": 0,
+      "operands": 3
+    },
+    {
+      "delta": 4,
+      "operands": 1
+    },
+    {
+      "delta": 8,
+      "operands": 1
+    }
+  ],
+  "all_2MB_startup_RAM_checked": true,
+  "saved_stack_bytes_checked": true,
+  "dirty_arenas_cleared": true,
+  "input_payload_after_startup_exact": true,
+  "resource676_payload_after_startup_exact": true,
+  "heap_start": 1712192,
+  "initial_heap_bytes": 122816,
+  "heap_source_bytes_equal_after_five_operand_changes": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_input_arena_image_startup_heap_v1.py": "bae313b1bb172d6e954c700d9aa6e795cb42074edf3130578dd551fbaa14a951",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-disc-build-v1-current.json": "095a47f201dd1ca19983d25a03415074c0cc68555e951f24ec7539d292c244ad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resident-with-arenas.bin": "f31f4d2ab84b2204d3ce35b7cd9604a866d9ef624dcd19e2ed35fc88dfa3603c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/mainstage-native-input-arena-v1.bin": "6b78d3d2f63d1c47cb9a07b0f44a8726c535e45a1fb180be44d4f06e1254affe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-image-startup-heap-v1/20261021T112416.937955Z/startup-cases.json": "13cacb2919c7ad66888c1af19551956dd23aa3b1f73d423910846fdf2254099d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-image-startup-heap-v1/20261021T112416.937955Z/heap-cases.json": "b11b1a3e72b84bb9f5337278ae2151b12089f15b658cd1189246e8daf9b3c7ec"
+  },
+  "arbitrary_IRQ_qualified": false,
+  "gameplay_verified": false,
+  "physical_console_verified": false,
+  "scope": "Execute the actual new image's wide startup, both arenas, and raised heap.\n\nStartup uses pinned M68000 and Unicorn with independent complete-RAM oracle,\ndirty resident/arena preconditions and saved stack bytes included. The heap\ncomparison uses original instructions with only five declared floor operands\nchanged. No game frame, arbitrary IRQ, audio or physical console is qualified.\n"
+}

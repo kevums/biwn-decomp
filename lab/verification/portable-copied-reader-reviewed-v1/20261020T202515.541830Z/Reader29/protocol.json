@@ -1,0 +1,65 @@
+{
+  "status": "terminal_streamed_local_briefing_pending_source_review",
+  "pid": 52444,
+  "directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v29-20261020T202328.173767Z",
+  "new_predictions": 1,
+  "new_training": false,
+  "native_Chat_verified": false,
+  "MCP_connection": {
+    "transport": "actual_reference_MCP_stdio",
+    "configuration_sha256": "e9c917a22b1bcc3f6d64b48b7a4045e2e08b26ddf05b74c3f42f5c71a14eb696",
+    "server": {
+      "name": "Local AI Lab",
+      "title": null,
+      "version": "1.26.0",
+      "websiteUrl": null,
+      "icons": null
+    },
+    "tools": [
+      "start_biwn_frame_test",
+      "biwn_frame_test_status",
+      "verify_68000_fixture",
+      "render_inventory_preview",
+      "plan_checked_outdoor_doorway",
+      "plan_checked_indoor_exit",
+      "show_latest_checked_scene",
+      "show_checked_actor_motion",
+      "render_animation_preview",
+      "get_mode3_source_task_status",
+      "inspect_boot",
+      "verify_scene_record_candidate",
+      "verify_scene_initial_candidate",
+      "score_supplied_rubric",
+      "get_game_function_task",
+      "verify_game_function_candidate",
+      "project_evidence",
+      "search_references"
+    ]
+  },
+  "stream": {
+    "status": "terminal_local_stream_complete",
+    "events": 178,
+    "message_fragments": 170,
+    "time_to_first_message_seconds": 1.11,
+    "seconds": 8.3,
+    "partial_equals_final": true,
+    "reasoning_configuration": "off",
+    "native_Chat_verified": false
+  },
+  "format_pass": true,
+  "answer": {
+    "installed_preview": "BIWN Test Preview.app on Desktop; click window and press P. Arrows move; C+Up or Shift+Up sends run input. Reviewed earlier six-caller checkpoint build remains installed.",
+    "experimental_candidate": "Experimental six-helper native debug candidate v1 completed fresh route. 24965 candidate frames versus 24964 control frames. 62 video differences reported. Final video equal. Fidelity not approved.",
+    "new_source": "Host-only 0x10734 executed in linked native component (40062 bytes). Older standalone object (3808 bytes) was compile-only and not executed. Local 10968 Repair remains outside the disc.",
+    "whole_game_rebuild": false,
+    "preview_promoted": false
+  },
+  "source_sha256": {
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/scripts/run_deck_status_live_v29.py": "83cb6f62457bc8e225b1a2d75b645d9fbf537a12925878ddc2fb448a24f899f7",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/local_stream_inference_v2.py": "9a74221d95d65a6bbf24ba6e91e41f341d6d81f532b839c6ed38ba8356a3bc95",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v29-20261020T202328.173767Z/evidence.json": "c8bc7c50d4373ef1fa5e608b9c786271f6a66a06073ae05668d577c56ef8b97d",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v29-20261020T202328.173767Z/request.json": "ff64e15ed68e43c79cb40711f97f0224b35385155b473c2aaa92e398ffb52072",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v29-20261020T202328.173767Z/response.json": "bcbfae80cbee6604d2008c21156d47f54af75caf6e82bc51fd1de3355e179f2f",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v29-20261020T202328.173767Z/stream-events.jsonl": "da2403e7e3a9e89e848cbf965114fb3dc56c1d7b70bc401e81d916c89a7169a1"
+  }
+}

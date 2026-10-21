@@ -1,0 +1,14 @@
+LOCAL CLEAR V2 — one unchanged generated function passes component execution
+
+The copied 27B 6-bit daily model generated Author code in 19.33 seconds. It passes 256 host comparisons against the original pinned 68000 and Unicorn, including full CPU, both banks, all CCR values, 2 MB RAM, private stack, ordered access, pattern edges and 14 guard checks.
+
+The first native invocation failed before testing because the saved harness lacked its scripts import path. The workflow unnecessarily requested Repair, which took 17.79 seconds and returned identical code. Both original failures and the advisory response remain preserved. They are harness failures, not semantic code failures.
+
+Running the exact saved Author harness with the scripts directory in PYTHONPATH completes all 772 native scene cases, including busy reads. Full CPU, non-arena RAM, helper records, MMIO order, task fences and stack checks pass; peak scene C stack is 156 of 208 bytes. Original clear and rotation bodies execute zero instructions on this component path. The generated shared module is 46,562 bytes and differs from the coordinator module. It is not installed in the game image and has no fresh-gameplay, same-console, IRQ or physical-console proof.
+
+There were three predictions in this second trial and three in the earlier rejected trial. No optimizer updates or trained-model quality gain. The successful prompt explicitly supplied primitive declarations, stack-addressing guidance and a different-instruction example after the earlier failure. Wait, flag and MMIO primitives are coordinator supplied. This is scaffolded development assistance, not untouched decompilation or a training comparison. Author and Repair share weights and produce one unique function.
+
+The advisory Reviewer saw the original import failures, so its denial of full gate acceptance was appropriate at that time. Its phrase "No execution proof" is too broad because host execution had passed, and it predates the corrected native run. No new advisory prediction was made after correction.
+
+Exact prompts and responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/prompts-and-responses.txt
+Native proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-clear-native-20261021T012913.731494Z-author-current.json

@@ -1,0 +1,29 @@
+The new8742byte experimental build passes eight scoped linked component matrices.
+Fresh native CPU/ordered matrix cases (each number is a comparison case, not a function count):
+  controller: 1216 native CPU; 1024 ordered-access.
+  rng: 1682 native CPU; 298 ordered-access.
+  tasks: 1280 native CPU; 1280 ordered-access.
+  scheduler: 1664 native CPU; 896 ordered-access.
+  heap: 3392 native CPU; 3392 ordered-access.
+  copy: 3260 native CPU; 3260 ordered-access.
+  free: 1411 native CPU; 1411 ordered-access.
+  release: 768 native CPU; 768 ordered-access.
+
+Free additionally replays declared changing reads through native CPU; all per-gate limits remain in the receipts.
+Controller checker retains its historical source_accepted=false flag; the review separately verifies its terminal pass, full1216/1024 counts and exact linked bytes.
+
+LM Studio Chat: BIWN — Visible String Recovery.
+The actual local model called both configured MCP tools once, then reported the exact checked source and1945/1945+16 checks with36/36 instruction coverage.
+Those CPU checks were reused from the exact bound receipt. C came from the deterministic typed-IR lifter. This is not a new model-authored decompilation or training run.
+Saved native preset: BIWN Visible Recovery. Context overflow now stops at the limit. The first test used42% of32K context.
+To watch: open the named chat in LM Studio. To repeat in a new chat: load the model, select the preset, enable biwn-string-workbench, and submit the saved user prompt. Tool approval was saved for only that bounded two-tool server.
+
+Deck experiment:2600fresh HLEboot frames per lane. Both lanes return from padding72times; string0times. No observed stack violation; candidate minimum observed padding stack headroom650bytes, control742bytes.
+The editor/debug words never activate; the guest held-input word remains unchanged from1660 despite later ordinary frontend input. The Deck/debug route is therefore not validated. Both lanes show this limitation.
+Candidate/control differ in193video frames; timing/IRQ versus semantic cause unresolved. No default promotion.
+
+Remaining: exact-build acquisition/loader/readiness/lifecycle integration, live string coverage, frame differences, broader gameplay/audio, physical-console rebuild, reliable local C authorship/training and broader advertising quality.
+Future256GB hardware remains untested. Advertising daily27Bbase/model/workflows remain available; prior same-weight reviewers missed scientific issues, so broad research reliability is not claimed.
+
+Exact roles/prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-format-component-chat-review/20261018T154710.949491Z/exact-prompts-and-response.txt
+Complete review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-format-component-chat-review/20261018T154710.949491Z/review.json

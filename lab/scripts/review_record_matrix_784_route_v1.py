@@ -1,0 +1,18 @@
+"""Preserve controller counterexample and ordinary784entry without matrix coverage."""
+from pathlib import Path
+from datetime import datetime,timezone
+from publish_scene_reset_fresh_v1 import ROOT,V,read,save,sha
+
+def main():
+ failedp=V/'record-matrix-784-fresh-candidate-current.json';failed=read(failedp);assert failed['status']=='terminal_matrix_route_failed' and failed['exit_code']==-15
+ folder=Path(failed['directory']);diagnostic=read(folder/'controller-failure-before-stop.json');s=diagnostic['latest']['latest'];assert s['navigation']['waypoint_index']==0 and not s['navigation']['buttons'] and 64<s['navigation']['squared_distance']<=255
+ p=V/'record-matrix-784-fresh-v2-candidate-current.json';j=read(p);assert j['status']=='terminal_fresh_matrix_route_coverage_missing' and j['all_monitors_clear_and_quiescent'] and j['frames']==39491 and j['entered_frame']==17957
+ d=Path(j['directory'])/'measurement';m=(d/'RAM-final.bin').read_bytes();u=lambda a,w=2:int.from_bytes(m[a:a+w],'big');statics=[dict(slot=i,type=u(a),flags=m[0x4208c+u(a)],x=u(a+4),z=u(a+10),region=u(a+16))for i in range(40)for a in [0x4bd9c+i*30]if u(a)]
+ assert statics==[dict(slot=0,type=116,flags=2,x=11240,z=36360,region=13)] and u(0x49c76)==0
+ obs=j['observations'];assert obs['records']['entries']==obs['records']['returns']==30027 and obs['records']['copy_returns']==41872 and obs['records']['matrix_returns']==0
+ assert obs['outer']['C_stack_observations']==0 and obs['outer']['minimum_heap_free_while_outer_active']==0xffffffff
+ out=V/'record-matrix-784-reviewed-v1'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ');out.mkdir(parents=True)
+ paths=[Path(__file__),failedp,p,folder/'controller-failure-before-stop.json',Path(failed['directory'])/'probe.py',Path(j['report']),d/'RAM-final.bin',d/'matrix-route-observation.json',*d.glob('*-observation.json'),*map(Path,j['source_sha256']),V/'record-matrix-route-watch-qualified-v1-current.json',V/'record-matrix-route-watch-actual-CPU-v1-current.json']
+ proof=dict(status='terminal_ordinary784entry_verified_matrix_coverage_missing_controller_failure_preserved',directory=str(out),invalid_first_controller_run=dict(directory=failed['directory'],intentional_stop=True,exit_code=-15,deadband_squared_progress=64,deadband_squared_stop=255,core_failure_inferred=False),corrected_fresh_run_directory=j['directory'],frames=39491,entered_target_frame=17957,target_scene=784,final_region=0,instantiated_static_objects=statics,native_record_returns=30027,native_copy_returns=41872,native_record_matrix_returns=0,all_monitors_clear_and_quiescent=True,shared_native_scene_returns=obs['shared']['native_returns'][5],outer_native_returns=obs['outer']['native_returns'],outer_active_heap_measurement=None,outer_stack_measurement=None,final_heap_free_bytes=u(0x112d64,4),final_heap_is_global_minimum=False,snapshot_restores=0,host_guest_RAM_writes=0,new_predictions=0,new_training=False,source_sha256={str(p):sha(p)for p in paths},scope='Fresh controller-only navigation reaches record784and instantiates source type116with matrixflag2 inregion13. Player/current rendering staysregion0;noE220recordmatrixcall observed. Zero counts in Deck/outer monitors are absenceofcoverage,not evidenceofexecution. RawFFFFFFFFheap sentinel is preserved as unmeasured/null,not freeRAM. A controller-only deadband bug caused the intentionally interrupted first run;corrected fresh run is distinct. No overallgamefidelity/console/control-lane claim.')
+ save(out/'review.json',proof);save(V/'record-matrix-784-reviewed-v1-current.json',proof);print(proof['status'],'finalheap',proof['final_heap_free_bytes'],flush=True)
+if __name__=='__main__':main()

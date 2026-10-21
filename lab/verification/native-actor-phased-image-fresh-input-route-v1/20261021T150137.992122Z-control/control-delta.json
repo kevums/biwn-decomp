@@ -1,0 +1,10 @@
+{
+  "address": "0x1a266",
+  "declared_bytes": 6,
+  "before": "4eb90017efdc",
+  "after": "4eb9000191f4",
+  "only_input_callsite_restored": true,
+  "scene_native_in_both_lanes": true,
+  "parent_sha256": "c32581a9e38bcbd09a111c7580f764dc8748b929ca4f41c3877b5452fe671ffb",
+  "control_sha256": "db85e277bc32c54dff4eaabb93e1c4ccd92e7cad10f284d08b0fe57ccfe2694e"
+}

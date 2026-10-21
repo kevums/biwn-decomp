@@ -1,0 +1,73 @@
+{
+  "status": "terminal_deeper_candidate_final_component_startup_heap_gates_pass",
+  "pid": 36396,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z",
+  "build": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-disc-build-v3-current.json",
+  "build_sha256": "664c845c9f0354f44e59cda2945e8f4b83606bf0f44abd335445841c0a7cbb8e",
+  "results": {
+    "geometry.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/geometry.py.log"
+    },
+    "retained.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/retained.py.log"
+    },
+    "startup.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/startup.py.log"
+    },
+    "fallback.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/fallback.py.log"
+    },
+    "capacity.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/capacity.py.log"
+    },
+    "outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/outer.py.log"
+    },
+    "fallback-outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/fallback-outer.py.log"
+    },
+    "waits-outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/waits-outer.py.log"
+    }
+  },
+  "whole_game_complete": false,
+  "new_training": false,
+  "fresh_gameplay_verified": false,
+  "new_outer_connected_matrix_verified": false,
+  "child_pids": {},
+  "metadata_publication_recovered": true,
+  "metadata_repair_scope": "All8gate processes passed on first execution. The final publication used two stale outer receipt names. New receipts copied to their correct family and earlier current pointers restored byte-exact from archived proof. No component test reexecuted.",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_plane_final_v3.py": "3c9f3a215d8e632b4e0b802c0792387b251c27d72aaaa980793807017f8283e0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/orchestrator-as-run-before-name-fix.py": "50413e565673f99ea57f3cc02ca7c766e3ebf0cf54c3d4e6bb1c78d44752072f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/publication-failure-before-repair.json": "dd08305bd00fb56d08b7bd10f3f993726e5d6889d395a55dd67bd711c3e89c1f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-disc-build-v3-current.json": "664c845c9f0354f44e59cda2945e8f4b83606bf0f44abd335445841c0a7cbb8e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/native_retained_final_checker.py": "d514e98d8dcc4733bad7470ec8779bce4e9a84a42337fc58e024faea1a814334",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/retained.py": "d514e98d8dcc4733bad7470ec8779bce4e9a84a42337fc58e024faea1a814334",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/startup.py": "344771948f271bcde8cc95af3295683a3b342516d291c86d6445d9aebfaf604b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/waits-outer.py": "bf9bc8511dc49037a186e100336c15d0fdcdaee3f6497fcccac8d1d908973a2f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/capacity.py": "c57d122ccdefa696ef6612e32d9efbf5f3020e60ad9383b32e79bf6b26142015",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/native_outer_final_checker.py": "39f29fa7f8bd386523270ffbaadfed00138149e1b405bbff9db3ef28c01f13f5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/fallback-outer.py": "6a8477fc3a9cf66273b4a9e0f7625afa31be07c972cd299c9bcda3ddb91e83f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/geometry.py": "c89583e57dbb64f264b91b7fa0f34cf19a8bee17e639fa596ffb2788643eefa3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-v3/20261020T165754.359453Z/fallback.py": "01dd85e433e1ad3a0be12cc89051b6c2c3154d13edb6a226aa8d196b8fdf4297",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-final-geometry-v3-current.json": "5483aff0fd7266958d03948afaa11b076ae31a7808f83f013275cb082746bbd6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-plane-final-v3-current.json": "b0eb2019bc50e69ccb9e889e8683965143f53d6f1d578f4dafe230aca494ebdb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-fallback-plane-final-v3-current.json": "6e078f3ba6f6b1e35c6e9193cec679aac951f789363327f1e5839b32c33f2cce",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-startup-heap-v3-current.json": "f41f348db4c46b4a1459f974d3dc22f4f32278c235dce9568879d298584bbfe7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-capacity-v3-current.json": "43ca4f9db74599b8e32235960bca9003e516a3e3cd8adafab9616a9f79d59e4d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-plane-final-v3-current.json": "22001294b29ce554f75ff21d2182985f12cd2d22c9642b85e4c7826f540e1140",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-fallback-plane-final-v3-current.json": "0a322baf6f5b2cdc4b7da6bb51951fbf4bc7429efc6f2d0641d69b5b37ab2cb7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-plane-final-v3-current.json": "89aafa0d2b66976b844ede8a8067e788c23aa6530b68d2c1fcdcf99a8c6b0e21"
+  },
+  "scope": "Four-helper final-address module and unchanged relocated outer pass geometry256,retained4992,fallback1280,startup6,heap192,capacity36,outer1280,fallback384and192waitpairs. Exact deployed module bytes match. New aliases,full-six+four connected matrix and fresh gameplay are separate gates.",
+  "initial_publication_error": "FileNotFoundError(2, 'No such file or directory')"
+}

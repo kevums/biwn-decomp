@@ -1,0 +1,10 @@
+LOCAL GAME REVIEWER WORKFLOW — ROLE AND SEMANTIC FAILURES
+
+The offline same-weight Reviewer/Restorer study was intentionally stopped after its first completed case. Reviewer returned replacement C despite a critique-only request;Restorer repeated it byte-for-byte. The C still failed nativeCPU/RAM checking. One later Reviewer response was interrupted. This is one completed failure,not a completed six-case score. SIGINT was deliberate after observed role failure;the process ran its finally block and restored the daily model.
+
+A separate LM Studio SDK probe enforced a JSON critique schema. It produced valid JSON,but only one of five findings was supported:the argument width bug. Four findings were false,including an incorrect stack-offset criticism that ignored the12byte public save,and double-increment criticisms that ignored continue. It omitted important register/CCR defects. Some fields hit their400character schema limit.
+
+Neither role labels nor schema validity make a reliable independent Reviewer. Compiler and original-native checks remain the acceptance gate. No default,accepted source or model weights changed. Native Chat-window generation is not claimed.
+
+Stopped study: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-resource-feedback-team/20261019T021704.926774Z/coordinator-review.json
+Structured probe: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-structured-resource-reviewer/20261019T022518.703634Z/semantic-review.json

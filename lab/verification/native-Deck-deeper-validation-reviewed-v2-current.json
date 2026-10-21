@@ -1,0 +1,16 @@
+{
+  "status": "terminal_deeper_candidate_nested_and_fresh_reviewed_fidelity_open",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-validation-v2/20261020T163347.872763Z",
+  "facts": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-validation-v2/20261020T163347.872763Z/facts.json",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Native Deeper Helpers Gameplay and Local Model Review.txt",
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-gameplay-reviewed-v2-current.json": "f4712ebe7fbf568ce7053b91ac44d02f99545af95c638cd9a888424b482b4a1a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Native Deeper Helpers Gameplay and Local Model Review.txt": "4e2291e7dbbe7e57a2ff97d7a8f0a4462099f4fb6fadc5d6b01f06978e873f16",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-validation-v2/20261020T163347.872763Z/facts.json": "51cac3380d28d36437b1a07a1624ba727aae51a5cf72168e9354fa52f545de13",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-validation-v2/20261020T163347.872763Z/local-review.json": "9871720e2a437958d3b4f05c9b6b9b72d1c6bf57bd0696e1430c453f72fb4908",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deeper-Deck-helper-isolated-local-reviewed-v2-current.json": "9871720e2a437958d3b4f05c9b6b9b72d1c6bf57bd0696e1430c453f72fb4908"
+  },
+  "new_predictions": 3,
+  "new_optimizer_updates": 0,
+  "whole_goal_complete": false
+}

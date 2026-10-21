@@ -1,0 +1,23 @@
+{
+  "status": "terminal_compact_outer_monitor_128_actual_root_and_iteration_CPU_lanes_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-outer-observer-actual-CPU-v2/20261021T060222.742567Z",
+  "CPU_lanes": 128,
+  "actual_public_root_entries": 128,
+  "all_errors_outside_zero": true,
+  "boundary_pending_explicitly_verified": true,
+  "complete_task_lifetime_verified": false,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_outer_observer_actual_CPU_v2.py": "b8fc6f4aac76070b60f93e3a88242a646b53f86ea2a129c442913dd0d7236c7b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-record-strides-geometry-observer-qualified-v1-current.json": "984765c461cf87e5f3c0c94f84c8fdf79ecd9e1f0d32a1236b1ec7eac8bfa6ee",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-record-strides-geometry-observer-qualification-v1/20261021T055802.464587Z/fixture.c": "c3152c874c6fca06ade896d12f28d07ab2b1bbffebf32dd38936e0b7606d474d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-outer-observer-actual-CPU-v2/20261021T060222.742567Z/fixture.c": "af228afe2719738e7108f6aeb282624f5e3734c1e0821bc44cf1ad286cc6080b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-outer-observer-actual-CPU-v2/20261021T060222.742567Z/fixture.dylib": "5dc30b3199a7c0ffe2bb73b9eebd5fe85faa4e2ee094fcf0809842963b2f6bf4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_record_strides_v1.py": "7ac8254ed2469dcabf8e44acd7578e489d067482c6730e8d2183e1c0f4f17d02",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-outer-observer-actual-CPU-v2/20261021T060222.742567Z/root-harness.py": "2d1856f63cd846c93fc3350ad090b21b16ae52bd0e480fd1f987fb262851d22d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-outer-observer-actual-CPU-v2/20261021T060222.742567Z/cases.json": "670998fcbbbcafd36b9e0e8926570b19d5bba7df12b9bd935f23ce8fd70ff225"
+  },
+  "scope": "Read-only actual CPU/RAM replay for the compact persistent-context outer watcher.\n\nSixty-four seeded root entries run original/native lanes. Unlike continuation\nfixtures, every lane witnesses its actual public root before monitoring.\nNo observer reconstruction or CPU/RAM writes are applied to the guest.\n Root plus one full subsequent iteration runs to an explicit status6 boundary; one active outer monitor is expected there and checked, while helper pending/errors/outside must be zero. Actual helper/capture CPU sites, persistent CPU pointer and compact stack bounds are checked. Both underlying lanes also compare CPU/nonarenaRAM/ordered helper entries. Component fixtures do not establish arbitrary IRQ or live game timing."
+}

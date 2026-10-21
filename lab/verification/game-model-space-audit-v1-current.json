@@ -1,0 +1,531 @@
+{
+  "status": "terminal_readonly_game_model_retention_audit_no_deletions",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/audits/game-model-space-v1/20261021T151227.923305Z",
+  "source_human_request_verified": {
+    "thread_id": "01a159fa-426f-73f3-bbfa-026d3fd27e99",
+    "user_message_id": "01a15f00-27eb-7bc1-9663-f7181902d4c3"
+  },
+  "scope": "Native LM Studio inventory, actual game training bases/checkpoints, current portable binding and preservation constraints. Advertising-owned checkpoints/cache audit remains with originating chat.",
+  "keep": [
+    {
+      "path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "reason": "Base for eleven recorded game attempts, including latest geometry64 update pilot; also required by advertising owner."
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit",
+      "reason": "Base for two recorded early game attempts and selected96 CPU remediation adapter."
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4f5658686590-daily",
+      "reason": "Active native model alias; resolves to current self-contained portable package. Preserve target and configured definition."
+    },
+    {
+      "path": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "reason": "Current active daily base target and portable test package; do not remove or retarget during audit."
+    },
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training",
+      "reason": "Preserve all datasets, intermediate/final/selected adapters, configs, source snapshots, optimizer/training/evaluation evidence."
+    },
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise",
+      "reason": "Preserve all game source, assets, restoration, saves and analysis."
+    },
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds",
+      "reason": "Preserve all tested/failed experimental discs and build inputs."
+    },
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification",
+      "reason": "Preserve proof and runtime evidence, including copied-training adapter required by current published status."
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/local-ai-lab",
+      "reason": "Preserve installed runtime, preview and launchers."
+    }
+  ],
+  "trained_exports_hold": [
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-package.json",
+      "destination": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2",
+      "selected_adapter": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/selected-adapter",
+      "adapter_sha256": "33575eb131730537e58ef5d4ac796d7225b152404954828345762d9675283d40",
+      "reconstruction_recipe_present": false,
+      "reconstruction_byte_identity_verified": false,
+      "classification": "KEEP_PENDING_EXACT_RECONSTRUCTION_AUDIT",
+      "reason": "Unique trained export is not a public re-download or proven byte-identical duplicate."
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-hybrid-package.json",
+      "destination": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2",
+      "selected_adapter": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/selected-adapter",
+      "adapter_sha256": "33575eb131730537e58ef5d4ac796d7225b152404954828345762d9675283d40",
+      "reconstruction_recipe_present": true,
+      "reconstruction_byte_identity_verified": false,
+      "classification": "KEEP_PENDING_EXACT_RECONSTRUCTION_AUDIT",
+      "reason": "Unique trained export is not a public re-download or proven byte-identical duplicate."
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-source-v2-hybrid-package.json",
+      "destination": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2",
+      "selected_adapter": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/selected-adapter",
+      "adapter_sha256": "253650c08aea82847937c2309a45cf6a728bf700535b1a82e16e0b3f014b2c42",
+      "reconstruction_recipe_present": true,
+      "reconstruction_byte_identity_verified": false,
+      "classification": "KEEP_PENDING_EXACT_RECONSTRUCTION_AUDIT",
+      "reason": "Unique trained export is not a public re-download or proven byte-identical duplicate."
+    }
+  ],
+  "conditional_candidates": [
+    {
+      "path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3-Coder-Next-MLX-4bit",
+      "logical_weight_bytes": 44844286608,
+      "classification": "CONDITIONAL_PUBLIC_DOWNLOAD_CANDIDATE",
+      "qualification": "Public candidate, not a base in any recorded game training job; preserve pinned revision03cba26036330b7553d252c1f3fb899f16cc5ea5 and historical results. Advertising owner must clear any separate dependency."
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/unsloth/Qwen3-Coder-Next-GGUF",
+      "logical_weight_bytes": 36282685440,
+      "classification": "CONDITIONAL_PUBLIC_DOWNLOAD_CANDIDATE",
+      "qualification": "Public quantized comparison model, not a recorded game training base; save exact repo/revision/hash before removal and confirm no other user workflow needs it."
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/mlx-community/Qwen3-30B-A3B-Instruct-2507-4bit",
+      "logical_weight_bytes": 17181071994,
+      "classification": "CONDITIONAL_PUBLIC_DOWNLOAD_CANDIDATE",
+      "qualification": "No recorded game optimizer dependency; advertising owner must check earliest advertising pilot before clearing it."
+    },
+    {
+      "path": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "native_alias": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily",
+      "logical_weight_bytes": 22777879765,
+      "classification": "CONDITIONAL_RETIRED_RESTORE_TEST_WEIGHT_PAYLOAD_ONLY",
+      "qualification": "Keep every workbench/runtime/verification/result file. Confirm no active model/definition/preset depends on this alias, retire its old registration, compare weight hashes against retained base/reviewer, and retain migration manifests. Do not delete whole restore package."
+    },
+    {
+      "path": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx",
+      "native_alias": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer",
+      "logical_weight_bytes": 23964407233,
+      "classification": "CONDITIONAL_RETIRED_RESTORE_TEST_WEIGHT_PAYLOAD_ONLY",
+      "qualification": "Keep every workbench/runtime/verification/result file. Confirm no active model/definition/preset depends on this alias, retire its old registration, compare weight hashes against retained base/reviewer, and retain migration manifests. Do not delete whole restore package."
+    },
+    {
+      "path": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "native_alias": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily",
+      "logical_weight_bytes": 22777879765,
+      "classification": "CONDITIONAL_RETIRED_RESTORE_TEST_WEIGHT_PAYLOAD_ONLY",
+      "qualification": "Keep every workbench/runtime/verification/result file. Confirm no active model/definition/preset depends on this alias, retire its old registration, compare weight hashes against retained base/reviewer, and retain migration manifests. Do not delete whole restore package."
+    },
+    {
+      "path": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx",
+      "native_alias": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer",
+      "logical_weight_bytes": 23964407233,
+      "classification": "CONDITIONAL_RETIRED_RESTORE_TEST_WEIGHT_PAYLOAD_ONLY",
+      "qualification": "Keep every workbench/runtime/verification/result file. Confirm no active model/definition/preset depends on this alias, retire its old registration, compare weight hashes against retained base/reviewer, and retain migration manifests. Do not delete whole restore package."
+    }
+  ],
+  "game_training_receipts": [
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261011T055649.335619Z/jobs/20261011T055734.496901Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit",
+      "revision": "bbecedefd826819d2c6b6465e88ca7b9b8ad3407",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit",
+      "revision": "bbecedefd826819d2c6b6465e88ca7b9b8ad3407",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/native-functions-v2-20261018T131230.838781Z/jobs/20261018T131654.723877Z/training-result.json",
+      "status": "training_failed",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/native-functions-v2-20261018T131230.838781Z/jobs/20261018T131909.448402Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/native-repair-v3-20261019T003859.751521Z/jobs/20261019T004514.063477Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v3-20261015T144120.847190Z/jobs/20261015T144318.479103Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v4-20261015T154042.808336Z/jobs/20261015T154110.617605Z/training-result.json",
+      "status": "training_failed",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v4-20261015T154042.808336Z/jobs/20261015T154703.584948Z/training-result.json",
+      "status": "training_failed",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v4b-20261015T155747.827751Z/jobs/20261015T155810.742168Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/whole-function-v1-20261016T223440.180268Z/jobs/20261016T223529.588092Z/training-result.json",
+      "status": "training_failed",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    },
+    {
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/whole-function-v1-20261016T223440.180268Z/jobs/20261016T224310.866740Z/training-result.json",
+      "status": "pilot_adapter_created_unpromoted",
+      "repo": "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "revision": "05f38c1f39e2f39619653616fe8e96a5d676358e",
+      "base_path": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit"
+    }
+  ],
+  "game_checkpoint_files": 84,
+  "game_checkpoint_logical_bytes": 3605304662,
+  "current_published_game_status_required_weight_files": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/multiply-and-copied-training-reviewed-v1/20261020T211512.585430Z/copied-training/adapters/adapters.safetensors"
+  ],
+  "active_model_identifier": "portable-ailab-4f5658686590-daily",
+  "native_catalog": [
+    {
+      "type": "llm",
+      "modelKey": "local/portable-ailab-4f5658686590-daily-configured",
+      "format": "safetensors",
+      "displayName": "Portable Ailab 4f5658686590 Daily Configured",
+      "publisher": "local",
+      "path": "local/portable-ailab-4f5658686590-daily-configured",
+      "sizeBytes": 22804840649,
+      "indexedModelIdentifier": "local/portable-ailab-4f5658686590-daily-configured",
+      "deviceIdentifier": null,
+      "paramsString": "27B",
+      "architecture": "qwen3_5",
+      "quantization": {
+        "name": "6bit",
+        "bits": 6
+      },
+      "variants": [
+        "local/portable-ailab-4f5658686590-daily-configured@6bit"
+      ],
+      "selectedVariant": "local/portable-ailab-4f5658686590-daily-configured@6bit",
+      "identifier": "portable-ailab-4f5658686590-daily",
+      "ttlMs": 3600000,
+      "lastUsedTime": 1792594908812,
+      "vision": true,
+      "trainedForToolUse": true,
+      "maxContextLength": 262144,
+      "contextLength": 32768,
+      "status": "idle",
+      "queued": 0,
+      "parallel": 1,
+      "engineConfigFileEnabled": false
+    }
+  ],
+  "current_daily_identifier": "portable-ailab-4f5658686590-daily",
+  "current_daily_model_key": "local/portable-ailab-4f5658686590-daily-configured",
+  "old_aliases": [
+    {
+      "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily",
+      "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "directory_symlink": true,
+      "weights": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily/model-00001-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00001-of-00005.safetensors",
+          "bytes": 5362726126,
+          "device": 16777231,
+          "inode": 2460190,
+          "links": 1,
+          "allocated_stat_bytes": 5362728960,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily/model-00002-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00002-of-00005.safetensors",
+          "bytes": 5344281968,
+          "device": 16777231,
+          "inode": 2460184,
+          "links": 1,
+          "allocated_stat_bytes": 5344284672,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily/model-00003-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00003-of-00005.safetensors",
+          "bytes": 5331479330,
+          "device": 16777231,
+          "inode": 2460181,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily/model-00004-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00004-of-00005.safetensors",
+          "bytes": 5331479394,
+          "device": 16777231,
+          "inode": 2460191,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-daily/model-00005-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00005-of-00005.safetensors",
+          "bytes": 1407912947,
+          "device": 16777231,
+          "inode": 2460195,
+          "links": 1,
+          "allocated_stat_bytes": 1407913984,
+          "symlink": false
+        }
+      ],
+      "logical_weight_bytes": 22777879765
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer",
+      "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx",
+      "directory_symlink": true,
+      "weights": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer/model-00001-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00001-of-00005.safetensors",
+          "bytes": 5362726126,
+          "device": 16777231,
+          "inode": 2460172,
+          "links": 1,
+          "allocated_stat_bytes": 5362728960,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer/model-00002-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00002-of-00005.safetensors",
+          "bytes": 5344281968,
+          "device": 16777231,
+          "inode": 2460165,
+          "links": 1,
+          "allocated_stat_bytes": 5344284672,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer/model-00003-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00003-of-00005.safetensors",
+          "bytes": 5331479330,
+          "device": 16777231,
+          "inode": 2460162,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer/model-00004-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00004-of-00005.safetensors",
+          "bytes": 5331479394,
+          "device": 16777231,
+          "inode": 2460173,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-1ac245406ec5-reviewer/model-00005-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00005-of-00005.safetensors",
+          "bytes": 2594440415,
+          "device": 16777231,
+          "inode": 2460177,
+          "links": 1,
+          "allocated_stat_bytes": 2594443264,
+          "symlink": false
+        }
+      ],
+      "logical_weight_bytes": 23964407233
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily",
+      "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+      "directory_symlink": true,
+      "weights": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily/model-00001-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00001-of-00005.safetensors",
+          "bytes": 5362726126,
+          "device": 16777231,
+          "inode": 2524922,
+          "links": 1,
+          "allocated_stat_bytes": 5362728960,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily/model-00002-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00002-of-00005.safetensors",
+          "bytes": 5344281968,
+          "device": 16777231,
+          "inode": 2524916,
+          "links": 1,
+          "allocated_stat_bytes": 5344284672,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily/model-00003-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00003-of-00005.safetensors",
+          "bytes": 5331479330,
+          "device": 16777231,
+          "inode": 2524913,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily/model-00004-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00004-of-00005.safetensors",
+          "bytes": 5331479394,
+          "device": 16777231,
+          "inode": 2524923,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-daily/model-00005-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit/model-00005-of-00005.safetensors",
+          "bytes": 1407912947,
+          "device": 16777231,
+          "inode": 2524927,
+          "links": 1,
+          "allocated_stat_bytes": 1407913984,
+          "symlink": false
+        }
+      ],
+      "logical_weight_bytes": 22777879765
+    },
+    {
+      "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer",
+      "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx",
+      "directory_symlink": true,
+      "weights": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer/model-00001-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00001-of-00005.safetensors",
+          "bytes": 5362726126,
+          "device": 16777231,
+          "inode": 2524904,
+          "links": 1,
+          "allocated_stat_bytes": 5362728960,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer/model-00002-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00002-of-00005.safetensors",
+          "bytes": 5344281968,
+          "device": 16777231,
+          "inode": 2524897,
+          "links": 1,
+          "allocated_stat_bytes": 5344284672,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer/model-00003-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00003-of-00005.safetensors",
+          "bytes": 5331479330,
+          "device": 16777231,
+          "inode": 2524894,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer/model-00004-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00004-of-00005.safetensors",
+          "bytes": 5331479394,
+          "device": 16777231,
+          "inode": 2524905,
+          "links": 1,
+          "allocated_stat_bytes": 5331480576,
+          "symlink": false
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/portable-ailab-4e102874883b-reviewer/model-00005-of-00005.safetensors",
+          "resolved": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T151401.571361Z-current-setup-moved/lmstudio-home/models/local/advertising-reviewer-v10cap-mixed-mlx/model-00005-of-00005.safetensors",
+          "bytes": 2594440415,
+          "device": 16777231,
+          "inode": 2524909,
+          "links": 1,
+          "allocated_stat_bytes": 2594443264,
+          "symlink": false
+        }
+      ],
+      "logical_weight_bytes": 23964407233
+    }
+  ],
+  "no_game_GPU_worker_started": true,
+  "deletions": 0,
+  "moves": 0,
+  "model_load_changes": 0,
+  "sizes_are_logical_not_guaranteed_reclaimed_space": true,
+  "storage_note": "Do not add symlink aliases to their targets or assume APFS clones/hardlinks reclaim their logical size. Removing only an alias saves negligible space; never remove current4f565target.",
+  "hybrid_recipe": "Preserve selected adapter/config and exact base revision; package_hybrid_adapter.py fuses adapted modules only at dequantized precision, retaining other quantized modules. Reproduce in an isolated job copy/new destination; original script writes frozen job/global reports and requires unloaded native models. For game-source-v2 also reproduce configure_game_source_v2_off.py metadata override. No regeneration or unloading performed by this audit.",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/audit_game_model_space_v1.py": "e35bec22fc8cf75b73d9edefabcd90b7d50abbd0af2d07cd2659b97f52c8bd32",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/models.lock.json": "3a56eda5318d23015dcdea5ca91faf8addae48d6be6db7c15b06d502f6ad0766",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/models.candidate.lock.json": "d9021102cefffff4062ff55fea2f89f469f565a50c8b01d77270f9a5feef01b7",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/portable-model-bindings.json": "1a9d608f9fd4a6f462d45746aa97e20b48f5e68460cd69711adda6dfcd976fe0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261011T055649.335619Z/jobs/20261011T055734.496901Z/training-result.json": "7fbfb1da005b87b8f14d24e7e25b11d5a299963b25c121b1d6c80ccf499a7551",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/training-result.json": "0c6f19183f3ea9ee3fbef0bec200aae389580f20cf048e9737e01221e8e2ee3c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z/training-result.json": "3550e9215c0850d3776adbe0b60504e983993a8faf5a7001fdd066e99938ce40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/native-functions-v2-20261018T131230.838781Z/jobs/20261018T131654.723877Z/training-result.json": "dd7d7f4bbc2c123ed70d6ed92417dad09884189492223d4e32af922458db60d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/native-functions-v2-20261018T131230.838781Z/jobs/20261018T131909.448402Z/training-result.json": "11466ec890b4310bd066b2d515d5fce8c57c38b629ed4d18dd27f54653d472a5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/native-repair-v3-20261019T003859.751521Z/jobs/20261019T004514.063477Z/training-result.json": "d7f9d8c0645b1cd7097a88bf55d9bcf5eb2cc276752b38d6f41b730fb77b0b8c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/training-result.json": "0be8ac8f583214781542aca8d8349f55671fb120d03a305821221e4162a84a5d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v3-20261015T144120.847190Z/jobs/20261015T144318.479103Z/training-result.json": "2aa8f8b19d03126b93e5f27aed160ea62f118ebcc6f7fdaaac10e0d3d950fb75",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v4-20261015T154042.808336Z/jobs/20261015T154110.617605Z/training-result.json": "065c090c2f87bd97f66525702256f8b8bf7f403179b3d3f164a46b892e25b6da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v4-20261015T154042.808336Z/jobs/20261015T154703.584948Z/training-result.json": "61fa006a5138dffb368cc3ac47c2c516f8354c1b2f8ec9314099bd6f25f5d6e4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v4b-20261015T155747.827751Z/jobs/20261015T155810.742168Z/training-result.json": "7159010aa633cc638525ee5e1e3d795c63d8c0bd00ede058bb66e86fcbaf2ddf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/whole-function-v1-20261016T223440.180268Z/jobs/20261016T223529.588092Z/training-result.json": "f940befd57a2c4455cd7e0c363d913c435fa8695cb8e402642828d4cf7138f69",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/whole-function-v1-20261016T223440.180268Z/jobs/20261016T224310.866740Z/training-result.json": "ee5cf1802dff3a31a97169b21d54a6f6b86c40a80c90df1fc81408d2ffa37709",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-package.json": "1b2b05f5274e2e405990da9348fff62d29a51ef069269e254600bdec49ce59e9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/selected-adapter/adapter_config.json": "effde1e110e73d613947f6d4ec2930936f45428ff1ad394b5107ca497efd4c3b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/selected-adapter/adapters.safetensors": "33575eb131730537e58ef5d4ac796d7225b152404954828345762d9675283d40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-hybrid-package.json": "ef4f927ae1af5e185c39d9b799c296ee84d7c939754636931ad96ea3c325bc04",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-source-v2-hybrid-package.json": "4058cc407ae056e6021069eb8688e4b8d85f4ac3da5f1e9aab5d2627d928fb88",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/selected-adapter/adapter_config.json": "e0fdaad2223affcb62f9a1bd75f4f0f4fc00eb01b0e550b0a21b333e6d6f03b3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/source-v2-20261015T111214.246009Z/jobs/20261015T111307.027407Z/selected-adapter/adapters.safetensors": "253650c08aea82847937c2309a45cf6a728bf700535b1a82e16e0b3f014b2c42",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/package_hybrid_adapter.py": "388284dcf783da9fa8813a021132023443db1fa040bcfec21f874a03a91e031f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/configure_game_source_v2_off.py": "6044f6a4d8831161176b3d26474a104ea9c6fd88a9bcc457a565fda2ad2bf8ff"
+  }
+}

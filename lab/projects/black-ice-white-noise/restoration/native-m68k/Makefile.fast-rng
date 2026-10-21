@@ -1,0 +1,23 @@
+include Makefile.native
+.DEFAULT_GOAL := fast-rng
+RNG_SOURCE ?= rng-native.c
+FAST_MATH_NAMES = -Dbiwn_native_multiply_result=biwn_native_fast_multiply_result -Dbiwn_native_division_result=biwn_native_fast_division_result -Dbiwn_native_remainder_result=biwn_native_fast_remainder_result
+.PHONY: fast-rng
+fast-rng: $(BUILD)/native-fast-rng.elf $(BUILD)/native-fast-rng.bin $(BUILD)/runtime-original.bin
+
+$(BUILD)/rng-native-fast.o: $(RNG_SOURCE) rng-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror $(FAST_MATH_NAMES) -I. -I.. -c $< -o $@
+$(BUILD)/rng-shims.o: rng-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/rng-fast-math.o: rng-fast-math.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/native-fast-rng.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o fast-rng.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T fast-rng.ld -Map $(BUILD)/native-fast-rng.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-fast-rng.bin: $(BUILD)/native-fast-rng.elf
+	$(CROSS)objcopy -O binary $< $@
+$(BUILD)/runtime-original.o: runtime-original.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/runtime-original.elf: $(BUILD)/runtime-original.o runtime-original.ld $(MAKEFILE_LIST)
+	$(CROSS)ld -T runtime-original.ld -o $@ $<
+$(BUILD)/runtime-original.bin: $(BUILD)/runtime-original.elf
+	$(CROSS)objcopy -O binary $< $@

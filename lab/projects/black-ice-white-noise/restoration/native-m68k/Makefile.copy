@@ -1,0 +1,13 @@
+include Makefile
+.DEFAULT_GOAL := copy
+COPY_SOURCE ?= copy-native.c
+.PHONY: copy
+copy: $(BUILD)/native-copy.elf $(BUILD)/native-copy.bin
+$(BUILD)/copy-shims.o: copy-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/copy-native.o: $(COPY_SOURCE) copy-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-copy.elf: $(BUILD)/copy-shims.o $(BUILD)/copy-native.o copy.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T copy.ld -Map $(BUILD)/native-copy.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-copy.bin: $(BUILD)/native-copy.elf
+	$(CROSS)objcopy -O binary $< $@

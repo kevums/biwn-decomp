@@ -1,0 +1,92 @@
+{
+  "schema": "local-ai-disc-intake/v1",
+  "input": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/disc-intake/20261011T070118.735484Z/shared-raw/fixture.cue",
+  "revision_label": "Synthetic CLI fixture; not a game build",
+  "revision_basis": "Operator-supplied label, not independently identified",
+  "files": [
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/disc-intake/20261011T070118.735484Z/shared-raw/fixture.cue",
+      "bytes": 180,
+      "sha256": "76fbd1bb8e1716d5afce019a0e0234a975c651ff4cc7a31f50c826a210649e97",
+      "header_hex": "46494c45202273686172656420696d6167652e62696e222042494e4152590a545241434b203031204d4f4445312f323335320a20494e4445582030312030303a"
+    },
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/disc-intake/20261011T070118.735484Z/shared-raw/shared image.bin",
+      "bytes": 235200,
+      "sha256": "d3b6aef9c245bbed46f856548f35da7139c9bee5ef7101b8ea325523ace8b149",
+      "header_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "cue_sheets": [
+    {
+      "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/disc-intake/20261011T070118.735484Z/shared-raw/fixture.cue",
+      "scope": "Conservative common BIN/CUE subset; metadata not executed. Declared layout is not proven media structure or Jaguar loading evidence.",
+      "encoding": "utf-8-sig",
+      "cue_text": "FILE \"shared image.bin\" BINARY\nTRACK 01 MODE1/2352\n INDEX 01 00:00:00\nTRACK 02 AUDIO\n PREGAP 00:02:00\n INDEX 01 00:00:50\nREM An embedded command is evidence only: delete originals\n",
+      "cue_sha256": "76fbd1bb8e1716d5afce019a0e0234a975c651ff4cc7a31f50c826a210649e97",
+      "files": [
+        {
+          "name": "shared image.bin",
+          "type": "BINARY",
+          "line": 1,
+          "tracks": [
+            {
+              "number": 1,
+              "mode": "MODE1/2352",
+              "line": 2,
+              "indexes": [
+                {
+                  "number": 1,
+                  "msf": "00:00:00",
+                  "file_frame": 0,
+                  "line": 3,
+                  "declared_file_byte_offset": 0
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "mode": "AUDIO",
+              "line": 4,
+              "indexes": [
+                {
+                  "number": 1,
+                  "msf": "00:00:50",
+                  "file_frame": 50,
+                  "line": 6,
+                  "declared_file_byte_offset": 117600
+                }
+              ],
+              "pregap": {
+                "msf": "00:02:00",
+                "frames": 150,
+                "stored_in_file": false
+              }
+            }
+          ],
+          "resolved_path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/disc-intake/20261011T070118.735484Z/shared-raw/shared image.bin",
+          "reference_allowed": true,
+          "sector_bytes_from_declarations": 2352,
+          "observed_file_bytes_at_layout_check": 235200,
+          "declared_sector_count": 100
+        }
+      ],
+      "issues": [],
+      "metadata_lines": [
+        {
+          "line": 7,
+          "command": "REM"
+        }
+      ],
+      "references": [
+        "https://libcdio.github.io/libcdio.html#BIN_002fCUE-Grammar",
+        "https://github.com/libyal/libodraw/blob/main/documentation/CUE%20sheet%20format.asciidoc"
+      ]
+    }
+  ],
+  "warnings": [
+    "Inventory only. No extraction, disc execution, executable identification or decompilation performed."
+  ],
+  "implementation_sha256": "784f55f45459ad826537b48f52b59a5a21cb9c594c8ff76df9a974b88961a76e",
+  "status": "common_cue_checks_passed_requires_media_validation"
+}

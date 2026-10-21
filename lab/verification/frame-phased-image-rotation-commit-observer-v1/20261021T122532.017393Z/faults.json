@@ -1,0 +1,178 @@
+[
+  {
+    "name": "rotation_begin_PC",
+    "rejected": true
+  },
+  {
+    "name": "rotation_begin_bank",
+    "rejected": true
+  },
+  {
+    "name": "rotated_buffers",
+    "rejected": true
+  },
+  {
+    "name": "display_pointer",
+    "rejected": true
+  },
+  {
+    "name": "display_entry_A0",
+    "rejected": true
+  },
+  {
+    "name": "display_entry_SP",
+    "rejected": true
+  },
+  {
+    "name": "display_entry_PC",
+    "rejected": true
+  },
+  {
+    "name": "guest_return",
+    "rejected": true
+  },
+  {
+    "name": "guest_records_argument",
+    "rejected": true
+  },
+  {
+    "name": "guest_output_argument",
+    "rejected": true
+  },
+  {
+    "name": "saved_A6",
+    "rejected": true
+  },
+  {
+    "name": "saved_D2",
+    "rejected": true
+  },
+  {
+    "name": "saved_A2",
+    "rejected": true
+  },
+  {
+    "name": "private_table_base",
+    "rejected": true
+  },
+  {
+    "name": "private_table_cursor",
+    "rejected": true
+  },
+  {
+    "name": "private_field_cursor",
+    "rejected": true
+  },
+  {
+    "name": "stop_record",
+    "rejected": true
+  },
+  {
+    "name": "output_last_word",
+    "rejected": true
+  },
+  {
+    "name": "display_D0",
+    "rejected": true
+  },
+  {
+    "name": "display_D1",
+    "rejected": true
+  },
+  {
+    "name": "display_A0",
+    "rejected": true
+  },
+  {
+    "name": "display_A1",
+    "rejected": true
+  },
+  {
+    "name": "display_D2",
+    "rejected": true
+  },
+  {
+    "name": "display_A6",
+    "rejected": true
+  },
+  {
+    "name": "display_SP",
+    "rejected": true
+  },
+  {
+    "name": "display_PC",
+    "rejected": true
+  },
+  {
+    "name": "display_USP",
+    "rejected": true
+  },
+  {
+    "name": "display_SSP",
+    "rejected": true
+  },
+  {
+    "name": "display_SR",
+    "rejected": true
+  },
+  {
+    "name": "display_bus",
+    "rejected": true
+  },
+  {
+    "name": "display_csp_metadata",
+    "rejected": true
+  },
+  {
+    "name": "display_activeCPU_metadata",
+    "rejected": true
+  },
+  {
+    "name": "display_active",
+    "rejected": true
+  },
+  {
+    "name": "display_error",
+    "rejected": true
+  },
+  {
+    "name": "rotation_end_A2",
+    "rejected": true
+  },
+  {
+    "name": "rotation_end_SP",
+    "rejected": true
+  },
+  {
+    "name": "rotation_end_PC",
+    "rejected": true
+  },
+  {
+    "name": "rotation_end_SR",
+    "rejected": true
+  },
+  {
+    "name": "rotation_service",
+    "rejected": true
+  },
+  {
+    "name": "missing_rotation_begin",
+    "rejected": true
+  },
+  {
+    "name": "missing_display_begin",
+    "rejected": true
+  },
+  {
+    "name": "missing_display_end",
+    "rejected": true
+  },
+  {
+    "name": "missing_rotation_end",
+    "rejected": true
+  },
+  {
+    "name": "physical_C_stack",
+    "rejected": true
+  }
+]

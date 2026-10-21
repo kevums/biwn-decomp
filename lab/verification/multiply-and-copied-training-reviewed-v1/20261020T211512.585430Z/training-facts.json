@@ -1,0 +1,32 @@
+{
+  "status": "terminal_copied_game_training_two_updates_verified_quality_unproven",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Copied Game Training Check Review.txt",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "run": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/copied-game-training-check-v1/20261020T210201.710998Z",
+  "job": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T210209.430446Z",
+  "frozen_evidence": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/multiply-and-copied-training-reviewed-v1/20261020T211512.585430Z/copied-training",
+  "copied_runtime_training_verified": true,
+  "optimizer_updates": 2,
+  "trainable_layers": 1,
+  "LoRA_rank": 8,
+  "maximum_sequence_length": 8960,
+  "longest_complete_example_tokens": 8834,
+  "first_training_batch_shape": [
+    1,
+    8865
+  ],
+  "peak_reported_memory_GB": 50.419748407,
+  "train_records": 17,
+  "validation_records": 1,
+  "test_records": 4,
+  "test_scoring_performed": false,
+  "base_shards_unchanged": 5,
+  "adapter_tensors_finite": true,
+  "LoRA_B_nonzero": true,
+  "adapter_promoted": false,
+  "answer_quality_evaluated": false,
+  "previous_model_restored": true,
+  "new_model_predictions": 0,
+  "training_launcher": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/Check Game Training.command",
+  "scope": "Actual two fresh LoRAupdates usingcopied27B6bit model,SDK and reviewed completegeometryexamples. Full-context maskedloss/chunk64/eager;longest8834tokens pluspadding staysbelow8960. Traininggroup hashes/disjoint splits unchanged;test data is loaded by datasetloader but not scored or used forgradients. Pythonpathaudits showzero rejectedoriginaccess;nativeMLX fileI/O isnot covered byPythonhooks. Command/log names copiedweights;fivebase shards hash-identicalbefore/after. This is capability verification,not a quality improvement oradoptedmodel;earlier64updatepilot remainsseparate/unpromoted."
+}

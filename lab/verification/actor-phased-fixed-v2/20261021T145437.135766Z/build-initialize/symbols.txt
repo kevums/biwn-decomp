@@ -1,0 +1,9 @@
+00000060 a TRANSIENT_CONTEXT
+001639c4 T biwn_actor_initialize_start
+00163c8c T biwn_actor_initialize_after_placement
+00163eec T biwn_native_actor_initialize
+00163f5c T biwn_actor_initialize_after_outside
+00163f76 T biwn_actor_initialize_after_inside
+00163fce T biwn_actor_initialize_after_task
+00163fe4 T biwn_native_actor_initialize_return
+00190000 A NATIVE_ADDRESS

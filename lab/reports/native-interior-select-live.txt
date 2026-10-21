@@ -1,0 +1,38 @@
+BIWN — LOCAL INTERIOR SELECTOR GAMEPLAY
+2026-10-19T07:15:06.948033+00:00
+
+The18888byte resident candidate completed 24996 fresh gameplay frames; its same-layout control completed 24996. Both returned outdoors. The control restores only the two eight-byte10520/105DAentries; previous doorway/geometry routines remain compiled in both. Candidate/control call counts by actor and sprite: [14, 1]/[14, 1]; successes [14, 0]/[14, 0]; failures [0, 1]/[0, 1]. Combined candidate skipped scans 1, scan iterations 35. Unreached per-kind paths remain component coverage.
+
+The candidate executed 15 compiled entries and 15 returns, with no original selector body steps. The control executed 15 original entries/returns and no compiled selector entries. Both stable-entry oracles pass fullD/A/SR/USP/SSP, actor six fields/sprite selected field, argument/return bytes and observed task stacks, with zero reported interior errors/pending/outside. Candidate maximum private depth 100bytes/minimum task headroom 606bytes; control 12/694.
+
+The read-only oracle was qualified on1958original+1958final-address compiled stable fixtures, including two corrupted-return negatives and entry/return RAM immutability guards. Its fixture-only task-ID adapter avoids altering dense table RAM; live task ID is read fromC0920. Predictions use stable entry RAM and ordered shadow writes for actor/record overlap. Changing/concurrent/device reads and arbitrary interleavings are not independently predicted live;768changing-read component cases remain separate.
+
+Aligned-prefix differences:
+{
+  "CPU_full": 76,
+  "full_RAM_sha256": 24988,
+  "full_GPU_state_sha256": 89,
+  "full_DSP_state_sha256": 0,
+  "video_sha256": 4,
+  "navigation": 5,
+  "locomotion_state": 1,
+  "held_buttons": 4
+}
+First different frames:
+{
+  "full_RAM_sha256": 9,
+  "CPU_full": 359,
+  "full_GPU_state_sha256": 361,
+  "locomotion_state": 8587,
+  "navigation": 8887,
+  "held_buttons": 8887,
+  "video_sha256": 8888
+}
+Compared prefix 24996frames; equal frame counts: True; full captured PCM byte-equal: True.
+
+The accepted616byte native selector kernel is unchanged local27B output after one coordinator-guided repair, outer fence removed. The first draft failed compilation; the coordinator supplied additional source findings. Same-weight Reviewers missed those defects. Layout/ABI/contract/verifiers/integration are coordinator work, and the model used scalar volatile-width helpers instead of the requested struct fields. These supported development checks do not demonstrate training gain or independent review.
+
+Both routes use retained native emulator processors/platform services. New exact-disc C-provider comparison is separate. No whole-machine/cycle/physical-console or full-game rebuild proof; older compiled-scanner/original-scanner-entry timing/video/audio differences remain inherited limits. Default preview is unchanged.
+
+Exact model work: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-interior-development-reviewed/20261019T070506.039858Z/prompts-and-responses.txt
+Component/build evidence: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-interior-select-development.txt

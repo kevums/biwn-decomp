@@ -1,0 +1,23 @@
+{
+  "status": "reviewed_game_splits_added_without_changes",
+  "resources": [
+    {
+      "relative_path": "workbench/training/game/geometry-v4-20261020T164053.588459Z/train.jsonl",
+      "sha256": "789e83edc8a6f16c38c18c4bf131d587e8b7ca25b5f1f2ab432f45b14a986dd5",
+      "bytes": 132163
+    },
+    {
+      "relative_path": "workbench/training/game/geometry-v4-20261020T164053.588459Z/valid.jsonl",
+      "sha256": "89fc0aec4b83bfdcfebf314f53899c997ef23cd84501d6076366996d3d3cf650",
+      "bytes": 3869
+    },
+    {
+      "relative_path": "workbench/training/game/geometry-v4-20261020T164053.588459Z/test.jsonl",
+      "sha256": "3145b7fce4f299ed177734b322e077a7f4ca3826a2bc38c41d4c4c1780c0b6ec",
+      "bytes": 42899
+    }
+  ],
+  "manifest_sha256": "93cfb7f1cb02a63fe76c14967b9aaa9c2870cb2a85a1f135ef67029bb0b63c9f",
+  "failed_preflight": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/copied-game-training-check-v1/20261020T210113.944738Z",
+  "optimizer_updates_before_fix": 0
+}

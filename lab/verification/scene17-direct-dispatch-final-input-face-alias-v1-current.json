@@ -1,0 +1,21 @@
+{
+  "status": "terminal_scene_input_face_four_direction_alias_fallbacks_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-final-input-face-alias-v1/20261021T024459.190122Z",
+  "pid": 8852,
+  "completed": 256,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene17_display_list_runtime_v1.py": "5f911bec5116f598ce916ac95c7d62cc83b6865bb45060dfdb672a4b677a91ee",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/display-list-fullCPU-generation.json": "288afb80953f3ebb2f3188b0e81f45def6ed8f55e97e70b9e36dab55aed6e03e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-algorithm-v2/coordinator-reference.inc": "8ceb5c3779c3523b07c7c2488785dd31588886e03b6a21688adae29d9102a257",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_direct_dispatch_final_input_face_alias_v1.py": "e3d87a61b8218cbebc660a2c0a13d2757aaa3e3de68fa360d7508dacbd8d4a9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_direct_dispatch_final_bridge_v1.py": "565f8f9001ace4e7fa5eefcbfd68a7053e759227827812872f01d4e44bec1802",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-final-bridge-v1-current.json": "864877bc6f5020116691cecc5ee9a4af981f8122c52266b8855957bfaa4444e0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-final-bridge-v1/20261021T024305.718687Z/build/native-shared.bin": "b59d05ec51166a93f6f3bb29ab935e100836927439cad7dc9c75a7ea6d6a3a04",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-final-input-face-alias-v1/20261021T024459.190122Z/cases.json": "e7243c2a4db72a2829bba5b89bdd3809330691a56870c7aff5cb9c9f1fa5c855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_input_source_v1.py": "7a17b10bfb260533a2f151e6a75ecd049fd74ac11e8288eb11188d6ccf9151f3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_face_contact_v1.py": "2794380c8eca2d4a5db140fee98c35300a79a239da435f17b52f5ecce5ef7ba0"
+  },
+  "scope": "Actual scene/input/face cross-root busy fallbacks in four injected directions.\nOne helper JSR is injected. Nested scene uses modezero;input/face helpers are\ndeclared volatile-register/pad/record effects. Original clear executes; native rotation boundaries are recorded from the logical frame.\nCPU,nonarenaRAM,helperrecords and protected outer frame/stack compare. Not\nnatural calls, fresh gameplay or arbitrary IRQ/reentry proof.\n64casesperdirection,all32CCR/bothbanks,4taskslotsand3guestSPdepths. Exactlyoneacceptedouterandonebusyinnerfallback;private118bytecontext/208byteCstackprotected.No new image or preview changes."
+}

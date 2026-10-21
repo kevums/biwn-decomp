@@ -1,0 +1,52 @@
+BIWN loader integration: experimental native28 with a native scan kernel
+
+The newly built disc runs the recovered resource loader as C control flow plus newly assembled 68000 scan code. It completes the tested merchant-to-outdoor route. It remains experimental: identical-input output differs from native26, the full game is not rebuilt from source, and no physical console test has run. The existing playable preview and native26 default are unchanged.
+
+Usable files
+
+Experimental disc:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-load-scan/20261018T125303.944734Z/BIWN-23-native-load-scan-experimental.cdi
+
+Show Experimental Loader Disc.command reveals that file in Finder. Its --print path and image hash were checked. This is an optional disc-file shortcut, not a replacement for the keyboard preview.
+
+Ask BIWN Candidate Status.command reads current evidence through the local model. The final reviewed question took 11.28 seconds with one actual SDK tool call. It correctly distinguished twelve matching CPU returns from seven matching copied payloads. The native LM Studio Chat window remains unverified: one computer-use request timed out after 120.61 seconds without a usable screen. It was not retried and no unlock request was sent.
+
+What changed and how the failure was handled
+
+The original loader searches for sixteen consecutive 32-bit marker values. The existing restoration repair searches at two-byte intervals while retaining those 32-bit comparisons. That repair now has an explicit source form; the original longword-scan C reference remains separate.
+
+A first size-optimized C version passed its component tests but failed the fresh adaptive game route after 26,795 frames. It executed twelve compiled loader calls, with no observed task-stack boundary violation, but never reached the merchant and produced no audio on that route. Its failure was retained. The runner's positive-release-coverage assertion was unmet because the route failed; saved emulator outputs were classified without replaying or converting that failed outcome into a pass.
+
+Restoring only the loader entry to the original repaired body, with the same payload, heap reservation and startup, completed the adaptive route in 24,956 frames. Read-only captures then showed that the first real load returned identical CPU state and 96,350 identical payload bytes, but the C scan returned at frame 244 instead of 209. Across the first twelve captured calls, all twelve returned CPU states matched; the seven non-null copy calls had seven matching payload comparisons. This is scoped boundary evidence, not proof of every call or an isolated explanation of the entire game failure.
+
+An optimized C scan reduced a controlled case from 63,736 to 20,474 cycles. A source-assembled scan kernel reduced it to 17,298 cycles while retaining C control flow for waiting, CD calls, copying and readiness. In the fresh matched-layout capture, the kernel's first load returned at frame 209, matching the original control. All twelve captured CPU returns and seven copied payloads matched. The tested build then completed the adaptive route; no claim is made that one timing measurement proves every integration cause.
+
+Checks for the final payload
+
+The linked payload is 7,254 bytes, padded to a 7,680-byte reservation at0x15EDC0; the heap begins at0x160BC0. The disc changes 6,396 bytes within declared stage patches. The original CDI and track metadata outside those intervals are preserved. Startup copied words and the heap reservation match the earlier failed C-loader build. All 96 startup cases take 174,986 measured native CPU cycles and preserve the original entry ABI; 5,151 installed keypad cases pass.
+
+The final exact binary passed all eight existing component groups, 3,072 controlled acquire cases, 384 real-allocator cases, 768 release cases, 240 coupled lifecycle call pairs, 480 compiler-support cases and 5,663 keypad cases. The repaired loader passed 1,100 native CPU/public-RAM/helper-state cases and 114 ordered-access cases, including halfword-aligned markers and boundaries; all 71 instructions of the repaired reference execute across that matrix. Actual-dependency and nested-acquire fixture profiles pass 16 cases each. Those fixtures retain two explicit BIOS adapters and external preserved-disc completion. They do not establish general interrupts, reentrancy or physical timing.
+
+Fresh gameplay completes in 24,961 frames. It reaches the merchant, returns floors2→1→0, clears the exit and holds outdoors for 120 frames. The game executes 43 compiled loader calls and 11 compiled acquire calls, with zero old-body instructions in those routines. There are 1,809,669 observations in the watched loader code, zero observed task-stack boundary violations, and a minimum 308 bytes above the task header. Audio contains 1,609,532 nonzero samples. Unequal adaptive inputs and route lengths prevent waveform-equivalence claims. Native26 repeats its prior 24,972-frame rows and PCM exactly.
+
+Fixed-input limits
+
+Both builds receive the same actual button callbacks for 29,783 frames, but game/video fields differ. Both PCM traces are silent and equal; that is not evidence of working audio on this fixed path. The schedule originated from native23, and native26 already fails its intended route, so this is a difference detector rather than a gold full-game outcome.
+
+The full matched-layout control restores only eight loader-entry bytes, leaving compiled acquire and all other code enabled. Relative to the kernel build it has 208 differing X frames, 590 differing Z frames and 27,373 differing video frames; scene, floor and mode fields match. These differences include implementation and execution-cost effects together. They do not distinguish logical errors from IRQ/timing interactions or prove arbitrary-input equivalence. This control is separate from the 4,000-frame capture and from older acquire-only controls.
+
+Authorship and local inference
+
+The accepted loader C, ABI adapters and scan kernel are coordinator-written source. The earlier local Author's unchanged full-loader C draft was rejected; its same-weight Reviewer was incomplete. The existing eighteen-byte word-scan repair originally came from an accepted local assembly draft. No cloud subagents or new weight training were used in this integration pass.
+
+Exact local status prompts and responses are saved under runs/local-acquire-tool-reader-20261018T125533.209824Z,125755.278104Z and125916.623066Z. One answer needed a count-scope revision; the final answer is retained unchanged with coordinator review. These are repeated development questions, not broad model competence or native Chat verification. A model-busy test confirmed direct verified status output without invoking a competing inference.
+
+The 27B/6bit daily model, 32K context and one-worker configuration remain selected. Advertising research/education retrieval and source-span workflows are unchanged; rejected adapters remain unpromoted. Representative training/evaluation, native Chat usability, broader game source/device coverage and the future hardware profile remain part of the active goal.
+
+Evidence manifest:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-load-scan-current.json
+Snapshots:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-load-scan-evidence/20261018T130439.847900Z
+Readable source:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-load-word-scan-kernel.c
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-load-scan.S

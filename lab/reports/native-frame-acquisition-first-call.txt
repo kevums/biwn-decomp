@@ -1,0 +1,15 @@
+BIWN 1AC68 first-call diagnostic
+
+Both fresh runs enter at frame291 with identical CPU and2MB RAM except five changed entry-JMP bytes.
+Original loader entry frame291; C frame292. Original routine return frame304; C frame306.
+All D/A registers,SR,USP/SSP,44 public frame bytes and144 cache bytes match at the checked live phases; codePC relocations declared.
+Stopped-device pre-loader:original118 instructions/1464cycles;C5337 instructions/59246cycles. Full CPU/args/publicRAM match.
+This supports a timing explanation for the first divergence; it does not prove the cause of all later differences.
+
+Full candidate route:24979frames,116 calls/returns,13 loader calls,zero ABI/stack monitor errors;minimum user stack headroom56bytes.
+Same-layout original-routine control:24972frames,116 calls/returns,13 loader calls,zero monitor errors;minimum user stack headroom308bytes.
+Both return outdoors; video/audio differ. Experimental only; current interactive preview unchanged.
+
+Native C port is coordinator-authored; no new local-model prompts, inference or weight training in this work.
+Next:separate lean variant preserving all173 source locations/full observable contract;rerun full component,nesting,heap/entry and live gates. Do not edit the accepted context-array source or bound evidence in place.
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-acquire-first-call-reviewed-current.json

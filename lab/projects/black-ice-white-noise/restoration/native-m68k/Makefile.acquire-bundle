@@ -1,0 +1,13 @@
+include Makefile.resource-bundle
+.DEFAULT_GOAL := acquire-bundle
+ACQUIRE_SOURCE ?= resource-acquire-reference.c
+.PHONY: acquire-bundle
+acquire-bundle: $(BUILD)/native-acquire-bundle.elf $(BUILD)/native-acquire-bundle.bin $(BUILD)/runtime-original.bin $(BUILD)/scheduler-yield.bin $(BUILD)/scheduler-remove.bin
+$(BUILD)/resource-acquire-shim.o: resource-acquire-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/resource-acquire-native.o: $(ACQUIRE_SOURCE) resource-acquire-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-acquire-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize-heap.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o $(BUILD)/scheduler-shims.o $(BUILD)/scheduler-native.o $(BUILD)/heap-shims.o $(BUILD)/heap-allocate-native.o $(BUILD)/heap-compact-native.o $(BUILD)/copy-shims.o $(BUILD)/copy-native.o $(BUILD)/free-shims.o $(BUILD)/free-native.o $(BUILD)/heap-initialize.o $(BUILD)/resource-release-shim.o $(BUILD)/resource-release-native.o $(BUILD)/resource-acquire-shim.o $(BUILD)/resource-acquire-native.o acquire-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T acquire-bundle.ld -Map $(BUILD)/native-acquire-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-acquire-bundle.bin: $(BUILD)/native-acquire-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

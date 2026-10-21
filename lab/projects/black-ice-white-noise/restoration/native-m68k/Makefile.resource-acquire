@@ -1,0 +1,19 @@
+include Makefile
+.DEFAULT_GOAL := resource-acquire
+ACQUIRE_SOURCE ?= resource-acquire-reference.c
+.PHONY: resource-acquire
+resource-acquire: $(BUILD)/native-resource-acquire.bin $(BUILD)/acquire-providers.bin
+$(BUILD)/resource-acquire-shim.o: resource-acquire-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/resource-acquire-native.o: $(ACQUIRE_SOURCE) resource-acquire-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-resource-acquire.elf: $(BUILD)/resource-acquire-shim.o $(BUILD)/resource-acquire-native.o resource-acquire.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T resource-acquire.ld -Map $(BUILD)/native-resource-acquire.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-resource-acquire.bin: $(BUILD)/native-resource-acquire.elf
+	$(CROSS)objcopy -O binary $< $@
+$(BUILD)/acquire-providers.o: resource-acquire-providers.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/acquire-providers.elf: $(BUILD)/acquire-providers.o
+	$(CROSS)ld -Ttext=0x144000 -e acquire_provider_wait -o $@ $<
+$(BUILD)/acquire-providers.bin: $(BUILD)/acquire-providers.elf
+	$(CROSS)objcopy -O binary $< $@

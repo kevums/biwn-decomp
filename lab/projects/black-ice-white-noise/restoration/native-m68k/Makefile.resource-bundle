@@ -1,0 +1,13 @@
+include Makefile.free-bundle
+.DEFAULT_GOAL := resource-bundle
+RELEASE_SOURCE ?= resource-release-native.c
+.PHONY: resource-bundle
+resource-bundle: $(BUILD)/native-resource-bundle.elf $(BUILD)/native-resource-bundle.bin
+$(BUILD)/resource-release-shim.o: resource-release-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/resource-release-native.o: $(RELEASE_SOURCE) resource-release-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-resource-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize-heap.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o $(BUILD)/scheduler-shims.o $(BUILD)/scheduler-native.o $(BUILD)/heap-shims.o $(BUILD)/heap-allocate-native.o $(BUILD)/heap-compact-native.o $(BUILD)/copy-shims.o $(BUILD)/copy-native.o $(BUILD)/free-shims.o $(BUILD)/free-native.o $(BUILD)/heap-initialize.o $(BUILD)/resource-release-shim.o $(BUILD)/resource-release-native.o resource-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T resource-bundle.ld -Map $(BUILD)/native-resource-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-resource-bundle.bin: $(BUILD)/native-resource-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

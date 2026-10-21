@@ -1,0 +1,12 @@
+BIWN — EXTERNAL DSP REPAIR
+2026-10-19T00:30:36.746452+00:00
+
+The repaired-disc initial-entry C CPU/GPU/DSP/IRQ candidate retains its separate 1,600-frame gameplay pass with zero original CPU opcode execution from the HLE-prepared entry. The external DSP gap is now repaired at the component and transition-window level: 5,580 native atomic comparisons and ten rejection guards pass. In a fresh 15,920-frame route, source DSP owns frames 15,845–15,919, executes all 460 formerly uncovered external instructions, and uses zero original DSP fallback during that window. All eight recorded state/video/input fields and captured PCM prefix bytes match the reused native control, including nonzero audio. CPU/GPU/IRQ remain original providers in this separate DSP-only window test. The old full combined route still failed at frame 15,849; a new full combined route has not passed yet. The earlier 24,975-frame CPU-only pass retains native bootstrap/GPU/DSP/IRQ and cannot establish the newer candidate. Local Code Author supplied ADDC unchanged; both local MTOI drafts were rejected, and Codex corrected MTOI. No whole-game source rebuild, standalone console boot, general speedup, physical audio or new weights are proved. Firmware HLE, device/IRQ line+ACK/vector, host commit/prefetch/cost/clock and blitter/objectprocessor services remain.
+
+Component source/export: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/external-DSP-execution-C/20261019T002624.919573Z
+Native check: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-native-check/20261019T002628.231450Z/protocol.json
+Fresh transition test: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-live-window/20261019T002755.131617Z/protocol.json
+
+Exact original local prompt/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/external-DSP-Code-Author-20261019T002329.575906Z/prompts-and-responses.txt
+Guided revision: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/external-DSP-Code-Author-revision-20261019T002535.207331Z/prompts-and-responses.txt
+No standalone same-console or whole-game completion claim.

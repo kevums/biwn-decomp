@@ -1,0 +1,19 @@
+"""Normal-pad adaptive route on the matched-layout original-loader control."""
+from pathlib import Path
+from datetime import datetime,timezone
+import json,subprocess,os
+from run_biwn_native_fast_gameplay_route import ROOT,sha,save
+
+def main():
+ rp=ROOT/'verification/native-load-route-current.json';route=json.loads(rp.read_text());cp=ROOT/'verification/native-load-layout-control-active.json';control=json.loads(cp.read_text());bp=ROOT/'verification/native-load-disc-build-current.json';build=json.loads(bp.read_text());baseline=json.loads(Path(route['baseline_build_proof']).read_text());assert control['build_proof_sha256']==sha(bp)and sha(control['disc'])==control['disc_sha256'];source=Path(route['directory'])/'fresh-load-route.py';assert sha(source)==route['source_sha256'][str(source)]
+ out=ROOT/'verification/native-load-adaptive-control'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ');out.mkdir(parents=True);text=source.read_text();predicate='disc==Path('+repr(build['derived_disc'])+')';replacement='disc!=Path('+repr(baseline['derived_disc'])+')';assert text.count(predicate)==2;text=text.replace(predicate,replacement);probe=out/'fresh-adaptive-control.py';probe.write_text(text);compile(text,str(probe),'exec')
+ command=list(next(x['command']for x in route['commands']if x['lane']=='native28_repaired'));command[2]=str(probe);command[command.index('--disc')+1]=control['disc'];command[command.index('--output')+1]=str(out/'control')
+ state=dict(status='prepared',pid=os.getpid(),directory=str(out),route_proof=str(rp),route_proof_sha256=sha(rp),build_proof=str(bp),build_proof_sha256=sha(bp),control_disc=control['disc'],control_disc_sha256=control['disc_sha256'],command=command,host_guest_RAM_writes=0,checkpoint_restores=0,whole_game_complete=False,source_sha256={str(p):sha(p)for p in [Path(__file__),source,probe]})
+ def mark():save(out/'protocol.json',state);save(ROOT/'verification/native-load-adaptive-control-active.json',state)
+ mark();print(out,flush=True)
+ with(out/'control.log').open('w')as log:
+  child=subprocess.Popen(command,stdout=log,stderr=subprocess.STDOUT);state.update(status='running_fresh_adaptive_original_loader_control',child_pid=child.pid);mark();print('PID',child.pid,flush=True);code=child.wait()
+ assert code==0,code;report=json.loads((out/'control/report.json').read_text());obs=json.loads((out/'control/gameplay-observation.json').read_text());assert not(obs['errors']or obs['copy_errors']or obs['repair_code_errors']);assert obs['native_C_loader_calls']==0 and obs['old_loader_body_steps']>0 and obs['native_C_acquire_calls']==obs['acquire_entries']>0
+ rows=report['frames'];start=next((i for i,x in enumerate(rows)if(x.get('navigation')or{}).get('return_started')),None);transitions=[]if start is None else[(rows[i-1]['floor_word'],rows[i]['floor_word'])for i in range(start,len(rows))if rows[i-1]['floor_word']!=rows[i]['floor_word']];last=rows[-1];merchant=any(x['player_mode_word']==2 and x['floor_word']==2 and x['scene_word']==314 and abs(x['raw_player_X']-12832)<=16 and abs(x['raw_player_Z']-42385)<=16 for x in rows);hold=(last.get('navigation')or{}).get('outdoor_hold',0)>=120
+ state.update(status='terminal_adaptive_original_loader_control_classified',exit_code=code,executed_frames=report['executed_frames'],merchant_reached=merchant,return_floor_transitions=transitions,outdoor_hold=hold,route_completed=merchant and transitions==[(2,1),(1,0)]and hold,nonzero_audio_samples=report['audio']['nonzero_samples'],observation=obs,report_sha256=sha(out/'control/report.json'),scope='Same native28payload/7680heapreservation/startup withonlyloaderentryrestored tooriginalrepairedbody. Adaptivebuttons maydiffer fromnewCroute; semanticoutcome comparison,notidenticalinput causalproof.');mark();save(ROOT/'verification/native-load-adaptive-control-current.json',state);print(state['status'],state['route_completed'],report['executed_frames'],flush=True)
+if __name__=='__main__':main()

@@ -1,0 +1,394 @@
+{
+  "time": "2026-10-12T21:43:02.806413+00:00",
+  "status": "static_relocation_transform_checked_GPU_execution_unverified",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/processor-programs/nextstage-helper-gpu.bin",
+  "source_sha256": "2a6ad91e2d3262d495a3349f72701862670e778633df9e61c65e397ace64106d",
+  "output": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/processor-programs/nextstage-helper-gpu-static-relocated.bin",
+  "output_sha256": "7ca839f7e8ea8e8d43c4c9c7178b37dbf885baa8190c7513de8cac14817027db",
+  "facts": {
+    "delta": "0x258",
+    "compiled_base": "0xf03000",
+    "load_base": "0xf03258",
+    "movei_relocations": [
+      {
+        "table_index": 0,
+        "compiled_target": "0xf03060",
+        "loaded_target": "0xf032b8",
+        "aligned_write": "0xf032b8",
+        "increment": "0x258",
+        "old_immediate": "0xf03804",
+        "new_immediate": "0xf03a5c"
+      },
+      {
+        "table_index": 1,
+        "compiled_target": "0xf03070",
+        "loaded_target": "0xf032c8",
+        "aligned_write": "0xf032c8",
+        "increment": "0x258",
+        "old_immediate": "0xf03798",
+        "new_immediate": "0xf039f0"
+      },
+      {
+        "table_index": 2,
+        "compiled_target": "0xf03082",
+        "loaded_target": "0xf032da",
+        "aligned_write": "0xf032dc",
+        "increment": "0x2580000",
+        "old_immediate": "0xf0379c",
+        "new_immediate": "0xf039f4"
+      },
+      {
+        "table_index": 3,
+        "compiled_target": "0xf0308c",
+        "loaded_target": "0xf032e4",
+        "aligned_write": "0xf032e4",
+        "increment": "0x258",
+        "old_immediate": "0xf032a8",
+        "new_immediate": "0xf03500"
+      },
+      {
+        "table_index": 4,
+        "compiled_target": "0xf030c4",
+        "loaded_target": "0xf0331c",
+        "aligned_write": "0xf0331c",
+        "increment": "0x258",
+        "old_immediate": "0xf03192",
+        "new_immediate": "0xf033ea"
+      },
+      {
+        "table_index": 5,
+        "compiled_target": "0xf030ca",
+        "loaded_target": "0xf03322",
+        "aligned_write": "0xf03324",
+        "increment": "0x2580000",
+        "old_immediate": "0xf031ec",
+        "new_immediate": "0xf03444"
+      },
+      {
+        "table_index": 6,
+        "compiled_target": "0xf030d0",
+        "loaded_target": "0xf03328",
+        "aligned_write": "0xf03328",
+        "increment": "0x258",
+        "old_immediate": "0xf03224",
+        "new_immediate": "0xf0347c"
+      },
+      {
+        "table_index": 7,
+        "compiled_target": "0xf030d6",
+        "loaded_target": "0xf0332e",
+        "aligned_write": "0xf03330",
+        "increment": "0x2580000",
+        "old_immediate": "0xf0327e",
+        "new_immediate": "0xf034d6"
+      },
+      {
+        "table_index": 8,
+        "compiled_target": "0xf030e2",
+        "loaded_target": "0xf0333a",
+        "aligned_write": "0xf0333c",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03128",
+        "new_immediate": "0xf03380"
+      },
+      {
+        "table_index": 9,
+        "compiled_target": "0xf030ee",
+        "loaded_target": "0xf03346",
+        "aligned_write": "0xf03348",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03176",
+        "new_immediate": "0xf033ce"
+      },
+      {
+        "table_index": 10,
+        "compiled_target": "0xf030f8",
+        "loaded_target": "0xf03350",
+        "aligned_write": "0xf03350",
+        "increment": "0x258",
+        "old_immediate": "0xf0310c",
+        "new_immediate": "0xf03364"
+      },
+      {
+        "table_index": 11,
+        "compiled_target": "0xf030fe",
+        "loaded_target": "0xf03356",
+        "aligned_write": "0xf03358",
+        "increment": "0x2580000",
+        "old_immediate": "0xf0311e",
+        "new_immediate": "0xf03376"
+      },
+      {
+        "table_index": 12,
+        "compiled_target": "0xf03104",
+        "loaded_target": "0xf0335c",
+        "aligned_write": "0xf0335c",
+        "increment": "0x258",
+        "old_immediate": "0xf03114",
+        "new_immediate": "0xf0336c"
+      },
+      {
+        "table_index": 13,
+        "compiled_target": "0xf03128",
+        "loaded_target": "0xf03380",
+        "aligned_write": "0xf03380",
+        "increment": "0x258",
+        "old_immediate": "0xf0313c",
+        "new_immediate": "0xf03394"
+      },
+      {
+        "table_index": 14,
+        "compiled_target": "0xf0312e",
+        "loaded_target": "0xf03386",
+        "aligned_write": "0xf03388",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03166",
+        "new_immediate": "0xf033be"
+      },
+      {
+        "table_index": 15,
+        "compiled_target": "0xf03134",
+        "loaded_target": "0xf0338c",
+        "aligned_write": "0xf0338c",
+        "increment": "0x258",
+        "old_immediate": "0xf03144",
+        "new_immediate": "0xf0339c"
+      },
+      {
+        "table_index": 16,
+        "compiled_target": "0xf03166",
+        "loaded_target": "0xf033be",
+        "aligned_write": "0xf033c0",
+        "increment": "0x2580000",
+        "old_immediate": "0xf0313e",
+        "new_immediate": "0xf03396"
+      },
+      {
+        "table_index": 17,
+        "compiled_target": "0xf03176",
+        "loaded_target": "0xf033ce",
+        "aligned_write": "0xf033d0",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03182",
+        "new_immediate": "0xf033da"
+      },
+      {
+        "table_index": 18,
+        "compiled_target": "0xf0317c",
+        "loaded_target": "0xf033d4",
+        "aligned_write": "0xf033d4",
+        "increment": "0x258",
+        "old_immediate": "0xf03188",
+        "new_immediate": "0xf033e0"
+      },
+      {
+        "table_index": 19,
+        "compiled_target": "0xf03194",
+        "loaded_target": "0xf033ec",
+        "aligned_write": "0xf033ec",
+        "increment": "0x258",
+        "old_immediate": "0xf031dc",
+        "new_immediate": "0xf03434"
+      },
+      {
+        "table_index": 20,
+        "compiled_target": "0xf031d2",
+        "loaded_target": "0xf0342a",
+        "aligned_write": "0xf0342c",
+        "increment": "0x2580000",
+        "old_immediate": "0xf0315c",
+        "new_immediate": "0xf033b4"
+      },
+      {
+        "table_index": 21,
+        "compiled_target": "0xf0328c",
+        "loaded_target": "0xf034e4",
+        "aligned_write": "0xf034e4",
+        "increment": "0x258",
+        "old_immediate": "0xf0347e",
+        "new_immediate": "0xf036d6"
+      },
+      {
+        "table_index": 22,
+        "compiled_target": "0xf032b2",
+        "loaded_target": "0xf0350a",
+        "aligned_write": "0xf0350c",
+        "increment": "0x2580000",
+        "old_immediate": "0xf0347e",
+        "new_immediate": "0xf036d6"
+      },
+      {
+        "table_index": 23,
+        "compiled_target": "0xf032b8",
+        "loaded_target": "0xf03510",
+        "aligned_write": "0xf03510",
+        "increment": "0x258",
+        "old_immediate": "0xf034d4",
+        "new_immediate": "0xf0372c"
+      },
+      {
+        "table_index": 24,
+        "compiled_target": "0xf032be",
+        "loaded_target": "0xf03516",
+        "aligned_write": "0xf03518",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03654",
+        "new_immediate": "0xf038ac"
+      },
+      {
+        "table_index": 25,
+        "compiled_target": "0xf032c8",
+        "loaded_target": "0xf03520",
+        "aligned_write": "0xf03520",
+        "increment": "0x258",
+        "old_immediate": "0xf03298",
+        "new_immediate": "0xf034f0"
+      },
+      {
+        "table_index": 26,
+        "compiled_target": "0xf032de",
+        "loaded_target": "0xf03536",
+        "aligned_write": "0xf03538",
+        "increment": "0x2580000",
+        "old_immediate": "0xf032ee",
+        "new_immediate": "0xf03546"
+      },
+      {
+        "table_index": 27,
+        "compiled_target": "0xf032fe",
+        "loaded_target": "0xf03556",
+        "aligned_write": "0xf03558",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03324",
+        "new_immediate": "0xf0357c"
+      },
+      {
+        "table_index": 28,
+        "compiled_target": "0xf03304",
+        "loaded_target": "0xf0355c",
+        "aligned_write": "0xf0355c",
+        "increment": "0x258",
+        "old_immediate": "0xf0331c",
+        "new_immediate": "0xf03574"
+      },
+      {
+        "table_index": 29,
+        "compiled_target": "0xf03370",
+        "loaded_target": "0xf035c8",
+        "aligned_write": "0xf035c8",
+        "increment": "0x258",
+        "old_immediate": "0xf03378",
+        "new_immediate": "0xf035d0"
+      },
+      {
+        "table_index": 30,
+        "compiled_target": "0xf033e8",
+        "loaded_target": "0xf03640",
+        "aligned_write": "0xf03640",
+        "increment": "0x258",
+        "old_immediate": "0xf033f0",
+        "new_immediate": "0xf03648"
+      },
+      {
+        "table_index": 31,
+        "compiled_target": "0xf03488",
+        "loaded_target": "0xf036e0",
+        "aligned_write": "0xf036e0",
+        "increment": "0x258",
+        "old_immediate": "0xf03070",
+        "new_immediate": "0xf032c8"
+      },
+      {
+        "table_index": 32,
+        "compiled_target": "0xf03066",
+        "loaded_target": "0xf032be",
+        "aligned_write": "0xf032c0",
+        "increment": "0x2580000",
+        "old_immediate": "0xf03794",
+        "new_immediate": "0xf039ec"
+      }
+    ],
+    "longword_relocations": [
+      {
+        "table_index": 0,
+        "compiled_target": "0xf031dc",
+        "loaded_target": "0xf03434",
+        "old_word": "0xf031c8",
+        "new_word": "0xf03420"
+      },
+      {
+        "table_index": 1,
+        "compiled_target": "0xf031e0",
+        "loaded_target": "0xf03438",
+        "old_word": "0xf031a4",
+        "new_word": "0xf033fc"
+      },
+      {
+        "table_index": 2,
+        "compiled_target": "0xf031e4",
+        "loaded_target": "0xf0343c",
+        "old_word": "0xf031ba",
+        "new_word": "0xf03412"
+      },
+      {
+        "table_index": 3,
+        "compiled_target": "0xf031e8",
+        "loaded_target": "0xf03440",
+        "old_word": "0xf031a4",
+        "new_word": "0xf033fc"
+      },
+      {
+        "table_index": 4,
+        "compiled_target": "0xf03298",
+        "loaded_target": "0xf034f0",
+        "old_word": "0xf0334e",
+        "new_word": "0xf035a6"
+      },
+      {
+        "table_index": 5,
+        "compiled_target": "0xf0329c",
+        "loaded_target": "0xf034f4",
+        "old_word": "0xf033c6",
+        "new_word": "0xf0361e"
+      },
+      {
+        "table_index": 6,
+        "compiled_target": "0xf032a0",
+        "loaded_target": "0xf034f8",
+        "old_word": "0xf03422",
+        "new_word": "0xf0367a"
+      },
+      {
+        "table_index": 7,
+        "compiled_target": "0xf032a4",
+        "loaded_target": "0xf034fc",
+        "old_word": "0xf03444",
+        "new_word": "0xf0369c"
+      }
+    ],
+    "both_first_loop_alignment_paths": {
+      "bit1_clear": 18,
+      "bit1_set": 15
+    },
+    "GPU_completion_flag_instruction_after_static_transform": [
+      {
+        "address": 15741630,
+        "size": 6,
+        "bytes": "980039ec00f0",
+        "assembly": "movei   $f039ec,r0",
+        "classification": "decoded_instruction"
+      }
+    ],
+    "GPU_flag_operand_matches_CPU_wait_address": true,
+    "all_writes_inside_captured_helper": true,
+    "all_movei_opcodes_preserved": true,
+    "all_movei_immediates_match_independent_addition": true
+  },
+  "implementation_sha256": "ab8fa36f453784e6a85633ab1de4aecf6c3583baa32b308a5d67e52a3fbcda97",
+  "limits": [
+    "A static evaluation of decoded loops, not an executed GPU or hardware trace.",
+    "MOVE PC/current-instruction-PC behavior comes from the pinned MAME reference.",
+    "Preceding BIOS calls, initial processor state, code/data classification, delay slots and later commands are not validated.",
+    "The transformed file is a derived hypothesis; original candidate bytes remain unchanged."
+  ]
+}

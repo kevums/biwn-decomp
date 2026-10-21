@@ -1,0 +1,95 @@
+{
+  "time": "2026-10-12T22:40:24.508367+00:00",
+  "status": "volatile_annotation_preserves_observed_polling_in_C",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/shared-volatile-20261012T224014.275244Z",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "instructions_unchanged": 18225,
+  "function_entries_unchanged": 206,
+  "source_project_unchanged": true,
+  "annotation": {
+    "start": "00f03200",
+    "end_inclusive": "00f0321f",
+    "volatile": true,
+    "initialized": false,
+    "execute": false,
+    "words": [
+      {
+        "address": "00f03200",
+        "bytes": 4,
+        "label": "shared_word_00f03200_candidate"
+      },
+      {
+        "address": "00f03204",
+        "bytes": 4,
+        "label": "shared_word_00f03204_candidate"
+      },
+      {
+        "address": "00f03208",
+        "bytes": 4,
+        "label": "shared_word_00f03208_candidate"
+      },
+      {
+        "address": "00f0320c",
+        "bytes": 4,
+        "label": "shared_word_00f0320c_candidate"
+      },
+      {
+        "address": "00f03210",
+        "bytes": 4,
+        "label": "shared_word_00f03210_candidate"
+      },
+      {
+        "address": "00f03214",
+        "bytes": 4,
+        "label": "shared_word_00f03214_candidate"
+      },
+      {
+        "address": "00f03218",
+        "bytes": 4,
+        "label": "shared_word_00f03218_candidate"
+      },
+      {
+        "address": "00f0321c",
+        "bytes": 4,
+        "label": "shared_word_00f0321c_candidate"
+      }
+    ],
+    "scope": "Separate project annotation only. Uninitialized volatile words preserve possible asynchronous changes; no device execution or original ABI reconstruction."
+  },
+  "samples": [
+    {
+      "address": "0000e098",
+      "before": "/* Address 0000e098 */\n\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\n\nvoid FUN_0000e098(void)\n\n{\n  do {\n  } while (_DAT_00f03200 != 0);\n  return;\n}\n\n\n",
+      "after": "/* Address 0000e098 */\n\nvoid FUN_0000e098(void)\n\n{\n  uint uVar1;\n  \n  do {\n    uVar1 = shared_word_00f03200_candidate;\n  } while (uVar1 != 0);\n  return;\n}\n\n\n"
+    },
+    {
+      "address": "0000e0a6",
+      "before": "/* Address 0000e0a6 */\n\n/* WARNING: Removing unreachable block (ram,0x0000e0ea) */\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\n/* Analyst entry candidate: direct call site and target PC sampled in assisted emulator; first\n   post-frame bytes match candidate. Body inferred from existing decoded flow; original\n   boundary/name/ABI unverified. Evidence: [{\"from\":\"0x17e3a\",\"bytes\":\"4eb90000e0a6\",\"assembly\":\"jsr\n   $e0a6.l\"}] */\n\nvoid observed_call_candidate_0000e0a6(void)\n\n{\n  FUN_0000e098();\n  do {\n  } while( true );\n}\n\n\n",
+      "after": "/* Address 0000e0a6 */\n\n/* Analyst entry candidate: direct call site and target PC sampled in assisted emulator; first\n   post-frame bytes match candidate. Body inferred from existing decoded flow; original\n   boundary/name/ABI unverified. Evidence: [{\"from\":\"0x17e3a\",\"bytes\":\"4eb90000e0a6\",\"assembly\":\"jsr\n   $e0a6.l\"}] */\n\nvoid observed_call_candidate_0000e0a6(void)\n\n{\n  uint uVar1;\n  \n  FUN_0000e098();\n  shared_word_00f0320c_candidate = 0x47b88;\n  shared_word_00f03210_candidate = 0x49b8c;\n  shared_word_00f03214_candidate = 0x49bb4;\n  shared_word_00f03218_candidate = 0x49b88;\n  shared_word_00f03204_candidate = 0x4d80;\n  do {\n    uVar1 = shared_word_00f03204_candidate;\n  } while (uVar1 == 0x4d80);\n  FUN_0000e098();\n  return;\n}\n\n\n"
+    },
+    {
+      "address": "0000e19e",
+      "before": "/* Address 0000e19e */\n\n/* WARNING: Removing unreachable block (ram,0x0000e1fa) */\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\n\nvoid FUN_0000e19e(void)\n\n{\n  FUN_0000e098();\n  do {\n  } while( true );\n}\n\n\n",
+      "after": "/* Address 0000e19e */\n\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\n\nvoid FUN_0000e19e(void)\n\n{\n  uint uVar1;\n  \n  FUN_0000e098();\n  _DAT_0010a684 = 1;\n  shared_word_00f0320c_candidate = 0x47b88;\n  shared_word_00f03210_candidate = 0x47bc8;\n  shared_word_00f03214_candidate = DAT_00049b88;\n  shared_word_00f03218_candidate = 0x40;\n  shared_word_00f0321c_candidate = 0x10a684;\n  shared_word_00f03204_candidate = 0x52e0;\n  do {\n    uVar1 = shared_word_00f03204_candidate;\n  } while (uVar1 == 0x52e0);\n  FUN_0000e098();\n  return;\n}\n\n\n"
+    },
+    {
+      "address": "0000e202",
+      "before": "/* Address 0000e202 */\n\n/* WARNING: Removing unreachable block (ram,0x0000e21e) */\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\n\nvoid FUN_0000e202(void)\n\n{\n  FUN_0000e098();\n  do {\n  } while( true );\n}\n\n\n",
+      "after": "/* Address 0000e202 */\n\nvoid FUN_0000e202(void)\n\n{\n  uint uVar1;\n  \n  FUN_0000e098();\n  shared_word_00f03204_candidate = 0x57a0;\n  do {\n    uVar1 = shared_word_00f03204_candidate;\n  } while (uVar1 == 0x57a0);\n  return;\n}\n\n\n"
+    },
+    {
+      "address": "0000e220",
+      "before": "/* Address 0000e220 */\n\n/* WARNING: Removing unreachable block (ram,0x0000e264) */\n/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */\n\nvoid FUN_0000e220(void)\n\n{\n  FUN_0000e098();\n  do {\n  } while( true );\n}\n\n\n",
+      "after": "/* Address 0000e220 */\n\nvoid FUN_0000e220(uint param_1,uint param_2,uint param_3,uint param_4,uint param_5)\n\n{\n  uint uVar1;\n  \n  FUN_0000e098();\n  shared_word_00f0320c_candidate = param_1;\n  shared_word_00f03210_candidate = param_2;\n  shared_word_00f03214_candidate = param_3;\n  shared_word_00f03218_candidate = param_4;\n  shared_word_00f0321c_candidate = param_5;\n  shared_word_00f03204_candidate = 0x4320;\n  do {\n    uVar1 = shared_word_00f03204_candidate;\n  } while (uVar1 == 0x4320);\n  FUN_0000e098();\n  return;\n}\n\n\n"
+    }
+  ],
+  "whole_export_warning_count_before": 127,
+  "whole_export_warning_count_after": 111,
+  "artifact_sha256": {
+    "annotation.json": "b936fb5b8d7d344d3ef2a44aa7a30489cb691da7c289ba509c65cbf6b1e76cb0",
+    "export/manifest.json": "0c8f6a14d347f4b59a1608dbf1fbbf26bb2aa4e830ea5667efbe753d36576dae",
+    "export/decompiled.c": "28b1e65ff3db5ceb2e3f1e3ecd3c6c8f6748c9e34e4dfd04672967f37d1d003e",
+    "export/listing.asm": "3260c059f94754a6f8240e8ba4accb14beed36ce6f88cc79c30c0163248ab44b"
+  },
+  "scope": "Decompiler representation improvement only; neither device response, helper completion, whole-game behavior, inferred function bodies nor original ABI have been validated."
+}

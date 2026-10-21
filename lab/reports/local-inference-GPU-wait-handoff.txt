@@ -1,0 +1,28 @@
+LOCAL AI LAB: GAME REPAIR AND LOCAL INFERENCE HANDOFF
+2026-10-18T22:55:43.201547+00:00
+
+The experimental BIWN build now includes a 26-byte GPU completion-wait repair in a 14,690-byte resident payload. The original 14,664 resident bytes remain unchanged. The first corrupt blit reproduces the captured full 2 MB RAM result exactly in both retained blitter engines.
+
+The repair passes 256 native mailbox fixtures, 96 startup cases and 5,151 installed keypad ABI cases. Both fresh 2,600-frame Deck lanes finish without the earlier invalid CPU address or formatter stack violations. The repaired raw-disc route completes the merchant visit and outdoor return in 24,975 frames. Positions and video still differ between lanes; these results do not establish frame equivalence. Earlier failed artifacts are preserved. The playable preview remains unchanged.
+
+Detailed game report:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-formatter-GPU-wait-repair.txt
+
+The local Reader and Editor produced an 85-word summary in 24.66 seconds using one actual configured MCP call. Their exact prompts, tool results, overlong draft, edited response and coordinator review are saved here:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T225301.243905Z
+
+Unedited local model answer:
+The latest build is a fourteen thousand six hundred ninety byte resident payload with a twenty six byte GPU wait repair. Two hundred fifty six native, ninety six startup, and five thousand one hundred fifty one keypad cases all pass successfully. Repaired lanes complete two thousand six hundred frames, while a raw disc route reaches the merchant in twenty four thousand nine hundred seventy five frames. No whole game speedup is proven, historical failures remain unrepaired, and nonzero audio samples do not confirm listening quality.
+
+Verified scope: The complete source rebuild remains unfinished. Physical-console boot remains unverified. No new weight training is claimed by this publication.
+The scope note above is deterministic evidence, separate from the model's answer. The reported 24,975 frames cover the complete merchant and outdoor route, rather than the first arrival at the merchant.
+
+The earlier Editor response was rejected because hard character limits cut all four fields mid-sentence. Those limits have been removed, and the new completion check rejects the four recorded failures. The two Diagnostic Analyst answers were also rejected as complete advice: one confused opcode values with elapsed cycles, and the other proposed changing a command register as if it held pixel data. The coordinator wrote the repair from the traces. Compiler and emulator processes are tools, not additional AI agents. This remains a guided workflow check, not proof of general local coding quality.
+
+For advertising, the existing 27B, 6-bit model is loaded and idle with a 32K context. Research Desk and Teaching Demo remain available. The latest 292-word teaching example is explicitly coordinator-corrected:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/advertising-source-seminar-example.txt
+
+Advertising source and evaluation publication:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/advertising-seminar-evaluation-publication-current.json
+
+No new weight training or adapter promotion occurred in this round. This round used LM Studio SDK/MCP inference; native Chat generation was not verified. The existing interactive preview process was left in place. Remaining work includes full game and platform reconstruction, broader synchronization and scene testing, physical-console boot, audio listening, demonstrated training gains and the future 256 GB hardware test.

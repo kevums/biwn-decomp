@@ -1,0 +1,16 @@
+include Makefile.format-number
+FORMAT_STRING_SOURCE ?= /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-string-ccr-preparation/20261018T170741.453379Z/format-string-ccr.c
+.PHONY: format-core
+format-core: $(BUILD)/native-format-core.bin
+$(BUILD)/format-core-shim.o: format-core-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/format-core-native.o: format-core-native.c format-core-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Os -fstack-usage -Wall -Wextra -Werror -I. -c $< -o $@
+$(BUILD)/format-core-pad.o: format-pad-reference.c format-pad-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Os -fstack-usage -Wall -Wextra -Werror -I. -c $< -o $@
+$(BUILD)/format-core-string.o: $(FORMAT_STRING_SOURCE) format-string-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Os -fstack-usage -Wall -Wextra -Werror -I. -c $< -o $@
+$(BUILD)/native-format-core.elf: $(BUILD)/format-core-shim.o $(BUILD)/format-core-native.o $(BUILD)/format-core-pad.o $(BUILD)/format-core-string.o $(BUILD)/format-number-native.o $(BUILD)/unsigned-division-native.o $(BUILD)/semantic-divide-zero.o format-core.ld
+	$(CROSS)ld --gc-sections -T format-core.ld -Map $(BUILD)/native-format-core.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-format-core.bin: $(BUILD)/native-format-core.elf
+	$(CROSS)objcopy -O binary $< $@

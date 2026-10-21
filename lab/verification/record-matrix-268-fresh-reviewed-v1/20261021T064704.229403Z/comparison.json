@@ -1,0 +1,75 @@
+{
+  "fields": {
+    "video_sha256": {
+      "count": 21803,
+      "first_frame": 378,
+      "final_equal": true
+    },
+    "raw_player_X": {
+      "count": 16706,
+      "first_frame": 631,
+      "final_equal": true
+    },
+    "raw_player_Z": {
+      "count": 18800,
+      "first_frame": 612,
+      "final_equal": true
+    },
+    "scene_word": {
+      "count": 167,
+      "first_frame": 22016,
+      "final_equal": true
+    },
+    "player_mode_word": {
+      "count": 215,
+      "first_frame": 22016,
+      "final_equal": true
+    },
+    "floor_word": {
+      "count": 0,
+      "first_frame": null,
+      "final_equal": true
+    },
+    "held_buttons": {
+      "count": 1230,
+      "first_frame": 608,
+      "final_equal": true
+    },
+    "full_GPU_state_sha256": {
+      "count": 21986,
+      "first_frame": 376,
+      "final_equal": false
+    },
+    "full_DSP_state_sha256": {
+      "count": 0,
+      "first_frame": null,
+      "final_equal": false
+    }
+  },
+  "frontend_button_schedule_differences": 1247,
+  "identical_frontend_inputs": false,
+  "same_controller_algorithm_and_waypoints": true,
+  "consumed_indoor_controls_sha256": "df09207f350bcdeee0d0a9996c6d4639a3e56e46c6b1b00edcfd6b17692d0906",
+  "final_player_region": 4,
+  "final_heading": 189,
+  "final_render_batch_region": {
+    "candidate": 3,
+    "control": 4
+  },
+  "final_heap_free_bytes": {
+    "candidate": 21056,
+    "control": 21056
+  },
+  "global_heap_minimum_measured": false,
+  "audio": {
+    "candidate": {
+      "frames": 18028800,
+      "nonzero_samples": 0
+    },
+    "control": {
+      "frames": 17890400,
+      "nonzero_samples": 0
+    }
+  },
+  "scope": "Same v34layout;control restores only original17E0Esceneentry10bytes. Both retain inherited native globalE220/E098/copy providers,not pristine original game. Actual adaptive inputs differ. Finalvideo/playerstate agree,but final render-batch region differs3/4 and intermediate frames differ. No cycle/fullRAM/wholegamefidelity claim."
+}

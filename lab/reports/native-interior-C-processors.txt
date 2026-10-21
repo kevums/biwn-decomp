@@ -1,0 +1,27 @@
+BIWN — EXACT18888BYTE DISC, C PROCESSORS VERSUS RETAINED NATIVE PROCESSORS
+
+24996aligned unique consecutive frame IDs match. All eight recorded fields
+match on every frame: fullCPU, publicRAMhash, GPUstatehash, DSPstatehash,
+video hash, navigation, locomotion and held buttons. Full captured PCM matches
+byte-hash and length79987200bytes. Both routes return outdoors with120holdframes.
+The full read-only observer JSON objects also match, not selected counters only.
+
+Strict C CPU starts from HLE-prepared initial entry, with zero bootstrap native
+callbacks, native fallback, rejected ownership or reported CPU errors. Recorded
+CPU calls436659999 include435925472source steps and734527HLE services. GPU,
+DSP and IRQ selection/entry likewise show owned execution and zero recorded
+original/rejected/uncovered/error counts where applicable. These are runtime
+processor-validation counts, not recovered readable game-function counts.
+
+Actual scanner4753calls:11successes/4742failures; doorway1success. Interior
+selectors:14actor successes and1sprite skipped failure. All related monitor,
+pending and task-stack error counters are zero. Actor failures, sprite successes
+and sprite non-skipped misses remain component-only in this route.
+
+Only this identified18888byte modified disc is compared against itself under
+two processor implementations. This does not resolve compiled-helper versus
+original-entry timing/state/video differences, inherited original-scanner media
+disagreement, or validate the later actor-dispatch experimental build. CPU cost,
+HLE/platform/device services, IRQ line/ACK/vector/commit/prefetch, blitter and
+object processor remain retained. Finite route/oracle facts are not full-game
+or physical-console proof. No new local predictions, training or nativeChat test.

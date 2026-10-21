@@ -1,0 +1,44 @@
+{
+  "status": "terminal_both_phased_actor_modules_copied_SDK_byte_identical",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-copied-rebuild-v1/20261021T145736.576789Z",
+  "pieces": [
+    {
+      "piece": "dispatch",
+      "bytes": 476,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/actor-phased-v41/20261021T145736.576789Z/dispatch/native.bin",
+      "sha256": "1c43908876c19919b6bafcd8b5d8172ca85ec381a49e7be40cfdc7bcfda198d3",
+      "byte_identical": true
+    },
+    {
+      "piece": "initialize",
+      "bytes": 1570,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/actor-phased-v41/20261021T145736.576789Z/initialize/native.bin",
+      "sha256": "aaba9dbe14cb495afc7ec8e5210f23f4c950d67b7b5f8bd8a040b4f03eedc0dc",
+      "byte_identical": true
+    }
+  ],
+  "new_builds": 2,
+  "whole_source_only_game_rebuild": false,
+  "unchanged_modules_not_recompiled": true,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_phased_copied_rebuild_v1.py": "8420c5437da9b3fff4a6da24d5eb3a2fe59350f6891f2b9ace6f2cc2b295aa8c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-disc-build-v1-current.json": "bafb42080d1cf21827035db3cb77a54e87242e10daee322d3ed288483131cbda",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-phased-v1/20261021T145604.673595Z/resident-with-arenas.bin": "8a203e9219b434501f117e2631082b64fd3341740eeaf4abc4f00f727d8d8fad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/dispatch.ld": "4039f9b71099c89b36c0d026f365efe2a23e3156149bdb59ec5f1853478977a2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/dispatch.c": "809ac43b9a22fc321bf1cf5e20bb8bee18dc63fa349b2324911659b556542af0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/initialize.c": "6d89e169d91f9da3e2ed6a5e7392773dcc1adab17a8f125c65b82969d9f2a3fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/native.h": "46a31281d57f0f451d3a29df271d98202e472c44b2742cb1253f4d37c69e7de1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/Makefile": "b5cfc94c7248e411f299d4008cc517b6e52c07487c1609e263ac39345af57a1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/initialize.ld": "2abf45aa7442ce5e1c044117eca42fb077b3b41375a7b612b85cf4b957df6a5e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/dispatch.S": "f50a4096e8f01aa7ac374680c70a4e562de226113b1405105c409948db3feadb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/initialize.S": "1d5b97a8c5a9611ec1ad1061e620085cb15a2c395a9d837d66e822d389669f12",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-copied-rebuild-v1/20261021T145736.576789Z/dispatch-copied-build.log": "2e4c93112db96f20f80effa2c3d209771341b339cb60ba2e65ab36762a74422f",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/actor-phased-v41/20261021T145736.576789Z/dispatch/native.bin": "1c43908876c19919b6bafcd8b5d8172ca85ec381a49e7be40cfdc7bcfda198d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-copied-rebuild-v1/20261021T145736.576789Z/dispatch-copied.bin": "1c43908876c19919b6bafcd8b5d8172ca85ec381a49e7be40cfdc7bcfda198d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-copied-rebuild-v1/20261021T145736.576789Z/initialize-copied-build.log": "693c98333014edddc499715a69267a424dc94219ee9aaade61cded550e8ff5da",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/actor-phased-v41/20261021T145736.576789Z/initialize/native.bin": "aaba9dbe14cb495afc7ec8e5210f23f4c950d67b7b5f8bd8a040b4f03eedc0dc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-copied-rebuild-v1/20261021T145736.576789Z/initialize-copied.bin": "aaba9dbe14cb495afc7ec8e5210f23f4c950d67b7b5f8bd8a040b4f03eedc0dc"
+  }
+}

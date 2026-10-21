@@ -1,0 +1,37 @@
+{
+  "status": "terminal_ordinary_copied_Reader43_prediction_and_warm_CLI_timing_pending_review",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/copied-Reader43-ordinary-benchmark-v1/20261021T080901.204140Z",
+  "pid": 49866,
+  "child_pid": null,
+  "command": [
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/runtime/python/bin/python3.12",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/portable_biwn_try_v23.py",
+    "reader"
+  ],
+  "new_predictions": 1,
+  "new_training": false,
+  "native_Chat_verified": false,
+  "CLI_start_to_first_text_seconds": 18.94,
+  "exit_code": 0,
+  "CLI_start_to_completion_seconds": 25.18,
+  "run_directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z",
+  "generation_seconds": 8.27,
+  "words": 99,
+  "word_limit_pass": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/benchmark_copied_Reader43_v1.py": "f27ac376c5b2639327cb29dbce6835a60e8c76d69e23eaa8ffb6860dbc92b9c5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/run_deck_status_live_v43.py": "6253f735637860b49bd33e8e223903fb29acc8a491ea47a912dd23d4c16ff3db",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/portable_biwn_entry_v23.py": "ffab29ca12ba9def094ff71bd606c91e8def72b48e00b985b8ab6b59689a842a",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/portable_biwn_try_v23.py": "ffab29ca12ba9def094ff71bd606c91e8def72b48e00b985b8ab6b59689a842a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/copied-Reader43-ordinary-benchmark-v1/20261021T080901.204140Z/loaded-models-before-launch.json": "1422a8b3c9996f627f36263442493714bfaab6e30fd8639c30a2fd4c8758d260",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/copied-Reader43-ordinary-benchmark-v1/20261021T080901.204140Z/console.log": "17cfc551173c6d54f3a7ecb09b5bb6e310fd5a0f6cf4a42eaaca75ddacce3784",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/protocol.json": "0244b052da582e1e9c3f1687175187717da79dadd2af578a80d46c241899fae5",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/prompt.json": "55c239223d53d24a16fbe653cf04f4fe1b2c1488a0ad4eecee7c52776e4b6889",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/response.json": "2ffc6d6d8d8c70b627a86a4b619e1f8f89707a44f4fe1a10b51878b978751dcc",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/response.txt": "db279fe714691445b92cda9db4813c1fff359966cfc3f57f263e4b86ec003282",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/evidence.json": "8607ef0b19da20e2f2f4d3fa16d8a8becd22fc111742cee098a772083b27603a",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/full-MCP-evidence.json": "aa7339df19ba5612e9ed13961721fbe68af5043e2e133c6e778ec9ceb0485f1c",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/prompts-and-responses.txt": "7852dabd41b1f5e16dfab7b2ff939e99b5e9300de269634aa8be2c8678b7fcda"
+  },
+  "scope": "Actual copied package CLI entry;model was inspected beforelaunch and entry preserves unrelated/busymodels. Timer includes interpreter/model-setup/evidence/streaming/exit. Firsttext observed bypolling flushed response.partial.txt at100msresolution. Warm single-runmeasurement,not coldmodel load,physicalperformance,nativeChat display or literalGUIclicklatency."
+}

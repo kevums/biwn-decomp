@@ -1,0 +1,22 @@
+{
+  "status": "terminal_scene17_actual_JSR_busy_fallback_nested_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-final-reentry-v1/20261021T040110.905487Z",
+  "pid": 22979,
+  "completed": 64,
+  "new_predictions": 0,
+  "new_training": false,
+  "game_image_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene17_display_list_runtime_v1.py": "5f911bec5116f598ce916ac95c7d62cc83b6865bb45060dfdb672a4b677a91ee",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/display-list-fullCPU-generation.json": "288afb80953f3ebb2f3188b0e81f45def6ed8f55e97e70b9e36dab55aed6e03e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-algorithm-v2/coordinator-reference.inc": "8ceb5c3779c3523b07c7c2488785dd31588886e03b6a21688adae29d9102a257",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_gpu_family_bridge_events_v1.py": "857e35be36240690804c50357a043327731c4f28db0f507d3de5e7dfddbacf5e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_gpu_family_scene_runtime_v2.py": "3c4f7f5dee70cc6ff66c787e5e78e727fed21e42977328274b95b215b084f40d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_outer_compact_final_reentry_v1.py": "a02f3afcd883f6bc9d86d49c5b650861a8e75b420213213933fdc77086659d2a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_outer_compact_final_bridge_v1.py": "687d401ea73be5690ebe7e9fe83e704b5f8c90c848048a1545f81bcdaaf2a6e8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-final-bridge-v1-current.json": "9a8fda8c0fa6803ff08e074f7c7561e3307e17697b328f97c82650df24e734c5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-final-bridge-v1/20261021T040015.037312Z/build/native-shared.bin": "ca601d1c9494683dd99bb6a7ef830293388b293d7ccad53e485d1373d55fa588",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-final-reentry-v1/20261021T040110.905487Z/cases.json": "e09af89269cf96302daabe3c3205e85b7c30a7de1ff2d51020c4a87a4f93592c"
+  },
+  "scope": "Actual scene-to-scene busy-fallback nesting through an injected170A0 helper JSR with six real GPU CPU helpers.\nThe nested original caller sees mode zero. Explicit component fixture, not a\nnatural game call, arbitrary reentry or IRQ proof. Original clear/rotation run;\nother services and mode/completion reads retain declared fixtures.\n64cases coverallCCR/bothbanks,4taskslots and3guestSPdepths. Exactly2native rootentries,1originalbusyfallback and1native outerreturn;118bytecontextand208byteCstack protected while inner executes. Onlyprivatearena,root10byteJMP and declaredhelperstubs normalized."
+}

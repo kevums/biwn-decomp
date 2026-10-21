@@ -1,0 +1,39 @@
+{
+  "status": "generated_unverified",
+  "instructions": 4,
+  "instructions_decoded": [
+    {
+      "address": 56830,
+      "size": 4,
+      "bytes": "4e722000",
+      "assembly": "stop #$2000",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 56834,
+      "size": 4,
+      "bytes": "54af0002",
+      "assembly": "addq.l #$2, $2(a7)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 56838,
+      "size": 2,
+      "bytes": "4e73",
+      "assembly": "rte",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 141840,
+      "size": 2,
+      "bytes": "2000",
+      "assembly": "move.l d0, d0",
+      "classification": "decoded_instruction"
+    }
+  ],
+  "source_sha256": {
+    "biwn_movie_privilege_cpu.c": "7b7e70c1f2d031a4f2e9c366681e271e6a97c87a1bac39e26815d5ffc85ddbe4",
+    "biwn_movie_privilege_cpu.h": "701aa447585e3f84899421657e899453228b4f4f1d498a5dc7c68a4176e8d269"
+  },
+  "whole_game_complete": false
+}

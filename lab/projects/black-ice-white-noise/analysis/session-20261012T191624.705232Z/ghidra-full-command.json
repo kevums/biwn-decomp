@@ -1,0 +1,29 @@
+{
+  "actor": "Ghidra native 68000 analyzer/decompiler, launched by Codex",
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/ghidra-headless",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/ghidra-full-projects",
+    "BIWN23-boot",
+    "-import",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/boot-payload-68000-candidate.bin",
+    "-processor",
+    "68000:BE:32:default",
+    "-loader",
+    "BinaryLoader",
+    "-loader-baseAddr",
+    "0x180000",
+    "-scriptPath",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts",
+    "-preScript",
+    "DefineEntry.java",
+    "180000",
+    "-postScript",
+    "ExportDecomp.java",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/ghidra-full-export",
+    "-analysisTimeoutPerFile",
+    "120",
+    "-max-cpu",
+    "4"
+  ],
+  "scope": "Entire declared boot payload, not entire game; entry assumption from boot header/reference; no runtime validation"
+}

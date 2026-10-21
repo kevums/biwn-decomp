@@ -1,0 +1,182 @@
+[
+  {
+    "call": 1,
+    "candidate_entry": 54,
+    "control_entry": 54,
+    "candidate_return": 55,
+    "control_return": 55,
+    "return_frame_shift": 0,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 2,
+    "candidate_entry": 57,
+    "control_entry": 56,
+    "candidate_return": 58,
+    "control_return": 57,
+    "return_frame_shift": 1,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 3,
+    "candidate_entry": 60,
+    "control_entry": 59,
+    "candidate_return": 61,
+    "control_return": 59,
+    "return_frame_shift": 2,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 4,
+    "candidate_entry": 63,
+    "control_entry": 61,
+    "candidate_return": 64,
+    "control_return": 61,
+    "return_frame_shift": 3,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 5,
+    "candidate_entry": 66,
+    "control_entry": 63,
+    "candidate_return": 67,
+    "control_return": 63,
+    "return_frame_shift": 4,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 6,
+    "candidate_entry": 69,
+    "control_entry": 65,
+    "candidate_return": 70,
+    "control_return": 65,
+    "return_frame_shift": 5,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 7,
+    "candidate_entry": 72,
+    "control_entry": 67,
+    "candidate_return": 73,
+    "control_return": 67,
+    "return_frame_shift": 6,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 8,
+    "candidate_entry": 75,
+    "control_entry": 69,
+    "candidate_return": 76,
+    "control_return": 69,
+    "return_frame_shift": 7,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 9,
+    "candidate_entry": 78,
+    "control_entry": 71,
+    "candidate_return": 79,
+    "control_return": 71,
+    "return_frame_shift": 8,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 10,
+    "candidate_entry": 80,
+    "control_entry": 73,
+    "candidate_return": 81,
+    "control_return": 74,
+    "return_frame_shift": 7,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 11,
+    "candidate_entry": 83,
+    "control_entry": 75,
+    "candidate_return": 84,
+    "control_return": 76,
+    "return_frame_shift": 8,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 12,
+    "candidate_entry": 86,
+    "control_entry": 77,
+    "candidate_return": 87,
+    "control_return": 78,
+    "return_frame_shift": 9,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 13,
+    "candidate_entry": 89,
+    "control_entry": 79,
+    "candidate_return": 90,
+    "control_return": 80,
+    "return_frame_shift": 10,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 14,
+    "candidate_entry": 92,
+    "control_entry": 81,
+    "candidate_return": 92,
+    "control_return": 82,
+    "return_frame_shift": 10,
+    "candidate_frame_boundaries": 0,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 15,
+    "candidate_entry": 94,
+    "control_entry": 83,
+    "candidate_return": 95,
+    "control_return": 84,
+    "return_frame_shift": 11,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 16,
+    "candidate_entry": 97,
+    "control_entry": 85,
+    "candidate_return": 98,
+    "control_return": 86,
+    "return_frame_shift": 12,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 1
+  },
+  {
+    "call": 17,
+    "candidate_entry": 100,
+    "control_entry": 87,
+    "candidate_return": 101,
+    "control_return": 87,
+    "return_frame_shift": 14,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  },
+  {
+    "call": 18,
+    "candidate_entry": 102,
+    "control_entry": 89,
+    "candidate_return": 103,
+    "control_return": 89,
+    "return_frame_shift": 14,
+    "candidate_frame_boundaries": 1,
+    "control_frame_boundaries": 0
+  }
+]

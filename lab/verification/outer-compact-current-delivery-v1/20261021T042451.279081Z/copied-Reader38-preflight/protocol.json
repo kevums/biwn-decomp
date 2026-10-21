@@ -1,0 +1,45 @@
+{
+  "status": "terminal_current_Reader_evidence_preflight_zero_predictions",
+  "directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v38-20261021T041918.715270Z",
+  "pid": 26208,
+  "new_predictions": 0,
+  "new_training": false,
+  "native_Chat_verified": false,
+  "MCP_connection": {
+    "transport": "actual_reference_MCP_stdio",
+    "configuration_sha256": "e9c917a22b1bcc3f6d64b48b7a4045e2e08b26ddf05b74c3f42f5c71a14eb696",
+    "server": {
+      "name": "Local AI Lab",
+      "title": null,
+      "version": "1.26.0",
+      "websiteUrl": null,
+      "icons": null
+    },
+    "tools": [
+      "start_biwn_frame_test",
+      "biwn_frame_test_status",
+      "verify_68000_fixture",
+      "render_inventory_preview",
+      "plan_checked_outdoor_doorway",
+      "plan_checked_indoor_exit",
+      "show_latest_checked_scene",
+      "show_checked_actor_motion",
+      "render_animation_preview",
+      "get_mode3_source_task_status",
+      "inspect_boot",
+      "verify_scene_record_candidate",
+      "verify_scene_initial_candidate",
+      "score_supplied_rubric",
+      "get_game_function_task",
+      "verify_game_function_candidate",
+      "project_evidence",
+      "search_references"
+    ]
+  },
+  "evidence_proof_sha256": "7708d4af11ae0985b47eb12d1588a7062ca842f6c546f9eb6171f66d876eb025",
+  "source_sha256": {
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/scripts/Reader38-preflight-20261021T041918.206230Z.py": "1f29ec45b0b204791920bbb90dc84b7e958712ff6c29c4b6fd0eb255fc4da1c7",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v38-20261021T041918.715270Z/full-MCP-evidence.json": "8bc38603965b7d9159087a8c561b108961563e4e9891427d1b1dac709ec390a1",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v38-20261021T041918.715270Z/evidence.json": "732ce14acb716545124c5a4c449a62bacaf0088a4edb57c0f1170042a81f91e7"
+  }
+}

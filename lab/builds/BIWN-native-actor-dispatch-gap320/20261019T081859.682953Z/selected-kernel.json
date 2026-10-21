@@ -1,0 +1,13 @@
+{
+  "status": "terminal_actor_dispatch_coordinator_reference_selected",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-dispatch-gap320-reference.c",
+  "source_sha256": "b898bb1d8d3c5b94a1a88b7bf6244c2e0cdca9936d5a2d8f49041d9e3533ce0f",
+  "component_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320/20261019T081810.308528Z/protocol.json",
+  "component_proof_sha256": "5fbe19b3412a26f99513e0689112538f8860c557e97f3b3ea56b861bd5406ec7",
+  "cases": 856,
+  "original_sites": 38,
+  "raw_local_accepted": false,
+  "private_gap": 320,
+  "negative_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-negatives-current.json",
+  "attribution": "Coordinator gap320variant; identical recovered C body except interface include name."
+}

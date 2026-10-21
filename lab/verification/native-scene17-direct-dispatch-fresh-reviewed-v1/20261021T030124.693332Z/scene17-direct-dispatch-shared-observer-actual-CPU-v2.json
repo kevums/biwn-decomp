@@ -1,0 +1,24 @@
+{
+  "status": "terminal_six_root_shared_monitor_actual_scene_fallback_reentry_lanes_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-actual-CPU-v2/20261021T025150.311615Z",
+  "CPU_lanes": 512,
+  "counts": {
+    "body": 64,
+    "fallback": 384,
+    "reentry": 64
+  },
+  "all_observer_error_pending_outside_zero": true,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_direct_dispatch_shared_observer_actual_CPU_v1.py": "3fd587e890b24d246c1d138e9b23e3b5d2cdf9e2ea1f9a9d92d27f8f12cad4da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1-current.json": "628a1f8a1aa0c9a1ba5c53cdd78388fd0165f6ab84de24d98cf523c5d9dcd50a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-qualified-v1/20261021T025106.569523Z/fixture.dylib": "2af3249d5a3e21f0bfaa5219b62eac2ce3e632106cbb13faf247af996c588771",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-actual-CPU-v2/20261021T025150.311615Z/body-harness.py": "1a2920d26ae1c53af1b03e91261f1c537071234a7d7ede4b226c31afddf25d56",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-actual-CPU-v2/20261021T025150.311615Z/fallback-harness.py": "b45a4e145caaaa5c1078e7f4020eb691af40f7e2b4b6f5ac6c6bd0a96876d9fa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-actual-CPU-v2/20261021T025150.311615Z/reentry-harness.py": "11f0af6e465787442079e114f3b0a627b05af412798db8cd6b13ba1554ce131e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-shared-observer-actual-CPU-v2/20261021T025150.311615Z/cases.json": "cb50effabbcee63d1347bb6cef237ff21c0ca25fe8afc7754ce1d02fc4762ab3"
+  },
+  "scope": "Exact new shared monitor over actual compiled scene/invalid/busy/reentry lanes.\nCopies CPU/RAM into a host observer;never mutates guest state for observation.\nUnderlying harnesses retain declared helper/busy-read fixtures.\n64nativebodycases,384actualinvalid/busyfallbacks,64actualinjectednestedJSRcases. FullunderlyingCPU/RAM/helperentrycomparisonsalsopass. Native-entryattemptsseparatefromacceptedbodyentries;no monitorstateRAM/CPUrepair. Notfreshgameplay/naturalIRQ."
+}

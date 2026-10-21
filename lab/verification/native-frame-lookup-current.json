@@ -1,0 +1,33 @@
+{
+  "status": "terminal_native_frame_lookup_CPU_RAM_ordered_pass",
+  "pid": 19565,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-lookup/20261019T033208.960552Z",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-frame-lookup-repair-20261019T033201.761259Z/frame-lookup-candidate.c",
+  "source_sha256": "47e2aa48d972a2a95918544bf2574ad07150e1860bf50eac5c5822bdeffcfa6b",
+  "source_accepted": true,
+  "game_frames": 0,
+  "new_training": false,
+  "default_promoted": false,
+  "whole_game_complete": false,
+  "planned": 1376,
+  "completed": 1281,
+  "native_cases": 1376,
+  "changing_tag_cases": 256,
+  "ordered_cases": 1632,
+  "original_instruction_coverage": [
+    17,
+    17
+  ],
+  "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-lookup/20261019T033208.960552Z/build/frame-lookup.bin",
+  "binary_sha256": "63b4ec8900cfb08bea121c0b42c298f8f5b2f5ed80bc5c640a69b4427ca84824",
+  "binary_bytes": 82,
+  "max_private_stack_bytes": 24,
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_frame_lookup_v2.py": "0eecda00dcbc01deaf7ce70738cca377537704645b683e991c85258caef4db66",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_frame_reference_single_lean.py": "dc4bbbb4220126591d5afe828f42828eb57b35b6a430c88e15357f4f9aea933a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-frame-lookup-repair-20261019T033201.761259Z/frame-lookup-candidate.c": "47e2aa48d972a2a95918544bf2574ad07150e1860bf50eac5c5822bdeffcfa6b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-lookup-shim.S": "d78fc1eb99de2d47d3c2df2bec1a29de2e65ed3ad17e2110c792706d1de383ad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.frame-lookup": "5945cbe3497daa5c243387900e9e2d4f763e1f97947279347087e3372ad593d3"
+  },
+  "scope": "Complete original1AC3C..1AC66 lookup including WORD argument,first-match semantics,ambiguous zero/miss D0,full D/A/PC/SR/USP/SSP,public4byte D2 save and2MBRAM. Separate ordered public reads/writes.256controlled tag updates replayed at exact corresponding load PC visit;no actual IRQ injection. Private8KB below publicsave,entry/code excluded. Coordinator ABI shim handles scalar Ckernel index-or36 return;scalar author provenance belongs to separate receipt. No arbitraryalias/fault/IRQ/timing/linked/disc/gameplay/physical orwhole-game proof."
+}

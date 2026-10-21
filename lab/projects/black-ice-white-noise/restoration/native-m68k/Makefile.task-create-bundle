@@ -1,0 +1,13 @@
+include Makefile.controller-lean-bundle
+.DEFAULT_GOAL := task-bundle
+TASK_CREATE_SOURCE ?= task-create-native.c
+.PHONY: task-bundle
+task-bundle: $(BUILD)/native-task-bundle.elf $(BUILD)/native-task-bundle.bin $(BUILD)/runtime-original.bin
+$(BUILD)/task-create-shim.o: task-create-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/task-create-native.o: $(TASK_CREATE_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-task-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o task-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T task-bundle.ld -Map $(BUILD)/native-task-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-task-bundle.bin: $(BUILD)/native-task-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

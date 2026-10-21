@@ -1,0 +1,106 @@
+[
+  {
+    "fault": "none",
+    "rejected": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "callee",
+    "rejected": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "saved",
+    "rejected": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "SP",
+    "rejected": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "return_word",
+    "rejected": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "NZ",
+    "rejected": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "missing_return",
+    "rejected": true,
+    "stats": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "fault": "outside",
+    "rejected": true,
+    "stats": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ]
+  }
+]

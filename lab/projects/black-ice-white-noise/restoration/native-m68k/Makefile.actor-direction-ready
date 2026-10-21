@@ -1,0 +1,15 @@
+# Run make from this source directory; paths with spaces are quoted.
+ROOT := $(abspath ../../../..)
+SOURCE_DIR := ./
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= $(SOURCE_DIR)/build-actor-direction
+ADDRESS ?= 0x180000
+DIRECTION_SOURCE ?= $(SOURCE_DIR)/actor-direction-reference-v2.c
+FLAGS := -m68000 -msoft-float -std=c99 -Os -flto -ffreestanding -fno-pie -fno-common -fno-unwind-tables -fno-asynchronous-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Werror
+.PHONY: actor-direction
+actor-direction:
+	mkdir -p "$(BUILD)"
+	"$(PREFIX)gcc" $(FLAGS) -I"$(SOURCE_DIR)" -c "$(DIRECTION_SOURCE)" -o "$(BUILD)/body.o"
+	"$(PREFIX)gcc" -m68000 -c "$(SOURCE_DIR)/actor-direction-shim-v2.S" -o "$(BUILD)/shim.o"
+	"$(PREFIX)gcc" $(FLAGS) -nostdlib -Wl,--gc-sections,--defsym,NATIVE_ADDRESS=$(ADDRESS),-T,"$(SOURCE_DIR)/actor-direction.ld" "$(BUILD)/body.o" "$(BUILD)/shim.o" -o "$(BUILD)/actor-direction.elf"
+	"$(PREFIX)objcopy" -O binary "$(BUILD)/actor-direction.elf" "$(BUILD)/actor-direction.bin"

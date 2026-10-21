@@ -1,0 +1,65 @@
+"""Publish reviewed170A0 component progress; preserve latest reviewed v32 gameplay."""
+import shutil,subprocess
+from pathlib import Path
+from datetime import datetime,timezone
+from publish_scene_reset_fresh_v1 import ROOT,V,P,read,save,sha,atomic
+
+def clone(src,dst):
+ dst.parent.mkdir(parents=True,exist_ok=True)
+ if not dst.exists()or sha(src)!=sha(dst):subprocess.run(['/bin/cp','-c',str(src),str(dst)],check=True,capture_output=True)
+def main():
+ out=V/'geometry-records-progress-reviewed-v1'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ');out.mkdir(parents=True)
+ counts={'geometry-records-structured-host-v1':512,'geometry-records-structured-native-v4':512,'scene17-geometry-records-bridge-v2':772,'native-geometry-records-profile-v2':256,'native-deck-retained-geometry-records-v1':4992,'scene17-geometry-records-final-bridge-v1':772,'geometry-records-disc-providers-v1':512}
+ names=[*counts,'geometry-records-copied-rebuild-v1','native-geometry-records-disc-build-v1','native-Deck-geometry-records-final-v1']
+ dependencies={str(Path(__file__)):sha(__file__)};gates={}
+ for name in names:
+  pointer=V/(name+'-current.json');g=read(pointer)
+  if name=='geometry-records-structured-host-v1':assert g['status']=='geometry_record_builder_fullCPU_actual_copy_and_GPUmatrix_dual_CPU_match'and g['host_guards']==19
+  else:assert g['status'].startswith('terminal_')and not any(x in g['status']for x in ['failed','preflight']),name
+  if name in counts:assert g['completed']==counts[name],name
+  for p,h in g.get('source_sha256',{}).items():assert sha(p)==h,p
+  dependencies.update(g.get('source_sha256',{}));dependencies[str(pointer)]=sha(pointer);save(out/(name+'.json'),g);gates[name]=g
+ host=gates['geometry-records-structured-host-v1'];native=gates['geometry-records-structured-native-v4'];scene=gates['scene17-geometry-records-bridge-v2'];final=gates['scene17-geometry-records-final-bridge-v1'];providers=gates['geometry-records-disc-providers-v1'];build=gates['native-geometry-records-disc-build-v1'];driver=gates['native-Deck-geometry-records-final-v1']
+ assert len(driver['results'])==8 and all(x['exit_code']==0 for x in driver['results'].values())
+ assert native['maximum_C_stack_bytes']==120 and scene['maximum_C_stack_bytes']==final['maximum_C_stack_bytes']==168
+ assert native['payload_sha256']==scene['payload_sha256']==gates['native-deck-retained-geometry-records-v1']['payload_sha256']==gates['native-geometry-records-profile-v2']['payload_sha256']
+ assert gates['geometry-records-copied-rebuild-v1']['same_as_selected_prototype_module']and build['shared_Deck_code_bytes']==54214
+ assert sha(build['derived_disc'])==build['derived_disc_sha256']
+ # Preserve the actual host fixture results, not only the successful report.
+ for name in ['fixtures.json','guards.json','coverage.json','report.json']:
+  p=Path(host['directory'])/name;dependencies[str(p)]=sha(p)
+ for p in [ROOT/'scripts/biwn_movement_device_bridge.c',ROOT/'scripts/check_geometry_records_structured_native_v3.py',Path(native['directory']).parent.parent/'geometry-records-structured-native-v3/20261021T044404.903911Z/bus-scope-correction.json']:
+  dependencies[str(p)]=sha(p)
+ wp=V/'native-Deck-current-status-v1-current.json';wrapper=read(wp)
+ for p,h in wrapper['dependencies_sha256'].items():assert sha(p)==h,p
+ packet=read(wrapper['packet']);save(out/'before-wrapper.json',wrapper);save(out/'before-packet.json',packet)
+ action='Qualify the whole-scene path with inherited disc providers,then fallback/alias/nested observers and fresh candidate/control. Body512 cases now pass with identical inherited providers on both lanes;this does not establish their equivalence to pinned original helpers or asynchronous timing. Continue whole-game CPU/GPU/DSP/HLE source,video/audio/IRQ fidelity,useful training quality and copied-weight Native Chat ease of use. Preserve the current checkpoint preview and reviewed v32 route.'
+ report=ROOT/'reports/BIWN Readable Geometry Records Progress.txt'
+ facts=dict(status='terminal_readable_170A0_component_and_actual_provider_body_pass_scene_nesting_fresh_pending',profile='deck-shared-v33-geometry-records-v1',directory=str(out),report=str(report),entry='0x170a0',authored_source=str(ROOT/'projects/black-ice-white-noise/restoration/experimental/geometry-records-structured-v1/coordinator-reference.inc'),authorship='Coordinator readable170A0 and target adaptation; new local Author/Repair job is separate and has not supplied installed code.',new_unique_original_functions=0,new_internal_readable_helper_integrations=1,original_instructions=152,host_cases=512,host_guards=19,actual_copy_calls_host=host['actual_copy_calls'],actual_matrix_submissions_host=host['actual_movement_matrix_submissions'],native_body_cases=512,prototype_scene_cases=772,prototype_scene_native_record_calls=scene['native_record_calls'],prototype_actual_record_helpers=scene['actual_record_helpers'],retained_caller_cases=4992,retained_fallback_cases=16,geometry_cases=256,final_address_scene_cases=772,final_address_component_gate_groups=8,module_bytes=54214,module_increase_from_v30=5476,body_C_stack_bytes=120,connected_C_stack_bytes=168,C_stack_reserved=208,C_stack_margin=40,additional_arena_bytes=0,copied_prototype_module_byte_identical=True,body_bus_observer_continuously_armed=True,prototype_providers='Pinned original E3E0/E220/E098 CPU and synchronous originalGPU4320; other scene GPU commands use controlled mailbox inputs.',actual_disc_provider_cases=512,actual_disc_provider_calls=providers['actual_inherited_provider_calls'],actual_disc_provider_body_CPU_RAM_boundaries_match=True,actual_disc_provider_bus_order_verified=False,final_disc_providers='Earlier native redirects at global E3E0,E220,E098. Body512 CPU/RAM/provider boundaries match using identical inherited providers on both lanes;whole-scene and asynchronous behavior remain unqualified.',original_global_170A0_preserved=True,remaining_original_scene_service_entry_points=['0xe3e0','0xe220'],remaining_original_scene_service_entry_points_redirected=True,new_disc_built=True,disc_integrated=True,candidate_disc=build['derived_disc'],candidate_disc_sha256=build['derived_disc_sha256'],linked_native_bytes=build['linked_component_bytes'],reservation_bytes=build['component_bytes'],boot_copy_bytes=build['copy_component_bytes'],initial_heap_bytes=build['initial_heap_bytes'],fresh_gameplay_verified=False,live_heap_headroom_measured=False,game_fidelity_verified=False,installed_preview_changed=False,new_training=False,optimizer_updates=0,model_source_installed=False,native_Chat_verified=False,whole_game_complete=False,next_action=action)
+ local=read(V/'local-geometry-records-source-v1-current.json');save(out/'local-worker-at-publication.json',local)
+ facts['local_generation_snapshot']={k:local[k]for k in ['status','directory','pid','new_predictions','new_training','gold_target_body_supplied','held_out_benchmark']}
+ report.write_text('BIWN — readable geometry-record builder170A0\n\n'
+  'The152-instruction record builder now has readable C with two40-record loops. It preserves logical CPU/banks,guest MOVEM/argument/return frames,signed regions,type flags,optional model handles and original record-count wrapping. This replaces an already counted static/logical recovery:zero newly recovered unique original functions,one internal native implementation. The new C is coordinator-authored.\n\n'
+  f'Host512 cases and19 error guards passed,with {host["actual_copy_calls"]:,} real CPU copy calls and {host["actual_movement_matrix_submissions"]:,} matrix submissions. Native512 cases passed full CPU/nonprivate RAM/helper boundaries and public data-bus order,including memoryCLR dummy reads. The recorder lacks read values/widths; host comparison supplies logical widths/values. Connected772 cases passed,{scene["native_record_calls"]} native record calls and {scene["actual_record_helpers"]:,} real copy/matrix/wait helper boundaries. Geometry256 and retained4992 plus16 fallbacks passed. All101task slots and untouched partitions were checked.\n\n'
+  'The first native checks exposed harness errors:guest-SP transfer was misclassified as C stack;reference reset-vector reads entered only one trace;repeated idle polls were counted as separate calls;and the originalGPU matrix provider disarmed tracing. Failed checkers/counterexamples remain saved. The final nativev4 and scenev2 observers rearm after that provider and assert armed before every CPU step. Nativev3 CPU/RAM/helper results remain,but its complete-bus claim was superseded. No source change or widened RAM/stack mask was used to pass those observer repairs.\n\n'
+  'Module54,214 bytes(+5,476). Body stack120bytes;connected scene168/208,40spare. Copied sources and SDK build byte-identically. A separate candidate CDI is built. Eight exact-address component/startup/heap gate groups and772scene cases at its deployed addresses pass. Those scene cases still use pinned original copy/matrix providers. The disc inherits older native global redirects at E3E0/E220/E098. A separate512-case body comparison loaded the actual built stage/resident and passed finalCPU,all nonprivateRAM and provider entry/return states with those same inherited machine-code providers on both lanes. It includes inherited helper guest-stack bytes,but supplies no bus-order or original-helper-equivalence proof. Whole-scene final-provider integration,nesting/alias/observer qualification and fresh gameplay remain pending.\n\n'
+  f'Candidate linked native code {build["linked_component_bytes"]:,} bytes;reservation {build["component_bytes"]:,};boot copy {build["copy_component_bytes"]:,};initial heap {build["initial_heap_bytes"]:,}. Live free heap for this candidate has not been measured. The latest reviewed gameplay image remains compactv32(24,985/24,969frames,6,299scene returns,7,351video differences and matching final video). Its sampled19,696free bytes do not apply to the new image. The Desktop checkpoint preview is unchanged.\n\n'
+  'Local model task:Author receives the original assembly and supplied flag/memory/stack primitives,without coordinator target C. At most one Repair receives actual failed-check feedback. Exact prompts,responses and immutable candidates are saved. The task is development scaffolding,not an untouched benchmark,independent review or weight training. At publication worker status: '+local['status']+'. It respects the shared model lease. No new optimizer updates or trained-model adoption.\n\n'+action+'\n\nCandidate: '+build['derived_disc']+'\nLocal task: '+local['directory']+'\n')
+ packet['native_geometry_records_progress']=packet['latest_source_development']=facts
+ packet['pending_native_candidate']=dict(facts,variant='readable170A0 plus compact outer experimental candidate',new_fresh_gameplay_verified=False)
+ for key in ['native_scene_draw_progress','native_scene_dispatch_headroom_progress','native_display_list_progress','native_scene_gpu_family_progress','native_outer_compact_progress']:
+  if key in packet:packet[key]['next_action']=action
+ packet['latest_native_candidate']['next_action']=action
+ packet['current_copied_Reader_progress'].update(latest_source_changed_since_last_prediction=True,current_source_reply_verified=False)
+ packet['checked_current_summary']='Readable170A0 now passes host512+19guards,native512 and connected772;module54214bytes,scene stack168/208. Separate new candidate built and exact-address component groups pass. Body512 also matches using identical actual inherited copy/matrix providers;whole-scene provider integration,nesting/observers and fresh gameplay remain unqualified. Latest reviewed gameplay remains compactv32:6299scene returns,7351video differences,finalvideo matches,sampled outer-active heap19696. Preview unchanged;full-game rebuilding,fidelity and useful training quality open.'
+ save(out/'facts.json',facts);save(out/'current-status-packet.json',packet);shutil.copy2(report,out/report.name);shutil.copy2(__file__,out/'publisher-source.py')
+ dependencies.update({str(p):sha(p)for p in out.rglob('*')if p.is_file()});dependencies[str(report)]=sha(report)
+ for p,h in dependencies.items():assert Path(p).is_relative_to(ROOT)and sha(p)==h,p
+ pub=V/'geometry-records-progress-reviewed-v1-current.json';atomic(pub,dict(status=facts['status'],directory=str(out),report=str(report),facts=str(out/'facts.json'),new_training=False,whole_objective_complete=False,dependencies_sha256=dependencies))
+ wrapper.update(packet=str(out/'current-status-packet.json'),dependencies_sha256={**wrapper['dependencies_sha256'],**dependencies,str(pub):sha(pub)});atomic(wp,wrapper)
+ for p,h in dependencies.items():clone(Path(p),P/'workbench'/Path(p).relative_to(ROOT))
+ clone(pub,P/'workbench/verification'/pub.name);clone(wp,P/'workbench/verification'/wp.name)
+ for root in [ROOT,P/'workbench']:
+  (root/'CURRENT DECOMPILATION.txt').write_text(report.read_text());(root/'WATCH LOCAL AGENTS.txt').write_text(report.read_text())
+ print(facts['status'],report,flush=True)
+if __name__=='__main__':main()

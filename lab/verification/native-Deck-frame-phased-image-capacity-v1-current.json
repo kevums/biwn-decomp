@@ -1,0 +1,28 @@
+{
+  "status": "terminal_actual_heap_initialize_then_capacity_requests_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-capacity-v1/20261021T122100.145041Z",
+  "cases": 36,
+  "initial_capacity": 122560,
+  "requests": [
+    0,
+    1,
+    1024,
+    122544,
+    122552,
+    122553,
+    122559,
+    122560,
+    122561
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/capacity.py": "0a27679768f87bc3c89709455346771faf207daf0df894ef4f0a267f4c5bb90b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_load_scan_bundle_heap.py": "c4ca5cd1ff4b809adbc6e0593f3687665c8f221463ad85b1581ae6a0ae0addfa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/mainstage-frame-acquire-phased-v1.bin": "c67b413b3d6e44c38a84143cb2748c39dce1c872af08a49def9d1caeb7668a5f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/resident-with-arenas.bin": "0c916fb9f75ad61fb2d8246ad947b7a92ec9a9f2c70f85c783e1673d1cdce2fd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e"
+  },
+  "scope": "Fresh relocated heap init followed by boundary-size allocation requests. Each request starts from actual native-constructor RAM. Exact fullCPU/banks/publicRAM/nativecopy-blitter plus prescribed-copy ordered trace compare to original memory routines at same declared floor. Not arbitrary allocation sequence/resource or whole-game coverage.",
+  "new_predictions": 0
+}

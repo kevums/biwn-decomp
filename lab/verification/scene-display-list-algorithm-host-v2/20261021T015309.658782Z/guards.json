@@ -1,0 +1,116 @@
+[
+  {
+    "options": {
+      "missing": 0
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "missing": 1
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "missing": 2
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "missing": 3
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "missing": 4
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "missing": 5
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "null_bus": true
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "null_cpu": true
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "null_service": true
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "budget": 0
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "stop_flag": 2
+    },
+    "status": 1
+  },
+  {
+    "options": {
+      "bad_pc": true
+    },
+    "status": 7
+  },
+  {
+    "options": {
+      "budget": 1
+    },
+    "status": 4
+  },
+  {
+    "options": {
+      "fail": [
+        "read",
+        4
+      ]
+    },
+    "status": 2
+  },
+  {
+    "options": {
+      "fail": [
+        "write",
+        4
+      ]
+    },
+    "status": 2
+  },
+  {
+    "options": {
+      "fail": [
+        "read",
+        2
+      ]
+    },
+    "status": 2
+  },
+  {
+    "options": {
+      "fail": [
+        "write",
+        2
+      ]
+    },
+    "status": 2
+  }
+]

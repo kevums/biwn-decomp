@@ -1,0 +1,72 @@
+{
+  "status": "four_actual_local_predictions_no_accepted_model_code",
+  "calls": [
+    {
+      "ordinal": 1,
+      "role": "Author",
+      "response_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-20261019T043834.388256Z/author.json",
+      "response_sha256": "80f68b0dc3a59eeeb7218042c58df97ae4148ae2fab1c01b19aa79f0afd2085c",
+      "exact_prompt_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-20261019T043834.388256Z/frozen-request.json",
+      "model_identifier": "advertising-scholar",
+      "seconds": 131.12,
+      "input_tokens": 2330,
+      "output_tokens": 2599,
+      "reasoning_tokens": 0,
+      "quality_flags": [
+        "output_budget_near_limit"
+      ],
+      "adopted_as_verified_output": false
+    },
+    {
+      "ordinal": 2,
+      "role": "Reviewer",
+      "response_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-20261019T043834.388256Z/reviewer.json",
+      "response_sha256": "f3eb0b4dd436674290d1d1954699fcb7bd8d7d0cec0f57e5c88d39e897f87795",
+      "exact_prompt_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-20261019T043834.388256Z/reviewer-request.json",
+      "model_identifier": "advertising-scholar",
+      "seconds": 102.57,
+      "input_tokens": 5958,
+      "output_tokens": 1599,
+      "reasoning_tokens": 0,
+      "quality_flags": [
+        "output_budget_near_limit"
+      ],
+      "adopted_as_verified_output": false
+    },
+    {
+      "ordinal": 3,
+      "role": "Author repair",
+      "response_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-repair-20261019T044248.369516Z/author-repair.json",
+      "response_sha256": "288291ffaf9027d1732eefdcbf772bba6837d572a26ae9f06fae644dbc1fc2fb",
+      "exact_prompt_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-repair-20261019T044248.369516Z/frozen-request.json",
+      "model_identifier": "advertising-scholar",
+      "seconds": 65.82,
+      "input_tokens": 8146,
+      "output_tokens": 984,
+      "reasoning_tokens": 0,
+      "quality_flags": [],
+      "adopted_as_verified_output": false
+    },
+    {
+      "ordinal": 4,
+      "role": "Reviewer of repair",
+      "response_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-repair-20261019T044248.369516Z/reviewer.json",
+      "response_sha256": "147a8085ef1323e993aef6b1b83addee7b616cddd92917b329cb4be5d7de54b4",
+      "exact_prompt_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-select-repair-20261019T044248.369516Z/reviewer-request.json",
+      "model_identifier": "advertising-scholar",
+      "seconds": 49.46,
+      "input_tokens": 7127,
+      "output_tokens": 699,
+      "reasoning_tokens": 0,
+      "quality_flags": [
+        "output_budget_near_limit"
+      ],
+      "adopted_as_verified_output": false
+    }
+  ],
+  "total_inference_seconds": 348.96999999999997,
+  "scope": "Development output test on already-loaded local27Bbase at32K, reasoning off, with game workers concurrent. Sum of four HTTP prediction durations; excludes compiler/oracle and coordination time. Not isolated throughput, independent benchmark or new weight training.",
+  "accepted_native_source": "Coordinator implementation",
+  "new_training": false,
+  "native_Chat_verified": false
+}

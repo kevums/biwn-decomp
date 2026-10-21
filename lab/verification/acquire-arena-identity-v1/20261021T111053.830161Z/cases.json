@@ -1,0 +1,3890 @@
+[
+  {
+    "task": 788776,
+    "slot": 0,
+    "mode": 0,
+    "flags": 0,
+    "context": 1472104,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788776,
+    "slot": 0,
+    "mode": 0,
+    "flags": 31,
+    "context": 1472104,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788776,
+    "slot": 0,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1472104,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788776,
+    "slot": 0,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1472104,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 789800,
+    "slot": 1,
+    "mode": 0,
+    "flags": 0,
+    "context": 1472360,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 789800,
+    "slot": 1,
+    "mode": 0,
+    "flags": 31,
+    "context": 1472360,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 789800,
+    "slot": 1,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1472360,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 789800,
+    "slot": 1,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1472360,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 790824,
+    "slot": 2,
+    "mode": 0,
+    "flags": 0,
+    "context": 1472616,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 790824,
+    "slot": 2,
+    "mode": 0,
+    "flags": 31,
+    "context": 1472616,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 790824,
+    "slot": 2,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1472616,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 790824,
+    "slot": 2,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1472616,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 791848,
+    "slot": 3,
+    "mode": 0,
+    "flags": 0,
+    "context": 1472872,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 791848,
+    "slot": 3,
+    "mode": 0,
+    "flags": 31,
+    "context": 1472872,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 791848,
+    "slot": 3,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1472872,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 791848,
+    "slot": 3,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1472872,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 792872,
+    "slot": 4,
+    "mode": 0,
+    "flags": 0,
+    "context": 1473128,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 792872,
+    "slot": 4,
+    "mode": 0,
+    "flags": 31,
+    "context": 1473128,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 792872,
+    "slot": 4,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1473128,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 792872,
+    "slot": 4,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1473128,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 793896,
+    "slot": 5,
+    "mode": 0,
+    "flags": 0,
+    "context": 1473384,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 793896,
+    "slot": 5,
+    "mode": 0,
+    "flags": 31,
+    "context": 1473384,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 793896,
+    "slot": 5,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1473384,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 793896,
+    "slot": 5,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1473384,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 794920,
+    "slot": 6,
+    "mode": 0,
+    "flags": 0,
+    "context": 1473640,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 794920,
+    "slot": 6,
+    "mode": 0,
+    "flags": 31,
+    "context": 1473640,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 794920,
+    "slot": 6,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1473640,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 794920,
+    "slot": 6,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1473640,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 795944,
+    "slot": 7,
+    "mode": 0,
+    "flags": 0,
+    "context": 1473896,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 795944,
+    "slot": 7,
+    "mode": 0,
+    "flags": 31,
+    "context": 1473896,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 795944,
+    "slot": 7,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1473896,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 795944,
+    "slot": 7,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1473896,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 796968,
+    "slot": 8,
+    "mode": 0,
+    "flags": 0,
+    "context": 1474152,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 796968,
+    "slot": 8,
+    "mode": 0,
+    "flags": 31,
+    "context": 1474152,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 796968,
+    "slot": 8,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1474152,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 796968,
+    "slot": 8,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1474152,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 797992,
+    "slot": 9,
+    "mode": 0,
+    "flags": 0,
+    "context": 1474408,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 797992,
+    "slot": 9,
+    "mode": 0,
+    "flags": 31,
+    "context": 1474408,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 797992,
+    "slot": 9,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1474408,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 797992,
+    "slot": 9,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1474408,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 799016,
+    "slot": 10,
+    "mode": 0,
+    "flags": 0,
+    "context": 1474664,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 799016,
+    "slot": 10,
+    "mode": 0,
+    "flags": 31,
+    "context": 1474664,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 799016,
+    "slot": 10,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1474664,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 799016,
+    "slot": 10,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1474664,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 800040,
+    "slot": 11,
+    "mode": 0,
+    "flags": 0,
+    "context": 1474920,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 800040,
+    "slot": 11,
+    "mode": 0,
+    "flags": 31,
+    "context": 1474920,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 800040,
+    "slot": 11,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1474920,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 800040,
+    "slot": 11,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1474920,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 801064,
+    "slot": 12,
+    "mode": 0,
+    "flags": 0,
+    "context": 1475176,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 801064,
+    "slot": 12,
+    "mode": 0,
+    "flags": 31,
+    "context": 1475176,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 801064,
+    "slot": 12,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1475176,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 801064,
+    "slot": 12,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1475176,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 802088,
+    "slot": 13,
+    "mode": 0,
+    "flags": 0,
+    "context": 1475432,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 802088,
+    "slot": 13,
+    "mode": 0,
+    "flags": 31,
+    "context": 1475432,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 802088,
+    "slot": 13,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1475432,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 802088,
+    "slot": 13,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1475432,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 803112,
+    "slot": 14,
+    "mode": 0,
+    "flags": 0,
+    "context": 1475688,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 803112,
+    "slot": 14,
+    "mode": 0,
+    "flags": 31,
+    "context": 1475688,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 803112,
+    "slot": 14,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1475688,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 803112,
+    "slot": 14,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1475688,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 804136,
+    "slot": 15,
+    "mode": 0,
+    "flags": 0,
+    "context": 1475944,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 804136,
+    "slot": 15,
+    "mode": 0,
+    "flags": 31,
+    "context": 1475944,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 804136,
+    "slot": 15,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1475944,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 804136,
+    "slot": 15,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1475944,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 805160,
+    "slot": 16,
+    "mode": 0,
+    "flags": 0,
+    "context": 1476200,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 805160,
+    "slot": 16,
+    "mode": 0,
+    "flags": 31,
+    "context": 1476200,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 805160,
+    "slot": 16,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1476200,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 805160,
+    "slot": 16,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1476200,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 806184,
+    "slot": 17,
+    "mode": 0,
+    "flags": 0,
+    "context": 1476456,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 806184,
+    "slot": 17,
+    "mode": 0,
+    "flags": 31,
+    "context": 1476456,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 806184,
+    "slot": 17,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1476456,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 806184,
+    "slot": 17,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1476456,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 807208,
+    "slot": 18,
+    "mode": 0,
+    "flags": 0,
+    "context": 1476712,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 807208,
+    "slot": 18,
+    "mode": 0,
+    "flags": 31,
+    "context": 1476712,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 807208,
+    "slot": 18,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1476712,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 807208,
+    "slot": 18,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1476712,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 808232,
+    "slot": 19,
+    "mode": 0,
+    "flags": 0,
+    "context": 1476968,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 808232,
+    "slot": 19,
+    "mode": 0,
+    "flags": 31,
+    "context": 1476968,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 808232,
+    "slot": 19,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1476968,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 808232,
+    "slot": 19,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1476968,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 809256,
+    "slot": 20,
+    "mode": 0,
+    "flags": 0,
+    "context": 1477224,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 809256,
+    "slot": 20,
+    "mode": 0,
+    "flags": 31,
+    "context": 1477224,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 809256,
+    "slot": 20,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1477224,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 809256,
+    "slot": 20,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1477224,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 810280,
+    "slot": 21,
+    "mode": 0,
+    "flags": 0,
+    "context": 1477480,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 810280,
+    "slot": 21,
+    "mode": 0,
+    "flags": 31,
+    "context": 1477480,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 810280,
+    "slot": 21,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1477480,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 810280,
+    "slot": 21,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1477480,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 811304,
+    "slot": 22,
+    "mode": 0,
+    "flags": 0,
+    "context": 1477736,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 811304,
+    "slot": 22,
+    "mode": 0,
+    "flags": 31,
+    "context": 1477736,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 811304,
+    "slot": 22,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1477736,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 811304,
+    "slot": 22,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1477736,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 812328,
+    "slot": 23,
+    "mode": 0,
+    "flags": 0,
+    "context": 1477992,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 812328,
+    "slot": 23,
+    "mode": 0,
+    "flags": 31,
+    "context": 1477992,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 812328,
+    "slot": 23,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1477992,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 812328,
+    "slot": 23,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1477992,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 813352,
+    "slot": 24,
+    "mode": 0,
+    "flags": 0,
+    "context": 1478248,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 813352,
+    "slot": 24,
+    "mode": 0,
+    "flags": 31,
+    "context": 1478248,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 813352,
+    "slot": 24,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1478248,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 813352,
+    "slot": 24,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1478248,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 814376,
+    "slot": 25,
+    "mode": 0,
+    "flags": 0,
+    "context": 1478504,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 814376,
+    "slot": 25,
+    "mode": 0,
+    "flags": 31,
+    "context": 1478504,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 814376,
+    "slot": 25,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1478504,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 814376,
+    "slot": 25,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1478504,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 815400,
+    "slot": 26,
+    "mode": 0,
+    "flags": 0,
+    "context": 1478760,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 815400,
+    "slot": 26,
+    "mode": 0,
+    "flags": 31,
+    "context": 1478760,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 815400,
+    "slot": 26,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1478760,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 815400,
+    "slot": 26,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1478760,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 816424,
+    "slot": 27,
+    "mode": 0,
+    "flags": 0,
+    "context": 1479016,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 816424,
+    "slot": 27,
+    "mode": 0,
+    "flags": 31,
+    "context": 1479016,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 816424,
+    "slot": 27,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1479016,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 816424,
+    "slot": 27,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1479016,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 817448,
+    "slot": 28,
+    "mode": 0,
+    "flags": 0,
+    "context": 1479272,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 817448,
+    "slot": 28,
+    "mode": 0,
+    "flags": 31,
+    "context": 1479272,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 817448,
+    "slot": 28,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1479272,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 817448,
+    "slot": 28,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1479272,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 818472,
+    "slot": 29,
+    "mode": 0,
+    "flags": 0,
+    "context": 1479528,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 818472,
+    "slot": 29,
+    "mode": 0,
+    "flags": 31,
+    "context": 1479528,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 818472,
+    "slot": 29,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1479528,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 818472,
+    "slot": 29,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1479528,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 819496,
+    "slot": 30,
+    "mode": 0,
+    "flags": 0,
+    "context": 1479784,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 819496,
+    "slot": 30,
+    "mode": 0,
+    "flags": 31,
+    "context": 1479784,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 819496,
+    "slot": 30,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1479784,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 819496,
+    "slot": 30,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1479784,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 820520,
+    "slot": 31,
+    "mode": 0,
+    "flags": 0,
+    "context": 1480040,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 820520,
+    "slot": 31,
+    "mode": 0,
+    "flags": 31,
+    "context": 1480040,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 820520,
+    "slot": 31,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1480040,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 820520,
+    "slot": 31,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1480040,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 821544,
+    "slot": 32,
+    "mode": 0,
+    "flags": 0,
+    "context": 1480296,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 821544,
+    "slot": 32,
+    "mode": 0,
+    "flags": 31,
+    "context": 1480296,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 821544,
+    "slot": 32,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1480296,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 821544,
+    "slot": 32,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1480296,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 822568,
+    "slot": 33,
+    "mode": 0,
+    "flags": 0,
+    "context": 1480552,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 822568,
+    "slot": 33,
+    "mode": 0,
+    "flags": 31,
+    "context": 1480552,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 822568,
+    "slot": 33,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1480552,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 822568,
+    "slot": 33,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1480552,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 823592,
+    "slot": 34,
+    "mode": 0,
+    "flags": 0,
+    "context": 1480808,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 823592,
+    "slot": 34,
+    "mode": 0,
+    "flags": 31,
+    "context": 1480808,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 823592,
+    "slot": 34,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1480808,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 823592,
+    "slot": 34,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1480808,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 824616,
+    "slot": 35,
+    "mode": 0,
+    "flags": 0,
+    "context": 1481064,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 824616,
+    "slot": 35,
+    "mode": 0,
+    "flags": 31,
+    "context": 1481064,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 824616,
+    "slot": 35,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1481064,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 824616,
+    "slot": 35,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1481064,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 825640,
+    "slot": 36,
+    "mode": 0,
+    "flags": 0,
+    "context": 1481320,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 825640,
+    "slot": 36,
+    "mode": 0,
+    "flags": 31,
+    "context": 1481320,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 825640,
+    "slot": 36,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1481320,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 825640,
+    "slot": 36,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1481320,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 826664,
+    "slot": 37,
+    "mode": 0,
+    "flags": 0,
+    "context": 1481576,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 826664,
+    "slot": 37,
+    "mode": 0,
+    "flags": 31,
+    "context": 1481576,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 826664,
+    "slot": 37,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1481576,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 826664,
+    "slot": 37,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1481576,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 827688,
+    "slot": 38,
+    "mode": 0,
+    "flags": 0,
+    "context": 1481832,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 827688,
+    "slot": 38,
+    "mode": 0,
+    "flags": 31,
+    "context": 1481832,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 827688,
+    "slot": 38,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1481832,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 827688,
+    "slot": 38,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1481832,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 828712,
+    "slot": 39,
+    "mode": 0,
+    "flags": 0,
+    "context": 1482088,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 828712,
+    "slot": 39,
+    "mode": 0,
+    "flags": 31,
+    "context": 1482088,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 828712,
+    "slot": 39,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1482088,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 828712,
+    "slot": 39,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1482088,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 829736,
+    "slot": 40,
+    "mode": 0,
+    "flags": 0,
+    "context": 1482344,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 829736,
+    "slot": 40,
+    "mode": 0,
+    "flags": 31,
+    "context": 1482344,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 829736,
+    "slot": 40,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1482344,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 829736,
+    "slot": 40,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1482344,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 830760,
+    "slot": 41,
+    "mode": 0,
+    "flags": 0,
+    "context": 1482600,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 830760,
+    "slot": 41,
+    "mode": 0,
+    "flags": 31,
+    "context": 1482600,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 830760,
+    "slot": 41,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1482600,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 830760,
+    "slot": 41,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1482600,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 831784,
+    "slot": 42,
+    "mode": 0,
+    "flags": 0,
+    "context": 1482856,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 831784,
+    "slot": 42,
+    "mode": 0,
+    "flags": 31,
+    "context": 1482856,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 831784,
+    "slot": 42,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1482856,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 831784,
+    "slot": 42,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1482856,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 832808,
+    "slot": 43,
+    "mode": 0,
+    "flags": 0,
+    "context": 1483112,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 832808,
+    "slot": 43,
+    "mode": 0,
+    "flags": 31,
+    "context": 1483112,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 832808,
+    "slot": 43,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1483112,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 832808,
+    "slot": 43,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1483112,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 833832,
+    "slot": 44,
+    "mode": 0,
+    "flags": 0,
+    "context": 1483368,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 833832,
+    "slot": 44,
+    "mode": 0,
+    "flags": 31,
+    "context": 1483368,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 833832,
+    "slot": 44,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1483368,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 833832,
+    "slot": 44,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1483368,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 834856,
+    "slot": 45,
+    "mode": 0,
+    "flags": 0,
+    "context": 1483624,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 834856,
+    "slot": 45,
+    "mode": 0,
+    "flags": 31,
+    "context": 1483624,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 834856,
+    "slot": 45,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1483624,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 834856,
+    "slot": 45,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1483624,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 835880,
+    "slot": 46,
+    "mode": 0,
+    "flags": 0,
+    "context": 1483880,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 835880,
+    "slot": 46,
+    "mode": 0,
+    "flags": 31,
+    "context": 1483880,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 835880,
+    "slot": 46,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1483880,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 835880,
+    "slot": 46,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1483880,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 836904,
+    "slot": 47,
+    "mode": 0,
+    "flags": 0,
+    "context": 1484136,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 836904,
+    "slot": 47,
+    "mode": 0,
+    "flags": 31,
+    "context": 1484136,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 836904,
+    "slot": 47,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1484136,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 836904,
+    "slot": 47,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1484136,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 837928,
+    "slot": 48,
+    "mode": 0,
+    "flags": 0,
+    "context": 1484392,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 837928,
+    "slot": 48,
+    "mode": 0,
+    "flags": 31,
+    "context": 1484392,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 837928,
+    "slot": 48,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1484392,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 837928,
+    "slot": 48,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1484392,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 838952,
+    "slot": 49,
+    "mode": 0,
+    "flags": 0,
+    "context": 1484648,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 838952,
+    "slot": 49,
+    "mode": 0,
+    "flags": 31,
+    "context": 1484648,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 838952,
+    "slot": 49,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1484648,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 838952,
+    "slot": 49,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1484648,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 839976,
+    "slot": 50,
+    "mode": 0,
+    "flags": 0,
+    "context": 1484904,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 839976,
+    "slot": 50,
+    "mode": 0,
+    "flags": 31,
+    "context": 1484904,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 839976,
+    "slot": 50,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1484904,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 839976,
+    "slot": 50,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1484904,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 841000,
+    "slot": 51,
+    "mode": 0,
+    "flags": 0,
+    "context": 1485160,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 841000,
+    "slot": 51,
+    "mode": 0,
+    "flags": 31,
+    "context": 1485160,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 841000,
+    "slot": 51,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1485160,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 841000,
+    "slot": 51,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1485160,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 842024,
+    "slot": 52,
+    "mode": 0,
+    "flags": 0,
+    "context": 1485416,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 842024,
+    "slot": 52,
+    "mode": 0,
+    "flags": 31,
+    "context": 1485416,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 842024,
+    "slot": 52,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1485416,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 842024,
+    "slot": 52,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1485416,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 843048,
+    "slot": 53,
+    "mode": 0,
+    "flags": 0,
+    "context": 1485672,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 843048,
+    "slot": 53,
+    "mode": 0,
+    "flags": 31,
+    "context": 1485672,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 843048,
+    "slot": 53,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1485672,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 843048,
+    "slot": 53,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1485672,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 844072,
+    "slot": 54,
+    "mode": 0,
+    "flags": 0,
+    "context": 1485928,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 844072,
+    "slot": 54,
+    "mode": 0,
+    "flags": 31,
+    "context": 1485928,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 844072,
+    "slot": 54,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1485928,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 844072,
+    "slot": 54,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1485928,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 845096,
+    "slot": 55,
+    "mode": 0,
+    "flags": 0,
+    "context": 1486184,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 845096,
+    "slot": 55,
+    "mode": 0,
+    "flags": 31,
+    "context": 1486184,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 845096,
+    "slot": 55,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1486184,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 845096,
+    "slot": 55,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1486184,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 846120,
+    "slot": 56,
+    "mode": 0,
+    "flags": 0,
+    "context": 1486440,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 846120,
+    "slot": 56,
+    "mode": 0,
+    "flags": 31,
+    "context": 1486440,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 846120,
+    "slot": 56,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1486440,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 846120,
+    "slot": 56,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1486440,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 847144,
+    "slot": 57,
+    "mode": 0,
+    "flags": 0,
+    "context": 1486696,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 847144,
+    "slot": 57,
+    "mode": 0,
+    "flags": 31,
+    "context": 1486696,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 847144,
+    "slot": 57,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1486696,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 847144,
+    "slot": 57,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1486696,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 848168,
+    "slot": 58,
+    "mode": 0,
+    "flags": 0,
+    "context": 1486952,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 848168,
+    "slot": 58,
+    "mode": 0,
+    "flags": 31,
+    "context": 1486952,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 848168,
+    "slot": 58,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1486952,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 848168,
+    "slot": 58,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1486952,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 849192,
+    "slot": 59,
+    "mode": 0,
+    "flags": 0,
+    "context": 1487208,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 849192,
+    "slot": 59,
+    "mode": 0,
+    "flags": 31,
+    "context": 1487208,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 849192,
+    "slot": 59,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1487208,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 849192,
+    "slot": 59,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1487208,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 850216,
+    "slot": 60,
+    "mode": 0,
+    "flags": 0,
+    "context": 1487464,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 850216,
+    "slot": 60,
+    "mode": 0,
+    "flags": 31,
+    "context": 1487464,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 850216,
+    "slot": 60,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1487464,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 850216,
+    "slot": 60,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1487464,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 851240,
+    "slot": 61,
+    "mode": 0,
+    "flags": 0,
+    "context": 1487720,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 851240,
+    "slot": 61,
+    "mode": 0,
+    "flags": 31,
+    "context": 1487720,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 851240,
+    "slot": 61,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1487720,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 851240,
+    "slot": 61,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1487720,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 852264,
+    "slot": 62,
+    "mode": 0,
+    "flags": 0,
+    "context": 1487976,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 852264,
+    "slot": 62,
+    "mode": 0,
+    "flags": 31,
+    "context": 1487976,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 852264,
+    "slot": 62,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1487976,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 852264,
+    "slot": 62,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1487976,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 853288,
+    "slot": 63,
+    "mode": 0,
+    "flags": 0,
+    "context": 1488232,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 853288,
+    "slot": 63,
+    "mode": 0,
+    "flags": 31,
+    "context": 1488232,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 853288,
+    "slot": 63,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1488232,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 853288,
+    "slot": 63,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1488232,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 854312,
+    "slot": 64,
+    "mode": 0,
+    "flags": 0,
+    "context": 1488488,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 854312,
+    "slot": 64,
+    "mode": 0,
+    "flags": 31,
+    "context": 1488488,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 854312,
+    "slot": 64,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1488488,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 854312,
+    "slot": 64,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1488488,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 855336,
+    "slot": 65,
+    "mode": 0,
+    "flags": 0,
+    "context": 1488744,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 855336,
+    "slot": 65,
+    "mode": 0,
+    "flags": 31,
+    "context": 1488744,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 855336,
+    "slot": 65,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1488744,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 855336,
+    "slot": 65,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1488744,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 856360,
+    "slot": 66,
+    "mode": 0,
+    "flags": 0,
+    "context": 1489000,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 856360,
+    "slot": 66,
+    "mode": 0,
+    "flags": 31,
+    "context": 1489000,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 856360,
+    "slot": 66,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1489000,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 856360,
+    "slot": 66,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1489000,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 857384,
+    "slot": 67,
+    "mode": 0,
+    "flags": 0,
+    "context": 1489256,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 857384,
+    "slot": 67,
+    "mode": 0,
+    "flags": 31,
+    "context": 1489256,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 857384,
+    "slot": 67,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1489256,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 857384,
+    "slot": 67,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1489256,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 858408,
+    "slot": 68,
+    "mode": 0,
+    "flags": 0,
+    "context": 1489512,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 858408,
+    "slot": 68,
+    "mode": 0,
+    "flags": 31,
+    "context": 1489512,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 858408,
+    "slot": 68,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1489512,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 858408,
+    "slot": 68,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1489512,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 859432,
+    "slot": 69,
+    "mode": 0,
+    "flags": 0,
+    "context": 1489768,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 859432,
+    "slot": 69,
+    "mode": 0,
+    "flags": 31,
+    "context": 1489768,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 859432,
+    "slot": 69,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1489768,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 859432,
+    "slot": 69,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1489768,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 860456,
+    "slot": 70,
+    "mode": 0,
+    "flags": 0,
+    "context": 1490024,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 860456,
+    "slot": 70,
+    "mode": 0,
+    "flags": 31,
+    "context": 1490024,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 860456,
+    "slot": 70,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1490024,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 860456,
+    "slot": 70,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1490024,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 861480,
+    "slot": 71,
+    "mode": 0,
+    "flags": 0,
+    "context": 1490280,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 861480,
+    "slot": 71,
+    "mode": 0,
+    "flags": 31,
+    "context": 1490280,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 861480,
+    "slot": 71,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1490280,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 861480,
+    "slot": 71,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1490280,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 862504,
+    "slot": 72,
+    "mode": 0,
+    "flags": 0,
+    "context": 1490536,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 862504,
+    "slot": 72,
+    "mode": 0,
+    "flags": 31,
+    "context": 1490536,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 862504,
+    "slot": 72,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1490536,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 862504,
+    "slot": 72,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1490536,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 863528,
+    "slot": 73,
+    "mode": 0,
+    "flags": 0,
+    "context": 1490792,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 863528,
+    "slot": 73,
+    "mode": 0,
+    "flags": 31,
+    "context": 1490792,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 863528,
+    "slot": 73,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1490792,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 863528,
+    "slot": 73,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1490792,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 864552,
+    "slot": 74,
+    "mode": 0,
+    "flags": 0,
+    "context": 1491048,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 864552,
+    "slot": 74,
+    "mode": 0,
+    "flags": 31,
+    "context": 1491048,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 864552,
+    "slot": 74,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1491048,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 864552,
+    "slot": 74,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1491048,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 865576,
+    "slot": 75,
+    "mode": 0,
+    "flags": 0,
+    "context": 1491304,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 865576,
+    "slot": 75,
+    "mode": 0,
+    "flags": 31,
+    "context": 1491304,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 865576,
+    "slot": 75,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1491304,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 865576,
+    "slot": 75,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1491304,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 866600,
+    "slot": 76,
+    "mode": 0,
+    "flags": 0,
+    "context": 1491560,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 866600,
+    "slot": 76,
+    "mode": 0,
+    "flags": 31,
+    "context": 1491560,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 866600,
+    "slot": 76,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1491560,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 866600,
+    "slot": 76,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1491560,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 867624,
+    "slot": 77,
+    "mode": 0,
+    "flags": 0,
+    "context": 1491816,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 867624,
+    "slot": 77,
+    "mode": 0,
+    "flags": 31,
+    "context": 1491816,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 867624,
+    "slot": 77,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1491816,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 867624,
+    "slot": 77,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1491816,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 868648,
+    "slot": 78,
+    "mode": 0,
+    "flags": 0,
+    "context": 1492072,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 868648,
+    "slot": 78,
+    "mode": 0,
+    "flags": 31,
+    "context": 1492072,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 868648,
+    "slot": 78,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1492072,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 868648,
+    "slot": 78,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1492072,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 869672,
+    "slot": 79,
+    "mode": 0,
+    "flags": 0,
+    "context": 1492328,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 869672,
+    "slot": 79,
+    "mode": 0,
+    "flags": 31,
+    "context": 1492328,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 869672,
+    "slot": 79,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1492328,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 869672,
+    "slot": 79,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1492328,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 870696,
+    "slot": 80,
+    "mode": 0,
+    "flags": 0,
+    "context": 1492584,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 870696,
+    "slot": 80,
+    "mode": 0,
+    "flags": 31,
+    "context": 1492584,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 870696,
+    "slot": 80,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1492584,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 870696,
+    "slot": 80,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1492584,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 871720,
+    "slot": 81,
+    "mode": 0,
+    "flags": 0,
+    "context": 1492840,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 871720,
+    "slot": 81,
+    "mode": 0,
+    "flags": 31,
+    "context": 1492840,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 871720,
+    "slot": 81,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1492840,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 871720,
+    "slot": 81,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1492840,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 872744,
+    "slot": 82,
+    "mode": 0,
+    "flags": 0,
+    "context": 1493096,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 872744,
+    "slot": 82,
+    "mode": 0,
+    "flags": 31,
+    "context": 1493096,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 872744,
+    "slot": 82,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1493096,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 872744,
+    "slot": 82,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1493096,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 873768,
+    "slot": 83,
+    "mode": 0,
+    "flags": 0,
+    "context": 1493352,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 873768,
+    "slot": 83,
+    "mode": 0,
+    "flags": 31,
+    "context": 1493352,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 873768,
+    "slot": 83,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1493352,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 873768,
+    "slot": 83,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1493352,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 874792,
+    "slot": 84,
+    "mode": 0,
+    "flags": 0,
+    "context": 1493608,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 874792,
+    "slot": 84,
+    "mode": 0,
+    "flags": 31,
+    "context": 1493608,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 874792,
+    "slot": 84,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1493608,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 874792,
+    "slot": 84,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1493608,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 875816,
+    "slot": 85,
+    "mode": 0,
+    "flags": 0,
+    "context": 1493864,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 875816,
+    "slot": 85,
+    "mode": 0,
+    "flags": 31,
+    "context": 1493864,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 875816,
+    "slot": 85,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1493864,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 875816,
+    "slot": 85,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1493864,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 876840,
+    "slot": 86,
+    "mode": 0,
+    "flags": 0,
+    "context": 1494120,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 876840,
+    "slot": 86,
+    "mode": 0,
+    "flags": 31,
+    "context": 1494120,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 876840,
+    "slot": 86,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1494120,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 876840,
+    "slot": 86,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1494120,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 877864,
+    "slot": 87,
+    "mode": 0,
+    "flags": 0,
+    "context": 1494376,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 877864,
+    "slot": 87,
+    "mode": 0,
+    "flags": 31,
+    "context": 1494376,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 877864,
+    "slot": 87,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1494376,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 877864,
+    "slot": 87,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1494376,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 878888,
+    "slot": 88,
+    "mode": 0,
+    "flags": 0,
+    "context": 1494632,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 878888,
+    "slot": 88,
+    "mode": 0,
+    "flags": 31,
+    "context": 1494632,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 878888,
+    "slot": 88,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1494632,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 878888,
+    "slot": 88,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1494632,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 879912,
+    "slot": 89,
+    "mode": 0,
+    "flags": 0,
+    "context": 1494888,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 879912,
+    "slot": 89,
+    "mode": 0,
+    "flags": 31,
+    "context": 1494888,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 879912,
+    "slot": 89,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1494888,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 879912,
+    "slot": 89,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1494888,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 880936,
+    "slot": 90,
+    "mode": 0,
+    "flags": 0,
+    "context": 1495144,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 880936,
+    "slot": 90,
+    "mode": 0,
+    "flags": 31,
+    "context": 1495144,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 880936,
+    "slot": 90,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1495144,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 880936,
+    "slot": 90,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1495144,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 881960,
+    "slot": 91,
+    "mode": 0,
+    "flags": 0,
+    "context": 1495400,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 881960,
+    "slot": 91,
+    "mode": 0,
+    "flags": 31,
+    "context": 1495400,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 881960,
+    "slot": 91,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1495400,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 881960,
+    "slot": 91,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1495400,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 882984,
+    "slot": 92,
+    "mode": 0,
+    "flags": 0,
+    "context": 1495656,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 882984,
+    "slot": 92,
+    "mode": 0,
+    "flags": 31,
+    "context": 1495656,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 882984,
+    "slot": 92,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1495656,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 882984,
+    "slot": 92,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1495656,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 884008,
+    "slot": 93,
+    "mode": 0,
+    "flags": 0,
+    "context": 1495912,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 884008,
+    "slot": 93,
+    "mode": 0,
+    "flags": 31,
+    "context": 1495912,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 884008,
+    "slot": 93,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1495912,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 884008,
+    "slot": 93,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1495912,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 885032,
+    "slot": 94,
+    "mode": 0,
+    "flags": 0,
+    "context": 1496168,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 885032,
+    "slot": 94,
+    "mode": 0,
+    "flags": 31,
+    "context": 1496168,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 885032,
+    "slot": 94,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1496168,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 885032,
+    "slot": 94,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1496168,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 886056,
+    "slot": 95,
+    "mode": 0,
+    "flags": 0,
+    "context": 1496424,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 886056,
+    "slot": 95,
+    "mode": 0,
+    "flags": 31,
+    "context": 1496424,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 886056,
+    "slot": 95,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1496424,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 886056,
+    "slot": 95,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1496424,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 887080,
+    "slot": 96,
+    "mode": 0,
+    "flags": 0,
+    "context": 1496680,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 887080,
+    "slot": 96,
+    "mode": 0,
+    "flags": 31,
+    "context": 1496680,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 887080,
+    "slot": 96,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1496680,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 887080,
+    "slot": 96,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1496680,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 888104,
+    "slot": 97,
+    "mode": 0,
+    "flags": 0,
+    "context": 1496936,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 888104,
+    "slot": 97,
+    "mode": 0,
+    "flags": 31,
+    "context": 1496936,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 888104,
+    "slot": 97,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1496936,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 888104,
+    "slot": 97,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1496936,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 889128,
+    "slot": 98,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497192,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 889128,
+    "slot": 98,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497192,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 889128,
+    "slot": 98,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497192,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 889128,
+    "slot": 98,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497192,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 890152,
+    "slot": 99,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497448,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 890152,
+    "slot": 99,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497448,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 890152,
+    "slot": 99,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497448,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 890152,
+    "slot": 99,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497448,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891176,
+    "slot": 100,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497704,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891176,
+    "slot": 100,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497704,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891176,
+    "slot": 100,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497704,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891176,
+    "slot": 100,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497704,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 0,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 0,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 0,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 0,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 2,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 2,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 2,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 2,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788775,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788775,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788775,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 788775,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 787752,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 787752,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 787752,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 787752,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 892200,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 892200,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 892200,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 892200,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891178,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891178,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891178,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 891178,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 4294967295,
+    "slot": 101,
+    "mode": 0,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 4294967295,
+    "slot": 101,
+    "mode": 0,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 4294967295,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 0,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  },
+  {
+    "task": 4294967295,
+    "slot": 101,
+    "mode": 8192,
+    "flags": 31,
+    "context": 1497960,
+    "all_registers_SR_banks_and_outside_explicit_private_regions_match": true,
+    "guest_save_bytes_exact": true
+  }
+]

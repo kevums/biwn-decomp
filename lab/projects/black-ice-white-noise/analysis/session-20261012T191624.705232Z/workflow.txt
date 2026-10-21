@@ -1,0 +1,63 @@
+BLACK ICE WHITE NOISE — ACTUAL RUN / 12 OCTOBER 2026
+
+LM Studio transport: local API at 127.0.0.1:1234; these requests are not messages in the visible LM Studio Chat window. Model: Qwen3-Coder-30B-A3B-Instruct MLX 4-bit, unchanged base weights. Separate analyst/restorer/reviewer contexts, run sequentially on mac64. No Codex subagents have been spawned.
+
+1. COMPLETE — Codex + Python file tools: read original CDI, preserve local copy and compare SHA-256 before/after copy and against copied file. Original unchanged. image-preservation.json.
+2. COMPLETE — Codex + bounded CDI reader: parse two sessions and five AUDIO/2352 tracks, all stored byte ranges accounting for pre-header data. cdi-layout.json.
+3. COMPLETE — Native pinned CDIrip metadata reader, built with address/undefined-behavior sanitizers: every track field agrees with Python port. These share an algorithm lineage; not independent format/hardware validation. cdi-layout-crosscheck.json.
+4. COMPLETE — Codex + byte-range extraction: five raw tracks saved with pregaps retained, no conversion or audio byte swapping, output hashes independently read back. raw-tracks/ and cdi-layout.json.
+5. COMPLETE — Codex + pinned Jaguar CD loader reference: locate word-swapped Atari header, preserve normalized 60000-byte candidate at declared 0x180000. boot-mapping.json. Actual build is not established just by filename #23.
+6. COMPLETE WITH WARNINGS — Ghidra native decompiler: import full declared boot payload with entry assumption at load address. One entry function, 82 instructions, approximate C with warnings. No code yet mapped at transfer target 0x4000. ghidra-full-export/ and ghidra-full-status.json.
+7. COMPLETE WITH MODEL FAILURES — Local analyst and restorer receive original evidence independently; local reviewer receives original evidence plus both drafts and flags. Analyst/reviewer fail typed condition-code checks; restorer matches recorded fields. No role output is treated as verified execution. Exact prompts: agent-prompts.json and exact-api-requests.json. Full request/response locations: local-team-run.json.
+8. COMPLETE — Codex coordinator checks all 11 prefix instruction boundaries and bytes against Ghidra, records a BTST mnemonic-width discrepancy against the NXP manual, and decodes a 96-byte opening GPU range mapped by the boot copy/start sequence. coordinator-review.json and gpu-opening.json.
+
+NEXT — Trace GPU loader/CD streaming and establish the source and RAM map of the next-stage code at 0x4000. Actual execution and game-wide reconstruction remain unfinished. Append-only activity.jsonl records actors, actions, output paths, prompt paths, quality flags and timings.
+
+
+Visible Chat workflow, 2026-10-12:
+LM Studio chat: BIWN — Live Decomp Team. Roles Analyst → Restorer → Reviewer run sequentially in the same conversation using restoration-coder. Role prompts, evidence, drafts and coordinator corrections are visible in Chat. This differs from the earlier isolated API contexts. No tool-capable autonomous local agent is implied. Codex executes file/disassembler work. New static GPU target 0xf0332c and parameter bytes at0x180580 captured in gpu-target-f0332c.json and gpu-parameter-data.json. Analyst/Restorer errors preserved and explicitly corrected; no full-game decompilation or validated nextstage0x4000 yet.
+
+
+Nextstage candidate — October12,2026
+The track2 marker run contains sixteen STUB longwords, starting at raw-track offset376994. The derived candidate starts at377058 (CDI offset3267666). Its normalized1,032,192 bytes are mapped statically at0x4000; SHA256:52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453. Original Atari SDK CD.INC and the scanned manual support the loader calling convention and marker meaning. Actual CD timecode selection and runtime behavior have not been replayed.
+
+The default Ghidra profile identified198 functions and exported191. An explicit two-byte stack argument alignment hypothesis identified200 functions and exported all200. All17,712 recorded instruction bytes and boundaries agree with Capstone in M68K_000 mode. There are117 C warnings. Ghidra's upstream family default uses a68040 superset; these checks are not strict hardware execution validation. No original symbols, original source or working restoration is claimed. Both exports and the comparison are retained.
+
+Everyday inference
+The native Chat evidence connection works after relocating its small runtime outside Documents. Two Qwen3.8 game questions passed a narrow fixture. The coding baseline showed repetition and semantic errors. The advertising measurement question passed its main design distinction; follow-ups exposed a stale connection after Force Restart, then16k context overflow. A32k single-worker load completed, but visible multi-turn and memory checks await manual screen unlock. A pinned44.86GB Qwen3-Coder-Next candidate is downloading; it is not selected.
+
+
+Reproducible extraction and portable components — 2026-10-12T21:36:34.421021+00:00
+Codex coordinator wrote the extractor and C components and ran file tools, Unicorn and clang. No local model inference or hidden agent prompts were used while the screen remained locked.
+The guarded extraction reproduces the same1,032,192 candidate bytes from the currently rehashed CDI. Two original68000 CPU routines ran in isolation: the GPU RAM copy writes501 longwords (2004bytes), and the TOC scanner produces packedMSF0x023217 under the supplied reference-style TOC. Neither test invokes BIOS or executes theGPU.
+The portable C reconstruction compiled and matched49TOC fixtures against originalCPU instructions, plus the2004-byte copy. Source: ../restoration/biwn_boot_slices.c and.h. These are isolated analyst-written components, not originalsource or a complete playable reconstruction.
+The larger Qwen3-Coder-Next download has finished; its load was rejected by currentresourceguard. The27B model remains available. Visible Chat tests still await manualunlock.
+
+
+Nextstage arithmetic and processor map — 2026-10-12T21:44:25.574643+00:00
+Codex coordinator (no local LLM inference while screen locked) reconstructed two more C components: division helperD1e0 and CD byteoffset/timecode routineD206. Compared against original instructions:296division cases including142overflow-fallback paths,174CD-position cases. The installed Ghidra DIVU semantics do not assign VF or preserve the destination on quotient overflow; automatic C for this helper is not faithful and its splitfunction entries are not verified boundaries.
+OriginalCPU copy loops captured three initial-file-byte candidates: helperGPU2224bytes, mainGPU636bytes andDSP4624bytes. NoGPU/DSP processor execution. Static helper relocation checks33MOVEI immediates and8longword pointers. Its transformedcompletionflag operandF039EC agrees with theCPUwait address. Preceding BIOScalls, actualRAMstate and whole-game behavior remain unverified. Source and tests are in restoration/biwn_cd_math.* and scripts/check_biwn_cd_math.py; detailed processor evidence in processor-programs.json andhelper-gpu-relocations.json.
+
+
+2026-10-12T21:54:54.298777+00:00 — Everyday Chat and current validation
+Separate Ghidra DIVU candidate passed 592 p-code fixtures and its verbatim exported helper C passed 296 CPU-result comparisons. Annotated export has 199 entries and 17,712 unchanged instruction byte/boundary matches; remaining automatic C is approximate. Actual CDI completed 900-frame headless BIOS-assisted and HLE smoke runs. BIOS run injects boot/trampoline/TOC and ends sampled at 0x180182 GPU wait; HLE ends sampled at 0x134a0. Menu/gameplay, exact runtime mapping, hardware accuracy and working full reconstruction remain unverified.
+Codex did this work with deterministic tools. No local LLM prompts or responses were generated while the Mac was locked. Normal progress questions now receive a compact evidence summary; full reports remain saved. Visible Chat testing is still pending manual unlock.
+
+
+2026-10-12T22:11:41.266001+00:00 — CURRENT CHECKPOINT (supersedes earlier pending-unlock/static-mapping notes)
+Two named everyday native chats saved and tested at32k, one worker: Game Assistant — BIWN and Advertising Assistant — Research & Teaching. Normal questions automatically retrieve scoped evidence. Latest generations terminal/exported. Visible roles share one model/context, not independent agents.
+Original-game HLE captures show character/street/HUD and controller-dependent viewpoint changes after identical pre-input RAM/framebuffers. Entire 1,032,192-byte stage matched assisted BIOS-mode RAM at frame899. HLE audio silent; BIOS injects boot/trampoline/TOC and ends in GPU wait. Sampled static entry addresses:27 HLE,30 with input; incomplete coverage. Five portable C components checked; latest record routine passed192 CPU fixtures and4 host guards. Separate DIVU candidate passed592 p-code fixtures and296 verbatim-C comparisons. Full reconstructed game, unmodified BIOS and hardware accuracy remain unverified.
+Exact native prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/transcripts/game-native-record4-20261012.md
+Training and full restoration remain incomplete.
+
+2026-10-12T22:36:18.872192+00:00
+Real128-step game QLoRA remediation completed on188examples (160CPU-checked synthetic,28prior workflows); validation-selected step96. Teacher-forced heldout loss3.946base to1.887adapter/hybrid. First4bit fusion regressed to3.352 and remains unselected. Hybrid20.8GB package loads at32k; generated-answer review remains required before promotion. Earlier32-step pilot also retained unpromoted.
+Runtime-guided separate Ghidra listing now18,225instructions (+513),206direct/static entry candidates (+7),206approximateCexports. Five earlier portable components plus forward-byte-copy and device-command planner give seven isolated C components. New1024CPU-byte fixtures,1024device-write traces and7host guards passed. Device effects/completion, whole-game reconstruction, silentHLEaudio, BIOSGPUwait and physical hardware remain unverified. Earlier exact1,032,192-byte assisted RAM stage mapping and short input-response captures retained.
+Two saved everyday native Chat assistants at32k/oneworker remain available. User now authorizes localAPI progress while locked, with prompts/responses/roles collected afterward. Native visible Chat base/hybrid comparison is still pending; API response comparison recorded separately. Roles use one local model with correlated errors.
+Evidence: verification/cpu-remediation-hybrid-package.json; verification/biwn-copy-checks.json; verification/cpu-remediation-responses.
+
+2026-10-13T02:01:43.762578+00:00
+Actual128-step game QLoRA completed; validation selected step96. Combined heldout teacher-forced loss3.946base to1.887adapter/hybrid. Generated comparison44responses rejected hybrid as default: all16CMP/BMI answers reportedD0=2, eight incorrect, with unsupported verification claims. Weights retained for diagnosis. No improved trained default promoted. Future dataset generator removes unsupplied execution claims; frozen training/evaluation records unchanged.
+Seven isolated portable C components checked, including CPU forward-byte copy and a device-command planner. New1024bytecopy fixtures,1024command traces and7host guards passed; device behavior unverified. Separate Ghidra listing18225instructions,206entry candidates/approximateCexports. Volatile shared-memory annotation restores the E0A6 polling/return representation with instruction bytes and function entries unchanged. New900frame BIOS/HLE processor snapshots each reproduce prior sampled PCs; BIOS first running lowGPU-PC at439, CPUwait begins620. HLE2184helper bytes match static relocation atframes177–205 with explicit36byte main-GPU overlap and4byte completion exclusions. HLEaudio still silent. Whole rebuilt game remains incomplete.
+Actual local researcher→educator→reviewer source-backed lesson run completed. Final247words violated179maximum and rubric awarded incorrect performance. Bounded repair145words swapped experiment labels and was rejected. Coordinator-corrected142word example saved separately. Compact word-limit parser fixed and11checks passed. Supervised drafting only; no advertising weight adapter trained.
+Post review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/POST REVIEW.txt

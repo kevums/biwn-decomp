@@ -1,0 +1,1602 @@
+[
+  {
+    "lane": 0,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2505
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 1,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 15132
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 2,
+      "returns": 2,
+      "protected_provider_returns": 2,
+      "copy_entries": 2,
+      "copy_returns": 2,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 2,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2933
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 3,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 22916
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 3,
+      "returns": 3,
+      "protected_provider_returns": 3,
+      "copy_entries": 3,
+      "copy_returns": 3,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 4,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 11445
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 1,
+      "copy_entries": 1,
+      "copy_returns": 1,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 5,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2495
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 6,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2511
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 7,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 18345
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 16,
+      "copy_entries": 11,
+      "copy_returns": 11,
+      "matrix_entries": 5,
+      "matrix_returns": 5,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 8,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2505
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 9,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2495
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 10,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2511
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 11,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 9284
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 2,
+      "copy_entries": 2,
+      "copy_returns": 2,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 12,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2492
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 13,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2495
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 14,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 19926
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 2,
+      "returns": 2,
+      "protected_provider_returns": 2,
+      "copy_entries": 2,
+      "copy_returns": 2,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 15,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 8307
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 1,
+      "copy_entries": 1,
+      "copy_returns": 1,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 16,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2492
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 17,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2495
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 18,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 22911
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 3,
+      "returns": 3,
+      "protected_provider_returns": 3,
+      "copy_entries": 3,
+      "copy_returns": 3,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 19,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 113
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 20,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2492
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 21,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2495
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 22,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 9548
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 1,
+      "copy_entries": 1,
+      "copy_returns": 1,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 23,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 113
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 24,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2492
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 25,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2495
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 26,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 21190
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 3,
+      "returns": 3,
+      "protected_provider_returns": 3,
+      "copy_entries": 3,
+      "copy_returns": 3,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 27,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2514
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 28,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2492
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 29,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2508
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 30,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2881
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 31,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 113
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 32,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 33,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2472
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 34,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 8210
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 1,
+      "copy_entries": 1,
+      "copy_returns": 1,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 35,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 108
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 36,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 37,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2472
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 38,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 48035
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 62,
+      "copy_entries": 41,
+      "copy_returns": 41,
+      "matrix_entries": 21,
+      "matrix_returns": 21,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 39,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2465
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 40,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 41,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2472
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 42,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 19208
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 18,
+      "copy_entries": 12,
+      "copy_returns": 12,
+      "matrix_entries": 6,
+      "matrix_returns": 6,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 43,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2465
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 44,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 45,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2472
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 46,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2475
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 47,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2465
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 48,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 49,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 8868
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 1,
+      "copy_entries": 1,
+      "copy_returns": 1,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 50,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 9255
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 3,
+      "copy_entries": 2,
+      "copy_returns": 2,
+      "matrix_entries": 1,
+      "matrix_returns": 1,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 51,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2465
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 52,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 53,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 36684
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 4,
+      "returns": 4,
+      "protected_provider_returns": 4,
+      "copy_entries": 4,
+      "copy_returns": 4,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 54,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2475
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 55,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2839
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 56,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 22638
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 3,
+      "returns": 3,
+      "protected_provider_returns": 3,
+      "copy_entries": 3,
+      "copy_returns": 3,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 57,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 9503
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "protected_provider_returns": 1,
+      "copy_entries": 1,
+      "copy_returns": 1,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 58,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 36689
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 4,
+      "returns": 4,
+      "protected_provider_returns": 4,
+      "copy_entries": 4,
+      "copy_returns": 4,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 59,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 14812
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 2,
+      "returns": 2,
+      "protected_provider_returns": 2,
+      "copy_entries": 2,
+      "copy_returns": 2,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 60,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2456
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 61,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 16089
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 2,
+      "returns": 2,
+      "protected_provider_returns": 2,
+      "copy_entries": 2,
+      "copy_returns": 2,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 62,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 108
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  },
+  {
+    "lane": 63,
+    "shared": {
+      "errors": 0,
+      "outside": 0,
+      "pending": 0,
+      "entries": 1,
+      "returns": 1,
+      "fallbacks": 0,
+      "attempts": 1,
+      "C_observations": 2465
+    },
+    "records": {
+      "errors": 0,
+      "pending": 0,
+      "entries": 0,
+      "returns": 0,
+      "protected_provider_returns": 0,
+      "copy_entries": 0,
+      "copy_returns": 0,
+      "matrix_entries": 0,
+      "matrix_returns": 0,
+      "original_body_steps_while_native": 0
+    }
+  }
+]

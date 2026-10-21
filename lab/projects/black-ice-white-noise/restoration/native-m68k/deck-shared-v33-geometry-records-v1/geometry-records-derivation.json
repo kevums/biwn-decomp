@@ -1,0 +1,17 @@
+{
+  "parent_profile": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-v30-scene-gpu-commands-v1",
+  "canonical_readable_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/geometry-records-structured-v1/coordinator-reference.inc",
+  "canonical_host_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/geometry-records-structured-host-v1-current.json",
+  "entry": "0x170a0",
+  "captured_providers": [
+    "0xe3e0",
+    "0xe220"
+  ],
+  "original_global_170A0_unchanged": true,
+  "scene_arena_bytes": 208,
+  "arena_changed": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "disc_integrated": false,
+  "authorship": "Coordinator readable record builder and target adaptation; no new unique original function."
+}

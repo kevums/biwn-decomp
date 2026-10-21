@@ -1,0 +1,29 @@
+BIWN — input entry,caller continuation and real task yields
+
+The game image remains unchanged:v34 reviewed baseline,v37 unpromoted after its fresh matrix-video failure22858pixels. Desktop checkpoint preview unchanged. This turn adds a separate entry/component prototype and bounded original scheduler tests,not a new disc.
+
+ENTRY ADAPTER
+A24byte original-style no-stack-argument entry was appended to the corrected input component. All10280earlier component bytes remain identical,so its2315body comparisons are inherited explicitly. New module10304bytes;the copied sources/SDK rebuild is byte-identical.
+
+4630entry cases(two stack modes across2315cases) match D0,callee-save registers,return/SP,and inactive stack banks. This is a basic entry contract,not raw context equivalence:2706cases differ inCCR and all4630differ in at least one caller-saved register. These are preserved as an unresolved universal-ABI gate. The adapter reports a logical Cerror with ILLEGAL in the fixture;production admission/error handling is not qualified.
+
+ACTUAL CALLER PREFIX
+Only the JSRoperand at1A266is redirected in this diagnostic;the original191F4global entry stays intact. Both lanes execute original caller instructions through1A340,including originalE220/E098CPU code. The declared device provider acknowledges4320with0..2busy reads and does not execute GPU arithmetic.4630cases match all publicRAM,ordered accesses,caller-local frame,matrix stack arguments and mailbox transactions. After player integration,full SR and all registers except upperD1agree;1480upper-D1differences remain recorded,with its low word equal. This proves the tested prefix consumes the differing state compatibly;it does not prove the rest of the caller,real GPU output or a universal entry ABI.
+
+REAL TWO-TASK YIELD
+Sixteenpaired trials execute originalDF60,TRAP,DE08,RTE andDF66,not a yield RTS stub. TaskBcompletes an animation after1/2/3/7turns and deliberately overwritesD2-D7/A2-A6. The input routine resumes its suspended native Cframe correctly through104actual switches. Helper stack arguments/D0and public effects match;the second task’s entire1024bytes match. Original task records are1024bytes with a fenced960byte stack region.
+
+Maximum native task-stack use392bytes;second task52;supervisor exception stack6. Canaries and native code remain unchanged. First-task private continuation/frame bytes and supervisor exception scratch are layout-dependent and excluded from cross-lane RAM equality while their bounds/fences are separately checked. First-task savedSRmatches in12of16pairs;raw context equality is not claimed. Animation/resource helpers remain scripted. This is bounded cooperative yield/stack evidence,not real-helper-body,arbitraryIRQ,all-task-admission,live-game or physical-console qualification.
+
+STACK SCOPES
+Existing component C-ABI maximum332bytes;entry fixture348;caller-prefix fixture352;actual two-task use392. These are different scopes,not evidence that a prior332byte bound covered every yield path.
+
+MODEL / FULL GOAL
+The coordinator authored the24byte adapter and diagnostics. No new local model prediction or optimizer update ran;shared inference lease was unavailable on the turn’s nonblocking probe. No live owner is inferred and no unrelated job/model was interrupted. Reader43remains the default with historical supplied-snapshot approval;new source facts have not received a fresh local reply. Useful untouched-task training gain and native LMStudioChat ease remain unproven.
+
+Next:qualify the remaining actual caller and retained helper bodies,implement/check runtime admission for the original task stacks,and cover IRQ/reentry before any callsite-specific image integration. Preserve the universal raw-return differences and the independent v37fresh matrix failure. Full source-only same-console game rebuilding,CPU/GPU/DSP/audiovisual fidelity,training quality and future256GBcapacity remain unfinished.
+
+Entry proof:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-entry-ABI-v2-current.json
+Caller proof:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-caller-prefix-v1-current.json
+Yield proof:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-real-task-yield-v2-current.json
+Copied build:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-copied-build-v4-current.json

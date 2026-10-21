@@ -1,0 +1,57 @@
+[
+  {
+    "instruction": "MOVE.L SP,-(SP)",
+    "PC": 1457928,
+    "metadata_offsets_overwritten": [
+      36,
+      37
+    ],
+    "full_2MB_RAM_oracle_equal": true
+  },
+  {
+    "instruction": "BSR.W actor_initialize_body",
+    "PC": 1457930,
+    "metadata_offsets_overwritten": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "full_2MB_RAM_oracle_equal": true
+  },
+  {
+    "instruction": "MOVEM.L D2-D4/A2-A3,-(SP)",
+    "PC": 1456580,
+    "metadata_offsets_overwritten": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "full_2MB_RAM_oracle_equal": true
+  }
+]

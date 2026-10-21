@@ -1,0 +1,51 @@
+[
+  {
+    "instruction_address": 1438358,
+    "operand_address": 1438360,
+    "opcode": "4fef",
+    "old_displacement": -512,
+    "new_displacement": -448
+  },
+  {
+    "instruction_address": 1438374,
+    "operand_address": 1438376,
+    "opcode": "41ef",
+    "old_displacement": 536,
+    "new_displacement": 472
+  },
+  {
+    "instruction_address": 1438400,
+    "operand_address": 1438402,
+    "opcode": "4fef",
+    "old_displacement": 512,
+    "new_displacement": 448
+  },
+  {
+    "instruction_address": 1438456,
+    "operand_address": 1438458,
+    "opcode": "41ef",
+    "old_displacement": -446,
+    "new_displacement": -382
+  },
+  {
+    "instruction_address": 1438536,
+    "operand_address": 1438538,
+    "opcode": "41ef",
+    "old_displacement": -446,
+    "new_displacement": -382
+  },
+  {
+    "instruction_address": 1438620,
+    "operand_address": 1438622,
+    "opcode": "41ef",
+    "old_displacement": -446,
+    "new_displacement": -382
+  },
+  {
+    "instruction_address": 1438732,
+    "operand_address": 1438734,
+    "opcode": "41ef",
+    "old_displacement": -430,
+    "new_displacement": -366
+  }
+]

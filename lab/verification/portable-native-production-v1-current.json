@@ -1,0 +1,20 @@
+{
+  "status": "terminal_exact_vendor_production_registration_and_eight_synthetic_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/production-contracts",
+  "installed_plugin": "/Users/kevin/.lmstudio/extensions/plugins/local/biwn-portable-4f565868-team",
+  "production_sha256": "fa2f21c79c53fdd1599d680e9e625ec1112b5b9099c934dcaafafc196d78a346",
+  "production_registered": true,
+  "synthetic_controls": 8,
+  "new_predictions": 0,
+  "new_training": false,
+  "native_Chat_rendering_verified": false,
+  "actual_model_quality_verified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_portable_native_production_v1.py": "98060c8b8d31c9d09cd53bf12b74aa9e9da862f76991e556486598d41cd2bdf9",
+    "/Users/kevin/.lmstudio/extensions/plugins/local/biwn-portable-4f565868-team/.lmstudio/production.js": "fa2f21c79c53fdd1599d680e9e625ec1112b5b9099c934dcaafafc196d78a346",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/production-contracts/production-check.mjs": "dfb24d40c1f1d06bfa4d3ae53e1f6ac9d3243470b6248f90c5500b0b3fe94dd6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/production-contracts/run.log": "9681946c6dd271b531c5c04b4ac325977fecbca06607d80e5294b10b70867210",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/production-contracts/handler-cases.json": "1f4642115adf19cd8bda346db504c680726ced76238cd7b1751f2c7a59902a83"
+  },
+  "scope": "Run the vendor-built installed bundle with a synthetic registration host.\nReal SDK Chat/schema classes and exact production bytes are used. LM Studio\nconnection,model replies and UI controller are test doubles;zero predictions.\n"
+}

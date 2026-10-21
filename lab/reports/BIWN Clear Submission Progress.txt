@@ -1,0 +1,15 @@
+BIWN progress — native clear submission and local coding
+
+The experimental v26 image now executes the clear-submission helper from readable native code inside the scene caller, preserving the original unbounded hardware wait and MMIO store order. Native clear and buffer rotation each return 5,360 times in a fresh route. All 6,361 native scene and 32,256 captured-helper calls return; monitors finish clear. The original global helper entries and remaining original game services stay intact.
+
+Candidate/control run 24,984/24,963 frames. Final video and selected fields agree, but 8,160 paired video frames and 349 held-input samples differ. Both captures are silent. The identical-input 1,000-frame prefix has 279 video differences. The new original-scene control also differs from the prior layout on 33 frames. Neither timing nor fidelity improvement is established.
+
+Host clear proof: 256 comparisons plus 14 guards. Exact deployed scene proof: 772 cases, all eight final-image gates, fallback, nesting, bus, alias and connected checks; scene stack 156/208 bytes. Copied sources and SDK rebuild the 46,578-byte module exactly.
+
+Local inference: the first three-role trial failed compile/CPU checks. With explicit primitive declarations and stack-addressing guidance, the second Author produced a complete body in 19.33 seconds. It passes 256 host and 772 native component cases unchanged. Repair returned identical code after a harness import-path failure; correcting PYTHONPATH allowed the native test. The model module is 46,562 bytes and is outside the game image. Six predictions were reviewed across both trials; no optimizer updates or trained-weight improvement. Native Chat with these copied weights remains unverified.
+
+The installed Desktop Python GUI stays on its existing six-caller outdoor checkpoint. Whole-game decompilation, a complete same-console source rebuild, audio/IRQ fidelity and physical Jaguar CD validation remain incomplete. The full goal is active.
+
+Game review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Native Clear Submission and Gameplay Review.txt
+Local model review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Local Clear Scaffolding and Native Execution Review.txt
+Exact successful-trial prompts: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/prompts-and-responses.txt

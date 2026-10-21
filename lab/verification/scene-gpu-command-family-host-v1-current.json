@@ -1,0 +1,35 @@
+{
+  "status": "terminal_six_gpu_command_structured_dual_CPU_RAM_bus_and_wait_states_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-command-family-host-v1/20261021T031652.912922Z",
+  "pid": 15704,
+  "completed": 768,
+  "new_predictions": 0,
+  "new_training": false,
+  "game_image_changed": false,
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-command-family-host-v1/20261021T031652.912922Z/gpu-command-family.dylib",
+  "host_guards": 16,
+  "source_instruction_coverage": [
+    54,
+    54
+  ],
+  "entries": [
+    "0xe098",
+    "0xe0a6",
+    "0xe0f2",
+    "0xe148",
+    "0xe19e",
+    "0xe202"
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene_gpu_command_family_host_v1.py": "0320707137a204f6c07c91f9dd54a10a166290df7dc5639ee9db542f8570e73f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_render_queue_cpu.py": "972082b3e68e5a585db556e97873b01ab302bd27bf9ed5e23cfd460cd6ec4953",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-gpu-command-family-v1/host-wrapper.c": "49891be617a284de03e51fa46f2b5060aa0382eb015b5d68c48d47f50bdb4990",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-gpu-command-family-v1/coordinator-reference.inc": "ca37131d51756317d0ce3fed345ba1f70f940f880781af6b79cc2f519cce17c6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-command-family-host-v1/20261021T031652.912922Z/gpu-command-family.dylib": "a267d77225671a4af87f858f4ce123801104227fa7be1cb9cc7307cc8c8596ab",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-command-family-host-v1/20261021T031652.912922Z/cases.json": "191105cd289995862de19cad2f95747539483ed8aba996055899ea7eda227225",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-command-family-host-v1/20261021T031652.912922Z/vectors.json": "81ba4f449c1e98f0fd5df1fc4f54016ddc202f2aea374813648706a532ebbacd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-command-family-host-v1/20261021T031652.912922Z/guards.json": "df6792f49dd5004114a21b6be2812a7a737a1fa167a8fee3a7d5e029938fca71",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-coordinate-update-v2/deck-coordinate-contract.h": "3501eef7177826d61f7147394f09a4c922ec8f3c27316da33cb90e31efadcf8a"
+  },
+  "scope": "Six structured CPU mailbox routines versus original68000 and Unicorn.\nGPU busy/ack values are declared device inputs, not executing GPU programs.\n AllCCR/bothbanks/body+fullcall,full2MBRAM including internalguestJSRwords and orderedread/write widths/values. InternalwaitCPUentry/returnstatescompare. No targetCPU/code-size/game/IRQ/asyncGPU/console proof;target loops are unbounded while host callbacks retain finite budgets. Valid normal calls exclude private-context/stack alias corruption. Six existing recovered functions are structured together,zero new unique original functions."
+}

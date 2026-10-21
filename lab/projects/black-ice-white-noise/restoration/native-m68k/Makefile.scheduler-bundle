@@ -1,0 +1,21 @@
+include Makefile.task-create-bundle
+.DEFAULT_GOAL := scheduler-bundle
+SCHEDULER_SOURCE ?= scheduler-native.c
+.PHONY: scheduler-bundle
+scheduler-bundle: $(BUILD)/native-scheduler-bundle.elf $(BUILD)/native-scheduler-bundle.bin $(BUILD)/runtime-original.bin $(BUILD)/scheduler-yield.bin $(BUILD)/scheduler-remove.bin
+$(BUILD)/scheduler-shims.o: scheduler-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/scheduler-native.o: $(SCHEDULER_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-scheduler-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o $(BUILD)/scheduler-shims.o $(BUILD)/scheduler-native.o scheduler-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T scheduler-bundle.ld -Map $(BUILD)/native-scheduler-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-scheduler-bundle.bin: $(BUILD)/native-scheduler-bundle.elf
+	$(CROSS)objcopy -O binary $< $@
+$(BUILD)/scheduler-traps.o: scheduler-traps.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/scheduler-traps.elf: $(BUILD)/scheduler-traps.o scheduler-traps.ld $(MAKEFILE_LIST)
+	$(CROSS)ld -T scheduler-traps.ld -o $@ $<
+$(BUILD)/scheduler-yield.bin: $(BUILD)/scheduler-traps.elf
+	$(CROSS)objcopy -O binary --only-section=.yield $< $@
+$(BUILD)/scheduler-remove.bin: $(BUILD)/scheduler-traps.elf
+	$(CROSS)objcopy -O binary --only-section=.remove $< $@

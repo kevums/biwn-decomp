@@ -1,0 +1,15 @@
+include Makefile
+.PHONY: format-number
+format-number: $(BUILD)/native-format-number.bin
+$(BUILD)/format-number-shim.o: format-number-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/semantic-divide-zero.o: semantic-divide-zero.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/format-number-native.o: format-number-native.c format-number-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Os -fstack-usage -Wall -Wextra -Werror -I. -c $< -o $@
+$(BUILD)/unsigned-division-native.o: unsigned-division-native.c unsigned-division-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Os -fstack-usage -Wall -Wextra -Werror -I. -c $< -o $@
+$(BUILD)/native-format-number.elf: $(BUILD)/format-number-shim.o $(BUILD)/semantic-divide-zero.o $(BUILD)/format-number-native.o $(BUILD)/unsigned-division-native.o format-number.ld
+	$(CROSS)ld --gc-sections -T format-number.ld -Map $(BUILD)/native-format-number.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-format-number.bin: $(BUILD)/native-format-number.elf
+	$(CROSS)objcopy -O binary $< $@

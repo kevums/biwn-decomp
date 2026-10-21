@@ -1,0 +1,128 @@
+{
+  "time": "2026-10-12T22:25:09.481552+00:00",
+  "candidate_load_verified": true,
+  "native_model_state": [
+    {
+      "type": "llm",
+      "modelKey": "restoration-cpu-remediation-v2",
+      "format": "safetensors",
+      "displayName": "Restoration Cpu Remediation v2",
+      "publisher": "local",
+      "path": "local/restoration-cpu-remediation-v2",
+      "sizeBytes": 17186331753,
+      "indexedModelIdentifier": "local/restoration-cpu-remediation-v2",
+      "deviceIdentifier": null,
+      "architecture": "qwen3_moe",
+      "quantization": {
+        "name": "4bit",
+        "bits": 4
+      },
+      "identifier": "restoration-trained-pilot",
+      "ttlMs": 3600000,
+      "lastUsedTime": 1791843880316,
+      "vision": false,
+      "trainedForToolUse": true,
+      "maxContextLength": 262144,
+      "contextLength": 32768,
+      "status": "idle",
+      "queued": 0,
+      "parallel": 1,
+      "engineConfigFileEnabled": false
+    }
+  ],
+  "selected_checkpoint": {
+    "time": "2026-10-12T22:23:09.061309+00:00",
+    "selected_step": 96,
+    "validation_loss": 0.693,
+    "policy": "Minimum reported validation loss among saved checkpoints; frozen test loss not used in selection.",
+    "selection_precision": "Validation loss rounded to three decimals in tool log; ties choose earlier step.",
+    "validation_checkpoints": [
+      {
+        "step": 8,
+        "loss": 2.561
+      },
+      {
+        "step": 16,
+        "loss": 1.511
+      },
+      {
+        "step": 24,
+        "loss": 1.064
+      },
+      {
+        "step": 32,
+        "loss": 0.864
+      },
+      {
+        "step": 40,
+        "loss": 0.782
+      },
+      {
+        "step": 48,
+        "loss": 0.754
+      },
+      {
+        "step": 56,
+        "loss": 0.739
+      },
+      {
+        "step": 64,
+        "loss": 0.716
+      },
+      {
+        "step": 72,
+        "loss": 0.702
+      },
+      {
+        "step": 80,
+        "loss": 0.699
+      },
+      {
+        "step": 88,
+        "loss": 0.695
+      },
+      {
+        "step": 96,
+        "loss": 0.693
+      },
+      {
+        "step": 104,
+        "loss": 0.713
+      },
+      {
+        "step": 112,
+        "loss": 0.737
+      },
+      {
+        "step": 120,
+        "loss": 0.731
+      },
+      {
+        "step": 128,
+        "loss": 0.722
+      }
+    ],
+    "selected_adapter": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/selected-adapter",
+    "adapter_sha256": "33575eb131730537e58ef5d4ac796d7225b152404954828345762d9675283d40"
+  },
+  "model_directory": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2",
+  "model_files_sha256": {
+    "model-00004-of-00004.safetensors": "f61d6281546df95bab93b3b1a06642767d45596b00328413ccf0f0324009a279",
+    "model-00001-of-00004.safetensors": "347ff3d703bf6c0e26739f8d7eb6313ea2b9973bfe2e5bbbddcb792277fbc245",
+    "tokenizer_config.json": "23ff856b54c821dbd7e3fbcb9f33bd514f03a1ce194390d51bebae7de5a601be",
+    "config.json": "f05919beb68341ef1be47cad8f64101820eeb430d92f2259d51e5a59acb7ab54",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+    "generation_config.json": "c99723ab3ba28630d26ae23def77603b540a46924895af5cf234740d3b27b51d",
+    "README.md": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+    "model-00003-of-00004.safetensors": "04adbdf1db567b5ee28b45c6e8561b487ac30afa02d0177d47359ea041dcbd57",
+    "chat_template.jinja": "672e747c77e990320152343b0a4951222e40de5645297905d89afba05586d827",
+    "model.safetensors.index.json": "a5e9801331ef720bb9cf28635fb6db2bdcacb321c3bf1a44dddf8e3ad6feb1d0",
+    "model-00002-of-00004.safetensors": "cacdae510f48a1259fd9bf9f0c2d541a476439ec369c3939796c3bdfcb3bc047"
+  },
+  "promotion": "unselected: 4bit fusion regressed loss3.352 versus adapter1.887; higher-precision hybrid retained separately",
+  "inference": "Load check only; no generated responses or hidden agent dispatch",
+  "fused_combined_heldout_loss": 3.352,
+  "adapter_combined_heldout_loss": 1.887,
+  "fusing_loss_change": 1.465,
+  "scope": "Fused quantized package loaded at32k and scored on same19heldoutanswers. Loss is not generated-answer accuracy. Native comparison and broad regression testing remain required."
+}

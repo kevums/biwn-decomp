@@ -1,0 +1,47 @@
+{
+  "status": "terminal_native_actor_dispatch_noop_and_wrong_X_rejected",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-negatives/20261019T081823.527268Z",
+  "controls": [
+    {
+      "name": "no_body",
+      "rejected": true,
+      "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-negatives/20261019T081823.527268Z/no_body.c",
+      "source_sha256": "6f0f9b6bc3e7f389f4fca6faba1bacb5340be341cd5cd6f871ee42de3ed5427b",
+      "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-negatives/20261019T081823.527268Z/no_body/actor-dispatch.bin",
+      "binary_sha256": "00c2526eee0c192a4c61794567aa428229f971b10fa2289734e9a81f8b7d3202",
+      "rejected_by": [
+        "ram",
+        "registers",
+        "trace"
+      ]
+    },
+    {
+      "name": "wrong_child_X",
+      "rejected": true,
+      "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-negatives/20261019T081823.527268Z/wrong_child_X.c",
+      "source_sha256": "40a278b1eec9be37df4fd6daf8532e306695e9acf54bb9a2d94aaf8fec4237f2",
+      "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-negatives/20261019T081823.527268Z/wrong_child_X/actor-dispatch.bin",
+      "binary_sha256": "004bf75d0c3d96803a474b1220ffd7d8a132ecd4e94802627df398f70e532daf",
+      "rejected_by": "native child-entry SR/X",
+      "child_event_SR_differences": [
+        [
+          0,
+          4,
+          20
+        ]
+      ]
+    }
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_biwn_native_actor_dispatch_gap320.py": "532b48de237c0952cdf8dd13a7da20715d89b2f0e6be6cb6e372b427bf1b40fc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_actor_dispatch_gap320.py": "7c81c48b66abdd36890def1fcd58ab1635b69e4c03516eddd91f6b684b3cf054",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-dispatch-gap320-reference.c": "b898bb1d8d3c5b94a1a88b7bf6244c2e0cdca9936d5a2d8f49041d9e3533ce0f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-dispatch-gap320-native.h": "60a333b0d99bfd8ee56511ca729f33d4682ed7bae2dfd2ba54ee740bd70aafd6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-dispatch-gap320-shim.S": "dc3a16da78d2b83a967fe507fb0ea519f7d78a2006954ca1e07c4db1794d760d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-dispatch.ld": "26a456492da15dd3f8f8ec54462ece4ab9aea3712841dec9b2fd3c1cd16a420a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.actor-dispatch-gap320": "fdb90b2660b85aacdf66a5c05e46dfa9b866182efd85758f893a16cee8e599a7"
+  },
+  "scope": "Seeded no-body and wrong-child-X controls through actual native dispatcher gates.",
+  "disc_integrated": false,
+  "new_predictions": 0
+}

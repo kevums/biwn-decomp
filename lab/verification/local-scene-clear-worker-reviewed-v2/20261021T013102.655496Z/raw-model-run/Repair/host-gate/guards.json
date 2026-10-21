@@ -1,0 +1,80 @@
+[
+  {
+    "options": {
+      "null_bus": true
+    },
+    "expected": 1
+  },
+  {
+    "options": {
+      "null_cpu": true
+    },
+    "expected": 1
+  },
+  {
+    "options": {
+      "null_service": true
+    },
+    "expected": 1
+  },
+  {
+    "options": {
+      "budget": 0
+    },
+    "expected": 1
+  },
+  {
+    "options": {
+      "bad_pc": true
+    },
+    "expected": 7
+  },
+  {
+    "options": {
+      "stop_flag": 1
+    },
+    "expected": 1
+  },
+  {
+    "options": {
+      "fail": [
+        "read",
+        4
+      ]
+    },
+    "expected": 2
+  },
+  {
+    "options": {
+      "fail": [
+        "write",
+        4
+      ]
+    },
+    "expected": 2
+  },
+  {
+    "missing_callback": 0,
+    "expected": 1
+  },
+  {
+    "missing_callback": 1,
+    "expected": 1
+  },
+  {
+    "missing_callback": 2,
+    "expected": 1
+  },
+  {
+    "missing_callback": 3,
+    "expected": 1
+  },
+  {
+    "missing_callback": 4,
+    "expected": 1
+  },
+  {
+    "missing_callback": 5,
+    "expected": 1
+  }
+]

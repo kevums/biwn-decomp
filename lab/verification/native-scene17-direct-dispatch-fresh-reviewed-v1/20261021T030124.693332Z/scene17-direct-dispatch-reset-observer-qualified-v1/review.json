@@ -1,0 +1,25 @@
+{
+  "status": "terminal_reset_observer_64_real_input_pairs_and_faults_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-reset-observer-qualified-v1/20261021T025101.675864Z",
+  "actual_input_pairs": 64,
+  "CPU_lanes": 128,
+  "native_reset_entries": 64,
+  "original_reset_entries": 64,
+  "rejected_fault_controls": 16,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_scene17_direct_dispatch_reset_observer_v1.py": "ae3b8e6d08aecdaee63dd8219157d346deee04e0df1675902f501b90fcfbd756",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_scene17_direct_dispatch_full_observer_v1.py": "b3f64b1432d67d6d029268572c121123c6a5a22a2a85ab3d2dbe5d39166d4dac",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_reset_observer_v1.inc.c": "d5d5579b4970a45d0c19bfa3670908a68e7ef114bc4a901aebbfc5423b8bb808",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-disc-build-v1-current.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-scene17-direct-dispatch-final-v1-current.json": "d34727449e13f1c75dcca9f5f63bb355ffb4d1b94accc2c6f1cf9d002979f5ec",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-reset-observer-qualified-v1/20261021T025101.675864Z/fixture.c": "80a0ce065607192d5b5d8516af3ac9424b224eed6ebdf1c4bb99234908d2d2b8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-reset-observer-qualified-v1/20261021T025101.675864Z/fixture.dylib": "9ba87038aa3f4ad49bcab2fee68d02706fed3ab2cd3c2c53aebeb8c14b888b8d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-reset-observer-qualified-v1/20261021T025101.675864Z/cases.json": "573b1e08ba083c2f6fbec2fa4d7c0001adf796f64733034d87c0f9bc98362e74",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-reset-observer-qualified-v1/20261021T025101.675864Z/faults.json": "8a1f42a9eb40302523306c87b5f18d30488e27e67fb258464e21c054c30bb18b"
+  },
+  "scope": "Exact reset observer over64real original/native input lanes plus faults.\nHost snapshots only; other input helpers are explicit fixtures. No game/IRQ claim.\n AllCCR/bothbanks,actualfinalimagecode;observer checks logicalCPU,banks,PC/SR-X,originalreturnword,service/budget metadata,25publicwrites andCABIreturnSP. Otherinputhelpersarefixtures;checkpoints replayonlyinhostbuffers."
+}

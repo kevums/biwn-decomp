@@ -1,0 +1,17 @@
+{
+  "status": "terminal_native_outer_192_wait_and_resume_pairs_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-outer-compact-final-v1/20261021T040319.258014Z",
+  "completed": 192,
+  "comparisons": 384,
+  "maximum_C_stack_bytes": 164,
+  "new_training": false,
+  "native_disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/waits-outer.py": "228e62e07cdda2bd95fa7b442502d90e9421e65df57bffb536e7dd3181de31cc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/native_outer_final_checker.py": "3e0d4198a22a2db5876a6b948b8c342982d1ab51faca4d9e452b4088c8758fa6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-outer-compact-final-v1-current.json": "fcb5b102b79942e851e202159b4b0a2a86aec3ea612920db4d3996a8b2cf6d2b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-outer-compact-final-v1/20261021T040250.880746Z/build/native-outer.bin": "338b081a5b9d44a8cd359a3b722b226cd3d27ea811d94600e73e623b1c833480",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-outer-compact-final-v1/20261021T040319.258014Z/cases.json": "01c23a58a9f20bc25c341af76b73efc60e6e0bd28d4e7c9cdc49de7d9290421f"
+  },
+  "scope": "Actual native volatile wait slices and resumed helper calls versus original.192pairs, both stack banks/all32CCR and three nonzero volatile flags. Native64read slices compare to original64polls at11F50; released flag resumes actual native private context. Helpers are fixtures; no clock/IRQ event injected, no exact-cycle or real scheduler proof."
+}

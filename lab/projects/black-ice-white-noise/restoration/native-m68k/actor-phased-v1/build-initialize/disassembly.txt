@@ -1,0 +1,503 @@
+
+build-initialize/native.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+00180000 <biwn_native_actor_initialize>:
+  180000:	48e7 3f30      	moveml %d2-%d7/%a2-%a3,%sp@-
+  180004:	4fef ffa0      	lea %sp@(-96),%sp
+  180008:	48d7 7fff      	moveml %d0-%fp,%sp@
+  18000c:	40ef 0042      	movew %sr,%sp@(66)
+  180010:	426f 0040      	clrw %sp@(64)
+  180014:	41ef 0080      	lea %sp@(128),%a0
+  180018:	2f48 003c      	movel %a0,%sp@(60)
+  18001c:	2f0f           	movel %sp,%sp@-
+  18001e:	4eb9 0018 00fa 	jsr 1800fa <biwn_actor_initialize_start>
+  180024:	4fef 0004      	lea %sp@(4),%sp
+  180028:	6000 0002      	braw 18002c <biwn_native_actor_initialize+0x2c>
+  18002c:	4a80           	tstl %d0
+  18002e:	6700 00b8      	beqw 1800e8 <biwn_actor_initialize_after_task+0x6>
+  180032:	0c80 0000 0001 	cmpil #1,%d0
+  180038:	6700 0022      	beqw 18005c <biwn_native_actor_initialize+0x5c>
+  18003c:	0c80 0000 0002 	cmpil #2,%d0
+  180042:	6700 0032      	beqw 180076 <biwn_actor_initialize_after_outside+0x6>
+  180046:	0c80 0000 0003 	cmpil #3,%d0
+  18004c:	6700 0076      	beqw 1800c4 <biwn_actor_initialize_after_inside+0x3a>
+  180050:	0c80 0000 0004 	cmpil #4,%d0
+  180056:	6700 0038      	beqw 180090 <biwn_actor_initialize_after_inside+0x6>
+  18005a:	4afc           	illegal
+  18005c:	44ef 0042      	movew %sp@(66),%ccr
+  180060:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  180064:	4fef 0060      	lea %sp@(96),%sp
+  180068:	2f08           	movel %a0,%sp@-
+  18006a:	4eb9 0001 02c4 	jsr 102c4 <TRANSIENT_CONTEXT+0x10264>
+
+00180070 <biwn_actor_initialize_after_outside>:
+  180070:	4fef 0004      	lea %sp@(4),%sp
+  180074:	6026           	bras 18009c <biwn_actor_initialize_after_inside+0x12>
+  180076:	44ef 0042      	movew %sp@(66),%ccr
+  18007a:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  18007e:	4fef 0060      	lea %sp@(96),%sp
+  180082:	2f08           	movel %a0,%sp@-
+  180084:	4eb9 0001 0520 	jsr 10520 <TRANSIENT_CONTEXT+0x104c0>
+
+0018008a <biwn_actor_initialize_after_inside>:
+  18008a:	4fef 0004      	lea %sp@(4),%sp
+  18008e:	600c           	bras 18009c <biwn_actor_initialize_after_inside+0x12>
+  180090:	44ef 0042      	movew %sp@(66),%ccr
+  180094:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  180098:	4fef 0060      	lea %sp@(96),%sp
+  18009c:	4fef ffa0      	lea %sp@(-96),%sp
+  1800a0:	48d7 7fff      	moveml %d0-%fp,%sp@
+  1800a4:	40ef 0042      	movew %sr,%sp@(66)
+  1800a8:	426f 0040      	clrw %sp@(64)
+  1800ac:	41ef 0080      	lea %sp@(128),%a0
+  1800b0:	2f48 003c      	movel %a0,%sp@(60)
+  1800b4:	2f0f           	movel %sp,%sp@-
+  1800b6:	4eb9 0018 03c2 	jsr 1803c2 <biwn_actor_initialize_after_placement>
+  1800bc:	4fef 0004      	lea %sp@(4),%sp
+  1800c0:	6000 ff6a      	braw 18002c <biwn_native_actor_initialize+0x2c>
+  1800c4:	2f6f 0048 0058 	movel %sp@(72),%sp@(88)
+  1800ca:	44ef 0042      	movew %sp@(66),%ccr
+  1800ce:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  1800d2:	4fef 0060      	lea %sp@(96),%sp
+  1800d6:	2f0b           	movel %a3,%sp@-
+  1800d8:	4fef fffc      	lea %sp@(-4),%sp
+  1800dc:	4eb9 0000 df6c 	jsr df6c <TRANSIENT_CONTEXT+0xdf0c>
+
+001800e2 <biwn_actor_initialize_after_task>:
+  1800e2:	4fef 0008      	lea %sp@(8),%sp
+  1800e6:	600c           	bras 1800f4 <biwn_actor_initialize_after_task+0x12>
+  1800e8:	44ef 0042      	movew %sp@(66),%ccr
+  1800ec:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  1800f0:	4fef 0060      	lea %sp@(96),%sp
+  1800f4:	4cdf 0cfc      	moveml %sp@+,%d2-%d7/%a2-%a3
+
+001800f8 <biwn_native_actor_initialize_return>:
+  1800f8:	4e75           	rts
+
+001800fa <biwn_actor_initialize_start>:
+  1800fa:	48e7 3c20      	moveml %d2-%d5/%a2,%sp@-
+  1800fe:	226f 0018      	moveal %sp@(24),%a1
+  180102:	2069 003c      	moveal %a1@(60),%a0
+  180106:	2008           	movel %a0,%d0
+  180108:	5880           	addql #4,%d0
+  18010a:	2440           	moveal %d0,%a2
+  18010c:	3612           	movew %a2@,%d3
+  18010e:	3803           	movew %d3,%d4
+  180110:	0244 7fff      	andiw #32767,%d4
+  180114:	0243 8000      	andiw #-32768,%d3
+  180118:	7200           	moveq #0,%d1
+  18011a:	3204           	movew %d4,%d1
+  18011c:	7000           	moveq #0,%d0
+  18011e:	3003           	movew %d3,%d0
+  180120:	9280           	subl %d0,%d1
+  180122:	2341 0028      	movel %d1,%a1@(40)
+  180126:	2008           	movel %a0,%d0
+  180128:	5c80           	addql #6,%d0
+  18012a:	2440           	moveal %d0,%a2
+  18012c:	3212           	movew %a2@,%d1
+  18012e:	2029 001c      	movel %a1@(28),%d0
+  180132:	4240           	clrw %d0
+  180134:	8041           	orw %d1,%d0
+  180136:	2340 001c      	movel %d0,%a1@(28)
+  18013a:	2208           	movel %a0,%d1
+  18013c:	5081           	addql #8,%d1
+  18013e:	2441           	moveal %d1,%a2
+  180140:	2a12           	movel %a2@,%d5
+  180142:	2345 0010      	movel %d5,%a1@(16)
+  180146:	45e8 000e      	lea %a0@(14),%a2
+  18014a:	2212           	movel %a2@,%d1
+  18014c:	2341 0008      	movel %d1,%a1@(8)
+  180150:	2200           	movel %d0,%d1
+  180152:	0281 0000 7fff 	andil #32767,%d1
+  180158:	0280 0000 8000 	andil #32768,%d0
+  18015e:	9280           	subl %d0,%d1
+  180160:	2001           	movel %d1,%d0
+  180162:	d081           	addl %d1,%d0
+  180164:	d081           	addl %d1,%d0
+  180166:	d080           	addl %d0,%d0
+  180168:	d080           	addl %d0,%d0
+  18016a:	d081           	addl %d1,%d0
+  18016c:	e788           	lsll #3,%d0
+  18016e:	9081           	subl %d1,%d0
+  180170:	d080           	addl %d0,%d0
+  180172:	2340 0018      	movel %d0,%a1@(24)
+  180176:	237c 0004 9d6c 	movel #302444,%a1@(36)
+  18017c:	0024 
+  18017e:	2400           	movel %d0,%d2
+  180180:	0682 0004 9d6c 	addil #302444,%d2
+  180186:	9843           	subw %d3,%d4
+  180188:	2442           	moveal %d2,%a2
+  18018a:	3484           	movew %d4,%a2@
+  18018c:	2200           	movel %d0,%d1
+  18018e:	0681 0004 9d6e 	addil #302446,%d1
+  180194:	2441           	moveal %d1,%a2
+  180196:	34bc 0000      	movew #0,%a2@
+  18019a:	5481           	addql #2,%d1
+  18019c:	2441           	moveal %d1,%a2
+  18019e:	2485           	movel %d5,%a2@
+  1801a0:	5881           	addql #4,%d1
+  1801a2:	45e8 000c      	lea %a0@(12),%a2
+  1801a6:	3612           	movew %a2@,%d3
+  1801a8:	2441           	moveal %d1,%a2
+  1801aa:	3483           	movew %d3,%a2@
+  1801ac:	5481           	addql #2,%d1
+  1801ae:	2441           	moveal %d1,%a2
+  1801b0:	24a9 0008      	movel %a1@(8),%a2@
+  1801b4:	5881           	addql #4,%d1
+  1801b6:	2441           	moveal %d1,%a2
+  1801b8:	34bc 0000      	movew #0,%a2@
+  1801bc:	5481           	addql #2,%d1
+  1801be:	2441           	moveal %d1,%a2
+  1801c0:	34bc 0000      	movew #0,%a2@
+  1801c4:	5481           	addql #2,%d1
+  1801c6:	2441           	moveal %d1,%a2
+  1801c8:	34bc 0000      	movew #0,%a2@
+  1801cc:	5481           	addql #2,%d1
+  1801ce:	3639 0004 9c60 	movew 49c60 <TRANSIENT_CONTEXT+0x49c00>,%d3
+  1801d4:	2441           	moveal %d1,%a2
+  1801d6:	3483           	movew %d3,%a2@
+  1801d8:	5481           	addql #2,%d1
+  1801da:	3639 0004 9c62 	movew 49c62 <TRANSIENT_CONTEXT+0x49c02>,%d3
+  1801e0:	2441           	moveal %d1,%a2
+  1801e2:	3483           	movew %d3,%a2@
+  1801e4:	5481           	addql #2,%d1
+  1801e6:	3639 0004 9c64 	movew 49c64 <TRANSIENT_CONTEXT+0x49c04>,%d3
+  1801ec:	2441           	moveal %d1,%a2
+  1801ee:	3483           	movew %d3,%a2@
+  1801f0:	223c 0004 9c66 	movel #302182,%d1
+  1801f6:	2a00           	movel %d0,%d5
+  1801f8:	0685 0000 0120 	addil #288,%d5
+  1801fe:	2605           	movel %d5,%d3
+  180200:	d681           	addl %d1,%d3
+  180202:	2441           	moveal %d1,%a2
+  180204:	281a           	movel %a2@+,%d4
+  180206:	220a           	movel %a2,%d1
+  180208:	2443           	moveal %d3,%a2
+  18020a:	2484           	movel %d4,%a2@
+  18020c:	0c81 0004 9c76 	cmpil #302198,%d1
+  180212:	66ea           	bnes 1801fe <biwn_actor_initialize_start+0x104>
+  180214:	237c ffff fc00 	movel #-1024,%a1@(12)
+  18021a:	000c 
+  18021c:	2629 0008      	movel %a1@(8),%d3
+  180220:	0243 fc00      	andiw #-1024,%d3
+  180224:	2343 0008      	movel %d3,%a1@(8)
+  180228:	2239 0004 9c56 	movel 49c56 <TRANSIENT_CONTEXT+0x49bf6>,%d1
+  18022e:	0241 fc00      	andiw #-1024,%d1
+  180232:	2281           	movel %d1,%a1@
+  180234:	9681           	subl %d1,%d3
+  180236:	2203           	movel %d3,%d1
+  180238:	780a           	moveq #10,%d4
+  18023a:	e8a9           	lsrl %d4,%d1
+  18023c:	4a83           	tstl %d3
+  18023e:	6c00 014e      	bgew 18038e <biwn_actor_initialize_start+0x294>
+  180242:	263c ffc0 0000 	movel #-4194304,%d3
+  180248:	8283           	orl %d3,%d1
+  18024a:	2341 0008      	movel %d1,%a1@(8)
+  18024e:	7a0a           	moveq #10,%d5
+  180250:	2345 0014      	movel %d5,%a1@(20)
+  180254:	2601           	movel %d1,%d3
+  180256:	d681           	addl %d1,%d3
+  180258:	d683           	addl %d3,%d3
+  18025a:	2441           	moveal %d1,%a2
+  18025c:	45f2 380a      	lea %a2@(a,%d3:l),%a2
+  180260:	220a           	movel %a2,%d1
+  180262:	234a 002c      	movel %a2,%a1@(44)
+  180266:	260a           	movel %a2,%d3
+  180268:	4243           	clrw %d3
+  18026a:	5441           	addqw #2,%d1
+  18026c:	8641           	orw %d1,%d3
+  18026e:	2343 0004      	movel %d3,%a1@(4)
+  180272:	2829 0010      	movel %a1@(16),%d4
+  180276:	0244 fc00      	andiw #-1024,%d4
+  18027a:	2344 0010      	movel %d4,%a1@(16)
+  18027e:	2239 0004 9c50 	movel 49c50 <TRANSIENT_CONTEXT+0x49bf0>,%d1
+  180284:	0241 fc00      	andiw #-1024,%d1
+  180288:	2281           	movel %d1,%a1@
+  18028a:	9881           	subl %d1,%d4
+  18028c:	2204           	movel %d4,%d1
+  18028e:	eaa9           	lsrl %d5,%d1
+  180290:	4a84           	tstl %d4
+  180292:	6c00 0100      	bgew 180394 <biwn_actor_initialize_start+0x29a>
+  180296:	283c ffc0 0000 	movel #-4194304,%d4
+  18029c:	8284           	orl %d4,%d1
+  18029e:	2341 0010      	movel %d1,%a1@(16)
+  1802a2:	0281 0000 ffff 	andil #65535,%d1
+  1802a8:	2803           	movel %d3,%d4
+  1802aa:	0284 0000 ffff 	andil #65535,%d4
+  1802b0:	d284           	addl %d4,%d1
+  1802b2:	4243           	clrw %d3
+  1802b4:	8641           	orw %d1,%d3
+  1802b6:	2343 0004      	movel %d3,%a1@(4)
+  1802ba:	0c81 0000 ffff 	cmpil #65535,%d1
+  1802c0:	52c1           	shi %d1
+  1802c2:	4881           	extw %d1
+  1802c4:	48c1           	extl %d1
+  1802c6:	4481           	negl %d1
+  1802c8:	e989           	lsll #4,%d1
+  1802ca:	2800           	movel %d0,%d4
+  1802cc:	0684 0004 9dac 	addil #302508,%d4
+  1802d2:	2444           	moveal %d4,%a2
+  1802d4:	3483           	movew %d3,%a2@
+  1802d6:	2600           	movel %d0,%d3
+  1802d8:	0683 0004 9dc4 	addil #302532,%d3
+  1802de:	7800           	moveq #0,%d4
+  1802e0:	2443           	moveal %d3,%a2
+  1802e2:	2484           	movel %d4,%a2@
+  1802e4:	5883           	addql #4,%d3
+  1802e6:	2443           	moveal %d3,%a2
+  1802e8:	34bc 0000      	movew #0,%a2@
+  1802ec:	5483           	addql #2,%d3
+  1802ee:	2443           	moveal %d3,%a2
+  1802f0:	2484           	movel %d4,%a2@
+  1802f2:	5883           	addql #4,%d3
+  1802f4:	2443           	moveal %d3,%a2
+  1802f6:	34bc 0000      	movew #0,%a2@
+  1802fa:	5483           	addql #2,%d3
+  1802fc:	2443           	moveal %d3,%a2
+  1802fe:	2484           	movel %d4,%a2@
+  180300:	5883           	addql #4,%d3
+  180302:	2443           	moveal %d3,%a2
+  180304:	2484           	movel %d4,%a2@
+  180306:	5883           	addql #4,%d3
+  180308:	2443           	moveal %d3,%a2
+  18030a:	34bc 0000      	movew #0,%a2@
+  18030e:	41e8 0013      	lea %a0@(19),%a0
+  180312:	5483           	addql #2,%d3
+  180314:	1810           	moveb %a0@,%d4
+  180316:	2443           	moveal %d3,%a2
+  180318:	1484           	moveb %d4,%a2@
+  18031a:	5283           	addql #1,%d3
+  18031c:	1810           	moveb %a0@,%d4
+  18031e:	2043           	moveal %d3,%a0
+  180320:	1084           	moveb %d4,%a0@
+  180322:	5288           	addql #1,%a0
+  180324:	7600           	moveq #0,%d3
+  180326:	2083           	movel %d3,%a0@
+  180328:	5888           	addql #4,%a0
+  18032a:	2083           	movel %d3,%a0@
+  18032c:	5888           	addql #4,%a0
+  18032e:	2083           	movel %d3,%a0@
+  180330:	5888           	addql #4,%a0
+  180332:	2083           	movel %d3,%a0@
+  180334:	2342 0020      	movel %d2,%a1@(32)
+  180338:	41e8 001a      	lea %a0@(26),%a0
+  18033c:	30bc 0000      	movew #0,%a0@
+  180340:	5588           	subql #2,%a0
+  180342:	30bc 0000      	movew #0,%a0@
+  180346:	5588           	subql #2,%a0
+  180348:	30bc 0000      	movew #0,%a0@
+  18034c:	41e8 0032      	lea %a0@(50),%a0
+  180350:	30bc 0000      	movew #0,%a0@
+  180354:	5c88           	addql #6,%a0
+  180356:	30bc 0001      	movew #1,%a0@
+  18035a:	2069 0024      	moveal %a1@(36),%a0
+  18035e:	d1e9 0018      	addal %a1@(24),%a0
+  180362:	41e8 0014      	lea %a0@(20),%a0
+  180366:	3010           	movew %a0@,%d0
+  180368:	0c40 0001      	cmpiw #1,%d0
+  18036c:	662c           	bnes 18039a <biwn_actor_initialize_start+0x2a0>
+  18036e:	70e0           	moveq #-32,%d0
+  180370:	c0a9 0040      	andl %a1@(64),%d0
+  180374:	781c           	moveq #28,%d4
+  180376:	e8a2           	asrl %d4,%d2
+  180378:	0282 0000 0008 	andil #8,%d2
+  18037e:	8480           	orl %d0,%d2
+  180380:	8481           	orl %d1,%d2
+  180382:	2342 0040      	movel %d2,%a1@(64)
+  180386:	7001           	moveq #1,%d0
+  180388:	4cdf 043c      	moveml %sp@+,%d2-%d5/%a2
+  18038c:	4e75           	rts
+  18038e:	7600           	moveq #0,%d3
+  180390:	6000 feb6      	braw 180248 <biwn_actor_initialize_start+0x14e>
+  180394:	7800           	moveq #0,%d4
+  180396:	6000 ff04      	braw 18029c <biwn_actor_initialize_start+0x1a2>
+  18039a:	3010           	movew %a0@,%d0
+  18039c:	0c40 0002      	cmpiw #2,%d0
+  1803a0:	661c           	bnes 1803be <biwn_actor_initialize_start+0x2c4>
+  1803a2:	70e0           	moveq #-32,%d0
+  1803a4:	c0a9 0040      	andl %a1@(64),%d0
+  1803a8:	761c           	moveq #28,%d3
+  1803aa:	e6a2           	asrl %d3,%d2
+  1803ac:	0282 0000 0008 	andil #8,%d2
+  1803b2:	8082           	orl %d2,%d0
+  1803b4:	8081           	orl %d1,%d0
+  1803b6:	2340 0040      	movel %d0,%a1@(64)
+  1803ba:	7002           	moveq #2,%d0
+  1803bc:	60ca           	bras 180388 <biwn_actor_initialize_start+0x28e>
+  1803be:	7004           	moveq #4,%d0
+  1803c0:	60c6           	bras 180388 <biwn_actor_initialize_start+0x28e>
+
+001803c2 <biwn_actor_initialize_after_placement>:
+  1803c2:	2f03           	movel %d3,%sp@-
+  1803c4:	2f02           	movel %d2,%sp@-
+  1803c6:	226f 000c      	moveal %sp@(12),%a1
+  1803ca:	2029 0028      	movel %a1@(40),%d0
+  1803ce:	3200           	movew %d0,%d1
+  1803d0:	5941           	subqw #4,%d1
+  1803d2:	0c41 0072      	cmpiw #114,%d1
+  1803d6:	6200 01e0      	bhiw 1805b8 <biwn_actor_initialize_after_placement+0x1f6>
+  1803da:	76e0           	moveq #-32,%d3
+  1803dc:	c6a9 0040      	andl %a1@(64),%d3
+  1803e0:	7000           	moveq #0,%d0
+  1803e2:	3001           	movew %d1,%d0
+  1803e4:	d080           	addl %d0,%d0
+  1803e6:	2040           	moveal %d0,%a0
+  1803e8:	d1fc 0001 3620 	addal #79392,%a0
+  1803ee:	3410           	movew %a0@,%d2
+  1803f0:	7000           	moveq #0,%d0
+  1803f2:	3002           	movew %d2,%d0
+  1803f4:	2280           	movel %d0,%a1@
+  1803f6:	4a42           	tstw %d2
+  1803f8:	57c0           	seq %d0
+  1803fa:	4880           	extw %d0
+  1803fc:	48c0           	extl %d0
+  1803fe:	4480           	negl %d0
+  180400:	d080           	addl %d0,%d0
+  180402:	2200           	movel %d0,%d1
+  180404:	d280           	addl %d0,%d1
+  180406:	8283           	orl %d3,%d1
+  180408:	3002           	movew %d2,%d0
+  18040a:	760c           	moveq #12,%d3
+  18040c:	e660           	asrw %d3,%d0
+  18040e:	0280 0000 0008 	andil #8,%d0
+  180414:	8280           	orl %d0,%d1
+  180416:	2341 0040      	movel %d1,%a1@(64)
+  18041a:	2002           	movel %d2,%d0
+  18041c:	0280 0000 7fff 	andil #32767,%d0
+  180422:	0680 0001 3620 	addil #79392,%d0
+  180428:	0282 0000 8000 	andil #32768,%d2
+  18042e:	9082           	subl %d2,%d0
+  180430:	0c80 0001 376e 	cmpil #79726,%d0
+  180436:	6700 0126      	beqw 18055e <biwn_actor_initialize_after_placement+0x19c>
+  18043a:	6200 00b0      	bhiw 1804ec <biwn_actor_initialize_after_placement+0x12a>
+  18043e:	0c80 0001 373e 	cmpil #79678,%d0
+  180444:	6700 0122      	beqw 180568 <biwn_actor_initialize_after_placement+0x1a6>
+  180448:	627e           	bhis 1804c8 <biwn_actor_initialize_after_placement+0x106>
+  18044a:	0c80 0001 3722 	cmpil #79650,%d0
+  180450:	6700 0120      	beqw 180572 <biwn_actor_initialize_after_placement+0x1b0>
+  180454:	621a           	bhis 180470 <biwn_actor_initialize_after_placement+0xae>
+  180456:	0c80 0001 3706 	cmpil #79622,%d0
+  18045c:	6700 011e      	beqw 18057c <biwn_actor_initialize_after_placement+0x1ba>
+  180460:	207c 0000 edc4 	moveal #60868,%a0
+  180466:	0c80 0001 3714 	cmpil #79636,%d0
+  18046c:	6710           	beqs 18047e <biwn_actor_initialize_after_placement+0xbc>
+  18046e:	4e47           	trap #7
+  180470:	207c 0001 7f80 	moveal #98176,%a0
+  180476:	0c80 0001 3730 	cmpil #79664,%d0
+  18047c:	66f0           	bnes 18046e <biwn_actor_initialize_after_placement+0xac>
+  18047e:	2348 0048      	movel %a0,%a1@(72)
+  180482:	2429 001c      	movel %a1@(28),%d2
+  180486:	2002           	movel %d2,%d0
+  180488:	0280 0000 7fff 	andil #32767,%d0
+  18048e:	0282 0000 8000 	andil #32768,%d2
+  180494:	9082           	subl %d2,%d0
+  180496:	2340 002c      	movel %d0,%a1@(44)
+  18049a:	2400           	movel %d0,%d2
+  18049c:	761c           	moveq #28,%d3
+  18049e:	e6a2           	asrl %d3,%d2
+  1804a0:	0282 0000 0008 	andil #8,%d2
+  1804a6:	4a80           	tstl %d0
+  1804a8:	57c0           	seq %d0
+  1804aa:	4880           	extw %d0
+  1804ac:	48c0           	extl %d0
+  1804ae:	4480           	negl %d0
+  1804b0:	d080           	addl %d0,%d0
+  1804b2:	d080           	addl %d0,%d0
+  1804b4:	8082           	orl %d2,%d0
+  1804b6:	0241 ffe0      	andiw #-32,%d1
+  1804ba:	8081           	orl %d1,%d0
+  1804bc:	2340 0040      	movel %d0,%a1@(64)
+  1804c0:	7003           	moveq #3,%d0
+  1804c2:	241f           	movel %sp@+,%d2
+  1804c4:	261f           	movel %sp@+,%d3
+  1804c6:	4e75           	rts
+  1804c8:	0c80 0001 3756 	cmpil #79702,%d0
+  1804ce:	6700 00b6      	beqw 180586 <biwn_actor_initialize_after_placement+0x1c4>
+  1804d2:	0c80 0001 3762 	cmpil #79714,%d0
+  1804d8:	6700 00b6      	beqw 180590 <biwn_actor_initialize_after_placement+0x1ce>
+  1804dc:	207c 0000 f720 	moveal #63264,%a0
+  1804e2:	0c80 0001 374a 	cmpil #79690,%d0
+  1804e8:	6794           	beqs 18047e <biwn_actor_initialize_after_placement+0xbc>
+  1804ea:	6082           	bras 18046e <biwn_actor_initialize_after_placement+0xac>
+  1804ec:	0c80 0001 37aa 	cmpil #79786,%d0
+  1804f2:	6700 00a6      	beqw 18059a <biwn_actor_initialize_after_placement+0x1d8>
+  1804f6:	623e           	bhis 180536 <biwn_actor_initialize_after_placement+0x174>
+  1804f8:	0c80 0001 3792 	cmpil #79762,%d0
+  1804fe:	6700 00a4      	beqw 1805a4 <biwn_actor_initialize_after_placement+0x1e2>
+  180502:	621e           	bhis 180522 <biwn_actor_initialize_after_placement+0x160>
+  180504:	0c80 0001 377a 	cmpil #79738,%d0
+  18050a:	6700 00a2      	beqw 1805ae <biwn_actor_initialize_after_placement+0x1ec>
+  18050e:	207c 0001 5140 	moveal #86336,%a0
+  180514:	0c80 0001 3786 	cmpil #79750,%d0
+  18051a:	6700 ff62      	beqw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  18051e:	6000 ff4e      	braw 18046e <biwn_actor_initialize_after_placement+0xac>
+  180522:	207c 0001 1f80 	moveal #73600,%a0
+  180528:	0c80 0001 379e 	cmpil #79774,%d0
+  18052e:	6700 ff4e      	beqw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  180532:	6000 ff3a      	braw 18046e <biwn_actor_initialize_after_placement+0xac>
+  180536:	0c80 0001 37ca 	cmpil #79818,%d0
+  18053c:	6700 00dc      	beqw 18061a <biwn_actor_initialize_after_placement+0x258>
+  180540:	0c80 0001 37da 	cmpil #79834,%d0
+  180546:	6700 00cc      	beqw 180614 <biwn_actor_initialize_after_placement+0x252>
+  18054a:	207c 0001 5a80 	moveal #88704,%a0
+  180550:	0c80 0001 37b6 	cmpil #79798,%d0
+  180556:	6700 ff26      	beqw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  18055a:	6000 ff12      	braw 18046e <biwn_actor_initialize_after_placement+0xac>
+  18055e:	207c 0001 4fc0 	moveal #85952,%a0
+  180564:	6000 ff18      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  180568:	207c 0001 78e0 	moveal #96480,%a0
+  18056e:	6000 ff0e      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  180572:	207c 0000 fcc2 	moveal #64706,%a0
+  180578:	6000 ff04      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  18057c:	207c 0000 f4d8 	moveal #62680,%a0
+  180582:	6000 fefa      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  180586:	207c 0002 1d40 	moveal #138560,%a0
+  18058c:	6000 fef0      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  180590:	207c 0001 5080 	moveal #86144,%a0
+  180596:	6000 fee6      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  18059a:	207c 0001 28a0 	moveal #75936,%a0
+  1805a0:	6000 fedc      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  1805a4:	207c 0001 4100 	moveal #82176,%a0
+  1805aa:	6000 fed2      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  1805ae:	207c 0000 f888 	moveal #63624,%a0
+  1805b4:	6000 fec8      	braw 18047e <biwn_actor_initialize_after_placement+0xbc>
+  1805b8:	0c40 0003      	cmpiw #3,%d0
+  1805bc:	53c1           	sls %d1
+  1805be:	4881           	extw %d1
+  1805c0:	48c1           	extl %d1
+  1805c2:	4481           	negl %d1
+  1805c4:	e989           	lsll #4,%d1
+  1805c6:	2429 001c      	movel %a1@(28),%d2
+  1805ca:	2002           	movel %d2,%d0
+  1805cc:	0280 0000 7fff 	andil #32767,%d0
+  1805d2:	0282 0000 8000 	andil #32768,%d2
+  1805d8:	2040           	moveal %d0,%a0
+  1805da:	91c2           	subal %d2,%a0
+  1805dc:	2008           	movel %a0,%d0
+  1805de:	d088           	addl %a0,%d0
+  1805e0:	d088           	addl %a0,%d0
+  1805e2:	d080           	addl %d0,%d0
+  1805e4:	d080           	addl %d0,%d0
+  1805e6:	d088           	addl %a0,%d0
+  1805e8:	e788           	lsll #3,%d0
+  1805ea:	9088           	subl %a0,%d0
+  1805ec:	d080           	addl %d0,%d0
+  1805ee:	2280           	movel %d0,%a1@
+  1805f0:	237c 0004 9d6c 	movel #302444,%a1@(32)
+  1805f6:	0020 
+  1805f8:	2040           	moveal %d0,%a0
+  1805fa:	d1fc 0004 9d6c 	addal #302444,%a0
+  180600:	30bc 0000      	movew #0,%a0@
+  180604:	70e0           	moveq #-32,%d0
+  180606:	c0a9 0040      	andl %a1@(64),%d0
+  18060a:	8081           	orl %d1,%d0
+  18060c:	7604           	moveq #4,%d3
+  18060e:	8680           	orl %d0,%d3
+  180610:	2343 0040      	movel %d3,%a1@(64)
+  180614:	7000           	moveq #0,%d0
+  180616:	6000 feaa      	braw 1804c2 <biwn_actor_initialize_after_placement+0x100>
+  18061a:	7200           	moveq #0,%d1
+  18061c:	60a8           	bras 1805c6 <biwn_actor_initialize_after_placement+0x204>

@@ -1,0 +1,74 @@
+{
+  "status": "terminal_v39_newly_relinked_pieces_copied_SDK_byte_identical",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z",
+  "pid": 62214,
+  "copied_build": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z",
+  "pieces": [
+    {
+      "piece": "shared",
+      "bytes": 54134,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/shared/native-shared.bin",
+      "sha256": "0ec7303ba94486ffcaeeb9443d41eae5982ae88173d3815bff40a0cf952209a2",
+      "identical": true
+    },
+    {
+      "piece": "outer",
+      "bytes": 6060,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/outer/native-outer.bin",
+      "sha256": "fb0971e5c695da8f1566ddbc9a09678e204394a36de6eabf33c2c907b210f2c8",
+      "identical": true
+    },
+    {
+      "piece": "resource",
+      "bytes": 676,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/resource/native.bin",
+      "sha256": "7543a43104b951e9b3634ad76d0fcdbb32cb469002d690de93093b8d31693cdc",
+      "identical": true
+    },
+    {
+      "piece": "finalizer",
+      "bytes": 248,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/finalizer/native.bin",
+      "sha256": "452ee872bec64367a9f018d439c51e5aa7f55c737f4b92352241136f647be97b",
+      "identical": true
+    },
+    {
+      "piece": "input-v6",
+      "bytes": 10580,
+      "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-arena-admission-v6/20261021T110758.139775Z/native-input.bin",
+      "sha256": "a7c294cb4d7a4748fbcea6ee27089445501eb913407f06f9ea3dba3e02899688",
+      "identical": true,
+      "prior_terminal_copied_build_reused": true
+    }
+  ],
+  "newly_compiled_pieces": 4,
+  "prior_input_rebuild_reused": true,
+  "full_source_only_game_rebuild": false,
+  "inherited_prefix_not_recompiled": true,
+  "disc_changed": false,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_input_arena_image_copied_rebuild_v1.py": "ef05952132caf53f4ba6c76962bc5f7f34467d58c80bda9bf26dcf288d6b8d03",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-disc-build-v1-current.json": "095a47f201dd1ca19983d25a03415074c0cc68555e951f24ec7539d292c244ad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-admission-v6-current.json": "d2c93aef0e7837f9bf610a2f0f1ab1c05c2f5b8aff5f332e3a05593da8daaae1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resident-with-arenas.bin": "f31f4d2ab84b2204d3ce35b7cd9604a866d9ef624dcd19e2ed35fc88dfa3603c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1/native-acquire.S": "79e8d2ce27c4e208e809ce7ae8ab30821f868d7314a4ad29d832a98bbf886886",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1/native.ld": "e432a838d6537c8d658bfb0f3d5b9066dab6ddefa37b9fa7bce3232f7ced52fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/finalizer.S": "dc008b4be552beef8312e129f1f63d776516fa196289c1a1ddcb9501c430da91",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/finalizer.ld": "adbdb8c7a2d068608a5a97c9e81b6269aac659565ff1306b93f470593658a780",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/pieces.json": "aeb438d4d16b9cf351bd2491948959f9d4710ea8e833a9213651ce6273659038",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/commands.json": "19113237eb214f4c165b44af5b4a1b6b5cfd8abf4a757293fd30448ca244bc1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/resource-copied.bin": "7543a43104b951e9b3634ad76d0fcdbb32cb469002d690de93093b8d31693cdc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/finalizer-copied.bin": "452ee872bec64367a9f018d439c51e5aa7f55c737f4b92352241136f647be97b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/shared-copied-build.log": "fbefca5b7eeb7aab2d14f47418b9861a56a31cd0262dec9dd7cf2bc404df694d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/outer-copied-build.log": "3baae3ee71e671813ba00566b8c976dc54c9ca09dc8374d71a2fbf04e0c88642",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/command-0.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/command-1.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/command-2.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/command-3.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/command-4.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-arena-image-copied-rebuild-v1/20261021T112657.473426Z/command-5.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "scope": "Copied SDK rebuild of newly linked v39 pieces, not a source-only full game."
+}

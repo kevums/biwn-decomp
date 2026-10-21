@@ -1,0 +1,24 @@
+BIWN fixed-input result — 2026-10-18
+
+Native25 does not reproduce the previous native23game behavior with identical recorded pad inputs. Do not interpret the separate adaptive-route completion as fixed-input equivalence or physical readiness.
+
+Both fresh CDI loads ran29783frames with identical normal-pad masks and actual controller callback results. No checkpoint, game-state writes, CPU seeds, source execution owner or adaptive navigation was used.
+Previous native23 exactly repeated its earlier game rows and PCM:7324814nonzero samples; finalX13049/Z42402,mode1,floor0,scene312.
+Native25 produced0nonzero samples and endedX12273/Z41536,mode2,floor2,scene314. It did not complete the previous merchant-to-outdoor route. Both emitted23826400stereo frames, so this comparison has equal duration.
+First GPU difference:5554; first video difference:5570; first playerX difference:5603. Different frame counts:GPU22347,video22489,playerX22231. The input callbacks have0differences.
+
+This control rejects equivalent gameplay on this input trace. It does not by itself prove that free-list values, flags or audio decoding are wrong; missing the merchant encounter can also prevent its audio triggers. Cause is being isolated.
+The earlier1411free cases,192initializer cases,216coupled call pairs and adaptive route remain their original scoped results. They are insufficient to override this failed control.
+Your P/O previews remain unchanged and the original CDI is preserved. The native25disc remains an experimental diagnostic.
+
+Immutable follow-up: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-fixed-followup-current.json
+Full analysis: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-fixed-route-analysis-current.json
+Selective restore controls: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-timing-controls-current.json
+Current staged resource-release C is not yet a new CDI or game proof.
+
+LATER PREFIX ISOLATION AND CAPTURED-CALL REPLAY
+Three6400frame cold fixed-pad controls retain the native25layout/reservation. With original free restored, both layout-only and source-initializer controls match all checked prior player/video/GPU/DSP/audio fields. Source-free-only matches the native25fields. This isolates the free change as the trigger for the first prefix divergence; it does not establish full29783frame selective-restore equivalence.
+First two original free calls occur atframe5554, the first GPUdifference. Their real RAM/fullCPU inputs were captured read-only; the capture reproduced the prior6400frame rows/RAM/PCM. In explicit IRQ-disabled isolated comparisons, original and C return identical fullCPU/publicRAM/original8save bytes. Source private scratch uses172extra bytes but fits the current1KBtask stack on both captured inputs. Costs are404→1856and596→1964emulatedcycles.
+Timing/interleaving is the leading explanation, not a proven live cause. IRQ/device interleaving and other calls remain open. Captured state was never restored into a continuing game.
+Frozen isolation: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-prefix-isolation-current.json
+Captured inputs and return comparisons: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-captured-calls-current.json

@@ -1,0 +1,26 @@
+BIWN EXIT DIAGNOSIS AND LOCAL AGENT OUTPUT TEST
+2026-10-18T16:52:14.769903+00:00
+
+VERIFIED RESULT
+A proximity-triggered original type5 NPC/media interaction accounts for most of the optimized route delay. The optimized native task reaches squared distance244; the original gate skips only values greater than255. Base sampled distances stay at269or above in the observed approach. The optimized actor calls1C9E8withargument10atframe24158 and returns to131C8at28971:4813frames. The player position is held for4817frames including the short pre-call interval. The call contains three media-active sequences and additional captured audio. Base has no corresponding call during this exit. This is different executed game content, so24975versus29791route frames is not a clean execution-speed comparison.
+
+The read-only observer reruns reproduce every recorded playerX/Z,mode,floor,scene,video hash,cumulative audio-count frame and navigation/button decision. Original actor/media instruction bytes match captured RAM. No waypoint/tolerance,code,NPCstate,guestRAM or CPU-register change was applied. Original engine/GPU/DSP/firmware/device providers remain; this is an experimental mixed original/new disc, not a standalone source-built game or physical-console proof.
+
+NEXT FIDELITY BOUNDARY
+Position first differs atframe9920, before the adaptive controllers first choose different buttons at10051. Video first differs at210. Floor and scene words remain equal through the paired duration. The earlier common-input position/timing divergence is still unisolated. The NPC trace explains the later encounter; it does not prove why the earlier divergence occurred.
+
+WHO DID WHAT
+Codex coordinator: derived a read-only observer, ran and compared both fresh routes, checked original control flow/task stack, rejected unsupported model instruction claims, updated installed status retrieval and reviewed the final explanation. The first analysis assertion incorrectly demanded fullD5zero; rawD5=0x40000,while the originalTST.Wtests only its zero low word. Corrected analysis only; original trace and game unchanged; failure preserved.
+Local Analyst: one actual dailyQwen3_5 27B6bit generation,22424inputtokens,57.08seconds,without the new diagnostic result. Broad media/NPC hypothesis supported; exact source analysis rejected for wrong PC roles,missing255gate,incorrect interval arithmetic and non-disconfirming claims. Initial over-context preparation did not invoke inference; columnar encoding kept all120declared approach rows per lane.
+Local Reader: same daily weights,one actual configuredMCP status call,15.33seconds,131words. Uses coordinator-verified bound facts to explain the finding. Raw final answer accepted unchanged for this grounded question. Reader success does not validate the earlier Analyst output. No independent Reviewer,new training or weight/default promotion.
+
+RAW LOCAL READER ANSWER
+The current experimental build contains a 9042-byte resident payload with 25 stage JMP redirects, which do not represent a total recovered-function count or decompilation percentage. The optimized route took 4816 more frames than the base build because it triggered an additional original type5 NPC media interaction lasting 4813 frames. This extra content execution means the route durations are not a clean execution-speed comparison, as the paths process different game logic. While isolated string helper costs show a 69.9 percent reduction in emulated test cycles, this does not demonstrate a whole-game speedup. Nonzero captured audio samples do not verify listening quality or physical audibility. Frame equivalence, physical-console boot, and whole-game decompilation remain unproven. The earlier approach divergence is still unisolated, and no new model weights were trained or promoted in this publication.
+
+WATCH / RUN
+Desktop → Local AI Lab → Ask BIWN Candidate Status.command now includes the bound encounter diagnosis. This launcher uses localSDKinference. In an LM Studio game chat with local-ai-lab enabled, request project_evidence(topic=status). A fresh native Chat-window response was not verified in this continuation.
+Analyst exact prompts/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/format-exit-local-analyst-20261018T164442.534236Z/prompts-and-responses.txt
+Reader exact prompts/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T165035.222406Z/prompts-and-responses.txt
+Native trace analysis: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-format-exit-diagnosis.txt
+
+The full goal remains active: remaining recovery/linking/platform fidelity,physical console/audio validation, reliable game-authoring and advertising research/education training, and future256GBhardware testing.

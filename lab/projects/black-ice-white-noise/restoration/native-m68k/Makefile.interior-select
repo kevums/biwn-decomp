@@ -1,0 +1,14 @@
+ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST)))/../../../..)
+SOURCE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= $(SOURCE_DIR)/build-interior-select
+INTERIOR_SOURCE ?=
+ADDRESS ?= 0x180000
+.PHONY: interior-select
+interior-select:
+	@test -n "$(INTERIOR_SOURCE)"
+	mkdir -p "$(BUILD)"
+	$(PREFIX)gcc -m68000 -msoft-float -std=c99 -Os -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror -I"$(SOURCE_DIR)" -c "$(INTERIOR_SOURCE)" -o "$(BUILD)/body.o"
+	$(PREFIX)as -m68000 -o "$(BUILD)/shim.o" "$(SOURCE_DIR)/interior-select-shim.S"
+	$(PREFIX)ld -Ttext=$(ADDRESS) -e biwn_native_interior_actor_select -o "$(BUILD)/interior-select.elf" "$(BUILD)/shim.o" "$(BUILD)/body.o"
+	$(PREFIX)objcopy -O binary "$(BUILD)/interior-select.elf" "$(BUILD)/interior-select.bin"

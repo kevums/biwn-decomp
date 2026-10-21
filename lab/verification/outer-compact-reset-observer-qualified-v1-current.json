@@ -1,0 +1,25 @@
+{
+  "status": "terminal_reset_observer_64_real_input_pairs_and_faults_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-reset-observer-qualified-v1/20261021T040414.340661Z",
+  "actual_input_pairs": 64,
+  "CPU_lanes": 128,
+  "native_reset_entries": 64,
+  "original_reset_entries": 64,
+  "rejected_fault_controls": 16,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_outer_compact_reset_observer_v1.py": "185d6b71cc6729a95b0feb0e2f473bdb45cf857613c255f8e8db5f27614dec0f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_outer_compact_full_observer_v1.py": "0a93a7e217220413c3692b51c6100e812d97ed020c40e0c587425b0b429b6ddf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_reset_observer_v1.inc.c": "d5d5579b4970a45d0c19bfa3670908a68e7ef114bc4a901aebbfc5423b8bb808",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-disc-build-v1-current.json": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-outer-compact-final-v1-current.json": "ae52ad65fe7f803854a5f47c9901786f927ae7eb2f6fc326a0d351b8950adabb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-reset-observer-qualified-v1/20261021T040414.340661Z/fixture.c": "ba6babb7c6c67833b4bf6b131773c50aa5dcfaab3e9b638637c59ae09160ece2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-reset-observer-qualified-v1/20261021T040414.340661Z/fixture.dylib": "fcfb8999e3a0f27443a85c24fce20704c2de7b9155d69b523a5695b1e7af3215",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-reset-observer-qualified-v1/20261021T040414.340661Z/cases.json": "573b1e08ba083c2f6fbec2fa4d7c0001adf796f64733034d87c0f9bc98362e74",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-reset-observer-qualified-v1/20261021T040414.340661Z/faults.json": "8a1f42a9eb40302523306c87b5f18d30488e27e67fb258464e21c054c30bb18b"
+  },
+  "scope": "Exact reset observer over64real original/native input lanes plus faults.\nHost snapshots only; other input helpers are explicit fixtures. No game/IRQ claim.\n AllCCR/bothbanks,actualfinalimagecode;observer checks logicalCPU,banks,PC/SR-X,originalreturnword,service/budget metadata,25publicwrites andCABIreturnSP. Otherinputhelpersarefixtures;checkpoints replayonlyinhostbuffers."
+}

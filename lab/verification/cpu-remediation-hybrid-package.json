@@ -1,0 +1,333 @@
+{
+  "time": "2026-10-12T22:28:40.940450+00:00",
+  "status": "packaged_unpromoted",
+  "base": "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit",
+  "selected_adapter": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/20261012T222054.879303Z/jobs/20261012T222116.372520Z/selected-adapter",
+  "adapter_sha256": "33575eb131730537e58ef5d4ac796d7225b152404954828345762d9675283d40",
+  "destination": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2",
+  "promotion": "REJECTED as default; keep weights for diagnosis. Existing everyday model and deterministic tools retained. No improved trained default yet.",
+  "method": "Only adapted modules fused at dequantized precision; all other modules retain original weights and quantization.",
+  "adapted_modules": [
+    {
+      "name": "model.layers.47.mlp.switch_mlp.down_proj",
+      "shape": [
+        128,
+        2048,
+        768
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.47.mlp.switch_mlp.up_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.47.mlp.switch_mlp.gate_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.47.mlp.gate",
+      "shape": [
+        128,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 1048576
+    },
+    {
+      "name": "model.layers.47.self_attn.o_proj",
+      "shape": [
+        2048,
+        4096
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.47.self_attn.v_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.47.self_attn.k_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.47.self_attn.q_proj",
+      "shape": [
+        4096,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.46.mlp.switch_mlp.down_proj",
+      "shape": [
+        128,
+        2048,
+        768
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.46.mlp.switch_mlp.up_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.46.mlp.switch_mlp.gate_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.46.mlp.gate",
+      "shape": [
+        128,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 1048576
+    },
+    {
+      "name": "model.layers.46.self_attn.o_proj",
+      "shape": [
+        2048,
+        4096
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.46.self_attn.v_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.46.self_attn.k_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.46.self_attn.q_proj",
+      "shape": [
+        4096,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.45.mlp.switch_mlp.down_proj",
+      "shape": [
+        128,
+        2048,
+        768
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.45.mlp.switch_mlp.up_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.45.mlp.switch_mlp.gate_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.45.mlp.gate",
+      "shape": [
+        128,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 1048576
+    },
+    {
+      "name": "model.layers.45.self_attn.o_proj",
+      "shape": [
+        2048,
+        4096
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.45.self_attn.v_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.45.self_attn.k_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.45.self_attn.q_proj",
+      "shape": [
+        4096,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.44.mlp.switch_mlp.down_proj",
+      "shape": [
+        128,
+        2048,
+        768
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.44.mlp.switch_mlp.up_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.44.mlp.switch_mlp.gate_proj",
+      "shape": [
+        128,
+        768,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 805306368
+    },
+    {
+      "name": "model.layers.44.mlp.gate",
+      "shape": [
+        128,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 1048576
+    },
+    {
+      "name": "model.layers.44.self_attn.o_proj",
+      "shape": [
+        2048,
+        4096
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    },
+    {
+      "name": "model.layers.44.self_attn.v_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.44.self_attn.k_proj",
+      "shape": [
+        512,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 4194304
+    },
+    {
+      "name": "model.layers.44.self_attn.q_proj",
+      "shape": [
+        4096,
+        2048
+      ],
+      "fp32_upper_bound_bytes": 33554432
+    }
+  ],
+  "adapted_fp32_upper_bound_bytes": 9969860608,
+  "weight_bytes": 20757540864,
+  "peak_metal_bytes": 23472709644,
+  "model_files_sha256": {
+    "README.md": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+    "chat_template.jinja": "672e747c77e990320152343b0a4951222e40de5645297905d89afba05586d827",
+    "config.json": "4cf9871f4f6339f08b937279d6b381cbfce98c4e96d09d99638fbb4fe3ce433e",
+    "generation_config.json": "c99723ab3ba28630d26ae23def77603b540a46924895af5cf234740d3b27b51d",
+    "model-00001-of-00004.safetensors": "347ff3d703bf6c0e26739f8d7eb6313ea2b9973bfe2e5bbbddcb792277fbc245",
+    "model-00002-of-00004.safetensors": "cacdae510f48a1259fd9bf9f0c2d541a476439ec369c3939796c3bdfcb3bc047",
+    "model-00003-of-00004.safetensors": "badb10603f53635cbce715fe4b79cf203b8da2521443d1df7cd118b35aadf07b",
+    "model-00004-of-00004.safetensors": "9336d1e543682ce029c0b5fc557b0561251cc0191489e5d9442478495901acaf",
+    "model.safetensors.index.json": "7a2a6f92596b8ae70e4e6a797791e71cb068c389b681054f80a9aec83d15949f",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+    "tokenizer_config.json": "23ff856b54c821dbd7e3fbcb9f33bd514f03a1ce194390d51bebae7de5a601be"
+  },
+  "completed_at": "2026-10-12T22:28:52.156189+00:00",
+  "combined_heldout_loss": 1.887,
+  "adapter_combined_heldout_loss": 1.887,
+  "previous_4bit_fused_loss": 3.352,
+  "loss_scope": "Teacher-forced loss on same frozen19answers, rounded to three decimals; not generated-answer accuracy.",
+  "native_load_verified": true,
+  "native_load_state": [
+    {
+      "type": "llm",
+      "modelKey": "restoration-cpu-remediation-hybrid-v2",
+      "format": "safetensors",
+      "displayName": "Restoration Cpu Remediation Hybrid v2",
+      "publisher": "local",
+      "path": "local/restoration-cpu-remediation-hybrid-v2",
+      "sizeBytes": 20769240719,
+      "indexedModelIdentifier": "local/restoration-cpu-remediation-hybrid-v2",
+      "deviceIdentifier": null,
+      "architecture": "qwen3_moe",
+      "quantization": {
+        "name": "4bit",
+        "bits": 4
+      },
+      "identifier": "restoration-trained-pilot",
+      "ttlMs": 3600000,
+      "lastUsedTime": 1791844162469,
+      "vision": false,
+      "trainedForToolUse": true,
+      "maxContextLength": 262144,
+      "contextLength": 32768,
+      "status": "idle",
+      "queued": 0,
+      "parallel": 1,
+      "engineConfigFileEnabled": false
+    }
+  ],
+  "peak_load_memory_unmeasured": true,
+  "generated_answer_review": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-responses/20261012T223503.669686Z/semantic-review.json"
+}

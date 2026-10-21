@@ -1,0 +1,13 @@
+BIWN input prototype — native primitives and explicit CLR semantics
+
+The first v20prototype preserved finalCPU/RAM but failed actual public-bus order. The older v19experimental input has the same checked case0failure:11original bus events versus7native events. Four physical CLR operand reads were missing in that case. Both failures are retained. This demonstrates that earlier final-state checks did not prove public-bus fidelity.
+
+v21uses existing qualified native flag/directRAM primitives and replaces seven original CLR write sites with explicit68000CLR operations. Ordinary MOVE zero values keep MOVE behavior. The structured input algorithm and supplied reset body otherwise remain unchanged;this is coordinator source work,not model-authored code or training.
+
+v21passes4992retained cases+16fallbacks,including2048inputcases acrossallCCR/bothbanks. All256geometry regressions pass with real original formatter/text and actualblitter effects;GPU services remain declared fixtures where specified. Thirteen actual public-bus input traces match kind/address/value order,including original versus native reset. Width is not recorded by this core trace. Guest/private stacks are excluded from those watched trace ranges;separate semantic/stack gates cover their final states. Input Cstack112bytes versus120previously;geometry164/176. Copied package rebuilds identical38594byte module.
+
+Eight fixed input samples retain matchingCPU/nonarenaRAM/helperentries. Native input cycles fall27.15..33.56percent versusv19,including the added CLR reads. New input still costs8.69..16.12times original in those samples. Declared helper execution is excluded;this is not full-game or physical-console timing. The reset dispatcher itself remains1760versus612original-bodycycles with unequal boundaries. No performance approval or game fidelity claim.
+
+Prototype only. No new disc,Desktop preview,weights or adapter changed. Final layout,alias/connected/observer and fresh ordinary input/reset checks remain required before adoption. Whole-game source rebuilding,arbitraryIRQ fidelity and broad local-model quality remain incomplete.
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-clr-reviewed-v1/20261020T224029.536073Z/cost-comparisons.json

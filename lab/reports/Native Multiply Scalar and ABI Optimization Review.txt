@@ -1,0 +1,15 @@
+BIWN E540 — scalar and original-ABI prototype optimization
+
+Coordinator authored this work. No local prediction or training update completed in this turn. A separate local Author task was prepared but returned busy before sending any request.
+
+v16 removes the full virtual CPU register save/restore from the public entry and relies on the C callee-preservation convention. Original output A0/A1 come from preserved physical D2/D3. v17 additionally uses scalar word reads, removes unobservable intermediate software-register stores and uses target arithmetic flag primitives. The original public two-byte scratch and ordered word accesses remain checked.
+
+Each version passed 2192 public cases,1600 guarded fallback cases,4992 retained caller cases plus16 caller fallback cases,and256 geometry cases with real formatter/text dependencies. GPU service remains a declared fixture. Geometry stack peak is164/176bytes. v17 also rebuilds byte-identically using the moved copied runtime/toolchain.
+
+v14 original bridge total cycles: [2288, 2292, 2440, 2440, 2316, 2322, 2516, 2472]
+v16 smaller bridge total cycles: [1966, 1970, 2118, 2118, 1994, 2000, 2194, 2142]
+v17 scalar plus smaller bridge total cycles: [1490, 1494, 1474, 1472, 1520, 1526, 1550, 1506]
+Original routine cycles: [196, 198, 216, 258, 272, 240, 374, 348]
+v17 reduces sampled total cost by 34.3–39.7%, but remains 4.1–7.6times the original. Cost remains unapproved.
+
+No game image or Desktop preview changed. Whole-game source rebuilding remains incomplete. Reader32 predates this optimization; its exact older request/response remains preserved. One-click future Reader requests now receive the updated prototype evidence, but no new response is claimed.

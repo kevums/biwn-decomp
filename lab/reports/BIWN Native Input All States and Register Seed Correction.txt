@@ -1,0 +1,25 @@
+BIWN — all-state input component and register correction
+
+The reviewed game image remains v34. The separate v37image remains unpromoted after its fresh matrix-video comparison failed22858pixels. Desktop outdoor checkpoint preview unchanged. This work changes a versioned source/component prototype,not a game image.
+
+FAILED GATE PRESERVED
+The unmodified10240byte input component passed1890all-state fixtures for final output,ordered global accesses and nonprivate memory. But a newly added dependency-entry check found26equipment cases with incorrect incomingD0at1B002,1AF04and152A2. Nativebridge stack arguments and its propagation of the logical Cseed were correct;the recovered logical C lacked the original intermediate D0bookkeeping. Scripted helper return values had hidden this gap. The26counterexamples and failed gate remain saved.
+
+SOURCE CORRECTION
+A new input-dispatch-native-v2variant preserves the originalD0seeds without adding or reordering memory accesses:1B002gets sign-extended slot*2;1AF04gets sign-extended actor*10on removal or new slot*2on addition;152A2gets bytecount*2while its separate stack argument is that value+16. These are grounded in original instruction boundaries1951E/1953A/19568and195D4/1960E/1963C. The guarded original and earlier component are unchanged. Coordinator authored the correction;no local model generated it.
+
+PASSING COMPONENT CHECKS
+Corrected component10280bytes.2315original/hostC/native comparisons pass:the1890all-state cases plus425walking/backward/run regressions,including194captured walking inputs. Every finalD0,ordered global read/write/helper argument,nonprivate RAM and compared dependency-entryD0seed agrees. All13states and out-of-range state guards are exercised. The physical bridge reaches18retained helper targets,withD1/A0/A1deliberately clobbered on their fixture returns;stack arguments and callee-save registers remain correct. OriginalE588division instructions execute in the reference;the native component uses recovered signeddivision C. Other helper bodies are scripted dependencies,not real-body or scheduler proof.
+
+Broad fixture stack peak332bytes was observed both before and after the correction. The earlier276bytes came from walking-only coverage;it was not a whole-dispatcher bound. The corrected component is40bytes larger. The copied sources/SDK rebuild is byte-identical10280bytes using the relative-path portable recipe.
+
+LIMITS / NEXT
+Public entry remains a C-ABI test entry. Original191F4caller entry/return ABI,real retained helper behavior,actual task-stack admission,yielding and arbitraryIRQ are unqualified. The fixture allows a large private stack region;332observed bytes is not proof of safe engine-task allocation. No native-image integration,fresh-game rerun,same-console whole-game rebuild or fidelity completion is claimed. Continue caller/admission and scheduler/yield tests before considering an image;preserve the separate failed v37fresh matrix gate.
+
+LOCAL MODELS / TRAINING
+Shared inference lease remained unavailable on actual nonblocking probes;no live owner is inferred. No model was loaded,unloaded or interrupted and no inference/optimizer updates ran. Two development SFT lessons grounded in the26failed and2315passing cases are prepared and copied,explicitly exposed and excluded from untouched quality evaluation. This is prepared training data,not trained weights or useful measured gain. Earlier base/adapter pilot each0/4still stands. Native LMStudioChat usability and future256GBhardware measurements remain unverified. Reader43remains the default with historical supplied-snapshot approval;newsource facts have not received a fresh local reply.
+
+Failed gate:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-all-states-v2-current.json
+Corrected proof:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-all-states-v3-current.json
+Copied build:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-copied-build-v3-current.json
+Prepared lessons:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-helper-seeds-exposed-v1-current.json

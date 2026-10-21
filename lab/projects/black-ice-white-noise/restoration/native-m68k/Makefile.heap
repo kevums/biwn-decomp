@@ -1,0 +1,16 @@
+include Makefile
+.DEFAULT_GOAL := heap
+ALLOCATE_SOURCE ?= heap-allocate-native.c
+COMPACT_SOURCE ?= heap-compact-native.c
+.PHONY: heap
+heap: $(BUILD)/native-heap.elf $(BUILD)/native-heap.bin
+$(BUILD)/heap-shims.o: heap-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/heap-allocate-native.o: $(ALLOCATE_SOURCE) heap-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/heap-compact-native.o: $(COMPACT_SOURCE) heap-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-heap.elf: $(BUILD)/heap-shims.o $(BUILD)/heap-allocate-native.o $(BUILD)/heap-compact-native.o heap.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T heap.ld -Map $(BUILD)/native-heap.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-heap.bin: $(BUILD)/native-heap.elf
+	$(CROSS)objcopy -O binary $< $@

@@ -1,0 +1,19 @@
+{
+  "status": "terminal_full_caller_comparison_failed",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-inherited-providers-v1/20261021T105130.851049Z",
+  "pid": 59881,
+  "completed": 0,
+  "planned_cases": 27,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "game_image_changed": false,
+  "real_helper_bodies_qualified": false,
+  "arbitrary_IRQ_qualified": false,
+  "current_case": {
+    "input": 0,
+    "path": "native",
+    "task": 788776,
+    "initial_SP": 789796
+  },
+  "error": "AssertionError(('0xc0966', '0xc0928'))"
+}

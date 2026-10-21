@@ -1,0 +1,27 @@
+{
+  "exhaustive_one_slot_stack_and_reserve_boundaries": {
+    "cases": 998911,
+    "admitted": 114481,
+    "rejected": 884430
+  },
+  "every_slot_stack_reserve_mode_cross_product": {
+    "cases": 72720,
+    "admitted": 3232,
+    "rejected": 69488
+  },
+  "all_interior_pool_task_addresses": {
+    "cases": 103429,
+    "admitted": 101,
+    "rejected": 103328
+  },
+  "every_SR_low_word": {
+    "cases": 65536,
+    "admitted": 32768,
+    "rejected": 32768
+  },
+  "seeded_full_uint32_and_near_valid_random": {
+    "cases": 200000,
+    "admitted": 5024,
+    "rejected": 194976
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "terminal_structured_display_list_dual_CPU_full_RAM_order_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1/20261021T013949.106123Z",
+  "pid": 88008,
+  "completed": 1217,
+  "new_predictions": 0,
+  "new_training": false,
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1/20261021T013949.106123Z/display-list.dylib",
+  "host_guards": 17,
+  "stable_cases": 1025,
+  "complete_CCR_bank_body_call_cases": 128,
+  "declared_operand_reread_cases": 64,
+  "source_instruction_coverage": [
+    252,
+    254
+  ],
+  "unreachable_fixed_positive_literal_alternates": [
+    "0x185ec",
+    "0x18642"
+  ],
+  "original_nested_helpers": 0,
+  "new_unique_original_functions": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene_display_list_structured_host_v1.py": "a5a06e195d0f88759cc6fb84f718ccc2cf679bef5e46b0f9085c00c978e2419a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_display_list_cpu.py": "51c17e1f391564502198fe3020ebe1d696796f16e600df673f366e7071aabd32",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_render_queue_cpu.py": "972082b3e68e5a585db556e97873b01ab302bd27bf9ed5e23cfd460cd6ec4953",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/display-list-fullCPU-generation.json": "288afb80953f3ebb2f3188b0e81f45def6ed8f55e97e70b9e36dab55aed6e03e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_display_list_cpu.c": "28857f17bb7f56690381c88522383b2b05734cdf318a9167e05912cdc95fa980",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-structured-v1/primitives.inc": "859a40793586cf1eae95843a1f23b3811f7fe31bec05c1c0c751e4a58ec604aa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-structured-v1/host-wrapper.c": "36d86ec97119fef6d53accc96a39eb59d528c1b2b80100fd91cd917e9608dbdd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-structured-v1/lineage.json": "737e63f7d4c1057eb563db2f9d5cf7b5efc86f358e906d0cbdcc210f0ac6a16b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-structured-v1/coordinator-reference.inc": "b6cde71bc5ba4e505fe842d050dae127009ea2dcebc61ba82c54855a9e87b206",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1/20261021T013949.106123Z/display-list.dylib": "b096468bdf2fc8247c9c2781ff4c5b1cddb9326a4e3bae2a96bd227898b497c7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1/20261021T013949.106123Z/cases.json": "724d55277b7d48a09dca0d8e297411f0b8e2cd2b87f5ad1205d69d9c7f895564",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1/20261021T013949.106123Z/vectors.json": "76018586645002c730f25c3849412e04af308de68aed568f37cae9e157fcff8e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1/20261021T013949.106123Z/guards.json": "4cf246e37865c4536344d08d7d9c7207ec07336dbf44b47f12034e318e2c47aa"
+  },
+  "scope": "Structured185B2 versus original pinned68000 and Unicorn, with full guest frames and ordered bus. 1217finite valid descriptor lists, stable captured real list, allCCR/bothbanks/body/fullcall and64declared handle/field-rereads. Native original operand mutations occur before the exact matching instruction; Unicorn/C use bus-read fixtures. Complete2MBRAM includes original LINK/MOVEM/local/dynamic private table and one-past unused read. No target code/game/IRQ/console proof. Original host work limits are separate from unbounded target loops; arbitrary invalid jump targets, stack/output aliases and concurrent mutation remain outside contract."
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "missing": 0
+  },
+  {
+    "missing": 1
+  },
+  {
+    "missing": 2
+  },
+  {
+    "missing": 3
+  },
+  {
+    "missing": 4
+  },
+  {
+    "missing": 5
+  },
+  {
+    "null_bus": true
+  },
+  {
+    "null_cpu": true
+  },
+  {
+    "null_service": true
+  },
+  {
+    "budget": 0
+  },
+  {
+    "stop_flag": 2
+  },
+  {
+    "bad_pc": true
+  },
+  {
+    "budget": 1
+  },
+  {
+    "failure": [
+      "read",
+      1
+    ]
+  },
+  {
+    "failure": [
+      "read",
+      2
+    ]
+  },
+  {
+    "failure": [
+      "read",
+      4
+    ]
+  },
+  {
+    "failure": [
+      "write",
+      2
+    ]
+  },
+  {
+    "failure": [
+      "write",
+      4
+    ]
+  },
+  {
+    "helper_failure": 58336
+  }
+]

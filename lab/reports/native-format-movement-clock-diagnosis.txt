@@ -1,0 +1,17 @@
+BIWN FIRST POSITION DIFFERENCE — CLOCK / MOVEMENT DIAGNOSIS
+2026-10-18T17:03:36.248395+00:00
+
+The first position difference is a clock-sampling/fractional-movement threshold shift. At world update6812 in frame9920, base samples clock47775after the first observed IRQ entry; optimized samples47774before that entry. Both start with the same player coordinates/fractions,heading226,heldpad0x100000 and movement accumulator44514. The previous movement clock is47770, so the measured elapsed values are5versus4.
+
+The original input routine computes the forward movement fraction using elapsed ticks: floor(((3*dt*8)&65535)*65536/300), adds the saved fraction, outputs the high16bits as movement, and retains low16bits. dt5 gives1unit/fraction5192; dt4 gives0units/fraction65485. The GPU receives these different movement arguments and returns the corresponding zero/nonzero deltas. The next update reverses the tick amounts4versus5; both fractions become26163 and the integer position catches up. By update6814 all recorded player components,heading,speed and accumulator match again. This does not establish all later movement/timing equivalence or identify the full earlier scheduling shift.
+
+FRESH LIVE EVIDENCE
+Two new HLEstarts,10050frames each,with identical recorded buttons through the entire prefix. Every recorded playerX/Z,mode,floor,scene,video hash,cumulative audio-count frame and navigation decision repeats the corresponding prior build prefix exactly. Read-only instruction observer records clock/movement/controller/GPUworkRAM/IRQentry and captures RAM around9915..9923. No guest RAM,CPU,disc,controller-policy,waypoint or arrival-tolerance change. The full original engine and platform providers remain.
+
+CONTROLLED SOURCE REPLAY
+Four offline original191F4..19F2Ainput-routine runs: each captured buildRAM with explicit elapsed ticks4and5. Original signed division executes on the retained CPU; no helper-result stub. Both captured build memories give exactly the same result for the same supplied ticks. The unchanged recovered hostC input routine plus real recoveredC signed division matches all16D/A registers,PC,SR,USP,SSP and all2MBRAM in all four fixtures. These are isolated explicit-input fixtures with IRQ disabled; no physical timing,live C substitution,fault behavior,ordered-native-access trace or whole-game proof.
+
+LOCAL OPTIMIZATION AUTHOR OUTPUT TEST
+Daily Qwen3_5 27B6bit received the complete passing string-helper C plus ABI/ISAheaders. 3925inputtokens,101.86seconds. This tested source editing with a reference, not recovery from scratch. Its source passed AST validation but failed the first original-CPU case: NULLsource should leaveA0=0x1B1A0,but outputA0=0. It reversed the fallback branch when restructuring the supplied goto. No coordinator patch,full gate,efficiency claim or promotion. Exact prompt/output: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/format-string-reference-optimizer-20261018T165524.429645Z/prompts-and-responses.txt
+
+Next source/tool work: isolate the earlier task/IRQ phase shift and improve safe compiler lowering/optimization; preserve rejection data and validate representative training on separate tasks. Advertising research/education training,full game recovery/platform replacement,physical console/audio and future256GBhardware remain incomplete.

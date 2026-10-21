@@ -1,0 +1,5122 @@
+[
+  {
+    "case": 0,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 1,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 2,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 3,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 4,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 5,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 6,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 7,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 8,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 9,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 10,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 11,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 12,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 13,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 14,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 15,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 16,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 17,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 18,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 19,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 20,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 21,
+    "CCR": 14,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 22,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 23,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 24,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 25,
+    "CCR": 7,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 26,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 27,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 28,
+    "CCR": 22,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 29,
+    "CCR": 9,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 30,
+    "CCR": 24,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 31,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 32,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 33,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 34,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 35,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 36,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 37,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 38,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 39,
+    "CCR": 11,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 40,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 41,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 42,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 43,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 44,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 45,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 46,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 47,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 48,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 49,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 50,
+    "CCR": 22,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 51,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 52,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 53,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 54,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 55,
+    "CCR": 11,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 56,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 57,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 58,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 59,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 60,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 61,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 62,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 63,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 64,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 16494,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2081,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 65,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 16196,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2076,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 66,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 13049,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1512,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 67,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 17503,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 68,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 17626,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2279,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 69,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 16160,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2072,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 70,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 5665,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 280,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 71,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 17476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 72,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 17635,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 73,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 74,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 11838,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 15,
+    "public_bus_events": 1295,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 75,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 16187,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2074,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 76,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 17698,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 77,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 78,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 14359,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1719,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 79,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 16232,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2080,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 80,
+    "CCR": 20,
+    "supervisor": false,
+    "native_instructions": 16467,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2079,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 81,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 82,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 12959,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1504,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 83,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 84,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 16440,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2077,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 85,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 86,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 12914,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1498,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 87,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 17476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 88,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 89,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 90,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 13126,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 16,
+    "public_bus_events": 1511,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 91,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 17548,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2289,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 92,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 93,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 17521,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 94,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 11883,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 15,
+    "public_bus_events": 1301,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 95,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 96,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 18978,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2492,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 97,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 98,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 14224,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1705,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 99,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 17365,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2280,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 100,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 17774,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 101,
+    "CCR": 14,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 102,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 14421,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1725,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 103,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 104,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 17801,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2288,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 105,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 106,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 14322,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1715,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 107,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 18717,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2493,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 108,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 17680,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 109,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 110,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 14390,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 20,
+    "public_bus_events": 1712,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 111,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 18672,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2487,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 112,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 18968,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2490,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 113,
+    "CCR": 20,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 114,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 13309,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 19,
+    "public_bus_events": 1518,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 115,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 17356,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2278,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 116,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 18969,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2490,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 117,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 118,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 14260,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1709,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 119,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 120,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 17810,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2290,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 121,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 18708,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2491,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 122,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 14313,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1713,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 123,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 17503,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 124,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 17792,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 125,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 17392,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2282,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 126,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 14412,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1723,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 127,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 18663,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2485,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 128,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 129,
+    "CCR": 7,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 130,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 131,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 132,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 133,
+    "CCR": 5,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 134,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 135,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 136,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 137,
+    "CCR": 5,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 138,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 139,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 140,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 141,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 142,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 143,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 144,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 145,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 146,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 147,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 148,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 149,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 150,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 151,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 152,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 153,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 154,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 7587,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 466,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 155,
+    "CCR": 23,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 156,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 157,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 158,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 159,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 160,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 161,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 162,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 163,
+    "CCR": 20,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 164,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 165,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 166,
+    "CCR": 2,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 167,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 168,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 169,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 170,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 171,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 172,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 173,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 174,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 175,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 176,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 177,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 178,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 179,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 180,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 181,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 182,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 183,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 184,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 185,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 186,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 187,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 188,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 189,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 190,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 191,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 192,
+    "CCR": 2,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 193,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 194,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 195,
+    "CCR": 11,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 196,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 197,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 198,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 199,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 200,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 201,
+    "CCR": 20,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 202,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 203,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 204,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 205,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 206,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 207,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 208,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 209,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 210,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 211,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 212,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 213,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 214,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 215,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 216,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 217,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 218,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 219,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 220,
+    "CCR": 2,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 221,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 222,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 223,
+    "CCR": 5,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 224,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 16467,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2079,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 225,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 226,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 12986,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1506,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 227,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 17521,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 228,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 17680,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 229,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 16241,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2082,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 230,
+    "CCR": 22,
+    "supervisor": false,
+    "native_instructions": 13027,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 16,
+    "public_bus_events": 1501,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 231,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 17476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 232,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 233,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 234,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 11945,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 15,
+    "public_bus_events": 1307,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 235,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 16196,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2076,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 236,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 17635,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 237,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 238,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 5727,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 239,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 240,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 16476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2081,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 241,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 17548,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2289,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 242,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 12950,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1502,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 243,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 17503,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 244,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 16494,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2081,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 245,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 16196,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2076,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 246,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 13049,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1512,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 247,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 17503,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 248,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 17626,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2279,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 249,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 16160,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2072,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 250,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 13018,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 16,
+    "public_bus_events": 1499,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 251,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 17476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 252,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 17635,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 253,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 254,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 11838,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 15,
+    "public_bus_events": 1295,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 255,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 16187,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2074,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 256,
+    "CCR": 20,
+    "supervisor": false,
+    "native_instructions": 18996,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2492,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 257,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 18708,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2491,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 258,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 14359,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1719,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 259,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 17392,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2282,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 260,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 17801,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2288,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 261,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 262,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 14295,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1713,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 263,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 264,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 17774,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 265,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 17365,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2280,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 266,
+    "CCR": 20,
+    "supervisor": false,
+    "native_instructions": 5789,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 292,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 267,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 18672,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2487,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 268,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 269,
+    "CCR": 11,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 270,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 14489,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 20,
+    "public_bus_events": 1722,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 271,
+    "CCR": 20,
+    "supervisor": true,
+    "native_instructions": 18708,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2491,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 272,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 19005,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2494,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 273,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 17521,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 274,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 13219,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 19,
+    "public_bus_events": 1510,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 275,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 276,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 18978,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2492,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 277,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 278,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 14224,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1705,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 279,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 17365,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2280,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 280,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 17774,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 281,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 282,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 14421,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1725,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 283,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 284,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 17801,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2288,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 285,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 286,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 14322,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1715,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 287,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 18717,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2493,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 288,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 289,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 290,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 291,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 292,
+    "CCR": 20,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 293,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 54666,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 294,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 295,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 296,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 297,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 298,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 299,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 300,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 301,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 54666,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 302,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 303,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 304,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 305,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 306,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 307,
+    "CCR": 7,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 308,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 309,
+    "CCR": 20,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 310,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 311,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 312,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 313,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 314,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 315,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 316,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 317,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 318,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 319,
+    "CCR": 11,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 320,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 321,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 322,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 323,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 324,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 325,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 326,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 327,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 328,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 329,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 330,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 331,
+    "CCR": 19,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 332,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 333,
+    "CCR": 5,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 334,
+    "CCR": 0,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 335,
+    "CCR": 9,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 336,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 337,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 338,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 339,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 340,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 341,
+    "CCR": 14,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 342,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 343,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 344,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 345,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 346,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 347,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 348,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 349,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 350,
+    "CCR": 28,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 351,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 352,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 353,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 354,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 355,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 356,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 357,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 358,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 359,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 360,
+    "CCR": 2,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 361,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 362,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 363,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 364,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 365,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 366,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 367,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 368,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 369,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 370,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 371,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 372,
+    "CCR": 2,
+    "supervisor": false,
+    "native_instructions": 6405,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 431,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 373,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 374,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 375,
+    "CCR": 4,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 376,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 377,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 378,
+    "CCR": 8,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 379,
+    "CCR": 5,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 380,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 6432,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 5,
+    "public_bus_events": 433,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 381,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 6238,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 428,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 382,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 5169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 232,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 383,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 6274,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 2,
+    "public_bus_events": 432,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 384,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 16440,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2077,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 385,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 386,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 12914,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1498,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 387,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 17476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 388,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 389,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 390,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 13126,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 16,
+    "public_bus_events": 1511,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 391,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 17548,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2289,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 392,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 393,
+    "CCR": 20,
+    "supervisor": true,
+    "native_instructions": 17521,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 394,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 11883,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 15,
+    "public_bus_events": 1301,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 395,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 396,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 17644,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 397,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 17521,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 398,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 14224,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1705,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 399,
+    "CCR": 13,
+    "supervisor": true,
+    "native_instructions": 16169,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2074,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 400,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 16476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2081,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 401,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 402,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 13058,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1514,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 403,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 404,
+    "CCR": 31,
+    "supervisor": false,
+    "native_instructions": 16467,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 25,
+    "public_bus_events": 2079,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 405,
+    "CCR": 30,
+    "supervisor": true,
+    "native_instructions": 16205,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2078,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 406,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 12986,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 13,
+    "public_bus_events": 1506,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 407,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 17521,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 408,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 17680,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2287,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 409,
+    "CCR": 18,
+    "supervisor": true,
+    "native_instructions": 16241,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2082,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 410,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 13027,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 16,
+    "public_bus_events": 1501,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 411,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 17476,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2281,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 412,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 17671,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 413,
+    "CCR": 1,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 414,
+    "CCR": 4,
+    "supervisor": false,
+    "native_instructions": 11945,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 15,
+    "public_bus_events": 1307,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 415,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 16196,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 22,
+    "public_bus_events": 2076,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 416,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 18969,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2490,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 417,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 418,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 14260,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1709,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 419,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 17401,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2284,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 420,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 17810,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2290,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 421,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 18708,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2491,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 422,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 14313,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1713,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 423,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 17503,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 424,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 17792,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 425,
+    "CCR": 11,
+    "supervisor": true,
+    "native_instructions": 17392,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2282,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 426,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 14412,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1723,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 427,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 18663,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2485,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 428,
+    "CCR": 1,
+    "supervisor": false,
+    "native_instructions": 17626,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2279,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 429,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 17356,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2278,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 430,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 14354,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 20,
+    "public_bus_events": 1708,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 431,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 18672,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2487,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 432,
+    "CCR": 16,
+    "supervisor": false,
+    "native_instructions": 18969,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2490,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 433,
+    "CCR": 14,
+    "supervisor": true,
+    "native_instructions": 17512,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2285,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 434,
+    "CCR": 3,
+    "supervisor": false,
+    "native_instructions": 5727,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 435,
+    "CCR": 8,
+    "supervisor": true,
+    "native_instructions": 17383,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2280,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 436,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 18996,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 30,
+    "public_bus_events": 2492,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 437,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 18708,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2491,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 438,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 14359,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1719,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 439,
+    "CCR": 14,
+    "supervisor": true,
+    "native_instructions": 17392,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2282,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 440,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 17801,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2288,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 441,
+    "CCR": 21,
+    "supervisor": true,
+    "native_instructions": 18681,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2489,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 442,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 14295,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1713,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 443,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 17485,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 26,
+    "public_bus_events": 2283,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 444,
+    "CCR": 20,
+    "supervisor": false,
+    "native_instructions": 17774,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 29,
+    "public_bus_events": 2286,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 445,
+    "CCR": 3,
+    "supervisor": true,
+    "native_instructions": 17365,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 23,
+    "public_bus_events": 2280,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 446,
+    "CCR": 7,
+    "supervisor": false,
+    "native_instructions": 14277,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 17,
+    "public_bus_events": 1709,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 447,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 18672,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 27,
+    "public_bus_events": 2487,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 448,
+    "CCR": 19,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 449,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 450,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 451,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 452,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 453,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 454,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 455,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 456,
+    "CCR": 10,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 457,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 458,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 459,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 460,
+    "CCR": 29,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 461,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 462,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 463,
+    "CCR": 15,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 464,
+    "CCR": 13,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 465,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 466,
+    "CCR": 15,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 467,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 468,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 55439,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8461,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 469,
+    "CCR": 17,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 470,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 39453,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5749,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 471,
+    "CCR": 31,
+    "supervisor": true,
+    "native_instructions": 54631,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8453,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 472,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 473,
+    "CCR": 27,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 474,
+    "CCR": 27,
+    "supervisor": false,
+    "native_instructions": 39894,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5795,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 475,
+    "CCR": 22,
+    "supervisor": true,
+    "native_instructions": 54667,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8457,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 476,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 55466,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 104,
+    "public_bus_events": 8463,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 477,
+    "CCR": 23,
+    "supervisor": true,
+    "native_instructions": 54640,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8455,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 478,
+    "CCR": 23,
+    "supervisor": false,
+    "native_instructions": 39462,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 66,
+    "public_bus_events": 5751,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 479,
+    "CCR": 10,
+    "supervisor": true,
+    "native_instructions": 54676,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 98,
+    "public_bus_events": 8459,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 480,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 481,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 482,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 483,
+    "CCR": 0,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 484,
+    "CCR": 12,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 485,
+    "CCR": 26,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 486,
+    "CCR": 25,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 487,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 488,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 489,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 490,
+    "CCR": 30,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 491,
+    "CCR": 9,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 492,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 493,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 494,
+    "CCR": 5,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 495,
+    "CCR": 29,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 496,
+    "CCR": 21,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 497,
+    "CCR": 28,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 498,
+    "CCR": 17,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 499,
+    "CCR": 24,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 500,
+    "CCR": 26,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 501,
+    "CCR": 7,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 502,
+    "CCR": 18,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 503,
+    "CCR": 12,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 504,
+    "CCR": 14,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 505,
+    "CCR": 2,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 506,
+    "CCR": 6,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 507,
+    "CCR": 6,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 508,
+    "CCR": 11,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 509,
+    "CCR": 25,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 510,
+    "CCR": 9,
+    "supervisor": false,
+    "native_instructions": 5107,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  },
+  {
+    "case": 511,
+    "CCR": 16,
+    "supervisor": true,
+    "native_instructions": 5078,
+    "C_stack_bytes": 120,
+    "actual_helper_calls": 1,
+    "public_bus_events": 226,
+    "full_CPU_nonprivate_RAM_helper_states_public_bus_match": true
+  }
+]

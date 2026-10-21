@@ -1,0 +1,21 @@
+include Makefile
+.DEFAULT_GOAL := scheduler
+SCHEDULER_SOURCE ?= scheduler-native.c
+.PHONY: scheduler
+scheduler: $(BUILD)/native-scheduler.elf $(BUILD)/native-scheduler.bin $(BUILD)/scheduler-traps.elf $(BUILD)/scheduler-yield.bin $(BUILD)/scheduler-remove.bin
+$(BUILD)/scheduler-shims.o: scheduler-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/scheduler-native.o: $(SCHEDULER_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-scheduler.elf: $(BUILD)/scheduler-shims.o $(BUILD)/scheduler-native.o scheduler.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T scheduler.ld -Map $(BUILD)/native-scheduler.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-scheduler.bin: $(BUILD)/native-scheduler.elf
+	$(CROSS)objcopy -O binary $< $@
+$(BUILD)/scheduler-traps.o: scheduler-traps.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/scheduler-traps.elf: $(BUILD)/scheduler-traps.o scheduler-traps.ld $(MAKEFILE_LIST)
+	$(CROSS)ld -T scheduler-traps.ld -o $@ $<
+$(BUILD)/scheduler-yield.bin: $(BUILD)/scheduler-traps.elf
+	$(CROSS)objcopy -O binary --only-section=.yield $< $@
+$(BUILD)/scheduler-remove.bin: $(BUILD)/scheduler-traps.elf
+	$(CROSS)objcopy -O binary --only-section=.remove $< $@

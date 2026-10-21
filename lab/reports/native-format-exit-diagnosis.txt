@@ -1,0 +1,18 @@
+BIWN OPTIMIZED EXIT DELAY — NATIVE TRACE DIAGNOSIS
+
+The extra route frames include an original type5 NPC interaction. They are not a clean measure of whole-game execution speed. No game-code, NPC-state, waypoint, arrival tolerance or controller-policy change was made in this diagnostic.
+
+Both fresh HLE starts repeated their prior routes exactly in every recorded playerX/Z,mode,floor,scene,video hash and cumulative audio-count frame, and all recorded navigation/button decisions. Base24975frames; optimized29791frames. The added observer only reads CPU/RAM and writes host logs/snapshots.
+
+ORIGINAL ACTOR CONTROL FLOW
+Type5 slot3 is at0x49FD6, position12832/42408. State1 dispatches through the original table to0x13122. 0x10252 returns squared player-to-actor distance. At0x13126 the actor comparesD3with255; 0x1312C skips this encounter when signedD3is greater. Observed distances are positive. The base actor-task samples never drop below269 in the observed approach; the optimized task reaches244. Every captured0x10252 return equals the squared distance from its actual recorded coordinates.
+
+Atframe24158, the optimized actor hasD3=244,D5.W=0(fullD5=0x40000),state1. 0x131BE pushes10; 0x131C2 calls0x1C9E8, with original returnPC0x131C8 on the real task stack. That single call returns atframe28971 withD0=5, elapsed4813frames. 0x131C8 copiesD0intoD1;0x131E2 writes actor state5 after return. The base trace makes no0x1C9E8 call during this observed exit. The caller/actor/media instruction ranges in the captured RAM match the original baseline bytes.
+
+The player holds position12844/42398 with forward input overframes24154..28970 inclusive4817frames. The call includes three media-active intervals:24190..27242,27275..28125,28158..28970, with short inactive gaps. That explains the additional captured audio and most of the4816frame route difference. It does not isolate the earlier timing/position divergence that caused the optimized approach to cross the encounter threshold, nor prove all movement, media timing or game behavior correct. No audibility/quality or physical-console claim.
+
+LOCAL ANALYST TEST
+One actual Qwen3_5 27B6bit Analyst generation,22424inputtokens,57.08seconds. The new diagnostic result was not supplied. It predicted a broad media/NPC interaction but omitted the distance gate, misidentified several supplied instructions and gave supporting facts as disconfirmation. Rejected as precise source analysis; no independent Reviewer or new training. An earlier preparation exceeded32K context before inference; preserved. Columnar encoding then retained all120declared approach rows per lane.
+Exact prompts/output: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/format-exit-local-analyst-20261018T164442.534236Z/prompts-and-responses.txt
+
+Full decompilation/platform replacement, physical console, broad local model reliability, advertising training and future hardware remain open.

@@ -1,0 +1,9590 @@
+[
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "midpoint",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "midpoint",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "midpoint",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "midpoint",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "x_window",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "x_window",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "x_window",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "x_window",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "y_window",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "y_window",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "y_window",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "y_window",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "z_window",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "z_window",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "z_window",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "z_window",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "greater.isra.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "greater.isra.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "greater.isra.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "greater.isra.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_move_word",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_move_word",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_move_word",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_move_word",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_clr_word",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_clr_word",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_clr_word",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "faces_clr_word",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_begin",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_begin",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_begin",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_begin",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_before",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_before",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_before",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_before",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_after",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_after",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_after",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_after",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_end",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_end",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_end",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_faces_end",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_move_long_push",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_move_long_push",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_move_long_push",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_move_long_push",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_push_word",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_push_word",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_push_word",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "debug_push_word",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_input_bit",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_input_bit",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_input_bit",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_input_bit",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_display_list_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_display_list_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_display_list_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_display_list_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r8",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r8",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r8",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r8",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r16",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r16",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r16",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r16",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r32",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r32",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r32",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "r32",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w16",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w16",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w16",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w16",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w32",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w32",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w32",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "w32",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_coordinate",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_coordinate",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_coordinate",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_coordinate",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_input",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_input",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_input",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_input",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scan",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scan",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scan",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scan",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_face",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_face",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_face",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_face",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scene",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scene",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scene",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_scene",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_face_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_face_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_face_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_face_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_input_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_input_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_input_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_input_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "coordinate",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "invalid_admission",
+    "root": "coordinate",
+    "fault": "zero",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "coordinate",
+    "fault": "unaligned",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "coordinate",
+    "fault": "bit8",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "coordinate",
+    "fault": "bit9",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "coordinate",
+    "fault": "end",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "none",
+    "legal": true
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "frame",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "stack",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "coordinate",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "task",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "coordinate",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "midpoint",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "midpoint",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "midpoint",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "midpoint",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "x_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "x_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "x_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "x_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "y_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "y_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "y_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "y_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "z_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "z_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "z_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "z_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "greater.isra.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "greater.isra.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "greater.isra.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "greater.isra.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_move_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_move_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_move_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_move_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_clr_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_clr_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_clr_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "faces_clr_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_begin",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_begin",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_begin",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_begin",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_before",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_before",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_before",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_before",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_after",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_after",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_after",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_after",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_end",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_end",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_end",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_faces_end",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_move_long_push",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_move_long_push",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_move_long_push",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_move_long_push",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_push_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_push_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_push_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "debug_push_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_input_bit",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_input_bit",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_input_bit",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_input_bit",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_display_list_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_display_list_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_display_list_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_display_list_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r8",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r8",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r8",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r8",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r16",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r16",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r16",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r16",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r32",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r32",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r32",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "r32",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w16",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w16",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w16",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w16",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w32",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w32",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w32",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "w32",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_coordinate",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_coordinate",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_coordinate",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_coordinate",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_input",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_input",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_input",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_input",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scan",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scan",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scan",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scan",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_face",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_face",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_face",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_face",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scene",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scene",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scene",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_scene",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_face_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_face_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_face_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_face_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_input_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_input_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_input_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_input_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "input",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "invalid_admission",
+    "root": "input",
+    "fault": "zero",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "input",
+    "fault": "unaligned",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "input",
+    "fault": "bit8",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "input",
+    "fault": "bit9",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "input",
+    "fault": "end",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "none",
+    "legal": true
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "frame",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "stack",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "input",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "task",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "input",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "midpoint",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "midpoint",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "midpoint",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "midpoint",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "x_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "x_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "x_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "x_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "y_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "y_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "y_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "y_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "z_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "z_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "z_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "z_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "greater.isra.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "greater.isra.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "greater.isra.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "greater.isra.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_move_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_move_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_move_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_move_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_clr_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_clr_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_clr_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "faces_clr_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_begin",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_begin",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_begin",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_begin",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_before",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_before",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_before",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_before",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_after",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_after",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_after",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_after",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_end",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_end",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_end",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_faces_end",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_move_long_push",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_move_long_push",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_move_long_push",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_move_long_push",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_push_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_push_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_push_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "debug_push_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_input_bit",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_input_bit",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_input_bit",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_input_bit",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_display_list_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_display_list_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_display_list_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_display_list_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r8",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r8",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r8",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r8",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r16",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r16",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r16",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r16",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r32",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r32",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r32",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "r32",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w16",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w16",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w16",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w16",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w32",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w32",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w32",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "w32",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_coordinate",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_coordinate",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_coordinate",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_coordinate",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_input",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_input",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_input",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_input",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scan",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scan",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scan",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scan",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_face",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_face",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_face",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_face",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scene",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scene",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scene",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_scene",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_face_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_face_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_face_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_face_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_input_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_input_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_input_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_input_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "face",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "invalid_admission",
+    "root": "face",
+    "fault": "zero",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "face",
+    "fault": "unaligned",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "face",
+    "fault": "bit8",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "face",
+    "fault": "bit9",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "face",
+    "fault": "end",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "none",
+    "legal": true
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "frame",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "stack",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "face",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "task",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "face",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "midpoint",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "midpoint",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "midpoint",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "midpoint",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "x_window",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "x_window",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "x_window",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "x_window",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "y_window",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "y_window",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "y_window",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "y_window",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "z_window",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "z_window",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "z_window",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "z_window",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "greater.isra.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "greater.isra.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "greater.isra.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "greater.isra.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_move_word",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_move_word",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_move_word",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_move_word",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_clr_word",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_clr_word",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_clr_word",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "faces_clr_word",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_begin",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_begin",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_begin",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_begin",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_before",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_before",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_before",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_before",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_after",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_after",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_after",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_after",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_end",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_end",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_end",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_faces_end",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_move_long_push",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_move_long_push",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_move_long_push",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_move_long_push",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_push_word",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_push_word",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_push_word",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "debug_push_word",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_input_bit",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_input_bit",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_input_bit",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_input_bit",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_display_list_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_display_list_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_display_list_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_display_list_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r8",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r8",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r8",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r8",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r16",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r16",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r16",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r16",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r32",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r32",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r32",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "r32",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w16",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w16",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w16",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w16",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w32",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w32",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w32",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "w32",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_coordinate",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_coordinate",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_coordinate",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_coordinate",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_input",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_input",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_input",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_input",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scan",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scan",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scan",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scan",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_face",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_face",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_face",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_face",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scene",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scene",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scene",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_scene",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_face_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_face_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_face_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_face_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_input_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_input_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_input_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_input_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 416,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 592,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 414,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scan",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 594,
+    "legal": false
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scan",
+    "fault": "zero",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scan",
+    "fault": "unaligned",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scan",
+    "fault": "bit8",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scan",
+    "fault": "bit9",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scan",
+    "fault": "end",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "none",
+    "legal": true
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "frame",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "stack",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scan",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "task",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scan",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "midpoint",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "midpoint",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "midpoint",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "midpoint",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "x_window",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "x_window",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "x_window",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "x_window",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "y_window",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "y_window",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "y_window",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "y_window",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "z_window",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "z_window",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "z_window",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "z_window",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "greater.isra.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "greater.isra.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "greater.isra.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "greater.isra.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_move_word",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_move_word",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_move_word",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_move_word",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_clr_word",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_clr_word",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_clr_word",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "faces_clr_word",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_begin",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_begin",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_begin",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_begin",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_before",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_before",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_before",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_before",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_after",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_after",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_after",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_after",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_end",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_end",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_end",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_faces_end",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_move_long_push",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_move_long_push",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_move_long_push",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_move_long_push",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_push_word",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_push_word",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_push_word",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "debug_push_word",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_input_bit",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_input_bit",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_input_bit",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_input_bit",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_display_list_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_display_list_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_display_list_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_display_list_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r8",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r8",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r8",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r8",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r16",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r16",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r16",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r16",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r32",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r32",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r32",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "r32",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w16",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w16",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w16",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w16",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w32",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w32",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w32",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "w32",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_coordinate",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_coordinate",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_coordinate",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_coordinate",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_input",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_input",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_input",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_input",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scan",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scan",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scan",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scan",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_face",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_face",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_face",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_face",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scene",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scene",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scene",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_scene",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_face_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_face_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_face_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_face_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_input_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_input_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_input_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_input_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 832,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 1008,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 830,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "geometry",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 1010,
+    "legal": false
+  },
+  {
+    "group": "invalid_admission",
+    "root": "geometry",
+    "fault": "zero",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "geometry",
+    "fault": "unaligned",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "geometry",
+    "fault": "bit8",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "geometry",
+    "fault": "bit9",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "geometry",
+    "fault": "end",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "none",
+    "legal": true
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "frame",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "stack",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "geometry",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "task",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "geometry",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "midpoint",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "midpoint",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "midpoint",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "midpoint",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "x_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "x_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "x_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "x_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "y_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "y_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "y_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "y_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "z_window",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "z_window",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "z_window",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "z_window",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "greater.isra.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "greater.isra.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "greater.isra.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "greater.isra.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_move_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_move_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_move_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_move_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_clr_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_clr_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_clr_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "faces_clr_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_begin",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_begin",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_begin",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_begin",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_before",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_before",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_before",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_before",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_after",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_after",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_after",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_after",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_end",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_end",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_end",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_faces_end",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_move_long_push",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_move_long_push",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_move_long_push",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_move_long_push",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_push_word",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_push_word",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_push_word",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "debug_push_word",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_input_bit",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_input_bit",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_input_bit",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_input_bit",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_display_list_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_display_list_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_display_list_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_display_list_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_wait_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r8",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r8",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r8",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r8",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r16",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r16",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r16",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r16",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r32",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r32",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r32",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "r32",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w16",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w16",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w16",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w16",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w32",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w32",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w32",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "w32",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces_gpu",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug_helpers",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_coordinate",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_coordinate",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_coordinate",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_coordinate",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_input",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_input",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_input",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_input",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scan",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scan",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scan",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scan",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_face",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_face",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_face",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_face",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scene",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scene",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scene",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_scene",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_original.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_angles.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "advance_texture.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_end.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_coordinate_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_before.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v5_deeper_helper_marker",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_clear_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_face_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_face_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_face_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_face_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_debug.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_input_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_input_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_input_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_input_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scan_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "service_geometry_faces.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "geometry_records_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_matrix_after.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_geometry_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_gpu_family_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "scene_rotation_body.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "dispatch.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_geometry_begin.lto_priv.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v4_scene_body",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "native_clear_records.constprop.0",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 608,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 816,
+    "legal": true
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 606,
+    "legal": false
+  },
+  {
+    "group": "C_floor",
+    "root": "scene",
+    "symbol": "biwn_v18_scene_reset_marker",
+    "SP": 818,
+    "legal": false
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scene",
+    "fault": "zero",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scene",
+    "fault": "unaligned",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scene",
+    "fault": "bit8",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scene",
+    "fault": "bit9",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "invalid_admission",
+    "root": "scene",
+    "fault": "end",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "none",
+    "legal": true
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "frame",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "stack",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "busy_fallback",
+    "root": "scene",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "D0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "A0",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "SP",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "SR",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "task",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "missing",
+    "legal": false
+  },
+  {
+    "group": "invalid_corruption",
+    "root": "scene",
+    "fault": "duplicate",
+    "legal": false
+  },
+  {
+    "group": "scene_commit",
+    "fault": "none",
+    "legal": true,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "D0",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "D2",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "A0",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "A2",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "SP",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "SR",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "logical_PC",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "bank",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "active",
+    "legal": false,
+    "CCR_bank_cases": 64
+  },
+  {
+    "group": "scene_commit",
+    "fault": "error",
+    "legal": false,
+    "CCR_bank_cases": 64
+  }
+]

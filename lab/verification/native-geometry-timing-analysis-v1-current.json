@@ -1,0 +1,253 @@
+{
+  "status": "terminal_actual_geometry_timing_and_public_flag_transition_analysis",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-analysis-v1/20261020T202721.330101Z",
+  "trace": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1-current.json",
+  "geometry_calls_each": 18,
+  "calls": [
+    {
+      "call": 1,
+      "candidate_entry": 54,
+      "control_entry": 54,
+      "candidate_return": 55,
+      "control_return": 55,
+      "return_frame_shift": 0,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 2,
+      "candidate_entry": 57,
+      "control_entry": 56,
+      "candidate_return": 58,
+      "control_return": 57,
+      "return_frame_shift": 1,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 3,
+      "candidate_entry": 60,
+      "control_entry": 59,
+      "candidate_return": 61,
+      "control_return": 59,
+      "return_frame_shift": 2,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 4,
+      "candidate_entry": 63,
+      "control_entry": 61,
+      "candidate_return": 64,
+      "control_return": 61,
+      "return_frame_shift": 3,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 5,
+      "candidate_entry": 66,
+      "control_entry": 63,
+      "candidate_return": 67,
+      "control_return": 63,
+      "return_frame_shift": 4,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 6,
+      "candidate_entry": 69,
+      "control_entry": 65,
+      "candidate_return": 70,
+      "control_return": 65,
+      "return_frame_shift": 5,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 7,
+      "candidate_entry": 72,
+      "control_entry": 67,
+      "candidate_return": 73,
+      "control_return": 67,
+      "return_frame_shift": 6,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 8,
+      "candidate_entry": 75,
+      "control_entry": 69,
+      "candidate_return": 76,
+      "control_return": 69,
+      "return_frame_shift": 7,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 9,
+      "candidate_entry": 78,
+      "control_entry": 71,
+      "candidate_return": 79,
+      "control_return": 71,
+      "return_frame_shift": 8,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 10,
+      "candidate_entry": 80,
+      "control_entry": 73,
+      "candidate_return": 81,
+      "control_return": 74,
+      "return_frame_shift": 7,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 11,
+      "candidate_entry": 83,
+      "control_entry": 75,
+      "candidate_return": 84,
+      "control_return": 76,
+      "return_frame_shift": 8,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 12,
+      "candidate_entry": 86,
+      "control_entry": 77,
+      "candidate_return": 87,
+      "control_return": 78,
+      "return_frame_shift": 9,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 13,
+      "candidate_entry": 89,
+      "control_entry": 79,
+      "candidate_return": 90,
+      "control_return": 80,
+      "return_frame_shift": 10,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 14,
+      "candidate_entry": 92,
+      "control_entry": 81,
+      "candidate_return": 92,
+      "control_return": 82,
+      "return_frame_shift": 10,
+      "candidate_frame_boundaries": 0,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 15,
+      "candidate_entry": 94,
+      "control_entry": 83,
+      "candidate_return": 95,
+      "control_return": 84,
+      "return_frame_shift": 11,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 16,
+      "candidate_entry": 97,
+      "control_entry": 85,
+      "candidate_return": 98,
+      "control_return": 86,
+      "return_frame_shift": 12,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 1
+    },
+    {
+      "call": 17,
+      "candidate_entry": 100,
+      "control_entry": 87,
+      "candidate_return": 101,
+      "control_return": 87,
+      "return_frame_shift": 14,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    },
+    {
+      "call": 18,
+      "candidate_entry": 102,
+      "control_entry": 89,
+      "candidate_return": 103,
+      "control_return": 89,
+      "return_frame_shift": 14,
+      "candidate_frame_boundaries": 1,
+      "control_frame_boundaries": 0
+    }
+  ],
+  "transitions": {
+    "movie0": {
+      "candidate_changes": 16,
+      "control_changes": 16,
+      "same_value_sequence": true,
+      "paired_offset_shifts": [
+        0,
+        0,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14
+      ]
+    },
+    "movie1": {
+      "candidate_changes": 0,
+      "control_changes": 0,
+      "same_value_sequence": true,
+      "paired_offset_shifts": []
+    },
+    "held": {
+      "candidate_changes": 7,
+      "control_changes": 7,
+      "same_value_sequence": true,
+      "paired_offset_shifts": [
+        0,
+        0,
+        0,
+        0,
+        14,
+        -1,
+        0
+      ]
+    }
+  },
+  "new_predictions": 0,
+  "new_training": false,
+  "discs_changed": false,
+  "inputs_changed": false,
+  "all_observed_frame_records_and_final_states_equal_baseline": true,
+  "fidelity_verified": false,
+  "scope": "Compare read-only geometry timelines; distinguish temporal evidence from cause. Trace observes CPU instruction boundaries. Frame ordinals are executed-instruction counts,not cycle counts. Preceding observed instruction disassembly is from frozen original/resident code and is a writer candidate;asynchronous effects and IRQ need separate attribution. Paired call ordinal is not assumed to establish identical input state. This experiment leaves the62video differences intact,including the unpaired candidate tail.",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Native Geometry Timing Trace Analysis.txt",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/analyze_native_geometry_timing_v1.py": "078f7e9277f54a027c559be439cd1de8247ec071b0d440919ad3bea6f00b6508",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1-current.json": "7197a618b15de47ab3f2c3387d7a96c34aa1e6b6d06d72f49a255d7c35a659da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-disc-build-v1-current.json": "e6c840b0b3fbbce20c7e759a3debb8741e3517165ae28d094f7f158a37ea90fa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-debug-v1/20261020T191338.799030Z/mainstage-native-Deck-debug-v1.bin": "681e85fb6dfadf4800a32e4f14c33d2b19c25aa2f518ac2eb2bf9650e011b599",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-debug-v1/20261020T191338.799030Z/resident-with-arenas.bin": "5c1eda5bd53104dfb6c76a958649c40fa7525126089d17229b733099ed3dc730",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-analysis-v1/20261020T202721.330101Z/lanes.json": "c648d01980d55554b55eb42cc1941540580416ea9e8e5078c4e9823e80e4dcb1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-analysis-v1/20261020T202721.330101Z/calls.json": "c67412dc1f6e7d7b5f631d3068857edeb1323024551b1efe931f2eca96cab05a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-analysis-v1/20261020T202721.330101Z/transitions.json": "a2065937f83accfc1c7d58aca55bc90878fd32ef3a63150c534a3eb718655af7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Native Geometry Timing Trace Analysis.txt": "900977762b78b2e577f06ad73c20f394eb83333a1900c7a9be3ab5435fd7115b"
+  }
+}

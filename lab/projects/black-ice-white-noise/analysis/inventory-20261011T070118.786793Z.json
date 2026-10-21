@@ -1,0 +1,13 @@
+{
+  "schema": "local-ai-disc-intake/v1",
+  "input": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/originals",
+  "revision_label": "Pending user-supplied image/build",
+  "revision_basis": "User-supplied label, not independently identified",
+  "files": [],
+  "cue_sheets": [],
+  "warnings": [
+    "Inventory only. No extraction, disc execution, executable identification or decompilation performed."
+  ],
+  "implementation_sha256": "52652d6e5036089d76fa41070bb956bb95e546d3df8029c4fa600d84107764e5",
+  "status": "awaiting_input"
+}

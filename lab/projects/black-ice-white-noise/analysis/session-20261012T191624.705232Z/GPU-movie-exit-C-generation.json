@@ -1,0 +1,72 @@
+{
+  "status": "generated_unverified",
+  "instructions": 10,
+  "instructions_decoded": [
+    {
+      "address": 15740928,
+      "size": 6,
+      "bytes": "981c313000f0",
+      "assembly": "movei   $f03130,r28"
+    },
+    {
+      "address": 15740934,
+      "size": 6,
+      "bytes": "981e210000f0",
+      "assembly": "movei   $f02100,r30"
+    },
+    {
+      "address": 15740940,
+      "size": 2,
+      "bytes": "d380",
+      "assembly": "jump    (r28)"
+    },
+    {
+      "address": 15740942,
+      "size": 2,
+      "bytes": "a7dd",
+      "assembly": "load    (r30),r29"
+    },
+    {
+      "address": 15741232,
+      "size": 6,
+      "bytes": "981c31be00f0",
+      "assembly": "movei   $f031be,r28"
+    },
+    {
+      "address": 15741238,
+      "size": 2,
+      "bytes": "393d",
+      "assembly": "bset    $9,r29"
+    },
+    {
+      "address": 15741240,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741242,
+      "size": 2,
+      "bytes": "3c7d",
+      "assembly": "bclr    $3,r29"
+    },
+    {
+      "address": 15741244,
+      "size": 2,
+      "bytes": "d380",
+      "assembly": "jump    (r28)"
+    },
+    {
+      "address": 15741246,
+      "size": 2,
+      "bytes": "bfdd",
+      "assembly": "store   r29,(r30)"
+    }
+  ],
+  "source_sha256": {
+    "biwn_gpu_movie_exit.c": "e856dcc04b5ad9828c7a76c73e70a1ebdf8adb8320183d54a3ddb4ec145a14b6",
+    "biwn_gpu_movie_exit.h": "c5ef83ce88e9cec6a0ce9acdc4a24b104abffe2ba37facc80eca7b22f7b4b6ee"
+  },
+  "source_payload_sha256": "23146c963ff32f2ebf3ef39629a67fbdc8aa284d5b88fb679e02479d72d26fae",
+  "whole_game_complete": false
+}

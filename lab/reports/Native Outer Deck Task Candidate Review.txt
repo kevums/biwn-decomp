@@ -1,0 +1,22 @@
+BIWN — NATIVE OUTER TASK CANDIDATE
+
+Coordinator work now provides a native bridge for outer task 0x11E6C, with per-task C-stack storage, saved live CPU pointers, original helper calls and explicit iteration/wait continuations. The recovered outer algorithm is included unchanged. The five existing native callers are retained.
+
+The outer component matches the original CPU in 1,280 cases at prototype addresses and again at final addresses. The connected six-caller matrix passes 128 cases across all 101 task slots at each address. Final connected returns are coordinate 832, input 800, face 485, scan 112 and geometry 16, with 2,245 checks that suspended parent frames stay unchanged. Remaining helpers and GPU submissions are fixtures; E540 executes. These are seeded component tests, not fresh gameplay.
+
+At both addresses, 384 invalid/busy fallback cases match full CPU and full RAM without arena normalization. Another 192 wait/resume pairs compare 64 actual native volatile reads against 64 original polls and then release the flag to resume native work. All 5,248 retained five-caller cases pass at final addresses. Six startup cases verify exact CPU and RAM, including both initialized arenas and per-task pointers. There are 192 heap-initialization and 36 capacity checks.
+
+The candidate contains 72,204 native code bytes, reserves 260,160 bytes and leaves 137,728 bytes of initial heap. Its outer arena uses 101 slots of 576 bytes (58,176 bytes). The declared C-stack range is slot offsets 144–560, or 416 bytes. Observed use is 356 bytes, reaching offset 204 and leaving 60 bytes above the lower guard. This is finite observed headroom, not arbitrary interrupt safety. Fresh-game resource loading and heap peaks remain untested for this candidate.
+
+Failures were retained and fixed: the initial 512-byte slot overflowed its lower fence by 4 bytes; a fixture serializer used host padding/little-endian layout; and the first relocated module was loaded 2 bytes before its ELF origin. Explicit 4-byte module/finalizer alignment and origin assertions now pass. The rejected and partial builds remain separate.
+
+Four actual local predictions ran as two sequential Analyst/Reviewer trials on the same base weights. The first prompt had ambiguous margin wording and both roles made an unsupported stack finding. The clarified Analyst handled the arithmetic; its Reviewer introduced an unsupported claim and returned incomplete JSON. Raw reviews were not adopted. No optimizer update or model-authored game algorithm was added. The native Chat inspection timed out, so these trials used saved local API streams with no native-display claim.
+
+The installed desktop preview and latest fresh-reviewed disc remain five-caller builds. This separate six-caller candidate is not promoted. Next: fresh candidate versus an original-outer control at the same layout, qualified real helper/scheduler observations, heap/resource loading and video/state review. Whole-game source rebuilding, arbitrary suspension/IRQ, visual/timing/audio/physical fidelity, broad accepted game/Advertising training and future-machine migration remain incomplete.
+
+Candidate: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-six-v1/20261020T094253.240761Z/BIWN-23-native-Deck-six-v1-experimental.cdi
+SHA-256: c47f48fe8dbffa5dd1e362247d833375b9ee392886294ad1972cd6bc86560bad
+Final gates: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-six-final-v1-current.json
+Local exact prompts/responses:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Outer-local-review-20261020T093915.818714Z/prompts-and-responses.txt
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Outer-local-review-20261020T094307.919298Z/prompts-and-responses.txt

@@ -1,0 +1,42 @@
+{
+    "adapter_path": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T210209.430446Z/adapters",
+    "batch_size": 1,
+    "clear_cache_threshold": 0,
+    "config": null,
+    "data": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z",
+    "fine_tune_type": "lora",
+    "grad_accumulation_steps": 1,
+    "grad_checkpoint": true,
+    "iters": 2,
+    "learning_rate": 1e-05,
+    "lora_parameters": {
+        "rank": 8,
+        "dropout": 0.0,
+        "scale": 20.0
+    },
+    "lr_schedule": null,
+    "mask_prompt": true,
+    "max_seq_length": 8960,
+    "model": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+    "num_layers": 1,
+    "optimizer": "adam",
+    "optimizer_config": {
+        "adam": {},
+        "adamw": {},
+        "muon": {},
+        "sgd": {},
+        "adafactor": {}
+    },
+    "project_name": null,
+    "report_to": null,
+    "resume_adapter_file": null,
+    "save_every": 8,
+    "seed": 17,
+    "steps_per_eval": 8,
+    "steps_per_report": 1,
+    "test": false,
+    "test_batches": 500,
+    "train": true,
+    "trust_remote_code": false,
+    "val_batches": -1
+}

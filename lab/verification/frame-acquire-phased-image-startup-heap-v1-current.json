@@ -1,0 +1,50 @@
+{
+  "status": "terminal_actual_input_image_wide_startup_dual_CPU_and_heap_initialize_pass",
+  "pid": 66195,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-image-startup-heap-v1/20261021T121604.930104Z",
+  "native_startup_cases": 6,
+  "Unicorn_startup_cases": 6,
+  "heap_initialize_cases": 192,
+  "game_frames": 0,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "original_heap_initializer_declared_operand_changes": [
+    {
+      "delta": 0,
+      "operands": 3
+    },
+    {
+      "delta": 4,
+      "operands": 1
+    },
+    {
+      "delta": 8,
+      "operands": 1
+    }
+  ],
+  "all_2MB_startup_RAM_checked": true,
+  "saved_stack_bytes_checked": true,
+  "dirty_arenas_cleared": true,
+  "input_payload_after_startup_exact": true,
+  "resource676_payload_after_startup_exact": true,
+  "heap_start": 1712448,
+  "initial_heap_bytes": 122560,
+  "heap_source_bytes_equal_after_five_operand_changes": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_image_startup_heap_v1.py": "656f03bbdbb267d616878f149832e4cad0f236fc61904fd8de72e9d410a0378a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/resident-with-arenas.bin": "0c916fb9f75ad61fb2d8246ad947b7a92ec9a9f2c70f85c783e1673d1cdce2fd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/mainstage-frame-acquire-phased-v1.bin": "c67b413b3d6e44c38a84143cb2748c39dce1c872af08a49def9d1caeb7668a5f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-image-startup-heap-v1/20261021T121604.930104Z/startup-cases.json": "8a2506e382e1ab0c78a43cca31cce528e60a9be66325a770118d96d1476a7f65",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-image-startup-heap-v1/20261021T121604.930104Z/heap-cases.json": "5b25dd18858477563ad74c56df74bc0060bbb8be4ecd3693d41ec33f75427ab5"
+  },
+  "arbitrary_IRQ_qualified": false,
+  "gameplay_verified": false,
+  "physical_console_verified": false,
+  "scope": "Execute the actual new image's wide startup, both arenas, and raised heap.\n\nStartup uses pinned M68000 and Unicorn with independent complete-RAM oracle,\ndirty resident/arena preconditions and saved stack bytes included. The heap\ncomparison uses original instructions with only five declared floor operands\nchanged. No game frame, arbitrary IRQ, audio or physical console is qualified.\n"
+}

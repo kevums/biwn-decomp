@@ -1,0 +1,215 @@
+{
+  "recorded_at": "2026-10-13T21:31:52.114818+00:00",
+  "status": "reconstructed_and_verified_controlled_CPU_not_resource_readiness",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "captured_TRAP4_vector_address": "0x90",
+  "captured_TRAP4_vector_target": "0xdef6",
+  "functions": [
+    {
+      "analyst_label": "signal_mask_across_other_contexts",
+      "start": 57092,
+      "end_exclusive": 57122,
+      "instructions": [
+        {
+          "address": 57092,
+          "size": 6,
+          "bytes": "2079000c0920",
+          "assembly": "movea.l $c0920.l, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57098,
+          "size": 4,
+          "bytes": "22680000",
+          "assembly": "movea.l $0(a0), a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57102,
+          "size": 2,
+          "bytes": "4680",
+          "assembly": "not.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57104,
+          "size": 2,
+          "bytes": "b1c9",
+          "assembly": "cmpa.l a1, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57106,
+          "size": 2,
+          "bytes": "670c",
+          "assembly": "beq.b $df20",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57108,
+          "size": 4,
+          "bytes": "c1a9001a",
+          "assembly": "and.l d0, $1a(a1)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57112,
+          "size": 4,
+          "bytes": "22690000",
+          "assembly": "movea.l $0(a1), a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57116,
+          "size": 2,
+          "bytes": "b3c8",
+          "assembly": "cmpa.l a0, a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57118,
+          "size": 2,
+          "bytes": "66f4",
+          "assembly": "bne.b $df14",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57120,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "analyst_label": "wait_wrapper",
+      "start": 57228,
+      "end_exclusive": 57244,
+      "instructions": [
+        {
+          "address": 57228,
+          "size": 4,
+          "bytes": "202f0004",
+          "assembly": "move.l $4(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57232,
+          "size": 4,
+          "bytes": "48e73f3e",
+          "assembly": "movem.l d2-d7/a2-a6, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57236,
+          "size": 2,
+          "bytes": "4e44",
+          "assembly": "trap #$4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57238,
+          "size": 4,
+          "bytes": "4cdf7cfc",
+          "assembly": "movem.l (a7)+, d2-d7/a2-a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57242,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "analyst_label": "signal_wrapper",
+      "start": 57244,
+      "end_exclusive": 57254,
+      "instructions": [
+        {
+          "address": 57244,
+          "size": 4,
+          "bytes": "202f0004",
+          "assembly": "move.l $4(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57248,
+          "size": 4,
+          "bytes": "6100ff62",
+          "assembly": "bsr.w $df04",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57252,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "analyst_label": "TRAP4_handler",
+      "start": 57078,
+      "end_exclusive": 57092,
+      "instructions": [
+        {
+          "address": 57078,
+          "size": 6,
+          "bytes": "2079000c0920",
+          "assembly": "movea.l $c0920.l, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57084,
+          "size": 4,
+          "bytes": "2140001a",
+          "assembly": "move.l d0, $1a(a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 57088,
+          "size": 4,
+          "bytes": "6000ff06",
+          "assembly": "bra.w $de08",
+          "classification": "decoded_instruction"
+        }
+      ]
+    }
+  ],
+  "instructions": 21,
+  "shared_verified_scheduler_range": [
+    "0xde08",
+    "0xde5c"
+  ],
+  "required_continuation": "Wait wrapper resumes0xdf96 then restores11savedregisters and consumes its sourceRTS; scheduler currently auto-restores only0xdf66, so wait-resume support requires implementation and regression.",
+  "planned_readiness_fixture": "Two actual resource acquisition callers share one cache entry. First calls actual loader and suspends; second finds not-ready entry and TRAP4-waits. First resumes/completes and sourceDF9C/DF04 clears second context wait mask. Verify both original/C nestedframes, flags, heap/cache, scheduler transfers and independently matched payloads. This would be a separate controlled two-task fixture, not complete game integration.",
+  "limits": "Mapping only. Both synchronization bodies and handler remain unsupported in accepted disc integration. BIOS/device timing, render/remainingtasks/fullgame remain incomplete.",
+  "evidence": "verification/biwn-resource-sync-checks.json",
+  "whole_game_complete": false
+}

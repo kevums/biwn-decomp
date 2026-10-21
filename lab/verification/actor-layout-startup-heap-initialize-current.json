@@ -1,0 +1,37 @@
+{
+  "status": "terminal_layout24512_startup_and_heap_initialize_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-layout-startup-heap-initialize/20261019T083916.983745Z",
+  "startup_cases": 96,
+  "heap_initialize_cases": 192,
+  "original_heap_initializer_declared_operand_changes": [
+    {
+      "delta": 0,
+      "operands": 3
+    },
+    {
+      "delta": 4,
+      "operands": 1
+    },
+    {
+      "delta": 8,
+      "operands": 1
+    }
+  ],
+  "source_assembly_byte_identity_after_floor_change": true,
+  "reserve": 24512,
+  "heap_floor": "0x164d80",
+  "initial_heap_bytes": 373376,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_layout_startup_heap_initialize.py": "0627ff198144495de9b0231b0d0fc1fe31c649abf5cd45f18cd34dcbafbd398b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-initializer-layout-materialized-current.json": "69f57a80ef17833016b37d0c0a79689e74e1dca444225e30bd05a53b2bc923f5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-initializer-layout/20261019T083828.840520Z/mainstage-native-layout.bin": "928368387281c3e76929277b51f5ff33a17091885e34755a86906e05fafc4941",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-initializer-layout/20261019T083828.840520Z/resident-layout-padded.bin": "d4536d91e35337774638d8a615e0ba8b583bca51bb68f71833f587449fac27a6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856"
+  },
+  "scope": "New reservation: exact loader RAM/CPU and declared raised-boundary heap init.",
+  "new_predictions": 0,
+  "gameplay_verified": false
+}

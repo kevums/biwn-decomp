@@ -1,0 +1,20 @@
+NATIVE CLEAR LOOP — FULL QUALIFICATION AND FRESH GAMEPLAY
+
+Latest separate candidate:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-clear-v1/20261020T185202.583558Z/BIWN-23-native-Deck-clear-v1-experimental.cdi
+Native shared module:37,404bytes;geometry C stack:164/176bytes. Installed preview unchanged.
+
+QUALIFICATION
+260complete helper cases,35byte-budget cases and4deliberate defects rejected. The omitted-read mutant passes RAM equivalence but fails the ordered-access gate. Four actual final-module contexts reproduce public accesses and logicalCPU/RAM in independentUnicorn execution. Standalone callbacks remain the explicit CLR read-before-write contract;no arbitrary host callback or MMIO failure claim.
+256geometry,4,992retained-caller,1,280fallback cases;all8final image/startup/heap/outer gates;256alias/128connected cases over101taskslots and2,245parent-frame checks. New exact observers reject50geometry/18outer/88region faults.
+
+CPU COST SAMPLES
+0faces:200,642→101,380cycles (49.47percent reduction versus the priorALU candidate);original assembly:18,518cycles.
+1faces:207,448→108,186cycles (47.85percent reduction versus the priorALU candidate);original assembly:19,462cycles.
+6faces:292,516→193,254cycles (33.93percent reduction versus the priorALU candidate);original assembly:27,262cycles.
+Three fixed qualified geometry preflight fixtures;pinned-emulator instruction cycles;GPU/debug fixture-body costs excluded equally. Not physical timing or whole-game speed.
+
+Fresh candidate/control:24,969/24,969frames. Geometry returns:18/18;faceGPUreturns:108/108. Video differences:62;final video equal:True. All monitored runtime error/pending/outside counts are zero;arena fences and immutable code pass. Fidelity remains unapproved. Inputs and stopping criteria were preserved. The priorALU candidate had79video differences;heap/arena boundaries are the same,but compiled code layout is different. Do not treat the before/after counts as isolated physical-timing proof.
+
+Integrate recovered10734debug with original/compiled formatter/text dependencies under native stack/capture/fallback/alias/connected/fresh gates. Investigate remaining active-route differences and face-processing register/CCR overhead without altering inputs or weakening CPU/RAM/ordered-access acceptance. Preserve the installed preview until its own GUI/fidelity qualification. Refresh current portable configuration and improve complete local source-generation tasks.
+
+No new local-model-authored game source,optimizer update or default game/model promotion in this native-code qualification. Local generation trials are reported separately.

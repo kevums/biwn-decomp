@@ -1,0 +1,12 @@
+{
+  "original_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_input_dispatch.c",
+  "original_sha256": "db53f537bd74e2c49593538393c81639c246cc6491135ff63c3b9b528143caea",
+  "changes": [
+    {
+      "before": " if(negative)d0=0u-d0;params[0]=d0;params[1]=300;CALL(0xe588u,params,2);",
+      "after": " if(negative){d0=0u-d0;}\n params[0]=d0;params[1]=300;CALL(0xe588u,params,2);",
+      "purpose": "Explicit braces/newline for strict GCC misleading-indentation warning;no expression or behavior changes."
+    }
+  ],
+  "authorship": "Existing recovered source;coordinator native adapter and braces-only portability fix."
+}

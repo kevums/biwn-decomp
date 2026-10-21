@@ -1,0 +1,32 @@
+BIWN — LOCAL NATIVE DOORWAY10430 GAMEPLAY
+2026-10-19T06:17:09.055561+00:00
+
+The18270byte resident disc completed 24996 native gameplay frames; its same-layout original-doorway-entry control completed 24996. Both returned outdoors. Only the eight-byte10430entry is restored in the control; preceding geometry routines remain compiled in both. Candidate doorway calls: 1, including 1 successes, 0 count rejections, 0 sentinel rejections and 0 key mismatches. Control: 1 calls, 1 successes, 0 count rejections, 0 sentinel rejections and 0 key mismatches. Unreached paths remain component-only.
+
+Both live contracts pass full registers/SR/USP/SSP, six object fields, return and argument bytes, ownership and task-stack observations, with zero reported errors/pending/outside. Candidate private depth 80bytes/minimum task headroom 816bytes. The read-only oracle samples stable entry RAM, with source-ordered shadow writes for actor/record overlap; it was first qualified on2025original and2025final-linked compiled fixtures. Controlled changing reads separately cover768cases.
+
+Aligned prefix differences:
+{
+  "CPU_full": 9,
+  "full_RAM_sha256": 24988,
+  "full_GPU_state_sha256": 7,
+  "full_DSP_state_sha256": 0,
+  "video_sha256": 0,
+  "navigation": 0,
+  "locomotion_state": 0,
+  "held_buttons": 0
+}
+First different frames:
+{
+  "full_RAM_sha256": 9,
+  "CPU_full": 8557,
+  "full_GPU_state_sha256": 8559
+}
+Compared prefix 24996frames; frame counts equal: True; full captured PCM equal: True.
+
+The selected458byte C kernel is the local27B Author's repaired output, body unchanged after one guided repair; outer fence removed, redundant standard include retained. The first draft failed header-pointer indirection and its same-weight Reviewer missed the defect. The coordinator supplied contract/layout/fullABI/verifier/integration and a withheld reference; the earlier portable local body was supplied as data. Passing finite component/live contracts is not independent review or training gain. Both routes retain native emulator processors/platform services; exact-disc C-provider testing is separate. Differences are retained as limits, with no physical/cycle/whole-machine equivalence, complete source rebuild or default preview promotion.
+
+Exact model work:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-doorway-prompts-and-responses.txt
+Development/final-address evidence:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-doorway-development.txt

@@ -1,0 +1,362 @@
+[
+  {
+    "case": "legal_native",
+    "gate_accepted": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "legal_original",
+    "gate_accepted": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "case": "bad_task",
+    "gate_accepted": false,
+    "stats": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "case": "duplicate_public",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      2,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_C_stack",
+    "gate_accepted": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_commit_register",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_commit_SR",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_commit_PC",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_active",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_C_saved_SP",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_CPU_pointer",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_helper_PC",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_logical_return",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_helper_return_SP",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "missing_helper_return",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "case": "missing_outer_return",
+    "gate_accepted": false,
+    "stats": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "protected_frame_corruption",
+    "gate_accepted": false,
+    "stats": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_outer_SP",
+    "gate_accepted": false,
+    "stats": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_outer_A6",
+    "gate_accepted": false,
+    "stats": [
+      2,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "case": "bad_outer_word",
+    "gate_accepted": false,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      2
+    ]
+  }
+]

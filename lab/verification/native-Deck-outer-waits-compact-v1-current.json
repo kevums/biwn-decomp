@@ -1,0 +1,17 @@
+{
+  "status": "terminal_native_outer_192_wait_and_resume_pairs_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-compact-v1/20261021T035834.693764Z",
+  "completed": 192,
+  "comparisons": 384,
+  "maximum_C_stack_bytes": 164,
+  "new_training": false,
+  "native_disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_waits_compact_v1.py": "12e07a720b81c28387ac0ae52b13744c48898cb7cc89ad8d9cd27140868d2763",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_compact_v1.py": "c07d59a7bebae4b9de39cc51428add314ac5b389f898270f743b2bbde2438e5c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-v1-current.json": "ef91e696a57ed436eac2837b9a3f254a45943d1bd6ae4ef31dfdd2e578749b24",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-v1/20261021T035741.622362Z/build/native-outer.bin": "dcd28cbb29e1e781809136d6fa4b473c3f12daaa094f318b5cfb4040223fd16a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-compact-v1/20261021T035834.693764Z/cases.json": "01c23a58a9f20bc25c341af76b73efc60e6e0bd28d4e7c9cdc49de7d9290421f"
+  },
+  "scope": "Actual native volatile wait slices and resumed helper calls versus original.192pairs, both stack banks/all32CCR and three nonzero volatile flags. Native64read slices compare to original64polls at11F50; released flag resumes actual native private context. Helpers are fixtures; no clock/IRQ event injected, no exact-cycle or real scheduler proof."
+}

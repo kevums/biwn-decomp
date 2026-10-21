@@ -1,0 +1,3074 @@
+[
+  {
+    "outer": "coordinate",
+    "case": 0,
+    "mode": 0,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 1,
+    "mode": 0,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 2,
+    "mode": 0,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 3,
+    "mode": 0,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 4,
+    "mode": 0,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 5,
+    "mode": 0,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 6,
+    "mode": 0,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 7,
+    "mode": 0,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 8,
+    "mode": 0,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 9,
+    "mode": 0,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 10,
+    "mode": 0,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 11,
+    "mode": 0,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 12,
+    "mode": 0,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 13,
+    "mode": 0,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 14,
+    "mode": 0,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 15,
+    "mode": 0,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 16,
+    "mode": 0,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 17,
+    "mode": 0,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 18,
+    "mode": 0,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 19,
+    "mode": 0,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 20,
+    "mode": 0,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 21,
+    "mode": 0,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 22,
+    "mode": 0,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 23,
+    "mode": 0,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 24,
+    "mode": 0,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 25,
+    "mode": 0,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 26,
+    "mode": 0,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 27,
+    "mode": 0,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 28,
+    "mode": 0,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 29,
+    "mode": 0,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 30,
+    "mode": 0,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 31,
+    "mode": 0,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5816,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 32,
+    "mode": 8192,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 33,
+    "mode": 8192,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 34,
+    "mode": 8192,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 35,
+    "mode": 8192,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 36,
+    "mode": 8192,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 37,
+    "mode": 8192,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 38,
+    "mode": 8192,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 39,
+    "mode": 8192,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 40,
+    "mode": 8192,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 41,
+    "mode": 8192,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 42,
+    "mode": 8192,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 43,
+    "mode": 8192,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 44,
+    "mode": 8192,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 45,
+    "mode": 8192,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 46,
+    "mode": 8192,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 47,
+    "mode": 8192,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 48,
+    "mode": 8192,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 49,
+    "mode": 8192,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 50,
+    "mode": 8192,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 51,
+    "mode": 8192,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 52,
+    "mode": 8192,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 53,
+    "mode": 8192,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 54,
+    "mode": 8192,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 55,
+    "mode": 8192,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 56,
+    "mode": 8192,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 57,
+    "mode": 8192,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 58,
+    "mode": 8192,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 59,
+    "mode": 8192,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 60,
+    "mode": 8192,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 61,
+    "mode": 8192,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 62,
+    "mode": 8192,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "coordinate",
+    "case": 63,
+    "mode": 8192,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 5719,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "fallback_entries": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "native_deeper_helper_markers": 0,
+    "original_deeper_helper_steps": 2506,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 0,
+    "mode": 0,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 1,
+    "mode": 0,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 2,
+    "mode": 0,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 3,
+    "mode": 0,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 4,
+    "mode": 0,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 5,
+    "mode": 0,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 6,
+    "mode": 0,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 7,
+    "mode": 0,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 8,
+    "mode": 0,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 9,
+    "mode": 0,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 10,
+    "mode": 0,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 11,
+    "mode": 0,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 12,
+    "mode": 0,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 13,
+    "mode": 0,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 14,
+    "mode": 0,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 15,
+    "mode": 0,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 16,
+    "mode": 0,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 17,
+    "mode": 0,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 18,
+    "mode": 0,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 19,
+    "mode": 0,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 20,
+    "mode": 0,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 21,
+    "mode": 0,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 22,
+    "mode": 0,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 23,
+    "mode": 0,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 24,
+    "mode": 0,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 25,
+    "mode": 0,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 26,
+    "mode": 0,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 27,
+    "mode": 0,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 28,
+    "mode": 0,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 29,
+    "mode": 0,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 30,
+    "mode": 0,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 31,
+    "mode": 0,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14311,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 32,
+    "mode": 8192,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 33,
+    "mode": 8192,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 34,
+    "mode": 8192,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 35,
+    "mode": 8192,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 36,
+    "mode": 8192,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 37,
+    "mode": 8192,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 38,
+    "mode": 8192,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 39,
+    "mode": 8192,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 40,
+    "mode": 8192,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 41,
+    "mode": 8192,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 42,
+    "mode": 8192,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 43,
+    "mode": 8192,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 44,
+    "mode": 8192,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 45,
+    "mode": 8192,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 46,
+    "mode": 8192,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 47,
+    "mode": 8192,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 48,
+    "mode": 8192,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 49,
+    "mode": 8192,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 50,
+    "mode": 8192,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 51,
+    "mode": 8192,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 52,
+    "mode": 8192,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 53,
+    "mode": 8192,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 54,
+    "mode": 8192,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 55,
+    "mode": 8192,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 56,
+    "mode": 8192,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 57,
+    "mode": 8192,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 58,
+    "mode": 8192,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 59,
+    "mode": 8192,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 60,
+    "mode": 8192,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 61,
+    "mode": 8192,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 62,
+    "mode": 8192,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "geometry",
+    "case": 63,
+    "mode": 8192,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_entries_match": true,
+    "instructions": 14030,
+    "native_entries": {
+      "coordinate": 1,
+      "geometry": 1
+    },
+    "native_returns": {
+      "coordinate": 0,
+      "geometry": 1
+    },
+    "fallback_entries": {
+      "coordinate": 1,
+      "geometry": 0
+    },
+    "native_deeper_helper_markers": 6,
+    "original_deeper_helper_steps": 0,
+    "suspended_alias_frame_preserved": true
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "recorded_at": "2026-10-12T21:21:00.740102+00:00",
+  "source_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "default": {
+    "functions": 198,
+    "decompiled": 191,
+    "instructions": 15372
+  },
+  "stack2_candidate": {
+    "functions": 200,
+    "decompiled": 200,
+    "instructions": 17712,
+    "compiler_spec": "stack2candidate",
+    "language_description": "Motorola 32-bit 68040",
+    "integer_bytes": 4,
+    "pointer_bytes": 4
+  },
+  "previous_failures_now_decompiled": [
+    "000101e0",
+    "00011762",
+    "000134dc",
+    "000137e0",
+    "0001b160",
+    "0001b212",
+    "000227a0"
+  ],
+  "new_function_addresses": [
+    "0001bc78",
+    "0001be60"
+  ],
+  "overlapping_instruction_byte_boundary_changes": [],
+  "all_candidate_instruction_boundary_agreements": 17712,
+  "errors": [],
+  "C_warnings": 117,
+  "scope": "Stack alignment hypothesis improves this static export. Does not identify originalcompiler, recover originalsymbols/source, prove code/data classification, validate exactfile extent, or establish runtime behavior."
+}

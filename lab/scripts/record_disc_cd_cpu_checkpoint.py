@@ -1,0 +1,46 @@
+"""Finalize CD wrapper acceptance and exact local exchanges without claiming native Chat."""
+import hashlib,json,shutil,subprocess
+from datetime import datetime,timezone
+from pathlib import Path
+from record_disc_camera_animation_checkpoint import samples
+ROOT=Path(__file__).resolve().parents[1]
+def read(p):return json.loads(p.read_text())
+def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+def main():
+    now=datetime.now(timezone.utc).isoformat();checkpoint=read(ROOT/'verification/disc-cd-cpu-checkpoint.json');mcp=read(ROOT/'verification/disc-cd-cpu-MCP-check.json');assert mcp['status']=='fresh_installed_actual_CD_wrapper_CPU_and_BIOS_boundary_scope_passed'
+    source=ROOT/'projects/black-ice-white-noise/restoration';linked=read(ROOT/'verification/biwn-disc-world-cd-wrappers-checks.json')
+    for name in ['biwn-cd-cpu-checks.json','biwn-disc-world-cd-wrappers-checks.json']:
+        proof=read(ROOT/'verification'/name);assert read(Path(proof['directory'])/'status.json')['status']=='terminal_pass'
+        for n,h in proof['source_sha256'].items():assert hashlib.sha256((source/n).read_bytes()).hexdigest()==h
+    protocol_path=Path(read(ROOT/'verification/easy-disc-cd-cpu-current.json')['directory'])/'protocol.json';protocol=read(protocol_path);assert protocol['status']=='completed_pending_coordinator_review';reviewed=samples(protocol)
+    assert len(reviewed)==2 and [len(s['tool_calls'])for s in reviewed]==[1,1]
+    reviewed[0].update(verdict='bounded_current_wrapper_scope_correct',reason='Correctly distinguishes reconstructed game wrappers from BIOS303C/3042 and DF60 completion adapters, A2 boundary assumption and unproved loading switches/render/game. Calling all four entries wrappers is loose wording: D1E0 is the division helper, D206 the offset calculation, and only D2F0/D306 are BIOS wrappers. The substantive boundary is correct. About169words; useful but not an ideal short answer.')
+    reviewed[1].update(verdict='bounded_same_model_role_review_correct',reason='Correctly rejects BIOS implementation, actual loading task switching and playable-game claims while describing verified wrapper/payload scope. Analyst and Reviewer share one local model; not independent code verification.')
+    models=json.loads(subprocess.check_output([str(Path.home()/'.lmstudio/bin/lms'),'ps','--json'],cwd=Path.home()/'.lmstudio',text=True));assert len(models)==1 and models[0]['identifier']=='advertising-scholar'and models[0]['status']=='idle'and models[0]['queued']==0 and models[0]['contextLength']==32768
+    audit=ROOT/'verification/disc-cd-cpu-review'/Path(linked['directory']).name;audit.mkdir(parents=True,exist_ok=True);shutil.copy2(protocol_path,audit/'SDK-protocol.json')
+    who=('Codex authored the source-specific static CD CPU reconstruction, integration and tests. Original CPU execution and independent Unicorn CPU execution decide standalone acceptance; original CPU/GPU decides integrated acceptance, and preserved-disc byte hashes check payloads. The local27Bbase answered two SDK questions with one evidence call each. Analyst and Reviewer were sequential roles on that same model, not independently trained agents. No local-model-authored code, new training, weight downloads, model switch or default promotion occurred. The existing everyday base remains loaded at32k/oneworker and is idle.')
+    corrections=[
+        'Build preflight exposed unsupported BVS and unused inherited sign-extension helpers. Added BVS handling and removed unused helpers. An attempted removal of arithmetic shift support was reverted because D206 uses ASL. No accepted C behavior was patched after fullCPU comparison.',
+        'The first integration stalled because the stop BIOS adapter clobbered A2, the loader stream cursor. Corrected that explicit boundary to preserve A2. Start still deliberately clobbers A2, exercising the real D2F0 save/restore. This does not verify actual BIOS firmware ABI.',
+        'All1280standalone cases/all83instructions/18hostguards and16disc cases pass. Every game-level CD entry executes32times;32payloads total3080416bytes and match preserved disc bytes. No resource-body or game-level CD-wrapper scripts remain. BIOS303C/3042 and loaderDF60 remain adapters.',
+        'Two bounded local replies passed factual review, with about20.46/15.75SDKseconds and one evidence call each. This small sample establishes neither general model quality nor end-to-end native Chat ease.',
+        'Native LM Studio getApp request timed out after120.6135seconds despite requested15second tooltimeout. No screen-lock claim, unlock request, native response/adoption claim or conversation-file editing. SDK transcripts are separate from native Chat history.'
+    ]
+    ui={'recorded_at':now,'action':'cua.getApp("LM Studio")','requested_timeout_ms':15000,'observed_tool_seconds':120.6135,'result':'Sky Computer Use request timed out','native_response_verified':False,'screen_lock_confirmed':False,'unlock_requested':False};save(audit/'native-UI-attempt.json',ui)
+    review={'recorded_at':now,'status':'CD_CPU_disc_linkage_and_two_bounded_local_answers_passed_native_unverified','who_did_what':who,'samples':reviewed,'corrections':corrections,'native_new_response_verified':False,'native_provider_adoption_verified':False,'native_UI_attempt':ui,'new_training':False,'default_promoted':False,'model_idle':True,'general_model_reliability_proved':False,'directory':str(audit),'payload_bytes_by_topic':mcp['payload_bytes_by_topic']};save(audit/'review.json',review);save(ROOT/'verification/disc-cd-cpu-review.json',review)
+    transcript='CD GAME CPU / DISC LINKAGE — AUDIT\n\nWHO DID WHAT\n'+who+'\n\nCORRECTIONS AND LIMITS\n'+'\n'.join(corrections)+'\n\nEXACT SYSTEM / USER / TOOLS / RESPONSES\n'+json.dumps(protocol,ensure_ascii=False,indent=2)+'\n\nCOORDINATOR REVIEW\n'+json.dumps(reviewed,ensure_ascii=False,indent=2)+'\n\nNEXT\n'+checkpoint['next_work']+'\nFull goal active and incomplete.\n';(audit/'prompts-and-responses.txt').write_text(transcript)
+    checkpoint.update(recorded_at=now,status=review['status'],local_answers_bounded_correct=2,SDK_reported_seconds=[s['SDK_reported_seconds']for s in reviewed],known_compute_jobs='terminal',model_idle=True,new_training=False,default_promoted=False,native_new_response_verified=False,review=str(ROOT/'verification/disc-cd-cpu-review.json'),transcript=str(audit/'prompts-and-responses.txt'));checkpoint['evidence']=list(dict.fromkeys(checkpoint['evidence']+['verification/disc-cd-cpu-MCP-check.json','verification/disc-cd-cpu-review.json',str((audit/'prompts-and-responses.txt').relative_to(ROOT))]));save(ROOT/'verification/disc-cd-cpu-checkpoint.json',checkpoint)
+    for name in ['setup-status.json','current-runtime-state.json','everyday-inference.json','requirements-audit.json']:
+        p=ROOT/'verification'/name;value=read(p);value.update(disc_cd_cpu_checkpoint=checkpoint,disc_cd_cpu_review=review)
+        if name=='current-runtime-state.json':value.update(recorded_at=now,models=models,local_inference_jobs='Terminal: two bounded CD-wrapper scope replies passed review, one evidence call each; everyday base idle. Native UI request timed out; native Chat/adoption unverified.',latest_API_ease_review=str(ROOT/'verification/disc-cd-cpu-review.json'))
+        if name=='requirements-audit.json':
+            for item in value['requirements']:
+                if 'decompilation test'in item['requirement']:item['evidence']=list(dict.fromkeys(item['evidence']+checkpoint['evidence']))
+        save(p,value)
+    note='\nCD WRAPPER LOCAL REVIEW — '+now+'\n\n'+who+'\n\nTwo local API replies correctly distinguished reconstructed game code from remaining BIOS/completion adapters and loading/render/game limits. SDK times:20.46s and15.75s, one evidence call each. Native UI timed out; no newly verified native Chat message.\n\nExact exchanges: '+str(audit/'prompts-and-responses.txt')+'\n\nNEXT\n'+checkpoint['next_work']+'\nFull goal active and incomplete.\n'
+    for name in ['POST REVIEW.txt','CURRENT DECOMPILATION.txt','projects/black-ice-white-noise/restoration/READ ME.txt']:
+        with(ROOT/name).open('a')as f:f.write(note)
+    p=ROOT/'START HERE.txt';text=p.read_text();a=text.index('LOCAL INFERENCE RESULT\n');b=text.index('TRY ADVERTISING ASSISTANT\n',a);text=text[:a]+'LOCAL INFERENCE RESULT\nTwo local API replies correctly explain the new CD game code and remaining BIOS/completion adapters, loading task switches and unfinished game. One evidence call each; about20s/16s. Native Chat UI request timed out; latest native display/adoption remains unverified. Everyday27Bbase idle; no new training/default promotion.\n\nTry: Do offset calculation and CD transfer start/stop still use adapters? Tell me what changed and what remains unfinished, in plain English.\n\nExact prompts, tools, answers and reviews:\n'+str(audit/'prompts-and-responses.txt')+'\n\n'+text[b:];p.write_text(text)
+    subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts/install_chat_runtime.py')],check=True)
+    print(json.dumps({'components':108,'CD_CPU_cases':1280,'disc_cases':16,'CD_game_wrapper_scripts':0,'BIOS_adapters':2,'completion_adapters':1,'local_answers_bounded_correct':2,'native_verified':False,'model_idle':True,'audit':str(audit)}))
+if __name__=='__main__':main()

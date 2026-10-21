@@ -1,0 +1,15 @@
+{
+  "authorship": "Hybrid local Repair plus one explicit coordinator SR-mask correction; target CLR primitive and context/ABI/compiler/checker supplied by coordinator",
+  "raw_local_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-reset-v1/20261020T214545.175638Z/Repair/native-scene-reset.inc",
+  "raw_sha256": "c092bec84697afdae86a9d3775eae499ee0f33c3e031cd12e194e26e36ceb7fd",
+  "hybrid_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-v19-local-scene-reset/native-scene-reset.inc",
+  "hybrid_sha256": "49685e0c5d0671304c0f9c1dcbfe8980df3a387489c919c068fbdc5b920c3a9f",
+  "semantic_edit": {
+    "before": "(s->cpu.sr & 0xFF00) | 0x0004",
+    "after": "(s->cpu.sr & 0xFFF0) | 0x0004",
+    "reason": "Preserve upper11SRbits and X while setting NZVC=Z; originalCLR.L leaves X unchanged"
+  },
+  "documentation_edit": "Changed authorship comment to identify the hybrid correction",
+  "unchanged_local_output_adopted": false,
+  "new_training": false
+}

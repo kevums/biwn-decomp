@@ -1,0 +1,203 @@
+{
+  "recorded_at_utc": "2026-10-12T19:27:17.069116+00:00",
+  "actor": "Codex coordinator",
+  "source_preserved": true,
+  "source_cdi_sha256": "0aaef12221309e3266861ebe5da0c14f419de49aac7eb727302e0f5983ec532f",
+  "scope": "Actual supplied CDI; initial boot-payload analysis, not full-game reconstruction or original-source recovery. No game/emulator/hardware execution performed.",
+  "tool_evidence": {
+    "cdi_layout_crosscheck": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/cdi-layout-crosscheck.json",
+    "boot_mapping": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/boot-mapping.json",
+    "Ghidra": {
+      "exit_code": 0,
+      "manifest_exists": true,
+      "language": "68000:BE:32:default",
+      "cancelled": false,
+      "functions": 1,
+      "decompiled_functions": 1,
+      "instructions": 82,
+      "entry_functions": [
+        {
+          "address": "00180000",
+          "name": "operator_selected_entry",
+          "decompiled": true,
+          "error": ""
+        }
+      ]
+    },
+    "prefix_boundary_and_byte_matches": [
+      {
+        "address": 1572864,
+        "bytes": "23fc0007000700f0210c",
+        "size": 10,
+        "matched": true
+      },
+      {
+        "address": 1572874,
+        "bytes": "2e7c00200000",
+        "size": 6,
+        "matched": true
+      },
+      {
+        "address": 1572880,
+        "bytes": "303900f14002",
+        "size": 6,
+        "matched": true
+      },
+      {
+        "address": 1572886,
+        "bytes": "08000004",
+        "size": 4,
+        "matched": true
+      },
+      {
+        "address": 1572890,
+        "bytes": "6622",
+        "size": 2,
+        "matched": true
+      },
+      {
+        "address": 1572892,
+        "bytes": "33fc068c00f0003c",
+        "size": 8,
+        "matched": true
+      },
+      {
+        "address": 1572900,
+        "bytes": "33fc00af00f00038",
+        "size": 8,
+        "matched": true
+      },
+      {
+        "address": 1572908,
+        "bytes": "33fc00af00f0003a",
+        "size": 8,
+        "matched": true
+      },
+      {
+        "address": 1572916,
+        "bytes": "3a3c0023",
+        "size": 4,
+        "matched": true
+      },
+      {
+        "address": 1572920,
+        "bytes": "383c0263",
+        "size": 4,
+        "matched": true
+      },
+      {
+        "address": 1572924,
+        "bytes": "6020",
+        "size": 2,
+        "matched": true
+      }
+    ]
+  },
+  "decoder_discrepancy": {
+    "address": "0x180016",
+    "bytes": "08000004",
+    "Capstone": "btst.b #$4, d0",
+    "Ghidra": "btst.l #0x4,D0",
+    "manual_interpretation": "BTST to a data register operates on a 32-bit register; memory destinations use byte operations. Ghidra width agrees with manual. Capstone mnemonic suffix is not accepted as proof of width.",
+    "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf, printed 4-61 through 4-63"
+  },
+  "decompiler_limits": [
+    "C export contains bad-instruction/control-flow and stack-pointer warnings. Final listed 68000 instruction at 0x180184 is JMP 0x4000; that target is outside the imported 0x180000..0x18ea60 payload. Do not infer an actual runtime halt from halt_baddata() in approximate C.",
+    "External calls to 0x30xx have no imported implementation or verified ABI.",
+    "One function and 82 instructions were identified from this entry; that does not establish coverage of all 60000 payload bytes or the whole game.",
+    "Atari tailer signature is elsewhere in Track 2, not immediately after the declared 60000-byte payload; relationship remains unresolved."
+  ],
+  "model_roles": [
+    {
+      "role": "analyst",
+      "seconds": 10.05,
+      "usage": {
+        "prompt_tokens": 4338,
+        "completion_tokens": 915,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "word_count": 106,
+      "quality_flags": [
+        "binary_tool_fact_check_failed",
+        "model_analysis_requires_review"
+      ],
+      "fact_check": {
+        "status": "failed",
+        "errors": [
+          "0x180000: condition_codes differs from recorded observation",
+          "0x18000a: condition_codes differs from recorded observation",
+          "0x180010: condition_codes differs from recorded observation",
+          "0x180016: condition_codes differs from recorded observation",
+          "0x18001a: condition_codes differs from recorded observation",
+          "0x18001c: condition_codes differs from recorded observation",
+          "0x180024: condition_codes differs from recorded observation",
+          "0x18002c: condition_codes differs from recorded observation",
+          "0x180034: condition_codes differs from recorded observation",
+          "0x180038: condition_codes differs from recorded observation",
+          "0x18003c: condition_codes differs from recorded observation"
+        ],
+        "scope": "Typed claims only; analysis prose, decoder accuracy and runtime behavior are not validated."
+      },
+      "exact_api_request_and_response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261012T192326.923931Z-game/analyst.json"
+    },
+    {
+      "role": "restorer",
+      "seconds": 9.77,
+      "usage": {
+        "prompt_tokens": 4249,
+        "completion_tokens": 900,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "word_count": 94,
+      "quality_flags": [
+        "model_analysis_requires_review"
+      ],
+      "fact_check": {
+        "status": "matched_recorded_fields",
+        "errors": [],
+        "scope": "Typed claims only; analysis prose, decoder accuracy and runtime behavior are not validated."
+      },
+      "exact_api_request_and_response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261012T192326.923931Z-game/restorer.json"
+    },
+    {
+      "role": "reviewer",
+      "seconds": 11.18,
+      "usage": {
+        "prompt_tokens": 7061,
+        "completion_tokens": 919,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "word_count": 102,
+      "quality_flags": [
+        "binary_tool_fact_check_failed",
+        "model_analysis_requires_review"
+      ],
+      "fact_check": {
+        "status": "failed",
+        "errors": [
+          "0x180000: condition_codes differs from recorded observation",
+          "0x18000a: condition_codes differs from recorded observation",
+          "0x180010: condition_codes differs from recorded observation",
+          "0x180016: condition_codes differs from recorded observation",
+          "0x18001a: condition_codes differs from recorded observation",
+          "0x18001c: condition_codes differs from recorded observation",
+          "0x180024: condition_codes differs from recorded observation",
+          "0x18002c: condition_codes differs from recorded observation",
+          "0x180034: condition_codes differs from recorded observation",
+          "0x180038: condition_codes differs from recorded observation",
+          "0x18003c: condition_codes differs from recorded observation"
+        ],
+        "scope": "Typed claims only; analysis prose, decoder accuracy and runtime behavior are not validated."
+      },
+      "exact_api_request_and_response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261012T192326.923931Z-game/reviewer.json"
+    }
+  ],
+  "model_findings": "Analyst and reviewer set uncomputed condition_codes fields to unchanged for every instruction; rejected as unsupported (and not generally true for these opcodes). Restorer copies recorded fields correctly. None is verified runtime behavior or a substitute for tool/manual interpretation.",
+  "next_stage": "Trace the statically copied GPU block and CD loader protocol to recover the code transferred to RAM 0x4000, then validate its extraction/mapping before more decompilation."
+}

@@ -1,0 +1,640 @@
+
+build/native.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+00162724 <biwn_frame_phased_entry>:
+  162724:	4e56 fffc      	linkw %fp,#-4
+  162728:	48e7 3f38      	moveml %d2-%d7/%a2-%a4,%sp@-
+  16272c:	4fef ffa0      	lea %sp@(-96),%sp
+  162730:	48d7 7fff      	moveml %d0-%fp,%sp@
+  162734:	40ef 0042      	movew %sr,%sp@(66)
+  162738:	426f 0040      	clrw %sp@(64)
+  16273c:	41ef 008c      	lea %sp@(140),%a0
+  162740:	2f48 003c      	movel %a0,%sp@(60)
+  162744:	2f0f           	movel %sp,%sp@-
+  162746:	4eb9 0016 2862 	jsr 162862 <biwn_frame_phased_start>
+  16274c:	4fef 0004      	lea %sp@(4),%sp
+  162750:	6000 0002      	braw 162754 <biwn_frame_phased_entry+0x30>
+  162754:	4a80           	tstl %d0
+  162756:	6700 00f4      	beqw 16284c <biwn_frame_phased_after_loader+0x2c>
+  16275a:	0c80 0000 0001 	cmpil #1,%d0
+  162760:	6700 0022      	beqw 162784 <biwn_frame_phased_entry+0x60>
+  162764:	0c80 0000 0002 	cmpil #2,%d0
+  16276a:	6700 004e      	beqw 1627ba <biwn_frame_phased_divs_first_instruction+0x2a>
+  16276e:	0c80 0000 0003 	cmpil #3,%d0
+  162774:	6700 0054      	beqw 1627ca <biwn_frame_phased_divs_empty_instruction+0x4>
+  162778:	0c80 0000 0004 	cmpil #4,%d0
+  16277e:	6700 0080      	beqw 162800 <biwn_frame_phased_divs_evict_instruction+0x2a>
+  162782:	4afc           	illegal
+  162784:	44ef 0042      	movew %sp@(66),%ccr
+  162788:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  16278c:	4fef 0060      	lea %sp@(96),%sp
+
+00162790 <biwn_frame_phased_divs_first_instruction>:
+  162790:	81c3           	divsw %d3,%d0
+  162792:	4fef ffa0      	lea %sp@(-96),%sp
+  162796:	48d7 7fff      	moveml %d0-%fp,%sp@
+  16279a:	40ef 0042      	movew %sr,%sp@(66)
+  16279e:	426f 0040      	clrw %sp@(64)
+  1627a2:	41ef 008c      	lea %sp@(140),%a0
+  1627a6:	2f48 003c      	movel %a0,%sp@(60)
+  1627aa:	2f0f           	movel %sp,%sp@-
+  1627ac:	4eb9 0016 2abe 	jsr 162abe <biwn_frame_phased_after_first_divs>
+  1627b2:	4fef 0004      	lea %sp@(4),%sp
+  1627b6:	6000 ff9c      	braw 162754 <biwn_frame_phased_entry+0x30>
+  1627ba:	44ef 0042      	movew %sp@(66),%ccr
+  1627be:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  1627c2:	4fef 0060      	lea %sp@(96),%sp
+
+001627c6 <biwn_frame_phased_divs_empty_instruction>:
+  1627c6:	81c3           	divsw %d3,%d0
+  1627c8:	600e           	bras 1627d8 <biwn_frame_phased_divs_evict_instruction+0x2>
+  1627ca:	44ef 0042      	movew %sp@(66),%ccr
+  1627ce:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  1627d2:	4fef 0060      	lea %sp@(96),%sp
+
+001627d6 <biwn_frame_phased_divs_evict_instruction>:
+  1627d6:	81c3           	divsw %d3,%d0
+  1627d8:	4fef ffa0      	lea %sp@(-96),%sp
+  1627dc:	48d7 7fff      	moveml %d0-%fp,%sp@
+  1627e0:	40ef 0042      	movew %sr,%sp@(66)
+  1627e4:	426f 0040      	clrw %sp@(64)
+  1627e8:	41ef 008c      	lea %sp@(140),%a0
+  1627ec:	2f48 003c      	movel %a0,%sp@(60)
+  1627f0:	2f0f           	movel %sp,%sp@-
+  1627f2:	4eb9 0016 2cd0 	jsr 162cd0 <biwn_frame_phased_after_group_divs>
+  1627f8:	4fef 0004      	lea %sp@(4),%sp
+  1627fc:	6000 ff56      	braw 162754 <biwn_frame_phased_entry+0x30>
+  162800:	44ef 0042      	movew %sp@(66),%ccr
+  162804:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  162808:	4fef 0060      	lea %sp@(96),%sp
+  16280c:	42a7           	clrl %sp@-
+  16280e:	2f05           	movel %d5,%sp@-
+  162810:	486e fffc      	pea %fp@(-4)
+  162814:	2f0c           	movel %a4,%sp@-
+  162816:	4871 a800      	pea %a1@(0,%a2:l)
+  16281a:	4eb9 0001 b044 	jsr 1b044 <TRANSIENT_CONTEXT+0x1afe4>
+
+00162820 <biwn_frame_phased_after_loader>:
+  162820:	4fef 0014      	lea %sp@(20),%sp
+  162824:	4fef ffa0      	lea %sp@(-96),%sp
+  162828:	48d7 7fff      	moveml %d0-%fp,%sp@
+  16282c:	40ef 0042      	movew %sr,%sp@(66)
+  162830:	426f 0040      	clrw %sp@(64)
+  162834:	41ef 008c      	lea %sp@(140),%a0
+  162838:	2f48 003c      	movel %a0,%sp@(60)
+  16283c:	2f0f           	movel %sp,%sp@-
+  16283e:	4eb9 0017 f31c 	jsr 17f31c <biwn_frame_phased_after_load>
+  162844:	4fef 0004      	lea %sp@(4),%sp
+  162848:	6000 ff0a      	braw 162754 <biwn_frame_phased_entry+0x30>
+  16284c:	44ef 0042      	movew %sp@(66),%ccr
+  162850:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  162854:	4fef 0060      	lea %sp@(96),%sp
+  162858:	4cee 1cfc ffd8 	moveml %fp@(-40),%d2-%d7/%a2-%a4
+  16285e:	4e5e           	unlk %fp
+
+00162860 <biwn_frame_phased_return>:
+  162860:	4e75           	rts
+
+00162862 <biwn_frame_phased_start>:
+  162862:	598f           	subql #4,%sp
+  162864:	48e7 3f30      	moveml %d2-%d7/%a2-%a3,%sp@-
+  162868:	206f 0028      	moveal %sp@(40),%a0
+  16286c:	2268 003c      	moveal %a0@(60),%a1
+  162870:	5889           	addql #4,%a1
+  162872:	3211           	movew %a1@,%d1
+  162874:	2028 0018      	movel %a0@(24),%d0
+  162878:	4240           	clrw %d0
+  16287a:	8041           	orw %d1,%d0
+  16287c:	2240           	moveal %d0,%a1
+  16287e:	2140 0018      	movel %d0,%a0@(24)
+  162882:	3439 0015 b530 	movew 15b530 <TRANSIENT_CONTEXT+0x15b4d0>,%d2
+  162888:	2010           	movel %a0@,%d0
+  16288a:	4240           	clrw %d0
+  16288c:	8082           	orl %d2,%d0
+  16288e:	2228 0040      	movel %a0@(64),%d1
+  162892:	5342           	subqw #1,%d2
+  162894:	0c42 0002      	cmpiw #2,%d2
+  162898:	631a           	blss 1628b4 <biwn_frame_phased_start+0x52>
+  16289a:	74ff           	moveq #-1,%d2
+  16289c:	2082           	movel %d2,%a0@
+  16289e:	0241 fff0      	andiw #-16,%d1
+  1628a2:	7808           	moveq #8,%d4
+  1628a4:	8284           	orl %d4,%d1
+  1628a6:	7000           	moveq #0,%d0
+  1628a8:	2141 0040      	movel %d1,%a0@(64)
+  1628ac:	4cdf 0cfc      	moveml %sp@+,%d2-%d7/%a2-%a3
+  1628b0:	588f           	addql #4,%sp
+  1628b2:	4e75           	rts
+  1628b4:	3400           	movew %d0,%d2
+  1628b6:	48c2           	extl %d2
+  1628b8:	0280 0000 ffff 	andil #65535,%d0
+  1628be:	2440           	moveal %d0,%a2
+  1628c0:	d5c0           	addal %d0,%a2
+  1628c2:	214a 0004      	movel %a2,%a0@(4)
+  1628c6:	200a           	movel %a2,%d0
+  1628c8:	0680 0004 64c8 	addil #287944,%d0
+  1628ce:	2640           	moveal %d0,%a3
+  1628d0:	3613           	movew %a3@,%d3
+  1628d2:	b649           	cmpw %a1,%d3
+  1628d4:	52c0           	shi %d0
+  1628d6:	4880           	extw %d0
+  1628d8:	48c0           	extl %d0
+  1628da:	4480           	negl %d0
+  1628dc:	e988           	lsll #4,%d0
+  1628de:	0241 ffef      	andiw #-17,%d1
+  1628e2:	8280           	orl %d0,%d1
+  1628e4:	3809           	movew %a1,%d4
+  1628e6:	9843           	subw %d3,%d4
+  1628e8:	2028 0010      	movel %a0@(16),%d0
+  1628ec:	4240           	clrw %d0
+  1628ee:	8044           	orw %d4,%d0
+  1628f0:	2140 0010      	movel %d0,%a0@(16)
+  1628f4:	d5fc 0004 64a0 	addal #287904,%a2
+  1628fa:	3812           	movew %a2@,%d4
+  1628fc:	2628 000c      	movel %a0@(12),%d3
+  162900:	4243           	clrw %d3
+  162902:	8644           	orw %d4,%d3
+  162904:	2143 000c      	movel %d3,%a0@(12)
+  162908:	217c 0004 64a8 	movel #287912,%a0@(32)
+  16290e:	0020 
+  162910:	d482           	addl %d2,%d2
+  162912:	d482           	addl %d2,%d2
+  162914:	2082           	movel %d2,%a0@
+  162916:	7aef           	moveq #-17,%d5
+  162918:	ca81           	andl %d1,%d5
+  16291a:	2145 0040      	movel %d5,%a0@(64)
+  16291e:	2442           	moveal %d2,%a2
+  162920:	d5fc 0004 64a8 	addal #287912,%a2
+  162926:	2812           	movel %a2@,%d4
+  162928:	2144 0028      	movel %d4,%a0@(40)
+  16292c:	217c 0004 64b8 	movel #287928,%a0@(32)
+  162932:	0020 
+  162934:	45ea 0010      	lea %a2@(16),%a2
+  162938:	2412           	movel %a2@,%d2
+  16293a:	2142 0030      	movel %d2,%a0@(48)
+  16293e:	4a40           	tstw %d0
+  162940:	6c10           	bges 162952 <biwn_frame_phased_start+0xf0>
+  162942:	70ff           	moveq #-1,%d0
+  162944:	2080           	movel %d0,%a0@
+  162946:	0241 ffe0      	andiw #-32,%d1
+  16294a:	7008           	moveq #8,%d0
+  16294c:	8280           	orl %d0,%d1
+  16294e:	6000 ff56      	braw 1628a6 <biwn_frame_phased_start+0x44>
+  162952:	3239 0015 b532 	movew 15b532 <TRANSIENT_CONTEXT+0x15b4d2>,%d1
+  162958:	2428 0008      	movel %a0@(8),%d2
+  16295c:	4242           	clrw %d2
+  16295e:	8441           	orw %d1,%d2
+  162960:	2142 0008      	movel %d2,%a0@(8)
+  162964:	7224           	moveq #36,%d1
+  162966:	9243           	subw %d3,%d1
+  162968:	3641           	moveaw %d1,%a3
+  16296a:	0c43 0024      	cmpiw #36,%d3
+  16296e:	52c1           	shi %d1
+  162970:	4881           	extw %d1
+  162972:	48c1           	extl %d1
+  162974:	4481           	negl %d1
+  162976:	e989           	lsll #4,%d1
+  162978:	8285           	orl %d5,%d1
+  16297a:	2141 0040      	movel %d1,%a0@(64)
+  16297e:	7a00           	moveq #0,%d5
+  162980:	3a0b           	movew %a3,%d5
+  162982:	b44b           	cmpw %a3,%d2
+  162984:	6c00 010e      	bgew 162a94 <biwn_frame_phased_start+0x232>
+  162988:	217c 0015 b4a0 	movel #1422496,%a0@(32)
+  16298e:	0020 
+  162990:	2145 0004      	movel %d5,%a0@(4)
+  162994:	2e02           	movel %d2,%d7
+  162996:	0287 0000 ffff 	andil #65535,%d7
+  16299c:	3442           	moveaw %d2,%a2
+  16299e:	2a0a           	movel %a2,%d5
+  1629a0:	da8a           	addl %a2,%d5
+  1629a2:	da85           	addl %d5,%d5
+  1629a4:	280a           	movel %a2,%d4
+  1629a6:	7c1a           	moveq #26,%d6
+  1629a8:	ecac           	lsrl %d6,%d4
+  1629aa:	0284 0000 0010 	andil #16,%d4
+  1629b0:	2c04           	movel %d4,%d6
+  1629b2:	0241 ffef      	andiw #-17,%d1
+  1629b6:	8c81           	orl %d1,%d6
+  1629b8:	2445           	moveal %d5,%a2
+  1629ba:	d5fc 0015 b4a0 	addal #1422496,%a2
+  1629c0:	3212           	movew %a2@,%d1
+  1629c2:	b249           	cmpw %a1,%d1
+  1629c4:	6600 00a4      	bnew 162a6a <biwn_frame_phased_start+0x208>
+  1629c8:	42a8 0004      	clrl %a0@(4)
+  1629cc:	4a43           	tstw %d3
+  1629ce:	6f6e           	bles 162a3e <biwn_frame_phased_start+0x1dc>
+  1629d0:	7400           	moveq #0,%d2
+  1629d2:	3a07           	movew %d7,%d5
+  1629d4:	da42           	addw %d2,%d5
+  1629d6:	7000           	moveq #0,%d0
+  1629d8:	3005           	movew %d5,%d0
+  1629da:	48c5           	extl %d5
+  1629dc:	da85           	addl %d5,%d5
+  1629de:	da85           	addl %d5,%d5
+  1629e0:	2085           	movel %d5,%a0@
+  1629e2:	2245           	moveal %d5,%a1
+  1629e4:	d3fc 0015 b4a2 	addal #1422498,%a1
+  1629ea:	3811           	movew %a1@,%d4
+  1629ec:	3444           	moveaw %d4,%a2
+  1629ee:	524a           	addqw #1,%a2
+  1629f0:	328a           	movew %a2,%a1@
+  1629f2:	3242           	moveaw %d2,%a1
+  1629f4:	5249           	addqw #1,%a1
+  1629f6:	2f42 0020      	movel %d2,%sp@(32)
+  1629fa:	7400           	moveq #0,%d2
+  1629fc:	3409           	movew %a1,%d2
+  1629fe:	b087           	cmpl %d7,%d0
+  162a00:	55c0           	scs %d0
+  162a02:	4880           	extw %d0
+  162a04:	48c0           	extl %d0
+  162a06:	4480           	negl %d0
+  162a08:	e988           	lsll #4,%d0
+  162a0a:	0246 ffef      	andiw #-17,%d6
+  162a0e:	8c80           	orl %d0,%d6
+  162a10:	0246 ffef      	andiw #-17,%d6
+  162a14:	b84a           	cmpw %a2,%d4
+  162a16:	52c4           	shi %d4
+  162a18:	4884           	extw %d4
+  162a1a:	48c4           	extl %d4
+  162a1c:	4484           	negl %d4
+  162a1e:	e98c           	lsll #4,%d4
+  162a20:	8c84           	orl %d4,%d6
+  162a22:	0246 ffef      	andiw #-17,%d6
+  162a26:	b4af 0020      	cmpl %sp@(32),%d2
+  162a2a:	55c1           	scs %d1
+  162a2c:	4881           	extw %d1
+  162a2e:	48c1           	extl %d1
+  162a30:	4481           	negl %d1
+  162a32:	e989           	lsll #4,%d1
+  162a34:	8c81           	orl %d1,%d6
+  162a36:	b649           	cmpw %a1,%d3
+  162a38:	6e98           	bgts 1629d2 <biwn_frame_phased_start+0x170>
+  162a3a:	2142 0004      	movel %d2,%a0@(4)
+  162a3e:	4245           	clrw %d5
+  162a40:	8a87           	orl %d7,%d5
+  162a42:	2085           	movel %d5,%a0@
+  162a44:	2205           	movel %d5,%d1
+  162a46:	740c           	moveq #12,%d2
+  162a48:	e4a9           	lsrl %d2,%d1
+  162a4a:	0281 0000 0008 	andil #8,%d1
+  162a50:	4a45           	tstw %d5
+  162a52:	57c5           	seq %d5
+  162a54:	4885           	extw %d5
+  162a56:	48c5           	extl %d5
+  162a58:	4485           	negl %d5
+  162a5a:	da85           	addl %d5,%d5
+  162a5c:	da85           	addl %d5,%d5
+  162a5e:	8285           	orl %d5,%d1
+  162a60:	0246 fff0      	andiw #-16,%d6
+  162a64:	8286           	orl %d6,%d1
+  162a66:	6000 fe3e      	braw 1628a6 <biwn_frame_phased_start+0x44>
+  162a6a:	3a03           	movew %d3,%d5
+  162a6c:	da42           	addw %d2,%d5
+  162a6e:	0285 0000 ffff 	andil #65535,%d5
+  162a74:	ba87           	cmpl %d7,%d5
+  162a76:	55c7           	scs %d7
+  162a78:	4887           	extw %d7
+  162a7a:	48c7           	extl %d7
+  162a7c:	2207           	movel %d7,%d1
+  162a7e:	4481           	negl %d1
+  162a80:	e989           	lsll #4,%d1
+  162a82:	0246 ffef      	andiw #-17,%d6
+  162a86:	8286           	orl %d6,%d1
+  162a88:	3405           	movew %d5,%d2
+  162a8a:	2142 0008      	movel %d2,%a0@(8)
+  162a8e:	b44b           	cmpw %a3,%d2
+  162a90:	6d00 ff02      	bltw 162994 <biwn_frame_phased_start+0x132>
+  162a94:	48c0           	extl %d0
+  162a96:	2080           	movel %d0,%a0@
+  162a98:	217c 0001 ad0c 	movel #109836,%a0@(72)
+  162a9e:	0048 
+  162aa0:	0241 fff0      	andiw #-16,%d1
+  162aa4:	4a80           	tstl %d0
+  162aa6:	660c           	bnes 162ab4 <biwn_frame_phased_start+0x252>
+  162aa8:	7e04           	moveq #4,%d7
+  162aaa:	8287           	orl %d7,%d1
+  162aac:	8280           	orl %d0,%d1
+  162aae:	7001           	moveq #1,%d0
+  162ab0:	6000 fdf6      	braw 1628a8 <biwn_frame_phased_start+0x46>
+  162ab4:	d080           	addl %d0,%d0
+  162ab6:	9180           	subxl %d0,%d0
+  162ab8:	4480           	negl %d0
+  162aba:	e788           	lsll #3,%d0
+  162abc:	60ee           	bras 162aac <biwn_frame_phased_start+0x24a>
+
+00162abe <biwn_frame_phased_after_first_divs>:
+  162abe:	598f           	subql #4,%sp
+  162ac0:	48e7 3f30      	moveml %d2-%d7/%a2-%a3,%sp@-
+  162ac4:	206f 0028      	moveal %sp@(40),%a0
+  162ac8:	3028 0002      	movew %a0@(2),%d0
+  162acc:	48c0           	extl %d0
+  162ace:	d1a8 0030      	addl %d0,%a0@(48)
+  162ad2:	3039 0015 b532 	movew 15b532 <TRANSIENT_CONTEXT+0x15b4d2>,%d0
+  162ad8:	2428 0008      	movel %a0@(8),%d2
+  162adc:	4242           	clrw %d2
+  162ade:	8440           	orw %d0,%d2
+  162ae0:	2142 0008      	movel %d2,%a0@(8)
+  162ae4:	2268 000c      	moveal %a0@(12),%a1
+  162ae8:	2009           	movel %a1,%d0
+  162aea:	0280 0000 ffff 	andil #65535,%d0
+  162af0:	2640           	moveal %d0,%a3
+  162af2:	7224           	moveq #36,%d1
+  162af4:	b249           	cmpw %a1,%d1
+  162af6:	55c3           	scs %d3
+  162af8:	4883           	extw %d3
+  162afa:	48c3           	extl %d3
+  162afc:	4483           	negl %d3
+  162afe:	e98b           	lsll #4,%d3
+  162b00:	70ef           	moveq #-17,%d0
+  162b02:	c0a8 0040      	andl %a0@(64),%d0
+  162b06:	8083           	orl %d3,%d0
+  162b08:	7824           	moveq #36,%d4
+  162b0a:	9849           	subw %a1,%d4
+  162b0c:	b444           	cmpw %d4,%d2
+  162b0e:	6c00 00ae      	bgew 162bbe <biwn_frame_phased_after_first_divs+0x100>
+  162b12:	217c 0015 b4a0 	movel #1422496,%a0@(44)
+  162b18:	002c 
+  162b1a:	2a28 0010      	movel %a0@(16),%d5
+  162b1e:	3205           	movew %d5,%d1
+  162b20:	48c1           	extl %d1
+  162b22:	7c0d           	moveq #13,%d6
+  162b24:	2146 001c      	movel %d6,%a0@(28)
+  162b28:	eda9           	lsll %d6,%d1
+  162b2a:	2141 0020      	movel %d1,%a0@(32)
+  162b2e:	3e0b           	movew %a3,%d7
+  162b30:	48c7           	extl %d7
+  162b32:	2c07           	movel %d7,%d6
+  162b34:	720d           	moveq #13,%d1
+  162b36:	e3ae           	lsll %d1,%d6
+  162b38:	2146 0014      	movel %d6,%a0@(20)
+  162b3c:	0240 ffef      	andiw #-17,%d0
+  162b40:	2207           	movel %d7,%d1
+  162b42:	7c0f           	moveq #15,%d6
+  162b44:	eca9           	lsrl %d6,%d1
+  162b46:	0281 0000 0010 	andil #16,%d1
+  162b4c:	8081           	orl %d1,%d0
+  162b4e:	2202           	movel %d2,%d1
+  162b50:	0281 0000 ffff 	andil #65535,%d1
+  162b56:	2f41 0020      	movel %d1,%sp@(32)
+  162b5a:	3c02           	movew %d2,%d6
+  162b5c:	48c6           	extl %d6
+  162b5e:	2446           	moveal %d6,%a2
+  162b60:	d5c6           	addal %d6,%a2
+  162b62:	d5ca           	addal %a2,%a2
+  162b64:	2206           	movel %d6,%d1
+  162b66:	7e1a           	moveq #26,%d7
+  162b68:	eea9           	lsrl %d7,%d1
+  162b6a:	0281 0000 0010 	andil #16,%d1
+  162b70:	0240 ffef      	andiw #-17,%d0
+  162b74:	8280           	orl %d0,%d1
+  162b76:	d5fc 0015 b4a0 	addal #1422496,%a2
+  162b7c:	3012           	movew %a2@,%d0
+  162b7e:	0c40 ffff      	cmpiw #-1,%d0
+  162b82:	6700 010a      	beqw 162c8e <biwn_frame_phased_after_first_divs+0x1d0>
+  162b86:	3009           	movew %a1,%d0
+  162b88:	d042           	addw %d2,%d0
+  162b8a:	0280 0000 ffff 	andil #65535,%d0
+  162b90:	3400           	movew %d0,%d2
+  162b92:	2142 0008      	movel %d2,%a0@(8)
+  162b96:	b0af 0020      	cmpl %sp@(32),%d0
+  162b9a:	55c0           	scs %d0
+  162b9c:	4880           	extw %d0
+  162b9e:	48c0           	extl %d0
+  162ba0:	4480           	negl %d0
+  162ba2:	e988           	lsll #4,%d0
+  162ba4:	0241 ffef      	andiw #-17,%d1
+  162ba8:	8280           	orl %d0,%d1
+  162baa:	0241 ffef      	andiw #-17,%d1
+  162bae:	2001           	movel %d1,%d0
+  162bb0:	8083           	orl %d3,%d0
+  162bb2:	b444           	cmpw %d4,%d2
+  162bb4:	6d98           	blts 162b4e <biwn_frame_phased_after_first_divs+0x90>
+  162bb6:	2146 0004      	movel %d6,%a0@(4)
+  162bba:	2140 0040      	movel %d0,%a0@(64)
+  162bbe:	3239 0015 b532 	movew 15b532 <TRANSIENT_CONTEXT+0x15b4d2>,%d1
+  162bc4:	4242           	clrw %d2
+  162bc6:	8441           	orw %d1,%d2
+  162bc8:	2142 0008      	movel %d2,%a0@(8)
+  162bcc:	72ef           	moveq #-17,%d1
+  162bce:	c280           	andl %d0,%d1
+  162bd0:	8283           	orl %d3,%d1
+  162bd2:	b444           	cmpw %d4,%d2
+  162bd4:	6d1a           	blts 162bf0 <biwn_frame_phased_after_first_divs+0x132>
+  162bd6:	70ff           	moveq #-1,%d0
+  162bd8:	2080           	movel %d0,%a0@
+  162bda:	0241 fff0      	andiw #-16,%d1
+  162bde:	7c08           	moveq #8,%d6
+  162be0:	8286           	orl %d6,%d1
+  162be2:	7000           	moveq #0,%d0
+  162be4:	2141 0040      	movel %d1,%a0@(64)
+  162be8:	4cdf 0cfc      	moveml %sp@+,%d2-%d7/%a2-%a3
+  162bec:	588f           	addql #4,%sp
+  162bee:	4e75           	rts
+  162bf0:	217c 0015 b4a0 	movel #1422496,%a0@(44)
+  162bf6:	002c 
+  162bf8:	2a28 0010      	movel %a0@(16),%d5
+  162bfc:	3005           	movew %d5,%d0
+  162bfe:	48c0           	extl %d0
+  162c00:	7e0d           	moveq #13,%d7
+  162c02:	2147 001c      	movel %d7,%a0@(28)
+  162c06:	efa8           	lsll %d7,%d0
+  162c08:	2140 0020      	movel %d0,%a0@(32)
+  162c0c:	3e0b           	movew %a3,%d7
+  162c0e:	48c7           	extl %d7
+  162c10:	2007           	movel %d7,%d0
+  162c12:	7c0d           	moveq #13,%d6
+  162c14:	eda8           	lsll %d6,%d0
+  162c16:	2140 0014      	movel %d0,%a0@(20)
+  162c1a:	0241 ffef      	andiw #-17,%d1
+  162c1e:	7c0f           	moveq #15,%d6
+  162c20:	ecaf           	lsrl %d6,%d7
+  162c22:	0287 0000 0010 	andil #16,%d7
+  162c28:	8287           	orl %d7,%d1
+  162c2a:	2c02           	movel %d2,%d6
+  162c2c:	0286 0000 ffff 	andil #65535,%d6
+  162c32:	2646           	moveal %d6,%a3
+  162c34:	3c02           	movew %d2,%d6
+  162c36:	48c6           	extl %d6
+  162c38:	2446           	moveal %d6,%a2
+  162c3a:	d5c6           	addal %d6,%a2
+  162c3c:	d5ca           	addal %a2,%a2
+  162c3e:	2e06           	movel %d6,%d7
+  162c40:	701a           	moveq #26,%d0
+  162c42:	e0af           	lsrl %d0,%d7
+  162c44:	0287 0000 0010 	andil #16,%d7
+  162c4a:	0241 ffef      	andiw #-17,%d1
+  162c4e:	8287           	orl %d7,%d1
+  162c50:	d5fc 0015 b4a2 	addal #1422498,%a2
+  162c56:	3e12           	movew %a2@,%d7
+  162c58:	6760           	beqs 162cba <biwn_frame_phased_after_first_divs+0x1fc>
+  162c5a:	3e09           	movew %a1,%d7
+  162c5c:	de42           	addw %d2,%d7
+  162c5e:	0287 0000 ffff 	andil #65535,%d7
+  162c64:	3407           	movew %d7,%d2
+  162c66:	2142 0008      	movel %d2,%a0@(8)
+  162c6a:	be8b           	cmpl %a3,%d7
+  162c6c:	55c0           	scs %d0
+  162c6e:	4880           	extw %d0
+  162c70:	48c0           	extl %d0
+  162c72:	4480           	negl %d0
+  162c74:	e988           	lsll #4,%d0
+  162c76:	0241 ffef      	andiw #-17,%d1
+  162c7a:	8280           	orl %d0,%d1
+  162c7c:	0241 ffef      	andiw #-17,%d1
+  162c80:	8283           	orl %d3,%d1
+  162c82:	b444           	cmpw %d4,%d2
+  162c84:	6da4           	blts 162c2a <biwn_frame_phased_after_first_divs+0x16c>
+  162c86:	2146 0004      	movel %d6,%a0@(4)
+  162c8a:	6000 ff4a      	braw 162bd6 <biwn_frame_phased_after_first_divs+0x118>
+  162c8e:	7002           	moveq #2,%d0
+  162c90:	2146 0004      	movel %d6,%a0@(4)
+  162c94:	48c5           	extl %d5
+  162c96:	2085           	movel %d5,%a0@
+  162c98:	7e02           	moveq #2,%d7
+  162c9a:	be80           	cmpl %d0,%d7
+  162c9c:	6620           	bnes 162cbe <biwn_frame_phased_after_first_divs+0x200>
+  162c9e:	227c 0001 ad4e 	moveal #109902,%a1
+  162ca4:	2149 0048      	movel %a1,%a0@(72)
+  162ca8:	0241 fff0      	andiw #-16,%d1
+  162cac:	4a85           	tstl %d5
+  162cae:	6616           	bnes 162cc6 <biwn_frame_phased_after_first_divs+0x208>
+  162cb0:	7c04           	moveq #4,%d6
+  162cb2:	8286           	orl %d6,%d1
+  162cb4:	8285           	orl %d5,%d1
+  162cb6:	6000 ff2c      	braw 162be4 <biwn_frame_phased_after_first_divs+0x126>
+  162cba:	7003           	moveq #3,%d0
+  162cbc:	60d2           	bras 162c90 <biwn_frame_phased_after_first_divs+0x1d2>
+  162cbe:	227c 0001 adea 	moveal #110058,%a1
+  162cc4:	60de           	bras 162ca4 <biwn_frame_phased_after_first_divs+0x1e6>
+  162cc6:	da85           	addl %d5,%d5
+  162cc8:	9b85           	subxl %d5,%d5
+  162cca:	4485           	negl %d5
+  162ccc:	e78d           	lsll #3,%d5
+  162cce:	60e4           	bras 162cb4 <biwn_frame_phased_after_first_divs+0x1f6>
+
+00162cd0 <biwn_frame_phased_after_group_divs>:
+  162cd0:	2f02           	movel %d2,%sp@-
+  162cd2:	206f 0008      	moveal %sp@(8),%a0
+  162cd6:	2010           	movel %a0@,%d0
+  162cd8:	ed48           	lslw #6,%d0
+  162cda:	3240           	moveaw %d0,%a1
+  162cdc:	d3e8 0020      	addal %a0@(32),%a1
+  162ce0:	2149 0024      	movel %a1,%a0@(36)
+  162ce4:	2028 0004      	movel %a0@(4),%d0
+  162ce8:	2200           	movel %d0,%d1
+  162cea:	e789           	lsll #3,%d1
+  162cec:	2081           	movel %d1,%a0@
+  162cee:	7419           	moveq #25,%d2
+  162cf0:	e4a8           	lsrl %d2,%d0
+  162cf2:	0280 0000 0010 	andil #16,%d0
+  162cf8:	74ef           	moveq #-17,%d2
+  162cfa:	c4a8 0040      	andl %a0@(64),%d2
+  162cfe:	8480           	orl %d0,%d2
+  162d00:	2142 0040      	movel %d2,%a0@(64)
+  162d04:	217c 0004 674c 	movel #288588,%a0@(32)
+  162d0a:	0020 
+  162d0c:	0681 0004 674c 	addil #288588,%d1
+  162d12:	2068 0038      	moveal %a0@(56),%a0
+  162d16:	5988           	subql #4,%a0
+  162d18:	2241           	moveal %d1,%a1
+  162d1a:	2011           	movel %a1@,%d0
+  162d1c:	2080           	movel %d0,%a0@
+  162d1e:	7004           	moveq #4,%d0
+  162d20:	241f           	movel %sp@+,%d2
+  162d22:	4e75           	rts
+
+Disassembly of section .tail:
+
+0017f31c <biwn_frame_phased_after_load>:
+  17f31c:	598f           	subql #4,%sp
+  17f31e:	48e7 3e20      	moveml %d2-%d6/%a2,%sp@-
+  17f322:	206f 0020      	moveal %sp@(32),%a0
+  17f326:	2228 0004      	movel %a0@(4),%d1
+  17f32a:	4241           	clrw %d1
+  17f32c:	2141 0004      	movel %d1,%a0@(4)
+  17f330:	2428 000c      	movel %a0@(12),%d2
+  17f334:	2028 0008      	movel %a0@(8),%d0
+  17f338:	0280 0000 ffff 	andil #65535,%d0
+  17f33e:	2240           	moveal %d0,%a1
+  17f340:	4a42           	tstw %d2
+  17f342:	6f00 008c      	blew 17f3d0 <biwn_frame_phased_after_load+0xb4>
+  17f346:	2a28 0040      	movel %a0@(64),%d5
+  17f34a:	2628 0018      	movel %a0@(24),%d3
+  17f34e:	0283 0000 ffff 	andil #65535,%d3
+  17f354:	2f68 002c 0018 	movel %a0@(44),%sp@(24)
+  17f35a:	3449           	moveaw %a1,%a2
+  17f35c:	d4c1           	addaw %d1,%a2
+  17f35e:	7000           	moveq #0,%d0
+  17f360:	300a           	movew %a2,%d0
+  17f362:	344a           	moveaw %a2,%a2
+  17f364:	d5ca           	addal %a2,%a2
+  17f366:	d5ca           	addal %a2,%a2
+  17f368:	208a           	movel %a2,%a0@
+  17f36a:	2c28 001c      	movel %a0@(28),%d6
+  17f36e:	4246           	clrw %d6
+  17f370:	3803           	movew %d3,%d4
+  17f372:	d841           	addw %d1,%d4
+  17f374:	0284 0000 ffff 	andil #65535,%d4
+  17f37a:	8c84           	orl %d4,%d6
+  17f37c:	2146 001c      	movel %d6,%a0@(28)
+  17f380:	d5ef 0018      	addal %sp@(24),%a2
+  17f384:	34c6           	movew %d6,%a2@+
+  17f386:	34bc 0001      	movew #1,%a2@
+  17f38a:	b089           	cmpl %a1,%d0
+  17f38c:	55c0           	scs %d0
+  17f38e:	4880           	extw %d0
+  17f390:	48c0           	extl %d0
+  17f392:	4480           	negl %d0
+  17f394:	e988           	lsll #4,%d0
+  17f396:	0245 ffef      	andiw #-17,%d5
+  17f39a:	8085           	orl %d5,%d0
+  17f39c:	0240 ffef      	andiw #-17,%d0
+  17f3a0:	b883           	cmpl %d3,%d4
+  17f3a2:	55c4           	scs %d4
+  17f3a4:	4884           	extw %d4
+  17f3a6:	48c4           	extl %d4
+  17f3a8:	4484           	negl %d4
+  17f3aa:	e98c           	lsll #4,%d4
+  17f3ac:	8084           	orl %d4,%d0
+  17f3ae:	0240 ffef      	andiw #-17,%d0
+  17f3b2:	0c41 ffff      	cmpiw #-1,%d1
+  17f3b6:	54c5           	scc %d5
+  17f3b8:	4885           	extw %d5
+  17f3ba:	48c5           	extl %d5
+  17f3bc:	4485           	negl %d5
+  17f3be:	e98d           	lsll #4,%d5
+  17f3c0:	8a80           	orl %d0,%d5
+  17f3c2:	5241           	addqw #1,%d1
+  17f3c4:	b242           	cmpw %d2,%d1
+  17f3c6:	6d92           	blts 17f35a <biwn_frame_phased_after_load+0x3e>
+  17f3c8:	2145 0040      	movel %d5,%a0@(64)
+  17f3cc:	2141 0004      	movel %d1,%a0@(4)
+  17f3d0:	2010           	movel %a0@,%d0
+  17f3d2:	4240           	clrw %d0
+  17f3d4:	2209           	movel %a1,%d1
+  17f3d6:	8081           	orl %d1,%d0
+  17f3d8:	2080           	movel %d0,%a0@
+  17f3da:	2200           	movel %d0,%d1
+  17f3dc:	740c           	moveq #12,%d2
+  17f3de:	e4a9           	lsrl %d2,%d1
+  17f3e0:	0281 0000 0008 	andil #8,%d1
+  17f3e6:	4a40           	tstw %d0
+  17f3e8:	57c0           	seq %d0
+  17f3ea:	4880           	extw %d0
+  17f3ec:	48c0           	extl %d0
+  17f3ee:	4480           	negl %d0
+  17f3f0:	d080           	addl %d0,%d0
+  17f3f2:	d080           	addl %d0,%d0
+  17f3f4:	8081           	orl %d1,%d0
+  17f3f6:	72f0           	moveq #-16,%d1
+  17f3f8:	c2a8 0040      	andl %a0@(64),%d1
+  17f3fc:	8081           	orl %d1,%d0
+  17f3fe:	2140 0040      	movel %d0,%a0@(64)
+  17f402:	7000           	moveq #0,%d0
+  17f404:	4cdf 047c      	moveml %sp@+,%d2-%d6/%a2
+  17f408:	588f           	addql #4,%sp
+  17f40a:	4e75           	rts

@@ -1,0 +1,43 @@
+BIWN native free/initializer experiment — 2026-10-18
+
+New experimental CDI: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-free/20261018T081145.397346Z/BIWN-23-native-free-experimental.cdi
+Use “Show BIWN Native Disc.command” in Desktop → Local AI Lab to reveal it.
+This has25 rebuilt ABI entry contracts, not25 C functions or a completion percentage. It adds one C free/coalescing body and one source-assembled heap initializer to the prior23entry experiment. The P/O previews are unchanged.
+
+Who did what and exact prompts
+The coordinator supplied the full free-list branch algorithm, ABI/flag contract, volatile memory helpers, native wrapper, initializer assembly, build/link/loader, comparisons and read-only observers.
+Local daily27B Author, reasoning medium:368.27seconds,7999reasoning tokens, no code. No Reviewer ran.
+Its exact request/raw response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-free-20261018T074723.402359Z
+Local guided Author, same daily27B weights, reasoning off:64.36seconds. Its raw C is accepted unchanged only in the checked scope; the full algorithm was supplied by the coordinator. No independent-model review or new training.
+Exact guided prompts and responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-free-guided-20261018T075531.544208Z/prompts-and-responses.txt
+Installed Qwen3-Coder30B comparison, reasoning off:6.14seconds on the assembly/ABI prompt without the complete algorithm. Strict compilation and manual semantic review rejected it. No native test cases ran for that draft; no warning suppression or silent C fixes.
+Exact comparison request/response and rejected C: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-free-coder-comparison-20261018T080448.395975Z
+These different models/reasoning/prompt conditions are a development comparison, not a general speed or accuracy ranking. The daily model was restored.
+
+What passed
+Free:1411 native fullCPU/publicRAM comparisons,1411 separate ordered-access cases,4 declared changing-read native replays. Original8public stack-save bytes checked.
+Initializer:192 native and192 ordered-access cases;72 source-assembled bytes identical to the original after the same heap-floor relocation.
+Coupled lifecycle:216 original-versus-rebuilt native call pairs across8sequences;55264 known payload-byte comparisons, free-space recovery, compaction and reuse. The host supplies calls and known payload fixtures, never heap bodies.
+Relinked prior components:copy3260native/3260ordered plus12bounded raw-count prefixes; heap3392/3392; controller1216/1024; RNG1682/298; task1280/1280; scheduler1664/896;232byte relocated-payload witness.
+Disc entry:96 startup cases and5151 keypad ABI cases. Linked5746bytes plus398padding inside the existing6144byte reservation;8192temporary staging bytes cleared. Original CDI preserved, all other disc bytes checked.
+
+Fresh game results
+Previous23entry build:29783frames,7324814nonzero audio samples. It repeats the preceding full recorded frame rows and PCM exactly.
+New25entry build:24965frames,1609524nonzero audio samples. It reaches the merchant, descends2→1→0, reaches outdoor clearance and holds120frames. Both finish atX13049/Z42402,mode1,floor0,scene312.
+The new game actually enters compiled free C19times and source initializer once, with zero old-body instructions. It also executes the target-compiled allocator/compactor/copy/scheduler.
+These are game observations, separate from component case counts. Adaptive pad inputs first differ atframe7308; raw playerX differs at5603. Floor0 is reached at23867vs23866, but final outdoorhold begins29664vs24846. Fewer frames do not establish better FPS or preserved timing.
+First three audio bursts appear in both profiles about4frames apart; two additional bursts occur only during the longer previous-build outdoor traversal. Counts/hashes alone establish neither sound loss nor audio equivalence. Final video and PCM differ. No listening/physical-console verification.
+
+Evidence
+Publication: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-publication-current.json
+923 immutable dependency hashes and164 new snapshots; P/O preview112/84pins all match.
+Route analysis: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-free-route-analysis-current.json
+Full objective remains unfinished:remaining engine/CPU/GPU/DSP/source link and provider replacement, broader fixed-input/IRQ/timing tests, physical Jaguar boot/listening, native Chat UI verification, broad local-model reliability and future256GBhardware testing.
+
+Installed local inference check
+The actual installed assistant returned a96word answer in22.54seconds, including one same-model scope revision. The first run omitted observed video/PCM differences; the updated check requests that disclosure. The revised answer is accepted unchanged after source review, scoped to this repeated development question. Native Chat UI and general reliability remain unverified.
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-free-local-status-answer.txt
+Exact prompts and responses: /Users/kevin/.lmstudio/local-ai-lab/runs/ask-20261018T081848.785179Z-game/prompts-and-responses.txt
+
+LATER FIXED-INPUT CONTROL
+Native25fails the equal-duration replay despite its separate adaptive completion. See /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-free-fixed-input.txt. The local status response above predates this new negative evidence; current helper context includes the failure.

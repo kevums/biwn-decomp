@@ -1,0 +1,21 @@
+{
+  "status": "terminal_deeper_coordinate_geometry_alias_fallback_match",
+  "pid": 23302,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-geometry-alias-v1/20261021T040414.366732Z",
+  "whole_game_complete": false,
+  "new_training": false,
+  "native_disc_changed": false,
+  "completed": 128,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_outer_compact_geometry_alias_v1.py": "9a6f88496e3e7b6be5f5b38cfbc89c3ba9a94d93b28d878470968af1965bc517",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_helpers_v1.py": "1caacf5db7c60eb1a931b941acec47c478cdeb1db2ec64e07800c72d16e3d325",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_debug_overlay_cpu_v1.py": "122792a5afb41cbc1f4d1b7977741e54b2dbd01e795fdbdd4844d41b6cb14b9e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/fixture_ram_delta_v1.py": "b0609d9f1644afd5b8a320c7126a16ee1bf31019618f3f52a977ea4584d94920",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-geometry-alias-v1/20261021T040414.366732Z/build-as-run.json": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-geometry-alias-v1/20261021T040414.366732Z/gate-as-run.json": "65f156a68cd51c6550b5eb991594a33ae3f44cc991e513601c548e992fcc8478",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-geometry-v1/20261021T040013.925816Z/build/native-shared.bin": "ca601d1c9494683dd99bb6a7ef830293388b293d7ccad53e485d1373d55fa588",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-geometry-alias-v1/20261021T040414.366732Z/cases.json": "29d3f3deb3316245b4b54c6ebd3dc3ab7caea30df042480c0118ff3a7fd771d7"
+  },
+  "scope": "Coordinate/geometry alias fallback with six real original/native helpers.\n\nOne injected helper JSR per direction. GPU/formatter/text effects remain\nfixtures. Compare CPU/nonarenaRAM/entries and exact suspended frame bytes.\n64eachdirection covers bothbanks/allCCR,4taskslots,3guestSPdepths. Nativegeometry executes6compiledhelpers;busy innergeometry executes6original bodies. Face-count zero path only in this alias matrix;nonzero counts are covered by separate256native geometry cases. Injected1B45AorE26C JSR is an explicit fixture;remaining effects declared. No natural reentry/IRQ/fresh gameplay proof."
+}

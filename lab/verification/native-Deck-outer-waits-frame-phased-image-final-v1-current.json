@@ -1,0 +1,17 @@
+{
+  "status": "terminal_native_outer_192_wait_and_resume_pairs_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-frame-phased-image-final-v1/20261021T122123.589500Z",
+  "completed": 192,
+  "comparisons": 384,
+  "maximum_C_stack_bytes": 164,
+  "new_training": false,
+  "native_disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/waits-outer.py": "d185583b08ca58875e5ecc3d55c6e5c505c7456f85a074394327144d2ecc84f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/native_outer_final_checker.py": "15afe571ec24575f2cb680fd6a6e89959553853766d7e74cfeab10896e89494f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-frame-phased-image-final-v1-current.json": "39c43de83694ea16080963ae2a4602e444dcdc3f8693eb63367229f3200d8a83",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-frame-phased-image-final-v1/20261021T122100.244824Z/build/native-outer.bin": "efb5a4cc1f9cd416d2dcc0116b6757f61dc73311f8177d5fdc776087045ea809",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-frame-phased-image-final-v1/20261021T122123.589500Z/cases.json": "01c23a58a9f20bc25c341af76b73efc60e6e0bd28d4e7c9cdc49de7d9290421f"
+  },
+  "scope": "Actual native volatile wait slices and resumed helper calls versus original.192pairs, both stack banks/all32CCR and three nonzero volatile flags. Native64read slices compare to original64polls at11F50; released flag resumes actual native private context. Helpers are fixtures; no clock/IRQ event injected, no exact-cycle or real scheduler proof."
+}

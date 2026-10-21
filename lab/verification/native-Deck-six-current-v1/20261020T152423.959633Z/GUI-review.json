@@ -1,0 +1,69 @@
+{
+  "status": "terminal_six_caller_GUI_and_Shift_run_mapping_reviewed",
+  "app": "/Users/kevin/Applications/BIWN Test Preview.app",
+  "runtime": "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4",
+  "actual_GUI_observed": true,
+  "frames": 415,
+  "keyboard_events": 21,
+  "native_returns": {
+    "coordinate": 50,
+    "input": 50,
+    "face": 2,
+    "scan": 25,
+    "geometry": 24,
+    "outer": 1
+  },
+  "sessions": [
+    {
+      "role": "run_alias",
+      "protocol": "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152215.574884Z/protocol.json",
+      "protocol_sha256": "179367ef370d1d25c53f57f32f098ad3bd5c06a166ff520798c82663d70e75df",
+      "frames": 367,
+      "keyboard_events": 23,
+      "native_returns": {
+        "coordinate": 0,
+        "input": 0,
+        "face": 0,
+        "scan": 0,
+        "geometry": 0,
+        "outer": 0
+      },
+      "run_chord_frames": 77,
+      "all_guards_pass": true
+    },
+    {
+      "role": "Deck_calls",
+      "protocol": "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152250.497735Z/protocol.json",
+      "protocol_sha256": "c75e67abdab3541a9463fb0c025782105e421c6210086420e41320bcded161a1",
+      "frames": 415,
+      "keyboard_events": 21,
+      "native_returns": {
+        "coordinate": 50,
+        "input": 50,
+        "face": 2,
+        "scan": 25,
+        "geometry": 24,
+        "outer": 1
+      },
+      "run_chord_frames": 58,
+      "all_guards_pass": true
+    }
+  ],
+  "launch_movement_pause_close_verified": true,
+  "Shift_Up_sends_C_Up_verified": true,
+  "run_speed_ratio_measured": false,
+  "Deck_expected_visual_transition_verified": false,
+  "revision23_visual_fidelity_verified": false,
+  "audible_game_audio_verified": false,
+  "headless_nonintrusion_frames": 2400,
+  "whole_game_complete": false,
+  "new_training": false,
+  "scope": "Actual CUA launch, input, pause, screenshots and close. Shift modifier mapping recorded ordinary C+Up. All six callers returned in the held-digit session; street view remained visible, so expected Deck appearance is unverified. No speed benchmark, audio or physical-console fidelity claim.",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/publish_native_deck_six_current_v1.py": "0878d37a4fefd44f1879d87e1921faa4b6efcca2600bac4ccb7e8a9a74505339",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/preview-v4-nonintrusion-current.json": "1d52a5a14154b08c81a9cf39c5116fdbcac7d412939e10ce907c4b0f794dac49",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/scripts/run_biwn_native_keyboard_v4.py": "0254d9d5f57d71d2195c75d95a77e7453b45bd5818953df70227863645b5020e",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152215.574884Z/protocol.json": "179367ef370d1d25c53f57f32f098ad3bd5c06a166ff520798c82663d70e75df",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152250.497735Z/protocol.json": "c75e67abdab3541a9463fb0c025782105e421c6210086420e41320bcded161a1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "time": "2026-10-12T21:43:22.753710+00:00",
+  "finding": "Installed Ghidra word DIVU semantics do not assign the overflow flag VF and always overwrite the result register with packed remainder/low quotient. Original BIWN helper branches on BVS after DIVU.",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/68000/data/languages/68000.sinc",
+  "source_sha256": "fea0caad18cd91249bf2441a67678e3a38e375bface616310513341fc6baf948",
+  "source_excerpt": ":divu.w eaw,reg9dn\t\tis (op=8 & reg9dn & op68=3)... & eaw\n{\n\tlocal denom = zext(eaw);\n\tlocal divis = reg9dn;\n\tlocal div = divis / denom;\n\tlocal rem = divis % denom;\n\tCF=0;\n\tresflags(div);\n\treg9dn = (rem << 16) | (div & 0xffff);\n\t}\n",
+  "resflags_macro": "macro resflags(result) {\n NF = result s< 0;\n ZF = result == 0;\n}\n\n",
+  "affected_candidate_addresses": [
+    "0xd1e0",
+    "0xd1e2",
+    "0xd1ec"
+  ],
+  "actual_CPU_evidence": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-cd-math-checks.json",
+  "consequence": "Existing automatic C for d1e0/d1ec is not a faithful division reconstruction; automatic function boundaries split one helper across two entries. The reviewed portable C and isolated CPU tests are separate evidence.",
+  "global_processor_source_modified": false,
+  "scope": "Specific installed Sleigh implementation and this use of DIVU/BVS, not a claim that all Ghidra68000 output is wrong.",
+  "primary_manual": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf",
+  "manual_section": "DIVU/DIVUL, printed4-96",
+  "manual_basis": "For word division, quotient overflow sets V and leaves operands unchanged; successful division clears V."
+}

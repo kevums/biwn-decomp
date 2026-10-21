@@ -1,0 +1,22 @@
+BIWN DIVISION EXCEPTIONS AND LOCAL CODE AUTHOR
+2026-10-18T23:46:42.661467+00:00
+
+The experimental host C CPU now has a separately checked division provider. The old provider rejects all11,264zero-divisor fixtures; the new candidate matches native execution in34,944division fixtures, including11,264zero cases, with full CPU state, all2MBRAM and the pinned emulator instruction charge equal. It covers28fixed DIVU/DIVS addresses,22with variable divisors. Immediate divisors retain their original instruction values.
+
+The strict CPU-owner bridge also passes11,264actual divide-by-zero / DE06 RTE roundtrips at22,528instruction boundaries with0originalCPUopcodefallback/rejections. The exception stack and restored CPU/RAM/cost match the original CPU at both boundaries. All32CCRvalues,bothCPU modes and all8interrupt masks are exercised. These are controlled fixtures, not asynchronous IRQ, arbitrary fault or physical68000timing proof. The pinned emulator's exception charge is preserved even where it is not a hardware timing claim.
+
+LOCAL MODEL
+The same27B6bit local Code Author produced the exception-entry function in17.85seconds after a compact prompt with an explicit coordinator contract. Its C text was accepted without edits after source review, the native/owner gates and22host guards. It clearsV before saving SR, switches user/supervisor stack correctly, pushes resumePC then oldSR, reads vector5after stacking, and requests a prefetch flush. Host-error cases retain earlier bus writes but leave the callerCPUobject unchanged.
+
+The first request took83.27seconds and failed at the output limit with invalidJSON. It repeated task metadata instead of delivering complete code; it was not compiled or accepted. The successful prompt removes that metadata and requests one source field. This is a guided workflow result, not new weight training, independent review or newly recovered original-game source.
+First prompt/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/divzero-Code-Author-20261018T233703.661672Z
+Compact prompt/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/divzero-Code-Author-compact-20261018T233916.591909Z
+
+The coordinator wrote the28-address normal/overflow division wrapper, repaired zero-divisor and INT_MIN cost edges, compiled the bridge and ran/reviewed the native comparisons. Compiler/emulator processes are tools.
+
+Reusable unedited helper, header, Makefile and provenance:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/division-exceptions-C
+
+This component has NOT been installed in the existing preview or the active combined-processor merchant/return test. Its fresh-gameplay integration is a separate next step. The long test keeps its original pinned candidate so its result cannot silently change mid-run. Original disc and accepted defaults are unchanged.
+
+Full game/source/platform restoration, more scenes and exception/IRQ behavior, authenticated console boot, physical audio, representative model training gains and future hardware testing remain unfinished.

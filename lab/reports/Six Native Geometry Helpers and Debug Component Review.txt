@@ -1,0 +1,13 @@
+SIX NATIVE GEOMETRY HELPERS — DEBUG CALLER COMPONENT REVIEW
+
+10734structuredcaller now executes inside geometry with five previously compiled helpers. Its original global entry remains unpatched. Formatter1B45A/text149AE execute their original68000bodies;actual blitter writes and glyph pixels are retained. No additional private arena.
+
+Prototype:256cases with declared formatter/text results and256with actual original formatter/text. Exact final module:256geometry cases,4,992retained callers,1,280fallbacks;all8final-image/startup/heap/outer checks pass. Native shared module40,062bytes;peak geometry stack164/176bytes.
+
+Read-only context proof:8cases across both stack banks/all4debug flag groups. Active displays make16original formatter/text captures. Parent budget2and service restore exactly. At the actual Creturn,logicalCPU/publicRAM match the original10966RTS state.144synthetic copied-observation faults rejected;no observer guest writes.
+
+New alias/combined/fresh gameplay/GUI/fidelity checks remain pending. The earlier clear-loop candidate is the most recent fresh-reviewed image:24,969frames per lane,62video differences and equal finalimage. Installed preview unchanged.
+
+Separate local-model progress:typed Repair produces one complete10968function that passes260CPU/RAM cases plus error/order checks. It is not used in this coordinator-authorednative module. No optimizer or default-model update.
+
+Next:Update and qualify geometry/coordinate alias fallback at formatter/text capture boundaries,new six-caller/six-helper connected execution and read-only sixth-helper observers,then fresh same-layout original-geometry controls before GUI promotion. Preserve CPU/RAM/bus/stack/parent budget contracts. Continue remaining game source and refresh portable configuration.

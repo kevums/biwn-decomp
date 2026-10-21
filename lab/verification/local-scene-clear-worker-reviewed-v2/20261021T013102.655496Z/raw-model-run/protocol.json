@@ -1,0 +1,76 @@
+{
+  "status": "terminal_local_clear_workflow_pending_coordinator_review",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z",
+  "pid": 85515,
+  "new_predictions": 3,
+  "new_training": false,
+  "native_Chat_verified": false,
+  "model_source_installed": false,
+  "rounds": [
+    {
+      "role": "Author",
+      "seconds": 19.33,
+      "raw_response_sha256": "40409db2a267f1df6c65059d3bda0fa6c11f747ed6bf589179b6c79346c23937",
+      "accepted_host": true,
+      "accepted_native": false,
+      "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/body.inc",
+      "candidate_sha256": "eb3496c23a93e2fd398afa0b61be981036aae88dda74ff5a43683df4d96c7191",
+      "normalization": "outer fence removed",
+      "native_gate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-clear-native-20261021T012913.731494Z-author-current.json",
+      "native_variant": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-local-clear-20261021t012913.731494z-author"
+    },
+    {
+      "role": "Repair",
+      "seconds": 17.79,
+      "raw_response_sha256": "40409db2a267f1df6c65059d3bda0fa6c11f747ed6bf589179b6c79346c23937",
+      "accepted_host": true,
+      "accepted_native": false,
+      "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Repair/body.inc",
+      "candidate_sha256": "eb3496c23a93e2fd398afa0b61be981036aae88dda74ff5a43683df4d96c7191",
+      "normalization": "outer fence removed",
+      "native_gate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-clear-native-20261021T012913.731494Z-repair-current.json",
+      "native_variant": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-local-clear-20261021t012913.731494z-repair"
+    }
+  ],
+  "lease_acquired": true,
+  "model": {
+    "type": "llm",
+    "modelKey": "local/portable-ailab-4f5658686590-daily-configured",
+    "format": "safetensors",
+    "displayName": "Portable Ailab 4f5658686590 Daily Configured",
+    "publisher": "local",
+    "path": "local/portable-ailab-4f5658686590-daily-configured",
+    "sizeBytes": 22804840649,
+    "indexedModelIdentifier": "local/portable-ailab-4f5658686590-daily-configured",
+    "deviceIdentifier": null,
+    "paramsString": "27B",
+    "architecture": "qwen3_5",
+    "quantization": {
+      "name": "6bit",
+      "bits": 6
+    },
+    "variants": [
+      "local/portable-ailab-4f5658686590-daily-configured@6bit"
+    ],
+    "selectedVariant": "local/portable-ailab-4f5658686590-daily-configured@6bit",
+    "identifier": "portable-ailab-4f5658686590-daily",
+    "ttlMs": 3600000,
+    "lastUsedTime": 1792546131095,
+    "vision": true,
+    "trainedForToolUse": true,
+    "maxContextLength": 262144,
+    "contextLength": 32768,
+    "status": "idle",
+    "queued": 0,
+    "parallel": 1,
+    "engineConfigFileEnabled": false
+  },
+  "role": "Reviewer",
+  "advisory_review_not_independent": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/run_local_scene_clear_worker_v2.py": "deb3687f31de9d3b1c1cc247d759e1115a39e57ae54c65ee86cbf658ab6714a2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene_clear_candidate_host_v1.py": "1d0f62588fb96707b49833874a851f58417d9dc7ee17389497357feca73d95ff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/frozen-task.json": "cb96d1fab1d5b668275f6a6b4cf93aa368464416df25ac88b80b827a1faf794a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/prompts-and-responses.txt": "59707f8f036d2c9b4d2a93358f2fc147181c6f3dff1bf4ade1612aaf9c1ad729"
+  }
+}

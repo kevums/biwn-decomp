@@ -1,0 +1,20 @@
+{
+  "status": "terminal_six_helper_observer_legal_and_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.c",
+  "observer_sha256": "1bf2c0bc616f652d247a91d5633a7246deafe547560a03310d8b5984a635476b",
+  "legal_controls": 8,
+  "rejected_fault_controls": 89,
+  "actual_game_execution": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_scene17_direct_dispatch_geometry_observer_v1.py": "ae8d493acccaf790e297ab121dba71c4086740f1a9f80691571999adb3444a0a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_scene17_direct_dispatch_full_observer_v1.py": "b3f64b1432d67d6d029268572c121123c6a5a22a2a85ab3d2dbe5d39166d4dac",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/debug_geometry_observer_v1.inc.c": "670da3032fe1fec017ff04b62d64a44ca65384c304cb0cdff6284fb22865ab7a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.c": "1bf2c0bc616f652d247a91d5633a7246deafe547560a03310d8b5984a635476b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.dylib": "e76104f30edf9af4b7fe9c3262c4866d200656a5686fae40de4cee29181068ef",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/fixture.c": "93c4023a73cfe543def837d4e35f984faa2cc31ba0e241ef35a7d5eb26735ca8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/fixture.dylib": "4aff3aab3ca97f3a282202dc26818358077c65850f1b73250c5db3dae70272d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/cases.json": "948c2a00fa0ac1c199c7c8c1711b8ec4e6d286941a0c8b287e1660d85fb39ab3"
+  },
+  "scope": "Exact new geometry observer fault fixtures, not actual game execution. Read-only exact extracted geometry code; eight legal modes and faults test order, arguments, logical context, real C returns, transform capture, parent state. Other retained monitors are separately qualified. No emulator/game fidelity claim."
+}

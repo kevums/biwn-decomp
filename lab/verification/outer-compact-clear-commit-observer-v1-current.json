@@ -1,0 +1,26 @@
+{
+  "status": "terminal_clear_monitor_actual_CPU_and_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z",
+  "actual_native_scene_lanes": 64,
+  "native_clear_entries": 55,
+  "rejected_fault_controls": 19,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_outer_compact_clear_commit_observer_v1.py": "4fc02a551cfcae879bb16cf825c2133a990105bb567b0f65182b370211424bc8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_outer_compact_full_observer_v1.py": "0a93a7e217220413c3692b51c6100e812d97ed020c40e0c587425b0b429b6ddf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_clear_observer_v1.inc.c": "25b8ce8443119c0043c48edc2ecbc9603b3e15634718882f9b80b083860551dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-disc-build-v1-current.json": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/fixture.c": "42ffd9239ce26d6e4736f2dd2939e6eb28871d4a95c00551f48aadc78d741db0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/fixture.dylib": "8911364a45dca527fad1fcfaab28f908710d40076abd2ef9e708b66282b2cd54",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/actual-native-harness.py": "a4ef1814a0cbdb12a15e214a3ddf44d3229a119d2f976061cb56f7f3bae1f4d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/cases.json": "f1f47803a7608b368187bc7452bd39b95bd6958a8e98635f48f44183e4050117",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/faults.json": "dcbe3d00253b00284df5720acd99d21c18af3c3dd3ff30c7f381ab077fa0ab23",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/checkpoint-0-CPU.json": "dc823e08cc6fa261ed6bfef2b38bcd2b53d47e73076a198a4e1774cf70eee680",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/checkpoint-1-CPU.json": "2c2eb90692fd14e9d36afa9ecb658a0fff22486c9fe19cefad76e76f3e6c4e94",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/checkpoint-0-RAM.bin": "c9af8a0d160c6d8207b11e39f682a7cbeee36c9ecaa2abc26f570eccc1b178fc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-clear-commit-observer-v1/20261021T040110.815083Z/checkpoint-1-RAM.bin": "5de5a970b40230100691bf44140ba7c806a5b6a0e1b1ed9e96df0c8b02221eed"
+  },
+  "scope": "Read-only clear witness over actual native CPU steps and host-only corruption replays. All registers/banks, finalX=1/NZVC=0, guest return/savedD0, frame metadata and C stack are checked. Actual physical MMIO instructions execute with declared post-read input fixtures; MMIO ordering is separately verified. No guest state writes by observation or fault replay; no fresh-game/IRQ/console proof."
+}

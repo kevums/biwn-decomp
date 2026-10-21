@@ -1,0 +1,80 @@
+{
+  "status": "generated_unverified",
+  "instructions": 7,
+  "instructions_decoded": [
+    {
+      "address": 12360,
+      "size": 4,
+      "bytes": "60000594",
+      "assembly": "bra.w $35de",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13790,
+      "size": 10,
+      "bytes": "23fc0018000000dfff00",
+      "assembly": "move.l #$180000, $dfff00.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13800,
+      "size": 10,
+      "bytes": "23fc0001000000dfff04",
+      "assembly": "move.l #$10000, $dfff04.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13810,
+      "size": 10,
+      "bytes": "23fc0000000700dfff10",
+      "assembly": "move.l #$7, $dfff10.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13820,
+      "size": 10,
+      "bytes": "23fc0000000100dfff10",
+      "assembly": "move.l #$1, $dfff10.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13830,
+      "size": 8,
+      "bytes": "33fc700100dfff0a",
+      "assembly": "move.w #$7001, $dfff0a.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13838,
+      "size": 2,
+      "bytes": "4e75",
+      "assembly": "rts",
+      "classification": "decoded_instruction",
+      "manual_semantics": {
+        "scope": "RTS only; M68000 manual printed 4-169",
+        "stack_pointer_delta": 4,
+        "program_counter": "loaded from return stack; value unknown",
+        "condition_codes": "unchanged",
+        "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+      }
+    }
+  ],
+  "BIOS_sha256": "646a0687a01dc6c1fffff508ca25c14b78d30bdfcfa958d4c3e20f6bf78e4f1b",
+  "ROM_resident_offset": "0x84a6",
+  "resident_RAM_base": "0x3000",
+  "resident_bytes": 3584,
+  "resident_sha256": "5cad825d5916484cd91f7185c08c75db192b7bd5e36fb240971bedd985bb26de",
+  "BIOS_entry": "0x3048",
+  "BUTCH_register_writes": [
+    "0xdfff00",
+    "0xdfff04",
+    "0xdfff10",
+    "0xdfff0a"
+  ],
+  "source_sha256": {
+    "biwn_bios_controller_cpu.c": "2c4511d60329ad7502af39f66eb41cbe40d93cc59646fc9f2d5ed6e6f0f99957",
+    "biwn_bios_controller_cpu.h": "8759fa98aee011cec3a800c3af8c02f166201ac8b20e64896b76e37e9008dd5e"
+  },
+  "generator_sha256": "9ba857a1996263873c65213ed8a4a3841f1022827adc398bdd3cf775cbc8f9be",
+  "whole_game_complete": false
+}

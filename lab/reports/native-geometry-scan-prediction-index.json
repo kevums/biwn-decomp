@@ -1,0 +1,59 @@
+{
+  "predictions": [
+    {
+      "role": "Author",
+      "model": "advertising-scholar",
+      "seconds": 35.56,
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-20261019T053055.998598Z/author.json",
+      "response_sha256": "54c8ed41703627221455016aeb2ad58b8bc260a5c6a3cbb1ac170fb9f9c24b5a",
+      "request_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-20261019T053055.998598Z/author.json",
+      "endpoint": "http://127.0.0.1:1234/api/v1/chat",
+      "independent_review": null
+    },
+    {
+      "role": "Reviewer",
+      "model": "advertising-scholar",
+      "seconds": 35.62,
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-20261019T053055.998598Z/reviewer.json",
+      "response_sha256": "4ed32a192fda0ba650b8ef14d7e52d1f1111e9235ecbfe41dbcc26f52625aea5",
+      "request_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-20261019T053055.998598Z/reviewer.json",
+      "endpoint": "http://127.0.0.1:1234/api/v1/chat",
+      "independent_review": false
+    },
+    {
+      "role": "Author repair",
+      "model": "advertising-scholar",
+      "seconds": 37.16,
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-repair-20261019T053626.802858Z/author-repair.json",
+      "response_sha256": "5e22e324ea4399160bb33d7fa07ff48ced8029066862cd43a5c5b2bf0ee5bfe4",
+      "request_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-repair-20261019T053626.802858Z/author-repair.json",
+      "endpoint": "http://127.0.0.1:1234/api/v1/chat",
+      "independent_review": null
+    },
+    {
+      "role": "Reviewer",
+      "model": "advertising-scholar",
+      "seconds": 8.857485249987803,
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-repair-20261019T053626.802858Z/reviewer.json",
+      "response_sha256": "1bd0226c3703a2aaafd140fb12a9790c2a14803dfb7fcdf01d90da80bc401afa",
+      "request_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-repair-20261019T053626.802858Z/reviewer-request.json",
+      "endpoint": "local LM Studio SDK",
+      "independent_review": false
+    },
+    {
+      "role": "Author",
+      "model": "game-scan-q3-comparison",
+      "seconds": 10.84,
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-q3-20261019T054153.259102Z/author.json",
+      "response_sha256": "b8679b47634b7a0c025fb0923cff83f4349bca28fb486ae8770386a4c85361c3",
+      "request_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-geometry-scan-q3-20261019T054153.259102Z/author.json",
+      "endpoint": "http://127.0.0.1:1234/api/v1/chat",
+      "independent_review": null
+    }
+  ],
+  "count": 5,
+  "combined_seconds": 128.0374852499878,
+  "source": "Local LM Studio responses; coordinator test/build/observer work excluded",
+  "new_training": false,
+  "native_Chat_verified": false
+}

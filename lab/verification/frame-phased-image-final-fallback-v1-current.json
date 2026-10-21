@@ -1,0 +1,23 @@
+{
+  "status": "terminal_scene17_invalid_task_and_busy_fallback_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-final-fallback-v1/20261021T122302.087281Z",
+  "pid": 66850,
+  "completed": 384,
+  "new_predictions": 0,
+  "new_training": false,
+  "game_image_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene17_display_list_runtime_v1.py": "5f911bec5116f598ce916ac95c7d62cc83b6865bb45060dfdb672a4b677a91ee",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/display-list-fullCPU-generation.json": "288afb80953f3ebb2f3188b0e81f45def6ed8f55e97e70b9e36dab55aed6e03e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-display-list-algorithm-v2/coordinator-reference.inc": "8ceb5c3779c3523b07c7c2488785dd31588886e03b6a21688adae29d9102a257",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_gpu_family_bridge_events_v1.py": "857e35be36240690804c50357a043327731c4f28db0f507d3de5e7dfddbacf5e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/geometry_records_scene_runtime_v1.py": "9cf661c5ffc35347140407df20eb687b96b7000d3d5979956d322082d1c10e9d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_geometry_records_structured_host_v1.py": "52eaab05f4ee2b38e2d1927122a038ce5dffabff4c65f82b9c0c700115f37739",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_final_fallback_v1.py": "84ed71fdee07b5c0b187ef32b6de1bead1531bc46533bfe53a4e7f98fb83ed0b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_frame_phased_image_final_bridge_v1.py": "3563f1de7ae54548d1c6720d4295bf80737eddfbb6212daca8e8c6c82698f255",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-frame-phased-image-final-bridge-v1-current.json": "3ccf5f8a9d23d2720a8facf0042d2ef0ba596179bd5fb3434ea5be39327e345f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-frame-phased-image-final-bridge-v1/20261021T121843.519301Z/build/native-shared.bin": "66809d906fa6508634d04d69f48a0c9e3eb0e33744236d5fcf3850c83f5441b5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-final-fallback-v1/20261021T122302.087281Z/cases.json": "56b2a9338e0687f587c9ec3238c67b427d0150ae957d9e5f80918a883cd57219"
+  },
+  "scope": "Real scene-entry bridge fallback with invalid task IDs and busy alias frame.\nOriginal scene/records/copy/clear/rotation bodies execute; GPU mailbox busy/ack/completion reads\nare declared fixtures. No natural nesting/IRQ/disc gameplay claim.\n Sixfaults*64CCR/bankcases;busyframe118bytes plus Cstack208bytes and all101private slots stay byteidentical. This force-busy test is separate from actual outer/inner nesting."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "terminal_shared_and_record_observers_actual_fallback_and_alias_CPU_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-fallback-alias-observers-actual-CPU-v1/20261021T060255.183336Z",
+  "pid": 39354,
+  "CPU_lanes": 704,
+  "new_predictions": 0,
+  "new_training": false,
+  "fallback_CPU_lanes": 384,
+  "alias_CPU_lanes": 320,
+  "prior_body_CPU_lanes": 64,
+  "total_reviewed_witness_CPU_lanes": 768,
+  "record_calls": 192,
+  "copy_calls": 192,
+  "matrix_calls": 0,
+  "observer_guest_RAM_writes": 0,
+  "observer_CPU_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_fallback_alias_observers_actual_CPU_v1.py": "afac2ec8ae4c981ab6a035caebf700dd378ce3e482f5045599a69129f7e5724d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-record-observer-actual-CPU-v1-current.json": "20f6245a1351d0b9d85314ca456b6fca378d3c59ef989dafc90631cf37209f12",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-commit-observer-qualified-v1-current.json": "748f5cb74e63e1e389ae901b444c2d56511f607062d040a86f411efe6d11cc26",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1-current.json": "59de2f9847caea1bffb4add552ba3a891bb4e7dc6f08c4284c231a854868cc40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-commit-observer-qualified-v1/20261021T055802.143110Z/fixture.dylib": "efd72db005c986d4755e8f8653305ea82c452ad3c57b7e4abfbf9d4fef9d3faa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/fixture.dylib": "4a86dbd55fc2a759a6c9f2c9a2e55dbcab5c1482d3462bda3e1d7065c2c3c7bb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-fallback-alias-observers-actual-CPU-v1/20261021T060255.183336Z/fallback-harness.py": "9281fec0a6ecdeaddabd7eb55e7fbf06bc112aff03309e1cf224580a3dc0b3b9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-fallback-alias-observers-actual-CPU-v1/20261021T060255.183336Z/alias-harness.py": "3bc3d00e17f7973702a0b602405983eaadb7f788f9901d06a1218d385c719a58",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_final_fallback_v1.py": "8ba2e1aeaba6204878752b5d2cf5637a889f78ab40542ce2a616cb02e92c6606",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_alias_reentry_v1.py": "f609c6c6d975e5340905f0c177b4d4678e96ca7e0962e0fde3899db40668ea56",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-fallback-alias-observers-actual-CPU-v1/20261021T060255.183336Z/cases.json": "cc243fd26f32f6319df994b31045f00b2010b20249f80884388ca694c55fc802"
+  },
+  "scope": "Observe actual new-scene CPU lanes with exact shared and record witnesses.\n\nBoth functional lanes retain the whole-scene comparison's explicit device\nfixtures. Observer snapshots copy guest RAM/CPU into host-owned memory only.\nNo observer writes guest memory,registers,task state or scheduling.\n384actualinvalid/busyfallbacks and320actualinjectedscene-self/cross-rootJSRlanes. UnderlyingCPU/nonprivateRAM/helperrecordcomparisons also pass. E3E0 and input/face provider effects in nested fixtures are declared ABI adversaries;not GPUfidelity,natural nesting or arbitraryIRQ. Together with prior frozen64bodylanes,this qualifies768actualCPUlanes without replaying those64."
+}

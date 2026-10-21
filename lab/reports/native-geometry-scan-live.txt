@@ -1,0 +1,37 @@
+BIWN — COMPLETE102C4 SCANNER GAMEPLAY COMPARISON
+2026-10-19T05:53:12.124097+00:00
+
+The17812byte resident disc and its same-layout original-scanner-entry control completed 24996 candidate and 24978 control frames and returned outdoors. Only the102C4eight-byte entry was restored in the control; preceding1028Eand1039Cnative routines remain compiled in both. The scanner candidate executed 4753 compiled calls: 11 success returns, 4742 failure returns, including 0 skips. It inspected 56868 records. The control executed 4787 original calls: 11 successes and 4776 failures.
+
+Both live scanner contracts passed full register/SR/USP/SSP outputs, six object fields, return/argument bytes and task-stack observations with zero reported errors/pending/outside. Candidate private depth 64bytes, minimum observed task headroom 678bytes. The stable-entry oracle was first qualified against1377original and1377final-address compiled component cases. Live data stability is an assumption tested by return agreement; separately controlled changing-read fixtures cover768cases. Unreached live return paths remain component-only.
+
+Differences between aligned recorded frames:
+{
+  "CPU_full": 22180,
+  "full_RAM_sha256": 24970,
+  "full_GPU_state_sha256": 24516,
+  "full_DSP_state_sha256": 9141,
+  "video_sha256": 18308,
+  "navigation": 19845,
+  "locomotion_state": 273,
+  "held_buttons": 381
+}
+First differing frames:
+{
+  "full_RAM_sha256": 9,
+  "CPU_full": 359,
+  "full_GPU_state_sha256": 359,
+  "navigation": 605,
+  "video_sha256": 606,
+  "locomotion_state": 988,
+  "held_buttons": 988,
+  "full_DSP_state_sha256": 15838
+}
+Compared aligned prefix: 24978frames; frame counts equal: False. Full captured PCM streams equal: False.
+
+These differences are retained as limits; passing the function contract does not establish cycle or whole-machine equivalence. RAM hashes do not identify all changed addresses. Both runs retain emulator CPU/GPU/DSP/IRQ and platform services. Preceding-disc C-instruction-provider comparisons do not verify this new disc. This428byte scanner, ABI, layout/bounds helper, observer and integration are coordinator work after all three local candidates failed. Five actual local predictions and exact prompts/raw outputs are recorded separately. No weights changed; native Chat display, physical-console boot, complete source rebuild and default preview promotion are not established.
+
+Exact local model work:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-scan-prompts-and-responses.txt
+Development/component evidence:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-scan-development.txt

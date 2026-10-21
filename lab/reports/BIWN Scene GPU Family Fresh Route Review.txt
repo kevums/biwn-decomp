@@ -1,0 +1,15 @@
+BIWN v30 — fresh route passes; fidelity and capacity remain open
+
+Fresh HLE CD boot completes25001 candidate and24969 control frames. All6318 native scene calls and5304 captured geometry-record calls return. Display-list, rotation and clear helpers each return5304 times. Retained/shared/face/geometry/outer/reset/display/clear/rotation monitors finish clear and quiescent. No checkpoint restoration or host RAM/CPU/task repair was used. Individual internal GPU helper counts were not instrumented in this fresh route.
+
+There are8481 paired video differences and460 held-input differences. Selected positions and scene fields differ during the routes; final video and selected final fields agree. Audio is silent in both captures. Their feedback inputs differ, so these counts do not isolate a timing, logic or speed cause. No v30 identical-input prefix has been reviewed. Earlier fixed-prefix445 differences belong to v29.
+
+Module48738 bytes; connected scene stack168/208. Initial heap120320 bytes; minimum sampled free heap while the outer task was active is560 bytes in each lane, not a measured global minimum. The old outer C stack uses356 bytes in component tests; a separate persistent-context prototype uses164 but has not changed this disc or its arena. Memory reclamation is the next priority before adding larger recovered source blocks.
+
+Six already recovered GPU command CPU helpers execute directly inside the scene C provider;170A0 remains its only captured service. Global GPU entries were redirected by earlier work and remain inherited in both lanes. The internal E098 idle-only wait bypasses the inherited global wait guard for pending commands. Passing this finite route does not prove that restoration behavior is equivalent under other device schedules. Older metadata saying the global GPU entries were original is corrected by the byte audit in the component review. GPU programs, other original CPU/DSP/rendering/device/HLE dependencies remain.
+
+This is coordinator source. The local Author/Repair attempts remain rejected, with exact prompts and responses saved. No optimizer update, model-source adoption, new training-quality result or copied-weight Native Chat rendering claim follows. The Desktop checkpoint preview is unchanged; whole-game source rebuilding and physical-console/audio/IRQ fidelity remain unproven.
+
+Reclaim private outer-task stack/arena capacity before adding larger source blocks. Review identical-input v30 differences and the scene-internal wait that bypasses the inherited pending-command guard. Continue170A0 geometry records and remaining CPU/GPU/DSP/HLE recovery; useful training quality, copied-weight Native Chat, whole-game rebuilding, audio and physical-console fidelity remain open.
+
+Comparison: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-gpu-family-fresh-reviewed-v1/20261021T035303.132156Z/fresh-comparison.json

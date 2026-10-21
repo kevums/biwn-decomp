@@ -1,0 +1,12 @@
+BIWN — LEAN NATIVE INDEXED SELECTOR
+2026-10-19T05:04:17.432511+00:00
+
+The coordinator selector now uses an explicit68000 object/header/record field layout and a smaller private register ABI. All field offsets and two-byte object alignment are compile-time checked. Volatile public access widths/order, signed16 gates/indices, partial registers, X/CCR and32bit tagged pointer values remain intact. The guest bus resolves addresses through24bits. No original opcode service replaces the C implementation.
+
+Four bounded development variants were measured on identical1280stable+512changing fixtures with identical full CPU outputs and original instruction coverage46/46. All passed native CPU/public-RAM and ordered-access gates. Selected Os typed variant:298bytes and64bytes private stack, versus324bytes and112bytes for the first accepted coordinator port. O2 passed but used316bytes/72stack and more measured cycles than Os; it was not selected.
+
+Across the1792controlled cases, selected compiled cycle sum is 1,708,288, versus 2,033,920 for the324byte version (16.01% reduction). A successful fixture used1104cycles versus1290before and628for the original. These are pinned-emulator instruction charges in development component tests, not physical timing or a whole-game speedup. The compiled implementation remains slower than original in these measurements.
+
+The exact final-address selector also passed1280stable+512changing checks and96startup checks. Its isolated derived disc contains17,382resident bytes in the same20,480byte reservation after the unchanged17,084byte boundary parent. Heap floor and original CDI remain unchanged. Fresh retained-native candidate/original-entry gameplay comparisons are separate; their visual/audio/state agreement is measured, not inferred from these component results. No preview promotion or full console rebuild.
+
+All accepted C/ABI, compiler experiments, fixtures and integration are coordinator work. The earlier local Author and one repair both failed; the two same-weight reviews were unreliable. No new local game-code prediction or weights were produced by this optimization. Native Chat display remains unverified.

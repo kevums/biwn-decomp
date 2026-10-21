@@ -1,0 +1,74 @@
+{
+  "time": "2026-10-12T20:58:48.947885+00:00",
+  "tables": [
+    {
+      "interval": [
+        "0xf033e8",
+        "0xf03428"
+      ],
+      "source_payload_offset": "0x370",
+      "bytes": "00f0346400f0346000f0345c00f0345800f0345400f0345000f0344c00f0344800f0344400f0344000f0343c00f0343800f0343400f0343000f0342c00f03428",
+      "be32_targets": [
+        "0xf03464",
+        "0xf03460",
+        "0xf0345c",
+        "0xf03458",
+        "0xf03454",
+        "0xf03450",
+        "0xf0344c",
+        "0xf03448",
+        "0xf03444",
+        "0xf03440",
+        "0xf0343c",
+        "0xf03438",
+        "0xf03434",
+        "0xf03430",
+        "0xf0342c",
+        "0xf03428"
+      ],
+      "load_address": "0xf033e2",
+      "indirect_jump_address": "0xf033e4",
+      "basis": "Earlier MOVEI selects this base; masked index is shifted to4-byte stride; LOAD reads a32-bit entry followed by indirect JUMP. Static inferred table, not runtime coverage.",
+      "index_mask": "0xf00",
+      "entries_selectable_by_shown_mask": 16
+    },
+    {
+      "interval": [
+        "0xf034b8",
+        "0xf034f8"
+      ],
+      "source_payload_offset": "0x440",
+      "bytes": "00f0353400f0353000f0352c00f0352800f0352400f0352000f0351c00f0351800f0351400f0351000f0350c00f0350800f0350400f0350000f034fc00f034f8",
+      "be32_targets": [
+        "0xf03534",
+        "0xf03530",
+        "0xf0352c",
+        "0xf03528",
+        "0xf03524",
+        "0xf03520",
+        "0xf0351c",
+        "0xf03518",
+        "0xf03514",
+        "0xf03510",
+        "0xf0350c",
+        "0xf03508",
+        "0xf03504",
+        "0xf03500",
+        "0xf034fc",
+        "0xf034f8"
+      ],
+      "load_address": "0xf034b0",
+      "indirect_jump_address": "0xf034b2",
+      "basis": "Earlier MOVEI selects this base; masked index is shifted to4-byte stride; LOAD reads a32-bit entry followed by indirect JUMP. Static inferred table, not runtime coverage.",
+      "index_mask": "0x700",
+      "entries_selectable_by_shown_mask": 8,
+      "limit": "16 pointer-shaped words stored, but the shown0x700 mask can select only the first8. No reachability claim for the remaining8."
+    }
+  ],
+  "return_candidate": {
+    "address": "0xf03580",
+    "instruction": "jump (r25)"
+  },
+  "scope": "Static dispatch-table classification. Linear decoder output in these intervals is data rendered as instructions and must not be treated as executed code. No decompression or rendering format named.",
+  "next": "Trace repeated16-bit stores and byte/lookup dataflow, independently establish BIOS CD-read ABI and nextstage0x4000 mapping."
+}

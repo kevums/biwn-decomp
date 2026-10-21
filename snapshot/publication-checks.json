@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-21T17:42:32.355759+00:00",
+  "copied_file_count": 19985,
+  "copied_source_hashes_verified": true,
+  "hash_errors": [],
+  "credential_pattern_findings": [],
+  "credential_scan_scope": "Copied source and evidence; known credential patterns, not a universal guarantee.",
+  "python_syntax_errors_in_preserved_historical_files": [],
+  "standalone_module_rebuilds": [
+    {
+      "module": "dispatch",
+      "exit_code": 0,
+      "bytes": 476,
+      "sha256": "1c43908876c19919b6bafcd8b5d8172ca85ec381a49e7be40cfdc7bcfda198d3",
+      "matches_integrated_v41_bytes": true
+    },
+    {
+      "module": "initialize",
+      "exit_code": 0,
+      "bytes": 1570,
+      "sha256": "aaba9dbe14cb495afc7ec8e5210f23f4c950d67b7b5f8bd8a040b4f03eedc0dc",
+      "matches_integrated_v41_bytes": true
+    },
+    {
+      "module": "frame_early",
+      "exit_code": 0,
+      "bytes": 1536,
+      "sha256": "174ba2efe0f4234d2d316f00245e246fb30084d23e7dde4f8852c7eff2c18bd1",
+      "matches_integrated_v41_bytes": true
+    },
+    {
+      "module": "frame_tail",
+      "exit_code": 0,
+      "bytes": 240,
+      "sha256": "41b43b580dd04ffccb2110f7e7046febc200fa8f2ec1e103884ac844223348a1",
+      "matches_integrated_v41_bytes": true
+    }
+  ],
+  "full_game_tests_rerun": false,
+  "new_decompilation_or_inference_or_training": false
+}

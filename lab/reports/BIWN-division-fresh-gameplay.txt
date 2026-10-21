@@ -1,0 +1,21 @@
+BIWN DIVISION BACKEND — FRESH GAMEPLAY CHECK
+2026-10-18T23:57:19.259250+00:00
+
+A new fresh 1,600-frame C CPU/GPU/DSP/interrupt run matches the immutable native control on every recorded full CPU, all 2 MB RAM, GPU/DSP state, video, navigation, locomotion and held-button field. Captured PCM is byte-identical and silent. The native control was reused from the exact earlier fresh run with matching core, disc and input bytes; it was not rerun for this experiment. No checkpoint was restored and no live guest RAM was patched.
+
+The new division provider executes 7,462 normal division instructions: 7,443 unsigned and 19 signed, with zero errors. No zero-divisor exception occurs in this ordinary gameplay run. These are execution counts, not new recovered functions or a completion percentage.
+
+The local model's unedited 17.85-second C function handles zero-exception entry. It is validated by the earlier 34,944 native CPU/RAM/cost fixtures and 11,264 strict-owner fault/RTE roundtrips, plus 22 host guards. It was not naturally invoked in this normal gameplay sample. The coordinator wrote the normal/overflow division wrapper, cost fixes, observation counter and fresh-gameplay driver.
+
+The C CPU has zero original opcode fallback after mainstage4000; the 2,837,350 earlier bootstrap callbacks remain native. GPU/DSP and source interrupt providers have no original instruction fallback or rejection in the tested C run. Firmware HLE, devices, blitter/object processor, IRQ lines/ACK/vector resolution, host state commit/prefetch and emulator clock/cost services remain supplied. This is not a standalone console rebuild, a physical timing/audio test or complete game recovery.
+
+The existing preview and the separately running long merchant comparison keep their previous candidates. No new weights or default promotion occurred. The new division candidate still needs broader scene/route and fault/IRQ testing before wider use.
+
+Fresh C run and exact command:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/CPU-division-fresh-gameplay/20261018T235102.006421Z/protocol.json
+Native control:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-C-processors/20261018T233023.397005Z/reference/report.json
+Local Author prompt/response:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/divzero-Code-Author-compact-20261018T233916.591909Z/prompts-and-responses.txt
+Reusable helper:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/division-exceptions-C

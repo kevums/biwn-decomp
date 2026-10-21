@@ -1,0 +1,41 @@
+[
+  {
+    "name": "biwn_actor_dispatch_phase",
+    "start": 1456008,
+    "end": 1456300,
+    "instructions": 104,
+    "maximum_leaf_stack_bytes": 16,
+    "returns": [
+      1456204
+    ],
+    "all_control_flow_joins_SP_consistent": true,
+    "no_calls_or_dynamic_stack_allocation": true,
+    "wrapper_C_phase_depth": 136
+  },
+  {
+    "name": "biwn_actor_initialize_start",
+    "start": 1456580,
+    "end": 1457292,
+    "instructions": 249,
+    "maximum_leaf_stack_bytes": 20,
+    "returns": [
+      1457238
+    ],
+    "all_control_flow_joins_SP_consistent": true,
+    "no_calls_or_dynamic_stack_allocation": true,
+    "wrapper_C_phase_depth": 156
+  },
+  {
+    "name": "biwn_actor_initialize_after_placement",
+    "start": 1457292,
+    "end": 1457896,
+    "instructions": 169,
+    "maximum_leaf_stack_bytes": 8,
+    "returns": [
+      1457552
+    ],
+    "all_control_flow_joins_SP_consistent": true,
+    "no_calls_or_dynamic_stack_allocation": true,
+    "wrapper_C_phase_depth": 144
+  }
+]

@@ -1,0 +1,28 @@
+BIWN actor/sprite source component — experimental source-owned C ABI
+
+Build all five source bodies with:
+  make -f Makefile.actor-group-restored actor-group-restored
+Run from this directory; BUILD=/absolute/output/path is optional.
+
+actor-group-restored.c is an exact copy of the coordinator-corrected local
+Author derivative. The raw Author and its one repair failed their gates;
+this is not an independently accepted local-model output. Source provenance,
+precise patches, inputs, transcripts and the original-CPU component proof
+are recorded in verification/actor-group-source-publication-current.json.
+
+The module contains13AE0/134DC/137E0/10520/105DA and closes their internal calls.
+Four explicit external services remain:102C4/DF6C/152A2/E2B8. The provided linker
+places a service RTS boundary at1D1000 for component execution. That boundary
+is a test prescription; this binary is not a runnable standalone game.
+
+All2596coupled cases pass on Unicorn; all2596also replay on the retained native
+68000 core. The native replay checks instruction PC sequence, full logicalD0,
+public2MBRAM, C callee saves, return/root argument bytes and immutable source
+text. Unicorn provides instruction-order/read-queue schedules, so native bus
+transactions are not independently observed. Only four external services are
+prescribed; real task creation/decoder/allocator behavior remains outside scope.
+
+3384compiled bytes; maximum248private stack bytes in these fixtures. The
+current disc has1592reserve bytes free. No layout expansion is adopted, no
+original volatile-register/SR ABI is provided, and no disc replacement or
+physical-console/full-game reconstruction is established by this component.

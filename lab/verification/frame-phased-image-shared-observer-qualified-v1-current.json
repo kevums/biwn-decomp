@@ -1,0 +1,30 @@
+{
+  "status": "terminal_six_root_admission_C_floor_and_scene_commit_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z",
+  "fixture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/fixture.c",
+  "fixture_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/fixture.dylib",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c",
+  "ELF_C_functions": 52,
+  "C_floor": "0x16e6ce",
+  "C_floor_legal_controls": 624,
+  "C_floor_rejected_controls": 624,
+  "invalid_admission_legal_cases": 1920,
+  "busy_fallback_controls": 54,
+  "invalid_admission_corruption_controls": 42,
+  "scene_commit_controls": 704,
+  "new_predictions": 0,
+  "new_training": false,
+  "host_guest_RAM_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_shared_observer_v1.py": "dfaaab3d6f5c918503f953d4a63cd0a2e324635cfd76b7dd69fd824d865328b5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualified-v1-current.json": "542877b4208db222340532670d30034fc4b15c88a0dc4cf522df7180fa28a109",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c": "17da49b1180a1acc0ac50ea22658dd356572b5ed7568326a2b8ff72992f121dc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/fixture.c": "957a19405f49e7401e70dead9bdff25e63be88089540ac05c238a8df52fb7ccd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/fixture.dylib": "487064120b3e9682cc2153d5ce0230afe433ba0a3b1bcb2ea8b1b9f0facb72dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/shared-build/native-shared.elf": "81e29ce776a8e4371239752b15c7ca52c72fb4b5b093327e1e50fc2a5aae879e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/ELF-symbols.txt": "7100eada0874784cb410f0a3efe9eb7fd62bb03749455f2c681feff8705c5042",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/cases.json": "97e5452f01a231c0d80462b22e1cd47aeca1d0c72cd4732c3fa5311ae081f97a"
+  },
+  "scope": "Synthetic controls for exact six-root admission, C-stack and scene commit observer.\nHost memory/CPU fixtures only;no guest execution or runtime repair.\nNativeentriescountacceptedbodyadmissions;attemptsandvalidatedfallbacksseparate.Invalidtaskfallbackmustpreserveall16registersandSR.Busyaliasfallbackalsopreserves118byteframeanddeclaredCstack.NativeCmustbelongtoexactlyonependingframe.Scenecommitchecksallregisters,SR,logicalPC,activebankandclearedactive/error."
+}

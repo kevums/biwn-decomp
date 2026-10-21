@@ -1,0 +1,10 @@
+{
+  "status": "observation_timeout_no_UI_state_returned",
+  "requested_app": "LM Studio",
+  "reported_wall_seconds": 120.7094,
+  "screen_lock_state_known": false,
+  "inference_launched_through_UI": false,
+  "unlock_requested": false,
+  "native_Chat_verified": false,
+  "next_action": "Continue permitted headless work;do not infer locked screen or a live model process from observation timeout."
+}

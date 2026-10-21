@@ -1,0 +1,25 @@
+{
+  "status": "terminal_shared_and_record_observers_actual_compiled_scene_CPU_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-record-observer-actual-CPU-v1/20261021T122536.090661Z",
+  "pid": 67247,
+  "CPU_lanes": 64,
+  "new_predictions": 0,
+  "new_training": false,
+  "all32CCR_both_banks": true,
+  "record_calls": 39,
+  "copy_calls": 102,
+  "matrix_calls": 33,
+  "observer_guest_RAM_writes": 0,
+  "observer_CPU_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_observer_actual_CPU_v1.py": "92e849765f317b3826ef3ecb33ca076f68359d3851703176aa8f70d7a4c62768",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1-current.json": "6839c6dc9fda5c98f31affdd771f255726e418928dbd8c87ce786ef744f98715",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1-current.json": "49b5a470c50fc30e9e50a8879ffde43143324eb924cc0bbb3b7ff638768ea17b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/fixture.dylib": "fbf3f597b9c0d2a3402a218b71d03aebad3e26b060bfb43cbc83d996d73e3288",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/fixture.dylib": "487064120b3e9682cc2153d5ce0230afe433ba0a3b1bcb2ea8b1b9f0facb72dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-record-observer-actual-CPU-v1/20261021T122536.090661Z/observed-whole-scene-harness.py": "620357d5d47f8b3f5eb80faa724d2a7fd8577280fadc0e4a118f550031019884",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_whole_scene_disc_v3.py": "6dadc9731fc3a53d95e5a4e3a81f5df5e2d33e416a703bce46d647e5955a3b92",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-record-observer-actual-CPU-v1/20261021T122536.090661Z/cases.json": "40bbf97ceb524cd1eb9b8b31684bcd90f948db35beb026b5d4a88dc8c359d89d"
+  },
+  "scope": "Observe actual new-scene CPU lanes with exact shared and record witnesses.\n\nBoth functional lanes retain the whole-scene comparison's explicit device\nfixtures. Observer snapshots copy guest RAM/CPU into host-owned memory only.\nNo observer writes guest memory,registers,task state or scheduling.\n64selected compiled scene lanes across all32CCR/bothbanks include dense records and real inherited copy/matrix providers;functional pairedCPU/RAM/MMIO comparison also passes. Generic shared witness and new record commits/provider protection finish with zero errors/outside/pending. This does not cover fallback/reentry or fresh gameplay."
+}

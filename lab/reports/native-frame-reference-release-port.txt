@@ -1,0 +1,18 @@
+NATIVE FRAME-REFERENCE RELEASE — 2026-10-19T01:19:33.832899+00:00
+
+One previously recovered routine,original1AE88..1AED8,now builds as native68000C with its original calling convention. This is one additional native port,not a newly discovered logical function or a complete source-built game.
+Coordinator wrote the native adaptation,including register/CCR results,public D3/D2 stack saves and fresh volatile reads. No local-model code generation or new training was used for this routine. Compiler/emulator checks are tools,not agents.
+
+Verification:864full CPU/2MBpublicRAM cases and868ordered-access checks at both standalone and final linked addresses;29/29original instruction addresses covered.96startup-entry cases verify payload installation,staging clear and original400Aresume.
+The new payload is14,972bytes: all14,690parent bytes unchanged,plus280semantic code bytes and2explicit alignment bytes. Reservation16,384bytes andheap0x162dc0 stay fixed. A separate derived CDI changes251bytes relative to the repaired parent. Original images and current preview are untouched.
+First build guard rejected a linker-added NOP; no disc was made in that failed attempt. Final build accounts for alignment and targets the actual symbol0x162724.
+
+Live scope:1600frames never called the routine.2600frame Deck/Option and3000frame raw mail-input pairs call it once per candidate,only withIDFFFF(negative early return). Their recorded behavior/PCM matches the parent. The raw mail-input sequence does not establish a working mail roundtrip.
+With the existing38byte selector/count repairs applied equally to both separate discs,the3000frame pair calls and returns through the compiled routine twice,still onlyIDFFFF. It executes100native guest instructions there and zero old routine-body instructions. Position,mode,floor,navigation andsilent PCM match;video differs on12frames2069..2141andthe final image matches. The cause of those differences is unresolved. Positive-ID reference decrements are fixture verified,not natural-gameplay verified. No default promotion or performance claim.
+
+Native C: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-reference-release-native.c
+Standalone rebuild: make -f "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.frame-reference-release" frame-reference-release BUILD=/tmp/biwn-frame-reference-release
+Experimental CDI: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-frame-release/20261019T011246.764345Z/BIWN-23-native-frame-release-experimental.cdi
+Full review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-release-review/20261019T011933.832899Z/review.json
+Shared-repair game proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-release-gameplay/20261019T011744.885444Z
+Existing combined long-route and model-training processes remain separate on their original inputs. Full readable engine source,standalone source-built game,physical-console/audio and representative model gains remain unfinished.

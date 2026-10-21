@@ -1,0 +1,134 @@
+{
+  "status": "terminal_copied_training_two_updates_unpromoted",
+  "directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/copied-game-training-check-v1/20261020T210201.710998Z",
+  "pid": 55343,
+  "optimizer_updates": 2,
+  "new_training": true,
+  "base_weights_modified": false,
+  "adapter_promoted": false,
+  "quality_evaluated": false,
+  "scope": "Two fresh unpromoted updates to verify the moved game's training runtime.\nUse the reviewed full geometry curriculum without truncation or held-out scoring.\nThis proves copied training capability, not model quality or completed training.\n",
+  "coordination_lock": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/.inference.lock",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "copied_weights": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+  "data": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z",
+  "training_command": [
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/runtime/.venv/bin/python3.12",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/scripts/train.py",
+    "game",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z",
+    "--repo",
+    "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+    "--iters",
+    "2",
+    "--num-layers",
+    "1",
+    "--max-seq-length",
+    "8960",
+    "--learning-rate",
+    "1e-5",
+    "--reasoning-off",
+    "--cache-limit-gb",
+    "2",
+    "--target-head-chunk",
+    "64",
+    "--eager",
+    "--wall-budget-seconds",
+    "600"
+  ],
+  "maximum_complete_example_tokens": 8834,
+  "model_state_before": [
+    {
+      "type": "llm",
+      "modelKey": "local/portable-ailab-4f5658686590-daily-configured",
+      "format": "safetensors",
+      "displayName": "Portable Ailab 4f5658686590 Daily Configured",
+      "publisher": "local",
+      "path": "local/portable-ailab-4f5658686590-daily-configured",
+      "sizeBytes": 22804840649,
+      "indexedModelIdentifier": "local/portable-ailab-4f5658686590-daily-configured",
+      "deviceIdentifier": null,
+      "paramsString": "27B",
+      "architecture": "qwen3_5",
+      "quantization": {
+        "name": "6bit",
+        "bits": 6
+      },
+      "variants": [
+        "local/portable-ailab-4f5658686590-daily-configured@6bit"
+      ],
+      "selectedVariant": "local/portable-ailab-4f5658686590-daily-configured@6bit",
+      "identifier": "portable-ailab-4f5658686590-daily",
+      "ttlMs": 3600000,
+      "lastUsedTime": 1792529381881,
+      "vision": true,
+      "trainedForToolUse": true,
+      "maxContextLength": 262144,
+      "contextLength": 32768,
+      "status": "idle",
+      "queued": 0,
+      "parallel": 1,
+      "engineConfigFileEnabled": false
+    }
+  ],
+  "child_pid": null,
+  "job": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T210209.430446Z",
+  "training_reports": [
+    {
+      "iteration": 1,
+      "train_loss": 0.2968955636024475,
+      "learning_rate": 9.999999747378752e-06,
+      "iterations_per_second": 0.012449118862705133,
+      "tokens_per_second": 38.48022640462157,
+      "trained_tokens": 3091,
+      "peak_memory": 50.419748407
+    },
+    {
+      "iteration": 2,
+      "train_loss": 0.22395215928554535,
+      "learning_rate": 9.999999747378752e-06,
+      "iterations_per_second": 0.016461066968472188,
+      "tokens_per_second": 32.74106220029118,
+      "trained_tokens": 5080,
+      "peak_memory": 50.419748407
+    }
+  ],
+  "adapters": {
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T210209.430446Z/adapters/adapters.safetensors": "2e82e8c48aa02dd162f737a7a5b101e92bed47eeb0a5b35cd892359b54a4a2a9"
+  },
+  "previous_model_restored": true,
+  "loaded_models_after": [
+    {
+      "type": "llm",
+      "modelKey": "local/portable-ailab-4f5658686590-daily-configured",
+      "format": "safetensors",
+      "displayName": "Portable Ailab 4f5658686590 Daily Configured",
+      "publisher": "local",
+      "path": "local/portable-ailab-4f5658686590-daily-configured",
+      "sizeBytes": 22804840649,
+      "indexedModelIdentifier": "local/portable-ailab-4f5658686590-daily-configured",
+      "deviceIdentifier": null,
+      "paramsString": "27B",
+      "architecture": "qwen3_5",
+      "quantization": {
+        "name": "6bit",
+        "bits": 6
+      },
+      "variants": [
+        "local/portable-ailab-4f5658686590-daily-configured@6bit"
+      ],
+      "selectedVariant": "local/portable-ailab-4f5658686590-daily-configured@6bit",
+      "identifier": "portable-ailab-4f5658686590-daily",
+      "ttlMs": 3600000,
+      "lastUsedTime": 1792530294146,
+      "vision": true,
+      "trainedForToolUse": true,
+      "maxContextLength": 262144,
+      "contextLength": 32768,
+      "status": "idle",
+      "queued": 0,
+      "parallel": 1,
+      "engineConfigFileEnabled": false
+    }
+  ]
+}

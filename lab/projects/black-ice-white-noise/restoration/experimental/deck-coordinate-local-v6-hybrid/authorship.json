@@ -1,0 +1,59 @@
+{
+  "raw_model_candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-coordinate-native-20261019T174759.152074Z/repair/candidate.c",
+  "raw_model_candidate_sha256": "50e1489a2c04670aa4f168ebb089d87ec9377bfd5fcf1dbb90642e0037a9df69",
+  "raw_model_candidate_verified": false,
+  "coordinator_edits": [
+    {
+      "original": "deck_push(s, deck_read(s, 0x40104, 4));",
+      "replacement": "pushed = deck_read(s, 0x40104, 4);\n    deck_push(s, pushed);\n    deck_nz(s, pushed, 32);",
+      "purpose": "Original MOVE.L into stack sets NZVC,keeps X;cache original read value,no new bus read."
+    },
+    {
+      "original": "deck_push(s, deck_read(s, 0x40406, 4));",
+      "replacement": "pushed = deck_read(s, 0x40406, 4);\n    deck_push(s, pushed);\n    deck_nz(s, pushed, 32);",
+      "purpose": "Original MOVE.L into stack sets NZVC,keeps X;cache original read value,no new bus read."
+    },
+    {
+      "original": "deck_push(s, deck_read(s, 0x4040a, 4));",
+      "replacement": "pushed = deck_read(s, 0x4040a, 4);\n    deck_push(s, pushed);\n    deck_nz(s, pushed, 32);",
+      "purpose": "Original MOVE.L into stack sets NZVC,keeps X;cache original read value,no new bus read."
+    },
+    {
+      "original": "deck_push(s, deck_read(s, 0x40402, 4));",
+      "replacement": "pushed = deck_read(s, 0x40402, 4);\n    deck_push(s, pushed);\n    deck_nz(s, pushed, 32);",
+      "purpose": "Original MOVE.L into stack sets NZVC,keeps X;cache original read value,no new bus read."
+    },
+    {
+      "original": "deck_push(s, r[0]);",
+      "replacement": "deck_push(s, r[0]);\n    deck_nz(s, r[0], 32);",
+      "purpose": "Original MOVE.L argument push sets NZVC,keeps X."
+    },
+    {
+      "original": "deck_push(s, r[0]);",
+      "replacement": "deck_push(s, r[0]);\n    deck_nz(s, r[0], 32);",
+      "purpose": "Original MOVE.L argument push sets NZVC,keeps X."
+    },
+    {
+      "original": "deck_push(s, r[3]);",
+      "replacement": "deck_push(s, r[3]);\n    deck_nz(s, r[3], 32);",
+      "purpose": "Original MOVE.L argument push sets NZVC,keeps X."
+    },
+    {
+      "original": "deck_push(s, r[3]);",
+      "replacement": "deck_push(s, r[3]);\n    deck_nz(s, r[3], 32);",
+      "purpose": "Original MOVE.L argument push sets NZVC,keeps X."
+    },
+    {
+      "original": "deck_push(s, r[4]);",
+      "replacement": "deck_push(s, r[4]);\n    deck_nz(s, r[4], 32);",
+      "purpose": "Original MOVE.L argument push sets NZVC,keeps X."
+    },
+    {
+      "original": "deck_push(s, r[4]);",
+      "replacement": "deck_push(s, r[4]);\n    deck_nz(s, r[4], 32);",
+      "purpose": "Original MOVE.L argument push sets NZVC,keeps X."
+    }
+  ],
+  "extra_glue": "One coordinator localtemporary caches four original GPU argument reads.",
+  "scope": "TenexplicitMOVE.L stackflagupdates. Rawlocaloutputremainsrejected. HybridmustpassunchangedoriginalCPUcheckerbeforeintegration."
+}

@@ -1,0 +1,11 @@
+include Makefile.bundle
+OPT_SOURCE ?= math-results-optimized.c
+.PHONY: optimized
+optimized: $(BUILD)/native-optimized.elf $(BUILD)/native-optimized.bin
+
+$(BUILD)/math-results-optimized.o: $(OPT_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -I.. -c $< -o $@
+$(BUILD)/native-optimized.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/math-shims.o $(BUILD)/math-results-optimized.o $(BUILD)/startup-finalize.o bundle.ld
+	$(CROSS)ld --gc-sections -T bundle.ld -Map $(BUILD)/native-optimized.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-optimized.bin: $(BUILD)/native-optimized.elf
+	$(CROSS)objcopy -O binary $< $@

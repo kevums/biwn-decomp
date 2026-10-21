@@ -1,0 +1,2762 @@
+[
+  {
+    "address": 0,
+    "bytes": "00f1",
+    "size": 2,
+    "assembly": "Observed DSP op0 r7,r17"
+  },
+  {
+    "address": 2,
+    "bytes": "bd11",
+    "size": 2,
+    "assembly": "Observed DSP op47 r8,r17"
+  },
+  {
+    "address": 4,
+    "bytes": "0018",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r24"
+  },
+  {
+    "address": 6,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 8,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 10,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 12,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 14,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 16,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 18,
+    "bytes": "0402",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r2"
+  },
+  {
+    "address": 20,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 22,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 24,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 26,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 28,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 30,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 32,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 34,
+    "bytes": "ddfe",
+    "size": 2,
+    "assembly": "Observed DSP op55 r15,r30"
+  },
+  {
+    "address": 36,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 38,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 40,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 42,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 44,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 46,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 48,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 50,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 52,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 54,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 56,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 58,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 60,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 62,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 64,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 66,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 68,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 70,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 72,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 74,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 76,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 78,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 80,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 82,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 84,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 86,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 88,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 90,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 92,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 94,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 96,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 98,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 100,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 102,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 104,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 106,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 108,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 110,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 112,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 114,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 116,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 118,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 120,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 122,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 124,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 126,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 128,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 130,
+    "bytes": "de08",
+    "size": 2,
+    "assembly": "Observed DSP op55 r16,r8"
+  },
+  {
+    "address": 132,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 134,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 136,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 138,
+    "bytes": "deb6",
+    "size": 2,
+    "assembly": "Observed DSP op55 r21,r22"
+  },
+  {
+    "address": 140,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 142,
+    "bytes": "dee2",
+    "size": 2,
+    "assembly": "Observed DSP op55 r23,r2"
+  },
+  {
+    "address": 144,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 146,
+    "bytes": "def6",
+    "size": 2,
+    "assembly": "Observed DSP op55 r23,r22"
+  },
+  {
+    "address": 148,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 150,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 152,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 154,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 156,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 158,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 160,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 162,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 164,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 166,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 168,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 170,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 172,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 174,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 176,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 178,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 180,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 182,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 184,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 186,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 188,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 190,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 192,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 194,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 196,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 198,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 200,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 202,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 204,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 206,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 208,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 210,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 212,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 214,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 216,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 218,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 220,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 222,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 224,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 226,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 228,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 230,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 232,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 234,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 236,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 238,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 240,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 242,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 244,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 246,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 248,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 250,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 252,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 254,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 256,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 258,
+    "bytes": "e7d4",
+    "size": 2,
+    "assembly": "Observed DSP op57 r30,r20"
+  },
+  {
+    "address": 260,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 262,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 264,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 266,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 268,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 270,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 272,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 274,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 276,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 278,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 280,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 282,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 284,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 286,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 288,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 290,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 292,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 294,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 296,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 298,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 300,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 302,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 304,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 306,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 308,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 310,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 312,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 314,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 316,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 318,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 320,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 322,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 324,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 326,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 328,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 330,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 332,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 334,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 336,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 338,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 340,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 342,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 344,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 346,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 348,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 350,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 352,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 354,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 356,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 358,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 360,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 362,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 364,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 366,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 368,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 370,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 372,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 374,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 376,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 378,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 380,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 382,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 384,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 386,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 388,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 390,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 392,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 394,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 396,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 398,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 400,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 402,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 404,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 406,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 408,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 410,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 412,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 414,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 416,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 418,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 420,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 422,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 424,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 426,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 428,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 430,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 432,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 434,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 436,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 438,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 440,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 442,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 444,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 446,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 448,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 450,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 452,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 454,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 456,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 458,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 460,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 462,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 464,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 466,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 468,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 470,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 472,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 474,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 476,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 478,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 480,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 482,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 484,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 486,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 488,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 490,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 492,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 494,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 496,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 498,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 500,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 502,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 504,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 506,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 508,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 510,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 512,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 514,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 516,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 518,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 520,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 522,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 524,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 526,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 528,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 530,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 532,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 534,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 536,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 538,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 540,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 542,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 544,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 546,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 548,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 550,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 552,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 554,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 556,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 558,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 560,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 562,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 564,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 566,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 568,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 570,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 572,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 574,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 576,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 578,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 580,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 582,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 584,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 586,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 588,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 590,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 592,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 594,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 596,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 598,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 600,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 602,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 604,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 606,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 608,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 610,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 612,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 614,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 616,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 618,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 620,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 622,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 624,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 626,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 628,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 630,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 632,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 634,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 636,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 638,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 640,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 642,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 644,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 646,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 648,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 650,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 652,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 654,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 656,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 658,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 660,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 662,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 664,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 666,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 668,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 670,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 672,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 674,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 676,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 678,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 680,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 682,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 684,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 686,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 688,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 690,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 692,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 694,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 696,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 698,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 700,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 702,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 704,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 706,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 708,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 710,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 712,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 714,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 716,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 718,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 720,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 722,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 724,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 726,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 728,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 730,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 732,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 734,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 736,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 738,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 740,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 742,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 744,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 746,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 748,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 750,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 752,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 754,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 756,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 758,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 760,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 762,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 764,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 766,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 768,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 770,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 772,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 774,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 776,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 778,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 780,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 782,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 784,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 786,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 788,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 790,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 792,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 794,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 796,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 798,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 800,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 802,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 804,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 806,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 808,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 810,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 812,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 814,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 816,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 818,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 820,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 822,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 824,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 826,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 828,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 830,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 832,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 834,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 836,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 838,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 840,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 842,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 844,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 846,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 848,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 850,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 852,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 854,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 856,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 858,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 860,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 862,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 864,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 866,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 868,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 870,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 872,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 874,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 876,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 878,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 880,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 882,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 884,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 886,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 888,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 890,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 892,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 894,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 896,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 898,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 900,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 902,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 904,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 906,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 908,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 910,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 912,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 914,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  },
+  {
+    "address": 916,
+    "bytes": "0000",
+    "size": 2,
+    "assembly": "Observed DSP op0 r0,r0"
+  },
+  {
+    "address": 918,
+    "bytes": "0400",
+    "size": 2,
+    "assembly": "Observed DSP op1 r0,r0"
+  }
+]

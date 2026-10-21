@@ -1,0 +1,36 @@
+[
+  {
+    "captured_entry": 0,
+    "source_frame": 8959,
+    "task": 794920,
+    "entry_stack": 794894,
+    "logical_context_starts_before_task_bytes": 26,
+    "metadata_bytes_overwritten": 38,
+    "full_RAM_oracle_equal": true,
+    "instructions": [
+      1451824,
+      1451828,
+      1451832,
+      1451836,
+      1451840
+    ],
+    "fixture_header_pattern": true
+  },
+  {
+    "captured_entry": 1,
+    "source_frame": 8959,
+    "task": 794920,
+    "entry_stack": 794894,
+    "logical_context_starts_before_task_bytes": 26,
+    "metadata_bytes_overwritten": 38,
+    "full_RAM_oracle_equal": true,
+    "instructions": [
+      1451824,
+      1451828,
+      1451832,
+      1451836,
+      1451840
+    ],
+    "fixture_header_pattern": true
+  }
+]

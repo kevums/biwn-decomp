@@ -1,0 +1,27 @@
+{
+  "status": "terminal_native_frame_acquire_original_and_production_loader_pass",
+  "pid": 65816,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-nested-v1/20261021T121042.508692Z",
+  "native_cases": 144,
+  "ordered_cases": 24,
+  "source_accepted": true,
+  "game_frames": 0,
+  "default_promoted": false,
+  "new_training": false,
+  "whole_game_complete": false,
+  "planned_fixtures": 72,
+  "component_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-v1-current.json",
+  "component_proof_sha256": "27f4e28bfa3667a0b5152d6bc1cfa0630ed1562a384bf9a2004ea2e62b56b54e",
+  "parent_build": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-wait-format-disc-build-current.json",
+  "parent_sha256": "c29191707fc6e789cfe7efdf2f74f3b052bec967e605e93334961d4d07dfb0b4",
+  "completed_fixtures": 72,
+  "maximum_stack_bytes": 448,
+  "minimum_stack_address": "0x1fee40",
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_nested_v1.py": "41dc41e928f176ad765ba468704e382c36a243464579a60f4d02bfac86f2b693",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_v1.py": "9270fc66b678eb0eb7fedfef1fa16e43d2d74361c76c7c7824317753ec0f24ea",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_load.py": "d1666082d13728551336cb2f073fa013fa35ca13a68044b7ba06420ce1d58ee8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-load-providers.S": "8574d7df5489917105f742155a138093f7868f01b3fba907995009bcfb652a83"
+  },
+  "scope": "Four CPU lanes: original vs compiled complete 1AC68 with each of original 1B044 and production native C loader at its resident address. Cache empty/eviction, modes1-3, group1/2, two stack modes/three CCR profiles; exact actual 8KB/16KB marker payload copies, caller CPU/public44-byte frame/2MB RAM/helper entry registers+SR+args and selected ordered bus. Lower CD/yield/copy are declared guest CPU providers; no live CD/IRQ/gameplay/physical proof. Private384bytes below public frame and candidate code excluded. Loader args/CPU separately compared. No source/default/preview changes."
+}

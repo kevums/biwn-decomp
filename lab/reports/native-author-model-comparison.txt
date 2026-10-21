@@ -1,0 +1,26 @@
+LOCAL CODING MODEL COMPARISON — 2026-10-18
+
+Same three known developed modules:free,resource release,copy. Frozen current ABI/headers+original assembly; full branch algorithms and prior C solutions withheld. One4500token attempt per module/profile,16Kcontext,1worker,reasoningoff,temperature0.2. No repair feedback. This is development, not heldout/general/advertising/physical capability evidence.
+
+Profile       Module     Seconds   Result
+daily_base    free         68.43   native_return_or_public_RAM_hardware_mismatch
+daily_base    release      17.78   strict_compilation_failure
+daily_base    copy         40.17   native_return_or_public_RAM_hardware_mismatch
+coder_next    free         18.80   strict_compilation_failure
+coder_next    release       5.26   native_return_or_public_RAM_hardware_mismatch
+coder_next    copy         22.30   native_return_or_public_RAM_hardware_mismatch
+
+Strict full-module gate passes:daily27B6bit0/3;CoderNextGGUFQ3_K_XL0/3. Two compiler rejections, four first-case native CPU/RAM/hardware mismatches. None of the six raw C drafts was promoted or silently fixed. Invalid outputs and different lengths/formats mean these request durations are not a general speed/quality benchmark.
+CoderNext36,282,685,440byte GGUF actually loaded and ran alone at16K/fullGPU on this Mac. Daily model was unloaded first and restored afterward at32K/one worker. The estimator had warned while daily weights were still resident; no guardrail settings were disabled. No new weights were trained or saved defaults changed.
+Two launcher failures are preserved separately:unsupported engine-config option before any prediction, and fullpath lookup after baseline finished. Continuation resolved the same exactGGUF catalog entry to its CLI modelKey and reused frozen baseline results/prompts; it did not repeat baseline or feed its answers to Next.
+
+Per-task exact prompts, responses, raw C and gate logs:
+daily_base/free: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-author-model-comparison-20261018T084853.612164Z/daily_base-free/prompts-and-responses.txt
+daily_base/release: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-author-model-comparison-20261018T084853.612164Z/daily_base-release/prompts-and-responses.txt
+daily_base/copy: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-author-model-comparison-20261018T084853.612164Z/daily_base-copy/prompts-and-responses.txt
+coder_next/free: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-author-model-comparison-resume-20261018T085353.554015Z/coder_next-free/prompts-and-responses.txt
+coder_next/release: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-author-model-comparison-resume-20261018T085353.554015Z/coder_next-release/prompts-and-responses.txt
+coder_next/copy: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-author-model-comparison-resume-20261018T085353.554015Z/coder_next-copy/prompts-and-responses.txt
+
+Frozen comparison: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-author-model-comparison-publication-current.json
+The result supports keeping native verification mandatory and retaining the daily default. Next work:typed operand/frame normalization and function-grouped training/heldout evaluation; larger weight files alone did not solve this ABI translation suite. Advertising remains on the separately tested daily base/retrieval and reviewed teaching workflows.

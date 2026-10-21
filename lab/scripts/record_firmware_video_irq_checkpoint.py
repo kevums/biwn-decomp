@@ -1,0 +1,37 @@
+"""Publish video IRQ C proof and original self-modifying GPU next work."""
+import hashlib,json,shutil
+from pathlib import Path
+from datetime import datetime,timezone
+ROOT=Path(__file__).resolve().parents[1];RUNTIME=Path.home()/'.lmstudio/local-ai-lab'
+save=lambda p,v:p.write_text(json.dumps(v,indent=2,ensure_ascii=False)+'\n')
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+
+def main():
+    proof=json.loads((ROOT/'verification/firmware-video-IRQ-live-checks.json').read_text());assert proof['emulator_shutdown_completed']and proof['source_instruction_coverage']==[327,327]
+    prefix=json.loads((ROOT/'verification/firmware-DSP-progress-review.json').read_text())
+    out=ROOT/'verification/firmware-video-IRQ-review'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ');out.mkdir(parents=True)
+    for name in ['CURRENT DECOMPILATION.txt','CURRENT LOCAL INFERENCE.txt','START HERE.txt']:shutil.copy2(ROOT/name,out/('prior-'+name))
+    compact=dict(prefix['evidence']);compact.update(status=proof['status'],recorded_at=proof['recorded_at'],audit=str(out),full_report=str(ROOT/'verification/firmware-video-IRQ-live-checks.json'),video_IRQ_CPU_C_verified=True,video_IRQ_instruction_coverage=[327,327],video_IRQ_executed_instructions=660,video_IRQ_external_events=1,video_IRQ_frame_bytes=6,video_IRQ_CPU_restored=True,video_IRQ_mailbox_source_clear_PC='0x194d18',video_IRQ_host_mailbox_write=False,video_IRQ_boundary_hostloaded=False,CPU_firmware_C_beyond_bootstrap_scope='Whole main firmware CPU remains original;327 reached videoIRQ/helper instructions are now C.',GPU_firmware_C_verified=False,GPU_after_video_IRQ_original_source_stop_verified=True,GPU_after_video_IRQ_instructions=104628,GPU_observed_instruction_versions=1317,GPU_observed_code_mutations=345,initial60000byte_game_stub_still_supplied=True,full_firmware_boot_verified=False,linked_into_full_C_game_startup=False,whole_game_complete=False)
+    compact['processor_responsibilities']={'main_firmware_CPU':'Loads/starts/waits for the C DSP; mainfirmware instructions still original around the C videoIRQ.', 'reconstructed_C_DSP':'Performs source arithmetic/decryption/ROM check and clears its own GO;10,460,888instructions with462observedsourceblocks separately checked.', 'reconstructed_C_video_IRQ_CPU':'Handles one externally deliveredVBI at194C90: real sixbyteframe,327sourceinstructions/660steps, graphics helpers,sourceclearsF03F4C,counter0->1,RTErestoresCPU.', 'original_GPU':'Resumes after source C IRQ acknowledges mailbox and stops throughoriginalsourcecode.1,317observedinstructionversions/345mutations remain unported; no C GPU renderer/fullboot/physicaltiming claim.'}
+    compact['plain_language_summary']='The C video interrupt handler now acknowledges the firmware GPU mailbox through real source code and returns with CPU state restored. It matches327selectedinstructions and660executedsteps. The originalGPU then draws/processes its code overlays and stops. Its self-modifying renderer remains unported. The separate firmware prefix uses C DSP and C videoIRQ; mainCPU/GPU stilloriginal, and the existing game C test still supplies its initial60000byte stub.'
+    compact['next_GPU_CPU_dependency']={'status':'CPU_mailbox_dependency_reconstructed;original_GPU_stop_observed','source_mailbox_clear_executed_and_C_verified':True,'GPU_shader_C_verified':False,'next_action':'Reconstruct/compare originalGPU renderer with live code overlays/instruction byte versions. Then resume actualfirmwareCPU into relocation/trampoline/VBI waits, authenticate/load disc header and naturallydispatch game stub; replace suppliedstub in fullC game proof.'}
+    save(out/'compact-evidence.json',compact)
+    for base in [ROOT,RUNTIME]:
+        folder=Path(json.loads((base/'projects/black-ice-white-noise/analysis/current-session.json').read_text())['directory']);path=folder/'emulator-runtime/summary.json';data=json.loads(path.read_text());data['firmware_bootstrap_DSP_progress']=compact;save(path,data)
+    raw=Path(proof['C_directory']);native=Path(proof['native_directory'])
+    files=[ROOT/'verification/firmware-video-IRQ-live-checks.json',ROOT/'verification/firmware-CPU-video-IRQ-native-discovery.json',ROOT/'verification/firmware-CPU-video-IRQ-C-linked.json',ROOT/'verification/firmware-GPU-after-video-IRQ-observation.json',ROOT/'scripts/generate_biwn_firmware_video_irq_cpu.py',ROOT/'scripts/check_biwn_firmware_video_irq_live.py',ROOT/'scripts/observe_biwn_relocated_firmware.py',ROOT/'scripts/record_firmware_video_irq_checkpoint.py']
+    files.extend(ROOT/'projects/black-ice-white-noise/restoration'/name for name in proof['source_sha256'])
+    for folder in [raw,native]:files.extend(folder/name for name in ['protocol.json','report.json','status.json','CPU-video-IRQ-observation.json','RAM-after-video-IRQ.bin'])
+    files.extend(raw/name for name in ['video-IRQ-compiler.txt','GPU-after-video-IRQ-resume.json','GPU-after-video-IRQ-resume.bin','RAM-after-video-IRQ-GPU-resume.bin'])
+    manifest=[]
+    for i,source in enumerate(files):
+        target=out/f'{i:02d}-{source.name}';shutil.copy2(source,target);manifest.append(dict(source=str(source),snapshot=str(target),sha256=sha(target)))
+    review=dict(status='live_C_videoIRQ_verified_GPU_source_overlays_discovered_fullgoal_incomplete',recorded_at=datetime.now(timezone.utc).isoformat(),directory=str(out),classification='progress',evidence=compact,proof=proof,manifest=manifest,implementation_authorship='Coordinator source translation, event entry, original/C live comparison and GPU overlay trace. No local-model source-code prompt or accepted model-authored body added.',local_model_accepted_body_counts_unchanged=True,new_weight_training=False,model_defaults_changed=False,whole_goal_complete=False,native_UI_current_step='Not attempted after prior AX timeout; user permits background work.',next_work=compact['next_GPU_CPU_dependency']['next_action'])
+    save(out/'review.json',review);save(ROOT/'verification/firmware-video-IRQ-review.json',review)
+    (out/'who-prompts-and-responses.txt').write_text(review['implementation_authorship']+'\n\nSource proof:\n'+json.dumps(proof,indent=2)+'\n\nNo new local-model inference yet in this checkpoint. Later prompts/responses will be retained verbatim separately. Previous firmwareSDK diagnostic:\n'+str(Path(prefix['directory'])/'who-prompts-and-responses.txt')+'\n')
+    current=ROOT/'CURRENT DECOMPILATION.txt';current.write_text('C VIDEO INTERRUPT ACKNOWLEDGES FIRMWARE GPU MAILBOX\n'+review['recorded_at']+'\n\n'+compact['plain_language_summary']+'\n\nSourceGPUstop under explicitsteps:104,628instructions,1,317instructionversions and345codechanges; OriginalGPU only. New C IRQ hasfullCPU/private2MBRAM/GPU-DSP/TOM/JERRY/DAC/CDROM/trace/count equality against independentoriginalrun. One suppliedVBI event;period/globalclocks/unreachedinputs/branches stillunverified.\n\nAUDIT\n'+str(out)+'\n\nNEXT\n'+review['next_work']+'\n\nEARLIER CHECKPOINTS\n'+current.read_text())
+    npath=ROOT/'verification/NEXT SOURCE AND INFERENCE WORK.json';n=json.loads(npath.read_text());n.update(source_audit=str(out),last_turn_classification='progress',last_turn_authorship=review['implementation_authorship'],firmware_video_IRQ_C_verified=True,new_training_this_turn=False);n['next_source_work'][0]=review['next_work'];save(npath,n)
+    assert all(sha(Path(item['snapshot']))==item['sha256']for item in manifest)
+    print(out)
+
+if __name__=='__main__':main()

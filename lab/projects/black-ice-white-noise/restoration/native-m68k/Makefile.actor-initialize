@@ -1,0 +1,14 @@
+ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST)))/../../../..)
+SOURCE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= $(SOURCE_DIR)/build-actor-initialize
+INITIALIZE_SOURCE ?= $(SOURCE_DIR)/actor-initialize-reference.c
+ADDRESS ?= 0x180000
+FLAGS := -m68000 -msoft-float -std=c99 -Os -flto -ffreestanding -fno-pie -fno-common -fno-unwind-tables -fno-asynchronous-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Werror
+.PHONY: actor-initialize
+actor-initialize:
+	mkdir -p "$(BUILD)"
+	$(PREFIX)gcc $(FLAGS) -I"$(SOURCE_DIR)" -c "$(INITIALIZE_SOURCE)" -o "$(BUILD)/body.o"
+	$(PREFIX)gcc -m68000 -c "$(SOURCE_DIR)/actor-initialize-shim.S" -o "$(BUILD)/shim.o"
+	$(PREFIX)gcc $(FLAGS) -nostdlib -Wl,--gc-sections,--defsym,NATIVE_ADDRESS=$(ADDRESS),-T,"$(SOURCE_DIR)/actor-initialize.ld" "$(BUILD)/body.o" "$(BUILD)/shim.o" -o "$(BUILD)/actor-initialize.elf"
+	$(PREFIX)objcopy -O binary "$(BUILD)/actor-initialize.elf" "$(BUILD)/actor-initialize.bin"

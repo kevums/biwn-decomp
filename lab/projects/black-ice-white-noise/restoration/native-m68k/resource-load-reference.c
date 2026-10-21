@@ -1,0 +1,69 @@
+/* Coordinator source recovery of original1B044..1B154. The original signed
+ * longword marker scan is preserved; the separate word-scan repair is not
+ * silently folded into this reference. No model authorship claim. */
+#include "resource-load-native.h"
+static int signed_gt(uint32_t a,uint32_t b) {
+ return (a^0x80000000u)>(b^0x80000000u);
+}
+void biwn_native_resource_load_body(uint32_t *r) {
+ uint32_t value;uint16_t word;
+ r[3]=LR32(r[15]+4u);load_nz32(r,r[3]);
+ r[2]=LR32(r[15]+8u);load_nz32(r,r[2]);
+ r[12]=LR32(r[15]+12u);r[11]=LR32(r[15]+16u);
+ r[13]=LR32(r[15]+20u);
+ word=LR16(0x47b82u);load_nz16(r,word);
+ while(word!=0u) {
+  biwn_native_load_yield_capture(r);
+  word=LR16(0x47b82u);load_nz16(r,word);
+ }
+ word=LR16(0x47b80u);load_nz16(r,word);
+ while(word!=0u) {
+  biwn_native_load_yield_capture(r);
+  word=LR16(0x47b80u);load_nz16(r,word);
+ }
+ LW16(0x47b80u,1u);load_nz16(r,1u);
+retry:
+ LW32(0x1126a0u,0u);load_nz32(r,0u);
+ biwn_native_load_seek_capture(r);
+ r[10]=0x1c8000u+r[11];
+ biwn_native_load_start_capture(r);
+ LW32(0x1126a0u,0u);load_nz32(r,0u);
+ LW32(0xbd848u,0u);load_nz32(r,0u);
+ value=LR32(0xbd848u);load_cmp32(r,r[10],value);
+ if(r[10]>value) {
+  r[10]=0x1c8000u+r[11];
+  do {
+   biwn_native_load_yield_capture(r);
+   value=LR32(0xbd848u);load_cmp32(r,r[10],value);
+  }while(r[10]>value);
+ }
+ r[10]=0x1c0000u;biwn_native_load_stop_capture(r);
+scan_start:
+ value=LR32(r[10]);r[10]+=4u;load_cmp32(r,r[2],value);
+ if(value==r[2])goto marker;
+scan_next:
+ r[0]=0x1c7fffu;load_nz32(r,r[0]);load_cmp32(r,r[0],r[10]);
+ if(signed_gt(r[10],r[0])) {
+  LW32(0xbd848u,0u);load_nz32(r,0u);goto retry;
+ }
+ value=LR32(r[10]);r[10]+=4u;load_cmp32(r,r[2],value);
+ if(value!=r[2])goto scan_next;
+marker:
+ r[0]=1u;load_nz32(r,1u);
+ do {
+  value=LR32(r[10]);r[10]+=4u;load_cmp32(r,r[2],value);
+  if(value!=r[2])goto scan_start;
+  load_add1(r);r[1]=15u;load_nz32(r,15u);load_cmp32(r,r[1],r[0]);
+ }while(!signed_gt(r[0],r[1]));
+ load_cmp32(r,r[10],0x1c8000u);
+ if(signed_gt(r[10],0x1c8000u))goto retry;
+ load_cmp32(r,r[12],0u);
+ if(r[12]==0u) {
+  r[0]=r[10];load_nz32(r,r[0]);return;
+ }
+ biwn_native_load_copy_capture(r);
+ LW16(0x47b80u,0u);load_nz16(r,0u);
+ load_cmp32(r,r[13],0u);
+ if(r[13]!=0u){LW16(r[13],1u);load_nz16(r,1u);}
+ r[0]=0u;load_nz32(r,0u);
+}

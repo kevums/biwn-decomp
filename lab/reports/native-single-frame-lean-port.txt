@@ -1,0 +1,18 @@
+BIWN — SMALLER NATIVE C INTERFACE FOR 0x1AE56
+
+The new variant returns the scan index and X-flag bit from ordinary freestanding C. A 68000 shim preserves the original caller convention, D1 upper word, A1 and public D2 save, then restores the final MOVE.L flags. Negative IDs and reference words remain literal, and the two original volatile reference reads stay separate.
+
+The complete standalone suite passes 1,376 stable CPU/RAM cases, 256 changing-read CPU/RAM cases and 1,632 ordered-access comparisons, covering all 18 original instruction addresses. It compiles to 136 bytes, compared with 238 for the earlier context-array version.
+
+The captured first gameplay caller produces equal CPU registers and flags and no public RAM differences in stopped-device replay. For this caller only, the smaller variant uses 175 instructions, 1,764 emulator CPU cycles and 24 bytes of maximum private stack depth. The earlier C version used 335 instructions, 3,644 cycles and 96 bytes. The original uses 166 instructions and 1,398 cycles. This is an isolated core comparison at the standalone scratch address, not a claim of FPS, physical timing or whole-game speedup.
+
+The separately derived disc passes the final-address CPU/RAM and ordered suite plus 96 startup cases. It appends 136 code bytes and two alignment bytes to the unchanged 14,690-byte parent, using 14,828 of the existing 16,384-byte reservation. The heap boundary and staging capacity stay unchanged. The fresh merchant/media/outdoor route is complete: 29,766 frames, 264 native calls and returns, 261 reference decrements, three no-match returns and no observed register/CCR/cache or task-stack errors. Minimum user-stack headroom is 820 bytes and maximum private depth is 24 bytes across 46,767 compiled instructions. The candidate differs from the 24,975-frame reference, and the full PCM differs: 7,324,714 nonzero samples versus 1,609,486. This is not a demonstrated gameplay speedup or audio-quality improvement. No preview or default was replaced.
+
+Authorship: Codex coordinator wrote the C and assembly interface. The cross compiler and emulator are tools. There was no local-model authorship or new weight training in this optimization. The local model comparisons remain separate experiments with their own prompts and raw outputs.
+
+Full component proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-reference-single-lean-current.json
+Cost and stack proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-single-lean-cost-current.json
+Disc proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-single-lean-disc-build-current.json
+Gameplay protocol: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-single-lean-route-current.json
+
+Gameplay review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-single-lean-review/20261019T021055.854848Z/review.json

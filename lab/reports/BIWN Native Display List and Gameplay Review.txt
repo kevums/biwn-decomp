@@ -1,0 +1,20 @@
+BIWN — native display-list integration, v27
+
+The separate experimental image completes 24,990/24,963 fresh candidate/control frames. All 6,248 native scene calls and 26,309 captured-helper calls return. Native display-list, rotation and clear helpers each return 5,243 times. All retained/shared/face/geometry/outer/reset/clear/rotation/display monitors finish clear and quiescent. No checkpoint or host RAM/CPU/task repair.
+
+Global original185B2 remains intact and returns 21 times from other candidate callers. Inside the native scene caller,185B2now executes the compact C body with original guest stack/table effects. Other original rendering/GPU/DSP/device/HLE dependencies remain. This integrates an already recovered routine; zero new unique original functions.
+
+The feedback routes differ on 8,375 paired video frames and 457 held-input samples. Final video equal:True; selected fields equal:True. Different feedback inputs prevent isolating a source-logic or timing cause. Both audio captures remain in the raw comparison; silent audio is not sound fidelity.
+
+The identical-input1,000frame prefix differs on 442 video frames, first549. The v27 original-scene control differs from the prior v26control on 72 video frames, first196. Earlier layouts had189/194/444/279differences. Layout/boot-copy changes confound cross-build attribution. Prefix live-call/pending/end-arena counts are preserved; this is not full-route acceptance.
+
+Exact deployed module:1,153native body CPU/RAM/data-bus cases and772connected scene cases; peak scene C stack208of208bytes. Actual two memory-CLR sites retain dummy reads; other stores use MOVE. Native data-bus read address/count/order and write values compare; recorder widths/read values are unavailable. Host/Unicorn and typed/opcode evidence have separate scopes. Target body fixtures use stable descriptor values; the1217hostcases/17guards and64distinct host reread supplement are earlier prototype evidence.
+
+All8final-image gates pass, plus fallback384,nesting64,scene publicbus14/inputbus13,aliases256+256+128 and connected128. Read-only witnesses cover512actual shared lanes,64geometry lanes,64resetpairs,55native display/rotation calls with44host-only corruption controls and55clear calls with19controls. Finite normal-call proof does not establish arbitrary IRQ/intermediate shadow-state or physical-console behavior.
+
+The shared module is48,494bytes; linked native code89,324bytes; reservation277,312bytes; boot copy115,712bytes; initial heap120,576bytes. Minimum sampled free heap while outer active: candidate816, control816bytes; these are not a measured global heap minimum. The connected scene C stack has no partition margin. Further whole-game expansion needs resource/headroom work. Copied sources and SDK rebuild the exact final module.
+
+No new local predictions, optimizer updates or adopted trained weights. Earlier copied-model code trials remain separate. No new LM Studio Chat UI verification. The installed Desktop preview is unchanged. Whole readable-source rebuilding, complete same-console build, useful training quality, audio/IRQ fidelity and physical Jaguar CD validation remain incomplete.
+
+Disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-display-list-v1/20261021T020307.662319Z/BIWN-23-native-scene17-display-list-v1-experimental.cdi
+Comparison: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-display-list-fresh-reviewed-v1/20261021T022406.592591Z/fresh-comparison.json

@@ -1,0 +1,13 @@
+BIWN — scene caller fresh-boot failure and wait correction
+
+The v22 scene candidate fails its first native scene call and never reaches the ordinary gameplay test. The captured frame has error 4, budget 0 and active 1: the added 128-step work budget expired during the GPU completion wait, after five helper captures. Its subsequent 35,000 emulated frames are a failed run, not gameplay validation. The error path leaves a pending frame and execution becomes corrupted.
+
+The same-layout control restores only the ten original scene-entry bytes. It completes 24,968 frames and all 400 ordinary test inputs, observing 6,724 original scene calls. Its monitors report no errors or pending calls. Both captures are silent. This identifies a real limitation that the earlier finite component fixtures did not cover. No preview change or candidate promotion.
+
+New v23 native prototype removes the synthetic work deadline from scene waits, list walks and helper calls, preserving the original loop behavior. Portable host tests retain finite limits. The algorithm body is unchanged; the correction is coordinator target glue. It passes the existing 768 native cases plus two completion waits of 512 and 1,024 busy reads, using 108 of 208 C stack bytes. Retained-caller and geometry regressions are still being checked; the correction has no new disc or fresh-gameplay result yet.
+
+New integration evidence before the fresh failure: all four scene/input/face nesting directions pass 256 cases; existing input/face aliases pass 256, coordinate/geometry aliases 128, connected callers 128. The new read-only monitor passes 512 actual scene/fallback/reentry CPU lanes, 64 geometry lanes, 64 reset pairs, and synthetic corruption controls. Initial monitor-generator, replay-coverage and driver-preflight failures are preserved separately.
+
+Next: finish v23 regressions, qualify a new final image and its observers, then repeat a fresh candidate/control run. Full decompilation, physical-console rebuilding, useful training quality and copied-weight native Chat remain incomplete.
+
+Evidence: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-fresh-failure-reviewed-v1/20261020T234906.068927Z

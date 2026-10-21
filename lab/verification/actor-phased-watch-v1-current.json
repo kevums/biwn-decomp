@@ -1,0 +1,32 @@
+{
+  "status": "terminal_exact_actor_watchers_fault_controls_actual_CPU_readonly_and_full_compile_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z",
+  "pid": 76317,
+  "new_predictions": 0,
+  "new_training": false,
+  "actual_off_on_pairs": 48,
+  "fault_controls": 7,
+  "observer_calls": 14270,
+  "whole_RAM_immediate_boundary_checks": 213,
+  "complete_off_on_CPU_RAM_helpers_equal_without_exclusions": true,
+  "actor_code_at_actual_image_addresses": true,
+  "full_prefix_helpers_executed": false,
+  "other_original_child_bodies_execute": true,
+  "outside_geometry_task_leaf_services_prescribed": true,
+  "protected_context_scope": "Original16/32-byte public save frames; no parked C contexts remain.",
+  "legacy_context_SP_inside_counter_not_applicable": true,
+  "arbitrary_IRQ_qualified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_actor_phased_watch_v1.py": "b1b03a005268e34b4a630297e885ce3f27211c5f2496db0ed9c0f066a556991e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_actor_phased_image_full_observer_v2.py": "bce7efb736b43e2a158ffdb1c0f43fedee92059fdd4d1dcea3b2526e9dea73d8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-disc-build-v1-current.json": "bafb42080d1cf21827035db3cb77a54e87242e10daee322d3ed288483131cbda",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2-current.json": "55491688fd16d8872bf91ba48276191fbd4e9d502872daccc5bf3dcde8e426bd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z/observer.c": "934fd0a3708638c9290a7f005644c7803c906f36567882310c4cc57c2a9f8ed8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z/observer.dylib": "7e9ecaed3df781a07c561e4401d9274bfc8e92020aa99a6514247ccbc0ccbcfd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-coordinate-v2-route/20261019T182433.767570Z-candidate-1851/direction-shadow-model.c": "c4ec0417506a0fcc75a38762ae1afeeb6759979c2b244cbb4b61565a0b9829aa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z/fixture.c": "bb3ae79ba3876f481685aa32653c54a6b5ecd4484519ecc54ff92dec6f080e6d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z/fixture.dylib": "1746315284ac7cc8e3832bd06565ff6f0ce9ff549663daf2cb3a2b475054d95d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z/actual-lanes.json": "862d8caf004df12b2468288cdbbdde001ff29a2af275e1366cb8f58eeec56b92",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-watch-v1/20261021T150010.940221Z/fault-controls.json": "dce5a71186cd23dae659f5a4a995fabc360005fe5402b2325904a86e901f3fb7"
+  }
+}

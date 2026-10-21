@@ -1,0 +1,15 @@
+{
+  "status": "terminal_outer_watcher_two_legal_eighteen_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-outer-compact-geometry-observer-qualification-v1/20261021T040037.564945Z",
+  "legal_controls": 2,
+  "rejected_fault_controls": 18,
+  "game_execution": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_outer_compact_outer_observer_v1.py": "2ec4ae7fb616053e75ef7098f2b2351ff293478d021ceb51aa3cd75edeebc0c8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/observer.c": "96f20852014e9ab5233fc06e395b0c2fc7602cdddc99938259a5c7bf5882f42a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-outer-compact-geometry-observer-qualification-v1/20261021T040037.564945Z/fixture.c": "a3f2c9373a3f42b4fda4bc79751a764e54ee4615e2c293415dcedcea22b1b510",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-outer-compact-geometry-observer-qualification-v1/20261021T040037.564945Z/fixture.dylib": "fc76108adf5698786f2a77c34edea8ee69f5ea2335eb455d6eb4f66c3b190a48",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-outer-compact-geometry-observer-qualification-v1/20261021T040037.564945Z/cases.json": "b0ec56b62c49152bb07497f06a91b411aaf140a750e0df522f48dbf9293fd433"
+  },
+  "scope": "Synthetic fault controls for the exact outer watcher and completion gate. Exact extracted watcher. Stubs supply CPU and RAM. Does not qualify all retained monitors, real scheduler behavior, timing, game correctness or observer nonintrusion."
+}

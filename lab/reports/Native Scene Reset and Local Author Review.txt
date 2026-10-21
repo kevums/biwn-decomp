@@ -1,0 +1,12 @@
+BIWN scene reset1102A — complete body and native component recovery
+
+The raw local Author and its one feedback Repair were rejected. Author used SR0x4000 instead of Z4;Repair fixed Z but itsFF00mask erased X. One explicit coordinator expression correction changesFF00toFFF0. All other model C body statements are retained;the target CLR primitive,ABI,compiler and checker are supplied by the coordinator. No new training,base-weight change or nativeChat rendering is claimed.
+
+Both coordinator reference and hybrid pass768cases across all32CCR,both stack banks,ordinary/random descriptors and overlapping globals/guest-return/high-address aliases. All27original instruction locations are exercised. FullCPU/public2MBRAM/CABI and ordered widths compare. Unicorn omits physical68000CLRdummyreads;raw traces compare,andbothlanes are symmetrically expanded from decodedCLRinstructions. Four actual pinned68000bus traces independently match49kind/address/valueevents each,including19CLRreads. The first explicit-read-plus-store prototype and raw model failures are retained.
+Hardware reference: Motorola M68000PRM,section4-74,https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf . Pinned cpuemu.c CLR.W/L implementations also perform the operand read before the write.
+
+Native component:4992 retained caller cases plus16fallbacks and256geometrycases pass. Of these,2048exercise the complete input caller with real original reset on the reference side;1024native reset logical entries were witnessed. Input Cstack peak120bytes;geometry164/176bytes. The copied package rebuilds the same40402byte module.
+
+This source is integrated only in the component input path. Global1102A and all game images/Desktop preview remain unchanged. Final addresses,nesting/observer/IRQ and fresh input-reset gameplay remain required before disc adoption. Whole-game source rebuilding and useful training quality remain unfinished.
+
+Actual local roles/prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene-reset-reviewed-v1/20261020T215141.103848Z/prompts-and-responses.txt

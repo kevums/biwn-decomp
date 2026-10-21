@@ -1,0 +1,42 @@
+{
+  "status": "compiled_external_DSP_pending_native_checks",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z",
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/libDSP-external-router.dylib",
+  "required_core_sha256": "b691f3176f0a4a8087dfa0c7f77f41a42294b5c1a0d32c5e10f1ebc9bbb7ed0a",
+  "prior_router": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/DSP-program-router-build/20261016T101439.084910Z/DSP_program_router.c",
+  "music_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/fast-DSP-router-build/20261016T122724.152095Z/libDSP-music-snapshot-alias.dylib",
+  "media_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/DSP-media-owner-build/20261016T085930.376593Z/libDSP-media-owner.dylib",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/runner-as-run.py": "ec3b5f995a8a07a236dddd69fd800aca768970b86a096a82680684827b336825",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/external-identities.json": "a77e7b4540bb53d57d901d12d4f0ade09ee9784eb70c8489cdf2de49fc3b4c2b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/biwn_external_arithmetic.c": "47d77592e2d11c4f2ce055d7aa31bac7faf03e5f33891955566b1e055e9b06fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/biwn_dsp_external_engine.c": "fc3c6c52cb5eaa2c8432fc829355bee0b68619580257177a5aad63516d2a0c03",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/biwn_dsp_external_engine.h": "0394615203f9859a1d7046fc91d1d823580793e318af155437599192f8b55129",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/DSP_external_bridge.c": "32b533c4312ebcf6c01ba5239b89c97a91eeb5359f95f088250b0cbcf0ee3ed1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/DSP_program_router.c": "07ec013cee6092c1482822964d3bb039c607b3782cce0037792a3d7ef0f3720e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/libDSP-external.dylib": "f21cb4700675401e4cad3f30d75c650ad342e181ea0638b4dafc0463c4adf3d0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/libDSP-external-router.dylib": "95e8e77eccd12e1a2facf1fc7dd641d4bfa40b4b2c0b63cbd2c507fb5937afa8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/coordinator-external-DSP-correction/20261019T002624.859472Z/protocol.json": "8c47a0d58ceb682e5465b87d989f42189a55c6a77521578193875165932e8e84",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/coordinator-external-DSP-correction/20261019T002624.859472Z/biwn_external_arithmetic.c": "47d77592e2d11c4f2ce055d7aa31bac7faf03e5f33891955566b1e055e9b06fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/merchant-DSP-transition-observation/20261019T001735.481863Z/protocol.json": "d3491075e185ea7563d6e44e5f3dd47e21bd4414c9df21616961e44815e07299",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/CPU-IRQ-selection-DSP-experimental-candidate.json": "9c52ce37ee4a0a5b4ca6a117c8aab613193532add09684c31a54979af4b35a00"
+  },
+  "changes": [
+    "Music state local_RAM aliases its private staged raw buffer; eliminates unpack/pack and per-step array copies.",
+    "Router checks complete instruction/delay bytes via side-effect-free DSP local-RAM byte reads instead of a full snapshot.",
+    "Original core, scalar commits, IRQ/device writes, media owner and default manifests unchanged."
+  ],
+  "error_semantics": "Staged RAM can mutate on error, but no logical-state commit occurs; prior bus writes remain retained.",
+  "standalone_state_ABI_compatible": false,
+  "owner_Host_ABI_compatible": true,
+  "whole_game_complete": false,
+  "new_training": false,
+  "runtime_promoted": false,
+  "previous_required_core_sha256": "a2b4ca4890db200df822e21fe6a5527cf845743646118fa71a2735e4e33c12a8",
+  "core_rebind_scope": "Identical GPU/DSP source+headers, private CPU headers and serialization; same immutable source bridge library. New default-off CPU interrupt handoffs only; runtime comparison pending.",
+  "required_core_path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/CPU-IRQ-selection-core-build/20261017T094441.859213Z/source/virtualjaguar_libretro.dylib",
+  "external_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/external-DSP-build/20261019T002624.919573Z/libDSP-external.dylib",
+  "external_instructions": 460,
+  "strict_unknown_reject": true,
+  "code_authorship": "Local Author ADDC function retained verbatim. Both full local drafts rejected for MTOI. Coordinator replaced MTOI; fixed case generation, byte fences and integration are coordinator work. No full local source acceptance or new original game functions/training claimed."
+}

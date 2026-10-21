@@ -1,0 +1,13 @@
+GAME GEOMETRY MODEL PILOT — NOT ADOPTED
+
+The 64-update pilot completed. Actual saved-checkpoint validation chose step 40, with validation loss 0.2416132688522339. The base model passed 0/4 code tests; the selected adapter passed 0/4. No adapter or generated routine was promoted.
+
+The three adapter resource routines guessed underscore-style header filenames; supplied headers used hyphens. Their code never reached the semantic CPU/RAM gates. The prompts contained header contents but omitted filenames. Both plane-layout outputs reached the 5,000-token limit and failed compilation. Base resource release reached a CPU/RAM mismatch, acquire failed compiler checks, and load failed to return.
+
+These results establish that these outputs were unusable unchanged in this workflow. They do not establish that every adapter algorithm would fail if the filename ambiguity were removed. Source review also found visible algorithm/register/flag defects in the adapter release output; no hand edits have been applied to the model output or counted as a model pass.
+
+The separate filename-clarified diagnostic freezes identical base/adapter prompts before generation, retains the already selected weights, and uses the same full acceptance gates. It is an adaptive follow-up after looking at failures, not a new untouched holdout. The original benchmark and checkpoint selection remain preserved.
+
+Training used 17 examples, one scheduler validation example, and four development code tasks. The three resource tasks have prior project exposure. The plane-layout target was excluded from gradients and checkpoint selection, but shares ABI primitives and project concepts. No broad independent reliability or game-decompilation claim follows from this pilot.
+
+Prompts/responses: Model Prompts and Responses.command. Current diagnostic progress: Game Model Training Progress.command. The BIWN game preview runs independently.

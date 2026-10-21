@@ -1,0 +1,143 @@
+{
+  "frames": {
+    "candidate": 25024,
+    "control": 25011
+  },
+  "paired_frames": 25011,
+  "unpaired_tail_frames": 13,
+  "fields": {
+    "video_sha256": {
+      "count": 6950,
+      "first_frame": 375,
+      "final_equal": true
+    },
+    "held_buttons": {
+      "count": 252,
+      "first_frame": 640,
+      "final_equal": true
+    },
+    "raw_player_X": {
+      "count": 4629,
+      "first_frame": 649,
+      "final_equal": true
+    },
+    "raw_player_Z": {
+      "count": 2134,
+      "first_frame": 652,
+      "final_equal": true
+    },
+    "scene_word": {
+      "count": 28,
+      "first_frame": 8611,
+      "final_equal": true
+    },
+    "player_mode_word": {
+      "count": 69,
+      "first_frame": 8611,
+      "final_equal": true
+    },
+    "tile_word": {
+      "count": 1,
+      "first_frame": 2836,
+      "final_equal": true
+    },
+    "floor_word": {
+      "count": 22,
+      "first_frame": 8942,
+      "final_equal": true
+    },
+    "locomotion_state": {
+      "count": 120,
+      "first_frame": 645,
+      "final_equal": true
+    }
+  },
+  "frontend_button_schedule_differences": 256,
+  "final_video_equal": true,
+  "final_selected_fields_equal": true,
+  "audio": {
+    "candidate": {
+      "frames": 20019200,
+      "nonzero_samples": 0
+    },
+    "control": {
+      "frames": 20008800,
+      "nonzero_samples": 0
+    }
+  },
+  "minimum_sampled_heap_while_outer_active": {
+    "candidate": 2800,
+    "control": 2800
+  },
+  "global_heap_minimum_measured": false,
+  "call_counts": {
+    "candidate": {
+      "input": {
+        "resource_public": 11,
+        "resource_native_entries": 11,
+        "resource_returns": 11,
+        "resource_errors": 0,
+        "resource_alias_errors": 0,
+        "resource_C_outside": 0,
+        "resource_pending": 0,
+        "resource_helper_pending": 0,
+        "resource_helper_entries": 12,
+        "resource_helper_returns": 12,
+        "resource_parked_checks": 357323,
+        "resource_C_observations": 8477,
+        "resource_C_low": 60,
+        "resource_guest_depth": 432,
+        "input_calls": 4660,
+        "input_native": 4660,
+        "input_original": 0,
+        "input_returns": 4660,
+        "input_errors": 0,
+        "input_C_outside": 0,
+        "input_pending": 0,
+        "input_C_observations": 181758460,
+        "input_guest_depth": 296
+      },
+      "native_scene_returns": 5657,
+      "record_returns": 4660,
+      "record_matrix_returns": 0,
+      "record_copy_returns": 8374
+    },
+    "control": {
+      "input": {
+        "resource_public": 11,
+        "resource_native_entries": 11,
+        "resource_returns": 11,
+        "resource_errors": 0,
+        "resource_alias_errors": 0,
+        "resource_C_outside": 0,
+        "resource_pending": 0,
+        "resource_helper_pending": 0,
+        "resource_helper_entries": 12,
+        "resource_helper_returns": 12,
+        "resource_parked_checks": 357312,
+        "resource_C_observations": 8477,
+        "resource_C_low": 60,
+        "resource_guest_depth": 432,
+        "input_calls": 4777,
+        "input_native": 0,
+        "input_original": 4777,
+        "input_returns": 4777,
+        "input_errors": 0,
+        "input_C_outside": 0,
+        "input_pending": 0,
+        "input_C_observations": 0,
+        "input_guest_depth": 0
+      },
+      "native_scene_returns": 5779,
+      "record_returns": 4777,
+      "record_matrix_returns": 0,
+      "record_copy_returns": 8569
+    }
+  },
+  "input_only_control": true,
+  "scene_native_in_both_lanes": true,
+  "snapshot_restores": 0,
+  "host_guest_RAM_writes": 0,
+  "host_CPU_or_task_seeds": 0,
+  "scope": "Phased frame acquire and phased actor dispatch/initialization are compiled in both lanes. Frame-index comparison of fresh boots with only the input callsite changed. Both lanes retain compiled scene/resource code and use the same feedback policy. Unequal schedules or durations do not establish causal speed or original-game fidelity. Raw video, pose and controller values remain unmodified. This finite outdoor route does not establish indoor/full-game/console qualification."
+}

@@ -1,0 +1,11 @@
+{
+  "canonical": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-task-source/deck-task-source.c",
+  "canonical_sha256": "f60a37aa9eca4aa4dd8af467aaf3861d641dad99635dde48d4e0d9366df309b9",
+  "parent_profile": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v1",
+  "change": "Use existing persistent private logical CPU instead of a second local context; retain original guest commit/capture assembly.",
+  "arena_changed": false,
+  "disc_changed": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "arbitrary_IRQ_or_intermediate_shadow_equivalence": false
+}

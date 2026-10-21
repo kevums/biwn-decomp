@@ -1,0 +1,23 @@
+{
+  "native_address": 1437120,
+  "input_address": 1558308,
+  "input_bytes": 11256,
+  "finalizer_address": 1569564,
+  "finalizer_reservation": 384,
+  "deck_arena_address": 1569984,
+  "deck_arena_bytes": 103424,
+  "outer_arena_address": 1673408,
+  "outer_arena_bytes": 38784,
+  "heap_start": 1712192,
+  "initial_heap_bytes": 122816,
+  "copy_bytes": 132864,
+  "clear_bytes": 132928,
+  "staging_address": 907968,
+  "legacy_word_copy_capacity": 131072,
+  "wide_long_copy_capacity": 262144,
+  "copy_exceeds_legacy_word_loop": true,
+  "clear_exceeds_legacy_word_loop": true,
+  "relink_module_arenas_and_heap_required": true,
+  "final_image_qualified": false,
+  "game_image_written": false
+}

@@ -1,0 +1,15 @@
+BIWN progress — native buffer rotation
+
+The experimental v25 image now runs the buffer-rotation helper from readable C inside the native scene caller. It completed 5,376 rotation calls and 6,378 scene calls during a fresh test route. The original 185B2 display-list builder is still used. All monitors finished clear.
+
+The candidate ran 24,974 frames and its original-scene control ran 24,969. Final video and selected game fields match. There are 4,328 intermediate video differences and 139 differing held-input samples. Both recordings are silent. The image is experimental and the installed Desktop preview is unchanged.
+
+In a separate test with identical recorded inputs, 444 of 1,000 video frames differ. The larger v25 layout also changes 201 control video frames compared with the prior layout, so cross-build counts do not isolate the new helper. No fidelity or whole-game speed improvement is established.
+
+The structured helper passes 256 host comparisons against the original CPU and Unicorn. The deployed module passes 770 scene cases and all eight final image gates, plus fallback, nesting, bus, alias and connected checks. The copied SDK produces the same 45,874-byte shared module. Peak component scene C stack is 156 of 208 bytes.
+
+This is coordinator-authored integration of an already recovered routine. No new local predictions or training updates were made while the shared model runtime was busy. Full readable-source rebuilding, same-console validation, audio/IRQ fidelity and useful trained-model quality remain unfinished.
+
+Next: replace the original E03A clear-submission helper while preserving its unbounded hardware wait, stack, flags and MMIO access order.
+
+Detailed evidence: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Native Buffer Rotation and Gameplay Review.txt

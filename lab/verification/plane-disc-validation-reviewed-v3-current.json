@@ -1,0 +1,20 @@
+{
+  "status": "terminal_four_helper_disc_nested_and_fresh_reviewed_fidelity_open",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z",
+  "facts": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/facts.json",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Four Native Geometry Helpers Disc Review.txt",
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/publish_plane_disc_validation_v3.py": "3a1a237658aa6fb68889bc98ef937d0a9266e56c57efdb8f74e75207a58fbdcc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-gameplay-reviewed-v3-current.json": "3ba9629060012d70a22f467427948ab9df3c08bfa74eb01eeca5f84e6cb37efc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Four Native Geometry Helpers Disc Review.txt": "d0f5578e4160f8102e2bfdba22362d14456c7da09dc5ac51f9ab1b0849d5980c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/facts.json": "c4967cafe953374f368e6bd7f5c3018a91f448f504d61b7fe1860d1d1329191f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/fresh-proof.json": "3ba9629060012d70a22f467427948ab9df3c08bfa74eb01eeca5f84e6cb37efc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/build.json": "664c845c9f0354f44e59cda2945e8f4b83606bf0f44abd335445841c0a7cbb8e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/final-component-master.json": "42caa4167c2acbd2dc0b74cb54afe836bf44175ff4785d0ea1c415105f53dfe7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/training-snapshot.json": "954844fe61ce61c30f7f2e67e9dbd991f5fbd8cc4859f2614f78e3b999bd53c9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/plane-disc-validation-reviewed-v3/20261020T171021.096448Z/prior-prototype-facts.json": "db1dd75f2dc25164aa682268466456807061ba2302357a216b17c569b87bc082"
+  },
+  "new_predictions": 0,
+  "new_model_authored_code": false,
+  "whole_goal_complete": false
+}

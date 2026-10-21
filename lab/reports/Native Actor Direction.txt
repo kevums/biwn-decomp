@@ -1,0 +1,75 @@
+BIWN — ACTOR DIRECTION UPDATE
+2026-10-19T13:14:43.532659+00:00
+
+The latest reviewed experimental disc has 30,834 native bytes. Actor heading
+function 0x13440 now executes a complete 798-byte C implementation with the
+original signed-division helper. This is another compiled game function;
+it is not a complete game-source rebuild or a physical-console release.
+
+Both fresh routes returned outdoors with all live monitors passing and zero
+pending calls. The candidate completed 24,634 frames and 12,474 checked direction
+returns; its original-direction control completed 24,628 frames and 14,255 returns.
+Both extended their first recordings by one normal frame to finish pending calls.
+Each run's earlier frames and audio prefix stayed identical to its first attempt.
+
+Fresh-pair audio matches over the 78,809,600-byte common prefix; complete capture
+lengths differ by six frames. All 24,628 aligned DSP states match. Video, CPU,
+RAM, navigation and adaptive-input differences remain; timing is unresolved.
+No whole-game audio, speedup, full-state equivalence or hardware claim.
+
+Tests: 2,560 prototype + 2,560 final component cases, all 61 reachable original
+root instruction sites; 2,560 caller-context cases with eight bytes of observed
+clearance; four semantic defects and one deliberately overlapping context reject.
+The read-only monitor passed 306 qualification executions and four observation
+negatives. Startup: 96 cases; heap initializer: 192; heap/copy: 3,392 native plus
+3,392 ordered cases; capacity requests: 36. Reserve 31,104 bytes, 270 spare;
+heap 0x166740, staging 0xF6800..0xFE200. Original disc/trailer preserved.
+
+Who did what:
+• Codex prepared the ABI bridge, source adaptation, compiler/emulator gates,
+  read-only observer, layout and integration review.
+• The local 27B Author took 61.73 seconds; the same-weight Reviewer took 32.84;
+  one informed Author repair took 89.80. These are sequential contexts, not
+  independent models. Both proposals compiled after one outer fence was removed,
+  but failed the first fixture. Neither proposal was adopted.
+• The first proposal used stale helper context and entered a zero-divisor path.
+  The repair still wrote before decrementing SP and overwrote its return slot.
+  The Reviewer ended mid-sentence at 599 output tokens against a 600-token limit;
+  no finish reason was reported. One verified development SFT record is prepared
+  but untrained. No optimizer step or default-model promotion occurred this turn.
+
+Exact prompts, inputs and raw responses (73 saved records):
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/model-work-index/20261019T130828.795769Z/prompts-and-responses.txt
+
+LM Studio's installed v11 MCP still exposes 18 tools. The existing task/verifier
+tools now accept actor_direction: an actual bad local candidate is rejected and
+the coordinator reference passes the bounded 2,560-case/context check. Actual
+source retrieval still returns Advertising PDF pages 9/20. Current status also
+returns the 30,834-byte build and its limits. Native Chat inspection timed out
+without window/AX state; native Chat display/adoption remains unverified.
+Daily 27B model remains at 32K context, one worker, idle. Advertising's prior
+base/experimental Reviewer loadability and interpretation limits remain unchanged.
+
+Where to find it:
+• Desktop → Local AI Lab → Show BIWN Native Disc.command now selects the latest
+  published, hash-checked disc rather than an older resource build.
+• The keyboard preview is unchanged on its prior recipe: click it, hold C + Up
+  to run, P to pause/resume.
+• Source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-direction-reference-v2.c
+• From that source directory, make -f Makefile.actor-direction-ready actor-direction
+  builds the checked prototype component with no source override. A clean build
+  produced the exact verified 798-byte binary. This is a component build.
+• Detailed reviewed evidence: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-direction-integration-review/20261019T130606.751480Z/review.txt
+
+All finite workers are terminal. A temporary status-pointer naming collision in
+the first new runner was isolated after it finished; the old navigation pointer
+was restored from its immutable receipt. No game job was restarted for that fix.
+The later quiescent runs use dedicated pointers and preserve the earlier cutoffs.
+
+The full four-part goal remains active: readable game/task/callgraph recovery,
+same-console full source build, unobserved outcomes and timing differences;
+native Chat and ordinary workflow reliability; Advertising interpretation and
+adaptation quality; and remaining portable/latest-tool setup. The previously
+tested moved package remains frozen at v10/30,036 bytes; new v11/30,834 work is
+not claimed copied/retested there. Future 256 GB capacity remains unbenchmarked;
+prepare the profile here, then measure it when that hardware is available.

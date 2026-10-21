@@ -1,0 +1,42 @@
+{
+  "jobs": [
+    {
+      "name": "frame-phased-image-qualification-pipeline-v3",
+      "pid": 66849,
+      "status": "terminal_v40_retained_image_gates_pass_resource_input_observer_extra_checks_pending",
+      "matching_live_process": false
+    },
+    {
+      "name": "native-frame-phased-image-fresh-input-v1-candidate",
+      "pid": 67513,
+      "status": "terminal_failed",
+      "matching_live_process": false
+    },
+    {
+      "name": "native-frame-phased-image-fresh-input-v1-control",
+      "pid": 67514,
+      "status": "terminal_fresh_scene17_route_pending_review",
+      "matching_live_process": false
+    },
+    {
+      "name": "v40-input-transition-fault-trace-v1",
+      "pid": 67871,
+      "status": "terminal_transition_diagnostic_fault_recorded",
+      "matching_live_process": false
+    },
+    {
+      "name": "v40-input-transition-fault-trace-v2",
+      "pid": 68105,
+      "status": "terminal_transition_diagnostic_fault_recorded",
+      "matching_live_process": false
+    },
+    {
+      "name": "frame-phased-local-reviewer-v1",
+      "pid": 66655,
+      "status": "terminal_shared_slot_busy_zero_predictions",
+      "matching_live_process": false
+    }
+  ],
+  "unrelated_jobs_inspected": false,
+  "all_recorded_own_workers_terminal": true
+}

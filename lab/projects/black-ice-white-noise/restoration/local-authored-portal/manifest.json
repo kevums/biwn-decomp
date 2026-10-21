@@ -1,0 +1,54 @@
+{
+  "status": "portable_portal_with_unedited_local_helper_original_match",
+  "recorded_at": "2026-10-16T12:20:36.164138+00:00",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261016T121955.365476Z-local-portal-key/portable-integration",
+  "cases": 192,
+  "guards": [
+    {
+      "missing_callback": 0,
+      "status": 1
+    },
+    {
+      "missing_callback": 1,
+      "status": 1
+    },
+    {
+      "missing_callback": 2,
+      "status": 1
+    },
+    {
+      "missing_callback": 3,
+      "status": 1
+    },
+    {
+      "missing_callback": 4,
+      "status": 1
+    }
+  ],
+  "original_instruction_addresses_exercised": 75,
+  "helper": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261016T121955.365476Z-local-portal-key/biwn_local_portal_key.c",
+  "helper_sha256": "d9a13f706c7ca4f0b1a43b06af370815efe2a3486494a1334ef45ebe4bf71ff6",
+  "helper_body_edited": false,
+  "combined_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261016T121955.365476Z-local-portal-key/portable-integration/biwn_geometry_with_local_portal.c",
+  "combined_source_sha256": "4ed59e8ef84c4cd8571621a2c216ab3abffcc6bdd14374e5a0875dd483ad6b7b",
+  "original_source_sha256": "a488c0b2703634230c061fda2027936ece04846e3443a424b6ccec962872fb5d",
+  "compiler": [
+    "clang",
+    "-dynamiclib",
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-I",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261016T121955.365476Z-local-portal-key/portable-integration/biwn_geometry_with_local_portal.c",
+    "-o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261016T121955.365476Z-local-portal-key/portable-integration/libgeometry-local-portal.dylib"
+  ],
+  "full_route_runtime_promoted": false,
+  "new_training": false,
+  "same_weights_correlated": true,
+  "coordinator_contribution": "Cloned existing portable geometry implementation; delegated shifted-key/match value step to the unedited local helper. Original sources and current replay candidates unchanged.",
+  "scope": "Complete original10430portal entry versus portableC: fullD0, ordered external bus access and externally visibleRAM on finite synthetic fixtures, including invalid directions and byte sign extension. OriginalCPU uses UnicornM68000; helper separately passed pinned nativeCPU2432cases. FullCCR/private stack/timing/aliasing/gameplay excluded."
+}

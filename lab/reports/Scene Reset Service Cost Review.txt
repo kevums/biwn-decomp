@@ -1,0 +1,7 @@
+BIWN reset service cost — exact final-image samples
+
+Eight original/native input pairs retain matchingCPU,nonarenaRAM and helper entries. Four reset pairs cover both stack modes;four no-reset pairs provide controls. Each original reset body uses612pinned-emulatorcycles;the compiled reset service uses1760. Original stops beforeRTS;compiled includes dispatcher guard,marker andCreturn. This ratio includes service overhead and is not a like-for-like isolated Cbody or physical-console benchmark.
+
+Whole input samples cost11156..16544additional emulatorcycles in the compiled lane,with other input helper effects declared and their execution cost omitted. The reset-service excess alone is1148cycles per observed reset;these component measurements do not attribute the fresh2/1frame shifts to a specific cause. Cost remains unapproved. No game,model or training rerun;the8newCPUcomponentpairs are the only execution for this measurement.
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-reset-cost-reviewed-v1/20261020T223308.417756Z/cost-proof.json

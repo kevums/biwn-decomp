@@ -1,0 +1,10 @@
+include Makefile.math
+.PHONY: bundle
+bundle: $(BUILD)/native-bundle.elf $(BUILD)/native-bundle.bin
+
+$(BUILD)/startup-finalize.o: startup-finalize.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/native-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/math-shims.o $(BUILD)/math-results.o $(BUILD)/signed-division.o $(BUILD)/camera.o $(BUILD)/startup-finalize.o bundle.ld
+	$(CROSS)ld --gc-sections -T bundle.ld -Map $(BUILD)/native-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-bundle.bin: $(BUILD)/native-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

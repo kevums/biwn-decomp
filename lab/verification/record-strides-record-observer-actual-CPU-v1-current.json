@@ -1,0 +1,25 @@
+{
+  "status": "terminal_shared_and_record_observers_actual_compiled_scene_CPU_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-record-observer-actual-CPU-v1/20261021T060218.700880Z",
+  "pid": 39278,
+  "CPU_lanes": 64,
+  "new_predictions": 0,
+  "new_training": false,
+  "all32CCR_both_banks": true,
+  "record_calls": 39,
+  "copy_calls": 102,
+  "matrix_calls": 33,
+  "observer_guest_RAM_writes": 0,
+  "observer_CPU_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_observer_actual_CPU_v1.py": "4295bb4bf2eb70c68cfb81dae5f11e1508560c33fe05ddfb5d2e6a43b4206e29",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-commit-observer-qualified-v1-current.json": "748f5cb74e63e1e389ae901b444c2d56511f607062d040a86f411efe6d11cc26",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1-current.json": "59de2f9847caea1bffb4add552ba3a891bb4e7dc6f08c4284c231a854868cc40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-commit-observer-qualified-v1/20261021T055802.143110Z/fixture.dylib": "efd72db005c986d4755e8f8653305ea82c452ad3c57b7e4abfbf9d4fef9d3faa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-shared-observer-qualified-v1/20261021T055801.770618Z/fixture.dylib": "4a86dbd55fc2a759a6c9f2c9a2e55dbcab5c1482d3462bda3e1d7065c2c3c7bb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-record-observer-actual-CPU-v1/20261021T060218.700880Z/observed-whole-scene-harness.py": "df9ba180c2c0958977e36ab297b92509eef59b62f7b98cf31ece9f49a590db35",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_record_strides_whole_scene_disc_v3.py": "86f16002b28600c8285b0f1e892ffe9890edf93a079c5f9b5a5105eb6ae31ada",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-strides-record-observer-actual-CPU-v1/20261021T060218.700880Z/cases.json": "40bbf97ceb524cd1eb9b8b31684bcd90f948db35beb026b5d4a88dc8c359d89d"
+  },
+  "scope": "Observe actual new-scene CPU lanes with exact shared and record witnesses.\n\nBoth functional lanes retain the whole-scene comparison's explicit device\nfixtures. Observer snapshots copy guest RAM/CPU into host-owned memory only.\nNo observer writes guest memory,registers,task state or scheduling.\n64selected compiled scene lanes across all32CCR/bothbanks include dense records and real inherited copy/matrix providers;functional pairedCPU/RAM/MMIO comparison also passes. Generic shared witness and new record commits/provider protection finish with zero errors/outside/pending. This does not cover fallback/reentry or fresh gameplay."
+}

@@ -1,0 +1,138 @@
+{
+  "status": "generated_unverified",
+  "instructions": 21,
+  "instructions_decoded": [
+    {
+      "address": 15741476,
+      "size": 6,
+      "bytes": "981f400000f0",
+      "assembly": "movei   $f04000,r31"
+    },
+    {
+      "address": 15741482,
+      "size": 6,
+      "bytes": "9800210000f0",
+      "assembly": "movei   $f02100,r0"
+    },
+    {
+      "address": 15741488,
+      "size": 2,
+      "bytes": "a401",
+      "assembly": "load    (r0),r1"
+    },
+    {
+      "address": 15741490,
+      "size": 6,
+      "bytes": "980200d00000",
+      "assembly": "movei   $d0,r2"
+    },
+    {
+      "address": 15741496,
+      "size": 2,
+      "bytes": "2841",
+      "assembly": "or      r2,r1"
+    },
+    {
+      "address": 15741498,
+      "size": 2,
+      "bytes": "bc01",
+      "assembly": "store   r1,(r0)"
+    },
+    {
+      "address": 15741500,
+      "size": 6,
+      "bytes": "9803002000f0",
+      "assembly": "movei   $f00020,r3"
+    },
+    {
+      "address": 15741506,
+      "size": 6,
+      "bytes": "980476d80007",
+      "assembly": "movei   $776d8,r4"
+    },
+    {
+      "address": 15741512,
+      "size": 2,
+      "bytes": "7604",
+      "assembly": "rorq    $10,r4"
+    },
+    {
+      "address": 15741514,
+      "size": 2,
+      "bytes": "bc64",
+      "assembly": "store   r4,(r3)"
+    },
+    {
+      "address": 15741516,
+      "size": 6,
+      "bytes": "9805005000f0",
+      "assembly": "movei   $f00050,r5"
+    },
+    {
+      "address": 15741522,
+      "size": 2,
+      "bytes": "8c66",
+      "assembly": "moveq   3,r6"
+    },
+    {
+      "address": 15741524,
+      "size": 2,
+      "bytes": "b8a6",
+      "assembly": "storew  r6,(r5)"
+    },
+    {
+      "address": 15741526,
+      "size": 2,
+      "bytes": "0845",
+      "assembly": "addq    $2,r5"
+    },
+    {
+      "address": 15741528,
+      "size": 6,
+      "bytes": "9806568e0000",
+      "assembly": "movei   $568e,r6"
+    },
+    {
+      "address": 15741534,
+      "size": 2,
+      "bytes": "b8a6",
+      "assembly": "storew  r6,(r5)"
+    },
+    {
+      "address": 15741536,
+      "size": 6,
+      "bytes": "980931be00f0",
+      "assembly": "movei   $f031be,r9"
+    },
+    {
+      "address": 15741542,
+      "size": 6,
+      "bytes": "9807002800f0",
+      "assembly": "movei   $f00028,r7"
+    },
+    {
+      "address": 15741548,
+      "size": 6,
+      "bytes": "980806c10000",
+      "assembly": "movei   $6c1,r8"
+    },
+    {
+      "address": 15741554,
+      "size": 2,
+      "bytes": "d120",
+      "assembly": "jump    (r9)"
+    },
+    {
+      "address": 15741556,
+      "size": 2,
+      "bytes": "b8e8",
+      "assembly": "storew  r8,(r7)"
+    }
+  ],
+  "source_sha256": {
+    "biwn_gpu_main_boot.c": "4d7f2a4cf4ef8b7ed78f7cf0fd1bdcf996f98c30638ab0e5f7764fc501dde986",
+    "biwn_gpu_main_boot.h": "6d80e7c646cf1fa46a377dd611daca900b4354cdc872aa3730390644c86092ed"
+  },
+  "source_payload_sha256": "e301842fdd6b91640e24888484e5b405ee86dd6cdba02f84b577e9d0cfa589ee",
+  "whole_game_complete": false
+}

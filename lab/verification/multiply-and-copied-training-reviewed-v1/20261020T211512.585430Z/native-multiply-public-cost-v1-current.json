@@ -1,0 +1,177 @@
+{
+  "status": "terminal_native_public_multiply_cost_eight_cases_measured",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-public-cost-v1/20261020T210500.075566Z",
+  "cases": [
+    {
+      "case": {
+        "root": 58688,
+        "variant": 0,
+        "a": 0,
+        "b": 0
+      },
+      "costs": {
+        "original": {
+          "cycles": 196,
+          "instructions": 20
+        },
+        "native": {
+          "cycles": 2288,
+          "instructions": 176
+        }
+      },
+      "native_to_original_ratio": 11.6735,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 64,
+        "a": 0,
+        "b": 1
+      },
+      "costs": {
+        "original": {
+          "cycles": 198,
+          "instructions": 20
+        },
+        "native": {
+          "cycles": 2292,
+          "instructions": 176
+        }
+      },
+      "native_to_original_ratio": 11.5758,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 256,
+        "a": 4294967295,
+        "b": 1
+      },
+      "costs": {
+        "original": {
+          "cycles": 216,
+          "instructions": 23
+        },
+        "native": {
+          "cycles": 2440,
+          "instructions": 190
+        }
+      },
+      "native_to_original_ratio": 11.2963,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 448,
+        "a": 2147483648,
+        "b": 1
+      },
+      "costs": {
+        "original": {
+          "cycles": 258,
+          "instructions": 24
+        },
+        "native": {
+          "cycles": 2440,
+          "instructions": 190
+        }
+      },
+      "native_to_original_ratio": 9.4574,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 512,
+        "a": 2147483648,
+        "b": 4294967295
+      },
+      "costs": {
+        "original": {
+          "cycles": 272,
+          "instructions": 26
+        },
+        "native": {
+          "cycles": 2316,
+          "instructions": 181
+        }
+      },
+      "native_to_original_ratio": 8.5147,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 640,
+        "a": 2147483647,
+        "b": 2
+      },
+      "costs": {
+        "original": {
+          "cycles": 240,
+          "instructions": 21
+        },
+        "native": {
+          "cycles": 2322,
+          "instructions": 176
+        }
+      },
+      "native_to_original_ratio": 9.675,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 896,
+        "a": 305419896,
+        "b": 2271560481
+      },
+      "costs": {
+        "original": {
+          "cycles": 374,
+          "instructions": 27
+        },
+        "native": {
+          "cycles": 2516,
+          "instructions": 193
+        }
+      },
+      "native_to_original_ratio": 6.7273,
+      "full_return_CPU_public_RAM_match": true
+    },
+    {
+      "case": {
+        "root": 58688,
+        "variant": 2191,
+        "a": 2150794441,
+        "b": 171412274
+      },
+      "costs": {
+        "original": {
+          "cycles": 348,
+          "instructions": 26
+        },
+        "native": {
+          "cycles": 2472,
+          "instructions": 189
+        }
+      },
+      "native_to_original_ratio": 7.1034,
+      "full_return_CPU_public_RAM_match": true
+    }
+  ],
+  "new_training": false,
+  "new_predictions": 0,
+  "disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/profile_native_multiply_public_v1.py": "97002615e89b341bd48cd3e38b144278ab927d08904454a5c2696c0af95c2fed",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_multiply_public_v1.py": "ff40fae15f531b4bdb1ca623667d32a77927df75622977f4ab6ef26963cd806b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-public-v1-current.json": "7ea1f5af605e621213abc466f263735ccc0dd492082dba461a0432ae53730abd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-public-v1/20261020T210005.210564Z/build/native-shared.bin": "3afbdb2579842fa5f812669f0f74295eb9008b38c08d0d2ba3d3f8ee047999bc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-multiply-public-cost-v1/20261020T210500.075566Z/cases.json": "1d3cff07d7c95f9985c48eea573476873f46acc5d761b08e98c28a92c113dd5b"
+  },
+  "scope": "Pinned-emulator full entry/return CPU cost; no physical/game timing claim. Eight fixed operands,entry-to-RTS includingprivatecontext/guard costs;no fixtureeffects,gueststate repairs orclock normalization. All samples deliberatelyuser mode;the2192/320functional matrix separately coversbothmodes/allCCR. No speedacceptancecriterion ordiscqualification inferred."
+}

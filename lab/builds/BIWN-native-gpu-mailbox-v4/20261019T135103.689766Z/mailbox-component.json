@@ -1,0 +1,112 @@
+{
+  "status": "terminal_native_gpu_mailbox_final_local_repair_CPU_context_pass",
+  "pid": 77190,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z",
+  "completed": 2492,
+  "planned": 2492,
+  "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/build/gpu-mailbox.bin",
+  "ELF": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/build/gpu-mailbox.elf",
+  "binary_bytes": 922,
+  "code_address": 1467956,
+  "symbols": {
+    "MAILBOX_PRIVATE_RESERVE": 124,
+    "NATIVE_ADDRESS": 1467956,
+    "biwn_native_gpu_mailbox_body": 1467956,
+    "biwn_native_gpu_submit_4320": 1468712,
+    "biwn_native_gpu_submit_4320_return": 1468766,
+    "biwn_native_gpu_submit_4b00": 1468768,
+    "biwn_native_gpu_submit_4b00_return": 1468822,
+    "biwn_native_gpu_mailbox_wait_capture": 1468824
+  },
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/gpu-mailbox-local-repair-v1.c",
+  "source_authorship": "Local informed Author repair; only outer Markdown fence removed; supplied coordinator generic flag helpers/ABI/wait bridge",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_gpu_mailbox_final_v6.py": "2f9fd2530c1b6e4991d31bfbb58c5384c79b41f67e44092c63ef159c6a255242",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/native_gpu_mailbox_engine_v2.py": "55cf462d7aaa429189786a43c7c3964987ce314b21d0d6dfa358928019cc8d64",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/gpu-mailbox-local-repair-v1.c": "1f3b22d20f8d3760d90b61248279f67ef3efea7f421b03819688a2eac136c80e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/gpu-mailbox-native.h": "c6b8ddbb862d930fb6647b2b9cfedfc610b4cb1aaa4aaa131eaac73290610b17",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/gpu-mailbox-shim-v3.S": "1038a530882f3aad35bc6b1d4880d3f7177887e26a101e3336b32914bd49c8bc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.gpu-mailbox-v4": "92a866c9279966f8a22f03248e2d08bb625b3cd787912056afdc2546ab23d530",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/gpu-mailbox.ld": "4a212312111dad896236225ff463953737c6bdc6ad4b4b007bf3d641c127d369",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/build/gpu-mailbox.bin": "bd694117720d7269b8a3e80cbac6b9d687b80d28339bfaa8e633ec73896fbe29",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/build/gpu-mailbox.elf": "fe8f94ba53d2182586312c62a34524d0673ab74f3b867769e9dfaa4f0a31bdaf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/resident-linked.bin": "eafdac7b9fe0798828f8e228a57b2537e20ae319919da3e9b492e9d2b85229c0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/resident-padded.bin": "7601eead28f0d7d02934cc3a6079504d3f11826fc50a91e311f2e2b34cc86f88",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/parent-build.json": "bf8812cd12422c9940a20d348fd666d118e0f28287b81d8f11d546409a2a540b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-gpu-mailbox-final-v6/20261019T135025.204162Z/local-repair-component.json": "3f4327b36c26bfa673a9ffceb826ec2d2552a2f1d2d070f52f9776159f6c1ac0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/gpu-mailbox-native-Repair-20261019T132629.094574Z/ancestry-review-v4/receipts/protocol.json": "3f4327b36c26bfa673a9ffceb826ec2d2552a2f1d2d070f52f9776159f6c1ac0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856"
+  },
+  "layout_relocations": [
+    {
+      "resident_address": "0x15f1cc",
+      "old": "00166740",
+      "new": "00166b40",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15f1dc",
+      "old": "00166740",
+      "new": "00166b40",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15f1e2",
+      "old": "00166740",
+      "new": "00166b40",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15ff58",
+      "old": "00166740",
+      "new": "00166b40",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15ff94",
+      "old": "00166740",
+      "new": "00166b40",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15f1e8",
+      "old": "00166744",
+      "new": "00166b44",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15f1ee",
+      "old": "00166748",
+      "new": "00166b48",
+      "reason": "Reserve1024additionalbytes for two local repaired GPU command wrappers."
+    },
+    {
+      "resident_address": "0x15edd6",
+      "old": "000f6800",
+      "new": "000f6400",
+      "reason": "Move staging1024earlier; preserve trailerFE200."
+    },
+    {
+      "resident_address": "0x15eddc",
+      "old": "3cff",
+      "new": "3eff",
+      "reason": "Clear through existingFE200 boundary."
+    }
+  ],
+  "resident_address": 1437120,
+  "resident_bytes": 31758,
+  "reserve_bytes": 32128,
+  "heap_start": 1469248,
+  "staging_address": 1008640,
+  "staging_clear_bytes": 32256,
+  "reserve_free_bytes": 370,
+  "disc_integrated": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "dispatcher_ancestor_context_canaries": true,
+  "E2B8_minimum_private_stack_ancestor_clearance": 2,
+  "cases": 2492,
+  "max_private_depth": 156,
+  "minimum_caller_context_clearance": 2,
+  "scope": "Final-link unchanged local repair after30834byte resident; CPU/caller checks.\nAdds512bytes reserve/staging relocation; no GPU/frame/hardware proof here.\n"
+}

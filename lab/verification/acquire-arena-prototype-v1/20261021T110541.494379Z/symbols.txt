@@ -1,0 +1,16 @@
+000000a8 a RESOURCE_CONTEXT
+00019400 a POOL_BYTES
+000c0928 a POOL_BASE
+00160434 A ACQUIRE_BODY
+001675c0 A GPU_ARENA_BASE
+001f0000 A NATIVE_ADDRESS
+001f0000 T biwn_acquire_arena_entry
+001f0086 T biwn_acquire_arena_return
+001f0088 T biwn_acquire_arena_wait
+001f00b0 T biwn_acquire_arena_wait_return
+001f0106 T biwn_acquire_arena_signal
+001f012e T biwn_acquire_arena_signal_return
+001f0184 T biwn_acquire_arena_allocate
+001f01b0 T biwn_acquire_arena_allocate_return
+001f0206 T biwn_acquire_arena_load
+001f024e T biwn_acquire_arena_load_return

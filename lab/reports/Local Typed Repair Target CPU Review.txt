@@ -1,0 +1,11 @@
+LOCAL TYPED REPAIR — TARGET CPU REVIEW
+
+Unedited saved10968Repair function compiled with coordinator typed primitives and successful-bus callbacks into a separate M68000 image.260originalCPU/RAMcases,260orderedaccess comparisons and35budget cases pass. No new model prediction or optimizer update. The initialfulltest stopped at its50millioncycleworkbound on the largeboundarycase after256smallcases;v2allows200millioncycles and16milliontracedinstructions. Source body and comparison requirements are unchanged. Native disc,finaladdressABI,stackpartition/performance andwholegamefidelity remain unqualified for this model function. The original earlier object was compile-only;this is a separately linked executable.
+
+Unedited local typed Repair source on target68000 versus original CPU and contract.
+Full helper input matrix,budget boundaries and native public data-access traces.
+Only the target's successful direct bus is exercised;host callback failures remain
+in the unchanged portable implementation. No arbitrary aliases,IRQ or disc claim.
+ OriginalCPU is the pinned emulator;generated-ISA public byte/argument/RTS reads and writes use independentUnicorn hooks and the retained explicit CLR read-before-write callback contract. Native scratch CPU/context/Cstack alone are normalized. Standalone target compilation of the unedited model function plus coordinator typed primitives and successful-bus callbacks. Target scratch CPU/context/Cstack and code/table data reads alone are excluded from public traces. Original published object is not this separately linked image. No disc adoption or performance/generalization claim;final-image ABI/relocation/resource and fresh gameplay need their own gates.
+
+Proof:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-typed-clear-target-v2-current.json

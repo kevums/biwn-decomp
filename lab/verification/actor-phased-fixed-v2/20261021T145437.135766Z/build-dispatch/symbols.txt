@@ -1,0 +1,7 @@
+00000060 a TRANSIENT_CONTEXT
+00163788 T biwn_actor_dispatch_phase
+001638c8 T biwn_native_actor_dispatch
+0016392a T biwn_actor_dispatch_after_actor
+0016394c T biwn_actor_dispatch_after_sprite
+00163962 T biwn_native_actor_dispatch_return
+00190000 A NATIVE_ADDRESS

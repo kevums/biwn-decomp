@@ -1,0 +1,72 @@
+{
+  "status": "terminal_four_algorithm_fault_controls_rejected",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z",
+  "negative_controls": [
+    {
+      "fault": "clear-base-plus-one",
+      "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/clear-base-plus-one.c",
+      "rejected": true,
+      "proof": {
+        "status": "terminal_original_CPU_or_RAM_comparison_rejected",
+        "pid": 30764,
+        "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153836.892842Z",
+        "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/clear-base-plus-one.c",
+        "whole_game_complete": false,
+        "new_training": false,
+        "native_disc_changed": false,
+        "completed": 0,
+        "counterexample": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153836.892842Z/counterexample.json"
+      }
+    },
+    {
+      "fault": "timer-branch-reversed",
+      "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/timer-branch-reversed.c",
+      "rejected": true,
+      "proof": {
+        "status": "terminal_original_CPU_or_RAM_comparison_rejected",
+        "pid": 30769,
+        "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153837.224595Z",
+        "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/timer-branch-reversed.c",
+        "whole_game_complete": false,
+        "new_training": false,
+        "native_disc_changed": false,
+        "completed": 4,
+        "counterexample": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153837.224595Z/counterexample.json"
+      }
+    },
+    {
+      "fault": "matrix-word-pushed-as-long",
+      "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/matrix-word-pushed-as-long.c",
+      "rejected": true,
+      "proof": {
+        "status": "terminal_original_CPU_or_RAM_comparison_rejected",
+        "pid": 30775,
+        "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153837.662821Z",
+        "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/matrix-word-pushed-as-long.c",
+        "whole_game_complete": false,
+        "new_training": false,
+        "native_disc_changed": false,
+        "completed": 8,
+        "counterexample": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153837.662821Z/counterexample.json"
+      }
+    },
+    {
+      "fault": "post-helper-counter-not-reloaded",
+      "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/post-helper-counter-not-reloaded.c",
+      "rejected": true,
+      "proof": {
+        "status": "terminal_original_CPU_or_RAM_comparison_rejected",
+        "pid": 30785,
+        "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153838.167371Z",
+        "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-deeper-helper-fault-controls-v1/20261020T153836.848079Z/post-helper-counter-not-reloaded.c",
+        "whole_game_complete": false,
+        "new_training": false,
+        "native_disc_changed": false,
+        "completed": 9,
+        "counterexample": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153838.167371Z/counterexample.json"
+      }
+    }
+  ],
+  "new_training": false,
+  "whole_game_complete": false
+}

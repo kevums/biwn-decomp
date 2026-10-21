@@ -1,0 +1,116 @@
+BIWN AND LOCAL AI WORK — TRANSFER HANDOVER
+21 October 2026 (America/Chicago)
+
+PURPOSE AND TRANSFER SCOPE
+The user requested all work files ready for transfer, minus actual models, with a current-state handover. Work is paused until the dedicated local-model machine is ready. The shared archive is being prepared on /Volumes/SWAP by the Advance local AI ad research chat. This document is the game/local-lab handover; its archive completion and exact archive filename belong in the archive's verification receipt.
+
+Include source, tools, environments, scripts, datasets, small LoRA adapter checkpoints, all successes and failed experiments, raw prompts/responses, all BIWN disc/build versions, analysis, assets, saves and verification traces. Include model identities, revisions, tokenizer/configuration files, fusion recipes and weight-hash records. Exclude downloaded/fused main model weights (GGUF and main model tensor shards), including the advertising precision23 modified main shard. Small training adapters remain part of the work and are included. Models remain intact on the original Mac; nothing has been deleted or moved. This package cannot run model inference until the required weights are restored separately.
+
+LATEST BIWN RESULT
+Latest experimental image: native-actor-phased-v41-experimental.
+Fresh native-input candidate: 25,024 frames.
+Same-layout original-input control: 25,011 frames.
+Both returned outdoors and completed the Deck input trial.
+Each lane: actor dispatch 15/15 returns; actor initialization 13/13 returns; initializer helpers 18/18 returns; frame acquisition 124/124 returns. All recorded monitors end clear/quiescent, with no reported stack-bound violations or unfinished calls.
+
+Final video and selected recorded game fields agree, but 6,950 paired frame-index video samples differ (first difference frame 375). The feedback controller chooses different buttons 256 times; latched-button RAM differs 252 times. Durations and input schedules differ. These results do not prove original-game fidelity, causal speedup, fixed-input equivalence or complete-game coverage. Both audio captures are silent. Audio remains unresolved.
+
+The complete game is NOT decompiled or rebuilt solely from readable source. The experimental discs still mix recovered/native code with inherited original code and emulator/HLE services. Physical Jaguar CD validation is unfinished. The default preview remains an earlier checkpoint, not v41 or the complete reconstructed game. Prior rough percentage estimates were subjective planning judgments, not a measured coverage denominator.
+
+SOURCE FIX AND EVIDENCE
+v40 fixed a frame-acquisition context that overwrote task metadata. Its fresh input route then exposed actor initialization's parked C stack overwriting 2/6/26 bytes of the task header. v41 splits actor dispatch/initialization into leaf C phases and returns to assembly before real helper calls. Temporary 96-byte CPU contexts and C frames are released before helpers; hardware registers carry state across those boundaries.
+
+The fixed modules occupy 476 bytes (dispatch) and 1,570 bytes (initialization), retaining public entry addresses 0x1638C8 and 0x163EEC. No arena or heap reservation was added. Initial heap is 122,560 bytes; resident reservation 275,328 bytes. The smallest heap sample while the outer task was active was 2,800 bytes in both routes; this is not a global minimum.
+
+Prototype and actual-address component comparisons each passed 1,024 initializer and 856 combined dispatch/initializer cases on Unicorn and the pinned CPU. Another 232 task-layout pairs span all 101 task slots and preserve 64 protected task bytes. Component stack maxima are 156 bytes for initialization and 192 bytes for the combined chain. Static C-phase bounds are 136/156 bytes; helper/caller/IRQ/exception handling is excluded. Seven actor-monitor fault controls and 48 off/on CPU pairs passed. Both changed modules rebuild byte-identically with the copied SDK. Actual startup passed six dirty-RAM cases on each CPU and 192 heap comparisons. Thirty-one unchanged v40 finite gates were reused by exact byte/layout/observer identity; these are not fresh v41 executions or whole-game proofs.
+
+AUTHORITATIVE GAME PATHS
+Workspace:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following
+Lab:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab
+Latest detailed report:
+outputs/local-ai-lab/reports/BIWN v41 Phased Actors and Fresh Route Pass.txt
+Current machine-readable checkpoint:
+outputs/local-ai-lab/verification/goal-continuation-current.json
+Current published evidence:
+outputs/local-ai-lab/verification/native-Deck-current-status-v1-current.json
+Latest build manifest:
+outputs/local-ai-lab/verification/actor-phased-disc-build-v1-current.json
+Fresh-route review:
+outputs/local-ai-lab/verification/actor-phased-image-fresh-input-reviewed-v1-current.json
+
+Key source profiles under projects/black-ice-white-noise/restoration/native-m68k:
+actor-phased-fixed-v2 (actor dispatch/initialization)
+frame-acquire-phased-split-v2 (frame acquisition)
+input-dispatch-native-v6-arena-admission (input)
+deck-shared-v34-record-strides-v1 (shared scene/record algorithms)
+deck-outer-v32-compact-v1 (outer task)
+Use actor_phased_symbols and frame_phased_symbols for new internal addresses. Old capture symbols inherited in historical maps are superseded. Do not silently update or rerun frozen receipts.
+
+HISTORICAL BASELINES TO RETAIN
+Reviewed v34 remains the earlier baseline. Failed v37, v38, v39 and v40 builds and diagnostics remain preserved; v41 is unpromoted. Keep all build trees and reports, including rejected sources and failing tests. Do not replace this history with only the newest disc. The original input is locally present at:
+outputs/local-ai-lab/projects/black-ice-white-noise/originals/BIWN#23.cdi
+The earlier external source path was /Volumes/SHiN TiTAN/Games/JagJunk/Backups/BIWN#23.cdi; the local copy above removes dependence on that drive for preserved media.
+
+LOCAL MODELS, AGENTS AND TRAINING
+Current daily local model binding:
+identifier: portable-ailab-4f5658686590-daily
+model key: local/portable-ailab-4f5658686590-daily-configured
+base: lmstudio-community/Qwen3.8-27B-MLX-6bit
+revision: 05f38c1f39e2f39619653616fe8e96a5d676358e
+context 32,768; parallel 1; reasoning off in the saved workflows.
+Current portable binding file: portable-model-bindings.json in the current package below.
+
+The other recorded game-training base is lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit, revision bbecedefd826819d2c6b6465e88ca7b9b8ad3407. Keep identities and checksums even though actual weight shards are excluded from this transfer. There are 84 game adapter checkpoint files totaling approximately 3.36 GiB, retained with datasets/configs/evaluations. Later game pilots ran actual updates, but useful generated-code quality improvement is not established; the geometry pilot's selected source-quality probe was base 0/4 and adapter 0/4. Do not promote a checkpoint based on training loss alone.
+
+The latest v41 source, assembly, tests and integration were coordinator-authored. No cloud subagents produced this code. One local Reviewer prompt was saved, but its shared inference lease was unavailable before generation: zero new predictions or optimizer updates in this phase. Same-weight roles are correlated, not independent verification. Exact role prompts and raw outputs from previous runs remain under runs/ and verification/.
+
+Unique trained native models still on the original Mac, EXCLUDED from the model-free transfer:
+/Users/kevin/.lmstudio/models/local/game-source-pilot-v2
+/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2
+/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2
+All recorded files in these three exports matched their saved package hashes during the preservation audit (12/11/11 files respectively). Their retained adapters and fusion recipes are not proof of byte-identical regenerated exports. Restore these exact originals separately if ready-to-load historical artifacts are needed. Their package manifests and model identities are included.
+
+STATUS AND CHAT LIMITS
+Root and copied CLI status24/entry37 each produced the expected 12 lines; actual root MCP19 tools and copied MCP18 tools exposed the v41 evidence and historical failures. No current native Chat-window inference or broad ease-of-use qualification was established. Default Reader43 is historical: update its prompt/evidence selection to the latest source before trusting generated current-status answers. New source status in CURRENT DECOMPILATION.txt and the machine-readable packet is authoritative. Do not start background training or decompilation without the user's resume instruction.
+
+PREVIEW AND CURRENT PORTABLE PACKAGE
+Current package:
+/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved
+Preserve all four restore-test workbench/runtime trees, minus their main model weights. They contain differing historical work; do not remove entire packages because model shards are duplicated.
+Useful current-package launchers:
+Play BIWN Preview.command
+BIWN Current Status.command
+Open BIWN Lab.command
+Model Prompts and Responses.command
+Check Game Training.command
+Open Visible BIWN Chat.command
+
+Installed runtime:
+/Users/kevin/.lmstudio/local-ai-lab
+Apps:
+/Users/kevin/Applications/BIWN Test Preview.app
+/Users/kevin/Applications/BIWN Native Preview.app
+Desktop shortcuts are mostly absolute symlinks; restore their targets and recreate links on the new machine.
+
+To use the earlier preview, open BIWN Test Preview.app, click its window and press P. Arrows move; Shift+Up or C+Up runs; Z attacks/reads; 1 then D opens Deck; M mutes; Esc closes. LM Studio is not required for the preview. Audio/fidelity of the full reconstructed game are still unresolved.
+
+ADVERTISING WORK — REPORTED BY THE OTHER CHAT
+Workspace: /Users/kevin/Documents/Codex/2026-10-20/che
+Authoritative handover:
+outputs/model-storage-audit-20261021/START HERE - preserve and resume.txt
+Latest reported candidate: aligned62, 126 actual updates; final adapter SHA256:
+434ddd01d983a76036bd4d64bb187229b581628e5fa104bd7de77e072a9e2581
+The reported matched source-review diagnostic was base 3/4, old metadata54 1/4, aligned62 3/4. All failed the model-written experiment plan; no candidate promoted. Latest reported prediction index: 598. Preserve all data, source papers/cards, review decisions, failed trials, feature tensors, small adapters and recipes. Its precision23 base uses a unique modified fifth main shard plus four links to the native 27B base. That main shard is a model weight and excluded under this request; retain its hash, transformation recipe, configuration and source path for later restoration. Read that chat's handover for exact scientific requirements and resume policy.
+
+RESUMING ON THE NEW MACHINE
+1. Verify archive checksums and restore files before altering the current Mac's originals. Review the archive's explicit excluded-model list.
+2. Preserve old path-bound scripts/records unchanged. Make migration edits in a new working copy; absolute /Users/kevin paths and model symlinks need mapping to the new home directory.
+3. Recreate the recorded macOS/Python/MLX/LM Studio/toolchain environment. This is not a complete app installer or a promise of unchanged behavior on future hardware.
+4. Restore model weights separately, using recorded exact revisions/hashes and the unique trained originals where required. The model-free package is not sufficient for offline inference or direct replay requiring the precision23 main shard.
+5. Verify the current status/MCP evidence, build tools and earlier keyboard preview. Update Reader43 and test native Chat usability with exact prompts/responses preserved and the shared inference lease enforced.
+6. After explicit resume, address fixed identical-input and broader indoor/device/IRQ/audio checks, then remaining readable CPU/GPU/DSP/firmware source-only rebuilding and physical-console testing. Evaluate useful local-model training gains separately. Actual future 256 GiB hardware performance remains untested.
+
+TRANSFER INTEGRITY
+The SWAP copy/archive should retain all non-model work and include file inventory, exclusions, content hashes, archive hashes and restore/verification instructions. The copy owner is Advance local AI ad research. Do not infer completion from an archive file merely existing; consult its terminal verification receipt. All original files and model weights remain on this Mac. No source deletion is authorized by preparing this transfer.

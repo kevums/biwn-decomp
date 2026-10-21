@@ -1,0 +1,20 @@
+{
+  "status": "terminal_six_helper_observer_legal_and_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c",
+  "observer_sha256": "17da49b1180a1acc0ac50ea22658dd356572b5ed7568326a2b8ff72992f121dc",
+  "legal_controls": 8,
+  "rejected_fault_controls": 89,
+  "actual_game_execution": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_geometry_observer_v3.py": "70ec4fe78032ecb23d9dcd949e70e8bbd94e13df3d2ba92e044ee42ac9e8b760",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_full_observer_v3.py": "16b961d34af3f566892153815369081e92f84359c8671bbe2a540292209c9590",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/geometry_records_debug_geometry_observer_v1.inc.c": "ceadd1c996627fb1421427a170db002d36b47ccc1b1e7744e39ca946a0a498a0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c": "17da49b1180a1acc0ac50ea22658dd356572b5ed7568326a2b8ff72992f121dc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.dylib": "cd5c830cd72869d9fe04cc969879536e35d3d4a0b69c701f8128f7c29a866c14",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/fixture.c": "0661b5e051023676b93a412fdfdb77719bb354ed38205c187adbd7d83411346c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/fixture.dylib": "8f2b2a0ccc4e85311c016f9f9339009d763ea69538cb461f47f076bcb96454dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/cases.json": "948c2a00fa0ac1c199c7c8c1711b8ec4e6d286941a0c8b287e1660d85fb39ab3"
+  },
+  "scope": "Exact new geometry observer fault fixtures, not actual game execution. Read-only exact extracted geometry code; eight legal modes and faults test order, arguments, logical context, real C returns, transform capture, parent state. Other retained monitors are separately qualified. No emulator/game fidelity claim."
+}

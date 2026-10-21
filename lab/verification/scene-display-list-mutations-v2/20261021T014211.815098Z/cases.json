@@ -1,0 +1,386 @@
+[
+  {
+    "case": 1200,
+    "CCR": 0,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1201,
+    "CCR": 1,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1202,
+    "CCR": 2,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1203,
+    "CCR": 3,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1204,
+    "CCR": 4,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1205,
+    "CCR": 5,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1206,
+    "CCR": 6,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1207,
+    "CCR": 7,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1208,
+    "CCR": 8,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1209,
+    "CCR": 9,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1210,
+    "CCR": 10,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1211,
+    "CCR": 11,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1212,
+    "CCR": 12,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1213,
+    "CCR": 13,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1214,
+    "CCR": 14,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1215,
+    "CCR": 15,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1216,
+    "CCR": 16,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1217,
+    "CCR": 17,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1218,
+    "CCR": 18,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1219,
+    "CCR": 19,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1220,
+    "CCR": 20,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1221,
+    "CCR": 21,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1222,
+    "CCR": 22,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1223,
+    "CCR": 23,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1224,
+    "CCR": 24,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1225,
+    "CCR": 25,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1226,
+    "CCR": 26,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1227,
+    "CCR": 27,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1228,
+    "CCR": 28,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1229,
+    "CCR": 29,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1230,
+    "CCR": 30,
+    "supervisor": false,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1231,
+    "CCR": 31,
+    "supervisor": false,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1232,
+    "CCR": 0,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1233,
+    "CCR": 1,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1234,
+    "CCR": 2,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1235,
+    "CCR": 3,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1236,
+    "CCR": 4,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1237,
+    "CCR": 5,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1238,
+    "CCR": 6,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1239,
+    "CCR": 7,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1240,
+    "CCR": 8,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1241,
+    "CCR": 9,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1242,
+    "CCR": 10,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1243,
+    "CCR": 11,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1244,
+    "CCR": 12,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1245,
+    "CCR": 13,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1246,
+    "CCR": 14,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1247,
+    "CCR": 15,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1248,
+    "CCR": 16,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1249,
+    "CCR": 17,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1250,
+    "CCR": 18,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1251,
+    "CCR": 19,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1252,
+    "CCR": 20,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1253,
+    "CCR": 21,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1254,
+    "CCR": 22,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1255,
+    "CCR": 23,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1256,
+    "CCR": 24,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1257,
+    "CCR": 25,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1258,
+    "CCR": 26,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1259,
+    "CCR": 27,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1260,
+    "CCR": 28,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1261,
+    "CCR": 29,
+    "supervisor": true,
+    "ordered_accesses": 95
+  },
+  {
+    "case": 1262,
+    "CCR": 30,
+    "supervisor": true,
+    "ordered_accesses": 87
+  },
+  {
+    "case": 1263,
+    "CCR": 31,
+    "supervisor": true,
+    "ordered_accesses": 95
+  }
+]

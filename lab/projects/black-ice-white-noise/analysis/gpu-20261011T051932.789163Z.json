@@ -1,0 +1,50 @@
+{
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/work/smoke/jaguar-movei.bin",
+  "sha256": "b089048b5a80f9ed536c725a7bc5054c475cdea1113c8acf86b0b757bb66a39e",
+  "offset": 0,
+  "length": 8,
+  "load_address": 15740928,
+  "architecture": "Jaguar GPU (operator-selected, not automatically proven)",
+  "decoder_provenance": {
+    "repository": "https://github.com/mamedev/mame",
+    "revision": "c806573e925ce00fe3e8d8fe417eba63f83275ce",
+    "role": "Emulator implementation reference, not game-specific evidence",
+    "files": [
+      {
+        "file": "jaguar.cpp",
+        "url": "https://raw.githubusercontent.com/mamedev/mame/c806573e925ce00fe3e8d8fe417eba63f83275ce/src/devices/cpu/jaguar/jaguar.cpp",
+        "sha256": "fc07911b2a42f04726a73dc76743a14c150ecafb8670dcda0cb150df8a925806"
+      },
+      {
+        "file": "jaguar.h",
+        "url": "https://raw.githubusercontent.com/mamedev/mame/c806573e925ce00fe3e8d8fe417eba63f83275ce/src/devices/cpu/jaguar/jaguar.h",
+        "sha256": "0d95eb9882277dcf66ce1200c53f53d1d58039f14a4e4c2f5827081b114e04be"
+      },
+      {
+        "file": "jagdasm.cpp",
+        "url": "https://raw.githubusercontent.com/mamedev/mame/c806573e925ce00fe3e8d8fe417eba63f83275ce/src/devices/cpu/jaguar/jagdasm.cpp",
+        "sha256": "d4797a305eb4a3a6bef58166c9839ad18257a2ac97d2ba1e8106ef7b8dc81f2b"
+      },
+      {
+        "file": "jagdasm.h",
+        "url": "https://raw.githubusercontent.com/mamedev/mame/c806573e925ce00fe3e8d8fe417eba63f83275ce/src/devices/cpu/jaguar/jagdasm.h",
+        "sha256": "010e1a545b2691c8d8c2837b55084dd0f6a55bbd647f0fed9fe997891b9afc66"
+      }
+    ]
+  },
+  "decoded_instructions": [
+    {
+      "address": 15740928,
+      "size": 6,
+      "bytes": "980156781234",
+      "assembly": "movei   $12345678,r1"
+    },
+    {
+      "address": 15740934,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    }
+  ],
+  "warning": "Disassembly is not decompilation or proof of executable boundaries. GPU/DSP delay slots and hardware state require separate analysis."
+}

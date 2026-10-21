@@ -1,0 +1,28 @@
+{
+  "status": "terminal_actual_heap_initialize_then_capacity_requests_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-scene17-direct-dispatch-capacity-v1/20261021T024550.041711Z",
+  "cases": 36,
+  "initial_capacity": 120640,
+  "requests": [
+    0,
+    1,
+    1024,
+    120624,
+    120632,
+    120633,
+    120639,
+    120640,
+    120641
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-scene17-direct-dispatch-final-v1/20261021T024305.646293Z/capacity.py": "0806edd638f2f369bc0cad0587bdc3e994b36edb37dd9eb407dc56ec2bd6e177",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_load_scan_bundle_heap.py": "c4ca5cd1ff4b809adbc6e0593f3687665c8f221463ad85b1581ae6a0ae0addfa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-disc-build-v1-current.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-dispatch-v1/20261021T024239.597935Z/mainstage-native-scene17-direct-dispatch-v1.bin": "ef917f1d1bf20582efa162a64f7d0d28b4e6dccca06f58021a0441b49921ea8c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-dispatch-v1/20261021T024239.597935Z/resident-with-arenas.bin": "cffa02671df8719fa2730913a762e7145777b68082024d69c06404561156f460",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e"
+  },
+  "scope": "Fresh relocated heap init followed by boundary-size allocation requests. Each request starts from actual native-constructor RAM. Exact fullCPU/banks/publicRAM/nativecopy-blitter plus prescribed-copy ordered trace compare to original memory routines at same declared floor. Not arbitrary allocation sequence/resource or whole-game coverage.",
+  "new_predictions": 0
+}

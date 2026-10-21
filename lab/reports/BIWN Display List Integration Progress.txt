@@ -1,0 +1,24 @@
+BIWN — current integration and local inference
+
+Latest gameplay-tested experimental disc: v27 readable scene/clear/rotation/display-list. Fresh candidate/control24990/24963frames;6248scene calls,26309captured helper returns and5243native display/rotation/clear returns each. All monitors clear.8375video and457held-input differences remain;final video and selected fields agree. Fixed-input1000frame prefix442video differences;original-scene controls differ72frames acrosslayouts. These comparisons do not establish timing/fidelity improvement. Audio captures are silent. Scene C stack208/208;outer-active sampledheap816bytes is not a global minimum. Desktop checkpoint preview unchanged.
+
+New separate v29image: direct internal dispatch preserves the canonical bodies and logical guest JSR/return checks. Shared module48410bytes,84smaller;component277248bytes;bootcopy115648bytes;initialheap120640bytes,64more thanv27. Prototype scene772uses168/208Cstack,40margin;body1153,retained4992+16fallbacks,geometry256,fallback384,nesting64,publicbus14,inputbus13 andscene/input/facealias256pass. CopiedSDKbuildisbyteidentical. Exact deployed scene/body and final-address component gates are recorded below. No v29fresh gameplay or liveheap-savings claim.
+
+Rejected v28pointer-liveness trial: host1217+17guards/native1153/scene772pass,butstackstill208andmodule48514bytes. Kept as unsuccessful optimization evidence.
+
+Local Reader36: one actual ordinary moved-package copied-model response,11.58seconds. Current v27factual claims reviewed;156words exceeds150requested and earlier64update0/4base/adapterpilot omitted. Exact prompt/rawresponse/streams retained;no training or broad quality gain. The default prompt now takes currentMCPfacts rather than hardcoded older input assumptions. Main/moved prompt indexes186/187records preserve independent history. No new coding predictions oroptimizerupdates. Copied-weight NativeChat/currentfacts still unverified.
+
+Final gates at delivery:
+native-Deck-scene17-direct-dispatch-final-v1: checking
+scene17-direct-dispatch-final-bridge-v1: terminal_scene17_shared_bridge_original_CPU_fixtures_match
+scene-direct-dispatch-final-native-v1: terminal_native_display_list_full_CPU_RAM_data_bus_pass
+scene17-direct-dispatch-final-fallback-v1: terminal_scene17_invalid_task_and_busy_fallback_match
+scene17-direct-dispatch-final-reentry-v1: terminal_scene17_actual_JSR_busy_fallback_nested_match
+scene17-direct-dispatch-final-public-bus-v1: terminal_scene17_display_list_fourteen_actual_public_bus_orders_match
+scene17-direct-dispatch-final-input-face-alias-v1: terminal_scene_input_face_four_direction_alias_fallbacks_match
+
+Next: complete final image alias/suspension/observer qualification and fresh candidate/control plus fixed-input routes. Then continue measured resource/timing work,remainingCPU/GPU/DSP/HLE source recovery,useful fine-tuning with untouched evaluation,and easy localChat usability. Whole readable-source/same-console rebuilding,audio/IRQ/physicalconsole fidelity and future256GBperformance remain incomplete.
+
+Disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-dispatch-v1/20261021T024239.597935Z/BIWN-23-native-scene17-direct-dispatch-v1-experimental.cdi
+Headroom report: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Native Scene Stack Headroom.txt
+Reader review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/display-list-copied-Reader36-reviewed-v1-current.json

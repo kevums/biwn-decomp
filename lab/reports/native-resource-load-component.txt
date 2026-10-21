@@ -1,0 +1,41 @@
+BIWN native CD resource loader: source recovery and component checks
+
+The resource loader at 0x1B044 is now recovered as readable C with an original 68000 ABI wrapper. Its original body is 272 bytes and 72 instructions; the tested standalone replacement is 2,416 bytes. The accepted component source is coordinator-authored. It has not been added to a new game disc, and the playable preview remains unchanged.
+
+What passed
+
+780 native CPU cases compare all data/address registers, PC, SR, both stack pointers, the original 24 saved bytes, public RAM, and helper entry registers, flags, arguments and stack positions. Another 84 cases compare ordered memory accesses in Unicorn. The fixtures execute all 72 original instructions. They cover busy waits, delayed reads, partial markers, retries, boundary conditions, copy sizes, optional completion flags and null handles. Three deliberately introduced defects were caught by execution comparisons: accepting 15 marker words, omitting the completion write, and clearing the lock on the null-handle return.
+
+The controlled provider initially cleared the loader's own lock while waiting for a read. That fixture was corrected, and all 780/84 cases reran with explicit final lock and readiness assertions. The original null-handle path leaves the lock set; this source preserves that behavior. Earlier results and the failed negative-control driver remain archived.
+
+Actual dependency checks
+
+Sixteen two-client cases run original acquire with compiled load. Another sixteen run compiled acquire and load with the existing compiled heap, copy and scheduler helpers. Each profile checks 1,538,816 payload bytes against preserved normalized disc data. Both callers receive the same handle; the reference count reaches two; the loader sets readiness and wakes the waiter. Returned CPU state, public RAM, semantic calls and payloads match the original.
+
+These are declared synthetic startup fixtures. Actual CD math, kernel and other retained helper instructions execute, but two explicit BIOS adapters and external disc completion remain. They do not establish cold-game, interrupt, reentrancy or physical-console behavior.
+
+The nested tests observe a minimum 24-byte gap between loader execution and acquire's private state, and a 28-byte gap between loader helper execution and loader private state. These are margins observed in these fixtures, not worst-case bounds.
+
+Local agent output test
+
+Author: 84.04 seconds. Its unchanged C draft fails strict compilation because d3 is unused. Inspection also finds omitted stack argument loads, missing helper-visible A2 state, and incorrect branches, postincrement and retry behavior. The draft was rejected.
+
+Reviewer: 77.36 seconds, using the same weights. It consumed 1,599 of 1,600 output tokens in repetitive clobber analysis and ended mid-reasoning. This is not independent validation.
+
+Exact prompts and responses:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-load-20261018T121846.511024Z/prompts-and-responses.txt
+
+The existing Ask BIWN Candidate Status shortcut now includes the loader. A saved-shortcut question completed in 11.57 seconds with one actual local SDK tool call. Its unchanged answer correctly credited coordinator C and distinguished component verification from an untested new disc. Native LM Studio Chat display remains unverified.
+
+What remains before disc integration
+
+The current playable build uses a separate 18-byte word-scan repair at 0x1B0EE. This original-equivalent loader deliberately retains the longword scan. An explicit source variant must preserve the repair before replacing that game code.
+
+The tested 2,416-byte loader plus the existing 5,966-byte compact bundle exceeds 8 KB before combined linking. A separate size-optimized loader links at 1,494 bytes, but that exact binary has not passed execution checks. It needs ABI, ordered-access, dependency and nested-stack checks before a combined build and fresh gameplay test.
+
+No new disc or model default was promoted. The original CDI is unchanged, and all 112/84 pinned dependencies of the playable P/O previews still match. No new weight training occurred. The broader game restoration, local frontend, training and advertising goals remain active.
+
+Source:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-load-reference.c
+Evidence manifest:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-load-publication-current.json

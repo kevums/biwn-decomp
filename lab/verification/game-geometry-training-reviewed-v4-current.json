@@ -1,0 +1,149 @@
+{
+  "status": "terminal_game_geometry_training_reviewed_unpromoted",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-geometry-training-reviewed-v4/20261020T173434.904328Z",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Game Geometry Training v4 Review.txt",
+  "training_completed_updates": 64,
+  "selected_step": 40,
+  "validation_loss": 0.2416132688522339,
+  "results": {
+    "base": {
+      "passed": 0,
+      "total": 4,
+      "cases": [
+        {
+          "function": "resource_release",
+          "verified": false,
+          "classification": "execution_or_CPU_RAM_contract_failure",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/resource-release-native.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/check.log"
+        },
+        {
+          "function": "resource_acquire",
+          "verified": false,
+          "classification": "compiler_failure",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/resource-acquire-reference.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/check.log"
+        },
+        {
+          "function": "resource_load",
+          "verified": false,
+          "classification": "execution_or_CPU_RAM_contract_failure",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/resource-load-reference.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/check.log"
+        },
+        {
+          "function": "plane_layout",
+          "verified": false,
+          "classification": "output_truncated_and_compile_failed",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/coordinator-reference.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/check.log"
+        }
+      ]
+    },
+    "adapter": {
+      "passed": 0,
+      "total": 4,
+      "cases": [
+        {
+          "function": "resource_release",
+          "verified": false,
+          "classification": "header_filename_compile_failure",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/resource-release-native.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/check.log"
+        },
+        {
+          "function": "resource_acquire",
+          "verified": false,
+          "classification": "header_filename_compile_failure",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/resource-acquire-reference.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/check.log"
+        },
+        {
+          "function": "resource_load",
+          "verified": false,
+          "classification": "header_filename_compile_failure",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/resource-load-reference.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/check.log"
+        },
+        {
+          "function": "plane_layout",
+          "verified": false,
+          "classification": "output_truncated_and_compile_failed",
+          "prompt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/prompt.json",
+          "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/response.txt",
+          "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/coordinator-reference.c",
+          "check_log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/check.log"
+        }
+      ]
+    }
+  },
+  "default_promoted": false,
+  "new_training": false,
+  "new_inference": false,
+  "whole_objective_complete": false,
+  "diagnostic": "game-header-diagnostic-v1-current.json",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/review_game_geometry_training_v4.py": "77bc77203c3c8c5cb1eff0de3d5fbb2fbf4025cb819cca4e4883e8043b433e43",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-geometry-training-v4-current.json": "b7f0b6d81dcff8a2cd570c59f6d9f149b2cae1dfec5084a10fc1239ad655a5ff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z/checkpoint-selection.json": "81403d8d7eaa9d514321825dabe14a9a5dae778d0d0a996f5f8560ac735af04d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z/training-result.json": "3550e9215c0850d3776adbe0b60504e983993a8faf5a7001fdd066e99938ce40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z/selected-adapter/adapters.safetensors": "f33023e67e8e7ef4badd4dd6bf1560e43893f02cf528dabe9573be2d0f097883",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-geometry-v4-base-evaluation-current.json": "fbb5e0ad5ef9b100533937f8ba9dd113ed2b51c7f8cd92b23e26ca4c7b4b1b4c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/resource-release-native.c": "26ded2ba62b34b667ff445e9d833cff3239322fa559ee24ecdb8de143d28144d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/prompt.json": "e323154e8fe03317f9ea991f34f4e2b410b8b0c450ac79143ece1cd76e704731",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/response.txt": "02382c5ecfb47584e61c2377d87dd36730b1c919d4936a6f0893eb00655f5ff6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/result.json": "06bf5077331d4e4d418cc83448ed0ef782e6732b8935a6a22910bb49bf32961c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_release/check.log": "6a24dd2e28543cf7704768fe90d9493fddb283451deb6fa1dca4100834c477df",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/resource-acquire-reference.c": "ecd1d3ac868c10ad9a30959c01e55107e0b8f30f79b433c172afa7019f61d272",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/prompt.json": "9e6e718e0d2a05ec0abc75602941cb744b99d6b40e847f482308eae75bb9d717",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/response.txt": "735ad389b64a11f9511847fe59a6318b0219e4ac0d6c9ecd3637d47a6a72146b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/result.json": "28ed54d9c8cdb4e511bd01e56870925758795eba7adf51d61c2ab19381260f7b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_acquire/check.log": "13a8285b03e60120faf40d0227987fbf1f8f33ba8c743b081a0687f37785b616",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/resource-load-reference.c": "c9953ece89a534fbde75a6f6b8069e9a4a4e81ec84566d1336841d3e994039c9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/prompt.json": "7a6ef7f99f5102e42c971c39f173897344afdbee47af126da4376461a73438f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/response.txt": "8433631aeec70692a4e51d8a833c73d2d7811f7c3920562e9d338229f87a940d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/result.json": "8202f3297ceb45a5e1d872c261bdc0e7807e5f247bd415b8788b85d4e117fb26",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/resource_load/check.log": "639be65d293b30598431cc0e923f9eeb0542b5fa85a7f5b2853efea131a012e7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/coordinator-reference.c": "8150dbafaa8f0ba22d5a72deaf985403154f7253d129f1ac75c76306e456828c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/prompt.json": "b2142f257c3237babde0c6afe62f41cff5fffa85a36da06106218b1b5a877c6a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/response.txt": "b8db2c1485a8dd10a6590635a3767d11d65afd720ee13817a0b8bbf6b30506dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/result.json": "cde6ce25a4a1b1310c0b1fd69b281b30f7621066c59c1bbde13a22c5f42bc7ef",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z/plane_layout/check.log": "917c35a0c24ac2006cff69d59fecb6c50874e084abdddae2e214cc641f9582d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-geometry-v4-adapter-evaluation-current.json": "bfa5d06e8f0d783497e0b7972afcbc9a16ea811b376e59719d830914f709ed5f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/resource-release-native.c": "94bd6b19a248c76a7b2708b1953c53f4a9a83e54bb8c1bf6e8093bc932f1f8da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/prompt.json": "e323154e8fe03317f9ea991f34f4e2b410b8b0c450ac79143ece1cd76e704731",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/response.txt": "0e89ce07b18b51e2b39fea224dfd2ec89d4df4ed069fb79530611be34be2a164",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/result.json": "a970d39301db59d62f8474fa64c02944442b5ed0f3aab6b4b48f2406c426b49d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_release/check.log": "ca341a87bff092ca857ca083a55b0ea5cb7464929f92a6a3e7817559b172f42c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/resource-acquire-reference.c": "1d82060a0f358cc6265fbc16d502b22a70580a1d9d34155b6ed815448ed990b5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/prompt.json": "9e6e718e0d2a05ec0abc75602941cb744b99d6b40e847f482308eae75bb9d717",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/response.txt": "332c3b83609d8929feab53d125844f8292de0725fbfe8f486347533735a5aa88",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/result.json": "f189d819acf5b01328d0745a4a79cbcad0adc52bd0164cd7b58f9949459ed6e9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_acquire/check.log": "970806c6d133c5925cca589c3bfd758cf577a4f1a1537a36c0c3e58c307a1ef0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/resource-load-reference.c": "d292d69b6933b39ac8291c973689b6b49a10fd228e84e5d3923833ba9504d329",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/prompt.json": "7a6ef7f99f5102e42c971c39f173897344afdbee47af126da4376461a73438f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/response.txt": "6c87ee1b3a43165ae6c3a07be68a5a8442e87f574dbcff0aefe98874dcb96184",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/result.json": "f37d157836c97af38d5970512c52315c37e5cdb9b050b919cc1ee81c1a00594d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/resource_load/check.log": "39652199ce55f6ad5276619ed420150b002ef9161250fb33e47d15012eb216c6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/coordinator-reference.c": "02a499e5e32068dbf56b6a9c5807da7b665543c127ff9a4d56e7500b43aad072",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/prompt.json": "b2142f257c3237babde0c6afe62f41cff5fffa85a36da06106218b1b5a877c6a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/response.txt": "00ca1344ba61459708c88ba0e412d9a253e9271572afcc069238d92f1494314f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/result.json": "efce91653b0e9f5a89b415155b9160f9b402b92bdf5c748c172c795c81814298",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z/plane_layout/check.log": "338efebe875c87305d2e3a4fa37dffc5ea5ad81d24b9380a45408183f78f4172",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Game Geometry Training v4 Review.txt": "b544bdbb5fe83b73d56d8f056746fc5e6e3cea0cc0149c0ff0fc42d05e57f168"
+  }
+}

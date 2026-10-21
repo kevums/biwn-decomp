@@ -1,0 +1,18 @@
+{
+  "status": "terminal_portable_native_installer_shadow_ownership_and_backups_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/installer-checks",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "dryrun_no_mutation": true,
+  "owned_route_move_update_and_backup": true,
+  "foreign_route_rejected": true,
+  "foreign_plugin_rejected": true,
+  "live_plugin_installed": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_portable_native_team_installer_v1.py": "9395d7ebf40f13dd12c8005400ef6f64f6e3b2eee487adf3d24e9d93913232db",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/portable_native_team_installer_v1.py": "45c41ac47c0c80e37a4a8f9b6730077cb4faf4222502ad6f915af3ac3f9a6866",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/install_visible_biwn_team.py": "45c41ac47c0c80e37a4a8f9b6730077cb4faf4222502ad6f915af3ac3f9a6866",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/Install Visible BIWN Team.command": "51f55f08beddfcf87c0ed0c97b1a54614a95a03b0b6207cfb64a0d5b34fd4de4"
+  }
+}

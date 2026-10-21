@@ -1,0 +1,2023 @@
+{
+  "status": "generated_unverified",
+  "instructions": 287,
+  "instructions_decoded": [
+    {
+      "address": 15741440,
+      "size": 6,
+      "bytes": "9818332c00f0",
+      "assembly": "movei   $f0332c,r24",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741446,
+      "size": 6,
+      "bytes": "981905800018",
+      "assembly": "movei   $180580,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741452,
+      "size": 6,
+      "bytes": "981a3ff000f0",
+      "assembly": "movei   $f03ff0,r26",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741458,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741460,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741462,
+      "size": 2,
+      "bytes": "8c19",
+      "assembly": "moveq   0,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741464,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741466,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741468,
+      "size": 6,
+      "bytes": "981900000019",
+      "assembly": "movei   $190000,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741474,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741476,
+      "size": 2,
+      "bytes": "cc19",
+      "assembly": "move    pc,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741478,
+      "size": 2,
+      "bytes": "d300",
+      "assembly": "jump    (r24)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741480,
+      "size": 2,
+      "bytes": "08d9",
+      "assembly": "addq    $6,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741482,
+      "size": 6,
+      "bytes": "981905800018",
+      "assembly": "movei   $180580,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741488,
+      "size": 6,
+      "bytes": "981a3ff000f0",
+      "assembly": "movei   $f03ff0,r26",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741494,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741496,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741498,
+      "size": 2,
+      "bytes": "8c39",
+      "assembly": "moveq   1,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741500,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741502,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741504,
+      "size": 6,
+      "bytes": "98194000001a",
+      "assembly": "movei   $1a4000,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741510,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741512,
+      "size": 2,
+      "bytes": "cc19",
+      "assembly": "move    pc,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741514,
+      "size": 2,
+      "bytes": "d300",
+      "assembly": "jump    (r24)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741516,
+      "size": 2,
+      "bytes": "08d9",
+      "assembly": "addq    $6,r25",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741518,
+      "size": 6,
+      "bytes": "98028008001b",
+      "assembly": "movei   $1b8008,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741524,
+      "size": 6,
+      "bytes": "980305200018",
+      "assembly": "movei   $180520,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741530,
+      "size": 6,
+      "bytes": "980400120000",
+      "assembly": "movei   $12,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741536,
+      "size": 2,
+      "bytes": "a465",
+      "assembly": "load    (r3),r5",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741538,
+      "size": 2,
+      "bytes": "0883",
+      "assembly": "addq    $4,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741540,
+      "size": 2,
+      "bytes": "bc45",
+      "assembly": "store   r5,(r2)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741542,
+      "size": 2,
+      "bytes": "0882",
+      "assembly": "addq    $4,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741544,
+      "size": 2,
+      "bytes": "1824",
+      "assembly": "subq    $1,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741546,
+      "size": 2,
+      "bytes": "d741",
+      "assembly": "jr      nz,00F03260",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741548,
+      "size": 2,
+      "bytes": "2884",
+      "assembly": "or      r4,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741550,
+      "size": 2,
+      "bytes": "2863",
+      "assembly": "or      r3,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741552,
+      "size": 2,
+      "bytes": "2842",
+      "assembly": "or      r2,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741554,
+      "size": 6,
+      "bytes": "9800001b8010",
+      "assembly": "movei   $8010001b,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741560,
+      "size": 6,
+      "bytes": "9801002000f0",
+      "assembly": "movei   $f00020,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741566,
+      "size": 2,
+      "bytes": "bc20",
+      "assembly": "store   r0,(r1)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741568,
+      "size": 6,
+      "bytes": "980006c10000",
+      "assembly": "movei   $6c1,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741574,
+      "size": 6,
+      "bytes": "9801002800f0",
+      "assembly": "movei   $f00028,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741580,
+      "size": 2,
+      "bytes": "b820",
+      "assembly": "storew  r0,(r1)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741582,
+      "size": 6,
+      "bytes": "9806000600f0",
+      "assembly": "movei   $f00006,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741588,
+      "size": 6,
+      "bytes": "980732aa00f0",
+      "assembly": "movei   $f032aa,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741594,
+      "size": 6,
+      "bytes": "9800380000f0",
+      "assembly": "movei   $f03800,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741600,
+      "size": 6,
+      "bytes": "980832ce00f0",
+      "assembly": "movei   $f032ce,r8",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741606,
+      "size": 2,
+      "bytes": "d100",
+      "assembly": "jump    (r8)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741608,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741610,
+      "size": 6,
+      "bytes": "98028008001b",
+      "assembly": "movei   $1b8008,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741616,
+      "size": 6,
+      "bytes": "980305200018",
+      "assembly": "movei   $180520,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741622,
+      "size": 6,
+      "bytes": "980400120000",
+      "assembly": "movei   $12,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741628,
+      "size": 2,
+      "bytes": "a465",
+      "assembly": "load    (r3),r5",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741630,
+      "size": 2,
+      "bytes": "0883",
+      "assembly": "addq    $4,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741632,
+      "size": 2,
+      "bytes": "bc45",
+      "assembly": "store   r5,(r2)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741634,
+      "size": 2,
+      "bytes": "0882",
+      "assembly": "addq    $4,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741636,
+      "size": 2,
+      "bytes": "1824",
+      "assembly": "subq    $1,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741638,
+      "size": 2,
+      "bytes": "d741",
+      "assembly": "jr      nz,00F032BC",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741640,
+      "size": 2,
+      "bytes": "2884",
+      "assembly": "or      r4,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741642,
+      "size": 2,
+      "bytes": "2863",
+      "assembly": "or      r3,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741644,
+      "size": 2,
+      "bytes": "2842",
+      "assembly": "or      r2,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741646,
+      "size": 2,
+      "bytes": "a0c1",
+      "assembly": "loadw   (r6),r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741648,
+      "size": 2,
+      "bytes": "6161",
+      "assembly": "shlq    $15,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741650,
+      "size": 2,
+      "bytes": "66a1",
+      "assembly": "shrq    $15,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741652,
+      "size": 2,
+      "bytes": "7c61",
+      "assembly": "cmpq    $3,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741654,
+      "size": 2,
+      "bytes": "d0f8",
+      "assembly": "jump    n,(r7)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741656,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741658,
+      "size": 2,
+      "bytes": "a401",
+      "assembly": "load    (r0),r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741660,
+      "size": 2,
+      "bytes": "7c01",
+      "assembly": "cmpq    $0,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741662,
+      "size": 2,
+      "bytes": "d6e2",
+      "assembly": "jr      z,00F032CE",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741664,
+      "size": 2,
+      "bytes": "28e7",
+      "assembly": "or      r7,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741666,
+      "size": 6,
+      "bytes": "9800210000f0",
+      "assembly": "movei   $f02100,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741672,
+      "size": 2,
+      "bytes": "a401",
+      "assembly": "load    (r0),r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741674,
+      "size": 2,
+      "bytes": "3c61",
+      "assembly": "bclr    $3,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741676,
+      "size": 2,
+      "bytes": "3941",
+      "assembly": "bset    $a,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741678,
+      "size": 2,
+      "bytes": "bc01",
+      "assembly": "store   r1,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741680,
+      "size": 6,
+      "bytes": "980101010000",
+      "assembly": "movei   $101,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741686,
+      "size": 6,
+      "bytes": "9800002000f1",
+      "assembly": "movei   $f10020,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741692,
+      "size": 2,
+      "bytes": "bc01",
+      "assembly": "store   r1,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741694,
+      "size": 6,
+      "bytes": "9800ff1400df",
+      "assembly": "movei   $dfff14,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741700,
+      "size": 2,
+      "bytes": "a401",
+      "assembly": "load    (r0),r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741702,
+      "size": 2,
+      "bytes": "1021",
+      "assembly": "sub     r1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741704,
+      "size": 6,
+      "bytes": "9800ff0000df",
+      "assembly": "movei   $dfff00,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741710,
+      "size": 2,
+      "bytes": "bc01",
+      "assembly": "store   r1,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741712,
+      "size": 6,
+      "bytes": "980100000000",
+      "assembly": "movei   $0,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741718,
+      "size": 6,
+      "bytes": "9800002000f1",
+      "assembly": "movei   $f10020,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741724,
+      "size": 2,
+      "bytes": "bc01",
+      "assembly": "store   r1,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741726,
+      "size": 6,
+      "bytes": "9800211400f0",
+      "assembly": "movei   $f02114,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741732,
+      "size": 2,
+      "bytes": "8c01",
+      "assembly": "moveq   0,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741734,
+      "size": 2,
+      "bytes": "bc01",
+      "assembly": "store   r1,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741736,
+      "size": 2,
+      "bytes": "d7e0",
+      "assembly": "jr      00F03328",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741738,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741740,
+      "size": 6,
+      "bytes": "98003ff000f0",
+      "assembly": "movei   $f03ff0,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741746,
+      "size": 2,
+      "bytes": "a401",
+      "assembly": "load    (r0),r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741748,
+      "size": 2,
+      "bytes": "0880",
+      "assembly": "addq    $4,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741750,
+      "size": 2,
+      "bytes": "a402",
+      "assembly": "load    (r0),r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741752,
+      "size": 2,
+      "bytes": "0880",
+      "assembly": "addq    $4,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741754,
+      "size": 2,
+      "bytes": "a403",
+      "assembly": "load    (r0),r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741756,
+      "size": 2,
+      "bytes": "8820",
+      "assembly": "move    r1,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741758,
+      "size": 2,
+      "bytes": "0880",
+      "assembly": "addq    $4,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741760,
+      "size": 2,
+      "bytes": "a404",
+      "assembly": "load    (r0),r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741762,
+      "size": 2,
+      "bytes": "0900",
+      "assembly": "addq    $8,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741764,
+      "size": 2,
+      "bytes": "0024",
+      "assembly": "add     r1,r4",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741766,
+      "size": 2,
+      "bytes": "63c2",
+      "assembly": "shlq    $2,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741768,
+      "size": 2,
+      "bytes": "0040",
+      "assembly": "add     r2,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741770,
+      "size": 2,
+      "bytes": "a402",
+      "assembly": "load    (r0),r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741772,
+      "size": 2,
+      "bytes": "0041",
+      "assembly": "add     r2,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741774,
+      "size": 2,
+      "bytes": "9c22",
+      "assembly": "loadb   (r1),r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741776,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741778,
+      "size": 2,
+      "bytes": "9c25",
+      "assembly": "loadb   (r1),r5",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741780,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741782,
+      "size": 2,
+      "bytes": "9c35",
+      "assembly": "loadb   (r1),r21",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741784,
+      "size": 2,
+      "bytes": "8860",
+      "assembly": "move    r3,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741786,
+      "size": 2,
+      "bytes": "6115",
+      "assembly": "shlq    $18,r21",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741788,
+      "size": 2,
+      "bytes": "1980",
+      "assembly": "subq    $c,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741790,
+      "size": 2,
+      "bytes": "6f15",
+      "assembly": "sharq   $18,r21",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741792,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741794,
+      "size": 2,
+      "bytes": "b815",
+      "assembly": "storew  r21,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741796,
+      "size": 2,
+      "bytes": "9c35",
+      "assembly": "loadb   (r1),r21",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741798,
+      "size": 2,
+      "bytes": "6115",
+      "assembly": "shlq    $18,r21",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741800,
+      "size": 2,
+      "bytes": "0840",
+      "assembly": "addq    $2,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741802,
+      "size": 2,
+      "bytes": "6f15",
+      "assembly": "sharq   $18,r21",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741804,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741806,
+      "size": 2,
+      "bytes": "b815",
+      "assembly": "storew  r21,(r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741808,
+      "size": 2,
+      "bytes": "40a2",
+      "assembly": "mult    r5,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741810,
+      "size": 2,
+      "bytes": "1822",
+      "assembly": "subq    $1,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741812,
+      "size": 2,
+      "bytes": "8c05",
+      "assembly": "moveq   0,r5",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741814,
+      "size": 2,
+      "bytes": "8c06",
+      "assembly": "moveq   0,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741816,
+      "size": 6,
+      "bytes": "98080f000000",
+      "assembly": "movei   $f00,r8",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741822,
+      "size": 6,
+      "bytes": "981307000000",
+      "assembly": "movei   $700,r19",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741828,
+      "size": 6,
+      "bytes": "98140f000000",
+      "assembly": "movei   $f00,r20",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741834,
+      "size": 6,
+      "bytes": "9809347200f0",
+      "assembly": "movei   $f03472,r9",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741840,
+      "size": 6,
+      "bytes": "980d354200f0",
+      "assembly": "movei   $f03542,r13",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741846,
+      "size": 6,
+      "bytes": "980b33e800f0",
+      "assembly": "movei   $f033e8,r11",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741852,
+      "size": 6,
+      "bytes": "980e34b800f0",
+      "assembly": "movei   $f034b8,r14",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741858,
+      "size": 6,
+      "bytes": "980c33ae00f0",
+      "assembly": "movei   $f033ae,r12",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741864,
+      "size": 6,
+      "bytes": "980f357600f0",
+      "assembly": "movei   $f03576,r15",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741870,
+      "size": 2,
+      "bytes": "7c06",
+      "assembly": "cmpq    $0,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741872,
+      "size": 2,
+      "bytes": "d481",
+      "assembly": "jr      nz,00F033BA",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741874,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741876,
+      "size": 2,
+      "bytes": "9c27",
+      "assembly": "loadb   (r1),r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741878,
+      "size": 2,
+      "bytes": "8d06",
+      "assembly": "moveq   8,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741880,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741882,
+      "size": 2,
+      "bytes": "34e7",
+      "assembly": "btst    $7,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741884,
+      "size": 2,
+      "bytes": "1c26",
+      "assembly": "subqt   $1,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741886,
+      "size": 2,
+      "bytes": "d122",
+      "assembly": "jump    z,(r9)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741888,
+      "size": 2,
+      "bytes": "63e7",
+      "assembly": "shlq    $1,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741890,
+      "size": 2,
+      "bytes": "1886",
+      "assembly": "subq    $4,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741892,
+      "size": 2,
+      "bytes": "d4d4",
+      "assembly": "jr      nn,00F033D2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741894,
+      "size": 2,
+      "bytes": "6387",
+      "assembly": "shlq    $4,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741896,
+      "size": 2,
+      "bytes": "9c20",
+      "assembly": "loadb   (r1),r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741898,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741900,
+      "size": 2,
+      "bytes": "5cc0",
+      "assembly": "sh      r6,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741902,
+      "size": 2,
+      "bytes": "0906",
+      "assembly": "addq    $8,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741904,
+      "size": 2,
+      "bytes": "2807",
+      "assembly": "or      r0,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741906,
+      "size": 2,
+      "bytes": "88e0",
+      "assembly": "move    r7,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741908,
+      "size": 2,
+      "bytes": "2500",
+      "assembly": "and     r8,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741910,
+      "size": 2,
+      "bytes": "896a",
+      "assembly": "move    r11,r10",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741912,
+      "size": 2,
+      "bytes": "64c0",
+      "assembly": "shrq    $6,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741914,
+      "size": 2,
+      "bytes": "000a",
+      "assembly": "add     r0,r10",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741916,
+      "size": 2,
+      "bytes": "6440",
+      "assembly": "shrq    $2,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741918,
+      "size": 2,
+      "bytes": "1842",
+      "assembly": "subq    $2,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741920,
+      "size": 2,
+      "bytes": "1002",
+      "assembly": "sub     r0,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741922,
+      "size": 2,
+      "bytes": "a540",
+      "assembly": "load    (r10),r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741924,
+      "size": 2,
+      "bytes": "d000",
+      "assembly": "jump    (r0)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741926,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741992,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741994,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741996,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15741998,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742000,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742002,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742004,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742006,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742008,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742010,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742012,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742014,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742016,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742018,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742020,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742022,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742024,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742026,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742028,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742030,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742032,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742034,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742036,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742038,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742040,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742042,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742044,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742046,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742048,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742050,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742052,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742054,
+      "size": 2,
+      "bytes": "b865",
+      "assembly": "storew  r5,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742056,
+      "size": 2,
+      "bytes": "7c02",
+      "assembly": "cmpq    $0,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742058,
+      "size": 2,
+      "bytes": "d194",
+      "assembly": "jump    nn,(r12)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742060,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742062,
+      "size": 2,
+      "bytes": "d1e0",
+      "assembly": "jump    (r15)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742064,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742066,
+      "size": 2,
+      "bytes": "7c06",
+      "assembly": "cmpq    $0,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742068,
+      "size": 2,
+      "bytes": "d481",
+      "assembly": "jr      nz,00F0347E",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742070,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742072,
+      "size": 2,
+      "bytes": "9c27",
+      "assembly": "loadb   (r1),r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742074,
+      "size": 2,
+      "bytes": "8d06",
+      "assembly": "moveq   8,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742076,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742078,
+      "size": 2,
+      "bytes": "34e7",
+      "assembly": "btst    $7,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742080,
+      "size": 2,
+      "bytes": "1c26",
+      "assembly": "subqt   $1,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742082,
+      "size": 2,
+      "bytes": "d1a2",
+      "assembly": "jump    z,(r13)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742084,
+      "size": 2,
+      "bytes": "63e7",
+      "assembly": "shlq    $1,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742086,
+      "size": 2,
+      "bytes": "1866",
+      "assembly": "subq    $3,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742088,
+      "size": 2,
+      "bytes": "d4d4",
+      "assembly": "jr      nn,00F03496",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742090,
+      "size": 2,
+      "bytes": "63a7",
+      "assembly": "shlq    $3,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742092,
+      "size": 2,
+      "bytes": "9c20",
+      "assembly": "loadb   (r1),r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742094,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742096,
+      "size": 2,
+      "bytes": "5cc0",
+      "assembly": "sh      r6,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742098,
+      "size": 2,
+      "bytes": "0906",
+      "assembly": "addq    $8,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742100,
+      "size": 2,
+      "bytes": "2807",
+      "assembly": "or      r0,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742102,
+      "size": 2,
+      "bytes": "88e0",
+      "assembly": "move    r7,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742104,
+      "size": 2,
+      "bytes": "2660",
+      "assembly": "and     r19,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742106,
+      "size": 2,
+      "bytes": "89ca",
+      "assembly": "move    r14,r10",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742108,
+      "size": 2,
+      "bytes": "64c0",
+      "assembly": "shrq    $6,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742110,
+      "size": 2,
+      "bytes": "000a",
+      "assembly": "add     r0,r10",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742112,
+      "size": 2,
+      "bytes": "6440",
+      "assembly": "shrq    $2,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742114,
+      "size": 2,
+      "bytes": "1842",
+      "assembly": "subq    $2,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742116,
+      "size": 2,
+      "bytes": "1002",
+      "assembly": "sub     r0,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742118,
+      "size": 2,
+      "bytes": "9c20",
+      "assembly": "loadb   (r1),r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742120,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742122,
+      "size": 2,
+      "bytes": "63e0",
+      "assembly": "shlq    $1,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742124,
+      "size": 2,
+      "bytes": "0080",
+      "assembly": "add     r4,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742126,
+      "size": 2,
+      "bytes": "a000",
+      "assembly": "loadw   (r0),r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742128,
+      "size": 2,
+      "bytes": "a54a",
+      "assembly": "load    (r10),r10",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742130,
+      "size": 2,
+      "bytes": "d140",
+      "assembly": "jump    (r10)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742132,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742232,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742234,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742236,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742238,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742240,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742242,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742244,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742246,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742248,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742250,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742252,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742254,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742256,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742258,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742260,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742262,
+      "size": 2,
+      "bytes": "b860",
+      "assembly": "storew  r0,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742264,
+      "size": 2,
+      "bytes": "7c02",
+      "assembly": "cmpq    $0,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742266,
+      "size": 2,
+      "bytes": "d194",
+      "assembly": "jump    nn,(r12)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742268,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742274,
+      "size": 2,
+      "bytes": "1886",
+      "assembly": "subq    $4,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742276,
+      "size": 2,
+      "bytes": "d4d4",
+      "assembly": "jr      nn,00F03552",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742278,
+      "size": 2,
+      "bytes": "6387",
+      "assembly": "shlq    $4,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742280,
+      "size": 2,
+      "bytes": "9c20",
+      "assembly": "loadb   (r1),r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742282,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742284,
+      "size": 2,
+      "bytes": "5cc0",
+      "assembly": "sh      r6,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742286,
+      "size": 2,
+      "bytes": "0906",
+      "assembly": "addq    $8,r6",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742288,
+      "size": 2,
+      "bytes": "2807",
+      "assembly": "or      r0,r7",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742290,
+      "size": 2,
+      "bytes": "88e0",
+      "assembly": "move    r7,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742292,
+      "size": 2,
+      "bytes": "2680",
+      "assembly": "and     r20,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742294,
+      "size": 2,
+      "bytes": "6500",
+      "assembly": "shrq    $8,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742296,
+      "size": 2,
+      "bytes": "1002",
+      "assembly": "sub     r0,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742298,
+      "size": 2,
+      "bytes": "1822",
+      "assembly": "subq    $1,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742300,
+      "size": 2,
+      "bytes": "9c30",
+      "assembly": "loadb   (r1),r16",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742302,
+      "size": 2,
+      "bytes": "0821",
+      "assembly": "addq    $1,r1",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742304,
+      "size": 2,
+      "bytes": "63f0",
+      "assembly": "shlq    $1,r16",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742306,
+      "size": 2,
+      "bytes": "0090",
+      "assembly": "add     r4,r16",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742308,
+      "size": 2,
+      "bytes": "a210",
+      "assembly": "loadw   (r16),r16",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742310,
+      "size": 2,
+      "bytes": "b870",
+      "assembly": "storew  r16,(r3)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742312,
+      "size": 2,
+      "bytes": "0843",
+      "assembly": "addq    $2,r3",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742314,
+      "size": 2,
+      "bytes": "1820",
+      "assembly": "subq    $1,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742316,
+      "size": 2,
+      "bytes": "d714",
+      "assembly": "jr      nn,00F0355E",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742318,
+      "size": 2,
+      "bytes": "9c30",
+      "assembly": "loadb   (r1),r16",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742320,
+      "size": 2,
+      "bytes": "7c02",
+      "assembly": "cmpq    $0,r2",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742322,
+      "size": 2,
+      "bytes": "d194",
+      "assembly": "jump    nn,(r12)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742324,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742326,
+      "size": 6,
+      "bytes": "9812211c00f0",
+      "assembly": "movei   $f0211c,r18",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742332,
+      "size": 2,
+      "bytes": "8c00",
+      "assembly": "moveq   0,r0",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742334,
+      "size": 2,
+      "bytes": "be40",
+      "assembly": "store   r0,(r18)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742336,
+      "size": 2,
+      "bytes": "d320",
+      "assembly": "jump    (r25)",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    },
+    {
+      "address": 15742338,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "observed startup/delay or separately selected poll/shutdown code"
+    }
+  ],
+  "boot_sha256": "235b342638e4face19e82b68d1fdd6592e58dbf689792ee41d572db465cfc8a4",
+  "GPU_payload_sha256": "b47470bddb06e63b3dd69ce99cc5e481826fdace8ffd3f195ace6db2fcf928d7",
+  "source_sha256": {
+    "biwn_game_firstboot_GPU.c": "7408c13d3926ec22c9b969a9b937867351c5444b207215930579ed6363cbad41",
+    "biwn_game_firstboot_GPU.h": "5095e8ec32473b87ee5f42b13cb846ef32490e3277cc9b87543bab734d497dc5"
+  },
+  "generator_sha256": "63287d84d80db8daacd3ea63077c6f79508dbb96da35f69064b424ae00e8a61e",
+  "whole_game_complete": false
+}

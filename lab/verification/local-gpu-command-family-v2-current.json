@@ -1,0 +1,14 @@
+{
+  "status": "terminal_local_gpu_family_source_restriction_failed",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-gpu-command-family-v2/20261021T033528.437285Z",
+  "pid": 16878,
+  "new_predictions": 1,
+  "new_training": false,
+  "native_Chat_verified": false,
+  "model_source_installed": false,
+  "development_task": true,
+  "untouched_benchmark": false,
+  "model_identifier": "portable-ailab-4f5658686590-daily",
+  "seconds": 125.76,
+  "restriction_error": "one begin/end witness required"
+}

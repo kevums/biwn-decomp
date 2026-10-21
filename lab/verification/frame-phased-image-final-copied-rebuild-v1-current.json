@@ -1,0 +1,19 @@
+{
+  "status": "terminal_copied_shared_final_bridge_bytes_match_prior_exact_v40_rebuild",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-final-copied-rebuild-v1/20261021T122345.482132Z",
+  "payload": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-final-copied-rebuild-v1/20261021T122345.482132Z/checked-copied-shared.bin",
+  "bytes": 54134,
+  "same_as_selected_prototype_module": true,
+  "reused_terminal_new_piece_proof": true,
+  "new_compilation": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "final_disc_integrated": true,
+  "final_disc_gameplay_verified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_final_copied_rebuild_v1.py": "961ac0d7f963cfd0eeede4a1a1ddef86f1b3a2ba21ad9b678187690362e4998d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-frame-phased-image-final-bridge-v1-current.json": "3ccf5f8a9d23d2720a8facf0042d2ef0ba596179bd5fb3434ea5be39327e345f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-copied-rebuild-v1-current.json": "2e2a899ced9521fb69796c6bbe158ae9883a692e59c4afeef0debc36009dbc3c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-final-copied-rebuild-v1/20261021T122345.482132Z/checked-copied-shared.bin": "66809d906fa6508634d04d69f48a0c9e3eb0e33744236d5fcf3850c83f5441b5"
+  }
+}

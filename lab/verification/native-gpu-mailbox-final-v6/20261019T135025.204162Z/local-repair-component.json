@@ -1,0 +1,29 @@
+{
+  "status": "terminal_gpu_mailbox_component_and_caller_context_pass_pending_layout_gameplay_v2",
+  "completed": 2492,
+  "source_accepted": false,
+  "new_training": false,
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/gpu-mailbox-local-repair-v1.c",
+  "source_sha256": "1f3b22d20f8d3760d90b61248279f67ef3efea7f421b03819688a2eac136c80e",
+  "compiler_exit_code": 0,
+  "component_cases_pass": true,
+  "caller_context_cases_pass": true,
+  "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/gpu-mailbox-native-Repair-20261019T132629.094574Z/ancestry-review-v4/receipts/build/gpu-mailbox.bin",
+  "ELF": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/gpu-mailbox-native-Repair-20261019T132629.094574Z/ancestry-review-v4/receipts/build/gpu-mailbox.elf",
+  "binary_sha256": "1ebd7135ae0ffb41b82924d601fccddcbf69d824c6376694536ce5b24d816f76",
+  "binary_bytes": 922,
+  "symbols": {
+    "MAILBOX_PRIVATE_RESERVE": 124,
+    "NATIVE_ADDRESS": 1572864,
+    "biwn_native_gpu_mailbox_body": 1572864,
+    "biwn_native_gpu_submit_4320": 1573620,
+    "biwn_native_gpu_submit_4320_return": 1573674,
+    "biwn_native_gpu_submit_4b00": 1573676,
+    "biwn_native_gpu_submit_4b00_return": 1573730,
+    "biwn_native_gpu_mailbox_wait_capture": 1573732
+  },
+  "code_address": 1572864,
+  "max_private_depth": 156,
+  "cases": 2492,
+  "scope": "Fixed candidate file/receipt driver for two GPU-mailbox roots and callers."
+}

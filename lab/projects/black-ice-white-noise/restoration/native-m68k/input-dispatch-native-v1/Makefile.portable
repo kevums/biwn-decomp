@@ -1,0 +1,8 @@
+# Relative SDK/build paths keep make's target parser independent of spaces in
+# the enclosing package path. This wrapper uses the identical source/flags.
+CROSS ?= ../../../../../tools/m68k-elf/bin/m68k-elf-
+LIBGCC ?= ../../../../../tools/m68k-elf/m68000-soft/libgcc.a
+BUILD ?= build-portable
+include Makefile
+$(BUILD)/adapter.o $(BUILD)/dispatch.o $(BUILD)/division.o $(BUILD)/physical-call.o: Makefile Makefile.portable
+$(BUILD)/native-input.elf: Makefile.portable

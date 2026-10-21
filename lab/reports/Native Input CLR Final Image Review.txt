@@ -1,0 +1,11 @@
+BIWN input CLR — new experimental image component qualification
+
+A separate new CDI now contains the corrected input implementation. Exact38594byte shared module at16DC00,Deckarena178B00. Initial heap130496bytes;total resident reservation267392bytes. The previous reviewed v19disc and Desktop preview are unchanged.
+
+All8final gates pass:geometry256,retained4992+16fallback,sharedfallback1280,startup6,heap192,capacity36,outer1280,outerfallback384,outerwait/resume192pairs. Alias input/face256andcoordinate/geometry128pass. Combined outer/all5inner caller128cases span101taskslots. These use seeded states and explicitly declared remaining services,not natural IRQ/reentry. Geometry regression executes real original formatter/text and blitter as specified by its separate gate.
+
+Thirteen actual watched public-bus traces now match original event order at final addresses. This does not erase the preserved v19case0failure;it qualifies the new code. Recorder has no width field,and guest/private stacks are outside watched public ranges. CPU/nonarenaRAM/helper-entry and stack gates remain separate. Copied package rebuilds identical final module.
+
+Fresh ordinary reset/input gameplay and live geometry/reset/outer observer requalification remain pending. No whole-game,physical-console,arbitraryIRQ,audio,fidelity or trained-quality approval. Earlier8prototype cost samples27..34percent lower apply to the prototype measurement;no new fresh-game timing claim.
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-input-clr-v1/20261020T224305.455701Z/BIWN-23-native-Deck-input-clr-v1-experimental.cdi

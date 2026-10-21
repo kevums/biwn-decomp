@@ -1,0 +1,31 @@
+{
+  "status": "terminal_readonly_record_commit_provider_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c",
+  "fixture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/fixture.c",
+  "fixture_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/fixture.dylib",
+  "controls": 2048,
+  "legal_controls": 192,
+  "rejected_controls": 1856,
+  "all32CCR_both_banks": true,
+  "task_slots": [
+    0,
+    1,
+    6,
+    100
+  ],
+  "new_predictions": 0,
+  "new_training": false,
+  "host_guest_RAM_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_commit_observer_v1.py": "1a69b5624fe0b0991cca4289ccfa9e7e20c5209b38207702831743be13e6e857",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualified-v1-current.json": "542877b4208db222340532670d30034fc4b15c88a0dc4cf522df7180fa28a109",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c": "17da49b1180a1acc0ac50ea22658dd356572b5ed7568326a2b8ff72992f121dc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/geometry_records_commit_observer_v1.inc.c": "2143e9b5a0266db20276954bf80b9ed30e6c6ee15e589a7d19024ec380526240",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/fixture.c": "f21f88bd452d3da4810f4033f5b4a18b8fb866876093aa25d18b0cce67c06795",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/fixture.dylib": "fbf3f597b9c0d2a3402a218b71d03aebad3e26b060bfb43cbc83d996d73e3288",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/cases.json": "3ee315005fe940eb5e6c72b8c72baf070c97c4bccf20cb2810ed2c2197694598"
+  },
+  "scope": "Fault controls for exact read-only record-builder/provider witness source.\n\nSynthetic host CPU/RAM fixtures;these do not execute a game or establish timing.\nIncludes missing/duplicate body boundaries,entry state,actual provider metadata and returnSP,suspended frame/stack corruption,originalbodyexecution,preservedD2/finalPC/SP/banks/active/error and unfinished provider. Actual CPU witness lanes still require separate qualification."
+}

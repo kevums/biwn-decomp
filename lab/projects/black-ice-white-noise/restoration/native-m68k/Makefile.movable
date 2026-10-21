@@ -1,0 +1,13 @@
+include Makefile
+COMPONENT_BASE ?= 0x10000
+.PHONY: movable
+movable: $(BUILD)/button-digit-movable.elf $(BUILD)/button-digit-movable.bin
+
+$(BUILD)/button-digit-movable-shim.o: button-digit-movable-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+
+$(BUILD)/button-digit-movable.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o movable.ld
+	$(CROSS)ld --gc-sections --defsym COMPONENT_BASE=$(COMPONENT_BASE) -T movable.ld -Map $(BUILD)/button-digit-movable.map -o $@ $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o
+
+$(BUILD)/button-digit-movable.bin: $(BUILD)/button-digit-movable.elf
+	$(CROSS)objcopy -O binary $< $@

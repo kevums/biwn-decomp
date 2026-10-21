@@ -1,0 +1,14 @@
+BIWN — C PROCESSOR SUPPORT FOR THE LATEST BOUNDARY DISC
+2026-10-19T04:34:54.738682+00:00
+
+The fixed C instruction provider now covers the latest 17,084-byte native boundary disc. The extension regenerated or added 118 instruction locations, including startup and redirects; this is not 118 recovered game functions. The signed SLE.B condition result and the four-register MOVEM reuse/add explicit C semantics.
+
+All 45,312 one-instruction cases passed against the retained native CPU: full registers, SR, both stack banks, 2MB RAM and pinned emulator cycle charges. The cases use all 32 CCR combinations, two stack modes, interrupt masks 0/7 and three controlled register variants. They do not establish arbitrary aliases, faults, IRQ interleavings or physical timing.
+
+The complete original boundary routine was also compared with the final linked component executed solely through the C instruction provider and RAM callbacks. All 1,376 stable and 256 changing-coordinate cases passed full CPU/public-RAM and ordered-access checks. They exercised 72 C instruction locations across the complete routine, including paths not reached in the gameplay route. Private stack use was 48 bytes. The declared private scratch/code/entry exclusions remain.
+
+A failed atomic check is retained: direct stack-pointer assignment left the serialized active USP field stale. Registers, RAM and cycle charge matched, but USP did not. The new outer provider normalizes only the active USP/SSP field to A7 after an accepted instruction; the inactive bank and other state remain intact. Both the complete atomic suite and whole-function suite were rerun successfully after this fix. Expected state was not weakened.
+
+A full C CPU/GPU/DSP/IRQ comparison has now been launched on this exact boundary disc against its fresh native route. That job is separate from the older 16,872-byte cache-disc comparison, which remains on its original provider. Neither running job has a final verdict in this component receipt. Platform HLE, devices, IRQ lines/ACK/vector handling, host state commit/prefetch/clock/cost and blitter/objectprocessor services remain.
+
+All new instruction emission, bank repair, compiler wiring and checks in this receipt are coordinator work. No new original-game function recovery, local-model game-code authorship, weight training, preview promotion, full source rebuild or physical-console readiness is claimed. The native boundary game code and original disc were not changed by this host-provider work.

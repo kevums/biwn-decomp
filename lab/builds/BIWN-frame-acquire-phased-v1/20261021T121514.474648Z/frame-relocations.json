@@ -1,0 +1,26 @@
+[
+  {
+    "offset": 36,
+    "symbol": "biwn_frame_phased_start",
+    "old": 1343806,
+    "new": 1452130
+  },
+  {
+    "offset": 138,
+    "symbol": "biwn_frame_phased_after_first_divs",
+    "old": 1344410,
+    "new": 1452734
+  },
+  {
+    "offset": 208,
+    "symbol": "biwn_frame_phased_after_group_divs",
+    "old": 1344940,
+    "new": 1453264
+  },
+  {
+    "offset": 284,
+    "symbol": "biwn_frame_phased_after_load",
+    "old": 1345024,
+    "new": 1569564
+  }
+]

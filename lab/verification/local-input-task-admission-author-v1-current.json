@@ -1,0 +1,27 @@
+{
+  "status": "terminal_local_Coder_complete_unedited_candidate_review_pending",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z",
+  "pid": 54858,
+  "new_predictions": 1,
+  "optimizer_updates": 0,
+  "native_Chat_verified": false,
+  "held_out_benchmark": false,
+  "model_source_installed": false,
+  "model_identifier": "portable-ailab-4f5658686590-daily",
+  "seconds": 19.7,
+  "start_to_completion_seconds": 20.117,
+  "first_stream_message_seconds": 2.396,
+  "output_tokens": 427,
+  "only_outer_fence_removed": false,
+  "candidate_statement_edits": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/run_local_input_task_admission_author_v1.py": "575b0334997796d5a4d3c6974d2c13ed96695166418185a1ada5d7e3444a5ff8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/local_stream_inference_v2.py": "9a74221d95d65a6bbf24ba6e91e41f341d6d81f532b839c6ed38ba8356a3bc95",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/prompt.json": "63dfa5e619a0bb31276322409065409d885e89f07074044da6cde4da736d30fa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/model-as-run.json": "702bbf87e0fcc18b095252b53aa59d076aeac176301ac2660d076c508cbd40ae",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/response.txt": "d8165e2ed5e18314bfc1d993b00c7689b893589b32f18cb2642b4164cd420118",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/candidate.c": "5fc5b121cb0130839d4d4e46009e0153317601c41651b60f607304d7776b06d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/prompts-and-responses.txt": "47caad273c862d7fcc2a216408852734fcefd02a3c7138f76ab2ee2f692a5f6a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/stream-events.jsonl": "12c5cfff925979f14042a327d9a4239af82e7d917c2cd5ae70789913ba8755f3"
+  }
+}

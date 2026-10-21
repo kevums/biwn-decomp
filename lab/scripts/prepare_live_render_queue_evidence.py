@@ -1,0 +1,54 @@
+"""Publish fullCPU live queue consumption, decoded buffers and explicit draw stubs."""
+import hashlib,json,shutil,subprocess
+from datetime import datetime,timezone
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+def read(p):return json.loads(p.read_text())
+def save(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+def main():
+    now=datetime.now(timezone.utc).isoformat();session=Path(read(ROOT/'projects/black-ice-white-noise/analysis/current-session.json')['directory']);v=read(session/'boot-slice-validation.json');source=ROOT/'projects/black-ice-white-noise/restoration';linked=read(ROOT/'verification/biwn-disc-world-render-queue-checks.json');cpu=read(ROOT/'verification/biwn-render-queue-cpu-checks.json')
+    assert cpu['CPU_cases']==370 and cpu['source_instruction_coverage']==[78,78]and cpu['host_guards']==20 and cpu['actual_C_sprite_decodes']==320
+    assert linked['cases']==16 and linked['world_updates']==720 and linked['actor_iterations']==2048 and linked['task_handoffs']==6144
+    assert linked['render_queue_consumer_calls']==1008 and linked['actual_C_sprite_decodes']==160 and linked['render_scene_overlay_script_call_counts']=={'0x17e0e':1008,'0x181f8':1008}
+    assert linked['blocked_contexts']==15 and linked['runnable_contexts']==6 and linked['queue_consumer_run']and linked['loaded_payload_bytes']==3080416
+    for k,value in v['disc_world_actor_pipeline'].items():linked.setdefault(k,value)
+    rows=read(Path(linked['directory'])/'fixtures.json')
+    assert all('CPU'in h for row in rows for h in row['rebuilt']['handoffs'])and all(row['final_queue_count']==0 for row in rows)
+    def calls(target):return sum(sum(c['target']==target for c in row['rebuilt']['world_calls'])for row in rows)
+    linked.update(dispatcher_calls=calls(0x191f4),camera_calls=calls(0xf0fa),targeting_calls=calls(0x20820),animation_request_calls=sum(len(row['rebuilt']['animation_requests'])for row in rows),dispatcher_nested_helper_call_count=sum(len(row['rebuilt']['dispatcher_helper_calls'])for row in rows),original_GPU_submit_entries=sum(row['original']['steps'].count(0xe220)for row in rows),cases_with_position_change=sum(row['positions_changed']for row in rows),runnable_world_actor_idle_contexts=6,all_handoff_CPU_states_compared=True,full_scene_draw_executed=False,overlay_executed=False,full_game_viewport_proved=False)
+    assert linked['animation_request_calls']==160 and linked['dispatcher_calls']==linked['camera_calls']==linked['targeting_calls']==720
+    previews=[]
+    for i,row in enumerate(rows):
+        folder=Path(linked['sprite_preview_directory'])/f'case-{i:02d}';meta=read(folder/'sprite.json');raw=(folder/'sprite.raw16be').read_bytes();assert hashlib.sha256(raw).hexdigest()==meta['raw_sha256']and len(raw)==meta['raw_bytes']
+        output=[c['output']for c in row['rebuilt']['render_queue_calls']if 'output'in c][-1];assert output==meta
+        previews.append({'case':i,'png':str(folder/'sprite.png'),'png_sha256':hashlib.sha256((folder/'sprite.png').read_bytes()).hexdigest(),'raw':str(folder/'sprite.raw16be'),**meta})
+    linked['decoded_sprite_previews']=previews;save(ROOT/'verification/biwn-disc-world-render-queue-checks.json',linked);save(Path(linked['directory'])/'report.json',linked)
+    for proof in [cpu,linked]:
+        folder=Path(proof['directory']);assert read(folder/'status.json')['status']=='terminal_pass';snap=folder/'publication-snapshot';snap.mkdir(exist_ok=True)
+        files=[source/n for n in proof['source_sha256']]+[ROOT/'scripts'/n for n in ['generate_biwn_render_queue_cpu.py','check_biwn_render_queue_cpu.py','check_biwn_disc_world_yields.py','check_biwn_disc_scene_actors.py']]
+        for n,h in proof['source_sha256'].items():assert hashlib.sha256((source/n).read_bytes()).hexdigest()==h
+        for p in files:shutil.copy2(p,snap/p.name)
+        save(snap/'manifest.json',{'recorded_at':now,'sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in files}})
+    assert v['portable_C_component_count']==112;v.update(render_queue_full_CPU=cpu,disc_world_actor_pipeline=linked,disc_world_live_render_queue_pipeline=linked,latest_aggregate_update=now);save(session/'boot-slice-validation.json',v)
+    p=session/'render-queue-fullCPU-generation.json';g=read(p);g.update(status='accepted_fullCPU_and_live_queue_render_task_linkage',whole_game_complete=False,evidence=['verification/biwn-render-queue-cpu-checks.json','verification/biwn-disc-world-render-queue-checks.json']);save(p,g)
+    scope=('The renderer task now consumes the live world animation queue in the captured scene test. All 16 cases match original CPU/GPU execution across 720 world updates, 2,048 actor iterations, 1,008 queue-consumer calls, 160 actual sprite decodes and 6,144 handoffs with every CPU register compared at handoff. All 160 queued requests were consumed; final queues are empty. Render, world, two actors and two idles are runnable; 15 other contexts remain blocked. Sprite headers/raw buffers match original output and decoded previews are saved. The separate fullCPU proof passes 370 cases/all 78 instructions/20 guards, including 320 reconstructed sprite decodes and independent Unicorn CPU/bus checks. Scene drawing17E0E and overlay181F8 remain two explicit stubs, called1,008times each: no full3Ddraw, viewport or scanout claim. Actual resource/loading code still loads32payloads/3,080,416bytes with real scheduler waits; BIOS303C/3042 and controlled completion bytes remain. Two-client readiness is verified separately; the main scene still does not exercise resource synchronization. Assisted startup, supplied inventory/button/clock inputs and synchronous GPU completion remain declared fixtures; no physicalFPS claim. Remaining tasks/scenes/audio/uninterruptedboot/fullgame/hardware remain incomplete. The game is not playable. Aggregate112 unchanged.')
+    examples=read(ROOT/'verification/world-actor-checked-examples.json');examples.update(checked_world_actor_scope=scope,checked_dispatcher_answer='World/input/equipment/loading now runs alongside the real render queue caller.272equipment/32loader suspensions,6144fullCPUhandoffs and160actualsprite decodes. Main-scene resource synchronization remains unexercised; scene/overlay stubs and fullgame remain incomplete.',checked_resource_answer='Actual resource/cache/heap/loader/CD game wrappers and32preserved-disc payloads remain verified in the newest live-render scene. Separate two-client readiness proof is also verified. The main scene still does not exercise synchronization; BIOS/file completion boundaries, scene draw/overlay stubs and fullgame remain incomplete.',checked_render_queue_answer='Live queue consumption now runs under the real render task:1008consumer calls/160reconstructed sprite decodes in16cases, with completeRAM/CPU/privateframes/fullhandoff states matching originalCPU/GPU. Scene draw17E0E andoverlay181F8 are still stubs; saveddecoded sprites are not completegame viewport images.');save(ROOT/'verification/world-actor-checked-examples.json',examples)
+    checkpoint={'recorded_at':now,'status':'code_passed_local_scope_review_pending','published_components':112,'new_components':0,'CPU_cases':370,'source_instruction_coverage':[78,78],'host_guards':20,'standalone_C_sprite_decodes':320,'disc_cases':16,'world_updates':720,'actor_iterations':2048,'queue_consumer_calls':1008,'live_C_sprite_decodes':160,'task_handoffs':6144,'full_handoff_CPU_states_compared':True,'blocked_contexts':15,'runnable_contexts':6,'scene_draw_stub_calls':1008,'overlay_stub_calls':1008,'full_viewport_proved':False,'representative_sprite':previews[0],'full_goal_status':'active incomplete','next_work':'Replace reached scene draw17E0E and overlay181F8 stub boundaries with full CPU/native-device bodies and their dependencies. Link verified resource wait/signal into game callers; continue remaining tasks/scenes/audio/uninterrupted boot and native Chat. Keep decoded-buffer previews distinct from a complete viewport.','evidence':['verification/biwn-render-queue-cpu-checks.json','verification/biwn-disc-world-render-queue-checks.json']};save(ROOT/'verification/live-render-queue-checkpoint.json',checkpoint)
+    for name in ['config.json','corpus/game/project-intake.json']+['verification/'+n for n in ['setup-status.json','current-runtime-state.json','everyday-inference.json','requirements-audit.json']]:
+        p=ROOT/name;value=read(p);value.update(live_render_queue_checkpoint=checkpoint,disc_world_actor_progress=scope)
+        if name=='config.json':value['chat_frontend']['game']['status']=scope
+        if name=='corpus/game/project-intake.json':value['latest_checked_status']=scope
+        if name=='verification/current-runtime-state.json':value.update(recorded_at=now,decomp_progress=scope,emulator_jobs='Terminal:370fullCPU render/queue cases and16live scene cases/160decodes/6144fullCPU handoffs passed.')
+        if name=='verification/setup-status.json':value['game_work']=scope
+        if name=='verification/requirements-audit.json':
+            value.update(recorded_at_utc=now,this_goal_turn_classification='Progress: live renderer/queue/actual C sprite decoding linked and fullCPU handoffs compared. Scene/overlay stubs and fullgame remain incomplete.',next_safe_work=checkpoint['next_work'])
+            for item in value['requirements']:
+                if 'decompilation test'in item['requirement']:item.update(state=scope,evidence=list(dict.fromkeys(item['evidence']+checkpoint['evidence'])))
+        save(p,value)
+    text='LIVE RENDER TASK / QUEUE — '+now+'\n\n'+scope+'\n\nWHO DID WHAT\nCodex authored fullCPU reconstruction and live renderer integration. NativeCPU/GPU and independent Unicorn CPU validate scoped behavior. C side executes no originalGPU/CPU game instructions. Scene/overlay are explicit stubs. First370case/16scene runs passed; strengthened allhandoffCPU logging and repeated16cases, all passed. No C behavior repair.\n\nREPRESENTATIVE DECODED BUFFER PREVIEW\n'+previews[0]['png']+'\n\nNEXT\n'+checkpoint['next_work']+'\nFull goal active and incomplete.\n';(ROOT/'CURRENT DECOMPILATION.txt').write_text(text)
+    for name in ['POST REVIEW.txt','projects/black-ice-white-noise/restoration/READ ME.txt']:
+        with(ROOT/name).open('a')as f:f.write('\n'+text)
+    p=ROOT/'START HERE.txt';text=p.read_text();a=text.index('LATEST GAME RESULT\n');b=text.index('LOCAL INFERENCE RESULT\n',a);p.write_text(text[:a]+'LATEST GAME RESULT\n'+scope+'\n\nDecoded-buffer preview (scene/overlay still stubbed):\n'+previews[0]['png']+'\n\n'+text[b:])
+    for name in ['summarize_biwn_checks.py','install_chat_runtime.py']:subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts'/name)],check=True)
+    print(json.dumps({k:v for k,v in checkpoint.items()if k!='representative_sprite'}))
+if __name__=='__main__':main()

@@ -1,0 +1,122 @@
+"""Concise current game/model status from checked evidence, without inference."""
+import argparse,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
+from native_deck_status_evidence_v1 import load
+
+def main():
+    ap=argparse.ArgumentParser();ap.add_argument('--brief',action='store_true');args=ap.parse_args()
+    p=load(ROOT)
+    if args.brief:
+        c=p['latest_native_candidate'];h=p['current_input_real_helpers_progress'];a=p['current_input_admission_progress'];r=h['local_Reviewer'];n=p['current_input_remaining_helpers_progress'];w=p['current_input_wide_startup_progress']
+        print('BIWN local workbench — current checked status')
+        print('Play: Desktop BIWN Test Preview.app; P starts, arrows move, Shift+Up runs.')
+        print('Preview: earlier outdoor checkpoint. Complete source-only Jaguar rebuild remains unfinished.')
+        print('Gameplay: reviewed v34; v37 remains unpromoted after its matrix-video failure.')
+        print(f"Input prototype: {h['module_bytes']:,} bytes; copied SDK rebuild identical; not installed in a game image.")
+        print(f"New caller checks: targeting {n['targeting_cases']}, boundary {n['boundary_cases']}, resources {n['resource_cases']}, combined {n['combined_cases']} paired comparisons pass.")
+        print(f"Stack: {h['maximum_connected_caller_stack']} measured full-caller bytes; 512-byte entry reserve remains provisional.")
+        print('Remaining: nested geometry/loading, IRQs, image relinking/fresh qualification and fidelity/audio.')
+        print(f"Local Coder: unedited startup helper in {w['local_Coder_seconds']}s; copy/clear checks pass in two CPU emulators.")
+        print(f"Latest local Reviewer: {r['seconds']}s/{r['words']} words; response unapproved for format/stack precision.")
+        print('Training: useful gain on untouched tasks remains unproven; no new weight updates. LM Studio Chat visibility unverified.')
+        print('Details and exact prompt/response links: '+n['report'])
+        return
+    c=p['latest_native_candidate'];scene=p['native_scene_draw_progress'];outer=p.get('native_outer_compact_progress');reader=p.get('current_copied_Reader_progress',{})
+    print('BIWN — current checked status\n',flush=True)
+    print('Latest reviewed gameplay: '+c['variant'],flush=True)
+    print(f"Fresh candidate/control: {c['candidate_frames']:,}/{c['control_frames']:,} frames; {c['native_scene_returns']:,} native scene returns. All monitors clear.",flush=True)
+    print(f"Video: {c['differing_video_frames']:,} paired differences; final video agrees: {c['final_video_equal']}. Audio fidelity remains unresolved.",flush=True)
+    heap=c['minimum_sampled_heap_while_outer_active'];print(f"Sampled free heap while outer task was active: {heap['candidate']:,}/{heap['control']:,} bytes; not a global minimum.",flush=True)
+    print(f"Scene stack: {c['native_scene_prototype_C_stack_bytes']}/208 bytes.",flush=True)
+    if outer:print(f"Outer stack: {outer['outer_C_stack_bytes']}/{outer['outer_C_stack_reserved']} bytes; {outer['outer_arena_bytes_reclaimed']:,} private arena bytes reclaimed.",flush=True)
+    print(f"Local Reader: latest saved response took {reader.get('seconds','unknown')} seconds and {reader.get('words','unknown')} words; fully approved: {reader.get('current_source_reply_verified',False)}. Default Reader version: {reader.get('default_reader_version','unknown')}.",flush=True)
+    print('Training: copied-runtime capability verified; earlier base/adapter quality pilot each passed 0/4 tasks. No useful trained-model gain or adopted adapter established.',flush=True)
+    records=p.get('native_geometry_records_progress')
+    if records:
+        print(f"Record builder: {records['native_record_returns']:,} native returns; copy {records['native_record_copy_returns']:,}, matrix {records['native_record_matrix_returns']}. This count belongs to the standard route.",flush=True)
+        print(f"Component: host {records['host_cases']} + {records['host_guards']} guards; native {records['native_body_cases']}; whole scene with inherited providers {records['whole_scene_actual_inherited_provider_cases']}. Module {records['module_bytes']:,} bytes.",flush=True)
+        prefix=records.get('current_fixed_input_video_comparison')
+        if prefix:print(f"Identical-input prefix: {prefix['count']} differing video frames of 1,000; not full-game fidelity.",flush=True)
+        else:print('Current-image identical-input prefix comparison remains pending.',flush=True)
+        print('Record source and signed-stride adaptation are coordinator-authored; prior linked hybrid attribution remains. Local full-function Author/Repair attempts are separate and unpromoted; no new weight updates.',flush=True)
+    matrix=p.get('record_matrix_fresh_progress')
+    if matrix:
+        print(f"Additional fresh indoor scene {matrix['source_target_scene']}: {matrix['native_record_matrix_returns']} native / {matrix['original_record_matrix_returns']} original matrix returns; final video and selected player fields agree. All monitors clear.",flush=True)
+        print(f"Matrix route: {matrix['candidate_frames']:,}/{matrix['control_frames']:,} frames, {matrix['video_differences']:,} paired video differences. Static type {matrix['instantiated_type']}, angle {matrix['static_angle']}; broader timing/fidelity remains open.",flush=True)
+        print('The matrix route did not exercise the outer task; its outer stack/active heap are unmeasured.',flush=True)
+    compact=p.get('local_geometry_records_compact_progress')
+    if compact:print(f"Compact local Author: {compact['seconds']} seconds; output truncated; no redundant Repair, compile or installation.",flush=True)
+
+    prototype=p.get('native_geometry_record_stride_progress')
+    if prototype and not prototype.get('new_disc_built',False):
+        print(f"\nNewer source prototype: {prototype['module_bytes']:,} bytes; saves {prototype['CPU_cycles_saved_each_fixture']:,} CPU cycles in each of eight fixtures. Not yet a disc image.",flush=True)
+        print(f"Prototype checks: host {prototype['host_cases']} + {prototype['host_guards']} guards, native {prototype['native_body_cases']}, connected scene {prototype['prototype_scene_cases']}; copied SDK byte-identical.",flush=True)
+        print('Prototype details: '+prototype['report'],flush=True)
+
+    loop=p.get('native_geometry_record_loop_progress')
+    if loop:
+        if loop.get('new_disc_built'):
+            print(f"Newer experimental disc: {loop['profile']}, {loop['module_bytes']:,} bytes. Unpromoted; final matrix-video comparison passed: {loop.get('final_matrix_video_comparison_pass',False)}.",flush=True)
+            standard=loop.get('standard_route',{});matrix=loop.get('matrix_route',{});prefix=loop.get('fixed_input_prefix',{})
+            if standard:print(f"New candidate standard route: {standard['candidate_frames']:,}/{standard['control_frames']:,} frames, {standard['native_record_returns']:,} record returns, {standard['video_differences']:,} video differences; final video agrees: {standard['final_video_equal']}.",flush=True)
+            if matrix:print(f"New candidate matrix route: {matrix['native_record_matrix_returns']} native/{matrix['original_record_matrix_returns']} original returns; final video differs by {matrix['final_differing_pixels']:,} pixels. Fractional player/camera state also differs; cause unresolved.",flush=True)
+            if prefix:print(f"New candidate fixed-input prefix: {prefix['count']} differing video frames of 1,000. This does not resolve visual timing.",flush=True)
+        else:print(f"Newer coordinator loop-tail component: {loop['module_bytes']:,} bytes; native {loop['native_body_cases']}, scene {loop['prototype_scene_cases']}; not a disc.",flush=True)
+        print('Separate local Author/Repair: 16.92/19.48 seconds; Repair repeated failed code. No code from these trials adopted; no new training.',flush=True)
+
+    diagnostic=p.get('current_equal_state_diagnostic_progress')
+    if diagnostic:
+        print('Equal-state diagnosis: native/original stationary video agrees for 180 frames at both saved poses; unchanged replay controls match exactly.',flush=True)
+        print(f"Fixed Up-input motion: one origin consumes 22/23 movement steps; recovered C integration matches all {diagnostic['actual_recovered_C_integrator_transitions']} captured transitions. Fresh matrix gate remains failed.",flush=True)
+        print('Warm local briefing: first text '+str(reader.get('CLI_start_to_first_text_seconds'))+'s; complete '+str(reader.get('CLI_start_to_completion_seconds'))+'s, including setup/evidence. Native Chat remains unverified.',flush=True)
+
+    native_input=p.get('current_native_input_prototype_progress')
+    if native_input:
+        print(f"New input source component: {native_input['module_bytes']:,} bytes; {native_input['native_component_cases']} native cases, including {native_input['captured_walking_cases']} captured inputs; copied SDK byte-identical.",flush=True)
+        if native_input.get('all_thirteen_state_fixture_paths_verified'):
+            print(f"Input fixture: all 13 states; 18 retained helper targets; original incoming D0 seeds match. Stack {native_input['C_stack_bytes']} bytes in the C-ABI fixture.",flush=True)
+            print('Original global entry, real helper bodies and arbitrary IRQ remain unqualified; not a disc image.',flush=True)
+        else:print(f"Input component stack: {native_input['C_stack_bytes']} C-ABI fixture bytes; broader qualification pending.",flush=True)
+    entry=p.get('current_input_entry_progress')
+    if entry:
+        print('Entry adapter: 4,630 basic return/stack-bank cases pass; raw CCR and caller-saved differences remain recorded.',flush=True)
+        print('Caller prefix: public RAM/bus, matrix arguments and flags match after integration; 1,480 upper-D1 differences remain.',flush=True)
+        print('Actual two-task yields: 16 paired trials, 104 switches through original TRAP/RTE; native task stack 392/960 fenced bytes. Real helper bodies and arbitrary IRQ still open; newer guarded-caller results are separate below.',flush=True)
+    admission=p.get('current_input_admission_progress')
+    if admission:
+        print(f"Local Coder: unedited predicate in {admission['local_Coder_seconds']}s; host {admission['host_cases']:,} and native68000 {admission['native_predicate_cases']:,} cases pass. Zero optimizer updates.",flush=True)
+        print(f"Stack-first admission: {admission['admission_route_cases']:,} cases; no stack access before preflight; checked frame {admission['preflight_stack_bytes']} bytes. Native reserve512 remains provisional for real helpers/IRQs.",flush=True)
+        print(f"Full original caller: {admission['full_caller_cases']:,} cases, including {admission['admitted_native_calls']:,} native calls, {admission['original_fallback_calls']:,} original fallbacks and {admission['input_skips']:,} skips. Public RAM/bus/helper arguments/final flags agree; {admission['raw_D1_upper_differences']} upper-D1 differences retained.",flush=True)
+        print('Earlier scripted admission/caller fixture: '+str(admission['module_bytes'])+' bytes; copied SDK rebuild identical. The newer real-helper tests are separate below; full helper, IRQ and image qualification remains open.',flush=True)
+        print('Exact prompts and raw response: '+admission['transcript'],flush=True)
+    helpers=p.get('current_input_real_helpers_progress')
+    if helpers:
+        print(f"Connected original animation/queue: {helpers['animation_fixture_cases']} cases, including {helpers['input_animation_calls']} actual animation calls inside input; {helpers['animation_upper_D1_differences']} upper-D1 differences remain in this separate layout set.",flush=True)
+        print(f"Camera + animation + original GPU: {helpers['camera_fixture_cases']} cases; all final registers/public RAM/CPU accesses match. Original GPU runs on both sides with synchronous completion; this does not waive the broader837differences.",flush=True)
+        print(f"New bounded equipment/animation full-caller stack: {helpers['maximum_connected_caller_stack']} bytes.512entry reserve remains provisional for real resources/IRQs. New component bytes unchanged; no new disc/preview/training update.",flush=True)
+        review=helpers.get('local_Reviewer',{})
+        if review:print(f"Local Reviewer: {review.get('seconds')}s/{review.get('words')}words; provided-snapshot accepted: {review.get('provided_snapshot_accepted',False)}. Native Chat unverified.",flush=True)
+        print('Real-helper integration details: '+helpers['report'],flush=True)
+    remaining=p.get('current_input_remaining_helpers_progress')
+    wide=p.get('current_input_wide_startup_progress')
+    if remaining:
+        print(f"Additional caller connections: targeting{remaining['targeting_cases']}, boundary{remaining['boundary_cases']}, resource/heap{remaining['resource_cases']}, combined{remaining['combined_cases']} cases. All public state and final CPU match; provider limits remain explicit.",flush=True)
+        print('Nested geometry/loading/wait/signal bodies, IRQ and production image qualification remain open. Broader837scripted D1 differences are not waived.',flush=True)
+    if wide:
+        print(f"Wide startup prototype: local unedited Python helper{wide['local_Coder_seconds']}s; {wide['host_valid_cases']}valid/{wide['host_invalid_cases']}rejection checks, {wide['copy_CPU_cases']}copy/{wide['integrated_CPU_cases']}clear-restore cases plus {wide['second_CPU_cases']}second-CPU checks.",flush=True)
+        print('v34 planned copy132160bytes exceeds the old131072word-loop capacity. Long-copy/clear prototype passes; current builders and game images are unchanged. Arena/heap relinking and final-image gates remain required.',flush=True)
+        print('Current details: '+wide['report'],flush=True)
+    timing=p.get('current_input_timing_progress')
+    if timing:print('Controlled walking admits 287/290 clock ticks and 22/23 whole steps; 425 connected original-dispatch/division cases pass. This does not waive the fresh matrix-video failure.',flush=True)
+
+    repair=p.get('local_geometry_prologue_repair_progress')
+    local=p.get('local_geometry_prologue_native_progress')
+    if local:print(f"Local coding result: {local['seconds']} seconds; host {local['host_cases']} + {local['host_guards']} guards, native {local['native_body_cases']}, scene {local['prototype_scene_cases']}. Verified component; not adopted in the game.",flush=True)
+    elif repair:print('Latest bounded local Repair: '+repair['status']+'; adopted: '+str(repair.get('model_source_installed',False))+'.',flush=True)
+
+    print('\nPlay: Desktop BIWN Test Preview.app; click the window and press P. Arrows move; C+Up or Shift+Up sends run input. LM Studio is not needed for the game window.',flush=True)
+    print('The checkpoint preview is unchanged. Whole-game source rebuilding, same-console completion, copied-weight Native Chat usability and broader fidelity remain open.',flush=True)
+    if not args.brief:print('\nDetails:',c['report'],'\nNext:',c['next_action'],flush=True)
+
+if __name__=='__main__':main()

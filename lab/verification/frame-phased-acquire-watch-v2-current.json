@@ -1,0 +1,26 @@
+{
+  "status": "terminal_exact_phased_frame_watch_fault_controls_and_actual_CPU_readonly_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-acquire-watch-v2/20261021T122248.307871Z",
+  "pid": 66826,
+  "new_predictions": 0,
+  "new_training": false,
+  "controls": 8,
+  "actual_off_on_pairs": 24,
+  "observer_calls": 834024,
+  "whole_RAM_immediate_boundary_checks": 216,
+  "complete_off_on_CPU_RAM_helpers_equal_without_exclusions": true,
+  "original_metadata_bound": 38,
+  "stronger_separate_task_guard_bytes": 64,
+  "fixture_GPU_arenas_inactive": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_acquire_watch_v2.py": "d1ea9df658436fd696182f58896e18a8333d49ce1275925b2c585c635bdfc0c1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_full_observer_v3.py": "16b961d34af3f566892153815369081e92f84359c8671bbe2a540292209c9590",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_image_task_stack_v1.py": "0f1f232fc1fa6b1f14eaee23c6f167b194e7be4ab59554ca875aed156d7fca11",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-acquire-watch-v2/20261021T122248.307871Z/fixture.c": "5653d9cd17b8b08ce51779f35ca7aca2095d81f2d7a70e8632db5397ab63db86",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-acquire-watch-v2/20261021T122248.307871Z/fixture.dylib": "17b5c4347c0da2b06ba307edd77934261a57b98f0d0d1c77ae9cfc9f0734fa6d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-acquire-watch-v2/20261021T122248.307871Z/selected-matrix.py": "dd509c46cbf892b076c4264d9b38b58d781f5c7e388032ef9c239827a79b81bb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-acquire-watch-v2/20261021T122248.307871Z/controls.json": "f6ecd3186eb27b68bf9757f2f695101cd550edbb64fc310409e3f72259210a57",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-acquire-watch-v2/20261021T122248.307871Z/actual-lanes.json": "bdd8cb03dd4dd5359250059710a99f53814db997ffa337528074f0d99f0b5fa4"
+  }
+}

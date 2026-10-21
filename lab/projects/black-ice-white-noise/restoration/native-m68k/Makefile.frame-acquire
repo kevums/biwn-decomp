@@ -1,0 +1,17 @@
+THIS_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+LAB_ROOT := $(abspath $(THIS_DIR)/../../../..)
+CROSS ?= $(LAB_ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= build-frame-acquire
+CFLAGS := -m68000 -msoft-float -std=c99 -Os -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror
+.PHONY: frame-acquire
+frame-acquire: $(BUILD)/frame-acquire.bin
+$(BUILD):
+	mkdir -p $@
+$(BUILD)/body.o: $(THIS_DIR)/frame-acquire-native.c $(THIS_DIR)/frame-acquire-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -c $< -o $@
+$(BUILD)/shim.o: $(THIS_DIR)/frame-acquire-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/frame-acquire.elf: $(BUILD)/shim.o $(BUILD)/body.o
+	$(CROSS)ld -Ttext=0x148000 -e biwn_native_frame_acquire -o $@ $^
+$(BUILD)/frame-acquire.bin: $(BUILD)/frame-acquire.elf
+	$(CROSS)objcopy -O binary $< $@

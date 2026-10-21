@@ -1,0 +1,13 @@
+include Makefile
+
+.PHONY: full-abi
+full-abi: $(BUILD)/button-digit-full-ABI.elf $(BUILD)/button-digit-full-ABI.bin
+
+$(BUILD)/button-digit-full-ABI-shim.o: button-digit-full-ABI-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+
+$(BUILD)/button-digit-full-ABI.elf: $(BUILD)/button-digit-full-ABI-shim.o $(BUILD)/inventory-select.o native.ld
+	$(CROSS)ld --gc-sections -T native.ld -Map $(BUILD)/button-digit-full-ABI.map -o $@ $(BUILD)/button-digit-full-ABI-shim.o $(BUILD)/inventory-select.o
+
+$(BUILD)/button-digit-full-ABI.bin: $(BUILD)/button-digit-full-ABI.elf
+	$(CROSS)objcopy -O binary $< $@

@@ -1,0 +1,23 @@
+NATIVE GEOMETRY ARITHMETIC OPTIMIZATION — REVIEW
+
+New experimental native module:37,408bytes;peak geometry C stack164/176bytes. The installed BIWN Test Preview.app is unchanged.
+
+Native arithmetic primitives passed115,584boundary/random cases across all32incomingCCR values and both physical stack banks. Complete new geometry:256cases;retained callers:4,992;fallbacks:1,280. Eight final-image component/startup/heap/outer gates pass. New aliases:256;combined six-caller matrix:128cases/101slots/2,245parent checks. Read-only monitor controls:50geometry,18outer,88region faults rejected.
+
+CPU COST SAMPLES:
+0faces:401,378→200,642pinned-emulatorcycles (50.01percent reduction);original assembly:18,518cycles.
+1faces:413,454→207,448pinned-emulatorcycles (49.83percent reduction);original assembly:19,462cycles.
+6faces:537,270→292,516pinned-emulatorcycles (45.56percent reduction);original assembly:27,262cycles.
+
+Pinned-emulator CPU instruction cycles for three fixed qualified fixtures;GPU/debug fixture body costs excluded equally. Not physical timing or whole-game speed.
+clear_records.constprop.0 costs161970cycles in each sample,55-81percent of the remaining compiled geometry cycles. Virtual CPU register/flag bookkeeping remains expensive.
+
+Fresh candidate/control:24,968/24,969frames. Geometry returns:18/18. Face GPU returns:108/108. Video differences:79;final video equal:True. All observed runtime guards,active flags,arena fences and immutable code pass. Fidelity remains unapproved. Inputs and stopping criteria were preserved. The old339-difference candidate used a different module/heap layout.
+
+The copied final-gate controller initially misnamed two terminal outer receipts. All eight workers exited zero. The failed controller is archived;new receipts were moved to ALU names and previous candidate receipts restored byte-exact. No machine check was rerun to conceal the reporting error.
+
+Local model development:two actual same-weight Author/Repair predictions,51.55/50.82seconds. Both raw outputs are identical and fail the complete originalCPU gate at the first zero-count case (D1upper bits lost);budget ignored. Other helper bodies and ABI were retained by coordinator composition. No generated source or weights adopted. Exact prompts/responses:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/game-decomposed-clear-v1/20261020T183732.140880Z/prompts-and-responses.txt
+
+Reduce per-byte CPU register/CCR bookkeeping in clear_records using proved liveness while preserving machine and ordered bus contracts;qualify the changed native module before a new route. Integrate10734debug with original/compiled formatter/text through stack/capture/fallback/nesting/fresh gates. Keep installed preview unchanged until fidelity is resolved.
+
+Whole-game source rebuilding,accepted local game-code generation,nativeChat rendering and current portable package refresh remain unfinished.

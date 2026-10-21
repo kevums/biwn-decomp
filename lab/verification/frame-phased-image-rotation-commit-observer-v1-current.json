@@ -1,0 +1,33 @@
+{
+  "status": "terminal_native_display_rotation_actual_CPU_witnesses_and_faults_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z",
+  "actual_native_scene_lanes": 64,
+  "native_display_entries": 55,
+  "native_rotation_entries": 55,
+  "rejected_fault_controls": 44,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_rotation_commit_observer_v1.py": "18e4c786489b81a582ccd9a33cc01eae9d96b3844884b482647773076a30b58b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_full_observer_v1.py": "8dfac934ae4d50af61189d40d041a8817ee26995cf4149072f9197f55020648e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_complete_observer_v1.py": "b2122a83bcce4b9ac08130ea85fe1723282230bf6dfd58e2353feaf203d9c223",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_rotation_display_observer_v2.inc.c": "6295ce018b9b783f47fe1b4c8348ce3ba715d242a87efb108e5c3714d6ecf5df",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_display_observer_v1.inc.c": "e025ad1ce6b18f35adb403eb7c77c2cfe866092ee097414133e17066954ff4a9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/fixture.c": "dad3eb6994a2cb227722258e27d665852cdb6d689028f0ce5885a305c8292cb9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/fixture.dylib": "0e1cb02c6f96a49195caf0d5cab7ad8ee6cabe5fbfe3acfed47020335a763ab8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/actual-native-harness.py": "319edb0fca74b36edf4a105817fc9b64f3a85a20fd6827723cbecdba1d72973b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/cases.json": "35faff15fa7e5bb504e1fca2fa5a8cdb2f107daa421a15ef5ef9f53ebc031238",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/faults.json": "109875d279f32b204013b700df00a74d6fa8e3555c0748734b9d65fb774b45eb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-0-CPU.json": "4debb8f1538dc88aed39210d75abf9b9150d09947f27a0dcc79eff735ef2d7a3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-1-CPU.json": "ded728debfc5d76a7c0f4460b4eb4964c45fe87cb2ac485b2147d10efdd7e36f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-0-RAM.bin": "1aff9b9c27f80fd15aeec05842aa3abd8eba71743e84b9635e50c7cc26876cc8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-1-RAM.bin": "a293a64e8bec2c6ee0ee75d021a09db8fc9508ca2cd97c860a817ca6efb4cb85",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-3-CPU.json": "74d6332605df3b89720ea9af1e1f0b5ed0c3a7efe84b454241160b81563c510d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-2-CPU.json": "fce654877002fec8bd4eaca47f0f1c7006949316d74a0ce3a824105673bfdfe2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-3-RAM.bin": "86fa5954296a24b3bae70e008d2cc05e5da12ad7cc9d2bf75bd1b9be85823525",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-rotation-commit-observer-v1/20261021T122532.017393Z/checkpoint-2-RAM.bin": "e6d89c9ecdd1527ed02bdc4c35932a47ae4d74bdf7a90b0bbf5088327db43391"
+  },
+  "scope": "Native rotation/display boundary witnesses from actual CPU steps and host-only corruption replays. Four actual native instruction boundaries:rotation begin/display begin/display end/rotation end. Guest frame/table shape, argument/save integrity, full callee saves/banks,finalflags/output commitment and stack/metadata are witnessed. Not a second full packing oracle. Host fault replays mutate copied snapshots only. Remaining services are component fixtures; no fresh-game/IRQ/console claim."
+}

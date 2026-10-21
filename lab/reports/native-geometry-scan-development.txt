@@ -1,0 +1,15 @@
+BIWN — COMPLETE102C4 NATIVE SCANNER AND LOCAL OUTPUT TEST
+2026-10-19T05:51:30.702019+00:00
+
+The complete reverse scan is now compiled as a428byte native68000 component, linked with two bytes of alignment after the preceding17382byte resident to produce17812resident bytes in the existing20480byte reservation. The original sector/table indirection, count-1 signed WORD boundary, reverse first-match order,32768entry complete miss, partial registers, X/carry retention, tagged pointers and repeated volatile read widths/order are preserved by the selected coordinator implementation.
+
+All three raw local candidates were rejected. The first27B Author failed ordered access case0; its one guided repair failed fullCPU/RAM case0. The separate-context same-weight first Reviewer raised unreliable issues; the schema-constrained second Reviewer returned {} despite a real failing candidate. Schema validity is not semantic correctness. One fresh Qwen3CoderNext GGUF Q3_K_XL response to the exact original task also failed ordered access case0. No raw local scanner C was accepted. No second repair or coding-model Reviewer was run.
+
+Five actual local predictions took 128.04 seconds combined: Author35.56s, Reviewer35.62s, repair37.16s, constrained Reviewer8.86s, fresh coder10.84s. This excludes model loading, compilation, testing and coordinator work. The coder fit32Kcontext/oneworker under the normal resource guard after temporarily unloading the idle daily base, which was restored. This single development task does not establish model ranking, independent review or training gain.
+
+The coordinator C/layout/bounds helper/ABI and linked addresses passed1377stable+768changing-read fixtures with all69original instruction sites reached, and96startup fixtures. No new logical recovered function is counted merely for this native adaptation. Stable-only live monitor qualification and fresh native gameplay are separate evidence. Preceding-disc C-processor comparisons do not verify this scanner disc. Physical console boot, complete readable whole-game source rebuild, native LM Studio Chat display and default preview promotion remain unverified. No weights changed.
+
+Exact prompts and responses:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-scan-prompts-and-responses.txt
+Prediction index:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-scan-prediction-index.json

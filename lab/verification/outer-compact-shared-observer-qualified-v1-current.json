@@ -1,0 +1,30 @@
+{
+  "status": "terminal_six_root_admission_C_floor_and_scene_commit_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z",
+  "fixture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/fixture.c",
+  "fixture_library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/fixture.dylib",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/observer.c",
+  "ELF_C_functions": 51,
+  "C_floor": "0x16e698",
+  "C_floor_legal_controls": 612,
+  "C_floor_rejected_controls": 612,
+  "invalid_admission_legal_cases": 1920,
+  "busy_fallback_controls": 54,
+  "invalid_admission_corruption_controls": 42,
+  "scene_commit_controls": 704,
+  "new_predictions": 0,
+  "new_training": false,
+  "host_guest_RAM_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_outer_compact_shared_observer_v1.py": "2c49fbef1b0432e03c1b72166a39dc1237708cee033213c46b3d05f4713df259",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-disc-build-v1-current.json": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualified-v1-current.json": "1de0356202781b86242b352a9beb6cf463b192752a23b2a13f15008d6886d34b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/observer.c": "96f20852014e9ab5233fc06e395b0c2fc7602cdddc99938259a5c7bf5882f42a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/fixture.c": "45b00a20422a5282282a3ae1089d15f4407f4d1be6c78778a4a9c0ac3aa8927a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/fixture.dylib": "141fc132a1739a4ed0c5c2cd772e856016e3711abb30bc5c777ad56f1cda62da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-outer-compact-v1/20261021T035953.106380Z/five-build/native-shared.elf": "de09afedf5dfebdab73f83f934e6799c055d6a0b3e3e60193e42b4b87be36217",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/ELF-symbols.txt": "4b39d3a848ba3caae999e59c768f262d42251a3966e2aa657e287fc366167834",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-shared-observer-qualified-v1/20261021T040037.565961Z/cases.json": "0690ac296db636c8464b4dd90ef9c684c77649b217a3303a89d4e8df4c951975"
+  },
+  "scope": "Synthetic controls for exact six-root admission, C-stack and scene commit observer.\nHost memory/CPU fixtures only;no guest execution or runtime repair.\nNativeentriescountacceptedbodyadmissions;attemptsandvalidatedfallbacksseparate.Invalidtaskfallbackmustpreserveall16registersandSR.Busyaliasfallbackalsopreserves118byteframeanddeclaredCstack.NativeCmustbelongtoexactlyonependingframe.Scenecommitchecksallregisters,SR,logicalPC,activebankandclearedactive/error."
+}

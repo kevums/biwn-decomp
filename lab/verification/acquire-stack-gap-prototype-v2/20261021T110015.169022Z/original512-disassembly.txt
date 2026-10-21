@@ -1,0 +1,130 @@
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-stack-gap-prototype-v2/20261021T110015.169022Z/original512.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+0015f292 <biwn_native_resource_acquire>:
+  15f292:	48e7 3c30      	moveml %d2-%d5/%a2-%a3,%sp@-
+  15f296:	4fef fe00      	lea %sp@(-512),%sp
+  15f29a:	48d7 7fff      	moveml %d0-%fp,%sp@
+  15f29e:	40ef 0042      	movew %sr,%sp@(66)
+  15f2a2:	426f 0040      	clrw %sp@(64)
+  15f2a6:	41ef 0218      	lea %sp@(536),%a0
+  15f2aa:	2f48 003c      	movel %a0,%sp@(60)
+  15f2ae:	2f0f           	movel %sp,%sp@-
+  15f2b0:	6100 1182      	bsrw 160434 <biwn_native_resource_acquire_body>
+  15f2b4:	4fef 0004      	lea %sp@(4),%sp
+  15f2b8:	4cd7 7fff      	moveml %sp@,%d0-%fp
+  15f2bc:	44ef 0042      	movew %sp@(66),%ccr
+  15f2c0:	4fef 0200      	lea %sp@(512),%sp
+  15f2c4:	4cdf 0c3c      	moveml %sp@+,%d2-%d5/%a2-%a3
+
+0015f2c8 <biwn_native_resource_acquire_return>:
+  15f2c8:	4e75           	rts
+
+0015f2ca <biwn_native_acquire_wait_capture>:
+  15f2ca:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  15f2ce:	2f2f 0030      	movel %sp@(48),%sp@-
+  15f2d2:	2057           	moveal %sp@,%a0
+  15f2d4:	214f 0044      	movel %sp,%a0@(68)
+  15f2d8:	2e68 003c      	moveal %a0@(60),%sp
+  15f2dc:	4fef ffe8      	lea %sp@(-24),%sp
+  15f2e0:	44e8 0042      	movew %a0@(66),%ccr
+  15f2e4:	4878 0001      	pea 1 <ACQUIRE_PRIVATE_RESERVE-0x1ff>
+  15f2e8:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  15f2ec:	4eb9 0000 df8c 	jsr df8c <ACQUIRE_PRIVATE_RESERVE+0xdd8c>
+  15f2f2:	40e7           	movew %sr,%sp@-
+  15f2f4:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  15f2f8:	41ef fe42      	lea %sp@(-446),%a0
+  15f2fc:	224f           	moveal %sp,%a1
+  15f2fe:	700e           	moveq #14,%d0
+  15f300:	20d9           	movel %a1@+,%a0@+
+  15f302:	51c8 fffc      	dbf %d0,15f300 <biwn_native_acquire_wait_capture+0x36>
+  15f306:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  15f30c:	2e68 0008      	moveal %a0@(8),%sp
+  15f310:	4fef 0004      	lea %sp@(4),%sp
+  15f314:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  15f318:	4e75           	rts
+
+0015f31a <biwn_native_acquire_signal_capture>:
+  15f31a:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  15f31e:	2f2f 0030      	movel %sp@(48),%sp@-
+  15f322:	2057           	moveal %sp@,%a0
+  15f324:	214f 0044      	movel %sp,%a0@(68)
+  15f328:	2e68 003c      	moveal %a0@(60),%sp
+  15f32c:	4fef ffe8      	lea %sp@(-24),%sp
+  15f330:	44e8 0042      	movew %a0@(66),%ccr
+  15f334:	4878 0001      	pea 1 <ACQUIRE_PRIVATE_RESERVE-0x1ff>
+  15f338:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  15f33c:	4eb9 0000 df9c 	jsr df9c <ACQUIRE_PRIVATE_RESERVE+0xdd9c>
+  15f342:	40e7           	movew %sr,%sp@-
+  15f344:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  15f348:	41ef fe42      	lea %sp@(-446),%a0
+  15f34c:	224f           	moveal %sp,%a1
+  15f34e:	700e           	moveq #14,%d0
+  15f350:	20d9           	movel %a1@+,%a0@+
+  15f352:	51c8 fffc      	dbf %d0,15f350 <biwn_native_acquire_signal_capture+0x36>
+  15f356:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  15f35c:	2e68 0008      	moveal %a0@(8),%sp
+  15f360:	4fef 0004      	lea %sp@(4),%sp
+  15f364:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  15f368:	4e75           	rts
+
+0015f36a <biwn_native_acquire_allocate_capture>:
+  15f36a:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  15f36e:	2f2f 0030      	movel %sp@(48),%sp@-
+  15f372:	2057           	moveal %sp@,%a0
+  15f374:	226f 0038      	moveal %sp@(56),%a1
+  15f378:	214f 0044      	movel %sp,%a0@(68)
+  15f37c:	2e68 003c      	moveal %a0@(60),%sp
+  15f380:	4fef ffe8      	lea %sp@(-24),%sp
+  15f384:	44e8 0042      	movew %a0@(66),%ccr
+  15f388:	2f29 0008      	movel %a1@(8),%sp@-
+  15f38c:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  15f390:	4eb9 0001 52a2 	jsr 152a2 <ACQUIRE_PRIVATE_RESERVE+0x150a2>
+  15f396:	40e7           	movew %sr,%sp@-
+  15f398:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  15f39c:	41ef fe42      	lea %sp@(-446),%a0
+  15f3a0:	224f           	moveal %sp,%a1
+  15f3a2:	700e           	moveq #14,%d0
+  15f3a4:	20d9           	movel %a1@+,%a0@+
+  15f3a6:	51c8 fffc      	dbf %d0,15f3a4 <biwn_native_acquire_allocate_capture+0x3a>
+  15f3aa:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  15f3b0:	2e68 0008      	moveal %a0@(8),%sp
+  15f3b4:	4fef 0004      	lea %sp@(4),%sp
+  15f3b8:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  15f3bc:	4e75           	rts
+
+0015f3be <biwn_native_acquire_load_capture>:
+  15f3be:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  15f3c2:	2f2f 0030      	movel %sp@(48),%sp@-
+  15f3c6:	2057           	moveal %sp@,%a0
+  15f3c8:	266f 0038      	moveal %sp@(56),%a3
+  15f3cc:	226f 003c      	moveal %sp@(60),%a1
+  15f3d0:	45e9 0008      	lea %a1@(8),%a2
+  15f3d4:	214a 0004      	movel %a2,%a0@(4)
+  15f3d8:	214f 0044      	movel %sp,%a0@(68)
+  15f3dc:	2e68 003c      	moveal %a0@(60),%sp
+  15f3e0:	4fef ffe8      	lea %sp@(-24),%sp
+  15f3e4:	44e8 0042      	movew %a0@(66),%ccr
+  15f3e8:	44fc 0000      	movew #0,%ccr
+  15f3ec:	2f0a           	movel %a2,%sp@-
+  15f3ee:	2f2b 0008      	movel %a3@(8),%sp@-
+  15f3f2:	2f29 0002      	movel %a1@(2),%sp@-
+  15f3f6:	2f2b 0004      	movel %a3@(4),%sp@-
+  15f3fa:	2f13           	movel %a3@,%sp@-
+  15f3fc:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  15f400:	4eb9 0001 b044 	jsr 1b044 <ACQUIRE_PRIVATE_RESERVE+0x1ae44>
+  15f406:	40e7           	movew %sr,%sp@-
+  15f408:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  15f40c:	41ef fe52      	lea %sp@(-430),%a0
+  15f410:	224f           	moveal %sp,%a1
+  15f412:	700e           	moveq #14,%d0
+  15f414:	20d9           	movel %a1@+,%a0@+
+  15f416:	51c8 fffc      	dbf %d0,15f414 <biwn_native_acquire_load_capture+0x56>
+  15f41a:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  15f420:	2e68 0008      	moveal %a0@(8),%sp
+  15f424:	4fef 0004      	lea %sp@(4),%sp
+  15f428:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  15f42c:	4e75           	rts

@@ -1,0 +1,87 @@
+{
+  "status": "source_derived_controller_route_not_yet_runtime_verified",
+  "points": [
+    [
+      9408,
+      41216
+    ],
+    [
+      11296,
+      41216
+    ],
+    [
+      11296,
+      41376
+    ]
+  ],
+  "source_room_route": [
+    [
+      12,
+      2
+    ],
+    [
+      12,
+      4
+    ],
+    [
+      12,
+      5
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      17,
+      3
+    ],
+    [
+      17,
+      1
+    ],
+    [
+      17,
+      2
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      19,
+      0
+    ]
+  ],
+  "gate": {
+    "tile_slot": 19,
+    "room_index": 0,
+    "direction": 0,
+    "key_nibble": 0,
+    "target": 312,
+    "room_bounds": [
+      11264,
+      41088,
+      11776,
+      41344
+    ]
+  },
+  "source_semantics": "Room edges from1039C/102C4 and direction deltas from13C9A; gate key from1048C..10498 is relative to current room minimumX, not whole tile. Gate0 direction0 requiresX11264..11327 at north boundaryZ41344.",
+  "earlier_coordinate_hypothesis_rejected": [
+    11296,
+    41024
+  ],
+  "provenance": [
+    "projects/black-ice-white-noise/restoration/biwn_geometry_cpu.c",
+    "projects/black-ice-white-noise/restoration/biwn_doorway_cpu.c",
+    "projects/black-ice-white-noise/restoration/biwn_actor_movement.c"
+  ],
+  "source_input": "verification/extended-1200-frame-runtime-current.json points to C/warm-RAM.bin exact original match",
+  "limits": [
+    "Static graph and coordinates are a route hypothesis, not reached transition proof.",
+    "Warm 25-tile window only; callbacks, HLE firmware and emulator devices remain providers.",
+    "Source actor pool40; scene312 merchant availability must be observed, not inferred from controlled earlier tests."
+  ],
+  "new_training": false,
+  "coordinator_navigation": true,
+  "local_LLM_navigation": false
+}

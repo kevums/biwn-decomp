@@ -1,0 +1,69 @@
+{
+  "status": "generated_unverified",
+  "instructions": 6,
+  "instructions_decoded": [
+    {
+      "address": 8396862,
+      "size": 6,
+      "bytes": "41f9008084a6",
+      "assembly": "lea.l $8084a6.l, a0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 8396868,
+      "size": 4,
+      "bytes": "43f83000",
+      "assembly": "lea.l $3000.w, a1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 8396872,
+      "size": 6,
+      "bytes": "45f900808e90",
+      "assembly": "lea.l $808e90.l, a2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 8396878,
+      "size": 2,
+      "bytes": "22d8",
+      "assembly": "move.l (a0)+, (a1)+",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 8396880,
+      "size": 2,
+      "bytes": "b1ca",
+      "assembly": "cmpa.l a2, a0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 8396882,
+      "size": 2,
+      "bytes": "65fa",
+      "assembly": "bcs.b $80204e",
+      "classification": "decoded_instruction"
+    }
+  ],
+  "BIOS_sha256": "646a0687a01dc6c1fffff508ca25c14b78d30bdfcfa958d4c3e20f6bf78e4f1b",
+  "source_ROM_range": [
+    "0x80203e",
+    "0x802054"
+  ],
+  "copy_ROM_interval": [
+    "0x8084a6",
+    "0x808e92"
+  ],
+  "copy_RAM_interval": [
+    "0x3000",
+    "0x39ec"
+  ],
+  "bytes_copied": 2540,
+  "nominal_end_overshoot_bytes": 2,
+  "source_sha256": {
+    "biwn_bios_resident_install_cpu.c": "fc4a80202d2e380c0a496bde6ccdfcefd0247f1ae39a5b410ca0ca185ed33369",
+    "biwn_bios_resident_install_cpu.h": "8bdbf4e8fd67b70f31cb38c2e2e6be03333276a883fc44fa71cd46568f0eef03"
+  },
+  "generator_sha256": "880f2784caa63173ccc7ee6f333cdde961656014a2f9329f0d91ac2d9024cd83",
+  "whole_game_complete": false
+}

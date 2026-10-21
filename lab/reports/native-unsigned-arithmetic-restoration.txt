@@ -1,0 +1,38 @@
+BIWN unsigned arithmetic source restoration - 2026-10-18T18:18:02.318202+00:00
+
+Two additional original arithmetic entry contracts now have native C implementations: E61C unsigned quotient/remainder and E67C remainder wrapper. The new code is coordinator-authored, not accepted local-model output:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/unsigned-division-native.c
+The shared C numerical body has no original arithmetic calls or runtime CPU decoder. The assembly captures/restores registers and executes a new DIVU-by-zero path. Stable stack arguments are an explicit ABI premise.
+
+Complete isolated evidence
+Standalone and exact relocated474byte tail each passed3592normal native-CPU cases,3592ordered public-access comparisons and512divide-by-zero cases. All43original instruction addresses were reached. Full D/A,PC,SR,USP,SSP and public RAM match, including E67C public pushes and savedE686read. Candidate-private C stack is excluded; original accesses there are rejected on normal traces. A declared inert RTE handler handles zero faults; trap CPU/savedSR and final CPU match with expected saved-fault-PC relocation. Arbitrary handlers,asynchronous stack mutation,IRQ timing and physical console remain unproved.
+A deliberate X-flag mutation failed normalcase4 with expectedSR8 versus actualSR24. This negative control was not installed.
+
+Compiled mixed build
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-unsigned-format/20261018T180619.640398Z/BIWN-23-native-unsigned-format-experimental.cdi
+Payload8956bytes; reservation9216; padding260; heapstart0x1611C0; temporary staging remains12288bytes atFB000..FE000. All prior8482payload bytes and symbols remain exact. Two new stage redirects yield27total stageJMPredirects, not a recovered-function total or decompilation percentage. OriginalCDI and defaultpreview are unchanged.
+Exact new linked pad1668native/ordered+16changing, string1945native/ordered+16changing, formatter/callers1654native/ordered with24421outer helper returns (5140pad,21string,9630unsignedquotient,9630unsignedremainder) pass. Original remainder's nested quotient is observed at the outer helper boundary because compiled C shares a C body; each direct entry is separately covered by its full matrix.
+All19 installation/component/resource gates pass on the exact8956byte payload, including96startup/5151installed key ABI cases and heap,resource,lifecycle,readiness checks. Their individual scope limits remain; this does not recover the original formatter core or whole engine.
+
+Fresh finite gameplay
+The2600frame same-input repaired Deck pair differs only in the two arithmetic redirects (11actual changedCDIbytes across12declared redirect bytes). Both share the same38declared-byte selector/count repair. Candidate observed1228calls and1228returns for each new entry,zero original unsigned body instructions,zero task-stack violations,zero tracking errors/pending calls; minimum observed headroom532/492bytes. Position/video records differ and mode differs on one frame. No frame-equivalence claim.
+Both separate raw-disc adaptive merchant/floor0/outdoor routes complete. Parent:29791frames and7324788nonzero captured samples. New:24958frames and1609492samples. Final selected player/scene fields agree, but positions/video/movie-flag intervals and PCM differ. In particular, the parent's long late movie/audio sequence does not occur in the new route. The4833fewerframes do not demonstrate speedup; same adaptive policy is not the same recorded input stream, and the cause of this content/timing divergence is not isolated by this run. Audio quality/physicalaudibility remain unverified.
+
+Local model output test
+The local27B6bit Author received all43original instruction records plus the native ABI contract in a fresh SDK context. It took152.77seconds and reached its3500token output limit while still inside the first required function. It misread the stack high-word test as a low-word test, used a32bit instead of16bit volatile read, and placed remainder-wrapper pushes in the quotient zero path. The incomplete raw candidate was rejected before compilation; it was not repaired or installed.
+Exact model prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/unsigned-division-author-20261018T180243.519415Z/prompts-and-responses.txt
+Deterministic compiler/tests are not LLM agents. No cloud subagents, training updates, accepted new model-written C or native Chat generation occurred in this source step.
+
+Rebuild the same payload from this workspace
+Working directory: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k
+make -f /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-unsigned-bundle/20261018T180402.943986Z/Makefile format-bundle BUILD=/tmp/biwn-unsigned-rebuild
+Standalone new arithmetic: make -f Makefile.unsigned-division unsigned-division BUILD=/tmp/biwn-unsigned-standalone
+The original formatter/engine, other original routines, retained emulator,HLE firmware/device providers and physical-console limitations remain. The existing status shortcut now reads this publication through the installed MCP integration. Its post-publication local Reader validation is recorded below. No default preview or weights are promoted. Full goal remains incomplete.
+
+Post-publication local status workflow
+Desktop -> Local AI Lab -> Ask BIWN Candidate Status.command successfully reads the8956byte build through actual configured MCP. A real local Reader took17.89seconds,two prediction rounds,one MCP call and returned132words. Codex accepted the raw summary unchanged against the exact publication it saw; no whole-game,frame-equivalence,speedup,physical-console or weight-training claim was added. This was SDK inference,not a new native Chat generation.
+Reader prompts/tool response/raw answer: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T181910.541993Z/prompts-and-responses.txt
+Reader review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T181910.541993Z/coordinator-review.json
+The exact publication bytes supplied to that run are archived at/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-unsigned-publication/20261018T181802.318202Z/publication-before-operator-followup.json. Only this report/operator metadata changed afterward; current_status fields and all game-core evidence remain identical,except the automatically computed publication hash.
+
+Operator orchestration note: the one-shot followup hit a Python workspace import-path error after writing its notes. The import was corrected and this verification resumed only metadata/integrity checks. No game test or model generation was restarted. The as-failed driver is retained in the publication folder.

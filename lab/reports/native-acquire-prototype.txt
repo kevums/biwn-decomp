@@ -1,0 +1,39 @@
+BIWN native27 prototype and compact follow-up — 2026-10-18T11:47:28.714379+00:00
+
+Current result: new8192byte-reservation prototype boots under the pinned emulator/HLE and completes a fresh adaptive merchant→floor2→1→0→outdoorclearance→120framehold route. It fails identical-input game/video comparison to native26, so it is NOT promoted to the default launcher. A5930byte compact candidate now fits native26's6144byte reservation, but its game/component gates are NOT RUN. Full decompilation remains incomplete.
+
+WHO DID WHAT
+Codex coordinator adapted the original/C validators to the new linked addresses, checked the exact7246byte binary, wrote the disc builder and entry zero-padding path, ran and analyzed fresh game/control tests, staged compact compiler output and reviewed local explanations. All3previous local Cdrafts remain rejected; new acquire is coordinator-authored. The local Game Assistant read actual reports through one SDK tool; it did not decompile or validate the code. No cloud subagents/new weight training/default model change occurred.
+
+RELOCATED8192RESERVATION COMPONENT CHECKS
+All eight groups kept their previous fixtures/assertions and case counts: controller1216native/1024ordered; RNG1682/298 (nonzero divisor scope); taskcreate1280/1280 including128empty-pool exceptions; scheduler1664/896; heap3392/3392; copy3260/3260 plus12large-count prefixes; free1411/1411 plus4changing-read profiles; initializer192/192. Every validator pins the identical7246byte linkedbinary. Acquire3072native/ordered, acquire+realallocator384, original-helper and source-built-dependency load/wait/wake16cases each, resource-release768pairs/9024nestedfreeC calls, and240coupled heap lifecycle call pairs pass. Known relocation payload232bytes survives real target copy/emulatedblitter.
+
+DISC AND ENTRY
+Experimental derivative: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-acquire/20261018T112230.609261Z/BIWN-23-native-acquire-experimental.cdi
+Original CDI was independently preserved at build; only declared stage patches differ (6279actual changed CDI bytes).27entrycontracts includes source assembly and C, not a game completion fraction. The mainstage copies7246linkedbytes and clears946residentpaddingbytes; this fits the existing8192temporary CD staging window. All96entry/register/CCR cases and5151keypad ABI cases pass. Resident code survives heap init/allocation/compaction; original entry state and8KBstaging cleanup are checked. This is mixed original/native, not a standalone full-source Jaguar CD reconstruction or physical console test.
+
+FRESH ADAPTIVE GAMEPLAY
+Native26 repeats its previous24972frame game rows/PCM exactly. Native27 completes29778frames; merchant and ordered2→1→0transitions, clearance and120hold are verified. Compiled acquire executes11times, with0original-body instructions.9905watched acquire-user-PC observations remain inside task stacks, with minimum262bytes above the38byte task header. This is a watched-PC bound, not a proof of every IRQ/helper path. Adaptive input schedules/route lengths and finalvideo/PCM differ. Native27 emits7324876nonzero samples vs1609464for26on these unequal routes; this is not a claim of waveform/perceptual equivalence or restored speech.
+
+IDENTICAL-INPUT RESULT
+Both profiles fresh-load/HLE with the same29783frame recorded pad schedule; actual callback masks/values agree. Native26 repeats its previous result exactly. Native27 differs in player/scene/mode/video; first video differenceframe178, mode355, playerX628. Both audio streams are silent and equal, which does not prove working audio. The prior native23-derived schedule already failed its intended outcome on parent26. This comparison is not the same test as adaptive route completion.
+
+SAME-LAYOUT CAUSAL CONTROL
+A disc control restores only the8byte acquire entry while retaining native27's8192reservation, startup code, other linked functions/addresses and same pad schedule. It executes original acquire once, with0acquireC calls. Its selected player/scene/mode/video/cumulativeaudio fields match native27 across all29783frames; GPU differs1frame. Thus disabling acquireC does not remove the game/video difference to native26 on this schedule. Combined layout/startup changes reproduce it; heap layout versus startup timing are not isolated, and this does not prove arbitrary acquire/device/IRQ correctness.
+The native control completed successfully. My first post-run classifier incorrectly required a positive release count; neither fixed27profile reached release (0==0is correct). That analysis-only check was corrected using unchanged saved emulation output; the original assertion and driver are archived.
+
+COMPACT CANDIDATE — NOT YET GAME-VERIFIED
+A separate Os build links5930bytes, with214padding in6144reserve at the original native26heapfloor0x1605C0. All-Os RNG aggregate initialization needed a small freestanding volatile byte-loop memset; its target ABI/byte output/bounds passed480cases. It is compiler support, not another recovered game routine. A hybrid Os/O2-RNG probe was6414bytes and too large; its rejected size result is retained. The5930byte candidate has no disc/game/component promotion. Os outlines acquire_nz32 into58bytes; future private-stack/watch classifiers must include its exact compiler-owned PC range. Full27component/loader/lifecycle/entry/coldgame/adaptive/fixed-input gates must be rerun. Smaller code alone does not establish timing equivalence.
+
+EASY LOCAL INFERENCE STATUS TEST
+Double-click Desktop→Local AI Lab→Ask BIWN Candidate Status.command.
+It queries the loaded local27B6bit model through one read-only SDK evidence tool; the actual launcher test returned in9.45seconds. Two earlier tool-status queries took9.88/9.58seconds and were also scope-reviewed. When the inference lock is busy it returns clearly labeled direct report data, with no competing model load/inference. This is Terminal/SDK, not nativeLMStudioChat; nativeChat display/cancellation is still unverified. No model C or weights were promoted.
+Latest exact prompts/toolmessages/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-acquire-tool-reader-20261018T114453.276735Z/prompts-and-responses.txt
+Review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-acquire-tool-reader-20261018T114453.276735Z/coordinator-review.json
+Launcher: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/Ask BIWN Candidate Status.command
+
+EVIDENCE / NEXT WORK
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-prototype-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-compact-preflight-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-compact-compiler-owners-current.json
+Native26default and both P/Opreviews were preserved; all112/84pinned preview files match. No preview was restarted. Continue compact5930byte full validation with matched6144reserve/startup work, causal layout/timing diagnosis, fullCPU/GPU/DSPengine/source-disc recovery, real device/IRQ/timing/physical scope, broader advertising quality/training and nativeChat usability. This finite prototype work does not complete the overall goal.

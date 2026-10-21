@@ -1,0 +1,11 @@
+"""Retry the terminally truncated local draft with adequate complete-source budget."""
+import fcntl,json,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));import lab
+out=ROOT/'runs/20261016T215418.342820Z-local-frame-resource-acquire';evidence=json.loads((out/'evidence.json').read_text());prior=json.loads((out/'reviewer.json').read_text());protocol=json.loads((out/'protocol.json').read_text());protocol.update(status='prior_author_and_reviewer_rejected_incomplete_output',output_failure='Both4000tokenresponses truncatedinsideJSONsource; neither accepted.');(out/'protocol.json').write_text(json.dumps(protocol,indent=2)+'\n')
+user=json.dumps(dict(instruction='Both prior responses hit4000tokens and endedinsideJSON. Return a COMPLETE compilable source inJSON(source,limitations),max6000outputtokens. Use compact C and share LOAD+FILL through a statichelper or a common labeledblock to avoid duplicated code; no lengthy comments/explanation. Preserve every173instruction data/call/fullD0 effect and contract,do not truncate or omit phases. Prior incomplete draft is evidence only,not an accepted implementation.',evidence=evidence,incomplete_prior_source=prior['text']))
+with(ROOT/'runs/.inference.lock').open('w')as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX);result=lab.generate('game',lab.COMMON+'\nComplete and audit the entire originalcaller. Output only compact completeJSONwithCsource; no unrun validationclaims.',user,6000)
+(out/'completion.json').write_text(json.dumps(result,indent=2)+'\n');parsed=lab.parse_object(result['text']);(out/'biwn_frame_resource_acquire.c').write_text(parsed['source']+'\n');protocol.update(status='complete_local_source_pending_original_checks',completion_seconds=result['seconds'],completion_quality_flags=result['quality_flags'],complete_source_role='local completion/audit after two terminally truncated drafts');(out/'protocol.json').write_text(json.dumps(protocol,indent=2)+'\n');(ROOT/'verification/local-frame-resource-acquire-author-current.json').write_text(json.dumps(protocol,indent=2)+'\n')
+with(out/'prompts-and-responses.txt').open('a')as f:f.write('COMPLETION\nREQUEST\n'+json.dumps(result['request'],indent=2)+'\nRESPONSE\n'+result['text']+'\n')
+print('Complete local source saved',result['seconds'],result['quality_flags'],flush=True)

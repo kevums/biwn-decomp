@@ -1,0 +1,68 @@
+{
+  "status": "terminal_code_evaluation",
+  "phase": "adapter",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/adapter-evaluation/20261020T172147.520061Z",
+  "dataset": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z",
+  "pid": 37016,
+  "results": [
+    {
+      "function": "resource_release",
+      "seconds": 16.39697066694498,
+      "generation_tokens": 283,
+      "finish_reason": "stop",
+      "verified": false,
+      "candidate_sha256": "94bd6b19a248c76a7b2708b1953c53f4a9a83e54bb8c1bf6e8093bc932f1f8da"
+    },
+    {
+      "function": "resource_acquire",
+      "seconds": 77.92453733296134,
+      "generation_tokens": 1395,
+      "finish_reason": "stop",
+      "verified": false,
+      "candidate_sha256": "1d82060a0f358cc6265fbc16d502b22a70580a1d9d34155b6ed815448ed990b5"
+    },
+    {
+      "function": "resource_load",
+      "seconds": 46.994312957976945,
+      "generation_tokens": 815,
+      "finish_reason": "stop",
+      "verified": false,
+      "candidate_sha256": "d292d69b6933b39ac8291c973689b6b49a10fd228e84e5d3923833ba9504d329"
+    },
+    {
+      "function": "plane_layout",
+      "seconds": 256.69835516694,
+      "generation_tokens": 5000,
+      "finish_reason": "length",
+      "verified": false,
+      "candidate_sha256": "02a499e5e32068dbf56b6a9c5807da7b665543c127ff9a4d56e7500b43aad072"
+    }
+  ],
+  "default_promoted": false,
+  "raw_model_C_unchanged": true,
+  "sampling": {
+    "temperature": 0,
+    "max_output_tokens": 5000,
+    "enable_thinking": false
+  },
+  "scope": "Adaptive development training.17train,1scheduler validation,4test tasks. Three previous resource tests retain prior exposure;new110D4test family excluded from gradients and checkpoint selection,but shares ABI primitives and project concepts. No independent general model-reliability claim. Complete examples/targets retained,8960token ceiling,no truncation.",
+  "execution_scripts_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/evaluate_game_geometry_curriculum_v4.py": "ffe7ed3d7a5caa055bb5015194dbd051690bf0e6c348053a4cf2137782b8b073",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/select_game_geometry_checkpoint_v4.py": "34ea4347301861f3548ab39b3121a5b06a7d002f9ff216a5a2518971a808c3b8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_curriculum_candidate.py": "3cdd6532c83cb7c843de6f64cb48e257bed08d4846f67be0dccc18f3e6eeb08d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_release.py": "7a71245a29f46e3c92a3fc968f5e2462304438a0e8a6d2e8e179c1e58e0376bc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_acquire.py": "c14731381cd304cba04a9c5197073dfefa77cce31f64fbe7f6bc8a6d42496b8f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_load.py": "d1666082d13728551336cb2f073fa013fa35ca13a68044b7ba06420ce1d58ee8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_plane_layout_v1.py": "51446d9c5cec7b9f62e0234f54758b66fac1c3e0c69e87c41d335ba7b28b0acd"
+  },
+  "training_job": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z",
+  "checkpoint_selection": "actual_saved_checkpoint_validation_loss_only",
+  "selected_step": 40,
+  "adapter_sha256": "f33023e67e8e7ef4badd4dd6bf1560e43893f02cf528dabe9573be2d0f097883",
+  "checkpoint_selection_file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z/checkpoint-selection.json",
+  "current_function": "plane_layout",
+  "passed": 0,
+  "total": 4,
+  "accepted_pointers_unchanged": true,
+  "daily_model_restored": true
+}

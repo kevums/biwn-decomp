@@ -1,0 +1,27 @@
+{
+  "status": "terminal_local_Coder_complete_unedited_candidate_review_pending",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z",
+  "pid": 57564,
+  "new_predictions": 1,
+  "optimizer_updates": 0,
+  "native_Chat_verified": false,
+  "held_out_benchmark": false,
+  "model_source_installed": false,
+  "model_identifier": "portable-ailab-4f5658686590-daily",
+  "seconds": 16.34,
+  "start_to_completion_seconds": 16.793,
+  "first_stream_message_seconds": 2.856,
+  "output_tokens": 334,
+  "only_outer_fence_removed": false,
+  "candidate_statement_edits": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/run_local_wide_bootstrap_author_v1.py": "e1be49722c62b987b119dd74d6934877f057c9b70f28c1275f408e4ab8f58b5c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/local_stream_inference_v2.py": "9a74221d95d65a6bbf24ba6e91e41f341d6d81f532b839c6ed38ba8356a3bc95",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z/prompt.json": "499ada631e4d6307fff599dc32b7c0d8ec399f88ff48b5c3f90a6addbc0dcede",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z/model-as-run.json": "15c1e2e8fddeb1c60dbb9806367afbb2d028f18e8b92caa77537ea701fee3c25",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z/response.txt": "83b02c387930d59837f6a5adb04a62592c5cf5303f03ae53f76725f43fe8b125",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z/candidate.py": "1b05553d06e9f41f5921e64df7dd90b1c0c32d268206e8fbe998037a04eadbd4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z/prompts-and-responses.txt": "dd9513bb3f791190207797ba53eca37909c02f584a09c8241dbf174b5b090c58",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-wide-bootstrap-author-v1/20261021T101449.916327Z/stream-events.jsonl": "af7b473316c5424832dfbff2f03f7c84c469096ef7efcf9f537cf3c8ed413673"
+  }
+}

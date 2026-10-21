@@ -1,0 +1,10 @@
+LOCAL TYPED-REGISTER AUTHOR/REPAIR — SOURCE REVIEW
+
+Daily27B6bit model,reasoning off,1800output-token budget. Exact original10968disassembly and coordinator ABI/typed primitives supplied;target function body not supplied. Primitive layer passed8320individual original68000instruction comparisons before generation.
+
+Author44.29seconds:wrong service budget used in byte loop;originalCPU gate rejected. Repair45.85seconds:uses the supplied byte budget;unmodified function passes260complete10968cases. Composition with two retained coordinator functions passes772cases/80instruction locations/173error controls in total. Of the controls,131clear-function bus failures and one clear-byte-budget limit concern the new function. Other functions remain coordinator source.
+
+Portable relative-include composition has identical preprocessed C tokens to the as-run candidate. New260case ordered callback traces and42budget boundary comparisons match the retained contract. M68000object compiles but has not been executed or put in a disc. No weights or installed preview promoted. This is exposed development work on one complete helper,not an untouched holdout or general decompilation-quality score.
+
+Exact prompts/rawresponses:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/game-decomposed-clear-v3/20261020T191156.669009Z/prompts-and-responses.txt
+Portable accepted source:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-clear-local-typed-v3/composed-helpers.c

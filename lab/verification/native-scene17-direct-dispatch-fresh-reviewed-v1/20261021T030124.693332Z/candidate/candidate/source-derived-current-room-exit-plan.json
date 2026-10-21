@@ -1,0 +1,59 @@
+{
+  "frame": 24147,
+  "plan": {
+    "status": "source_grounded_indoor_exit_plan_execution_not_performed",
+    "scene_index": 312,
+    "floor": 0,
+    "player": {
+      "X": 11294,
+      "Z": 41344
+    },
+    "region": 1,
+    "bounds": {
+      "X_min": 11008,
+      "X_max": 11648,
+      "Z_min": 41344,
+      "Z_max": 41664
+    },
+    "candidates": [
+      {
+        "direction": 1,
+        "source_key": 25,
+        "group_index": 1,
+        "flags": "0x9400",
+        "plan": {
+          "waypoints": [
+            {
+              "X": 11294,
+              "Z": 41312
+            }
+          ],
+          "position_tolerance": 8,
+          "opening_A_frames": 0,
+          "stop_scene_mode": 1
+        }
+      }
+    ],
+    "source_RAM_sha256": "4a0cd57a68f2f918d487902e925e5b0cdf2e28908564c702ef0c6fe1162e1faa",
+    "source_report": "current native-runtime RAM, read-only controller input",
+    "source_functions": [
+      "0x19FDA",
+      "0x1028E"
+    ],
+    "memory_written": false,
+    "buttons_executed": false,
+    "live_game_state": false,
+    "native_Chat_verified": false,
+    "whole_game_complete": false,
+    "scope": "Proposal from supplied current native-runtime main RAM. Computes direction/key and outer-boundary conditions from the current region only. No live navigation, game-memory writes or controller execution during this lookup."
+  },
+  "clearance": [
+    11294,
+    41280
+  ],
+  "guest_RAM_written": false,
+  "source_functions": [
+    "0x19FDA",
+    "0x1028E"
+  ]
+}

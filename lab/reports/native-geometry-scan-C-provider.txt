@@ -1,0 +1,10 @@
+BIWN — C INSTRUCTION PROVIDER FOR EXACT17812BYTE SCANNER DISC
+2026-10-19T05:58:19.418618+00:00
+
+The fixed C instruction provider regenerated/added 274 static instruction locations for the indexed selector, complete reverse scanner, redirects and startup. All 105216 one-instruction cases pass full native CPU/SR/USP/SSP/2MBRAM and pinned emulator cycle checks, using32CCR/two stack modes/IPL0and7/three operand profiles. Static instruction locations are not recovered game-function counts.
+
+Complete1039Cindexed selector:1280stable+512changing-read cases passed through C steps and RAM callbacks, exercising 89 C instruction locations. Complete102C4reverse scanner:1377stable+768changing-read cases passed, exercising 135 locations. Right lanes use no original CPU opcode execution. Full register/bank/publicRAM and ordered width/value checks include tagged pointers through24bitbus, reverse search and32768entry miss. Source-register save/private8KBstack/code/entry exclusions remain.
+
+The first scanner function run is retained as rejected: its C/native final CPU andRAM matched, while ordered WORD-read values did not. The tracer injected four bytes for a declared two-byte change. A versioned tracer now writes the exact declared width; standalone/final-linked checks additionally compare native publicRAM against traced publicRAM on each side. The corrected full scanner C-function suite passed. Game C and all disc bytes are unchanged.
+
+The bank-coherent wrapper preserves activeUSP/SSP=A7 after accepted instructions. A strict private-state/cost bridge has been compiled for the exact core. Live C CPU/GPU/DSP/IRQ comparison remains a separate job; these gates do not establish physical timing, arbitrary faults/IRQ interleavings, whole-game readable source, physical console boot or default preview promotion. All new provider, bridge and verifier work here is coordinator work; no new model predictions or weights.

@@ -1,0 +1,29 @@
+{
+  "original_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/input-source.c",
+  "original_sha256": "bbf9b65ac9614b18c3dfe95b28b0eca14e4f6c3c95c65d841e789a24e8ff839f",
+  "changes": [
+    {
+      "before": "R16(0x45d9au+sx(actor)*10u+sx(slot)*2u,id);params[0]=id;CALL(0x1b002u,params,1);",
+      "after": "d0=sx(slot)*2u;R16(0x45d9au+sx(actor)*10u+d0,id);params[0]=id;CALL(0x1b002u,params,1);",
+      "occurrences": 2
+    },
+    {
+      "before": "R16(0x45d9au+sx(actor)*10u,id);params[0]=id;CALL(0x1af04u,params,1);",
+      "after": "d0=sx(actor)*10u;R16(0x45d9au+d0,id);params[0]=id;CALL(0x1af04u,params,1);",
+      "occurrences": 1
+    },
+    {
+      "before": "R16(0x49c4cu,actor);R16(0x45d9au+sx(actor)*10u+sx(slot)*2u,id);",
+      "after": "R16(0x49c4cu,actor);d0=sx(slot)*2u;R16(0x45d9au+sx(actor)*10u+d0,id);",
+      "occurrences": 1
+    },
+    {
+      "before": "params[0]=bytes*2u+16u;CALL(0x152a2u,params,1);",
+      "after": "d0=bytes*2u;params[0]=d0+16u;CALL(0x152a2u,params,1);",
+      "occurrences": 2
+    }
+  ],
+  "purpose": "Preserve original D0 at equipment helper boundaries1951E/1953A/19568and195D4/1960E/1963C. No public memory access order or logical stack-argument changes.",
+  "original_instructions_reference": "biwn_input_dispatch_cpu.c:1950C..19568,195C2..1963C;observed original instruction-boundary D0 values in native-input-all-states-v2 proof.",
+  "authorship": "Coordinator register-bookkeeping correction;not local-model output."
+}

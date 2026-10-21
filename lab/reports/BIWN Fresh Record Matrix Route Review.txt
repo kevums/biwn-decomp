@@ -1,0 +1,15 @@
+BIWN — fresh record-matrix path
+
+The existing v34 experimental image reached indoor scene268 using ordinary movement controls from a fresh HLE CD boot. Candidate22536frames:190native matrix entries/returns,12705native scene returns,12700record returns,22566copy returns. Same-layout control22363frames:266original-record matrix entries/returns. All qualified observers end clear and quiescent. No checkpoint restore,host guestRAM writes or CPU/task seeds. Read-only matrix watcher qualification:1152synthetic controls and128actual original/native CPU lanes.
+
+Both lanes consumed the same archived indoor waypoint JSON and finish with identical video,playerXZ,scene,floor and heading. Adaptive controller schedules differ on1247pairedframes;game-latched buttons differ on1230;video differs on21803. Final render-batch region is3candidate/4control although playerregion is4in both. This is not cycle/fullRAM/whole-game fidelity. Control restores only10original scene-entry bytes;global native copy/matrix/wait providers remain. Actual descriptor angle byte is0;raw catalogue last word4 is not treated as angle. One static114path does not cover every model/angle.
+
+Scene Cstack168/208bytes. The outer task was not exercised:outer-active heap and outer stack are unmeasured,notFFFFFFFFfree bytes. Final free-heap word is21056each,a final sample,not a minimum. The older standard route remains25012/24966frames,5774native scene returns,4777record/display,8567copy and zero record-matrix;its14320sampled outer-active heap belongs to that route alone.
+
+The first scene784 controller attempt used inconsistent movement thresholds and was intentionally stopped;the corrected route reaches784 and instantiates static116inregion13 but remains inregion0 with no matrix calls. Both attempts and the reviewer correction from assumed angle4 to measured0 are retained. No failing attempt was relabeled as passing.
+
+Existing v34 source and watcher/controller are coordinator work with prior linked hybrid attribution retained. No new local predictions or weight updates. Local v35block remains a separately verified component,not installed in the disc. The Desktop checkpoint preview is unchanged. Full source-only same-console rebuilding,broad video/audio/IRQ/console fidelity,useful training quality and copied-weight native Chat remain open.
+
+Review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-matrix-268-fresh-reviewed-v1/20261021T064704.229403Z
+
+Measure the current v34 identical-input prefix and investigate intermediate video/input timing and silent audio; continue remaining readable CPU/GPU/DSP/HLE recovery and same-console source-only rebuilding. Preserve qualified v34 and separate unpromoted v35 local component. Useful untouched-task training and copied-weight LM Studio Chat usability remain open.

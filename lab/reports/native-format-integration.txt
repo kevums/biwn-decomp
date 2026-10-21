@@ -1,0 +1,47 @@
+BIWN formatting helpers — experimental disc integration
+
+A separate derived CDI now contains both recovered formatting helpers. The linked payload is 8,742 bytes in an explicit 9,216-byte reservation, leaving 474 padding bytes. The heap begins at 0x1611C0. A 12 KB zero-filled staging window at 0xFB000–0xFE000 is consumed and cleared during startup before original entry 0x400A. This replaces neither the native26 default nor the existing P/O previews.
+
+Experimental image:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-format/20261018T151538.456820Z/BIWN-23-native-format-experimental.cdi
+
+The original CDI is unchanged. The builder checked every changed CDI byte against declared patch intervals, preserving all other bytes and track metadata. This is a mixed original/native rebuild: the original engine, other unrecovered code and emulator/firmware/device providers remain. It is not a full-source rebuild or physical Jaguar result.
+
+What is checked
+
+The original full formatter and format core called the exact linked native helpers in 1,654 complete cases: 1,024 actual overlay formats, 20 string formats, 122 format-core cases and 488 general formats. The checks include original unsigned arithmetic routines, without substituted formatter effects or helper stubs. All 5,161 helper returns matched native CPU state, original public saves and live caller stack: 5,140 padding calls and 21 string calls. Complete-call CPU/RAM and ordered public-access comparisons passed.
+
+Per-call private C stack areas are excluded from final RAM comparisons. Every helper's public saves and caller-live stack are compared at its return, so later reuse of dead stack bytes does not hide a live-frame mismatch. The ordered comparison rejects original-helper accesses that would alias the proposed private C frame. This scope does not include arbitrary stack/code aliases, IRQ/fault/cycle equivalence or physical hardware behavior.
+
+The complete standalone fixture sets were then rerun on this exact linked payload and its actual entry symbols:
+- Padding: 1,668 native CPU/RAM cases, 1,668 stable ordered cases plus 16 changing-read cases; 27/27 instructions.
+- String: 1,945 native CPU/RAM cases, 1,945 stable ordered cases plus 16 changing-read cases; 36/36 instructions.
+
+The disc-delivered entry passed 96 register/CCR startup cases, preserving the original entry state while copying the payload and clearing staging. The installed keypad entry passed 5,151 ABI cases. Heap initialization, two allocations and compaction preserved the reserved payload and used the new heap boundary. These are scoped checks; the full affected allocator/resource/task/RNG/loader component matrices have not all been rerun for this new linked layout.
+
+Fresh gameplay comparison
+
+Both the candidate and a same-layout control completed 1,600 fresh HLE-boot frames with identical ordinary controller windows. The control differs only by restoring the two six-byte formatting redirects. It retains the same new payload, heap reservation, startup and other rebuilt helpers. The observer is read-only and returns zero, leaving actual instruction execution to the retained CPU. There are no checkpoint restores or ad hoc guest state mutations by this test; the shared emulator's HLE/firmware/device services remain.
+
+The candidate executed the compiled padding entry 71 times and no old padding-body instructions. The control executed the old padding body and no compiled formatting entry. Neither lane called the string helper in this interval; string live-frame coverage remains missing despite the caller and component proofs above.
+
+Both final RAM images show heap floor 0x1611C0 and the complete resident payload unchanged. Observer errors and payload-copy errors are zero. The final player position is the same, but the frame sequences are not equivalent:
+- X differs on 42 frames, first at frame 812.
+- Z differs on 76 frames, first at frame 745.
+- Video hashes differ on 192 frames, first at frame 210.
+- Scene, player mode and floor match for all 1,600 frames.
+PCM files match; both runs remain silent in this interval. The experiment does not resolve whether the differences come from timing/IRQ interactions or other semantic effects. No default promotion follows from equal final position.
+
+The first classification stopped on a stale observer assertion, not a child-process failure: the legacy observer watched original address 0x155C0, which relocated heap initialization does not reach. Both child processes had exited successfully. The original driver and failed classification are retained. Reanalysis checked each saved RAM image against its report hash and read the actual heap/payload from RAM, without rerunning either child.
+
+Authorship, inference and visibility
+
+Codex coordinator wrote the separate linker/staging/CDI builder, caller checks, exact-linked fixture adapter and read-only fresh comparison. The padding body is the previously checked coordinator C reference; the string body is the previously checked deterministic typed-instruction lifter output. The earlier rejected local Author C remains rejected. No weights were changed, and no cloud subagents were launched. Parallel validators are test processes, not LLM agents.
+
+The existing string-recovery MCP response now distinguishes default integration from the existence of this separate experimental disc. An actual MCP call verified its source certificate and updated metadata; it still accurately reports reuse of the standalone CPU receipt rather than fresh CPU tests for that request.
+
+LM Studio's native interface became accessible to inspection during this work. It displays the loaded advertising-scholar model and confirmations that both scoped BIWN MCP servers were added. A new empty native chat was prepared with explicit recovery instructions and a request to call the string tools. The prior team-generator selection was removed from that test chat. Integration selection produced elementHasNoFrame and stale-element errors, and keyboard navigation showed no confirmed change. The recovery request has not been submitted, and native tool generation has not been verified. The native saved-preset selection was also not verified; no preset file was deliberately overwritten by this UI test. Do not describe interface inspection or an unsent draft as a completed native Chat workflow.
+
+Next work
+
+Revalidate the affected linked component matrices and lifecycles at the new floor. Exercise string formatting naturally through longer gameplay, Deck/mail and other real callers, with task-stack/IRQ observation. Investigate the matched-layout frame differences before changing a default preview. Continue recovery of the rest of the formatter and broader game; a count of rebuilt contracts is not game-completion percentage. Native Chat end-to-end operation, broader advertising scientific reliability/training improvements and the future 256 GB machine remain part of the active goal.

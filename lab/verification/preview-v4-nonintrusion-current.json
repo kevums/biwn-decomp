@@ -1,0 +1,70 @@
+{
+  "status": "terminal_six_caller_preview_2400frame_observer_nonintrusion_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/preview-v4-nonintrusion/20261020T152000.581281Z",
+  "frames": 2400,
+  "compared": [
+    "frame",
+    "CPU",
+    "CPU_full",
+    "RAM_sha256",
+    "video_sha256",
+    "GPU_sha256",
+    "DSP_sha256",
+    "scene",
+    "mode",
+    "movie_flags",
+    "pressed_buttons"
+  ],
+  "runs": {
+    "observed": "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152000.851618Z",
+    "unobserved": "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152015.781306Z"
+  },
+  "native_returns": {
+    "coordinate": 50,
+    "input": 50,
+    "face": 1,
+    "scan": 25,
+    "geometry": 24,
+    "outer": 1
+  },
+  "original_Deck_body_steps": {
+    "coordinate": 0,
+    "input": 0,
+    "face": 0,
+    "scan": 0,
+    "geometry": 0,
+    "outer": 0
+  },
+  "GPU_returns": [
+    1569,
+    0,
+    0,
+    1593,
+    1593,
+    4864,
+    194,
+    317
+  ],
+  "final_serialized_state_equal": true,
+  "all_GPU_Deck_guards_pass": true,
+  "immutable_native_code_unchanged": true,
+  "observer_claims_execution": false,
+  "keyboard_window_verified": false,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_preview_v4_nonintrusion.py": "01897e81f0cf5feb9ea0ba75eccfe08aafdf0fa7270de8762cc7971d369db96a",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/scripts/run_biwn_native_keyboard_v4.py": "0254d9d5f57d71d2195c75d95a77e7453b45bd5818953df70227863645b5020e",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/artifacts/pad-input-fixture.json": "791b2d92661769945034a027708ea296171d4983866d23da9ab1ab3ce2439736",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/scripts/native_preview_observer_v4.c": "d3de260a0c2e4eafd5bad17f25330d2df6598f5b080794c8aa678f7d7343a237",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/manifest.json": "8976c6081c00539c66c3120bca1459400406f742644f7004a110950ac565c085",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/preview-v4-nonintrusion/20261020T152000.581281Z/observed.json": "698114ecc3c667e113c93bb3211f7e115ee5f4cbca08f95ee31dca9a1f3fb688",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152000.851618Z/frames.json": "575c4082972e9eb2d2036a28633853059fbc12bc7fc46c1c489c11fac60384c5",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152000.851618Z/final-state.bin": "1ab1b6bde9bf8240d500539e4c4e2c9b9d076ba51a0038faefd5c2a93188a9be",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152000.851618Z/final-RAM.bin": "3549629c5d9fe225ad478add50b12379a0c8f5d91e356f5d6756d7dff5e838d9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/preview-v4-nonintrusion/20261020T152000.581281Z/unobserved.json": "f6c75c7c1aba89b7328ee3a98eb312fd89e7c6741e786a2a03aef75b2c953357",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152015.781306Z/frames.json": "580e9f74e9ab8962ebfe048627cffb3b67760abf7b4fc9f432eb315999e91998",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152015.781306Z/final-state.bin": "1ab1b6bde9bf8240d500539e4c4e2c9b9d076ba51a0038faefd5c2a93188a9be",
+    "/Users/kevin/.lmstudio/local-ai-lab/native-preview-v4/runs/native-keyboard-v4-20261020T152015.781306Z/final-RAM.bin": "3549629c5d9fe225ad478add50b12379a0c8f5d91e356f5d6756d7dff5e838d9"
+  },
+  "scope": "Finite full-state replay with and without six-caller preview counters."
+}

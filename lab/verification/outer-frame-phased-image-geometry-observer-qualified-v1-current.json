@@ -1,0 +1,15 @@
+{
+  "status": "terminal_outer_watcher_two_legal_eighteen_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-frame-phased-image-geometry-observer-qualification-v1/20261021T122531.177381Z",
+  "legal_controls": 2,
+  "rejected_fault_controls": 18,
+  "game_execution": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_outer_observer_v1.py": "e1cc9f4f8a1d334554376bb773b4373fc9cb85c8ce6e687e69183d9ff9f3ffec",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-geometry-observer-qualification-v2/20261021T122529.774347Z/observer.c": "17da49b1180a1acc0ac50ea22658dd356572b5ed7568326a2b8ff72992f121dc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-frame-phased-image-geometry-observer-qualification-v1/20261021T122531.177381Z/fixture.c": "b8cd3aa8dc4195133fe9da5b3bbc6b53b65310285e2d9ee02b2e5f5594761da5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-frame-phased-image-geometry-observer-qualification-v1/20261021T122531.177381Z/fixture.dylib": "d2194e54daf9c0c4e79a288e82d3bbfee566714ed09779e2c87d0890414c9d99",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-frame-phased-image-geometry-observer-qualification-v1/20261021T122531.177381Z/cases.json": "b0ec56b62c49152bb07497f06a91b411aaf140a750e0df522f48dbf9293fd433"
+  },
+  "scope": "Synthetic fault controls for the exact outer watcher and completion gate. Exact extracted watcher. Stubs supply CPU and RAM. Does not qualify all retained monitors, real scheduler behavior, timing, game correctness or observer nonintrusion."
+}

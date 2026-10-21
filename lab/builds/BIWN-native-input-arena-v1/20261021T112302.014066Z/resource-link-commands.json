@@ -1,0 +1,27 @@
+[
+  [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/m68k-elf/bin/m68k-elf-as",
+    "-m68000",
+    "-o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resource-build/native.o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1/native-acquire.S"
+  ],
+  [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/m68k-elf/bin/m68k-elf-ld",
+    "--defsym=NATIVE_ADDRESS=0x17f078",
+    "--defsym=GPU_ARENA_BASE=0x1675c0",
+    "--defsym=ACQUIRE_BODY=0x160434",
+    "-T",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1/native.ld",
+    "-o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resource-build/native.elf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resource-build/native.o"
+  ],
+  [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/m68k-elf/bin/m68k-elf-objcopy",
+    "-O",
+    "binary",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resource-build/native.elf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-arena-v1/20261021T112302.014066Z/resource-build/native.bin"
+  ]
+]

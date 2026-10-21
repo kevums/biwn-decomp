@@ -1,0 +1,54 @@
+{
+  "functions": 198,
+  "decompiled": 191,
+  "failed_functions": [
+    {
+      "address": "000101e0",
+      "name": "FUN_000101e0",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    },
+    {
+      "address": "00011762",
+      "name": "FUN_00011762",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    },
+    {
+      "address": "000134dc",
+      "name": "FUN_000134dc",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    },
+    {
+      "address": "000137e0",
+      "name": "FUN_000137e0",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    },
+    {
+      "address": "0001b160",
+      "name": "FUN_0001b160",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    },
+    {
+      "address": "0001b212",
+      "name": "FUN_0001b212",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    },
+    {
+      "address": "000227a0",
+      "name": "FUN_000227a0",
+      "decompiled": false,
+      "error": "\nLow-level Error: Cannot properly adjust input varnodes"
+    }
+  ],
+  "instructions": 15372,
+  "byte_boundary_agreements": 15372,
+  "issues": [],
+  "warnings_in_C": 114,
+  "halt_baddata_occurrences": 2,
+  "scope": "Comparing recorded instruction bytes and boundaries only; mnemonic semantics, inferred code/data boundaries, function identification, C types/ABI and runtime behavior are not verified."
+}

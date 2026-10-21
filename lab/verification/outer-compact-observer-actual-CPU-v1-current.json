@@ -1,0 +1,21 @@
+{
+  "status": "terminal_exact_debug_observer_actual_combined_CPU_contracts_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-observer-actual-CPU-v1/20261021T040414.369571Z",
+  "CPU_lanes": 64,
+  "geometry_calls": 8,
+  "active_debug_calls": 6,
+  "original_and_native_dependency_calls": 96,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_outer_compact_geometry_observer_actual_cpu_v1.py": "b47bbe214d29c70e7760af29eb78f6c1bbca5bcdabcd123c81ead2d81dc66570",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_outer_compact_v1.py": "e070ffdac2d9f820ce53720216ce9ef0b3ce7b17bf00b954ec81fc72e6329d26",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualified-v1-current.json": "1de0356202781b86242b352a9beb6cf463b192752a23b2a13f15008d6886d34b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/fixture.c": "e74114c397dc55db6cb8f37289021fa4666e2bcb371a54d3398d894cac331b87",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-observer-actual-CPU-v1/20261021T040414.369571Z/fixture.c": "4edb1328fb0ba294cc7f4a7eb1f782fd245eb4e9f159f224c61b67e647d5dbd4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-observer-actual-CPU-v1/20261021T040414.369571Z/fixture.dylib": "ca30d82a20984490351b8f2a633d9ae7b5a4056a7c0b70ed042eb494f223fac1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-observer-actual-CPU-v1/20261021T040414.369571Z/cases.json": "bdff1c9ab749f7f4ab60e4c3574af82011dad975bc341a2ea645e8824ceeb92f"
+  },
+  "scope": "Read-only exact geometry monitor over combined original/native CPU execution.\nRAM and register snapshots are copied into a separate host observer fixture.\nOriginal outer/caller/helper bodies execute; GPU/formatter/text effects remain\nexplicit component fixtures. This is not fresh gameplay or an IRQ test.\n"
+}

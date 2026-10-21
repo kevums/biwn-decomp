@@ -1,0 +1,36 @@
+```c
+static void scene_clear_body(struct biwn_deck_context *s)
+{
+    if (s->error != 0) {
+        return;
+    }
+
+    SCENE_CLEAR_BEGIN(s);
+
+    uint32_t saved_d0 = s->cpu.registers[0];
+    deck_push(s, saved_d0);
+
+    scene_clear_wait(s);
+
+    uint32_t arg_c = deck_read(s, s->cpu.registers[15] + 0xCu, 4);
+    s->cpu.registers[0] = arg_c;
+
+    scene_clear_write(s, 0xF02268u, arg_c);
+    scene_clear_write(s, 0xF0226Cu, arg_c);
+
+    uint32_t arg_8 = deck_read(s, s->cpu.registers[15] + 0x8u, 4);
+    scene_clear_write(s, 0xF02200u, arg_8);
+
+    scene_clear_write(s, 0xF02204u, 0x3E20u);
+    scene_clear_write(s, 0xF0220Cu, 0x0u);
+    scene_clear_write(s, 0xF02210u, 0x1FF20u);
+    scene_clear_write(s, 0xF0223Cu, 0xB400E0u);
+    scene_clear_write(s, 0xF02238u, 0x10200u);
+
+    s->cpu.registers[0] = deck_pop(s);
+
+    s->cpu.pc = 0xE096u;
+
+    SCENE_CLEAR_END(s);
+}
+```

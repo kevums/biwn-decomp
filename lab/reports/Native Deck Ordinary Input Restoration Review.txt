@@ -1,0 +1,35 @@
+BIWN NATIVE DECK — FRESH ORDINARY INPUT NOW REACHES RECOVERED CODE
+
+Full goal remains active. This is an experimental restoration milestone, not a whole-game decompilation or physical-console claim.
+
+RESULT
+The separate repaired native CDI freshly boots under the retained HLE/emulator profile, follows the existing outdoor route, accepts keypad1/B+C, enters and renders Deck, accepts0, exits and returns to normal outdoor play. The25024frame run contains140native coordinate entries and140native returns, with zero original coordinate-body instructions and no invalid native task identities. All eight native GPU wrapper roots execute; GPU4720 returns974times. All reported observer error, pending-call and task-stack-outside fields are zero. Resource acquisitions all return. The101Deck-arena guards pass; only task slot6uses its private Deck arena. Immutable native code is unchanged. No snapshot restore or supplied CPU/task/RAM/GPU state is used in this fresh run.
+
+The first24624frames before the new input phase match the unrepaired candidate in every recorded field except fullRAM and stage hashes, which include the static repair bytes. CPU/GPU/DSP PCs, fullCPU registers/banks/SR, navigation, positions and video hashes all match. This does not claim wholeRAM/timing/physical equivalence after a behavior-changing repair.
+
+CAUSE AND REPAIR
+The earlier final snapshot caught a transfer in flight, not a permanently stalled DMA. Exact restoration and120retained frames reveal four new read arms with identical request signatures: the loader repeatedly transfers, fails to find its marker and retries. The old mode3 group1marker lies8624bytes behind the requested normalized stream. Prior original/source real-disc evidence already recorded the same unresolved mode3 group.
+
+Preserved marker offsets20719506,20826066 and20932626 differ by106560bytes, exactly64markerbytes plus13*8192framebytes. The original mode3 count table and constructor use16. This run applies the existing selector13 restoration repair to the current native image: table464A6 becomes13 and the36byte constructor window at10AC2 multiplies by13 while preserving public acquisition/return behavior. The two sites span38bytes;37actual CDI bytes differ. The separate experimental image preserves the previous image and original CDI. The retained native loader already contains the earlier word-scan repair.
+
+Coordinator-written68000 assembly and linker placement rebuild the38bytes exactly and match the installed stage. An original pinned CPU versus accepted portable-source matrix now passes all9real-disc cold loads and9cache reuses with the repaired count; both formerly unresolved mode3 groups pass. Those component tests retain BIOS/disc-completion adapters and do not replace the separate fresh ordinary-input proof.
+
+WHAT IS STILL PARTIAL
+Only coordinate root11D1A of the six recovered Deck callers is native-installed; five remain hosted-only. The44,430byte native code footprint is unchanged, including the9,548byte coordinate module and98byte finalizer. This image changes original behavior and retains original code and HLE/emulator/device providers. Full readable game/same-console source rebuild, actual helper suspension/reentrancy/IRQ coverage, audio/audibility and physical-console validation remain unfinished. The default Python source-game preview is unchanged; this CDI is a separate experimental artifact.
+
+LOCAL MODEL TEST AND TRAINING
+Codex traced the machine state, applied the pre-existing restoration repair to the native image, wrote its source assembly, and ran/reviewed the compiler/emulator/disc checks. Local Restorer inferred13but proposed a shift by3, which multiplies by8, and violated the requested schema. Its sole repair returned12while proposing multiply13. Both actual outputs are rejected and preserved; no local source proposal was adopted. The accepted repair is coordinator-authored/source-assembled.
+
+Two source-bound SFT examples from this exposed case family are prepared, with both failures and proof provenance. They are not held-out evaluation and no optimizer update or new weights were produced. A separate actual local Reader correctly reports140ordinary calls/returns,8GPUroots and the behavior-changing13-frame repair in5.94seconds; time to first fragment0.98seconds. Three local predictions occurred this continuation. This is a checked supplied-facts case, not general model reliability.
+
+The one-click Live Local BIWN Briefing.command and main menu11now use this current result. Actual backend contexts for game/control/copyediting routes pass. Native Chat display remains unverified. Model Prompts and Responses.command indexes116saved prompt/transcript records; those records are not a prediction count.
+
+Advertising remains on the daily27Bbase and optional previously trained Reviewer configuration. Its prior70word full-team chronology/causal improvement and remaining citation-granularity gap are retained; no new Advertising prediction or training this continuation. Current migration/future256GBhardware acceptance remains incomplete; prior passed portable package is retained.
+
+NEXT
+Extend the remaining five Deck callers to native source components and test real helper suspension/reentrancy/IRQ. Prepare a separately verified native keyboard-preview launcher and complete native Chat/current-package acceptance. Use disjoint held-out source families before evaluating any new training; never promote these two rejected source proposals.
+
+Experimental CDI:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-asset-repair-v1/20261020T052539.928986Z/BIWN-23-native-Deck-asset-repair-v1-experimental.cdi
+Reviewed gameplay:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-asset-repair-review/20261020T053102.707781Z
+Exact current prompt index:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/model-work-index/20261020T053553.828217Z/prompts-and-responses.txt
+Publication:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-asset-repair-delivery/20261020T053553.902495Z

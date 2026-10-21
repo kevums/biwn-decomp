@@ -1,0 +1,79 @@
+{
+  "fields": {
+    "video_sha256": {
+      "count": 8481,
+      "first_frame": 551,
+      "last_frame": 24822,
+      "final_equal": true
+    },
+    "held_buttons": {
+      "count": 460,
+      "first_frame": 634,
+      "last_frame": 24831,
+      "final_equal": true
+    },
+    "raw_player_X": {
+      "count": 5229,
+      "first_frame": 642,
+      "last_frame": 8586,
+      "final_equal": true
+    },
+    "raw_player_Z": {
+      "count": 3931,
+      "first_frame": 644,
+      "last_frame": 24464,
+      "final_equal": true
+    },
+    "scene_word": {
+      "count": 75,
+      "first_frame": 8583,
+      "last_frame": 23907,
+      "final_equal": true
+    },
+    "player_mode_word": {
+      "count": 152,
+      "first_frame": 8583,
+      "last_frame": 24330,
+      "final_equal": true
+    },
+    "tile_word": {
+      "count": 1,
+      "first_frame": 8198,
+      "last_frame": 8198,
+      "final_equal": true
+    },
+    "floor_word": {
+      "count": 61,
+      "first_frame": 8913,
+      "last_frame": 23907,
+      "final_equal": true
+    },
+    "locomotion_state": {
+      "count": 206,
+      "first_frame": 638,
+      "last_frame": 24466,
+      "final_equal": true
+    }
+  },
+  "frames": {
+    "candidate": 25001,
+    "control": 24969
+  },
+  "audio": {
+    "candidate": {
+      "frames": 20000800,
+      "nonzero_samples": 0
+    },
+    "control": {
+      "frames": 19975200,
+      "nonzero_samples": 0
+    }
+  },
+  "final_video_equal": true,
+  "final_selected_fields_equal": true,
+  "identical_frontend_inputs": false,
+  "same_feedback_policy": true,
+  "global_GPU_native_redirects_inherited_in_both": true,
+  "original_pinned_GPU_wait_equivalence_is_not_inherited_restoration_wait_equivalence": true,
+  "scope": "Control restores only ten original scene-entry bytes. Both retain inherited global native GPU wrappers. Candidate scene bypasses the inherited pending-command guard with its pinned-original idle-only wait. Changed feedback inputs, code layout and restoration behavior prevent attributing differences to a single speed or logic cause. No fixed-input v30 prefix was run in this review."
+}

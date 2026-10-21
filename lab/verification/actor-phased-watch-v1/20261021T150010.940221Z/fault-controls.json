@@ -1,0 +1,114 @@
+[
+  {
+    "fault": "callee_D2",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "fault": "public_AI",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "fault": "return_word",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "fault": "helper_argument",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "fault": "return_D0",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "public_AD",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "fault": "outside_task",
+    "rejected": true,
+    "decoded_or_mirror_fault_only": true,
+    "stats": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ]
+  }
+]

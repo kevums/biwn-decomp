@@ -1,0 +1,4 @@
+NEXT NATIVE BIWN SOURCE PACKET — NO NEW COMPONENT
+Original entry0x1AF04,254bytes,71anchored68000instructions, four direct calls. Full original byte/disassembly packet: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-acquire-preflight/20261018T102226.814271Z
+The isolated word at0x1AF90 is an indexed extension belonging to TST.W at0x1AF8E, not a standalone instruction.
+Public original prologue saves24bytes; ID is a word at entrySP+4. Wait/allocate/load/signal helper captures and continuation/flag/ordered-access tests are still needed. Native26resident has5986linked bytes in6144reservation;158padding. Measure new compiled size before changing layout. No new C, model Author, native tests, disc or entry count is claimed.

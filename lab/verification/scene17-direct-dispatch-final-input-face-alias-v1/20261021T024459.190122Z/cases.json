@@ -1,0 +1,6146 @@
+[
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 0,
+    "CCR": 0,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 1,
+    "CCR": 1,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 2,
+    "CCR": 2,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 3,
+    "CCR": 3,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 4,
+    "CCR": 4,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 5,
+    "CCR": 5,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 6,
+    "CCR": 6,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 7,
+    "CCR": 7,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 8,
+    "CCR": 8,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 9,
+    "CCR": 9,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 10,
+    "CCR": 10,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 11,
+    "CCR": 11,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 12,
+    "CCR": 12,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 13,
+    "CCR": 13,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 14,
+    "CCR": 14,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 15,
+    "CCR": 15,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 16,
+    "CCR": 16,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 17,
+    "CCR": 17,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 18,
+    "CCR": 18,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 19,
+    "CCR": 19,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 20,
+    "CCR": 20,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 21,
+    "CCR": 21,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 22,
+    "CCR": 22,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 23,
+    "CCR": 23,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 24,
+    "CCR": 24,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 25,
+    "CCR": 25,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 26,
+    "CCR": 26,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 27,
+    "CCR": 27,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 28,
+    "CCR": 28,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 29,
+    "CCR": 29,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 30,
+    "CCR": 30,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 31,
+    "CCR": 31,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3043,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 32,
+    "CCR": 0,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 33,
+    "CCR": 1,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 34,
+    "CCR": 2,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 35,
+    "CCR": 3,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 36,
+    "CCR": 4,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 37,
+    "CCR": 5,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 38,
+    "CCR": 6,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 39,
+    "CCR": 7,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 40,
+    "CCR": 8,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 41,
+    "CCR": 9,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 42,
+    "CCR": 10,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 43,
+    "CCR": 11,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 44,
+    "CCR": 12,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 45,
+    "CCR": 13,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 46,
+    "CCR": 14,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 47,
+    "CCR": 15,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 48,
+    "CCR": 16,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 49,
+    "CCR": 17,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 50,
+    "CCR": 18,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 51,
+    "CCR": 19,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 52,
+    "CCR": 20,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 53,
+    "CCR": 21,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 54,
+    "CCR": 22,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 55,
+    "CCR": 23,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 56,
+    "CCR": 24,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 57,
+    "CCR": 25,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 58,
+    "CCR": 26,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 59,
+    "CCR": 27,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 60,
+    "CCR": 28,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 61,
+    "CCR": 29,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 62,
+    "CCR": 30,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "input",
+    "case": 63,
+    "CCR": 31,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2996,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "input": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 0,
+    "CCR": 0,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3079,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 1,
+    "CCR": 1,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 2,
+    "CCR": 2,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 3,
+    "CCR": 3,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 4,
+    "CCR": 4,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 5,
+    "CCR": 5,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 6,
+    "CCR": 6,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 7,
+    "CCR": 7,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 8,
+    "CCR": 8,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 9,
+    "CCR": 9,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 10,
+    "CCR": 10,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 11,
+    "CCR": 11,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 12,
+    "CCR": 12,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 13,
+    "CCR": 13,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 14,
+    "CCR": 14,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 15,
+    "CCR": 15,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 16,
+    "CCR": 16,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 17,
+    "CCR": 17,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 18,
+    "CCR": 18,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 19,
+    "CCR": 19,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 20,
+    "CCR": 20,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 21,
+    "CCR": 21,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 22,
+    "CCR": 22,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 23,
+    "CCR": 23,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 24,
+    "CCR": 24,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 25,
+    "CCR": 25,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 26,
+    "CCR": 26,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 27,
+    "CCR": 27,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 28,
+    "CCR": 28,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 29,
+    "CCR": 29,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 30,
+    "CCR": 30,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 31,
+    "CCR": 31,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3083,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 32,
+    "CCR": 0,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 33,
+    "CCR": 1,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 34,
+    "CCR": 2,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3032,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 35,
+    "CCR": 3,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 36,
+    "CCR": 4,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 37,
+    "CCR": 5,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 38,
+    "CCR": 6,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 39,
+    "CCR": 7,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 40,
+    "CCR": 8,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 41,
+    "CCR": 9,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 42,
+    "CCR": 10,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 43,
+    "CCR": 11,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 44,
+    "CCR": 12,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 45,
+    "CCR": 13,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 46,
+    "CCR": 14,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 47,
+    "CCR": 15,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 48,
+    "CCR": 16,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 49,
+    "CCR": 17,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 50,
+    "CCR": 18,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 51,
+    "CCR": 19,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 52,
+    "CCR": 20,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 53,
+    "CCR": 21,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 54,
+    "CCR": 22,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 55,
+    "CCR": 23,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 56,
+    "CCR": 24,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 57,
+    "CCR": 25,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 58,
+    "CCR": 26,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 59,
+    "CCR": 27,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 60,
+    "CCR": 28,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 61,
+    "CCR": 29,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 62,
+    "CCR": 30,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "scene",
+    "inner": "face",
+    "case": 63,
+    "CCR": 31,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 3036,
+    "native_counts": {
+      "scene": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "face": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 0,
+    "CCR": 0,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 1,
+    "CCR": 1,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 2,
+    "CCR": 2,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 3,
+    "CCR": 3,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 4,
+    "CCR": 4,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 5,
+    "CCR": 5,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 6,
+    "CCR": 6,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 7,
+    "CCR": 7,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 8,
+    "CCR": 8,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 9,
+    "CCR": 9,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 10,
+    "CCR": 10,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 11,
+    "CCR": 11,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 12,
+    "CCR": 12,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 13,
+    "CCR": 13,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 14,
+    "CCR": 14,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 15,
+    "CCR": 15,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 16,
+    "CCR": 16,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 17,
+    "CCR": 17,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 18,
+    "CCR": 18,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 19,
+    "CCR": 19,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 20,
+    "CCR": 20,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 21,
+    "CCR": 21,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 22,
+    "CCR": 22,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 23,
+    "CCR": 23,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 24,
+    "CCR": 24,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 25,
+    "CCR": 25,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 26,
+    "CCR": 26,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 27,
+    "CCR": 27,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 28,
+    "CCR": 28,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 29,
+    "CCR": 29,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 30,
+    "CCR": 30,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 31,
+    "CCR": 31,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 708,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 32,
+    "CCR": 0,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 33,
+    "CCR": 1,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 34,
+    "CCR": 2,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 35,
+    "CCR": 3,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 36,
+    "CCR": 4,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 37,
+    "CCR": 5,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 38,
+    "CCR": 6,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 39,
+    "CCR": 7,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 40,
+    "CCR": 8,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 41,
+    "CCR": 9,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 42,
+    "CCR": 10,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 43,
+    "CCR": 11,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 44,
+    "CCR": 12,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 45,
+    "CCR": 13,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 46,
+    "CCR": 14,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 47,
+    "CCR": 15,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 48,
+    "CCR": 16,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 49,
+    "CCR": 17,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 50,
+    "CCR": 18,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 51,
+    "CCR": 19,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 52,
+    "CCR": 20,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 53,
+    "CCR": 21,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 54,
+    "CCR": 22,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 55,
+    "CCR": 23,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 56,
+    "CCR": 24,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 57,
+    "CCR": 25,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 58,
+    "CCR": 26,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 59,
+    "CCR": 27,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 60,
+    "CCR": 28,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 61,
+    "CCR": 29,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 62,
+    "CCR": 30,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "input",
+    "inner": "scene",
+    "case": 63,
+    "CCR": 31,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 701,
+    "native_counts": {
+      "input": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 0,
+    "CCR": 0,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2506,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 1,
+    "CCR": 1,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 2,
+    "CCR": 2,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 3,
+    "CCR": 3,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 4,
+    "CCR": 4,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 5,
+    "CCR": 5,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 6,
+    "CCR": 6,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 7,
+    "CCR": 7,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 8,
+    "CCR": 8,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2588,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 9,
+    "CCR": 9,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 10,
+    "CCR": 10,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 11,
+    "CCR": 11,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 12,
+    "CCR": 12,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 13,
+    "CCR": 13,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 14,
+    "CCR": 14,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 15,
+    "CCR": 15,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 16,
+    "CCR": 16,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2588,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 17,
+    "CCR": 17,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 18,
+    "CCR": 18,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 19,
+    "CCR": 19,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 20,
+    "CCR": 20,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 21,
+    "CCR": 21,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 22,
+    "CCR": 22,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 23,
+    "CCR": 23,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 24,
+    "CCR": 24,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2588,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 25,
+    "CCR": 25,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 26,
+    "CCR": 26,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 27,
+    "CCR": 27,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 28,
+    "CCR": 28,
+    "supervisor": false,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 29,
+    "CCR": 29,
+    "supervisor": false,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 30,
+    "CCR": 30,
+    "supervisor": false,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 31,
+    "CCR": 31,
+    "supervisor": false,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2591,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 32,
+    "CCR": 0,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2543,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 33,
+    "CCR": 1,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 34,
+    "CCR": 2,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2461,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 35,
+    "CCR": 3,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 36,
+    "CCR": 4,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 37,
+    "CCR": 5,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 38,
+    "CCR": 6,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 39,
+    "CCR": 7,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 40,
+    "CCR": 8,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2543,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 41,
+    "CCR": 9,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 42,
+    "CCR": 10,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 43,
+    "CCR": 11,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 44,
+    "CCR": 12,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 45,
+    "CCR": 13,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 46,
+    "CCR": 14,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 47,
+    "CCR": 15,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 48,
+    "CCR": 16,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2543,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 49,
+    "CCR": 17,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 50,
+    "CCR": 18,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 51,
+    "CCR": 19,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 52,
+    "CCR": 20,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 53,
+    "CCR": 21,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc0f28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 54,
+    "CCR": 22,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 55,
+    "CCR": 23,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 56,
+    "CCR": 24,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2543,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 57,
+    "CCR": 25,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 58,
+    "CCR": 26,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc24e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 59,
+    "CCR": 27,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9b28",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 60,
+    "CCR": 28,
+    "supervisor": true,
+    "task": "0xc0928",
+    "guest_SP": "0xc0ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 61,
+    "CCR": 29,
+    "supervisor": true,
+    "task": "0xc0d28",
+    "guest_SP": "0xc10e6",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 62,
+    "CCR": 30,
+    "supervisor": true,
+    "task": "0xc2128",
+    "guest_SP": "0xc2328",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  },
+  {
+    "outer": "face",
+    "inner": "scene",
+    "case": 63,
+    "CCR": 31,
+    "supervisor": true,
+    "task": "0xd9928",
+    "guest_SP": "0xd9ce8",
+    "suspended_frame_stack_preserved": true,
+    "full_CPU_nonarena_RAM_helper_records_match": true,
+    "instructions": 2546,
+    "native_counts": {
+      "face": {
+        "entries": 1,
+        "returns": 1,
+        "fallbacks": 0
+      },
+      "scene": {
+        "entries": 1,
+        "returns": 0,
+        "fallbacks": 1
+      }
+    }
+  }
+]

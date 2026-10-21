@@ -1,0 +1,10 @@
+# Current reproducible entry point. Historical recipes remain byte-pinned.
+.DEFAULT_GOAL := optimized
+include Makefile.optimized
+CFLAGS += -MMD -MP
+-include $(wildcard $(BUILD)/*.d)
+
+# A runtime archive or recipe change must relink even when C objects did not
+# change. The inherited link recipes filter object prerequisites explicitly.
+$(BUILD)/native-optimized.elf $(BUILD)/native-bundle.elf $(BUILD)/native-math.elf: $(LIBGCC) $(MAKEFILE_LIST)
+$(BUILD)/button-digit.elf $(BUILD)/button-digit-movable.elf: $(MAKEFILE_LIST)

@@ -1,0 +1,25 @@
+{
+  "status": "terminal_reset_observer_64_real_input_pairs_and_faults_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-reset-observer-qualified-v1/20261021T122531.782608Z",
+  "actual_input_pairs": 64,
+  "CPU_lanes": 128,
+  "native_reset_entries": 64,
+  "original_reset_entries": 64,
+  "rejected_fault_controls": 16,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_reset_observer_v1.py": "52a98af5561b847baf6fd8698c19e4b3d1afa8beca57314efdc602f0d4ccf785",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_full_observer_v1.py": "8dfac934ae4d50af61189d40d041a8817ee26995cf4149072f9197f55020648e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_reset_observer_v1.inc.c": "d5d5579b4970a45d0c19bfa3670908a68e7ef114bc4a901aebbfc5423b8bb808",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-frame-phased-image-final-v1-current.json": "054160a4db7763a0e89f85db694d70673a02820fcaad54ace3b0da5c93327613",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-reset-observer-qualified-v1/20261021T122531.782608Z/fixture.c": "c41f805abcacad104fdbf69b91b4328a5fec4bc21ad11b1a130c456e955d5120",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-reset-observer-qualified-v1/20261021T122531.782608Z/fixture.dylib": "81b2caa10c8d59ec0eba153580f44046db49326aab1c8805bf9a250c2cf28603",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-reset-observer-qualified-v1/20261021T122531.782608Z/cases.json": "573b1e08ba083c2f6fbec2fa4d7c0001adf796f64733034d87c0f9bc98362e74",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-reset-observer-qualified-v1/20261021T122531.782608Z/faults.json": "8a1f42a9eb40302523306c87b5f18d30488e27e67fb258464e21c054c30bb18b"
+  },
+  "scope": "Exact reset observer over64real original/native input lanes plus faults.\nHost snapshots only; other input helpers are explicit fixtures. No game/IRQ claim.\n AllCCR/bothbanks,actualfinalimagecode;observer checks logicalCPU,banks,PC/SR-X,originalreturnword,service/budget metadata,25publicwrites andCABIreturnSP. Otherinputhelpersarefixtures;checkpoints replayonlyinhostbuffers."
+}

@@ -1,0 +1,59 @@
+{
+  "status": "terminal_game_geometry_v4_training_and_evaluation_pending_review",
+  "pid": 36105,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/game-geometry-training-v4/20261020T165024.138294Z",
+  "data": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z",
+  "decision_sha256": "e6d81352d2b6d20c4ea591e30446aa075aee5ab8e2336a4c95dbf5ea4fc23fd0",
+  "phases": [
+    {
+      "phase": "training",
+      "command": [
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/.venv/bin/python3.12",
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/train.py",
+        "game",
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z",
+        "--repo",
+        "lmstudio-community/Qwen3.8-27B-MLX-6bit",
+        "--iters",
+        "64",
+        "--num-layers",
+        "1",
+        "--max-seq-length",
+        "8960",
+        "--learning-rate",
+        "1e-05",
+        "--reasoning-off",
+        "--cache-limit-gb",
+        "0.5",
+        "--target-head-chunk",
+        "128",
+        "--eager",
+        "--wall-budget-seconds",
+        "2400"
+      ],
+      "pid": 36106,
+      "exit_code": 0
+    },
+    {
+      "phase": "adapter_evaluation",
+      "command": [
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/.venv/bin/python3.12",
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/evaluate_game_geometry_curriculum_v4.py",
+        "--job",
+        "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z"
+      ],
+      "pid": 37016,
+      "exit_code": 0
+    }
+  ],
+  "new_training": true,
+  "training_started": true,
+  "default_promoted": false,
+  "job": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z",
+  "scope": "Adaptive development training.17train,1scheduler validation,4test tasks. Three previous resource tests retain prior exposure;new110D4test family excluded from gradients and checkpoint selection,but shares ABI primitives and project concepts. No independent general model-reliability claim. Complete examples/targets retained,8960token ceiling,no truncation.64update fresh-base pilot;actual saved-checkpoint validation selection. No default promotion.",
+  "base_control_reused": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-geometry-base-reviewed-v4-current.json",
+  "base_control": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-geometry-base-reviewed-v4-current.json",
+  "child_pid": 37016,
+  "checkpoint_selection": "Actual saved checkpoints will be rescored on validation before any adapter test generation",
+  "daily_model_restored": true
+}

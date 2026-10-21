@@ -1,0 +1,86 @@
+BIWN TASK INITIALIZER AND PER-TASK GPU STACKS
+
+Complete DD40 initializer uses a local informed repair with one coordinator uint16_t wrap cast. Both unchanged local initializer proposals failed before correction. GPU C is the unchanged fresh one-clickv2 repair previously rejected under the old stack ABI. Supplied source-owned supervisor transition, flags, and per-task arena ABI are coordinator work. This proves a backend fix, not a model weight gain.
+
+32980 code bytes retain the prior prefix, including the now superseded GPU bridge, and append406initializer/812GPU bytes with alignment. Separately reserved26112arena-data bytes (102slots of256,16byte guards each end) are not code or decompiled bytes. Total59200reservation; heap16D500 leaves338688initial bytes. StagingEFA40..FE200; trailer unchanged; original CDI untouched. No default preview promotion.
+
+Final512initializer and2512GPU CPU/SR/bank/RAM/ordered effects cases pass. Arena tests cover101source-proved task IDs and boot fallback; immediate and ancestor contexts retained. Live pool oracle qualified1024original/native replays and6decoded negatives; ownership1016boundary cases and3guard/unused/code negatives. GPU observer qualified458original/native replays and5controls. New96startup/192heapinitialize/3392heapoperations/36capacity checks pass.
+
+{
+  "coverage": {
+    "pool_initializations": 1,
+    "candidate_GPU_returns": [
+      15855,
+      1657
+    ],
+    "control_original_GPU_returns": [
+      16437,
+      1659
+    ],
+    "helper_entries": 35024,
+    "original_stack_bytes": 10,
+    "arena_max_stack_bytes": 204,
+    "arena_usable_bytes": 224,
+    "arena_minimum_headroom": 20,
+    "arena_used_slots": [
+      1,
+      3,
+      4,
+      6,
+      7,
+      8
+    ],
+    "other_arenas_unchanged": 96,
+    "guard_checks": 1786428,
+    "dispatcher_context_minimum_clearance": 70,
+    "direction_returns": 12027,
+    "movement_returns": [
+      5335,
+      0,
+      0
+    ],
+    "navigation_returns": [
+      8,
+      4,
+      4,
+      3
+    ],
+    "dispatcher_returns": 15,
+    "sprite_returns": 2,
+    "all_pending_zero": true,
+    "all_monitors_pass": true
+  },
+  "comparison": {
+    "candidate_frames": 24628,
+    "control_frames": 24631,
+    "aligned_frames": 24628,
+    "differing_frames": {
+      "CPU_full": 8650,
+      "full_RAM_sha256": 24621,
+      "full_GPU_state_sha256": 24308,
+      "full_DSP_state_sha256": 0,
+      "video_sha256": 21327,
+      "navigation": 21144,
+      "locomotion_state": 115,
+      "held_buttons": 152
+    },
+    "PCM": {
+      "candidate": {
+        "bytes": 78809600,
+        "sha256": "4df42766e8250459563eaf52397d27e95b1ea0174dc4e15ace6486ea1bb96185"
+      },
+      "control": {
+        "bytes": 78819200,
+        "sha256": "8785230a9e7cb0bdad7a2fc9bc41074f9b6ca562a5c0838148adb2dd83b36068"
+      }
+    },
+    "adaptive_controller_paths_may_differ": true,
+    "whole_state_equivalent": false,
+    "timing_differences_unresolved": true,
+    "PCM_equal": false,
+    "PCM_common_prefix_bytes": 78809600,
+    "PCM_common_prefix_equal": true
+  }
+}
+
+Both fresh routes use ordinary inputs with retained emulator processors/platform/HLE, no state restore or guest RAM/register seed. Same-layout control restores20entry bytes across DD40/E220/E2B8. Fresh pair comparison above is authoritative; raw runner comparisons use an older reference. No whole-state/timing/hardware equivalence, complete-game source rebuild, overall audio equivalence or speedup claim. Native LM Studio Chat display, Advertising reliability and latest portable workflow verification remain unfinished.

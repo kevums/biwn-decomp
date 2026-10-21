@@ -1,0 +1,13 @@
+ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST)))/../../../..)
+SOURCE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= $(SOURCE_DIR)/build-geometry-select-lean
+GEOMETRY_SOURCE ?=
+.PHONY: geometry-select-lean
+geometry-select-lean:
+	@test -n "$(GEOMETRY_SOURCE)"
+	mkdir -p "$(BUILD)"
+	$(PREFIX)gcc -m68000 -msoft-float -std=c99 -O2 -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror -c "$(GEOMETRY_SOURCE)" -o "$(BUILD)/body.o"
+	$(PREFIX)as -m68000 -o "$(BUILD)/shim.o" "$(SOURCE_DIR)/geometry-select-lean-shim.S"
+	$(PREFIX)ld -Ttext=0x148000 -e biwn_native_geometry_select_lean -o "$(BUILD)/geometry-select-lean.elf" "$(BUILD)/shim.o" "$(BUILD)/body.o"
+	$(PREFIX)objcopy -O binary "$(BUILD)/geometry-select-lean.elf" "$(BUILD)/geometry-select-lean.bin"

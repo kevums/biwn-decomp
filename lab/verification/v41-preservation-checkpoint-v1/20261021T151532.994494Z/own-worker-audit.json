@@ -1,0 +1,56 @@
+{
+  "jobs": [
+    {
+      "name": "actor-phased-v1",
+      "pid": 75784,
+      "status": "terminal_actor_phased_component_pairs_pass",
+      "matching_live_process": false
+    },
+    {
+      "name": "actor-phased-fixed-v2",
+      "pid": 75959,
+      "status": "terminal_fixed_actor_phased_components_and101taskslots_pass",
+      "matching_live_process": false
+    },
+    {
+      "name": "actor-phased-image-startup-heap-v1",
+      "pid": 76096,
+      "status": "terminal_actual_input_image_wide_startup_dual_CPU_and_heap_initialize_pass",
+      "matching_live_process": false
+    },
+    {
+      "name": "actor-phased-watch-v1",
+      "pid": 76317,
+      "status": "terminal_exact_actor_watchers_fault_controls_actual_CPU_readonly_and_full_compile_pass",
+      "matching_live_process": false
+    },
+    {
+      "name": "native-actor-phased-image-fresh-input-v1-candidate",
+      "pid": 76410,
+      "status": "terminal_fresh_scene17_route_pending_review",
+      "matching_live_process": false
+    },
+    {
+      "name": "native-actor-phased-image-fresh-input-v1-control",
+      "pid": 76411,
+      "status": "terminal_fresh_scene17_route_pending_review",
+      "matching_live_process": false
+    },
+    {
+      "name": "actor-phased-local-reviewer-v1",
+      "pid": 76013,
+      "status": "terminal_shared_slot_busy_zero_predictions",
+      "matching_live_process": false
+    },
+    {
+      "name": "game-preservation-v2",
+      "pid": 77683,
+      "status": "terminal_preservation_only_game_models_and_resume_handoff_recorded",
+      "matching_live_process": false
+    }
+  ],
+  "unrelated_worker_processes_inspected": false,
+  "all_recorded_own_workers_terminal": true,
+  "CLI_and_MCP_QA_sessions_collected": true,
+  "live_game_inference_or_training_workers": 0
+}

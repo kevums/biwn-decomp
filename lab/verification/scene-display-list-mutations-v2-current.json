@@ -1,0 +1,19 @@
+{
+  "status": "terminal_64_distinct_display_list_reread_full_CPU_RAM_order_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-mutations-v2/20261021T014211.815098Z",
+  "completed": 64,
+  "parent_host_cases": 1217,
+  "parent_distinct_reread_vectors": 2,
+  "parent_reread_case_count": 64,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene_display_list_mutations_v2.py": "872fced3638ba4b2fd7ffe5194daa1dab4ffffd3518c13c3f12db00e65ddd1d9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_display_list_mutation_vectors_v2.py": "8039a59bb67cbbb3cea44f62713be5e5a45cd8462538c064737901e9f8664700",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene_display_list_structured_host_v1.py": "a5a06e195d0f88759cc6fb84f718ccc2cf679bef5e46b0f9085c00c978e2419a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-structured-host-v1-current.json": "66d85c3f72f0a9a9b7a500f175afc2566a9c44b9279f3a4223eb5645920e6eb7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-mutations-v2/20261021T014211.815098Z/cases.json": "ab9eeb4ea82cd1d99ec39d0d353d992c62bcfa6ebeb0ffbb87b18747ac7644b8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-display-list-mutations-v2/20261021T014211.815098Z/vectors.json": "0393efa1f0e198711aa5441e85aba066bfe1b3a39413518407c07bfee5a82414"
+  },
+  "scope": "Additional64distinct fixtures, all32CCR/bothbanks. Native pinnedCPUinjects before exact operand, Unicorn/C bus-read changes. Two original reread fixtures in the1217parent run were repeated64times; this supplement adds actual distinct inputs. No hardware concurrency or timing claim."
+}

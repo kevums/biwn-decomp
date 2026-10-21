@@ -1,0 +1,13 @@
+ROOT := $(abspath ../../../..)
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= ./build-task-pool
+ADDRESS ?= 0x180000
+POOL_SOURCE ?= ./task-pool-reference-v1.c
+FLAGS := -m68000 -msoft-float -std=c99 -Os -flto -ffreestanding -fno-pie -fno-common -fno-unwind-tables -fno-asynchronous-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Werror
+.PHONY: task-pool
+task-pool:
+	mkdir -p "$(BUILD)"
+	"$(PREFIX)gcc" $(FLAGS) -I. -c "$(POOL_SOURCE)" -o "$(BUILD)/body.o"
+	"$(PREFIX)gcc" -m68000 -c task-pool-shim-v1.S -o "$(BUILD)/shim.o"
+	"$(PREFIX)gcc" $(FLAGS) -nostdlib -Wl,--gc-sections,--defsym,NATIVE_ADDRESS=$(ADDRESS),-T,task-pool.ld "$(BUILD)/body.o" "$(BUILD)/shim.o" -o "$(BUILD)/task-pool.elf"
+	"$(PREFIX)objcopy" -O binary "$(BUILD)/task-pool.elf" "$(BUILD)/task-pool.bin"

@@ -1,0 +1,151 @@
+{
+  "status": "terminal_compact_outer_fresh_route_and_live_capacity_verified_fidelity_open",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-fresh-reviewed-v1/20261021T041754.562353Z",
+  "profile": "scene-v30-plus-outer-v32-compact-v1",
+  "shared_profile": "deck-shared-v30-scene-gpu-commands-v1",
+  "outer_profile": "deck-outer-v32-compact-v1",
+  "authorship": "Coordinator persistent outer-context specialization and layout change; canonical scene and previous game-model code are unchanged.",
+  "artifact_type": "experimental_disc",
+  "new_disc_built": true,
+  "candidate_disc": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-outer-compact-v1/20261021T035953.106380Z/BIWN-23-native-outer-compact-v1-experimental.cdi",
+  "candidate_disc_sha256": "d592e82067c797a956db9cf8a09de8b34a4203fe4c99fa65f70b84d1f34fc479",
+  "shared_module_bytes": 48738,
+  "outer_module_bytes": 6060,
+  "linked_native_bytes": 89830,
+  "reservation_bytes": 258432,
+  "boot_copy_bytes": 116224,
+  "initial_heap_bytes": 139456,
+  "prior_initial_heap_bytes": 120320,
+  "initial_heap_increase_bytes": 19136,
+  "outer_arena_bytes_reclaimed": 19392,
+  "outer_C_stack_bytes": 164,
+  "outer_C_stack_reserved": 224,
+  "outer_C_stack_margin": 60,
+  "scene_C_stack_bytes": 168,
+  "scene_C_stack_reserved": 208,
+  "final_existing_gates": 8,
+  "final_scene_cases": 772,
+  "final_display_cases": 1153,
+  "final_alias_and_nested_checks_verified": true,
+  "read_only_observers_qualified": true,
+  "actual_shared_observer_CPU_lanes": 512,
+  "actual_outer_boundary_observer_CPU_lanes": 128,
+  "both_copied_modules_byte_identical": true,
+  "new_unique_original_functions": 0,
+  "new_model_code": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "optimizer_updates": 0,
+  "fresh_gameplay_verified": true,
+  "live_heap_gain_measured": true,
+  "game_fidelity_verified": false,
+  "installed_preview_changed": false,
+  "whole_game_complete": false,
+  "inherited_global_GPU_redirects": true,
+  "pending_acceptance_wait_bypassed_inside_scene": true,
+  "scope": "Arena shrink preserves224 bytes of C stack after a measured164-byte peak, retaining60 bytes of measured component margin. Only private outer slots shrink; original guest stacks and the101 existing Deck slots remain. All relocated code/startup/heap and finite alias/nesting/boundary checks pass. The actual outer monitor stays active at deliberately truncated iteration boundaries; that is explicitly checked, not quiescent-task acceptance. No arbitraryIRQ, complete scheduler, physical-console, audio or whole-game fidelity claim.",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Compact Outer Memory and Fresh Route Review.txt",
+  "candidate_frames": 24985,
+  "control_frames": 24969,
+  "fresh_scene_native_returns": 6299,
+  "fresh_scene_helper_returns": 5297,
+  "native_display_returns": 5297,
+  "native_rotation_returns": 5297,
+  "native_clear_returns": 5297,
+  "video_differences": 7351,
+  "game_latched_button_RAM_differences": 359,
+  "frontend_button_schedule_differences": 338,
+  "final_video_equal": true,
+  "final_selected_game_fields_equal": true,
+  "minimum_sampled_heap_while_outer_active": {
+    "candidate": 19696,
+    "control": 19696
+  },
+  "previous_sampled_outer_active_heap": {
+    "candidate": 560,
+    "control": 560
+  },
+  "sampled_outer_active_heap_increase": 19136,
+  "global_heap_minimum_measured": false,
+  "outer_C_stack_low_offsets": {
+    "candidate": 204,
+    "control": 204
+  },
+  "all_monitors_clear_and_quiescent": true,
+  "snapshot_restores": 0,
+  "host_guest_RAM_writes": 0,
+  "host_CPU_or_task_seeds": 0,
+  "current_fixed_input_video_comparison": {
+    "count": 437,
+    "first_frame": 552,
+    "recorded_pairs": 1000
+  },
+  "fixed_input_control_layout_changes": {
+    "video_sha256": {
+      "count": 216,
+      "first_frame": 195,
+      "recorded_pairs": 1000
+    },
+    "raw_player_X": {
+      "count": 4,
+      "first_frame": 201,
+      "recorded_pairs": 1000
+    },
+    "raw_player_Z": {
+      "count": 117,
+      "first_frame": 201,
+      "recorded_pairs": 1000
+    },
+    "scene_word": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "player_mode_word": {
+      "count": 1,
+      "first_frame": 375,
+      "recorded_pairs": 1000
+    },
+    "tile_word": {
+      "count": 1,
+      "first_frame": 307,
+      "recorded_pairs": 1000
+    },
+    "equipped_word": {
+      "count": 0,
+      "first_frame": null,
+      "recorded_pairs": 1000
+    },
+    "movie_flag_words": {
+      "count": 9,
+      "first_frame": 201,
+      "recorded_pairs": 1000
+    },
+    "held_buttons": {
+      "count": 3,
+      "first_frame": 600,
+      "recorded_pairs": 1000
+    },
+    "CPU_full": {
+      "count": 824,
+      "first_frame": 177,
+      "recorded_pairs": 1000
+    },
+    "full_GPU_state_sha256": {
+      "count": 805,
+      "first_frame": 195,
+      "recorded_pairs": 1000
+    },
+    "full_DSP_state_sha256": {
+      "count": 806,
+      "first_frame": 195,
+      "recorded_pairs": 1000
+    },
+    "active_actor_snapshot": {
+      "count": 10,
+      "first_frame": 421,
+      "recorded_pairs": 17
+    }
+  },
+  "next_action": "Use the recovered capacity to implement and qualify readable170A0 geometry-record processing and its copy/movement-matrix providers. Continue fixed-input/device-wait analysis and remaining CPU/GPU/DSP/HLE source recovery. Whole-game same-console rebuilding, useful held-out training quality, copied-weight Native Chat rendering and audio/IRQ/physical-console fidelity remain open."
+}

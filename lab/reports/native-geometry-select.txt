@@ -1,0 +1,15 @@
+BIWN — COMPLETE NATIVE INDEXED GEOMETRY SELECTOR, ORIGINAL1039C
+2026-10-19T04:45:22.104773+00:00
+
+The complete indexed geometry selector now has a readable freestanding C implementation compiled to324native68000bytes with its register ABI wrapper. It preserves signed16 count/index behavior, negative indices admitted by the original, WORD shift truncation/sign extension, original volatile read/write widths/order, partial-register outputs and final X/CCR. This is a native port of a previously recovered host routine, not an additional discovered logical function.
+
+The accepted C is coordinator-written. The local27B Author first produced a2,599token response that exhausted its budget in comments and stopped mid-function; it did not compile. A single repair compiled but still used the wrong table dereference and failed on an invalid memory read. Both raw local candidates are rejected. Same-weight Reviewer responses were also truncated and included false statements about signed BGE, CLR flags, word-register writes and shift X; these are recorded model failures, not independent verification. The repair received explicit coordinator assembly corrections. No unchanged local output was accepted and no weights changed.
+
+The separate coordinator C/ABI passed896stable and256controlled changing-read comparisons against the original CPU, including full D/A/PC/SR/USP/SSP and public RAM plus exact ordered accesses. All46original instruction locations were exercised. The independent stable output contract also passed896untouched-original cases before generation. Maximum private stack use was112bytes. The original register-save area,8KBprivate scratch and code/entry windows are excluded from RAM identity. Controlled fixtures do not prove arbitrary aliases, faults, IRQ schedules or physical timing.
+
+The final linked selector passed the same896+256cases at its actual address plus96startup-loader cases. The experimental derived disc contains17,408resident bytes in the unchanged20,480byte reservation, retaining the prior17,084bytes exactly. Only the declared absolute kernel-call relocation changed the standalone code. Heap floor/reservation and original disc remain unchanged. The build is pending fresh gameplay comparison with a same-layout disc restoring only the original1039Centry. No full-game rebuild, physical console, cycle equivalence or preview promotion is established.
+
+The earlier cache-disc C-processor result and running boundary-disc C-processor job apply only to their identified discs; neither proves this new selector build.
+
+Exact prompts and raw responses:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-select-prompts-and-responses.txt

@@ -1,0 +1,48 @@
+LOCAL AI LAB — PORTABLE SETUP TEST
+
+Open the folder named “Portable Setup Test” inside Desktop → Local AI Lab.
+Its current location is:
+/Users/kevin/Documents/Local AI Lab Restore Tests/20261019T120956.876602Z-sdk-moved
+
+1. Keep LM Studio open with its local server running at 127.0.0.1:1234.
+2. After moving this package, double-click “Restore Local AI Lab.command”.
+3. Double-click an assistant, then type your question:
+   • Run Game Assistant.command
+   • Run Advertising Assistant.command
+   • Load Advertising Reviewer.command — experimental trained step 8
+
+The launchers load their copied model at 32K context with one worker. Allow extra
+time for loading. Answers appear in Terminal; exact prompts and responses are
+saved in the package’s runs folder. This does not demonstrate streaming agents
+in native LM Studio Chat. That part of the requested interface needs verification.
+The installer registers its own named model resources in your installed LM Studio.
+
+All three launchers produced real answers after the package moved. The copied
+SDK, 10,009 dependency files, 39 model resources and ten weight shards passed
+checks. Four MCP servers handled ten tested tool kinds. The copied 68000 toolchain
+rebuilt the checked 1,588-byte navigation component with an identical binary.
+
+The copied training pipeline completed one real update and saved a separate
+adapter. Its observed padded batch was 225 tokens; this does not establish the
+maximum supported training size. The test adapter is not selected for daily use.
+The normal daily 27B model was restored at 32K context with one worker afterward.
+
+Advertising reliability still needs work. The trained Reviewer caught the
+manipulation and causality errors but omitted the timing correction. The base
+answer got disclosure and post-ad timing right but omitted beneficiary framing.
+These tests show the launchers run, not that adaptation improved model quality.
+Exact saved prompts and responses:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/model-work-index/20261019T123249.308617Z/prompts-and-responses.txt
+
+The workbench folder also contains historical developer launchers. Every legacy
+launcher and tool behavior has not been verified. macOS and an installed LM Studio
+host service are required. The future 256 GB acceptance profile is in profiles;
+performance on that hardware remains untested.
+
+BIWN remains a partial source reconstruction. The latest integrated experiment
+has 30,036 native bytes and earlier gameplay evidence. A complete same-console
+source rebuild and physical-console verification remain unfinished.
+The existing preview is unchanged: click the game, hold C + Up to run, P to pause.
+
+Detailed review:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-sdk-workbench-review/20261019T123249.237124Z/review.txt

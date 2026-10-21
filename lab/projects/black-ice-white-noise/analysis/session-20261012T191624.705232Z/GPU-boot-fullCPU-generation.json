@@ -1,0 +1,94 @@
+{
+  "status": "generated_unverified",
+  "instructions": 10,
+  "instructions_decoded": [
+    {
+      "address": 57354,
+      "size": 6,
+      "bytes": "207c000040a0",
+      "assembly": "movea.l #$40a0, a0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57360,
+      "size": 2,
+      "bytes": "2258",
+      "assembly": "movea.l (a0)+, a1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57362,
+      "size": 2,
+      "bytes": "2018",
+      "assembly": "move.l (a0)+, d0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57364,
+      "size": 2,
+      "bytes": "22d8",
+      "assembly": "move.l (a0)+, (a1)+",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57366,
+      "size": 4,
+      "bytes": "51c8fffc",
+      "assembly": "dbra d0, $e014",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57370,
+      "size": 6,
+      "bytes": "207c00f03050",
+      "assembly": "movea.l #$f03050, a0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57376,
+      "size": 4,
+      "bytes": "4eb83000",
+      "assembly": "jsr $3000.w",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57380,
+      "size": 10,
+      "bytes": "23fc00f0322400f02110",
+      "assembly": "move.l #$f03224, $f02110.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57390,
+      "size": 10,
+      "bytes": "23fc0000000100f02114",
+      "assembly": "move.l #$1, $f02114.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 57400,
+      "size": 2,
+      "bytes": "4e75",
+      "assembly": "rts",
+      "classification": "decoded_instruction",
+      "manual_semantics": {
+        "scope": "RTS only; M68000 manual printed 4-169",
+        "stack_pointer_delta": 4,
+        "program_counter": "loaded from return stack; value unknown",
+        "condition_codes": "unchanged",
+        "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+      }
+    }
+  ],
+  "ranges": {
+    "0xe00a": "0xe03a"
+  },
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "generator_sha256": "70ef87f1a682f4a637eb92213e9fe8b5a944d405e4f714581c9edfda17b29cc3",
+  "source_sha256": {
+    "biwn_GPU_boot_cpu.c": "c9e7d383ec5c56b57789e653c7718f8972362f0816b0c6b22c321de590d388a0",
+    "biwn_GPU_boot_cpu.h": "5a3149e0d8a1db5257a140fd82902a6a05212984d6d1eedd3dc2b98781f8ff83"
+  },
+  "new_published_components": 0,
+  "whole_game_complete": false
+}

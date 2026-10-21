@@ -1,0 +1,59 @@
+"""Promote only the checked CPU drawing protocol and reviewed original writes."""
+from datetime import datetime,timezone
+import json,subprocess
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+def read(path):return json.loads(path.read_text())
+def save(path,value):path.write_text(json.dumps(value,indent=2)+'\n')
+
+def main():
+    now=datetime.now(timezone.utc).isoformat();session=Path(read(ROOT/'projects/black-ice-white-noise/analysis/current-session.json')['directory'])
+    checks=read(ROOT/'verification/biwn-inventory-draw-checks.json');runtime=read(ROOT/'verification/biwn-inventory-draw-runtime-review.json');local=read(ROOT/'verification/biwn-inventory-draw-local-review.json');volatile=read(session/'drawing-volatile-summary.json')
+    assert checks['CPU_cases']==330 and checks['host_guard_cases']==13 and runtime['groups_compared']==9 and runtime['original_routine_word_write_records']==2700
+    assert local['status']=='coordinator_reviewed_correlated_drafts_not_accepted_as_translation_contract'
+    validation=read(session/'boot-slice-validation.json');assert validation['portable_C_component_count']==16
+    validation.update(portable_C_component_count=17,latest_aggregate_update=now,
+                      component_count_scope='Sixteen earlier components plus whole CPU1B786inventory drawing command protocol. Actual spriteE2B8/text149AE graphics are modeled callbacks; no rebuilt frame or whole-game equivalence.',
+                      nextstage_inventory_drawing_CPU_protocol_C=checks)
+    save(session/'boot-slice-validation.json',validation)
+    subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts/summarize_biwn_checks.py')],check=True)
+    game=('17 isolated portable C components checked. Inventory drawing CPU routine1B786..1BC78 matches330original-CPU cases and13host guards, including rereads, signed indices/mappings, money formatting and ordered drawing writes. Graphics sprite/text helpers remain modeled callbacks; formatter scratch effects excluded explicitly. Approximate CPU export remains18306instructions/206entry candidates, with a separate volatile annotation correcting item destination-before-command order. Full reconstructed game unfinished.')
+    observed=('All9observed original-game inventory drawing calls match1350C long writes expanded to2700ordered word watch records.9000frame replay matches previous frame/DSP/command/CPUcatalog data and captures exactly. Postframe slot snapshots are assumptions, not instruction-time reads. Only routine writes compared; actual graphics helpers/pixels/hardware not validated.')
+    frontend=('Everyday native Chat presets remain installed. Mac still locked; localhost API continuation authorized and exact prompts/responses saved, not injected into native history. Latest native preset adoption unverified. Fresh evidence snapshot is refreshed below.')
+    next_work='Reconstruct spriteE2B8and text149AE dependencies and validate broader UI integration. Verify revised fixture format and evidence in nativeChat when accessible. Continue advertising source/teaching semantic evaluation; experimental trained pilot remains loadable and unpromoted. Goal active incomplete.'
+    models=json.loads(subprocess.check_output([str(Path.home()/'.lmstudio/bin/lms'),'ps','--json'],cwd=Path.home()/'.lmstudio',text=True));assert len(models)==1 and models[0]['modelKey']=='local/advertising-qwen38'and models[0]['status']=='idle'
+    evidence=['verification/biwn-inventory-draw-checks.json','verification/biwn-inventory-draw-runtime-review.json','verification/biwn-inventory-draw-local-review.json',str((session/'drawing-volatile-summary.json').relative_to(ROOT))]
+    for name in ['setup-status.json','current-runtime-state.json','everyday-inference.json','requirements-audit.json']:
+        path=ROOT/'verification'/name;value=read(path)
+        if name=='setup-status.json':value.update(updated_at_utc=now,game_work=game+' '+observed,frontend=frontend,pending=next_work)
+        elif name=='current-runtime-state.json':value.update(recorded_at=now,models=models,model_state_refreshed_at=now,decomp_progress=game+' '+observed,
+                    local_inference_jobs='Two local role passes terminal. Reviewer copied analyst and inherited coordinator report wording error; both contracts rejected. No background training/inference claimed at checkpoint.',
+                    emulator_jobs='Drawing observer9000frame replay terminal, prior data/captures identical; original core/CDI/BIOS unchanged.',visible_chat=frontend,
+                    MCP_updated_evidence='17components, drawing CPU330/13guards and9original-game drawing write groups. NativeChat adoption remains unverified.')
+        elif name=='everyday-inference.json':value.update(updated_at=now,model=models,model_state_refreshed_at=now,frontend=frontend,latest_game_drawing_review=str(ROOT/evidence[1]),latest_local_game_roles=str(ROOT/evidence[2]))
+        else:
+            value.update(recorded_at_utc=now,previous_goal_turn_classification=value['this_goal_turn_classification'],this_goal_turn_classification='progress: CPUinventory drawing protocol checked330cases/13guards,9runtime groups/2700wordwrites match and identical9000frame replay; volatile store-order repair and correlated local role audit',next_safe_work=next_work)
+            for item in value['requirements']:
+                if 'decompilation test'in item['requirement']:item['state']=game+' '+observed;item['evidence']=list(dict.fromkeys(item['evidence']+evidence))
+                elif 'Multiagent game'in item['requirement']:item['state']+=' Drawing analyst/reviewer copied each other and propagated a coordinator report OR/XOR typo; reviewed and rejected as translation contracts.';item['evidence']=list(dict.fromkeys(item['evidence']+[evidence[2]]))
+            value['post_review_evidence'].update({Path(e).name:str(ROOT/e)for e in evidence})
+        save(path,value)
+    config=read(ROOT/'config.json');config['chat_frontend']['game']['status']=game+' '+observed+' '+frontend;save(ROOT/'config.json',config)
+    intake=read(ROOT/'corpus/game/project-intake.json');intake.update(latest_checked_at=now,latest_checked_status=game+' '+observed,latest_inventory_drawing_CPU_check=str(ROOT/evidence[0]),latest_inventory_drawing_runtime_review=str(ROOT/evidence[1]));save(ROOT/'corpus/game/project-intake.json',intake)
+    path=ROOT/'projects/black-ice-white-noise/restoration/READ ME.txt';path.write_text(path.read_text()+'\nINVENTORY DRAWING CPU PROTOCOL — '+now+'\n'+game+'\n'+observed+'\nFiles: biwn_inventory_draw.c/.h. Reproduce: .venv/bin/python scripts/check_biwn_inventory_draw.py. Original moneyformatter executes in CPU fixture; its private stack and scratch[15B7A0,15B7AA) sideeffects excluded from C protocol equivalence. Other routine memory reads/writes and callbacks checked. Full graphics not reconstructed.\n')
+    export=Path(volatile['directory'])/'export'
+    (ROOT/'CURRENT DECOMPILATION.txt').write_text('BLACK ICE WHITE NOISE — CURRENT RECONSTRUCTION\n\nFull reconstructed game: unfinished. Running original observed in assisted emulator.\n\nAPPROXIMATE CPU EXPORT\n18306instructions and206entry candidates. Volatile annotation preserves item destination store before drawing command. AutomaticC remains approximate.\nC:\n'+str(export/'decompiled.c')+'\nAssembly:\n'+str(export/'listing.asm')+'\n\nCHECKED PORTABLE C\n'+game+'\n'+observed+'\nSource folder:\n'+str(ROOT/'projects/black-ice-white-noise/restoration')+'\nCPUchecks:\n'+str(ROOT/evidence[0])+'\nRuntime review:\n'+str(ROOT/evidence[1])+'\n\nEveryday interface: LM Studio → Game Assistant — Quick Start. Latest native adoption unverified while locked. Exact local prompts, responses, failures and coordinator corrections: POST REVIEW.txt.\n')
+    path=ROOT/'START HERE.txt';text=path.read_text().replace('Game: 16 isolated portable C components checked;','Game: 17 isolated portable C components checked;')
+    text+='\nLatest drawing checkpoint:330CPU protocol cases/13guards pass;9original drawing calls match1350long stores/2700word watch records. Graphics helpers still need reconstruction. Exact local analyst/reviewer prompts and corrected report wording are in POST REVIEW.txt.\n';path.write_text(text)
+    notes={'syntax_failure':'Initial new checker had else2 typo; original script retained. No fixtures executed before correction.','formatter_dependency':'First actual run stopped at originalE67C division wrapper. Included inspectedE61C..E68C helper and separately recorded formatter scratch writes, excluding only10scratchbytes from cross-C equivalence.','metadata_correction':'NegativeX coordinate packing uses OR, not XOR; report wording corrected after local roles inherited it. TestedC unchanged.','runtime_pointer':'Cloned runner initially wrote drawing report to old inventory pointer. Preserved new report under correct drawing pointer, restored old pointer byte-exactly from its retained report and corrected runner.','frame_boundary':'Initial runtime reviewer incorrectly assumed each drawing call fit one frame. Three calls cross a boundary; compare full routine groups after asserting stable postframe slot snapshots throughout each interval.','log_volume':'Broad drawing watch logged133802463records/approximately5.8GiB. Full trace retained;2700exact routine CPU records selected for comparison. No GPU traffic interpreted as CPUwrites.'}
+    save(ROOT/'verification/inventory-draw-iterations/notes.json',notes)
+    for folder in (ROOT/'verification/biwn-inventory-draw').iterdir():
+        status=folder/'status.json'
+        if status.exists() and read(status)['status']=='running':save(status,{'status':'terminal_failed','reason':'Initial formatter helper assertion before comparison; later complete run retained separately.'})
+    path=ROOT/'POST REVIEW.txt';path.write_text(path.read_text()+'\nINVENTORY DRAWING PROTOCOL / ORIGINAL WRITE COMPARISON — '+now+'\n'+game+'\n'+observed+'\nWHO DID WHAT: Codex translated the CPU routine and wrote/ran330CPU fixtures plus13host guards. Codex annotated external drawing words volatile in a separateGhidra project and checked command ordering. Actual resident27B model ran analyst→reviewer sequentially with identical weights,42.37and44.62seconds. Reviewer copied analyst; both propagated a typo in coordinator metadata. Codex rejected contracts and corrected OR/XOR wording from assembly, preserving exact supplied prompts. Codex added read-only original-game watch, checked baseline replay identity, and compared9whole routine write sequences across frame boundaries. No Codex subagents, weighttraining, corepatches or rebuiltgraphics.\nExact prompts/responses:\n'+str(Path(local['directory'])/'prompts-and-responses.txt')+'\nCoordinator local audit:\n'+str(ROOT/evidence[2])+'\nCPUfixtures:\n'+checks['directory']+'\nRuntime trace/review:\n'+runtime['directory']+'\nRetained failures and repairs:\n'+str(ROOT/'verification/inventory-draw-iterations/notes.json')+'\n'+next_work+'\nAll known compute jobs terminal at checkpoint. Usual27B resident idle.\n')
+    install=subprocess.run([str(ROOT/'.venv/bin/python'),str(ROOT/'scripts/install_chat_runtime.py')],capture_output=True,text=True,check=True)
+    (ROOT/'verification/inventory-draw-runtime-install.txt').write_text(install.stdout+'\n'+install.stderr)
+    save(ROOT/'verification/inventory-draw-checkpoint.json',{'recorded_at':now,'backup':read(ROOT/'verification/inventory-draw-checkpoint-backup.json')['directory'],'models':models,'CPU_components':17,'full_goal_status':'active incomplete','known_compute_jobs':'terminal','evidence':evidence,'fresh_evidence_snapshot_installed':True,'live_native_Chat_adoption':'unverified while locked','next_work':next_work})
+    print(json.dumps({'components':17,'CPU_cases':330,'runtime_groups':9,'word_writes':2700,'snapshot_installed':True}),flush=True)
+
+if __name__=='__main__':main()

@@ -1,0 +1,19 @@
+{
+  "status": "terminal_full_caller_comparison_failed",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-acquire-gap448-caller-v5/20261021T110316.489822Z",
+  "pid": 60694,
+  "completed": 6,
+  "planned_cases": 18,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "game_image_changed": false,
+  "real_helper_bodies_qualified": false,
+  "arbitrary_IRQ_qualified": false,
+  "current_case": {
+    "input": 3,
+    "path": "native",
+    "task": 791848,
+    "initial_SP": 792868
+  },
+  "error": "AssertionError('Nested helper overwrites parked acquire compiler state')"
+}

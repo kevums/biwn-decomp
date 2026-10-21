@@ -1,0 +1,10 @@
+BIWN SELECTOR — TAGGED POINTER DIAGNOSIS AND EXPANDED CHECKS
+2026-10-19T04:53:51.490188+00:00
+
+The two shared live-monitor failures are now identified. In both13call diagnostic traces, exactly two calls read geometry header0x8015C684. The68000bus resolves this to physical0x15C684. The original monitor rejected the unmasked address, substituted a zero count and incorrectly predicted a failure return. Those two calls account for both guarded-read errors and all ten return-register/CCR mismatches in each run. All other call predictions matched. The diagnostic runs remain rejected under their original checks; no receipt was rewritten into a pass.
+
+The unchanged324byte coordinator C and ABI now pass1,280stable and512changing-read full native CPU/public-RAM/ordered comparisons, exercising all46original instruction locations. This includes384new stable and256new changing cases with high-bit-tagged object, header and record pointers. The ordered Unicorn lane maps alias regions to the same underlying2MBRAM; the retained native CPU supplies the independent original-state oracle. Failure-path pointer registers retain their full32bit values while bus accesses resolve through24bits. The expanded standalone binary is byte-identical to the earlier component binary; game code and derived disc did not change.
+
+A separately versioned read-only observer now masks guest addresses to24bits before the same guarded RAM reads. It keeps full pointer/register values and all return/object-write/stack assertions. New candidate and original-entry control routes are running under that observer. There is no completed live pass yet. The substantial video/audio/CPU differences in the initial pair remain measured and unresolved; fixing the oracle does not prove equivalence or physical timing. No preview or latest-status promotion occurred.
+
+Two failed local Author drafts and unreliable same-weight reviews remain on record. The accepted C and all diagnosis/fixtures/observer work are coordinator-authored; no new training or model-quality gain is claimed.

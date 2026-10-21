@@ -1,0 +1,12 @@
+FIVE-CALLER GUI AND LOCAL INFERENCE
+
+The existing Desktop BIWN Test Preview app now uses the reviewed five-caller disc at its saved street checkpoint. The actual 487-frame GUI check observed launch, start, movement, pause and close; all five native callers returned and memory guards passed. Expected Deck appearance was not confirmed, and run-chord, revision-specific fidelity and audible audio remain unverified. A separate 2,400-frame headless replay matched full CPU, RAM, video, GPU, DSP and final serialized state with and without counters.
+
+LM Studio Chat ran two visible three-role trials on the same locally loaded 27B model. Analyst analyzes current evidence; Restorer selects the next source step; Reviewer checks the answer. They share weights and are not independent verification. The first final answer used 129 words against a 110-word limit. After selecting compact current evidence, the second final answer used 75 words against a 90-word limit and passed source review. Input tokens per role changed from 18,341–18,444 to 5,465–5,735; first-token times changed from 22.663–23.077 seconds to 4.068–4.610 seconds. Questions, evidence and cache conditions differed, so these are observed timings, not a controlled speed comparison.
+
+The one-click current Reader is a separate local stream. V18 failed length/instruction echo and V19 overgeneralized return correctness and cycle wording. V20 returned 77 words in 6.63 seconds and passed source review. Its prompt strongly constrains the current status; this is not evidence of general instruction following. All raw failures and exact prompts are preserved. No optimizer update or new game algorithm was produced in these frontend checks.
+
+Current exact native Chat prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/visible-five-caller-Chat-review-v1/20261020T092327.910830Z/trial-2/prompts-and-responses.txt
+Current one-click Reader: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-status-live-20261020T092104.515961Z/prompts-and-responses.txt
+
+Next game source step: integrate outer Deck task 0x11E6C while preserving the five native callers and suspended contexts. The whole-game rebuild and visual/timing/audio/physical fidelity remain unfinished. Advertising V12 remains rejected; the base model is retained pending broader accepted research/education validation.

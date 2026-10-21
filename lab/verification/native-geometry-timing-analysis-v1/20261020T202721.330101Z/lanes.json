@@ -1,0 +1,946 @@
+{
+  "candidate": {
+    "calls": [
+      {
+        "call": 1,
+        "task": "0xc2128",
+        "entry_offset": 54,
+        "return_offset": 55,
+        "entry_ordinal": 16722,
+        "return_ordinal": 17644,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 2,
+        "task": "0xc2128",
+        "entry_offset": 57,
+        "return_offset": 58,
+        "entry_ordinal": 15648,
+        "return_ordinal": 16216,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 3,
+        "task": "0xc2128",
+        "entry_offset": 60,
+        "return_offset": 61,
+        "entry_ordinal": 14547,
+        "return_ordinal": 14671,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 4,
+        "task": "0xc2128",
+        "entry_offset": 63,
+        "return_offset": 64,
+        "entry_ordinal": 13479,
+        "return_ordinal": 13577,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 5,
+        "task": "0xc2128",
+        "entry_offset": 66,
+        "return_offset": 67,
+        "entry_ordinal": 12384,
+        "return_ordinal": 12216,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 6,
+        "task": "0xc2128",
+        "entry_offset": 69,
+        "return_offset": 70,
+        "entry_ordinal": 9547,
+        "return_ordinal": 9469,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 7,
+        "task": "0xc2128",
+        "entry_offset": 72,
+        "return_offset": 73,
+        "entry_ordinal": 7115,
+        "return_ordinal": 6716,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 8,
+        "task": "0xc2128",
+        "entry_offset": 75,
+        "return_offset": 76,
+        "entry_ordinal": 4653,
+        "return_ordinal": 3744,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 9,
+        "task": "0xc2128",
+        "entry_offset": 78,
+        "return_offset": 79,
+        "entry_ordinal": 1356,
+        "return_ordinal": 759,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 10,
+        "task": "0xc2128",
+        "entry_offset": 80,
+        "return_offset": 81,
+        "entry_ordinal": 18497,
+        "return_ordinal": 20565,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 11,
+        "task": "0xc2128",
+        "entry_offset": 83,
+        "return_offset": 84,
+        "entry_ordinal": 15024,
+        "return_ordinal": 15125,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 12,
+        "task": "0xc2128",
+        "entry_offset": 86,
+        "return_offset": 87,
+        "entry_ordinal": 9936,
+        "return_ordinal": 9848,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 13,
+        "task": "0xc2128",
+        "entry_offset": 89,
+        "return_offset": 90,
+        "entry_ordinal": 5539,
+        "return_ordinal": 4676,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 14,
+        "task": "0xc2128",
+        "entry_offset": 92,
+        "return_offset": 92,
+        "entry_ordinal": 302,
+        "return_ordinal": 22898,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 15,
+        "task": "0xc2128",
+        "entry_offset": 94,
+        "return_offset": 95,
+        "entry_ordinal": 16030,
+        "return_ordinal": 16621,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 16,
+        "task": "0xc2128",
+        "entry_offset": 97,
+        "return_offset": 98,
+        "entry_ordinal": 11037,
+        "return_ordinal": 10996,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 17,
+        "task": "0xc2128",
+        "entry_offset": 100,
+        "return_offset": 101,
+        "entry_ordinal": 5085,
+        "return_ordinal": 4137,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 18,
+        "task": "0xc2128",
+        "entry_offset": 102,
+        "return_offset": 103,
+        "entry_ordinal": 17639,
+        "return_ordinal": 19224,
+        "frame_boundaries_crossed": 1
+      }
+    ],
+    "transitions": {
+      "movie0": [
+        {
+          "offset": 26,
+          "ordinal": 8235,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 53,
+          "ordinal": 16603,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 105,
+          "ordinal": 5826,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 134,
+          "ordinal": 14610,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 134,
+          "ordinal": 15233,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 147,
+          "ordinal": 17478,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 147,
+          "ordinal": 17783,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 160,
+          "ordinal": 19784,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 160,
+          "ordinal": 20089,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 173,
+          "ordinal": 18945,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 173,
+          "ordinal": 19250,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 186,
+          "ordinal": 18636,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 186,
+          "ordinal": 18941,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 199,
+          "ordinal": 19237,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 199,
+          "ordinal": 19542,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 212,
+          "ordinal": 18096,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        }
+      ],
+      "movie1": [],
+      "held": [
+        {
+          "offset": 1,
+          "ordinal": 5271,
+          "old": 0,
+          "value": 524288,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 9,
+          "ordinal": 7626,
+          "old": 524288,
+          "value": 0,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 26,
+          "ordinal": 4703,
+          "old": 0,
+          "value": 33562624,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 53,
+          "ordinal": 20121,
+          "old": 33562624,
+          "value": 1048576,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 214,
+          "ordinal": 8533,
+          "old": 1048576,
+          "value": 0,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 225,
+          "ordinal": 4045,
+          "old": 0,
+          "value": 16,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 234,
+          "ordinal": 14801,
+          "old": 16,
+          "value": 0,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        }
+      ]
+    }
+  },
+  "control": {
+    "calls": [
+      {
+        "call": 1,
+        "task": "0xc2128",
+        "entry_offset": 54,
+        "return_offset": 55,
+        "entry_ordinal": 16722,
+        "return_ordinal": 184,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 2,
+        "task": "0xc2128",
+        "entry_offset": 56,
+        "return_offset": 57,
+        "entry_ordinal": 19804,
+        "return_ordinal": 3734,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 3,
+        "task": "0xc2128",
+        "entry_offset": 59,
+        "return_offset": 59,
+        "entry_ordinal": 3658,
+        "return_ordinal": 7583,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 4,
+        "task": "0xc2128",
+        "entry_offset": 61,
+        "return_offset": 61,
+        "entry_ordinal": 6808,
+        "return_ordinal": 10752,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 5,
+        "task": "0xc2128",
+        "entry_offset": 63,
+        "return_offset": 63,
+        "entry_ordinal": 8461,
+        "return_ordinal": 12375,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 6,
+        "task": "0xc2128",
+        "entry_offset": 65,
+        "return_offset": 65,
+        "entry_ordinal": 10363,
+        "return_ordinal": 14307,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 7,
+        "task": "0xc2128",
+        "entry_offset": 67,
+        "return_offset": 67,
+        "entry_ordinal": 12302,
+        "return_ordinal": 16227,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 8,
+        "task": "0xc2128",
+        "entry_offset": 69,
+        "return_offset": 69,
+        "entry_ordinal": 14001,
+        "return_ordinal": 17945,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 9,
+        "task": "0xc2128",
+        "entry_offset": 71,
+        "return_offset": 71,
+        "entry_ordinal": 15648,
+        "return_ordinal": 19573,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 10,
+        "task": "0xc2128",
+        "entry_offset": 73,
+        "return_offset": 74,
+        "entry_ordinal": 17065,
+        "return_ordinal": 462,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 11,
+        "task": "0xc2128",
+        "entry_offset": 75,
+        "return_offset": 76,
+        "entry_ordinal": 17705,
+        "return_ordinal": 924,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 12,
+        "task": "0xc2128",
+        "entry_offset": 77,
+        "return_offset": 78,
+        "entry_ordinal": 17567,
+        "return_ordinal": 882,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 13,
+        "task": "0xc2128",
+        "entry_offset": 79,
+        "return_offset": 80,
+        "entry_ordinal": 17389,
+        "return_ordinal": 714,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 14,
+        "task": "0xc2128",
+        "entry_offset": 81,
+        "return_offset": 82,
+        "entry_ordinal": 17229,
+        "return_ordinal": 574,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 15,
+        "task": "0xc2128",
+        "entry_offset": 83,
+        "return_offset": 84,
+        "entry_ordinal": 16994,
+        "return_ordinal": 367,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 16,
+        "task": "0xc2128",
+        "entry_offset": 85,
+        "return_offset": 86,
+        "entry_ordinal": 16701,
+        "return_ordinal": 206,
+        "frame_boundaries_crossed": 1
+      },
+      {
+        "call": 17,
+        "task": "0xc2128",
+        "entry_offset": 87,
+        "return_offset": 87,
+        "entry_ordinal": 14931,
+        "return_ordinal": 18856,
+        "frame_boundaries_crossed": 0
+      },
+      {
+        "call": 18,
+        "task": "0xc2128",
+        "entry_offset": 89,
+        "return_offset": 89,
+        "entry_ordinal": 12018,
+        "return_ordinal": 15962,
+        "frame_boundaries_crossed": 0
+      }
+    ],
+    "transitions": {
+      "movie0": [
+        {
+          "offset": 26,
+          "ordinal": 8235,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 53,
+          "ordinal": 16603,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 91,
+          "ordinal": 4618,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 120,
+          "ordinal": 14719,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 120,
+          "ordinal": 15342,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 133,
+          "ordinal": 17775,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 133,
+          "ordinal": 18080,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 146,
+          "ordinal": 19891,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 146,
+          "ordinal": 20196,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 159,
+          "ordinal": 19156,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 159,
+          "ordinal": 19461,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 172,
+          "ordinal": 18531,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 172,
+          "ordinal": 18836,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 185,
+          "ordinal": 19465,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 185,
+          "ordinal": 19781,
+          "old": 0,
+          "value": 1,
+          "observed_at": "0x160832",
+          "preceding_observed_instruction": {
+            "pc": "0x16082a",
+            "instruction": "move.w #$1, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 198,
+          "ordinal": 18105,
+          "old": 1,
+          "value": 0,
+          "observed_at": "0x160966",
+          "preceding_observed_instruction": {
+            "pc": "0x16095e",
+            "instruction": "move.w #$0, $47b80.l",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        }
+      ],
+      "movie1": [],
+      "held": [
+        {
+          "offset": 1,
+          "ordinal": 5271,
+          "old": 0,
+          "value": 524288,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 9,
+          "ordinal": 7626,
+          "old": 524288,
+          "value": 0,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 26,
+          "ordinal": 4703,
+          "old": 0,
+          "value": 33562624,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 53,
+          "ordinal": 20121,
+          "old": 33562624,
+          "value": 1048576,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 200,
+          "ordinal": 8591,
+          "old": 1048576,
+          "value": 0,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 226,
+          "ordinal": 8998,
+          "old": 0,
+          "value": 16,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        },
+        {
+          "offset": 234,
+          "ordinal": 11458,
+          "old": 16,
+          "value": 0,
+          "observed_at": "0x15fcd2",
+          "preceding_observed_instruction": {
+            "pc": "0x15fcd0",
+            "instruction": "move.l a1, (a0)",
+            "source": "frozen resident image"
+          },
+          "task": "0xc2128"
+        }
+      ]
+    }
+  }
+}

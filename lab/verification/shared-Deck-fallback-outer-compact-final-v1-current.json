@@ -1,0 +1,16 @@
+{
+  "status": "terminal_native_deeper_all_CCR_banks_fallback_ABI_match",
+  "pid": 23166,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-fallback-outer-compact-final-v1/20261021T040235.401080Z",
+  "new_training": false,
+  "whole_game_complete": false,
+  "completed": 1280,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/fallback.py": "a3770af0af37c6a342dce46a8b2ddd01cc523b8f7326426bab8a15e820e41c4b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/native_retained_final_checker.py": "9056d763c33da72e9276f0bba80590e2c6afec009c1887e41ec951ac6e84ad10",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-fallback-outer-compact-final-v1/20261021T040235.401080Z/gate-as-run.json": "ae52ad65fe7f803854a5f47c9901786f927ae7eb2f6fc326a0d351b8950adabb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-fallback-outer-compact-final-v1/20261021T040235.401080Z/deeper-gate-as-run.json": "65f156a68cd51c6550b5eb991594a33ae3f44cc991e513601c548e992fcc8478",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-outer-compact-final-v1/20261021T040013.924064Z/build/native-shared.bin": "ca601d1c9494683dd99bb6a7ef830293388b293d7ccad53e485d1373d55fa588"
+  },
+  "scope": "Exact full-CPU/full-RAM fallback across all CCR values and both banks, including both alias pairs; prototype addresses, no fresh gameplay. 1280 cases:5roots x2banks x32CCR x3invalid task pointers plus busy same-root fallback. Dirty D2/D3 values vary with flags, not a full additional Cartesian dimension. Scan minimum-save no-active-object path; input poll/helper fixtures and coordinate GPU fixture; E540 actual CPU. No arbitrary asynchronous reentrancy claim."
+}

@@ -1,0 +1,17 @@
+THIS_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+LAB_ROOT := $(abspath $(THIS_DIR)/../../../..)
+CROSS ?= $(LAB_ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= build-frame-reference-single
+CFLAGS := -m68000 -msoft-float -std=c99 -Os -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror
+.PHONY: frame-reference-single
+frame-reference-single: $(BUILD)/frame-reference-single.bin
+$(BUILD):
+	mkdir -p $@
+$(BUILD)/body.o: $(THIS_DIR)/frame-reference-single-native.c $(THIS_DIR)/frame-reference-single-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -c $< -o $@
+$(BUILD)/shim.o: $(THIS_DIR)/frame-reference-single-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/frame-reference-single.elf: $(BUILD)/shim.o $(BUILD)/body.o
+	$(CROSS)ld -Ttext=0x148000 -e biwn_native_frame_reference_single -o $@ $^
+$(BUILD)/frame-reference-single.bin: $(BUILD)/frame-reference-single.elf
+	$(CROSS)objcopy -O binary $< $@

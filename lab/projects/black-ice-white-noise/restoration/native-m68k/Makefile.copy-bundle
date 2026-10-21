@@ -1,0 +1,13 @@
+include Makefile.heap-bundle
+.DEFAULT_GOAL := copy-bundle
+COPY_SOURCE ?= copy-native.c
+.PHONY: copy-bundle
+copy-bundle: $(BUILD)/native-copy-bundle.elf $(BUILD)/native-copy-bundle.bin $(BUILD)/runtime-original.bin $(BUILD)/scheduler-yield.bin $(BUILD)/scheduler-remove.bin
+$(BUILD)/copy-shims.o: copy-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/copy-native.o: $(COPY_SOURCE) copy-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-copy-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize-heap.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o $(BUILD)/scheduler-shims.o $(BUILD)/scheduler-native.o $(BUILD)/heap-shims.o $(BUILD)/heap-allocate-native.o $(BUILD)/heap-compact-native.o $(BUILD)/copy-shims.o $(BUILD)/copy-native.o copy-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T copy-bundle.ld -Map $(BUILD)/native-copy-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-copy-bundle.bin: $(BUILD)/native-copy-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

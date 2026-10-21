@@ -1,0 +1,878 @@
+{
+  "status": "generated_unverified",
+  "instructions": 144,
+  "instructions_decoded": [
+    {
+      "address": 15740944,
+      "size": 6,
+      "bytes": "981e306400f0",
+      "assembly": "movei   $f03064,r30"
+    },
+    {
+      "address": 15740950,
+      "size": 2,
+      "bytes": "d3c0",
+      "assembly": "jump    (r30)"
+    },
+    {
+      "address": 15740952,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    },
+    {
+      "address": 15741028,
+      "size": 6,
+      "bytes": "981e210000f0",
+      "assembly": "movei   $f02100,r30"
+    },
+    {
+      "address": 15741034,
+      "size": 2,
+      "bytes": "a7dd",
+      "assembly": "load    (r30),r29"
+    },
+    {
+      "address": 15741036,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741038,
+      "size": 2,
+      "bytes": "bff9",
+      "assembly": "store   r25,(r31)"
+    },
+    {
+      "address": 15741040,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741042,
+      "size": 2,
+      "bytes": "bff8",
+      "assembly": "store   r24,(r31)"
+    },
+    {
+      "address": 15741044,
+      "size": 6,
+      "bytes": "9818ff0000df",
+      "assembly": "movei   $dfff00,r24"
+    },
+    {
+      "address": 15741050,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741052,
+      "size": 2,
+      "bytes": "bffb",
+      "assembly": "store   r27,(r31)"
+    },
+    {
+      "address": 15741054,
+      "size": 2,
+      "bytes": "a71b",
+      "assembly": "load    (r24),r27"
+    },
+    {
+      "address": 15741056,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741058,
+      "size": 2,
+      "bytes": "bffa",
+      "assembly": "store   r26,(r31)"
+    },
+    {
+      "address": 15741060,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741062,
+      "size": 2,
+      "bytes": "bff7",
+      "assembly": "store   r23,(r31)"
+    },
+    {
+      "address": 15741064,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741066,
+      "size": 2,
+      "bytes": "bff6",
+      "assembly": "store   r22,(r31)"
+    },
+    {
+      "address": 15741068,
+      "size": 2,
+      "bytes": "cc17",
+      "assembly": "move    pc,r23"
+    },
+    {
+      "address": 15741070,
+      "size": 6,
+      "bytes": "981c003c0000",
+      "assembly": "movei   $3c,r28"
+    },
+    {
+      "address": 15741076,
+      "size": 2,
+      "bytes": "1397",
+      "assembly": "sub     r28,r23"
+    },
+    {
+      "address": 15741078,
+      "size": 2,
+      "bytes": "cc19",
+      "assembly": "move    pc,r25"
+    },
+    {
+      "address": 15741080,
+      "size": 6,
+      "bytes": "981a00880000",
+      "assembly": "movei   $88,r26"
+    },
+    {
+      "address": 15741086,
+      "size": 2,
+      "bytes": "0359",
+      "assembly": "add     r26,r25"
+    },
+    {
+      "address": 15741088,
+      "size": 2,
+      "bytes": "35bb",
+      "assembly": "btst    $d,r27"
+    },
+    {
+      "address": 15741090,
+      "size": 2,
+      "bytes": "d5e2",
+      "assembly": "jr      z,00F030C2"
+    },
+    {
+      "address": 15741092,
+      "size": 2,
+      "bytes": "3cbb",
+      "assembly": "bclr    $5,r27"
+    },
+    {
+      "address": 15741094,
+      "size": 2,
+      "bytes": "383b",
+      "assembly": "bset    $1,r27"
+    },
+    {
+      "address": 15741096,
+      "size": 2,
+      "bytes": "bf1b",
+      "assembly": "store   r27,(r24)"
+    },
+    {
+      "address": 15741098,
+      "size": 2,
+      "bytes": "0a18",
+      "assembly": "addq    $10,r24"
+    },
+    {
+      "address": 15741100,
+      "size": 2,
+      "bytes": "a71b",
+      "assembly": "load    (r24),r27"
+    },
+    {
+      "address": 15741102,
+      "size": 2,
+      "bytes": "385b",
+      "assembly": "bset    $2,r27"
+    },
+    {
+      "address": 15741104,
+      "size": 2,
+      "bytes": "bf1b",
+      "assembly": "store   r27,(r24)"
+    },
+    {
+      "address": 15741106,
+      "size": 2,
+      "bytes": "1998",
+      "assembly": "subq    $c,r24"
+    },
+    {
+      "address": 15741108,
+      "size": 2,
+      "bytes": "a71a",
+      "assembly": "load    (r24),r26"
+    },
+    {
+      "address": 15741110,
+      "size": 2,
+      "bytes": "08d8",
+      "assembly": "addq    $6,r24"
+    },
+    {
+      "address": 15741112,
+      "size": 2,
+      "bytes": "a31b",
+      "assembly": "loadw   (r24),r27"
+    },
+    {
+      "address": 15741114,
+      "size": 2,
+      "bytes": "355b",
+      "assembly": "btst    $a,r27"
+    },
+    {
+      "address": 15741116,
+      "size": 2,
+      "bytes": "d5e1",
+      "assembly": "jr      nz,00F030DC"
+    },
+    {
+      "address": 15741118,
+      "size": 2,
+      "bytes": "2b5a",
+      "assembly": "or      r26,r26"
+    },
+    {
+      "address": 15741120,
+      "size": 2,
+      "bytes": "d320",
+      "assembly": "jump    (r25)"
+    },
+    {
+      "address": 15741122,
+      "size": 2,
+      "bytes": "0997",
+      "assembly": "addq    $c,r23"
+    },
+    {
+      "address": 15741124,
+      "size": 2,
+      "bytes": "a6fa",
+      "assembly": "load    (r23),r26"
+    },
+    {
+      "address": 15741126,
+      "size": 2,
+      "bytes": "7c1a",
+      "assembly": "cmpq    $0,r26"
+    },
+    {
+      "address": 15741128,
+      "size": 2,
+      "bytes": "d4c2",
+      "assembly": "jr      z,00F030D6"
+    },
+    {
+      "address": 15741130,
+      "size": 2,
+      "bytes": "1997",
+      "assembly": "subq    $c,r23"
+    },
+    {
+      "address": 15741132,
+      "size": 2,
+      "bytes": "8b3c",
+      "assembly": "move    r25,r28"
+    },
+    {
+      "address": 15741134,
+      "size": 2,
+      "bytes": "0b9c",
+      "assembly": "addq    $1c,r28"
+    },
+    {
+      "address": 15741136,
+      "size": 2,
+      "bytes": "0997",
+      "assembly": "addq    $c,r23"
+    },
+    {
+      "address": 15741138,
+      "size": 2,
+      "bytes": "0b9c",
+      "assembly": "addq    $1c,r28"
+    },
+    {
+      "address": 15741140,
+      "size": 2,
+      "bytes": "d380",
+      "assembly": "jump    (r28)"
+    },
+    {
+      "address": 15741142,
+      "size": 2,
+      "bytes": "35db",
+      "assembly": "btst    $e,r27"
+    },
+    {
+      "address": 15741144,
+      "size": 2,
+      "bytes": "d522",
+      "assembly": "jr      z,00F030EC"
+    },
+    {
+      "address": 15741146,
+      "size": 2,
+      "bytes": "3bfb",
+      "assembly": "bset    $1f,r27"
+    },
+    {
+      "address": 15741148,
+      "size": 2,
+      "bytes": "0a18",
+      "assembly": "addq    $10,r24"
+    },
+    {
+      "address": 15741150,
+      "size": 2,
+      "bytes": "a71c",
+      "assembly": "load    (r24),r28"
+    },
+    {
+      "address": 15741152,
+      "size": 2,
+      "bytes": "2b9c",
+      "assembly": "or      r28,r28"
+    },
+    {
+      "address": 15741154,
+      "size": 2,
+      "bytes": "1a18",
+      "assembly": "subq    $10,r24"
+    },
+    {
+      "address": 15741156,
+      "size": 2,
+      "bytes": "a6fc",
+      "assembly": "load    (r23),r28"
+    },
+    {
+      "address": 15741158,
+      "size": 2,
+      "bytes": "0917",
+      "assembly": "addq    $8,r23"
+    },
+    {
+      "address": 15741160,
+      "size": 2,
+      "bytes": "befc",
+      "assembly": "store   r28,(r23)"
+    },
+    {
+      "address": 15741162,
+      "size": 2,
+      "bytes": "1917",
+      "assembly": "subq    $8,r23"
+    },
+    {
+      "address": 15741164,
+      "size": 2,
+      "bytes": "a6fa",
+      "assembly": "load    (r23),r26"
+    },
+    {
+      "address": 15741166,
+      "size": 2,
+      "bytes": "0897",
+      "assembly": "addq    $4,r23"
+    },
+    {
+      "address": 15741168,
+      "size": 2,
+      "bytes": "a6fc",
+      "assembly": "load    (r23),r28"
+    },
+    {
+      "address": 15741170,
+      "size": 2,
+      "bytes": "1897",
+      "assembly": "subq    $4,r23"
+    },
+    {
+      "address": 15741172,
+      "size": 2,
+      "bytes": "7b5c",
+      "assembly": "cmp     r26,r28"
+    },
+    {
+      "address": 15741174,
+      "size": 2,
+      "bytes": "d454",
+      "assembly": "jr      nn,00F030FC"
+    },
+    {
+      "address": 15741176,
+      "size": 2,
+      "bytes": "3c1b",
+      "assembly": "bclr    $0,r27"
+    },
+    {
+      "address": 15741178,
+      "size": 2,
+      "bytes": "bf1b",
+      "assembly": "store   r27,(r24)"
+    },
+    {
+      "address": 15741180,
+      "size": 6,
+      "bytes": "981bff2400df",
+      "assembly": "movei   $dfff24,r27"
+    },
+    {
+      "address": 15741186,
+      "size": 2,
+      "bytes": "8b79",
+      "assembly": "move    r27,r25"
+    },
+    {
+      "address": 15741188,
+      "size": 2,
+      "bytes": "089b",
+      "assembly": "addq    $4,r27"
+    },
+    {
+      "address": 15741190,
+      "size": 2,
+      "bytes": "8c78",
+      "assembly": "moveq   3,r24"
+    },
+    {
+      "address": 15741192,
+      "size": 2,
+      "bytes": "a77c",
+      "assembly": "load    (r27),r28"
+    },
+    {
+      "address": 15741194,
+      "size": 2,
+      "bytes": "a73e",
+      "assembly": "load    (r25),r30"
+    },
+    {
+      "address": 15741196,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26"
+    },
+    {
+      "address": 15741198,
+      "size": 2,
+      "bytes": "3c1a",
+      "assembly": "bclr    $0,r26"
+    },
+    {
+      "address": 15741200,
+      "size": 2,
+      "bytes": "bf5c",
+      "assembly": "store   r28,(r26)"
+    },
+    {
+      "address": 15741202,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26"
+    },
+    {
+      "address": 15741204,
+      "size": 2,
+      "bytes": "3c1a",
+      "assembly": "bclr    $0,r26"
+    },
+    {
+      "address": 15741206,
+      "size": 2,
+      "bytes": "1838",
+      "assembly": "subq    $1,r24"
+    },
+    {
+      "address": 15741208,
+      "size": 2,
+      "bytes": "d6f4",
+      "assembly": "jr      nn,00F03108"
+    },
+    {
+      "address": 15741210,
+      "size": 2,
+      "bytes": "bf5e",
+      "assembly": "store   r30,(r26)"
+    },
+    {
+      "address": 15741212,
+      "size": 2,
+      "bytes": "befa",
+      "assembly": "store   r26,(r23)"
+    },
+    {
+      "address": 15741214,
+      "size": 6,
+      "bytes": "9818002000f1",
+      "assembly": "movei   $f10020,r24"
+    },
+    {
+      "address": 15741220,
+      "size": 2,
+      "bytes": "8c3c",
+      "assembly": "moveq   1,r28"
+    },
+    {
+      "address": 15741222,
+      "size": 2,
+      "bytes": "391c",
+      "assembly": "bset    $8,r28"
+    },
+    {
+      "address": 15741224,
+      "size": 2,
+      "bytes": "bb1c",
+      "assembly": "storew  r28,(r24)"
+    },
+    {
+      "address": 15741226,
+      "size": 2,
+      "bytes": "a7f6",
+      "assembly": "load    (r31),r22"
+    },
+    {
+      "address": 15741228,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741230,
+      "size": 2,
+      "bytes": "a7f7",
+      "assembly": "load    (r31),r23"
+    },
+    {
+      "address": 15741232,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741234,
+      "size": 2,
+      "bytes": "a7fa",
+      "assembly": "load    (r31),r26"
+    },
+    {
+      "address": 15741236,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741238,
+      "size": 2,
+      "bytes": "a7fb",
+      "assembly": "load    (r31),r27"
+    },
+    {
+      "address": 15741240,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741242,
+      "size": 2,
+      "bytes": "a7f8",
+      "assembly": "load    (r31),r24"
+    },
+    {
+      "address": 15741244,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741246,
+      "size": 2,
+      "bytes": "a7f9",
+      "assembly": "load    (r31),r25"
+    },
+    {
+      "address": 15741248,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741250,
+      "size": 6,
+      "bytes": "981e210000f0",
+      "assembly": "movei   $f02100,r30"
+    },
+    {
+      "address": 15741256,
+      "size": 2,
+      "bytes": "3c7d",
+      "assembly": "bclr    $3,r29"
+    },
+    {
+      "address": 15741258,
+      "size": 2,
+      "bytes": "395d",
+      "assembly": "bset    $a,r29"
+    },
+    {
+      "address": 15741260,
+      "size": 2,
+      "bytes": "a7fc",
+      "assembly": "load    (r31),r28"
+    },
+    {
+      "address": 15741262,
+      "size": 2,
+      "bytes": "085c",
+      "assembly": "addq    $2,r28"
+    },
+    {
+      "address": 15741264,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741266,
+      "size": 2,
+      "bytes": "d380",
+      "assembly": "jump    (r28)"
+    },
+    {
+      "address": 15741268,
+      "size": 2,
+      "bytes": "bfdd",
+      "assembly": "store   r29,(r30)"
+    },
+    {
+      "address": 15741270,
+      "size": 6,
+      "bytes": "981bff2400df",
+      "assembly": "movei   $dfff24,r27"
+    },
+    {
+      "address": 15741276,
+      "size": 2,
+      "bytes": "8c7e",
+      "assembly": "moveq   3,r30"
+    },
+    {
+      "address": 15741278,
+      "size": 2,
+      "bytes": "8d36",
+      "assembly": "moveq   9,r22"
+    },
+    {
+      "address": 15741280,
+      "size": 2,
+      "bytes": "63de",
+      "assembly": "shlq    $2,r30"
+    },
+    {
+      "address": 15741282,
+      "size": 2,
+      "bytes": "0897",
+      "assembly": "addq    $4,r23"
+    },
+    {
+      "address": 15741284,
+      "size": 2,
+      "bytes": "a6f8",
+      "assembly": "load    (r23),r24"
+    },
+    {
+      "address": 15741286,
+      "size": 2,
+      "bytes": "1897",
+      "assembly": "subq    $4,r23"
+    },
+    {
+      "address": 15741288,
+      "size": 2,
+      "bytes": "d460",
+      "assembly": "jr      00F03170"
+    },
+    {
+      "address": 15741290,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    },
+    {
+      "address": 15741292,
+      "size": 2,
+      "bytes": "8e1a",
+      "assembly": "moveq   16,r26"
+    },
+    {
+      "address": 15741294,
+      "size": 2,
+      "bytes": "befa",
+      "assembly": "store   r26,(r23)"
+    },
+    {
+      "address": 15741296,
+      "size": 2,
+      "bytes": "1836",
+      "assembly": "subq    $1,r22"
+    },
+    {
+      "address": 15741298,
+      "size": 2,
+      "bytes": "d322",
+      "assembly": "jump    z,(r25)"
+    },
+    {
+      "address": 15741300,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    },
+    {
+      "address": 15741302,
+      "size": 2,
+      "bytes": "2fdb",
+      "assembly": "xor     r30,r27"
+    },
+    {
+      "address": 15741304,
+      "size": 2,
+      "bytes": "a77c",
+      "assembly": "load    (r27),r28"
+    },
+    {
+      "address": 15741306,
+      "size": 2,
+      "bytes": "7b98",
+      "assembly": "cmp     r28,r24"
+    },
+    {
+      "address": 15741308,
+      "size": 2,
+      "bytes": "d6e1",
+      "assembly": "jr      nz,00F0316C"
+    },
+    {
+      "address": 15741310,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    },
+    {
+      "address": 15741312,
+      "size": 2,
+      "bytes": "183a",
+      "assembly": "subq    $1,r26"
+    },
+    {
+      "address": 15741314,
+      "size": 2,
+      "bytes": "d6c1",
+      "assembly": "jr      nz,00F03170"
+    },
+    {
+      "address": 15741316,
+      "size": 2,
+      "bytes": "befa",
+      "assembly": "store   r26,(r23)"
+    },
+    {
+      "address": 15741318,
+      "size": 2,
+      "bytes": "1997",
+      "assembly": "subq    $c,r23"
+    },
+    {
+      "address": 15741320,
+      "size": 2,
+      "bytes": "a6fa",
+      "assembly": "load    (r23),r26"
+    },
+    {
+      "address": 15741322,
+      "size": 2,
+      "bytes": "2fdb",
+      "assembly": "xor     r30,r27"
+    },
+    {
+      "address": 15741324,
+      "size": 2,
+      "bytes": "0c9a",
+      "assembly": "addqt   $4,r26"
+    },
+    {
+      "address": 15741326,
+      "size": 2,
+      "bytes": "a77c",
+      "assembly": "load    (r27),r28"
+    },
+    {
+      "address": 15741328,
+      "size": 2,
+      "bytes": "bf5c",
+      "assembly": "store   r28,(r26)"
+    },
+    {
+      "address": 15741330,
+      "size": 2,
+      "bytes": "1836",
+      "assembly": "subq    $1,r22"
+    },
+    {
+      "address": 15741332,
+      "size": 2,
+      "bytes": "d741",
+      "assembly": "jr      nz,00F0318A"
+    },
+    {
+      "address": 15741334,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    },
+    {
+      "address": 15741336,
+      "size": 2,
+      "bytes": "befa",
+      "assembly": "store   r26,(r23)"
+    },
+    {
+      "address": 15741338,
+      "size": 2,
+      "bytes": "d320",
+      "assembly": "jump    (r25)"
+    },
+    {
+      "address": 15741340,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop"
+    }
+  ],
+  "source_payload_sha256": "f4c53158cbe0a94ad8d4613e70ac1a3aa6b3eed0994b9ff7445374112f55e7c5",
+  "source_sha256": {
+    "biwn_gpu_cd_marker_ISR.c": "cf788edac7b3a189d0a69ac43fe5b1a5997af66e0897549f00e1bdabeb7f94e2",
+    "biwn_gpu_cd_marker_ISR.h": "0c5228818f27b8bedd0a05df3dd6832d324f09e05d6fdb5a6122c0bc5561f9d3"
+  },
+  "generator_sha256": "db258403358aa3af10ac0302e2a27ee7a40920f51c82f5d545c904f52babca0e",
+  "whole_game_complete": false,
+  "new_published_components": 0
+}

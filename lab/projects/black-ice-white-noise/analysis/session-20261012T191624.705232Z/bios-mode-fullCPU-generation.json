@@ -1,0 +1,250 @@
+{
+  "status": "generated_unverified",
+  "instructions": 31,
+  "instructions_decoded": [
+    {
+      "address": 12294,
+      "size": 4,
+      "bytes": "600004ca",
+      "assembly": "bra.w $34d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13522,
+      "size": 2,
+      "bytes": "3400",
+      "assembly": "move.w d0, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13524,
+      "size": 4,
+      "bytes": "c47c0001",
+      "assembly": "and.w #$1, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13528,
+      "size": 4,
+      "bytes": "d47c0001",
+      "assembly": "add.w #$1, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13532,
+      "size": 4,
+      "bytes": "08000001",
+      "assembly": "btst.l #$1, d0",
+      "classification": "decoded_instruction",
+      "raw_decoder_assembly": "btst.b #$1, d0",
+      "decoder_display_correction": {
+        "scope": "BTST with data-register destination only; register operand32bits, memory8bits. No runtime flags computed.",
+        "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf#page=165",
+        "manual_printed_pages": "4-61..4-63"
+      }
+    },
+    {
+      "address": 13536,
+      "size": 2,
+      "bytes": "6704",
+      "assembly": "beq.b $34e6",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13538,
+      "size": 4,
+      "bytes": "08c20003",
+      "assembly": "bset.b #$3, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13542,
+      "size": 4,
+      "bytes": "847c1500",
+      "assembly": "or.w #$1500, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13546,
+      "size": 6,
+      "bytes": "33c200dfff0a",
+      "assembly": "move.w d2, $dfff0a.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13552,
+      "size": 2,
+      "bytes": "6152",
+      "assembly": "bsr.b $3544",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13554,
+      "size": 4,
+      "bytes": "08c20009",
+      "assembly": "bset.b #$9, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13558,
+      "size": 2,
+      "bytes": "b441",
+      "assembly": "cmp.w d1, d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13560,
+      "size": 2,
+      "bytes": "670a",
+      "assembly": "beq.b $3504",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13562,
+      "size": 4,
+      "bytes": "323c000f",
+      "assembly": "move.w #$f, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13566,
+      "size": 4,
+      "bytes": "51c9fffe",
+      "assembly": "dbra d1, $34fe",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13570,
+      "size": 2,
+      "bytes": "60ce",
+      "assembly": "bra.b $34d2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13572,
+      "size": 2,
+      "bytes": "4e75",
+      "assembly": "rts",
+      "classification": "decoded_instruction",
+      "manual_semantics": {
+        "scope": "RTS only; M68000 manual printed 4-169",
+        "stack_pointer_delta": 4,
+        "program_counter": "loaded from return stack; value unknown",
+        "condition_codes": "unchanged",
+        "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+      }
+    },
+    {
+      "address": 13636,
+      "size": 6,
+      "bytes": "223900dfff00",
+      "assembly": "move.l $dfff00.l, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13642,
+      "size": 4,
+      "bytes": "c27c2000",
+      "assembly": "and.w #$2000, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13646,
+      "size": 2,
+      "bytes": "67f4",
+      "assembly": "beq.b $3544",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13648,
+      "size": 6,
+      "bytes": "323900dfff0a",
+      "assembly": "move.w $dfff0a.l, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13654,
+      "size": 2,
+      "bytes": "3f01",
+      "assembly": "move.w d1, -(a7)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13656,
+      "size": 6,
+      "bytes": "4ab900dfff04",
+      "assembly": "tst.l $dfff04.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13662,
+      "size": 4,
+      "bytes": "0241ff00",
+      "assembly": "andi.w #$ff00, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13666,
+      "size": 4,
+      "bytes": "0c410400",
+      "assembly": "cmpi.w #$400, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13670,
+      "size": 4,
+      "bytes": "6600000a",
+      "assembly": "bne.w $3572",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13674,
+      "size": 6,
+      "bytes": "31fc00003e00",
+      "assembly": "move.w #$0, $3e00.w",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13680,
+      "size": 2,
+      "bytes": "6008",
+      "assembly": "bra.b $357a",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13682,
+      "size": 8,
+      "bytes": "33fc000100003e00",
+      "assembly": "move.w #$1, $3e00.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13690,
+      "size": 2,
+      "bytes": "321f",
+      "assembly": "move.w (a7)+, d1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 13692,
+      "size": 2,
+      "bytes": "4e75",
+      "assembly": "rts",
+      "classification": "decoded_instruction",
+      "manual_semantics": {
+        "scope": "RTS only; M68000 manual printed 4-169",
+        "stack_pointer_delta": 4,
+        "program_counter": "loaded from return stack; value unknown",
+        "condition_codes": "unchanged",
+        "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+      }
+    }
+  ],
+  "BIOS_sha256": "646a0687a01dc6c1fffff508ca25c14b78d30bdfcfa958d4c3e20f6bf78e4f1b",
+  "source_sha256": {
+    "biwn_bios_mode_cpu.c": "1a0fe1197c1618c651a9de2a222d70530a1fa53bd032d1e498676e3c3aed39a8",
+    "biwn_bios_mode_cpu.h": "fce7189147712474ad49bfde63248d4887a0dd33abc1c7cdb20a9d38c65d9c7b"
+  },
+  "generator_sha256": "1077981e6bc67071d56349a07a59a389388c2e3c7664cd206b834125a04f99b2",
+  "whole_game_complete": false
+}

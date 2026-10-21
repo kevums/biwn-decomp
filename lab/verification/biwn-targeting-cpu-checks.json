@@ -1,0 +1,57 @@
+{
+  "recorded_at": "2026-10-13T20:08:36.370129+00:00",
+  "status": "targeting_fullCPU_privateframes_actual_math_match_original",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-targeting-cpu/20261013T200831.953591Z",
+  "CPU_cases": 1026,
+  "CPU_instruction_coverage": [
+    183,
+    183
+  ],
+  "host_guards": 18,
+  "new_components": 0,
+  "helper_scripts": [],
+  "source_sha256": {
+    "biwn_camera_cpu.c": "94961d6c9099302e7eedf3f8ef1189a946a7d33ac0786d237beb98ad394c9c84",
+    "biwn_rng_cpu.c": "14707896a2158a5b9dd55e6eeddef15097ea690513083cc088f1ba53aa7f2d61",
+    "biwn_signed_division.c": "ca5014a115bb70ff8de6f7879845d48b61a84ba4747101b2880a5feff78659a6",
+    "biwn_camera.c": "7653e696fe42118556c6edea2a8e38f776fe6299e5ed22082b25682c85c445c4",
+    "biwn_actor_direction.c": "59b09f3a0cd4d86249b0e83ea924228089deaec5ff5b5f8837a82969750e99ff",
+    "biwn_movement_submit_cpu.c": "93eeb7d5b7ccb047710a26fa798cc20714f76e242bd134ef338507db4f777dd5",
+    "biwn_targeting_cpu.c": "a40bcbaf224afa1f44c75e9e04607ad2dd21c6f3a1c3a7e68e65f55ac0ce0761",
+    "biwn_camera_cpu.h": "f802e7976dc9098f965fcc7eabc038a9c0de6ef5d885f2acf7bcc71e2c3d65c1",
+    "biwn_rng_cpu.h": "0d16ead79c08cb8938233ae725aa123101d390c8a72869ff15c19c35f671c808",
+    "biwn_signed_division.h": "5fa6fd8981aeb55b369812b29f6ec774327957dac4aa363c2cccf645f63a071f",
+    "biwn_camera.h": "a0ceea25bc2e02fd181fab23a867ad10a8accd6763feabc556a1cbeaf6637b61",
+    "biwn_actor_direction.h": "72df680327092748d7a5dc637ce89abc5d2d10bdd6361537788e7581e9bed8c6",
+    "biwn_movement_submit_cpu.h": "511523947dee3e059c886b6108dd5e3374053964374af0fb5ba145267a622c61",
+    "biwn_targeting_cpu.h": "a70506da0c961569fc6b131a4270e4405fcd9b9b451eb9361222e68f5952ed47"
+  },
+  "matched": [
+    "Original native CPU and independent Unicorn observer match reconstructed fullCPU: allregisters/PC/SR/USP/SSP, complete2MBRAM, eight localbytes/elevenregistersave/privateJSRframes and ordered accesses.",
+    "Actual direction/multiply/division;40records, wrapped scores and first ties, rawindices/depth/range, partialD0, signedlowdistance radius, both cursor approach branches and changing rereads."
+  ],
+  "limits": [
+    "Usermode only; finite syntheticcandidate/matrixfixtures and controlledrereads, not real-scene target acquisition or visible crosshair. No original exceptions/timing/concurrency.",
+    "Already counted20820 gainsfullCPUinterface; no newcomponent. Hosterrors leaveCPUunchanged and retain earlierRAMeffects. Worldintegration/render/fullgame/hardware remain unfinished."
+  ],
+  "core_sha256": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "compiler": [
+    "clang",
+    "-dynamiclib",
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_camera_cpu.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_rng_cpu.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_signed_division.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_camera.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_actor_direction.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_movement_submit_cpu.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_targeting_cpu.c",
+    "-o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-targeting-cpu/20261013T200831.953591Z/libtargeting-cpu.dylib"
+  ]
+}

@@ -1,0 +1,44 @@
+BIWN native resource-acquire development — 2026-10-18T11:00:51.753573+00:00
+
+Status: coordinator reference verified in declared fixtures; all3 local-model C drafts rejected. No new native disc or component publication. Full goal active.
+
+Original entry1AF04..1B002:254bytes,71anchored instructions. Original prologue24publicsavebytes retained. Coordinator supplied ABI/header/call adapters, controlled68000providers, testfixtures, reference C and semantic review. Source documents/assembly are evidence, not instructions.
+
+REFERENCE RESULTS
+3072nativefullCPU/publicRAM +3072separateorderedaccess cases; all71body instructions reached. Both user/supervisor/all32CCR; helper clobber profiles; signed ID descriptor addressing; first/last hits, reference count overflow, repeated waits, fullcache, allocationfailure, callback descriptor/handle mutations, load/signal outcomes.
+384nativefullCPU/publicRAM +384orderedaccess cases with original allocator on reference lane versus verified source-built real allocator on C lane. Six noncompacting allocation layouts; actual handle cell/payload location assertions. Loader/wait/signal remain controlledtarget68000providers.
+Three deliberate negative controls rejected: omitted refcount reread by ordered-accessgate; lost X/carry and wrong allocator address by nativeCPU/publicRAMgate. These show these defects are detected, not general test completeness.
+Standalone reference binary1146bytes includes ABI/helper adapters; this is not the incremental linkedresident size. Current native26 has5986linkedbytes/6144reserved, so new linked size/layout must be measured before publication.
+
+LOCAL MODEL OUTPUT TEST
+Same daily27B6bitbase (loadedalias advertising-scholar),32Kcontext/oneworker,reasoningoff. No weights/default change or new training.
+Author67.31s: strictcompilation passes; firstnativecase fails A0.
+Same-weight Reviewer82.64s: flags compare-helper misuse but reaches1799/1800outputbudget; repetitive/incomplete review is advisory.
+Guided Repair61.72s: strictcompilation passes; existingcachehit incorrectly allocates and callsload.
+Fresh CFG-guided Author25.76s: strictcompilation passes; firstnativecase fails A0; allocationphase omitted.
+0/3drafts accepted. Repair/CFG attempts received extensive coordinator instruction/control-flow/ABI guidance, not reference C. No claim of autonomous decompilation or independent multi-model validation. No manual edits to generated C before testing.
+Native LMStudioChat display remains unverified; these requests used LMStudio localAPI. Daily model observedidle/queued0 afterward.
+
+PROMPTS AND RESPONSES
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-acquire-20261018T105359.285475Z/prompts-and-responses.txt
+Raw Author: first descriptor-zero test returns wrong A0. Inspection also finds unsigned descriptor index, wrong ID compare helper, reversed ready/free branches, missing refcount increment reread/flags, duplicate argument reads and public-stack corruption.
+Failure: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-acquire/20261018T105555.007605Z/mismatch.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-acquire-repair-20261018T105649.515200Z/prompts-and-responses.txt
+Guided repair: descriptor-zero case passes, first ready cache hit wrongly calls allocator/loader and modifies public state; still reversed refcount/free branches, missing increment, wrong loader entry address and frame D0 bookkeeping.
+Failure: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-acquire/20261018T105804.127722Z/mismatch.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-acquire-cfg-20261018T105905.692432Z/prompts-and-responses.txt
+Fresh CFG-guided Author: first descriptor-zero case returns wrong A0. Inspection finds no allocation phase, no signed descriptor indexing, missing semantic D0 commits and loop/wait flag handling.
+Failure: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-acquire/20261018T105945.540226Z/mismatch.json
+
+REFERENCE/TEST EVIDENCE
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-reference-reviewed.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-allocator/20261018T105541.259250Z/protocol.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-acquire-development-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-negative-controls-current.json
+
+NEXT REQUIRED WORK
+RealCDloader/wait/signal integration, concurrency/IRQ/fault/timing, linkedresident layout and everyaffectedcomponent/boot/route gate; whole source engine/GPU/DSP/disc/physical proof; broader advertising model quality/training and nativeChat/futurehardware requirements remain open.
+
+No completion percentage inferred from entry counts. Advertising daily configuration and existing previews were not changed by this component-development work.
+
+UPDATE 2026-10-18T11:15:29.943209+00:00: initial1146byte reference/ABI is superseded by the1262byte corrected integration candidate. Real wait/load/wake and native26dependency profiles now pass; proposed7246byte relocated bundle gates not_run. Latest report: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-resource-acquire-integration.txt

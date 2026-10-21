@@ -1,0 +1,34 @@
+[
+  {
+    "type": "llm",
+    "modelKey": "local/portable-ailab-4f5658686590-daily-configured",
+    "format": "safetensors",
+    "displayName": "Portable Ailab 4f5658686590 Daily Configured",
+    "publisher": "local",
+    "path": "local/portable-ailab-4f5658686590-daily-configured",
+    "sizeBytes": 22804840649,
+    "indexedModelIdentifier": "local/portable-ailab-4f5658686590-daily-configured",
+    "deviceIdentifier": null,
+    "paramsString": "27B",
+    "architecture": "qwen3_5",
+    "quantization": {
+      "name": "6bit",
+      "bits": 6
+    },
+    "variants": [
+      "local/portable-ailab-4f5658686590-daily-configured@6bit"
+    ],
+    "selectedVariant": "local/portable-ailab-4f5658686590-daily-configured@6bit",
+    "identifier": "portable-ailab-4f5658686590-daily",
+    "ttlMs": 3600000,
+    "lastUsedTime": 1792570046116,
+    "vision": true,
+    "trainedForToolUse": true,
+    "maxContextLength": 262144,
+    "contextLength": 32768,
+    "status": "idle",
+    "queued": 0,
+    "parallel": 1,
+    "engineConfigFileEnabled": false
+  }
+]

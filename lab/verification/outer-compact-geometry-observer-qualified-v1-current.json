@@ -1,0 +1,20 @@
+{
+  "status": "terminal_six_helper_observer_legal_and_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z",
+  "observer": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/observer.c",
+  "observer_sha256": "96f20852014e9ab5233fc06e395b0c2fc7602cdddc99938259a5c7bf5882f42a",
+  "legal_controls": 8,
+  "rejected_fault_controls": 89,
+  "actual_game_execution": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_outer_compact_geometry_observer_v1.py": "95fe65f573ac8fa5c9660c0e8fa40c670edb71e2a788b83092181eb46e8b38ed",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_outer_compact_full_observer_v1.py": "0a93a7e217220413c3692b51c6100e812d97ed020c40e0c587425b0b429b6ddf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/outer_compact_debug_geometry_observer_v1.inc.c": "ceadd1c996627fb1421427a170db002d36b47ccc1b1e7744e39ca946a0a498a0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/observer.c": "96f20852014e9ab5233fc06e395b0c2fc7602cdddc99938259a5c7bf5882f42a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/observer.dylib": "3e0110f8d0d278259a81f8e9ddce4ab1c7edf7cc5e5a17b6f92f6b8a546f39a3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/fixture.c": "e74114c397dc55db6cb8f37289021fa4666e2bcb371a54d3398d894cac331b87",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/fixture.dylib": "b79d50dd28ffc5db1671c2ad343c8c003214050d38ed89fdeff48ce8637b7e14",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-geometry-observer-qualification-v1/20261021T040015.059125Z/cases.json": "948c2a00fa0ac1c199c7c8c1711b8ec4e6d286941a0c8b287e1660d85fb39ab3"
+  },
+  "scope": "Exact new geometry observer fault fixtures, not actual game execution. Read-only exact extracted geometry code; eight legal modes and faults test order, arguments, logical context, real C returns, transform capture, parent state. Other retained monitors are separately qualified. No emulator/game fidelity claim."
+}

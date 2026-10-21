@@ -1,0 +1,205 @@
+{
+  "observations": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/binary-analysis/20261012T192608.234336Z/observations.json",
+  "architecture_basis": "68000 listing copies from 0x180188 to 0xf03200, writes 0xf03200 to 0xf02110 and 1 to 0xf02114. Pinned MAME GPU mapping identifies RAM and PC/control registers. Static interpretation only, no observed GPU execution.",
+  "copied_block_bytes": 2004,
+  "copy_count_basis": "68000 D0.w=0x1f4 followed by MOVE.L and DBF loop: 501 iterations x 4 bytes; copied block may include code and data.",
+  "selected_decode_bytes": 96,
+  "instructions": [
+    {
+      "address": 15741440,
+      "size": 6,
+      "bytes": "9818332c00f0",
+      "assembly": "movei   $f0332c,r24",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741446,
+      "size": 6,
+      "bytes": "981905800018",
+      "assembly": "movei   $180580,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741452,
+      "size": 6,
+      "bytes": "981a3ff000f0",
+      "assembly": "movei   $f03ff0,r26",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741458,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741460,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741462,
+      "size": 2,
+      "bytes": "8c19",
+      "assembly": "moveq   0,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741464,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741466,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741468,
+      "size": 6,
+      "bytes": "981900000019",
+      "assembly": "movei   $190000,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741474,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741476,
+      "size": 2,
+      "bytes": "cc19",
+      "assembly": "move    pc,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741478,
+      "size": 2,
+      "bytes": "d300",
+      "assembly": "jump    (r24)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741480,
+      "size": 2,
+      "bytes": "08d9",
+      "assembly": "addq    $6,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741482,
+      "size": 6,
+      "bytes": "981905800018",
+      "assembly": "movei   $180580,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741488,
+      "size": 6,
+      "bytes": "981a3ff000f0",
+      "assembly": "movei   $f03ff0,r26",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741494,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741496,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741498,
+      "size": 2,
+      "bytes": "8c39",
+      "assembly": "moveq   1,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741500,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741502,
+      "size": 2,
+      "bytes": "089a",
+      "assembly": "addq    $4,r26",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741504,
+      "size": 6,
+      "bytes": "98194000001a",
+      "assembly": "movei   $1a4000,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741510,
+      "size": 2,
+      "bytes": "bf59",
+      "assembly": "store   r25,(r26)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741512,
+      "size": 2,
+      "bytes": "cc19",
+      "assembly": "move    pc,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741514,
+      "size": 2,
+      "bytes": "d300",
+      "assembly": "jump    (r24)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741516,
+      "size": 2,
+      "bytes": "08d9",
+      "assembly": "addq    $6,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741518,
+      "size": 6,
+      "bytes": "98028008001b",
+      "assembly": "movei   $1b8008,r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741524,
+      "size": 6,
+      "bytes": "980305200018",
+      "assembly": "movei   $180520,r3",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15741530,
+      "size": 6,
+      "bytes": "980400120000",
+      "assembly": "movei   $12,r4",
+      "classification": "decoded_instruction"
+    }
+  ]
+}

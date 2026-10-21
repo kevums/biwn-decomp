@@ -1,0 +1,55 @@
+{
+  "status": "terminal_read_only_geometry_timing_timelines_baseline_identical",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z",
+  "pid": 52239,
+  "lanes": {
+    "candidate": {
+      "frames": 24965,
+      "trace_rows": 10500,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/run/report.json",
+      "timeline": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/run/timeline.json",
+      "all_frame_records_and_final_state_equal_prior": true,
+      "all_guard_observations_equal_prior": true,
+      "disc_sha256": "aefe2d103e7afb3c78359cc8072a3653863c43fdb167e342c687440e4df3e2b2"
+    },
+    "control": {
+      "frames": 24964,
+      "trace_rows": 10644,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/run/report.json",
+      "timeline": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/run/timeline.json",
+      "all_frame_records_and_final_state_equal_prior": true,
+      "all_guard_observations_equal_prior": true,
+      "disc_sha256": "77d36e9dc6dfc70f9d994740e04a84cf1d8cf1c75105519cb29697159f0b3067"
+    }
+  },
+  "new_predictions": 0,
+  "new_training": false,
+  "discs_changed": false,
+  "inputs_changed": false,
+  "scope": "Read-only instruction-boundary timeline for the existing fresh gameplay pair.\n\nPreserve both discs, controller inputs, stopping conditions and original guards.\nCompare every saved frame observation with the earlier lane before interpreting\nthe added trace. A preceding observed PC is a clue, not proof of a RAM writer.\n",
+  "child_pid": null,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/trace_native_geometry_timing_v1.py": "f9d126b3e90ba792c90f7a16647c3973874019fa8d4d4c2ba1e8905a7976f0c4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-v1-candidate-current.json": "3b460b317df99866b0d1b20f608f6de52926b13a3f3763b79f9e5e2aba553279",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193350.310319Z-candidate/candidate/report.json": "fc45d950859ab7d2bceaec463f274626d15989fa5758fe56970660752795d754",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193350.310319Z-candidate/observer.c": "20c6c25feebaf34f8415dceb29919e6541902705051c6933d63699565059c7f9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193350.310319Z-candidate/probe.py": "a465bf0aca9c57c6d0ff1b0cca22f462e604243db801adad8c6e926ca0f54ef5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193350.310319Z-candidate/direction-shadow-model.c": "c4ec0417506a0fcc75a38762ae1afeeb6759979c2b244cbb4b61565a0b9829aa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/observer.c": "8999e7d0dc75ed33dabcb518f807771834fc1f803205c15478ee7cf94a7f096e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/observer.dylib": "15175a20b7489292007abebc0436abeb66592b5f02adfe895a9ee11f26c1220a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/probe.py": "dbc72a06d06fa309f12d11ab84477ba137fdc6e8d23af437b7ec25b7f6f4ce86",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/run/report.json": "663657bf687866348113c60b708c8d1987ee617120213e43ad28bcc577005987",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/candidate/run/timeline.json": "22b57119079da7563178d18799a9fac46dc7c73c0bb29236ea552a559f40c760",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-v1-control-current.json": "5e2eb5aa1f550f4d7942a8b848d3bdb0d777bc12b59809f20d5bc3a8fdc3fb7a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193351.443577Z-control/candidate/report.json": "eade7cd7005acfa5ed0b48a2eba452c69528af4c6886d515b07026e84d300620",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193351.443577Z-control/observer.c": "20c6c25feebaf34f8415dceb29919e6541902705051c6933d63699565059c7f9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193351.443577Z-control/probe.py": "bf9ea43ece1a62949ea56e454871cdca6b0326f0e09f361b4fbff0a117638491",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-debug-geometry-route-v1/20261020T193351.443577Z-control/direction-shadow-model.c": "c4ec0417506a0fcc75a38762ae1afeeb6759979c2b244cbb4b61565a0b9829aa",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/observer.c": "8999e7d0dc75ed33dabcb518f807771834fc1f803205c15478ee7cf94a7f096e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/observer.dylib": "89a0cbe3b7de39ee014ad5f07bed1b4d71fd4975c54aeb3543863ba57febc6e3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/probe.py": "8dd3b499e3c3c43fadb10364e9e8ae3865c6916e8624ac1249b203fb4353be77",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/run/report.json": "ec9563bb448b1aa164f283d21a447f02b67fb9bb84ccf60f194aa1897a3bdf73",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-trace-v1/20261020T202040.438930Z/control/run/timeline.json": "eac229121e55dcd97df9eab1369796f79a318e3e6fac1fc359a2f3ae7954a8bb"
+  },
+  "fidelity_verified": false
+}

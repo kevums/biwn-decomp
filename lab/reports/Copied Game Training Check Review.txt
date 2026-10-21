@@ -1,0 +1,11 @@
+COPIED GAME TRAINING — CAPABILITY CHECK
+
+TwoactualfreshLoRAupdates completed withthecopied27B6bitmodel,one layer/rank8,full reviewed examples(max8834tokens;firstpaddedbatch8865;ceiling8960). Peakreportedmemory50.4197GB onthis64GBMac. Fivebaseweightshards matchbefore/after;adaptertensors arefinite andLoRA B is nonzero. ThepreviousLMStudiomodelwasrestored. No adapterwasenabled andnoanswerqualityscorewasmeasured.
+
+Firstattemptfailedbeforeupdatesorunload:theportablecopy hadsplitmanifests butomittedtrain.jsonl/valid.jsonl/test.jsonl. Exactreviewedfilesarenowincluded withmatchingmanifesthashes. Theactualjobhas2trainbatches/2validationreports;testdataisnotusedforgradients/scoring. Earlier64updatepilotqualityfailure remainsseparate andunpromoted.
+
+UseDesktop BIWN Training Check.command,orportableOpenBIWNLabmenu7,foranotherexplicit2stepcheck;itdoesnotstartautomatically. Trainingprompts/targets arethepackageworkbench/training/game/geometry-v4-20261020T164053.588459Z/train.jsonl;theexecutionbatchaudit isfrozen inthisreview.
+
+Actual two fresh LoRAupdates usingcopied27B6bit model,SDK and reviewed completegeometryexamples. Full-context maskedloss/chunk64/eager;longest8834tokens pluspadding staysbelow8960. Traininggroup hashes/disjoint splits unchanged;test data is loaded by datasetloader but not scored or used forgradients. Pythonpathaudits showzero rejectedoriginaccess;nativeMLX fileI/O isnot covered byPythonhooks. Command/log names copiedweights;fivebase shards hash-identicalbefore/after. This is capability verification,not a quality improvement oradoptedmodel;earlier64updatepilot remainsseparate/unpromoted.
+
+Evidence:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/multiply-and-copied-training-reviewed-v1/20261020T211512.585430Z/copied-training

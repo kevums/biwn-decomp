@@ -1,0 +1,23 @@
+{
+  "status": "terminal_compact_outer_monitor_128_actual_root_and_iteration_CPU_lanes_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-outer-observer-actual-CPU-v2/20261021T040709.141998Z",
+  "CPU_lanes": 128,
+  "actual_public_root_entries": 128,
+  "all_errors_outside_zero": true,
+  "boundary_pending_explicitly_verified": true,
+  "complete_task_lifetime_verified": false,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_outer_compact_outer_observer_actual_CPU_v2.py": "aefcb6571554c072b1a961c4b3166da9c6e18a2ea595cdc2fc8e0cbb00b55172",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-outer-compact-geometry-observer-qualified-v1-current.json": "a22008787e8f0c68ff8aecf0798a89dd480f0f6e62a920d1cbf5799af9b99506",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-outer-compact-geometry-observer-qualification-v1/20261021T040037.564945Z/fixture.c": "a3f2c9373a3f42b4fda4bc79751a764e54ee4615e2c293415dcedcea22b1b510",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-outer-observer-actual-CPU-v2/20261021T040709.141998Z/fixture.c": "7db69e22382ea4732b8cc8e9f64382f0c44e47c59344aec1a2e00f37fe9c4962",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-outer-observer-actual-CPU-v2/20261021T040709.141998Z/fixture.dylib": "235a39dab0d5cb7afe05ea8faf99a5f215a65a04eae9fe91af2559e17feee5c4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_outer_compact_v1.py": "e070ffdac2d9f820ce53720216ce9ef0b3ce7b17bf00b954ec81fc72e6329d26",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-outer-observer-actual-CPU-v2/20261021T040709.141998Z/root-harness.py": "293281f916518643da9a33a7d7151dde177fc3306d3d6a20e9ee9f9a85729755",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-outer-observer-actual-CPU-v2/20261021T040709.141998Z/cases.json": "670998fcbbbcafd36b9e0e8926570b19d5bba7df12b9bd935f23ce8fd70ff225"
+  },
+  "scope": "Read-only actual CPU/RAM replay for the compact persistent-context outer watcher.\n\nSixty-four seeded root entries run original/native lanes. Unlike continuation\nfixtures, every lane witnesses its actual public root before monitoring.\nNo observer reconstruction or CPU/RAM writes are applied to the guest.\n Root plus one full subsequent iteration runs to an explicit status6 boundary; one active outer monitor is expected there and checked, while helper pending/errors/outside must be zero. Actual helper/capture CPU sites, persistent CPU pointer and compact stack bounds are checked. Both underlying lanes also compare CPU/nonarenaRAM/ordered helper entries. Component fixtures do not establish arbitrary IRQ or live game timing."
+}

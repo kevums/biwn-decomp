@@ -1,0 +1,19 @@
+include Makefile
+.DEFAULT_GOAL := resource-load
+LOAD_SOURCE ?= resource-load-reference.c
+.PHONY: resource-load
+resource-load: $(BUILD)/native-resource-load.bin $(BUILD)/load-providers.bin
+$(BUILD)/resource-load-shim.o: resource-load-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/resource-load-native.o: $(LOAD_SOURCE) resource-load-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-resource-load.elf: $(BUILD)/resource-load-shim.o $(BUILD)/resource-load-native.o resource-load.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T resource-load.ld -Map $(BUILD)/native-resource-load.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-resource-load.bin: $(BUILD)/native-resource-load.elf
+	$(CROSS)objcopy -O binary $< $@
+$(BUILD)/load-providers.o: resource-load-providers.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/load-providers.elf: $(BUILD)/load-providers.o
+	$(CROSS)ld -Ttext=0x14c000 -e load_provider_yield -o $@ $<
+$(BUILD)/load-providers.bin: $(BUILD)/load-providers.elf
+	$(CROSS)objcopy -O binary $< $@

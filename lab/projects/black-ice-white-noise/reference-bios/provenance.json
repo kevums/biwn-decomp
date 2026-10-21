@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-12T21:48:49.147753+00:00",
+  "source_archive": "/Volumes/SHiN TiTAN/Games/JagJunk/r0mz/Jag (cart)/[BIOS] Atari Jaguar CD (USA, Europe).zip",
+  "archive_sha256": "c9c7b223166dc30da4268925e7af9e29526a8e25ef55345e31edfd64297e69b4",
+  "archive_member": "[BIOS] Atari Jaguar CD (USA, Europe).j64",
+  "bytes": 262144,
+  "preserved": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/reference-bios/jaguar-cd-user-provided.bin",
+  "sha256": "646a0687a01dc6c1fffff508ca25c14b78d30bdfcfa958d4c3e20f6bf78e4f1b",
+  "source_archive_unchanged": true,
+  "basis": "User-provided game collection companion archive, inspected read-only and extracted one bounded member; filename is not independent BIOS revision verification. No BIOS execution yet."
+}

@@ -1,0 +1,15 @@
+{
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "instructions": 816,
+  "generator_sha256": "e7160e61cf82d18abb3896e6eae8281c3efa88c920b27a0bc3e703377671ca64",
+  "workmap_sha256": "52a8eb82e98c3168aed260146719a1633c12980c2f5b88b59146cd3d60714aa8",
+  "C_sha256": "a4622631e6c57a355d84912f976807a3c2170b3061cbfada4618d2dbe11ccdbc",
+  "status": "accepted_fullCPU_direct_and_nested_loader_suspensions",
+  "scope": "Static source-specific C; no runtime decode/CPU emulator. FullCPU/original-CPU comparison and yield continuation acceptance pending.",
+  "whole_game_complete": false,
+  "evidence": [
+    "verification/biwn-disc-world-loading-yields-checks.json",
+    "verification/biwn-input-dispatch-cpu-checks.json",
+    "verification/biwn-input-dispatch-yield-checks.json"
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "status": "terminal_offline_same_layout_input_timing_review",
+  "new_game_execution": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "selected_recorded_fields": [
+    "raw_player_X",
+    "raw_player_Z",
+    "scene_word",
+    "player_mode_word",
+    "tile_word",
+    "equipped_word",
+    "movie_flag_words",
+    "cumulative_nonzero_audio_samples",
+    "movie_controller_state_word",
+    "navigation",
+    "floor_word",
+    "raw_word_49c5c",
+    "locomotion_state",
+    "held_buttons"
+  ],
+  "differences": {
+    "raw_player_X": [],
+    "raw_player_Z": [],
+    "scene_word": [],
+    "player_mode_word": [],
+    "tile_word": [],
+    "equipped_word": [],
+    "movie_flag_words": [
+      24674,
+      24675,
+      24782
+    ],
+    "cumulative_nonzero_audio_samples": [],
+    "movie_controller_state_word": [],
+    "navigation": [],
+    "floor_word": [],
+    "raw_word_49c5c": [],
+    "locomotion_state": [],
+    "held_buttons": [
+      24650,
+      24784,
+      24792
+    ]
+  },
+  "selected_state_differing_frame_union": 6,
+  "transitions": {
+    "movie_flag_words": {
+      "candidate": [
+        {
+          "frame": 24593,
+          "offset": 26,
+          "old": [
+            0,
+            0
+          ],
+          "value": [
+            1,
+            0
+          ]
+        },
+        {
+          "frame": 24620,
+          "offset": 53,
+          "old": [
+            1,
+            0
+          ],
+          "value": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 24676,
+          "offset": 109,
+          "old": [
+            0,
+            0
+          ],
+          "value": [
+            1,
+            0
+          ]
+        },
+        {
+          "frame": 24783,
+          "offset": 216,
+          "old": [
+            1,
+            0
+          ],
+          "value": [
+            0,
+            0
+          ]
+        }
+      ],
+      "control": [
+        {
+          "frame": 24593,
+          "offset": 26,
+          "old": [
+            0,
+            0
+          ],
+          "value": [
+            1,
+            0
+          ]
+        },
+        {
+          "frame": 24620,
+          "offset": 53,
+          "old": [
+            1,
+            0
+          ],
+          "value": [
+            0,
+            0
+          ]
+        },
+        {
+          "frame": 24674,
+          "offset": 107,
+          "old": [
+            0,
+            0
+          ],
+          "value": [
+            1,
+            0
+          ]
+        },
+        {
+          "frame": 24782,
+          "offset": 215,
+          "old": [
+            1,
+            0
+          ],
+          "value": [
+            0,
+            0
+          ]
+        }
+      ],
+      "same_observed_value_sequence": true,
+      "candidate_minus_control_frame_shifts": [
+        0,
+        0,
+        2,
+        1
+      ]
+    },
+    "held_buttons": {
+      "candidate": [
+        {
+          "frame": 24568,
+          "offset": 1,
+          "old": 0,
+          "value": 524288
+        },
+        {
+          "frame": 24576,
+          "offset": 9,
+          "old": 524288,
+          "value": 0
+        },
+        {
+          "frame": 24593,
+          "offset": 26,
+          "old": 0,
+          "value": 33562624
+        },
+        {
+          "frame": 24620,
+          "offset": 53,
+          "old": 33562624,
+          "value": 1048576
+        },
+        {
+          "frame": 24623,
+          "offset": 56,
+          "old": 1048576,
+          "value": 1114112
+        },
+        {
+          "frame": 24651,
+          "offset": 84,
+          "old": 1114112,
+          "value": 1048576
+        },
+        {
+          "frame": 24785,
+          "offset": 218,
+          "old": 1048576,
+          "value": 0
+        },
+        {
+          "frame": 24793,
+          "offset": 226,
+          "old": 0,
+          "value": 16
+        },
+        {
+          "frame": 24801,
+          "offset": 234,
+          "old": 16,
+          "value": 0
+        }
+      ],
+      "control": [
+        {
+          "frame": 24568,
+          "offset": 1,
+          "old": 0,
+          "value": 524288
+        },
+        {
+          "frame": 24576,
+          "offset": 9,
+          "old": 524288,
+          "value": 0
+        },
+        {
+          "frame": 24593,
+          "offset": 26,
+          "old": 0,
+          "value": 33562624
+        },
+        {
+          "frame": 24620,
+          "offset": 53,
+          "old": 33562624,
+          "value": 1048576
+        },
+        {
+          "frame": 24623,
+          "offset": 56,
+          "old": 1048576,
+          "value": 1114112
+        },
+        {
+          "frame": 24650,
+          "offset": 83,
+          "old": 1114112,
+          "value": 1048576
+        },
+        {
+          "frame": 24784,
+          "offset": 217,
+          "old": 1048576,
+          "value": 0
+        },
+        {
+          "frame": 24792,
+          "offset": 225,
+          "old": 0,
+          "value": 16
+        },
+        {
+          "frame": 24801,
+          "offset": 234,
+          "old": 16,
+          "value": 0
+        }
+      ],
+      "same_observed_value_sequence": true,
+      "candidate_minus_control_frame_shifts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  "video_differences": [
+    {
+      "frame": 24629,
+      "candidate_CPU": "0x179056",
+      "control_CPU": "0x17004c",
+      "candidate_matches_control_offsets": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24640,
+      "candidate_CPU": "0x174786",
+      "control_CPU": "0x17003c",
+      "candidate_matches_control_offsets": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24643,
+      "candidate_CPU": "0x17442e",
+      "control_CPU": "0x1766ec",
+      "candidate_matches_control_offsets": [
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24651,
+      "candidate_CPU": "0x1700cc",
+      "control_CPU": "0x16ec22",
+      "candidate_matches_control_offsets": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24654,
+      "candidate_CPU": "0x172914",
+      "control_CPU": "0x167008",
+      "candidate_matches_control_offsets": [
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24659,
+      "candidate_CPU": "0x16e5ca",
+      "control_CPU": "0x1700c4",
+      "candidate_matches_control_offsets": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24662,
+      "candidate_CPU": "0x17231c",
+      "control_CPU": "0x16f776",
+      "candidate_matches_control_offsets": [
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24667,
+      "candidate_CPU": "0x176432",
+      "control_CPU": "0x16f1dc",
+      "candidate_matches_control_offsets": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24670,
+      "candidate_CPU": "0x172aea",
+      "control_CPU": "0x1768e2",
+      "candidate_matches_control_offsets": [
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24672,
+      "candidate_CPU": "0x16e58c",
+      "control_CPU": "0x16f46e",
+      "candidate_matches_control_offsets": [
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24675,
+      "candidate_CPU": "0x179056",
+      "control_CPU": "0x160788",
+      "candidate_matches_control_offsets": [
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24785,
+      "candidate_CPU": "0x17112",
+      "control_CPU": "0x15fc88",
+      "candidate_matches_control_offsets": [
+        -4,
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24792,
+      "candidate_CPU": "0x1a92e",
+      "control_CPU": "0x164e9c",
+      "candidate_matches_control_offsets": [
+        -4,
+        -3,
+        -2,
+        -1
+      ]
+    },
+    {
+      "frame": 24793,
+      "candidate_CPU": "0x164932",
+      "control_CPU": "0xdf64",
+      "candidate_matches_control_offsets": [
+        -1
+      ]
+    }
+  ],
+  "pretrial_video_differences": 0,
+  "scope": "Frame-boundary samples only. Same-layout original-input control;compiled geometry in both. Timing differences are observed,not an isolated reset-cost attribution. Full RAM/CPU/GPU snapshots differ and do not prove equal final machine state. No claim of resolved older original-geometry fidelity differences."
+}

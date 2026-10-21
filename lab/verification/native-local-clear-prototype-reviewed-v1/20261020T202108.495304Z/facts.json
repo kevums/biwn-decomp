@@ -1,0 +1,72 @@
+{
+  "status": "terminal_unedited_local_clear_shared_native_prototype_correctness_pass_cost_regression_unpromoted",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Local Model Shared Native Prototype Review.txt",
+  "entry": "0x10968",
+  "raw_model_body_edited": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "shared_native_module_executed": true,
+  "module_bytes": 40064,
+  "payload_sha256": "2597267a2f361129d1af52b8bf8c90ebff94f75f90fca7d566f37d993e5cc21a",
+  "geometry_cases": 256,
+  "retained_caller_cases": 4992,
+  "exact_body_original_cases": 260,
+  "exact_body_budget_cases": 42,
+  "ordered_body_trace": "Independent Unicorn exact linked bytes compared with raw portable body for all260normal and42budget cases",
+  "maximum_geometry_C_stack_bytes": 164,
+  "reserved_geometry_C_stack_bytes": 176,
+  "comparisons": [
+    {
+      "variant": 0,
+      "faces": 0,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 103402,
+      "local_geometry_cycles": 222368,
+      "local_vs_optimized_geometry_ratio": 2.1505
+    },
+    {
+      "variant": 1,
+      "faces": 0,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 92508,
+      "local_geometry_cycles": 211474,
+      "local_vs_optimized_geometry_ratio": 2.286
+    },
+    {
+      "variant": 3,
+      "faces": 1,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 110004,
+      "local_geometry_cycles": 228970,
+      "local_vs_optimized_geometry_ratio": 2.0815
+    },
+    {
+      "variant": 12,
+      "faces": 6,
+      "original_clear_cycles": 16246,
+      "optimized_clear_cycles": 62708,
+      "local_clear_cycles": 181622,
+      "local_vs_optimized_clear_ratio": 2.8963,
+      "optimized_geometry_cycles": 195276,
+      "local_geometry_cycles": 314242,
+      "local_vs_optimized_geometry_ratio": 1.6092
+    }
+  ],
+  "disc_integrated": false,
+  "installed_preview_changed": false,
+  "fresh_gameplay_tested": false,
+  "final_address_disc_gates_verified": false,
+  "fidelity_verified": false,
+  "decision": "Keep the optimized coordinator routine in the current disc. The unedited local body is correct in this prototype but its measured clear loop costs about2.9times as many emulated cycles.",
+  "scope": "One local Repair body plus coordinator primitives, native bus/ALU profile and symbol-only rename. Four actual geometry-entry captures independently qualify ordered body accesses. The full raw-body matrix compares logical CPU/publicRAM/order and physical callee-saved registers/private fences;native directbus cannot inject host callback failures. Geometry256 includes original formatter/text and blitter but GPU submission remains a declared fixture. Retained4992 plus16fallback controls pass. No final-address/whole-module fallback/aliases/outer/fresh-disc qualification is implied. Emulator cycle samples are not physical console timing. No whole-game or broader model-quality claim."
+}

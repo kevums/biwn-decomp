@@ -1,0 +1,16 @@
+BIWN — GUI AND LOCAL INFERENCE DELIVERY
+
+Desktop BIWN Test Preview.app uses six-caller runtime v4. Double-click, click game window, press P. Hold C+Up or Shift+Up for run input; arrows move/turn; P pauses; Esc closes. Hold1 about a second, release, then holdD for Deck selection/activation. No LM Studio model is required for the game window.
+
+Actual GUI sessions:367frames verifies77 C+Up input frames;415frames verifies58 C+Up frames and native returns coordinate50,input50,face2,scan25,geometry24,outer1. All guards,immutable code and invalid-task checks pass. Expected Deck appearance and audible audio remain unverified; speed ratio was not measured.
+
+Fresh disc evidence:24,965frames per lane, not the earlier five-caller25,007figure. Control restores only the outer entry; inner five stay native in both.40video frames differ; final video matches. Whole-game source rebuilding and fidelity remain incomplete.
+
+LM Studio Chat: BIWN — Local game team. First attempt had8192context and zero predictions because input+6000output reserve did not fit. Native load settings now32768context,parallel1. Three actual same-weight passes completed:90wordAnalyst,37wordRestorerJSON,89wordReviewer. Final launch/run/source-status answer passed source review. Reviewer repeats Analyst; Restorer reason overstates finite subsystem coverage. No independent review or broad reliability proof. Exact prompts and raw responses preserved.
+
+One-click Reader:v21rejected at117words;v22rejected for missing-runtime-helper wording/ambiguous authorship. V23returns24words in two strings; direct run2.71sec,actual current-status launcher2.39sec. Both launchers now use six-caller evidence. API inference reuses matching32Kserial instance so native Chat stays selected.
+
+This continuation ran7actual local predictions (3Chatroles+4Readercalls),zero optimizer updates. AdvertisingV12remains rejected/unpromoted; daily base retained. Whole-game recovery,broad accepted game/Advertising training and current portable migration remain open.
+
+Exact Chat prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-six-frontend-review-v1/20261020T152824.021218Z/prompts-and-responses.txt
+Reader prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-status-live-20261020T152915.189017Z/prompts-and-responses.txt

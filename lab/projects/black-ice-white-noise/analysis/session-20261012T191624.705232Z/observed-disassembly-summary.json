@@ -1,0 +1,27 @@
+{
+  "time": "2026-10-12T22:15:20.563455+00:00",
+  "status": "separate_observed_instruction_export_checked",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/observed-disassembly-20261012T221511.371913Z",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "baseline_instructions": 17712,
+  "matching_sampled_PCs": 2187,
+  "sampled_PCs_missing_before": 513,
+  "new_instructions": 513,
+  "instructions_total": 18225,
+  "functions_unchanged": 199,
+  "sampled_PCs_missing_after": 0,
+  "seed_results": {
+    "decoded_exact_observed_instruction": 513
+  },
+  "excluded": [],
+  "baseline_project_unchanged": true,
+  "baseline_export_unchanged": true,
+  "artifact_sha256": {
+    "plan.json": "713b1aa23d622f1f88e787e930e80b479a142e59b02fdf1ff8a7a8cb5a005444",
+    "added-instructions.json": "204e6f7de98d90de8e74e699fefb8cd290d7b32d5b8c849b495091da247037a2",
+    "export/manifest.json": "de9d5b6255470915edc55c9eb6799751f6de6e433df7b039c5f352cb79074471",
+    "export/listing.asm": "3260c059f94754a6f8240e8ba4accb14beed36ce6f88cc79c30c0163248ab44b",
+    "export/decompiled.c": "2c5bf9a5335dbec58d6de2318095211052b7372fb27824f1d93a132b1882e31e"
+  },
+  "scope": "Observed instruction starts only; original functions retained, no functions inferred or C behavior validated. Sixteen-byte post-frame matches are not per-instruction capture, complete coverage or hardware proof."
+}

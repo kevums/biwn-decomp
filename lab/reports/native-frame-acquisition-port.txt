@@ -1,0 +1,188 @@
+BIWN native frame acquisition (1AC68..1AE54)
+
+terminal_native_frame_acquire_component_build_and_live_review
+
+Component:631 normal/full CPU+publicRAM+ordered cases;192 zero fixtures execute320 actual DIVS exceptions and RTE. All173 original instruction locations covered.
+Nested original/production C loader:72 fixture sets,144 native comparisons,24 ordered comparisons; actual8KB/16KB copies. CD/yield/copy remain guest fixtures.
+Final address:631 normal+192 zero cases. New20KB reservation:3392 allocator/compactor CPU/RAM/blitter and ordered comparisons,96 startup cases,allocation/compaction witness.
+Resident:17530 bytes; reserve:20480 bytes. Seven bytes in prior resident changed for heap floor; five initializer operands and two compactor operands. Original disc retained.
+
+Authorship:coordinator adaptation; no new local-model authorship, inference prompts or training. Logical function already recovered; one new native port.
+
+candidate:{
+  "status": "terminal_native_frame_acquire_route_pending_review",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-acquire-route/20261019T025707.560809Z",
+  "frames": 24979,
+  "returned_outdoors": true,
+  "whole_old_route_equivalent": false,
+  "per_frame_differences": {
+    "raw_player_X": 14056,
+    "raw_player_Z": 3651,
+    "scene_word": 5,
+    "player_mode_word": 31,
+    "floor_word": 4,
+    "video_sha256": 16060,
+    "navigation": 16793
+  },
+  "PCM_equal_to_old_parent": false,
+  "live_monitor_pass": true,
+  "observations": {
+    "instructions": 436159120,
+    "entry_copies": 1,
+    "copy_errors": 0,
+    "heap_inits": 0,
+    "heap_base": 0,
+    "resident_steps": 160149070,
+    "old_rng_steps": 0,
+    "old_math_steps": 3796078,
+    "old_keypad_steps": 0,
+    "marker_steps": 0,
+    "events": 268,
+    "event_record_bytes": 112,
+    "errors": 0,
+    "acquire_entries": 116,
+    "acquire_native_entries": 116,
+    "acquire_returns": 116,
+    "acquire_old_steps": 0,
+    "acquire_monitor_errors": 0,
+    "acquire_native_steps": 507924,
+    "acquire_pending": 0,
+    "acquire_loader_calls": 13,
+    "acquire_user_stack_observations": 1093701,
+    "acquire_user_stack_outside": 0,
+    "acquire_user_min_headroom": 56,
+    "acquire_max_private_depth": 700,
+    "rng_entries": [
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "math_entries": [
+      86618,
+      61128,
+      264
+    ],
+    "boundary_entries": [
+      0,
+      6,
+      5,
+      7
+    ]
+  },
+  "first_entry_frame": 291,
+  "actual_events": 268,
+  "audio": {
+    "frames": 19983200,
+    "nonzero_samples": 1609520
+  },
+  "report_sha256": "5592997696804fe92808cc4c9faea185aa1861873e7052c2b2b5083c03e1b41d"
+}
+
+control:{
+  "status": "terminal_native_frame_acquire_route_pending_review",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-acquire-route/20261019T025827.381297Z",
+  "frames": 24972,
+  "returned_outdoors": true,
+  "whole_old_route_equivalent": false,
+  "per_frame_differences": {
+    "raw_player_X": 19277,
+    "raw_player_Z": 7550,
+    "scene_word": 28,
+    "player_mode_word": 73,
+    "floor_word": 22,
+    "video_sha256": 19371,
+    "navigation": 21046
+  },
+  "PCM_equal_to_old_parent": false,
+  "live_monitor_pass": true,
+  "observations": {
+    "instructions": 435866009,
+    "entry_copies": 1,
+    "copy_errors": 0,
+    "heap_inits": 0,
+    "heap_base": 0,
+    "resident_steps": 159570158,
+    "old_rng_steps": 0,
+    "old_math_steps": 3804890,
+    "old_keypad_steps": 0,
+    "marker_steps": 0,
+    "events": 268,
+    "event_record_bytes": 112,
+    "errors": 0,
+    "acquire_entries": 116,
+    "acquire_native_entries": 0,
+    "acquire_returns": 116,
+    "acquire_old_steps": 11251,
+    "acquire_monitor_errors": 0,
+    "acquire_native_steps": 0,
+    "acquire_pending": 0,
+    "acquire_loader_calls": 13,
+    "acquire_user_stack_observations": 594784,
+    "acquire_user_stack_outside": 0,
+    "acquire_user_min_headroom": 308,
+    "acquire_max_private_depth": 448,
+    "rng_entries": [
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "math_entries": [
+      86532,
+      61102,
+      264
+    ],
+    "boundary_entries": [
+      0,
+      6,
+      5,
+      7
+    ]
+  },
+  "first_entry_frame": 291,
+  "actual_events": 268,
+  "audio": {
+    "frames": 19977600,
+    "nonzero_samples": 1609472
+  },
+  "report_sha256": "8b27d5f493cac3f884201b7ee74edd50515c06d1cd35917d479f4b84f1f0769d"
+}
+
+Same-layout comparison:{
+  "candidate_frames": 24979,
+  "control_frames": 24972,
+  "compared_prefix_frames": 24972,
+  "per_frame_differences": {
+    "CPU_full": 23031,
+    "full_GPU_state_sha256": 24665,
+    "full_DSP_state_sha256": 9118,
+    "video_sha256": 20829,
+    "navigation": 22492,
+    "locomotion_state": 253,
+    "held_buttons": 328
+  },
+  "first_difference_frames": {
+    "CPU_full": 291,
+    "full_GPU_state_sha256": 291,
+    "full_DSP_state_sha256": 15855,
+    "video_sha256": 360,
+    "navigation": 601,
+    "locomotion_state": 626,
+    "held_buttons": 600
+  },
+  "PCM_equal": false,
+  "whole_route_equivalent": false
+}
+
+One previously recovered full routine compiled for68000 with explicit public frame, actual DIVS faults and actual guest loader ABI. Component providers retain declared limits; production loader nested with lower CD/copy/yield fixtures. Derived disc retains remaining original engine code plus native parent. Live monitor verifies saved registers,public saves,NZVC/upperSR,loader args and source task stack bounds; it is not an independent full live output oracle. Runtime timing, complete game behavior, whole-source rebuild and physical console remain unproven.
+
+Detailed evidence:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-acquire-review/20261019T030106.353518Z/review.json

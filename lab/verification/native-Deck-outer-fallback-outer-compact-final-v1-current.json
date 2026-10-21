@@ -1,0 +1,15 @@
+{
+  "status": "terminal_native_outer_384_full_CPU_RAM_fallback_cases_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-fallback-outer-compact-final-v1/20261021T040317.527550Z",
+  "completed": 384,
+  "new_training": false,
+  "native_disc_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/fallback-outer.py": "eb0f611e280e6b6d65bef620a02e388fba2fd7f447a96796fae0c47cd3e3bf2a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/native_outer_final_checker.py": "3e0d4198a22a2db5876a6b948b8c342982d1ab51faca4d9e452b4088c8758fa6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-outer-compact-final-v1-current.json": "fcb5b102b79942e851e202159b4b0a2a86aec3ea612920db4d3996a8b2cf6d2b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-outer-compact-final-v1/20261021T040250.880746Z/build/native-outer.bin": "338b081a5b9d44a8cd359a3b722b226cd3d27ea811d94600e73e623b1c833480",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-fallback-outer-compact-final-v1/20261021T040317.527550Z/cases.json": "b42d3b83f2a564cd510d8ac5fb67c02bdc0cb43113115255eef5be71a7aee8d6"
+  },
+  "scope": "Full CPU/full RAM fallback ABI; no arena normalization or helper bridge. Six invalid/busy classes, both banks/all32CCR; constructor helper is a declared fixture. Entry fallback replays twelve whole original bytes, then jumps to11E78. No deployed disc or arbitrary reentry claim."
+}

@@ -1,0 +1,26 @@
+{
+  "status": "local_authored_helpers_compile_and_original_comparison_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/20261016T074416.286625Z-local-route-helpers",
+  "format_recovery": "Removed exact enclosing JSON markdown fence, no source edits. Initial harness parse failed; responses preserved.",
+  "roles": [
+    {
+      "role": "author",
+      "seconds": 30.1
+    },
+    {
+      "role": "reviewer",
+      "seconds": 32.5
+    }
+  ],
+  "new_training": false,
+  "runtime_promoted": false,
+  "whole_game_complete": false,
+  "checks": {
+    "BSET": 16384,
+    "DIVS": 6592,
+    "DIVS_overflow": 2048
+  },
+  "original_check_report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-route-helpers-original-checks.json",
+  "reviewer_returned_identical_source": true,
+  "coordinator_authorship": "Contract, ABI wrapper, compilation and original-core fixture harness; helper implementation is local-model output."
+}

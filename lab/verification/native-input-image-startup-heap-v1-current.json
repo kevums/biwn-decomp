@@ -1,0 +1,49 @@
+{
+  "status": "terminal_actual_input_image_wide_startup_dual_CPU_and_heap_initialize_pass",
+  "pid": 59841,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-startup-heap-v1/20261021T105039.610699Z",
+  "native_startup_cases": 6,
+  "Unicorn_startup_cases": 6,
+  "heap_initialize_cases": 192,
+  "game_frames": 0,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "original_heap_initializer_declared_operand_changes": [
+    {
+      "delta": 0,
+      "operands": 3
+    },
+    {
+      "delta": 4,
+      "operands": 1
+    },
+    {
+      "delta": 8,
+      "operands": 1
+    }
+  ],
+  "all_2MB_startup_RAM_checked": true,
+  "saved_stack_bytes_checked": true,
+  "dirty_arenas_cleared": true,
+  "input_payload_after_startup_exact": true,
+  "heap_start": 1711488,
+  "initial_heap_bytes": 123520,
+  "heap_source_bytes_equal_after_five_operand_changes": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_input_image_startup_heap_v1.py": "4324d5befd85a312320e9385552653fafb1a4b44595114b5734b0be4c459710c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-callsite-disc-build-v1-current.json": "26a55d79e1504665debf3c9bc327064cb15f4a444237af21385108bd8c84c043",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-callsite-v1/20261021T104940.051327Z/resident-with-arenas.bin": "ae99ad378d7f6034cd0de87317d3b63aae1e0623a9b9839f8839b29623ed0fec",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-callsite-v1/20261021T104940.051327Z/mainstage-native-input-callsite-v1.bin": "c72c69746a7d3fcd26c8c6e41df605053d39b1757d4eba0f7473b76c49ae44a0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-startup-heap-v1/20261021T105039.610699Z/startup-cases.json": "f1d9c58ce9f48c2bfbff857ece13414f15e13053816b190e8f93c5159f0abc6c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-startup-heap-v1/20261021T105039.610699Z/heap-cases.json": "07d4cafe1064ed0da12cc20de24c9f43d9abdc5f688289c4e04a0343879f28d0"
+  },
+  "arbitrary_IRQ_qualified": false,
+  "gameplay_verified": false,
+  "physical_console_verified": false,
+  "scope": "Execute the actual new image's wide startup, both arenas, and raised heap.\n\nStartup uses pinned M68000 and Unicorn with independent complete-RAM oracle,\ndirty resident/arena preconditions and saved stack bytes included. The heap\ncomparison uses original instructions with only five declared floor operands\nchanged. No game frame, arbitrary IRQ, audio or physical console is qualified.\n"
+}

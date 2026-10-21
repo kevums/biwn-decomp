@@ -1,0 +1,31 @@
+{
+  "status": "terminal_shared_and_record_observers_actual_fallback_and_alias_CPU_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-fallback-alias-observers-actual-CPU-v1/20261021T122551.177849Z",
+  "pid": 67291,
+  "CPU_lanes": 704,
+  "new_predictions": 0,
+  "new_training": false,
+  "fallback_CPU_lanes": 384,
+  "alias_CPU_lanes": 320,
+  "prior_body_CPU_lanes": 64,
+  "total_reviewed_witness_CPU_lanes": 768,
+  "record_calls": 192,
+  "copy_calls": 192,
+  "matrix_calls": 0,
+  "observer_guest_RAM_writes": 0,
+  "observer_CPU_writes": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_fallback_alias_observers_actual_CPU_v1.py": "19826165fcb4ad51439812ecc2a8e7733ae79f89ba048216630763f43f8b9bb2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-record-observer-actual-CPU-v1-current.json": "5e0405eac41c7c2b34ea409ab0c8385002c40f18258c7f979e9650de12ddae82",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1-current.json": "6839c6dc9fda5c98f31affdd771f255726e418928dbd8c87ce786ef744f98715",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1-current.json": "49b5a470c50fc30e9e50a8879ffde43143324eb924cc0bbb3b7ff638768ea17b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-commit-observer-qualified-v1/20261021T122531.447532Z/fixture.dylib": "fbf3f597b9c0d2a3402a218b71d03aebad3e26b060bfb43cbc83d996d73e3288",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-shared-observer-qualified-v1/20261021T122531.448128Z/fixture.dylib": "487064120b3e9682cc2153d5ce0230afe433ba0a3b1bcb2ea8b1b9f0facb72dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-fallback-alias-observers-actual-CPU-v1/20261021T122551.177849Z/fallback-harness.py": "6fe2e3637ef29b3cbc931d7bf4eaf2daa1a5160d0d332d6fc1bcc07b46eec43b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-fallback-alias-observers-actual-CPU-v1/20261021T122551.177849Z/alias-harness.py": "bfd4976a4081b4170f3894cad2e6a2c72f7cab9660a2800e35ceb91a8eb4d75c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_final_fallback_v1.py": "84ed71fdee07b5c0b187ef32b6de1bead1531bc46533bfe53a4e7f98fb83ed0b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_alias_reentry_v1.py": "859557aeeb9fe4dbfc0ce9c0031357373c58576633b5dc0e369355e9933de178",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-fallback-alias-observers-actual-CPU-v1/20261021T122551.177849Z/cases.json": "cc243fd26f32f6319df994b31045f00b2010b20249f80884388ca694c55fc802"
+  },
+  "scope": "Observe actual new-scene CPU lanes with exact shared and record witnesses.\n\nBoth functional lanes retain the whole-scene comparison's explicit device\nfixtures. Observer snapshots copy guest RAM/CPU into host-owned memory only.\nNo observer writes guest memory,registers,task state or scheduling.\n384actualinvalid/busyfallbacks and320actualinjectedscene-self/cross-rootJSRlanes. UnderlyingCPU/nonprivateRAM/helperrecordcomparisons also pass. E3E0 and input/face provider effects in nested fixtures are declared ABI adversaries;not GPUfidelity,natural nesting or arbitraryIRQ. Together with prior frozen64bodylanes,this qualifies768actualCPUlanes without replaying those64."
+}

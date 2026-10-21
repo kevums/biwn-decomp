@@ -1,0 +1,66 @@
+[
+  {
+    "name": "D0",
+    "rejected": true
+  },
+  {
+    "name": "A0",
+    "rejected": true
+  },
+  {
+    "name": "SP",
+    "rejected": true
+  },
+  {
+    "name": "PC",
+    "rejected": true
+  },
+  {
+    "name": "USP",
+    "rejected": true
+  },
+  {
+    "name": "SSP",
+    "rejected": true
+  },
+  {
+    "name": "SR_X",
+    "rejected": true
+  },
+  {
+    "name": "budget",
+    "rejected": true
+  },
+  {
+    "name": "error",
+    "rejected": true
+  },
+  {
+    "name": "active",
+    "rejected": true
+  },
+  {
+    "name": "matrix",
+    "rejected": true
+  },
+  {
+    "name": "copy_global",
+    "rejected": true
+  },
+  {
+    "name": "clear_global",
+    "rejected": true
+  },
+  {
+    "name": "missing_marker",
+    "rejected": true
+  },
+  {
+    "name": "missing_return",
+    "rejected": true
+  },
+  {
+    "name": "physical_return_SP",
+    "rejected": true
+  }
+]

@@ -1,0 +1,13 @@
+ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST)))/../../../..)
+SOURCE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= $(SOURCE_DIR)/build-actor-group-candidate
+NATIVE_SOURCE ?=
+FLAGS := -m68000 -msoft-float -std=c99 -Os -flto -ffreestanding -fno-pie -fno-common -fno-unwind-tables -fno-asynchronous-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Werror
+.PHONY: actor-group-candidate
+actor-group-candidate:
+	@test -n "$(NATIVE_SOURCE)"
+	mkdir -p "$(BUILD)"
+	$(PREFIX)gcc $(FLAGS) -I"$(SOURCE_DIR)" -c "$(NATIVE_SOURCE)" -o "$(BUILD)/candidate.o"
+	$(PREFIX)gcc $(FLAGS) -nostdlib -Wl,--gc-sections,-T,"$(SOURCE_DIR)/actor-group-source.ld" "$(BUILD)/candidate.o" -o "$(BUILD)/actor-group-source.elf"
+	$(PREFIX)objcopy -O binary "$(BUILD)/actor-group-source.elf" "$(BUILD)/actor-group-source.bin"

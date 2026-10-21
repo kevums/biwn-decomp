@@ -1,0 +1,49 @@
+{
+  "status": "terminal_E540_body_and_entry_prototypes_correct_cost_unapproved",
+  "entry": "0xe540",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Native Multiply Prototype Review.txt",
+  "authorship": "Coordinator context/ABI adaptation of previously recovered arithmetic;no new model-authored function",
+  "body_cases": 2192,
+  "public_entry_cases": 2192,
+  "public_guard_cases": 1600,
+  "public_normal_private_C_stack_bytes": 32,
+  "prototype_module_bytes": 40570,
+  "retained_caller_cases": 4992,
+  "geometry_cases": 256,
+  "geometry_C_stack_peak": 164,
+  "internal_math_entry_witnesses": 1728,
+  "extra_guest_stack_spills": 0,
+  "guest_sign_scratch_bytes": 2,
+  "declared_extra_runtime_reads": "Exactly one ordinary task-pointer metadata read at0xc0920per publicentry",
+  "public_cost_ratio_range": [
+    6.7273,
+    11.6735
+  ],
+  "public_cost_original_cycles": [
+    196,
+    198,
+    216,
+    258,
+    272,
+    240,
+    374,
+    348
+  ],
+  "public_cost_native_cycles": [
+    2288,
+    2292,
+    2440,
+    2440,
+    2316,
+    2322,
+    2516,
+    2472
+  ],
+  "cost_approved": false,
+  "global_disc_redirect_installed": false,
+  "new_disc_built": false,
+  "fresh_gameplay_tested": false,
+  "physical_console_tested": false,
+  "source_directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-v14-public-multiply",
+  "scope": "Standalonecontext and shared-module entry prototypes. All logical/physical returnCPU and publicRAM/stack bytes plus original guest bus order compare with originalM68000;one task metadataread is declared extra. Internalcoordinate dispatch is also checked in the new module. Publicguards coverzero,negativeA,INT_MIN,twonegatives,negativeB acrossallCCR/bothmodes withbusy/invalidtask reasons. Newglobalentry isnotredirected in a game image;actualnestedaliases/IRQ/finaladdresses/freshglobalplayability remain unproven. The existing disc still uses originalglobalE540."
+}

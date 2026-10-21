@@ -1,0 +1,14 @@
+ROOT := $(abspath ../../../..)
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= ./build-gpu-mailbox-arena
+ADDRESS ?= 0x180000
+ARENA_ADDRESS ?= 0x168000
+MAILBOX_SOURCE ?= ./gpu-mailbox-local-repair-v1.c
+FLAGS := -m68000 -msoft-float -std=c99 -Os -flto -ffreestanding -fno-pie -fno-common -fno-unwind-tables -fno-asynchronous-unwind-tables -ffunction-sections -fdata-sections -Wall -Wextra -Werror
+.PHONY: gpu-mailbox
+gpu-mailbox:
+	mkdir -p "$(BUILD)"
+	"$(PREFIX)gcc" $(FLAGS) -I. -c "$(MAILBOX_SOURCE)" -o "$(BUILD)/body.o"
+	"$(PREFIX)gcc" -m68000 -c gpu-mailbox-arena-shim-v2.S -o "$(BUILD)/shim.o"
+	"$(PREFIX)gcc" $(FLAGS) -nostdlib -Wl,--gc-sections,--defsym,NATIVE_ADDRESS=$(ADDRESS),--defsym,GPU_ARENA_BASE=$(ARENA_ADDRESS),-T,gpu-mailbox.ld "$(BUILD)/body.o" "$(BUILD)/shim.o" -o "$(BUILD)/gpu-mailbox.elf"
+	"$(PREFIX)objcopy" -O binary "$(BUILD)/gpu-mailbox.elf" "$(BUILD)/gpu-mailbox.bin"

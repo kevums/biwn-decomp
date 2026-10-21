@@ -1,0 +1,25 @@
+BIWN — SOURCE CPU FROM INITIAL ENTRY
+2026-10-19T00:04:19.812053+00:00
+
+The repaired experimental disc now has a separately tested host C CPU candidate that starts at the HLE-prepared initial entry. In 200 fresh frames, it owns 3,234,720 CPU instructions: 2,525,630 ordinary C steps and 709,090 HLE-return adapters. The original CPU opcode count is zero before owner installation and throughout the tested window. C GPU/DSP and source interrupt selection/entry are also exercised.
+
+At every recorded frame, full CPU, all 2 MB RAM, saved GPU/DSP state and video match the immutable native control; silent PCM bytes match too. The exact same-core/disc native 200-frame control was reused from the read-only observation run. No checkpoint was restored and no live guest RAM was patched.
+
+WHAT CHANGED
+Read-only observation identified 77 initial-loader instruction locations and 2,837,350 pre-mainstage native callbacks in the prior gated setup. All 77 locations were already in the C catalogue with identical instruction bytes. The coordinator compiled a separate fixed provider, added 11 statically decoded branch locations not exercised in this run, and removed the bootstrap-to-native gate for this candidate. This is new integration/ownership evidence, not 77 newly recovered functions or proof of those 11 unexecuted branches.
+
+SEPARATE DIVISION GAMEPLAY RESULT
+Another candidate passes a fresh 1,600-frame C gameplay run after the earlier native bootstrap. Its 7,462 normal division calls (7,443 unsigned, 19 signed) have zero errors, and all recorded CPU/RAM/GPU/DSP/video/control fields and captured silent PCM match native execution. No zero-divisor fault occurs in that normal gameplay run. The local model's unedited zero-entry function is validated by the separate 34,944 native fixtures, 11,264 strict-owner fault/RTE roundtrips and 22 host guards. It is not naturally invoked by those normal gameplay calls.
+
+Keep these candidates and scopes separate from the earlier 24,975-frame CPU-only route and the older combined 1,600-frame tests. The new initial-entry candidate has only the 200-frame proof above. The existing preview and the separate long merchant comparison retain their previous backends. This publication does not poll that live long job or count it as passed.
+
+RETAINED SERVICES
+The HLE environment still prepares the initial image and supplies firmware/CD services. Devices, IRQ lines/ACK/vector resolution, host state commit/prefetch, emulator cost/clock, blitter and object-processor services remain supplied. This is not ordinary authenticated firmware boot or a standalone Jaguar source build. Silent PCM is not audible playback evidence, and no whole-game speedup or physical-console/audio result is proved.
+
+Proofs:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/source-CPU-from-entry/20261019T000012.067950Z/protocol.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/CPU-division-fresh-gameplay/20261018T235102.006421Z/protocol.json
+Earlier division report and exact model prompts:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN-division-fresh-gameplay.txt
+
+No new weight training or default promotion occurred. Full game/source/platform reconstruction, more scene/exception/IRQ behavior, representative model training gains, native Chat usability and physical hardware/audio verification remain unfinished.

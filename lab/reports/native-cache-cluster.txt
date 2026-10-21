@@ -1,0 +1,18 @@
+BIWN — NATIVE CACHE CLUSTER
+2026-10-19T03:45:48.173656+00:00
+
+The experimental disc now composes complete native 68000 lookup, frame acquisition, single/group reference release and resource-table initialization routines with the prior native code. The resident code uses 16,872 bytes in a 20,480-byte reservation; the heap floor rises by 4KB. This is a mixed original/new game, not a whole-game source rebuild.
+
+CHECKED BUILD
+At the final installed addresses: lookup 1,376 stable + 256 changing-tag cases; single release 1,376 stable + 256 changing-reference cases; group release 864 stable full CPU/RAM cases + four ordered-access changing-read cases. Group changing-read cases do not have a full native CPU comparison. Existing acquisition 631 normal + 192 zero-divisor cases, table initialization 192 cases, raised-heap 3,392 cases, startup 96 cases and an installed allocation/compaction witness passed. Private scratch stack and code exclusions, fixture dependencies and IRQ/fault limits remain as declared by each component proof.
+
+FRESH GAMEPLAY
+Candidate: 24,978 frames. Same-layout original-three-entry control: 24,971 frames. Both completed merchant/media/outdoor navigation. Each observed 555 lookup calls (552 matches/three misses), 264 single releases (261 decrements), 116 acquisition returns and one table initialization. All live register/cache/public-stack checks passed. Candidate lookup and single-release private depth was 24 bytes each; acquisition retained 88 bytes minimum task-stack headroom. No group-release calls occurred; its live gameplay behavior remains unverified. The candidate/control compared prefix is 24,971 frames, with 6,965 differing video frames. PCM bytes equal: False. The control restores only lookup/single/group entry points; acquisition, table initialization and the 20KB layout remain compiled. Timing, route, video and audio differences persist. This does not isolate a defect or establish exact whole-game equivalence. No whole-game speedup, physical audio/console boot or default promotion is claimed.
+
+WHO DID WHAT
+Local Qwen3.5 27B base: four actual inference calls—Author, Reviewer, one repair Author, Reviewer. The first C draft used a two-byte stride instead of four; the Reviewer missed it. The original-CPU checker exposed the concrete wrong read. The repair Author changed the complete source to use four-byte records, and the resulting scalar C file was accepted without coordinator C edits. Codex coordinator supplied the contract, ABI wrapper, compiler wiring, checker, diagnostic, other recovered routines, disc integration and live observer. Reviewer agreement is not independent validation. No weights were updated and this task differs from the earlier three-function training comparison.
+
+EXACT PROMPTS / RAW RESPONSES
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-cache-lookup-prompts-and-responses.txt
+
+Native LM Studio Chat display remains unverified; the latest UI attempt timed out. The existing interactive preview was not restarted.

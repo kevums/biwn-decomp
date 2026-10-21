@@ -1,0 +1,14 @@
+include Makefile.native
+.DEFAULT_GOAL := rng
+RNG_SOURCE ?= rng-native.c
+.PHONY: rng
+rng: $(BUILD)/native-rng.elf $(BUILD)/native-rng.bin
+
+$(BUILD)/rng-native.o: $(RNG_SOURCE) rng-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -I. -I.. -c $< -o $@
+$(BUILD)/rng-shims.o: rng-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/native-rng.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/math-shims.o $(BUILD)/math-results-optimized.o $(BUILD)/startup-finalize.o $(BUILD)/rng-shims.o $(BUILD)/rng-native.o rng.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T rng.ld -Map $(BUILD)/native-rng.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-rng.bin: $(BUILD)/native-rng.elf
+	$(CROSS)objcopy -O binary $< $@

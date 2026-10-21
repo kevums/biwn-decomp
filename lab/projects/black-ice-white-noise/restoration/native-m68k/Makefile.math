@@ -1,0 +1,19 @@
+include Makefile.movable
+# The compiler's single default archive contains 68020 long branches.
+# Use the separately built explicit 68000/soft-float runtime.
+LIBGCC ?= $(LAB_ROOT)/tools/m68k-elf/m68000-soft/libgcc.a
+.PHONY: math
+math: $(BUILD)/native-math.elf $(BUILD)/native-math.bin
+
+$(BUILD)/math-shims.o: math-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/math-results.o: math-results.c | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -I.. -c $< -o $@
+$(BUILD)/signed-division.o: ../biwn_signed_division.c | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I.. -c $< -o $@
+$(BUILD)/camera.o: ../biwn_camera.c | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I.. -c $< -o $@
+$(BUILD)/native-math.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/math-shims.o $(BUILD)/math-results.o $(BUILD)/signed-division.o $(BUILD)/camera.o math.ld
+	$(CROSS)ld --gc-sections -T math.ld -Map $(BUILD)/native-math.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-math.bin: $(BUILD)/native-math.elf
+	$(CROSS)objcopy -O binary $< $@

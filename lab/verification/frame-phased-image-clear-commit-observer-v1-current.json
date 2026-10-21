@@ -1,0 +1,26 @@
+{
+  "status": "terminal_clear_monitor_actual_CPU_and_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z",
+  "actual_native_scene_lanes": 64,
+  "native_clear_entries": 55,
+  "rejected_fault_controls": 19,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_frame_phased_image_clear_commit_observer_v1.py": "0eae5c6eaebd7bdcae401f0e01018b07742923731c5468bc03affca258e00fcb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_full_observer_v1.py": "8dfac934ae4d50af61189d40d041a8817ee26995cf4149072f9197f55020648e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_clear_observer_v1.inc.c": "25b8ce8443119c0043c48edc2ecbc9603b3e15634718882f9b80b083860551dd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/fixture.c": "51c1342263e24878056ccd0c35107dcf49bd3046bfffde5be8200fea9c644476",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/fixture.dylib": "102dcd097cdca167c1bcee7949134340b9963cad8aff31d68998822be407fce9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/actual-native-harness.py": "13936e82a1081784b76977074dc87dc02931874d8b377f348351599afabeaace",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/cases.json": "f1f47803a7608b368187bc7452bd39b95bd6958a8e98635f48f44183e4050117",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/faults.json": "dcbe3d00253b00284df5720acd99d21c18af3c3dd3ff30c7f381ab077fa0ab23",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/checkpoint-0-CPU.json": "9f76adc828c851d71adb34959b8567400a3328fa9915bfe0164bd69a2d1fba7b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/checkpoint-1-CPU.json": "cb085096ce2981d076db3e5e8dc185ae7c8f5335d9b4486af768ef7d522272c1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/checkpoint-0-RAM.bin": "d15bf7bcdf0054b676bb1399344245c129dc92808bdfe0685fa2a25891910a13",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-clear-commit-observer-v1/20261021T122531.866979Z/checkpoint-1-RAM.bin": "d20a8d844f043f79c48d0904b9e579fce7604796a61cbaed964c782a4612ae77"
+  },
+  "scope": "Read-only clear witness over actual native CPU steps and host-only corruption replays. All registers/banks, finalX=1/NZVC=0, guest return/savedD0, frame metadata and C stack are checked. Actual physical MMIO instructions execute with declared post-read input fixtures; MMIO ordering is separately verified. No guest state writes by observation or fault replay; no fresh-game/IRQ/console proof."
+}

@@ -1,0 +1,59 @@
+"""Publish source-reviewed target-ALU and fresh-route evidence without preview promotion."""
+import json,hashlib,shutil
+from pathlib import Path
+from datetime import datetime,timezone
+ROOT=Path(__file__).resolve().parents[1];V=ROOT/'verification'
+def read(p):return json.loads(Path(p).read_text())
+def save(p,x):Path(p).write_text(json.dumps(x,indent=2)+'\n')
+def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def main():
+ names=['native-alu-primitives-v1-current.json','native-geometry-alu-v1-current.json','native-alu-cost-v1-current.json','native-alu-hotspots-v1-current.json','native-Deck-alu-final-v1-current.json','native-Deck-alu-gameplay-reviewed-v1-current.json','game-decomposed-clear-reviewed-v1-current.json']
+ proofs=[read(V/n)for n in names];primitive,geometry,cost,hotspots,final,fresh,model=proofs
+ assert primitive['completed']==115584 and geometry['completed']==256 and len(final['results'])==8 and all(x['exit_code']==0 for x in final['results'].values())
+ assert fresh['all_runtime_errors_pending_outside_zero']and not fresh['default_preview_promoted']and not fresh['installed_preview_changed']
+ assert model['new_predictions']==2 and not model['accepted']
+ for proof in proofs:
+  for p,h in proof['source_sha256'].items():assert sha(p)==h,p
+ out=V/'native-alu-recovery-reviewed-v1'/datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ');out.mkdir(parents=True)
+ for n in names:shutil.copy2(V/n,out/n)
+ oldpub=read(V/'five-helper-fresh-and-debug-reviewed-v1-current.json');old=read(oldpub['facts']);before=read(V/'native-faces-cost-v1-current.json');save(out/'previous-five-helper-facts.json',old);save(out/'before-cost.json',before)
+ samples=[]
+ for a,b in zip(before['cases'],cost['cases']):
+  assert a['variant']==b['variant'] and a['costs']['original']==b['costs']['original']
+  previous=a['costs']['compiled']['cycles'];current=b['costs']['compiled']['cycles'];samples.append(dict(variant=a['variant'],faces=a['descriptor_faces'],before_cycles=previous,after_cycles=current,cycle_reduction_percent=round(100*(previous-current)/previous,2),original_cycles=b['costs']['original']['cycles']))
+ facts={k:old[k]for k in ['recovered_entry','recovered_extent','authorship','host_CPU_RAM_cases','host_instruction_locations','host_error_cases','deliberate_source_defects_rejected','connected_six_body_cases','native_internal_helpers']}
+ build=read(fresh['build']);module=read(V/'native-Deck-alu-final-geometry-v1-current.json')
+ facts.update(status='terminal_native_ALU_fresh_runtime_reviewed_fidelity_open',variant='five-helper target-ALU candidate v1',directory=str(out),report=str(ROOT/'reports/Native Geometry Arithmetic Optimization Review.txt'),
+  maximum_observed_C_stack_bytes=module['maximum_C_stack_bytes'],C_stack_partition_bytes=176,observed_C_stack_margin_bytes=176-module['maximum_C_stack_bytes'],native_module_bytes=module['code_bytes'],native_module=module['payload'],native_module_sha256=module['payload_sha256'],native_disc_qualified=False,native_disc_fidelity_verified=False,installed_preview_changed=False,whole_game_complete=False,experimental_game_model_adopted=False,
+  candidate_disc=build['derived_disc'],candidate_disc_sha256=build['derived_disc_sha256'],candidate_initial_heap_bytes=build['initial_heap_bytes'],native_code_bytes=build['linked_component_bytes'],total_reservation_bytes=build['component_bytes'],final_address_gates_verified=True,new_nesting_verified=True,fresh_route_completed=True,new_fresh_gameplay_verified=True,
+  candidate_frames=fresh['candidate_frames'],control_frames=fresh['control_frames'],candidate_trial_frames=fresh['candidate_trial_frames'],control_trial_frames=fresh['control_trial_frames'],candidate_geometry_returns=fresh['geometry_observations']['candidate']['returns'],control_geometry_returns=fresh['geometry_observations']['control']['returns'],native_face_GPU_returns=fresh['geometry_observations']['candidate']['native_GPU_returns'],control_face_GPU_returns=fresh['geometry_observations']['control']['original_GPU_returns'],differing_video_frames=fresh['differing_video_frames'],final_video_equal=fresh['final_video_equal'],recorded_state_differing_frames=fresh['recorded_state_differing_frames'],final_heap_free=fresh['final_heap_free'],
+  all_runtime_error_pending_outside_counts_zero=True,all_three_native_arena_fences_pass=True,primitive_cases=primitive['completed'],native_geometry_cases=256,native_retained_cases=4992,native_fallback_cases=1280,connected_six_caller_cases=128,connected_task_slots=101,protected_component_parent_checks=2245,
+  before_after_CPU_cost_samples=samples,cost_scope='Pinned-emulator CPU instruction cycles for three fixed qualified fixtures;GPU/debug fixture body costs excluded equally. Not physical timing or whole-game speed.',
+  remaining_hotspot='clear_records.constprop.0 costs161970cycles in each sample,55-81percent of the remaining compiled geometry cycles. Virtual CPU register/flag bookkeeping remains expensive.',
+  earlier_five_helper_differing_video_frames=old['differing_video_frames'],earlier_candidate_final_video_equal=old['final_video_equal'],earlier_candidate_layout_same_as_new=False,
+  next_action='Reduce per-byte CPU register/CCR bookkeeping in clear_records using proved liveness while preserving machine and ordered bus contracts;qualify the changed native module before a new route. Integrate10734debug with original/compiled formatter/text through stack/capture/fallback/nesting/fresh gates. Keep installed preview unchanged until fidelity is resolved.',
+  scope=fresh['scope']+' Target-only ADD/SUB/TST/ASL/LSR and immediate SR-read primitives replace portable flag arithmetic in the geometry compilation only. Earlier retained callers and separate coordinate body remain unchanged. Zero-count and oversized shifts retain the existing portable helper contract;this is not a universal68000instruction API. Native arithmetic preserves complete logicalSR rather than changing physical privilege/IRQ state. The new candidate has a smaller allocation/layout than the previous339-difference candidate;their frame counts alone do not isolate the effect of timing. No new algorithm from the local Author or Repair was accepted.')
+ save(out/'facts.json',facts)
+ lines=['NATIVE GEOMETRY ARITHMETIC OPTIMIZATION — REVIEW','',f"New experimental native module:{module['code_bytes']:,}bytes;peak geometry C stack{module['maximum_C_stack_bytes']}/176bytes. The installed BIWN Test Preview.app is unchanged.",'',f"Native arithmetic primitives passed{primitive['completed']:,}boundary/random cases across all32incomingCCR values and both physical stack banks. Complete new geometry:256cases;retained callers:4,992;fallbacks:1,280. Eight final-image component/startup/heap/outer gates pass. New aliases:256;combined six-caller matrix:128cases/101slots/2,245parent checks. Read-only monitor controls:50geometry,18outer,88region faults rejected.",'','CPU COST SAMPLES:']
+ for row in samples:lines.append(f"{row['faces']}faces:{row['before_cycles']:,}→{row['after_cycles']:,}pinned-emulatorcycles ({row['cycle_reduction_percent']}percent reduction);original assembly:{row['original_cycles']:,}cycles.")
+ lines += ['',facts['cost_scope'],facts['remaining_hotspot'],'',f"Fresh candidate/control:{fresh['candidate_frames']:,}/{fresh['control_frames']:,}frames. Geometry returns:{facts['candidate_geometry_returns']}/{facts['control_geometry_returns']}. Face GPU returns:{facts['native_face_GPU_returns']}/{facts['control_face_GPU_returns']}. Video differences:{fresh['differing_video_frames']};final video equal:{fresh['final_video_equal']}. All observed runtime guards,active flags,arena fences and immutable code pass. Fidelity remains unapproved. Inputs and stopping criteria were preserved. The old339-difference candidate used a different module/heap layout.",'','The copied final-gate controller initially misnamed two terminal outer receipts. All eight workers exited zero. The failed controller is archived;new receipts were moved to ALU names and previous candidate receipts restored byte-exact. No machine check was rerun to conceal the reporting error.','',f"Local model development:two actual same-weight Author/Repair predictions,51.55/50.82seconds. Both raw outputs are identical and fail the complete originalCPU gate at the first zero-count case (D1upper bits lost);budget ignored. Other helper bodies and ABI were retained by coordinator composition. No generated source or weights adopted. Exact prompts/responses:{model['directory']}/prompts-and-responses.txt",'',facts['next_action'],'','Whole-game source rebuilding,accepted local game-code generation,nativeChat rendering and current portable package refresh remain unfinished.']
+ report=Path(facts['report']);report.write_text('\n'.join(lines)+'\n')
+ dependencies=[Path(__file__),out/'facts.json',report,*[out/n for n in names],out/'previous-five-helper-facts.json',out/'before-cost.json']
+ publication=dict(status=facts['status'],directory=str(out),facts=str(out/'facts.json'),report=str(report),dependencies_sha256={str(p):sha(p)for p in dependencies},whole_objective_complete=False,new_training=False,new_predictions=0,installed_preview_changed=False)
+ save(V/'native-alu-recovery-reviewed-v1-current.json',publication)
+ # Mutable current frontend status includes the new candidate in its own section.
+ wrapper_path=V/'native-Deck-current-status-v1-current.json';wrapper=read(wrapper_path);packet_path=Path(wrapper['packet']);packet=read(packet_path)
+ for p in [wrapper_path,packet_path,ROOT/'native_deck_source_context_v13.py',ROOT/'scripts/show_native_six_status_v1.py',ROOT/'BIWN Latest Work.txt',ROOT/'BIWN Latest Result.txt']:
+  shutil.copy2(p,out/('before-'+p.name))
+ packet['native_alu_optimization']=facts
+ summary=f"Installed six-caller checkpoint preview unchanged. Separate target-ALU five-helper candidate: {fresh['candidate_frames']:,}/{fresh['control_frames']:,}fresh frames, {fresh['differing_video_frames']}video differences;final video equal:{fresh['final_video_equal']}. Runtime guards pass;fidelity unapproved. Geometry CPU cost samples fall46-50percent but remain above original.10734host source passes standalone/real-chain gates;target object compile-only. Local decomposed Author/Repair both rejected;no code/weights adoption. Whole-game source rebuilding remains unfinished."
+ packet['checked_current_summary']=summary;packet['checked_answer']=summary;save(packet_path,packet)
+ wrapper['dependencies_sha256'].update({str(p):sha(p)for p in [packet_path,V/'native-alu-recovery-reviewed-v1-current.json',*dependencies,V/'game-decomposed-clear-reviewed-v1-current.json']});save(wrapper_path,wrapper)
+ source=ROOT/'native_deck_source_context_v13.py';s=source.read_text();anchor='    return result\n';assert s.count(anchor)==1
+ s=s.replace(anchor,"    native_alu=p.get('native_alu_optimization')\n    if native_alu:\n        result['native_alu_optimization']=native_alu\n        result['latest_unpromoted_native_candidate_section']='native_alu_optimization'\n        result['next_source_work']=native_alu['next_action']\n        result['latest_status_native_Chat_rendering_verified']=False\n    result['new_training']=False\n    return result\n");source.write_text(s)
+ source=ROOT/'scripts/show_native_six_status_v1.py';s=source.read_text();s=s.replace("faces=f.get('geometry_faces_recovery')","faces=f.get('native_alu_optimization')or f.get('geometry_faces_recovery')")
+ s=s.replace("video frames differ, including final video. Runtime guards pass; inventory handoff timing differs.","video frames differ; final video equal: {faces['final_video_equal']}. Runtime guards pass.")
+ source.write_text(s)
+ for name in ['BIWN Latest Work.txt','BIWN Latest Result.txt']:(ROOT/name).write_text(summary+'\n\nReview: '+str(report)+'\n\nOpen BIWN Coder Live.command to see exact saved model prompts and responses.\n')
+ print(out);print(summary)
+if __name__=='__main__':main()

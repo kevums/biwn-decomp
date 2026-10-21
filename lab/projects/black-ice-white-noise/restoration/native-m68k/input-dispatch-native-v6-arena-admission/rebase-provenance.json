@@ -1,0 +1,22 @@
+{
+  "source_profile": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission",
+  "planned_address": 1558308,
+  "runtime_source_changes": 0,
+  "changes": [
+    "Link origin parameterized;default is planned v34 input placement17C724",
+    "ELF relocation records retained for an address-change audit;no instruction edits"
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/native.ld": "8e6abcd1d35efccaff8409c053c20162dfb6370f8863f0126d8b7a577b84bf40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/native-entry.S": "6ae7362794648034aa7ad4d3bed57be4d48aceba6082c2902c4b27a317aad370",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/Makefile": "d76830c359f50ba0dd0146e84b3df52d08e4196bef62e1644db8715fc8a9effd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/admission-entry.S": "571f543ad1f981cbaeadfa0b15f8a8fa87bef0eca298186992e8678ddaf9ba46",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/Makefile.portable": "9a4658c9015980ed83365b8ec5daebb4bbb230aecd22a050e0fb7106fdd5d957",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/input-source.c": "d76228e41fcfca36214a861b2d4ff69ff80432a7f88316eb1ce5770bbf2c452b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/native-input.c": "b2155201a3e74e500e6d6c2ac9a3b3e928ec99a5c7175d88081cf0202188937f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/source-provenance.json": "b75ba82c12e5a3b47b04e72dfe5ab66415404416ea9bc3f95830232808f487b7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/admission.c": "5fc5b121cb0130839d4d4e46009e0153317601c41651b60f607304d7776b06d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/physical-call.S": "2c7b0aa1912777859d758690ddf8e6cc44864e68e4e8308a22b4668f43eec450",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v4-admission/admission-provenance.json": "08e500b1d70c2655bd887279cdedd42ffd6c73003fa18260dd9fe7ad4cf34c96"
+  }
+}

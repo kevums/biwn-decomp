@@ -1,0 +1,38 @@
+[
+  {
+    "piece": "shared",
+    "bytes": 54134,
+    "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/shared/native-shared.bin",
+    "sha256": "0ec7303ba94486ffcaeeb9443d41eae5982ae88173d3815bff40a0cf952209a2",
+    "identical": true
+  },
+  {
+    "piece": "outer",
+    "bytes": 6060,
+    "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/outer/native-outer.bin",
+    "sha256": "fb0971e5c695da8f1566ddbc9a09678e204394a36de6eabf33c2c907b210f2c8",
+    "identical": true
+  },
+  {
+    "piece": "resource",
+    "bytes": 676,
+    "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/resource/native.bin",
+    "sha256": "7543a43104b951e9b3634ad76d0fcdbb32cb469002d690de93093b8d31693cdc",
+    "identical": true
+  },
+  {
+    "piece": "finalizer",
+    "bytes": 248,
+    "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-resource-arena-v39/20261021T112657.473426Z/finalizer/native.bin",
+    "sha256": "452ee872bec64367a9f018d439c51e5aa7f55c737f4b92352241136f647be97b",
+    "identical": true
+  },
+  {
+    "piece": "input-v6",
+    "bytes": 10580,
+    "copied_binary": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-arena-admission-v6/20261021T110758.139775Z/native-input.bin",
+    "sha256": "a7c294cb4d7a4748fbcea6ee27089445501eb913407f06f9ea3dba3e02899688",
+    "identical": true,
+    "prior_terminal_copied_build_reused": true
+  }
+]

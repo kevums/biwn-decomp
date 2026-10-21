@@ -1,0 +1,12 @@
+BIWN — COMPLETE C-PROCESSOR COMPARISON OF THE BOUNDARY DISC
+2026-10-19T05:16:37.828315+00:00
+
+The exact 17,084-byte compiled boundary disc completed 24,978 frames under the fixed C CPU/GPU/DSP and IRQ selection/entry providers. Re-reading every frame against the same-disc native control found zero differences in full CPU state, RAM hash, GPU state hash, DSP state hash, video hash, navigation, locomotion state and held buttons. Frame identities and lengths match. The complete 79,929,600-byte captured PCM stream matches; 1,609,520 audio samples are nonzero. The route returned outdoors.
+
+CPU owned 436,052,727 callbacks, including 734,509 platform HLE services. GPU recorded 12,259,571,140 source instructions and DSP 9,933,701,839 owned instructions. IRQ entry handled 150,244 entries. Original/rejected processor counters and reported errors/uncovered counts are zero. These are execution counts, not recovered readable game functions or full instruction-state traces.
+
+The entire read-only live observer result also matches the native route: 555 lookups (552 matches, 3 misses), 264 single-reference calls (261 decrements), 116 acquisitions with 13 loader calls, and one table initialization. The group-reference routine was not reached. Private stack/headroom checks report no errors; the narrowest acquisition headroom is 88 bytes.
+
+The compiled boundary routine ran once on its early-return path; its other paths remain component-test coverage. Full compiled boundary execution through the C instruction provider was also tested separately on1376stable+256changing cases. This route receipt does not broaden live coverage.
+
+This receipt applies only to cache disc SHA256 ee24cddc236b1db73a052464787ccdbb8540ca79d6792574680ffe1b2eb4878a. The newer17,382-byte lean selector disc is a different build; this receipt does not establish its C-processor behavior. Original firmware HLE, devices, IRQ line/ACK/vector services, host state commit/prefetch, pinned cycle charges/clock, blitter and object processor remain. Per-frame equivalence on this route is not all-path, physical timing, standalone source-game recompilation or hardware readiness. No new training or preview promotion occurred.

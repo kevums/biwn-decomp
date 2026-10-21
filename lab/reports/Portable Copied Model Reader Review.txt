@@ -1,0 +1,11 @@
+PORTABLE COPIED MODEL — READER REVIEW
+
+The actual package menu Reader path now executes inference using its owned copied27B6bit resource at32Kcontext/oneworker. A real run exposed a missing SDK import path in the base-interpreter entry. Entryv2adds copied venv site-packages;the failed attempt produced zero predictions.
+
+Two actual predictions are preserved. Reader29 completed8.30seconds and passed its format check,but incorrectly labeled10734host-only. Reader30corrected the prompt distinction;its8.08second response correctly states10734runs in the experimental native disc while local10968remains outside. Both actual prompts/rawresponses/stream records and path-audit receipts are frozen. No broad quality or independent-evaluation claim.
+
+To use:Desktop BIWN Portable Lab -> Open BIWN Lab.command ->3. This uses the local Reader in a terminal;the separate visible LMStudioChat retains its earlier three-role run. The copied weights have now been inferenced through thisReader;nativeChat inference with copied weights and copied training remain untested.
+
+Owned registered raw-resource symlink resolves into package;configured definition provenance/base and actual response model_instance_id agree. No OS-level backend file-read trace claimed.
+
+Actual same-host moved-package Reader launcher with copied SDK/MCP/context/model resource. Two sequential development prompts,not untouched evaluation or independent model verification. Reader30scoped claim reviewed against frozen MCP evidence. No training update or new nativeChat/UI run.

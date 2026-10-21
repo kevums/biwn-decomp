@@ -1,0 +1,19 @@
+BIWN — FIVE NATIVE DECK CALLERS
+
+The separate experimental disc now installs recovered scan, face, geometry, input and coordinate callers. The outer task at 0x11E6C remains hosted-only among the six recovered Deck callers. These six are one subsystem, not the entire game.
+
+Both the candidate and its control ran 25,007 frames from a fresh boot. Only the eight-byte geometry entry patch was restored in the control; its other four callers stayed native. The candidate returned from native geometry 18 times and the control returned from original geometry 18 times. Each of the five real original geometry helpers returned 18 times in both runs. The other four native callers returned 19 times each. All observed pending/error counters finished at zero, the Deck and GPU fences passed, and immutable native code stayed unchanged.
+
+All 5,248 component cases also pass at their deployed addresses. The retained four-caller nested matrix passes 128 cases at each address; it does not exercise geometry. Each of the input/face and coordinate/geometry alias matrices passes 128 cases at each address. There are 1,280 final-address full-CPU/full-RAM fallback checks, six startup checks, 192 heap initializations and 36 capacity checks. The exact region observer rejected 58 injected faults and the geometry watcher rejected eight isolated faults. These finite checks do not prove arbitrary suspension, reentry or interrupt safety.
+
+The 24,607 pre-trial recorded frames match after excluding the declared static RAM and stage hashes affected by the entry patch. During active play 19 video frames differ; the final video matches. Cycle identity and full-state identity are not established. The existing 13-frame restoration changes original 16-frame behavior. Original helpers, busy fallbacks, emulator and HLE dependencies remain. Full-game rebuilding, audio and physical-console fidelity remain incomplete.
+
+Geometry recovery and native integration are coordinator work. Earlier local face bridge work is retained with coordinator symbol renaming. This result does not establish a new model-authored geometry algorithm or a newly trained game model.
+
+Desktop BIWN Test Preview now uses the reviewed five-caller disc at its restored street checkpoint. CUA observed launch, start, movement, pause and close over487frames; all five native callers returned with intact guards. Deck shortcut inputs were recorded, but the expected Deck visual transition was not confirmed. A2400-frame headless replay matched full CPU/RAM/video/GPU/DSP and final serialized state with and without counters. This is a finite observer check, not general game equivalence. The saved local Reader response used one prediction, streamed in 7.27 seconds and passed source review. Exact prompts, raw responses and events are saved in /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-status-live-20261020T090223.858997Z.
+
+Advertising V12 remains rejected for adoption: 128 audited updates were completed, but matched source audits scored 22/24 for the base and 17/24 for the adapter. The daily base is retained; broader research and education validation remains unfinished.
+
+Experimental disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-shared-v4/20261020T084448.831876Z/BIWN-23-native-Deck-shared-v4-experimental.cdi
+Disc SHA-256: 100ddaa893580d05c6fe204ceb73a62cf87f4ce4d00f92101dbb0a1b4f24c690
+Review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-current-status-v1/20261020T091041.271402Z/review.json

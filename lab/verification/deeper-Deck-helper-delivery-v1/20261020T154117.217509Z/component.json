@@ -1,0 +1,31 @@
+{
+  "status": "terminal_three_deeper_helpers_full_CPU_RAM_match",
+  "pid": 30554,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153545.559683Z",
+  "source": "projects/black-ice-white-noise/restoration/experimental/deck-geometry-helpers-v1/coordinator-reference.c",
+  "whole_game_complete": false,
+  "new_training": false,
+  "native_disc_changed": false,
+  "completed": 772,
+  "root": "0x11384",
+  "counts": {
+    "0x10968": 260,
+    "0x10ba4": 256,
+    "0x11384": 256
+  },
+  "instruction_locations": [
+    80,
+    80
+  ],
+  "guard_cases": 173,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_helpers_v1.py": "1caacf5db7c60eb1a931b941acec47c478cdeb1db2ec64e07800c72d16e3d325",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-geometry-helpers-v1/coordinator-reference.c": "8072d70470f078900117b5c555f3f5ba95ef72a511b257d848d4a60f0d8e1b6c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-geometry-helpers-v1/helper-adapter.c": "144db3112c60150e19d31f95cfb852aded9b3ffe8f21e75dcbd700ef34804007",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-geometry-helpers-v1/helper-contract.h": "0340185772fe919cfe1d01fa9e67598ae02adb2ab7a311f08f3966209211ef95",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-scene-source/deck-scene-contract.h": "7be9daf30e1403c283b0f4591d027b2423b6491b20d4ba39ccf250f0cd54075b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-coordinate-update-v2/deck-coordinate-contract.h": "3501eef7177826d61f7147394f09a4c922ec8f3c27316da33cb90e31efadcf8a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_coordinate_source_v1.py": "9d192e962a79f84602f920b96f63de554805dbd7e638b42ff62fe66df2c8dea5"
+  },
+  "scope": "Complete3helper bodies includingRTS;finite RAM fixtures,32CCR,both stack banks,partial registers,signed/frame wraps,large CLR counters,mutating110D4 service.110D4 remains fixture;MMIO,arbitrary aliases,IRQ,timing,native relocation and disc integration unverified."
+}

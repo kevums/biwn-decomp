@@ -1,0 +1,121 @@
+{
+  "status": "generated_unverified",
+  "origin": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/BIWN-relocated-firmware-observation/20261015T031716.035517Z",
+  "instructions": 15,
+  "instructions_decoded": [
+    {
+      "address": 4096,
+      "bytes": "3039001ae4d2",
+      "size": 6,
+      "assembly": "move.w $1ae4d2.l, d0",
+      "count": 1
+    },
+    {
+      "address": 4102,
+      "bytes": "3239001ae4d2",
+      "size": 6,
+      "assembly": "move.w $1ae4d2.l, d1",
+      "count": 64
+    },
+    {
+      "address": 4108,
+      "bytes": "9240",
+      "size": 2,
+      "assembly": "sub.w d0, d1",
+      "count": 63
+    },
+    {
+      "address": 4110,
+      "bytes": "0c410005",
+      "size": 4,
+      "assembly": "cmpi.w #$5, d1",
+      "count": 63
+    },
+    {
+      "address": 4114,
+      "bytes": "65f2",
+      "size": 2,
+      "assembly": "bcs.b $1006",
+      "count": 63
+    },
+    {
+      "address": 328330,
+      "bytes": "203900f02114",
+      "size": 6,
+      "assembly": "move.l $f02114.l, d0",
+      "count": 1
+    },
+    {
+      "address": 328336,
+      "bytes": "e288",
+      "size": 2,
+      "assembly": "lsr.l #$1, d0",
+      "count": 1
+    },
+    {
+      "address": 328338,
+      "bytes": "65f6",
+      "size": 2,
+      "assembly": "bcs.b $5028a",
+      "count": 2
+    },
+    {
+      "address": 328340,
+      "bytes": "41f81000",
+      "size": 4,
+      "assembly": "lea.l $1000.w, a0",
+      "count": 1
+    },
+    {
+      "address": 328344,
+      "bytes": "43fa0010",
+      "size": 4,
+      "assembly": "lea.l $502aa(pc), a1",
+      "count": 1
+    },
+    {
+      "address": 328348,
+      "bytes": "45fa00f0",
+      "size": 4,
+      "assembly": "lea.l $5038e(pc), a2",
+      "count": 1
+    },
+    {
+      "address": 328352,
+      "bytes": "20d9",
+      "size": 2,
+      "assembly": "move.l (a1)+, (a0)+",
+      "count": 57
+    },
+    {
+      "address": 328354,
+      "bytes": "b3ca",
+      "size": 2,
+      "assembly": "cmpa.l a2, a1",
+      "count": 57
+    },
+    {
+      "address": 328356,
+      "bytes": "65fa",
+      "size": 2,
+      "assembly": "bcs.b $502a0",
+      "count": 57
+    },
+    {
+      "address": 328358,
+      "bytes": "4ef81000",
+      "size": 4,
+      "assembly": "jmp $1000.w",
+      "count": 1
+    }
+  ],
+  "stop_PC": "0x1014",
+  "live_instruction_guards": true,
+  "source_sha256": {
+    "biwn_firmware_post_GPU_cpu.c": "b84a69e49bcc128a38f0570736ab225b11cba890c894fdeb2812be292f8bb840",
+    "biwn_firmware_post_GPU_cpu.h": "3502b5f0e6ca62f032cee5bbdcb4fb75068966377bb523013bdf6a6909bdbf32"
+  },
+  "generator_sha256": "eb8c7d18628d54f2661684d2068aac8d20d032e0540215ea483d15226bab8085",
+  "implementation_authorship": "coordinator",
+  "whole_game_complete": false
+}

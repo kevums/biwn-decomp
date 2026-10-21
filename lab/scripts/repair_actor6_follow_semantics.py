@@ -1,0 +1,9 @@
+import json,fcntl,sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT));import lab
+out=Path(json.loads((ROOT/'verification/actor6-local-follow-fragment-current.json').read_text())['directory']);protocol=json.loads((out/'protocol.json').read_text())
+proof=json.loads((out/'native-check.json').read_text());(out/'native-check-before-repair.json').write_text(json.dumps(proof,indent=2)+'\n')
+user=protocol['task']+'\n\nThe unedited author and reviewer outputs each failed66624of66630originalCPU outputcases. Correct your implementation using the original source. Important source-memory detail: Jaguar M68000 memory is big-endian. MOVEA.W $78(a3),A1 reads the first16bits at that address, which are the high16bits of the32bit long just stored there. It does not read the low16bits. Also avoid undefined C signed left shift: uint16_t promotes to int, so explicitly widen to uint32_t before shifting16bits. Preserve modulo32bit arithmetic and truncation towardzero. Return bare C starting #include, no Markdown. No claim of validation.\n\nPrevious draft:\n'+(out/'reviewer.c').read_text()+'\nMeasured mismatches:\n'+json.dumps(proof['results'][0]['errors'][:3],indent=2)
+with(ROOT/'runs/.inference.lock').open('a')as lock:
+ fcntl.flock(lock,fcntl.LOCK_EX);row=lab.generate('game','You are a local source restorer correcting a measured error against the original code. Return only bare C, no Markdown.',user,600)
+row['role']='guided-repair';protocol['results'].append(row);(out/'guided-repair.c').write_text(row['text']);(out/'guided-repair.json').write_text(json.dumps(row,indent=2)+'\n');(out/'protocol.json').write_text(json.dumps(protocol,indent=2)+'\n');p=out/'prompts-and-responses.txt';p.write_text(p.read_text()+'\n\nROLE guided-repair\nREQUEST\n'+json.dumps(row['request'],indent=2)+'\nRAW RESPONSE\n'+row['text']);print(row['seconds'],row['quality_flags'],flush=True)

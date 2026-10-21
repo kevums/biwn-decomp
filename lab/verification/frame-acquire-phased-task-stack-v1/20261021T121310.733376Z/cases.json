@@ -1,0 +1,6659 @@
+[
+  {
+    "slot": 0,
+    "fixture": 0,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 1,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 2,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 3,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 4,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 5,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 6,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 7,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 8,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 9,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 10,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 11,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 12,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 13,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 14,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 15,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 16,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 17,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 18,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 19,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 20,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 21,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 22,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 23,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 24,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 25,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 26,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 27,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 28,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 29,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 30,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 31,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 32,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 33,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 34,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 35,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 36,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 37,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 38,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 39,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 40,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 41,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 42,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 43,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 44,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 45,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 46,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 47,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 48,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 49,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 50,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 51,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 52,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 53,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 54,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 55,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 56,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 57,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 58,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 59,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 60,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 61,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 62,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 63,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 64,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 65,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 66,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 67,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 68,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 69,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 70,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 71,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 0,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 1,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 2,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 3,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 4,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 5,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 6,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 7,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 8,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 9,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 10,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 11,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 12,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 13,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 14,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 15,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 16,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 17,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 18,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 19,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 20,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 21,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 22,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 23,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 24,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 25,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 26,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 27,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 28,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 29,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 30,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 31,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 32,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 33,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 34,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 35,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 36,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 37,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 38,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 39,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 40,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 41,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 42,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 43,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 44,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 45,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 46,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 47,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 48,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 49,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 50,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 51,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 52,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 53,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 54,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 55,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 56,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 57,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 58,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 59,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 60,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 61,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 62,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 63,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 64,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 65,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 66,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 67,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 68,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 69,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 70,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 71,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 0,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 1,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 2,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 3,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 4,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 5,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 6,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 7,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 8,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 9,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 10,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 11,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 12,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 13,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 14,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 15,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 16,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 17,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 18,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 19,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 20,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 21,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 22,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 23,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 24,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 25,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 26,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 27,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 28,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 29,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 30,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 31,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 32,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 33,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 34,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 35,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 36,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 37,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 38,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 39,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 40,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 41,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 42,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 43,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 44,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 45,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 46,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 47,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 48,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 49,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 50,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 51,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 52,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 53,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 54,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 55,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 56,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 57,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 58,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 59,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 60,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 61,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 62,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 63,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 64,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 65,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 66,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 67,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 68,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 69,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 70,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 71,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 0,
+    "fixture": 0,
+    "entry_SP": 789306,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 789122,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 788858,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 1,
+    "fixture": 1,
+    "entry_SP": 790330,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 790146,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 789882,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 2,
+    "fixture": 2,
+    "entry_SP": 791354,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 791170,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 790906,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 3,
+    "fixture": 3,
+    "entry_SP": 792378,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 792194,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 791930,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 4,
+    "fixture": 4,
+    "entry_SP": 793402,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 793218,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 792954,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 5,
+    "fixture": 5,
+    "entry_SP": 794426,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 794242,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 793978,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 6,
+    "fixture": 6,
+    "entry_SP": 795450,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 795266,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 795002,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 7,
+    "fixture": 7,
+    "entry_SP": 796474,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 796290,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 796026,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 8,
+    "fixture": 8,
+    "entry_SP": 797498,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 797314,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 797050,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 9,
+    "fixture": 9,
+    "entry_SP": 798522,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 798338,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 798074,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 10,
+    "fixture": 10,
+    "entry_SP": 799546,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 799362,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 799098,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 11,
+    "fixture": 11,
+    "entry_SP": 800570,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 800386,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 800122,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 12,
+    "fixture": 12,
+    "entry_SP": 801594,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 801410,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 801146,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 13,
+    "fixture": 13,
+    "entry_SP": 802618,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 802434,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 802170,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 14,
+    "fixture": 14,
+    "entry_SP": 803642,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 803458,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 803194,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 15,
+    "fixture": 15,
+    "entry_SP": 804666,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 804482,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 804218,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 16,
+    "fixture": 16,
+    "entry_SP": 805690,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 805506,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 805242,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 17,
+    "fixture": 17,
+    "entry_SP": 806714,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 806530,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 806266,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 18,
+    "fixture": 18,
+    "entry_SP": 807738,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 807554,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 807290,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 19,
+    "fixture": 19,
+    "entry_SP": 808762,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 808578,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 808314,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 20,
+    "fixture": 20,
+    "entry_SP": 809786,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 809602,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 809338,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 21,
+    "fixture": 21,
+    "entry_SP": 810810,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 810626,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 810362,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 22,
+    "fixture": 22,
+    "entry_SP": 811834,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 811650,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 811386,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 23,
+    "fixture": 23,
+    "entry_SP": 812858,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 812674,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 812410,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 24,
+    "fixture": 24,
+    "entry_SP": 813882,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 813698,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 813434,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 25,
+    "fixture": 25,
+    "entry_SP": 814906,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 814722,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 814458,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 26,
+    "fixture": 26,
+    "entry_SP": 815930,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 815746,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 815482,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 27,
+    "fixture": 27,
+    "entry_SP": 816954,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 816770,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 816506,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 28,
+    "fixture": 28,
+    "entry_SP": 817978,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 817794,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 817530,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 29,
+    "fixture": 29,
+    "entry_SP": 819002,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 818818,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 818554,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 30,
+    "fixture": 30,
+    "entry_SP": 820026,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 819842,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 819578,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 31,
+    "fixture": 31,
+    "entry_SP": 821050,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 820866,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 820602,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 32,
+    "fixture": 32,
+    "entry_SP": 822074,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 821890,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 821626,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 33,
+    "fixture": 33,
+    "entry_SP": 823098,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 822914,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 822650,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 34,
+    "fixture": 34,
+    "entry_SP": 824122,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 823938,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 823674,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 35,
+    "fixture": 35,
+    "entry_SP": 825146,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 824962,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 824698,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 36,
+    "fixture": 36,
+    "entry_SP": 826170,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 825986,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 825722,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 37,
+    "fixture": 37,
+    "entry_SP": 827194,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 827010,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 826746,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 38,
+    "fixture": 38,
+    "entry_SP": 828218,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 828034,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 827770,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 39,
+    "fixture": 39,
+    "entry_SP": 829242,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 829058,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 828794,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 40,
+    "fixture": 40,
+    "entry_SP": 830266,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 830082,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 829818,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 41,
+    "fixture": 41,
+    "entry_SP": 831290,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 831106,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 830842,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 42,
+    "fixture": 42,
+    "entry_SP": 832314,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 832130,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 831866,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 43,
+    "fixture": 43,
+    "entry_SP": 833338,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 833154,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 832890,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 44,
+    "fixture": 44,
+    "entry_SP": 834362,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 834178,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 833914,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 45,
+    "fixture": 45,
+    "entry_SP": 835386,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 835202,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 834938,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 46,
+    "fixture": 46,
+    "entry_SP": 836410,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 836226,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 835962,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 47,
+    "fixture": 47,
+    "entry_SP": 837434,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 837250,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 836986,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 48,
+    "fixture": 48,
+    "entry_SP": 838458,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 838274,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 838010,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 49,
+    "fixture": 49,
+    "entry_SP": 839482,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 839298,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 839034,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 50,
+    "fixture": 50,
+    "entry_SP": 840506,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 840322,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 840058,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 51,
+    "fixture": 51,
+    "entry_SP": 841530,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 841346,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 841082,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 52,
+    "fixture": 52,
+    "entry_SP": 842554,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 842370,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 842106,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 53,
+    "fixture": 53,
+    "entry_SP": 843578,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 843394,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 843130,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 54,
+    "fixture": 54,
+    "entry_SP": 844602,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 844418,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 844154,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 55,
+    "fixture": 55,
+    "entry_SP": 845626,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 845442,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 845178,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 56,
+    "fixture": 56,
+    "entry_SP": 846650,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 846466,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 846202,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 57,
+    "fixture": 57,
+    "entry_SP": 847674,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 847490,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 847226,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 58,
+    "fixture": 58,
+    "entry_SP": 848698,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 848514,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 848250,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 59,
+    "fixture": 59,
+    "entry_SP": 849722,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 849538,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 849274,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 60,
+    "fixture": 60,
+    "entry_SP": 850746,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 850562,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 850298,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 61,
+    "fixture": 61,
+    "entry_SP": 851770,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 851586,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 851322,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 62,
+    "fixture": 62,
+    "entry_SP": 852794,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 852610,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 852346,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 63,
+    "fixture": 63,
+    "entry_SP": 853818,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 853634,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 853370,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 64,
+    "fixture": 64,
+    "entry_SP": 854842,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 854658,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 854394,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 65,
+    "fixture": 65,
+    "entry_SP": 855866,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 855682,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 855418,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 66,
+    "fixture": 66,
+    "entry_SP": 856890,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 856706,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 856442,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 67,
+    "fixture": 67,
+    "entry_SP": 857914,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 857730,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 857466,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 68,
+    "fixture": 68,
+    "entry_SP": 858938,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 858754,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 858490,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 69,
+    "fixture": 69,
+    "entry_SP": 859962,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 859778,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 859514,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 70,
+    "fixture": 70,
+    "entry_SP": 860986,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 860802,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 860538,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 71,
+    "fixture": 71,
+    "entry_SP": 862010,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 861826,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 861562,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 72,
+    "fixture": 0,
+    "entry_SP": 863034,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 862850,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 862586,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 73,
+    "fixture": 1,
+    "entry_SP": 864058,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 863874,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 863610,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 74,
+    "fixture": 2,
+    "entry_SP": 865082,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 864898,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 864634,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 75,
+    "fixture": 3,
+    "entry_SP": 866106,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 865922,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 865658,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 76,
+    "fixture": 4,
+    "entry_SP": 867130,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 866946,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 866682,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 77,
+    "fixture": 5,
+    "entry_SP": 868154,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 867970,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 867706,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 78,
+    "fixture": 6,
+    "entry_SP": 869178,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 868994,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 868730,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 79,
+    "fixture": 7,
+    "entry_SP": 870202,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 870018,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 869754,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 80,
+    "fixture": 8,
+    "entry_SP": 871226,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 871042,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 870778,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 81,
+    "fixture": 9,
+    "entry_SP": 872250,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 872066,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 871802,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 82,
+    "fixture": 10,
+    "entry_SP": 873274,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 873090,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 872826,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 83,
+    "fixture": 11,
+    "entry_SP": 874298,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 874114,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 873850,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 84,
+    "fixture": 12,
+    "entry_SP": 875322,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 875138,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 874874,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 85,
+    "fixture": 13,
+    "entry_SP": 876346,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 876162,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 875898,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 86,
+    "fixture": 14,
+    "entry_SP": 877370,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 877186,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 876922,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 87,
+    "fixture": 15,
+    "entry_SP": 878394,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 878210,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 877946,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 88,
+    "fixture": 16,
+    "entry_SP": 879418,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 879234,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 878970,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 89,
+    "fixture": 17,
+    "entry_SP": 880442,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 880258,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 879994,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 90,
+    "fixture": 18,
+    "entry_SP": 881466,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 881282,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 881018,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 91,
+    "fixture": 19,
+    "entry_SP": 882490,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 882306,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 882042,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 92,
+    "fixture": 20,
+    "entry_SP": 883514,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 883330,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 883066,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 93,
+    "fixture": 21,
+    "entry_SP": 884538,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 884354,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 884090,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 94,
+    "fixture": 22,
+    "entry_SP": 885562,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 885378,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 885114,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 95,
+    "fixture": 23,
+    "entry_SP": 886586,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 886402,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 886138,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 96,
+    "fixture": 24,
+    "entry_SP": 887610,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 887426,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 887162,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 97,
+    "fixture": 25,
+    "entry_SP": 888634,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 888450,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 888186,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 98,
+    "fixture": 26,
+    "entry_SP": 889658,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 889474,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 889210,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 99,
+    "fixture": 27,
+    "entry_SP": 890682,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 890498,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 890234,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  },
+  {
+    "slot": 100,
+    "fixture": 28,
+    "entry_SP": 891706,
+    "lanes": [
+      {
+        "compiled_loader": false,
+        "minimum_SP": 891522,
+        "headroom_after_metadata": 308,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      },
+      {
+        "compiled_loader": true,
+        "minimum_SP": 891258,
+        "headroom_after_metadata": 44,
+        "protected64_bytes_unchanged": true,
+        "CPU_public_RAM_and_helper_contexts_equal": true
+      }
+    ]
+  }
+]

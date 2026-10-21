@@ -1,0 +1,19 @@
+DECK/C-SPACE COORDINATE SOURCE RECOVERY
+
+Recovered the complete 330-byte original caller at 11D1A..11E64 as grouped C, with no per-instruction switch. It wraps angles, submits a GPU transform, checks an unsigned squared-distance boundary and updates signed view offsets. CPU registers, flags, private stack and original helper frames are retained. Source is coordinator-authored.
+
+576 original-CPU comparisons cover all 87 instruction locations and both stack banks/all incoming CCR values. 128 additional exact-boundary/sign/wrap witnesses pass; 87 host-error cases pass. Four compiled source defects are rejected. Component E26C is an explicit GPU-result fixture; E540 executes original CPU instructions as a separate dependency.
+
+The new body replaces the old instruction cases in an isolated source Deck/C-Space pipeline. It executes 17 times over 16 rendering iterations, exits, restores the cache and resumes the world task. All 31 native/C checkpoints match, including full CPU/RAM and checked device/logical GPU state; 149 GPU commands execute with zero original CPU/GPU on the C path. This uses the retained experimental selector/count13 patch, supplied entry/ring and BIOS/disc providers. It is not unpatched natural gameplay or physical-console proof. The current experimental disc remains at 34,784 native code bytes; this hosted C recovery has not been added to it.
+
+Actual local-model test: Author 163.36 seconds; sole informed repair 194.38 seconds. Both fail case 0. After comments/whitespace are removed, their executable C is identical. The Author confuses absolute-memory operands with constants and mishandles flags, branch direction, stack reclamation and successful-return PC. No raw local source was adopted and no training update occurred. The coordinator wrote the accepted implementation separately.
+
+Coordinator issues retained: V1 host error glue overwrote a failed return-address read with a bad-return status; corrected in V2. The first pipeline adapter consumed RTS where its service caller expected a body ending at RTS; the corrected adapter retains that boundary. A V2 metadata wrapper also assumed successful source_bindings on rejection; V3 handles both statuses. These are not model failures.
+
+Desktop launcher option 10 repeats the bounded local source-output test. Its revised V2 prompt includes operand/stack/branch guidance and uses corrected glue; that revised prompt has not yet received a new inference run. Option 7 shows exact saved prompts/responses. Native LM Studio Chat display remains unverified.
+
+Source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-coordinate-update-v2/deck-coordinate-coordinator.c
+Exact local transcript: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-coordinate-native-20261019T164329.410297Z/prompts-and-responses.txt
+Integration proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-coordinate-readable-world-loop-v2-current.json
+
+Full game source, native reconstruction, GPU/DSP/service recovery, broader timing/hardware checks, reliable Advertising workflows and latest migration/future-hardware acceptance remain incomplete.

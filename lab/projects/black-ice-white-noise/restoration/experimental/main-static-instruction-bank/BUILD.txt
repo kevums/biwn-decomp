@@ -1,0 +1,13 @@
+EXPERIMENTAL MAIN-IMAGE INSTRUCTION BANK
+
+biwn_main_static_CPU.c is the exact generated source compiled by the saved build manifest. It adds11,609instruction cases to the prior dispatcher and, with that fallback, covers all18,306addresses in the current main-image listing. It is a low-level static translation, not reconstructed high-level game source.
+
+The accepted defaults are unchanged. Do not treat this file as standalone: it links the base_library in the manifest and uses the saved header/source paths. The manifest records those exact dependencies and source hash.
+
+Build manifest:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/main-static-CPU-experimental-candidate.json
+
+Pinned native bridge / cycle-cost manifest:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/main-static-native-CPU-experimental-candidate.json
+
+verification-summary.json records the ten newly supplied form-site tests and1200frame compatibility run. That route executes zero of the new static addresses; it does not validate every generated body. Separate isolated fixtures do execute ten newly supplied sites. Other program images, data structures, high-level functions and whole-game behavior remain incomplete.

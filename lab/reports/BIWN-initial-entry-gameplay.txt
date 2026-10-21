@@ -1,0 +1,11 @@
+BIWN — SOURCE CPU FROM INITIAL ENTRY THROUGH GAMEPLAY
+2026-10-19T00:14:42.233307+00:00
+
+The initial-entry C CPU candidate now passes1600freshframes of normal gameplay, including1000run-stateframes under scripted Up+C. Original CPU opcode execution is0 before owner installation and throughout the HLE-prepared entry-to-gameplay window. C GPU/DSP and source interrupt selection/entry are active; every recorded fullCPU,all2MBRAM,GPU/DSPstate,video,navigation,locomotion and held-input field matches the immutable same-core/disc native sprint control; silentPCM bytes also match. The native control was reused,not rerun. The earlier200frame startup proof remains separate historical evidence. The older24975frame merchant/return equality used sourceCPU only after nativebootstrap, with originalGPU/DSP/IRQ providers; do not attach this new initial-entry ownership to that long route. The independently running combined-provider merchant job is outside this terminal publication. FirmwareHLE,device/IRQline+ACK/vector resolution,hostcommit/prefetch/cost/clock and blitter/objectprocessor services remain supplied. This is finite host-C runtime equivalence on a repaired experimental disc, not a complete game decompilation,standalone console rebuild,authenticated BIOS boot,physical audio proof or general speedup. No new model weights or default promotion.
+
+CPU instructions owned: 27272420; ordinary C: 26561901; HLE adapters: 710519.
+GPU source instructions: 776558719; DSP source instructions: 824787084; source IRQ entries: 8522.
+Division observations: {"total": 7462, "unsigned_steps": 7443, "signed_steps": 19, "zero_exceptions": 0, "normal_returns": 7462, "errors": 0}
+Coordinator reused/integrated the existing compiled instruction providers. This run adds no newly recovered high-level original game function and no new local-model code.
+Full run protocol: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/source-CPU-from-entry-gameplay/20261019T001025.405784Z/protocol.json
+Previous startup publication: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/source-CPU-entry-publication/20261019T000419.812053Z/publication.json

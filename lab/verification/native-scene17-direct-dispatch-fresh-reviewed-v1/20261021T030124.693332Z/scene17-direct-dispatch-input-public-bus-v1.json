@@ -1,0 +1,96 @@
+{
+  "status": "terminal_13_actual_input_public_bus_orders_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z",
+  "pid": 8407,
+  "completed": 13,
+  "new_predictions": 0,
+  "new_training": false,
+  "cases": [
+    {
+      "case": 0,
+      "events": 11,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 32,
+      "events": 13,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 128,
+      "events": 67,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 160,
+      "events": 69,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 256,
+      "events": 13,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 288,
+      "events": 15,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 384,
+      "events": 69,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 416,
+      "events": 71,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 511,
+      "events": 70,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 767,
+      "events": 72,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 1023,
+      "events": 72,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 1535,
+      "events": 72,
+      "CPU_RAM_helper_entries_and_order_match": true
+    },
+    {
+      "case": 2047,
+      "events": 74,
+      "CPU_RAM_helper_entries_and_order_match": true
+    }
+  ],
+  "payload_sha256": "5c6e434534a975ecee1bb233aa6145ad1f1dde6a9152c927a6ba7d7315de642a",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_direct_dispatch_input_public_bus_v1.py": "d857a29f11a88f18fd72bd3af5d7cc647cd0f694ed265befbb240b27b26e323d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_retained_scene17_direct_dispatch_v1.py": "607288ef123a84869f83adce5fa0775b664b9ec302937efc47f99416afb8d72c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-scene17-direct-dispatch-v1-current.json": "12134d18967829b4c202e94282722fe17f229861ff061fa7ecdb6d9bd5326653",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-scene17-direct-dispatch-v1/20261021T023850.650315Z/build/native-shared.bin": "5c6e434534a975ecee1bb233aa6145ad1f1dde6a9152c927a6ba7d7315de642a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-160.json": "93b4ce17684196bfaf44dd6f95a67206fad99fc35ccfe5a226566f4ff1ea9bd0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-0.json": "cda843dec4f9e77eee3f5c9ec5292fcece26b1dd5868a8c1c93710f26ca101db",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-32.json": "d98d7b12f4e5a51074332909629a55668c43f2a6c3a0165a5832d8c2f15c8f17",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-511.json": "45e3a31944dcd9f9e3daed5ecab59f768359fba85485d175fcf1901700c92522",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-767.json": "5241e4811dbb9aba4f8a27e6ac05236fc4a131a16147fa84e50112d996cb9c83",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-384.json": "2f3e82628790fb9201c9570f92c3e9d91ea7e9ebd71789e446634deb823d3ea2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-1023.json": "418ec14082b4c9760c170205840175a118316252632e6ef4a7aca6e64a236e8c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-2047.json": "5f105fbe8b711126e4ef451214317abf7c2e6eec9f1de05bc0da6f7f2f314d1e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-1535.json": "4b0e556a6709e75fc9a64e1b932fbce763e195465fcbb59c4a3920ff05046416",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-256.json": "00a738a7b7c75a3276cd35908ddd8afc8474a42c7377b5595a968229879917f7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-128.json": "6a8c11b2eb4104d4c1419b7fac6c44c56072cf34fbc0fb257b756571eb18e4c6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-288.json": "23ab3c8706ac14bc8d2fd4b20be3be2e05d4e0f446ec0eb8d96356f9e93961da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-input-public-bus-v1/20261021T024212.701479Z/case-416.json": "96427b21b3ba34776a1f9ee312c77f609559e51dc1224d4f7985c5cac1b05c50"
+  },
+  "scope": "Actual CPU data-bus order over input globals/descriptors;helpers declared.\nGuest/private stacks and instruction fetches are outside watched ranges.\nRecorder lacks width; CPU semantic gates and decoded operations cover widths.\nRead hook records0ratherthan operand data;onlyreadaddress/orderandwritevaluesarecompared.13selected input cases including reset/nonreset,bothbanks and face selections. Actual original reset in reference;compiled reset in native. Public record/poll/texture helpers remain declared effects. No trace RAM/CPUmutation,IRQ,physical console or fresh-gameplay proof."
+}

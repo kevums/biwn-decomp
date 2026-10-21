@@ -1,0 +1,64 @@
+BIWN — WIDER DISPATCHER CAPTURE GAP AND NEXT ACTOR SOURCE INTERFACE
+
+The572byte13AE0dispatcher now reserves320private gap bytes. Its saved72byte
+context is rootSP-336throughrootSP-264. The C algorithm is unchanged except
+for the header include name; five LEA displacement operands differ in six
+binary bytes.856full original-ABI cases/all38sites pass at prototype/final
+addresses; two binary/source defects are rejected;96startup cases pass.
+Resident size19460, unchanged20480reserve and heap163DC0,1020bytes free.
+
+The read-only monitor now directly measures real descendant SP versus the
+context boundary. It is qualified on856original+856compiled cases and three
+negatives: wrong rootD0, wrong childX, and a childSPoverlap caught specifically
+by the context guard. Both fresh real gameplay runs return outdoors: candidate
+24983frames/control24996. Each dispatches13calls(12actor/1sprite), zero fullpool
+returns. Full child/root ABI, args, task-stack and context checks pass, no errors
+or pending calls. Candidate reaches392private bytes with390minimum task-stack
+bytes of headroom. Actual original descendants reach194bytes belowrootSP,
+leaving70observed context bytes clear. Control has194depth/606headroom; its
+clearance value is hypothetical because it has no C context. These finite paths
+do not bound every future descendant or interrupt/device/concurrent change.
+
+Compared with the previous256gap route, both320gap variants preserve every
+recorded video/GPU/DSP/navigation/locomotion/button frame and full captured PCM.
+Candidate CPUdiffers at1frame, control0; publicRAMhashes differ24810/24823frames
+because changed code/private stack data remain in full snapshots. No exact
+whole-machine equality is claimed. Against its fresh original-dispatcher-entry
+control, the320gap candidate still differs in17515video frames; PCMlength/hash,
+CPU/RAM/GPU/DSP/navigation/input state differ. This widening resolves the
+observed6byte context clearance, not those inherited timing/media differences.
+The same eight-field fresh-pair differences are retained in the protocol.
+
+NEXT SOURCE COMPONENT:134DC
+A complete high-level C actor initializer plus original-facing adapter now
+passes1024fullCPU/SR/bank/public2MBRAM/ordered-bus/real10520child cases, all148
+original instruction sites, including all15callback dispatches, invalid/finished
+cases, raw signed slot arithmetic and partial-word/full-register behavior.
+Geometry102C4and taskDF6C remain prescribed leaf services in this component
+proof. Native helpers receive their original argumentSPand full entry CPU/SR.
+The inline13620jump table remains a real ordered guestWORDread. Source-private
+compiler constants/frames are excluded. Unknown modified table targets trap;
+arbitrary faults/targets/concurrency are not established.
+
+Initializer1620bytes/private564; shim gap448. Joint native13AE0+134DCexecutes
+both C bodies in856additional cases and matches complete original group CPU,
+helper-entry state/publicRAM/ordered accesses. Their nested frames coexist at
+maximum600private bytes. The joint prototype uses separate test addresses,
+not a disc insertion. No-body, wrong helperX and forbidden original134E0body
+delegation defects are rejected. This is target compilation/interface recovery
+of an already-recovered algorithm, not a new logical-function count.
+
+1620initializer bytes exceed current1020free by600before alignment. No heap or
+reservation expansion is adopted. Full-loader/heap/resource/task/gameplay checks
+and context-canary monitoring for nested native frames are required before
+insertion. A descendant native frame may legitimately skip over its parent's
+saved context; the current SP-only collision rule is scoped to original children
+and must be replaced by an appropriate interval/canary check for that integration.
+
+All source/interface/layout/verification work this turn is coordinator work;
+no new local predictions or weight updates occurred. Earlier local dispatcher
+drafts failed; accepted parent functions retain their separate attribution.
+The separate3384byte source-owned five-member group is still not disc-integrated.
+Published/default18888preview is unchanged at this review. Full readable game,
+remaining sprite factory/interfaces, timing/media, LM Studio nativeChat usability,
+Advertising reliability and complete workbench migration remain unfinished.

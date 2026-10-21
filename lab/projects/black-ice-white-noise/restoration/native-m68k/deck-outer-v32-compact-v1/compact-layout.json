@@ -1,0 +1,45 @@
+{
+  "parent_profile": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1",
+  "parent_source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1/Makefile": "ad45c90d2718a72e45180114e4b988c4939a49e2cd96de676e2521bbda6db1b4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1/native-outer.ld": "4ce09e66b5b8a6f57ef1e86f89a509e23eb59b54a46c18828964b8fe1fbeac1e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1/native-outer.c": "e1b20da538f4531b08cb7cd35b2dad45c75c2594120c8acc2e5d4d7a16bf5c6a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1/derivation.json": "7bfe4fcfcc638d8641d4216c63b0b6c878584cda52381c8246dfe4d71528fa6d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1/native-inplace-resume.inc": "03330ae6ecf3d5cbd6cc885a7d9f04df9c592739bfca921d8feab8a6f8fd9a6e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-outer-v31-inplace-v1/native-outer.S": "5a437b45f272ccb347068b2a824db4f83bed3167ae26a084fc98bdf18e7fff73"
+  },
+  "previous_stride": 576,
+  "stride": 384,
+  "slots": 101,
+  "context": [
+    16,
+    134
+  ],
+  "C_stack": [
+    144,
+    368
+  ],
+  "fences": [
+    [
+      0,
+      16
+    ],
+    [
+      136,
+      144
+    ],
+    [
+      368,
+      384
+    ]
+  ],
+  "previous_observed_C_stack": 164,
+  "C_stack_reserved": 224,
+  "previous_measured_margin_retained": 60,
+  "arena_bytes_reclaimed_if_integrated": 19392,
+  "unchanged_guest_stack": true,
+  "unchanged_Deck_arena": true,
+  "disc_integrated": false,
+  "new_predictions": 0,
+  "new_training": false
+}

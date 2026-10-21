@@ -1,0 +1,22 @@
+{
+  "status": "terminal",
+  "pid": 59696,
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/ghidra-headless",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-stack2-projects",
+    "BIWN23-stack2-candidate",
+    "-process",
+    "nextstage-68000-candidate.bin",
+    "-readOnly",
+    "-noanalysis",
+    "-scriptPath",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts",
+    "-postScript",
+    "CheckBiwnDivisionPcode.java",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-cd-math-checks.json",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/divu-baseline-pcode-checks.json"
+  ],
+  "started_at": "2026-10-12T21:47:15.814367+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-12T21:47:23.692382+00:00"
+}

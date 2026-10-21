@@ -1,0 +1,89 @@
+{
+  "status": "terminal_acquire_arena_source_built_UNINSTALLED",
+  "pid": 60769,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z",
+  "source_profile": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1",
+  "payload": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/native.bin",
+  "payload_sha256": "7543a43104b951e9b3634ad76d0fcdbb32cb469002d690de93093b8d31693cdc",
+  "code_bytes": 676,
+  "code_address": 2031616,
+  "fixture_address_not_game_allocation": true,
+  "symbols": {
+    "RESOURCE_CONTEXT": 168,
+    "POOL_BYTES": 103424,
+    "POOL_BASE": 788776,
+    "ACQUIRE_BODY": 1442868,
+    "GPU_ARENA_BASE": 1471936,
+    "NATIVE_ADDRESS": 2031616,
+    "biwn_acquire_arena_entry": 2031616,
+    "biwn_acquire_arena_return": 2031750,
+    "biwn_acquire_arena_wait": 2031752,
+    "biwn_acquire_arena_wait_return": 2031792,
+    "biwn_acquire_arena_signal": 2031878,
+    "biwn_acquire_arena_signal_return": 2031918,
+    "biwn_acquire_arena_allocate": 2032004,
+    "biwn_acquire_arena_allocate_return": 2032048,
+    "biwn_acquire_arena_load": 2032134,
+    "biwn_acquire_arena_load_return": 2032206
+  },
+  "component": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/resident-arena-prototype.bin",
+  "component_sha256": "7b76eb11b88892fc41fc2321e62373badbb43d0d82fc92bb3ea50e94d04c5474",
+  "parent_build": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-callsite-disc-build-v1-current.json",
+  "stub_patches": [
+    {
+      "entry": 1438354,
+      "old": "48e73c304fef",
+      "new": "4ef9001f0000",
+      "target": 2031616
+    },
+    {
+      "entry": 1438410,
+      "old": "48e73f3e2f2f",
+      "new": "4ef9001f0088",
+      "target": 2031752
+    },
+    {
+      "entry": 1438490,
+      "old": "48e73f3e2f2f",
+      "new": "4ef9001f0106",
+      "target": 2031878
+    },
+    {
+      "entry": 1438570,
+      "old": "48e73f3e2f2f",
+      "new": "4ef9001f0184",
+      "target": 2032004
+    },
+    {
+      "entry": 1438654,
+      "old": "48e73f3e2f2f",
+      "new": "4ef9001f0206",
+      "target": 2032134
+    }
+  ],
+  "existing_GPU_arena_base": 1471936,
+  "slot_stride": 256,
+  "context_offset": 168,
+  "context_bytes": 72,
+  "new_RAM_reserved": 0,
+  "new_disc_built": false,
+  "default_promoted": false,
+  "stack_bound_proven": false,
+  "arena_lifetime_aliases_qualified": false,
+  "scheduler_IRQ_qualified": false,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "scope": "Build an uninstalled resource compiler-stack arena prototype and exact stubs.",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/prepare_acquire_arena_prototype_v1.py": "e36738e128578089767e8eb917da9fdc425326f5b5a5045fda0058249bc01567",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-callsite-disc-build-v1-current.json": "26a55d79e1504665debf3c9bc327064cb15f4a444237af21385108bd8c84c043",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1/native-acquire.S": "79e8d2ce27c4e208e809ce7ae8ab30821f868d7314a4ad29d832a98bbf886886",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-acquire-arena-v1/native.ld": "e432a838d6537c8d658bfb0f3d5b9066dab6ddefa37b9fa7bce3232f7ced52fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/resident-arena-prototype.bin": "7b76eb11b88892fc41fc2321e62373badbb43d0d82fc92bb3ea50e94d04c5474",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/symbols.txt": "b2b45fde6287ee9aa55673a73a352e9307e1528c373c9fc2c369806bab391814",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/native.bin": "7543a43104b951e9b3634ad76d0fcdbb32cb469002d690de93093b8d31693cdc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/native.o": "22ff4a63c2736f1aaa5cf0b1312f707d3fdcfad7b48a88905f249ebcc2b4e6e8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/disassembly.txt": "0924e896245892f2c863d5f3d21fa1306d2780b35dbcb28e627f93ae9ffd6718",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/native.elf": "c88490a3ad9a65c5b1eaeec3c26fa964d827df18da6cfc3ce1c5e0e0d918e3cb"
+  }
+}

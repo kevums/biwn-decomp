@@ -1,0 +1,118 @@
+{
+  "time": "2026-10-12T21:12:44.536131+00:00",
+  "basis": "68000 listing sets D1=0x53545542 beforeJSR0x303c. Its BIOS ABI remains unverified; markers are search candidates only. Each rawtrack independently rehashed duringscan.",
+  "tracks": [
+    {
+      "file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-01-raw.bin",
+      "bytes": 2890608,
+      "sha256": "ce4975151feafd786605d3f8bb12eb97eb0e9d95143d5f9e3885bc65e95bfbca",
+      "counts": {
+        "literal_STUB": 0,
+        "swap16_STUB": 0,
+        "reverse32_STUB": 0
+      },
+      "first64_offsets": {
+        "literal_STUB": [],
+        "swap16_STUB": [],
+        "reverse32_STUB": []
+      }
+    },
+    {
+      "file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-02-raw.bin",
+      "bytes": 1759296,
+      "sha256": "44f0e6412d05a91fd7cd3b1f298faeddc91b22b0a8c8619c1fd929d84fee9ef6",
+      "counts": {
+        "literal_STUB": 0,
+        "swap16_STUB": 17,
+        "reverse32_STUB": 15
+      },
+      "first64_offsets": {
+        "literal_STUB": [],
+        "swap16_STUB": [
+          353918,
+          376994,
+          376998,
+          377002,
+          377006,
+          377010,
+          377014,
+          377018,
+          377022,
+          377026,
+          377030,
+          377034,
+          377038,
+          377042,
+          377046,
+          377050,
+          377054
+        ],
+        "reverse32_STUB": [
+          376996,
+          377000,
+          377004,
+          377008,
+          377012,
+          377016,
+          377020,
+          377024,
+          377028,
+          377032,
+          377036,
+          377040,
+          377044,
+          377048,
+          377052
+        ]
+      }
+    },
+    {
+      "file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-03-raw.bin",
+      "bytes": 23108400,
+      "sha256": "e72ce60059eb9de926c5ebf1782b8bfd3202fd2e9ed084c10363ee6aa0575cc0",
+      "counts": {
+        "literal_STUB": 0,
+        "swap16_STUB": 0,
+        "reverse32_STUB": 0
+      },
+      "first64_offsets": {
+        "literal_STUB": [],
+        "swap16_STUB": [],
+        "reverse32_STUB": []
+      }
+    },
+    {
+      "file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-04-raw.bin",
+      "bytes": 641054064,
+      "sha256": "cbf43467e0809fc090ca0ee2a741e103d056c01c907524d6ac3e646aa4e4317b",
+      "counts": {
+        "literal_STUB": 0,
+        "swap16_STUB": 0,
+        "reverse32_STUB": 1
+      },
+      "first64_offsets": {
+        "literal_STUB": [],
+        "swap16_STUB": [],
+        "reverse32_STUB": [
+          531971779
+        ]
+      }
+    },
+    {
+      "file": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-05-raw.bin",
+      "bytes": 1053696,
+      "sha256": "f7c8ec9bef0d1d4b0104065c2146dc613fd4f3c8e9f54765d5da99298f44831d",
+      "counts": {
+        "literal_STUB": 0,
+        "swap16_STUB": 0,
+        "reverse32_STUB": 0
+      },
+      "first64_offsets": {
+        "literal_STUB": [],
+        "swap16_STUB": [],
+        "reverse32_STUB": []
+      }
+    }
+  ],
+  "warning": "A literal marker is not an executable boundary or a verified sector/load mapping."
+}

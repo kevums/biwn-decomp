@@ -1,0 +1,80 @@
+{
+  "frames": {
+    "candidate": 25012,
+    "control": 24966
+  },
+  "paired_frames": 24966,
+  "fields": {
+    "video_sha256": {
+      "count": 8717,
+      "first_frame": 378,
+      "final_equal": true
+    },
+    "held_buttons": {
+      "count": 572,
+      "first_frame": 635,
+      "final_equal": true
+    },
+    "raw_player_X": {
+      "count": 5508,
+      "first_frame": 643,
+      "final_equal": true
+    },
+    "raw_player_Z": {
+      "count": 4580,
+      "first_frame": 645,
+      "final_equal": true
+    },
+    "scene_word": {
+      "count": 164,
+      "first_frame": 8580,
+      "final_equal": true
+    },
+    "player_mode_word": {
+      "count": 246,
+      "first_frame": 8580,
+      "final_equal": true
+    },
+    "tile_word": {
+      "count": 0,
+      "first_frame": null,
+      "final_equal": true
+    },
+    "floor_word": {
+      "count": 131,
+      "first_frame": 8911,
+      "final_equal": true
+    },
+    "locomotion_state": {
+      "count": 281,
+      "first_frame": 639,
+      "final_equal": true
+    }
+  },
+  "frontend_button_schedule_differences": 564,
+  "game_latched_button_RAM_differences": 572,
+  "field_meanings": {
+    "held_buttons": "Game-latched controller RAM long0x49ba4,not the frontend input schedule."
+  },
+  "audio": {
+    "candidate": {
+      "frames": 20009600,
+      "nonzero_samples": 0
+    },
+    "control": {
+      "frames": 19972800,
+      "nonzero_samples": 0
+    }
+  },
+  "final_video_equal": true,
+  "final_selected_fields_equal": true,
+  "minimum_sampled_heap_while_outer_active": {
+    "candidate": 14320,
+    "control": 14320
+  },
+  "global_heap_minimum_measured": false,
+  "same_feedback_policy": true,
+  "identical_frontend_inputs": false,
+  "control_scope": "Both lanes execute the same six native Deck/outer callers,six compiled geometry helpers and internalinputreset. Control restores only10original17E0Esceneentrybytes. Candidate adds readablefullCPU17E0Escenecaller and internal170A0recordbuilder with direct physical completion polling and structured native E03A clear and17F14rotation plus structured185B2. Its global original entry remains intact. New compact outer layout uses384-byte private slots and a persistent outer logical CPU frame. The scene now also executes readable170A0 natively;E3E0/E220 are captured through the inherited native global redirects,including the older pending-command E098 guard; GPU programs and existing global native GPU redirects remain inherited. New internal E098 uses the pinned original F03200-only wait and bypasses the inherited F03204-pending guard; this restoration behavior difference is part of the trial; no prior timing or fidelity result is inherited. All monitors read-only;no snapshot/hoststatefixes. This compares original-versus-native complete scene caller in this layout;it does not isolate new170A0cost from earlier scene changes and does not establish original whole-game fidelity or physical console timing.",
+  "scope": "Paired frame-index comparison under the same feedback policy. Different actual input schedules prevent causal speed/fidelity inference. Control restores the whole original scene entry,so differences do not isolate new170A0 from earlier scene changes. E220record-matrix capture returns=0. This is the observed count,not assumed branch coverage."
+}

@@ -1,0 +1,7 @@
+BIWN — compact local Author
+
+One actual local copied27B prediction completed in 320.05 seconds and6499tokens under a6500token cap. Output remained incomplete. The v2parser correctly classified incomplete_generation before signature checks. No Repair was run,no complete C candidate compiled,and no source installed. Zero optimizer updates.
+
+Static output also ignores returned shifts and substitutes D-register slots for A-register slots despite explicit instructions. Those are source observations,not compiled test counterexamples. The next development task is a22-instruction prologue with explicit register mapping and a bounded output budget. No general model-quality or training-gain claim.
+
+Exact prompt and response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-geometry-records-reviewed-v2/20261021T054150.530354Z/prompts-and-responses.txt

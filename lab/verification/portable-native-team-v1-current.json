@@ -1,0 +1,27 @@
+{
+  "status": "terminal_portable_native_handler_installed_CJS_loader_fix_pending_UI",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "plugin": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/biwn-portable-4f565868-team",
+  "plugin_name": "biwn-portable-4f565868-team",
+  "package_id": "4f5658686590",
+  "source_handler": "/Users/kevin/.lmstudio/extensions/plugins/local/visible-local-team/index.mjs",
+  "source_handler_sha256": "7f3992888fc15b86fb09094a701e120f615c3bb025826ad5800efa761976448f",
+  "new_predictions": 0,
+  "new_training": false,
+  "live_plugin_changed": false,
+  "native_Chat_verified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/prepare_portable_native_team_v1.py": "b82d1ef8f23e510409c8965b3f5642c2f1fd8a83964300ec688c562bcb805e9c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/portable_native_context_v1.py": "f01a24ef4585d2feaff2aec12e63a93eb10c1a9a249f3cb1bda91574b11d8e68",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/installed-handler-as-run.mjs": "7f3992888fc15b86fb09094a701e120f615c3bb025826ad5800efa761976448f",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/biwn-portable-4f565868-team/index.mjs": "43f7ba51de7cbccd4250813996f1f69d2c9418e93f2017e0bebbb9d6140a5e6b",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/biwn-portable-4f565868-team/manifest.json": "87594d43e0a20120f5452efdbed5910fb1382f74b747bc43497ee048e2b623cd",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/biwn-portable-4f565868-team/package.json": "04713581b3c1e2a7014f0f9775a501ac20b72884779413c78720cebf9c1f1b74",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/portable_native_context.py": "f01a24ef4585d2feaff2aec12e63a93eb10c1a9a249f3cb1bda91574b11d8e68",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/config/native-chat-team.json": "8fef45b1225c0464d96c07707ffda91d0348ea913d9608c98a7b83b51bee0185",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/package-before-loader-fix.json": "67a70f4d8b696449458572693a6f12dd98470165f88b447fff60ca6382ba0f18"
+  },
+  "loader_correction": "Vendor production.js is CommonJS;remove type:module from package metadata while retaining index.mjs source.",
+  "previous_setup_snapshot": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/setup-before-loader-fix.json"
+}

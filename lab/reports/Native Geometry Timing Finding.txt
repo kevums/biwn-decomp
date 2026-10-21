@@ -1,0 +1,11 @@
+NATIVE GEOMETRY — TIMING FINDING
+
+Read-only instrumented replays reproduce every baseline frame record,final RAM/serialized state and runtime guard observation:24965candidate/24964control frames. Inputs,discs andstopping conditions are unchanged. Traces contain10500candidate/10644control events with no overflow.
+
+Both lanes start18geometry calls at trialoffset54. The last native return is103versus89original:14frames later. Resourceflag0x47b80has the same16value transitions;the first2matchin time and all14later transitions shift14frames. Flag0x47b82doesnotchange. The held-button global has the same7value transitions:mainrelease214versus200,while keypad0asserts225versus226.
+
+The observed resourceflag changes follow compiled stores at0x16082a(move.w#1,$47b80) and0x16095e(move.w#0,$47b80). Held-button changes follow0x15fcd0(move.l a1,(a0)). These are read-only instruction-boundary observations;separate asynchronous/IRQ attribution remains unproven.
+
+The timing gap is a concrete optimization target. It supports geometry scheduling as a contributor,butdoesnotprove all62video differences are harmless or fullyexplained. No newdisc/previewpromotion. Fullgame source rebuilding andfidelity remainunfinished.
+
+Detailed timeline:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-timing-analysis-v1-current.json

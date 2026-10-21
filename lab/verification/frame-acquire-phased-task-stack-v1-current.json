@@ -1,0 +1,41 @@
+{
+  "status": "terminal_phased_frame_acquire_captured_depth_all101slots_task_guards_and_providers_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-task-stack-v1/20261021T121310.733376Z",
+  "pid": 65956,
+  "new_disc_built": false,
+  "new_predictions": 0,
+  "new_training": false,
+  "completed": 317,
+  "paired_provider_cases": 634,
+  "CPU_lanes": 1268,
+  "task_slots": 101,
+  "full72fixture_slots": [
+    0,
+    50,
+    100
+  ],
+  "captured_entry_SP_above_task": 530,
+  "protected_task_bytes": 64,
+  "actual_metadata_bytes": 38,
+  "maximum_stack_bytes": 448,
+  "minimum_SP_above_task": 82,
+  "source_private_comparison_bytes": 340,
+  "original_and_compiled_loaders": true,
+  "lower_CD_yield_copy_controlled": true,
+  "game_frames": 0,
+  "arbitrary_IRQ_qualified": false,
+  "same_task_nested_frame_calls_qualified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_task_stack_v1.py": "cb00302f48e599290b18f75502c270e4ec586a34ed4b57825393dcb3f59d7542",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_nested_v1.py": "41dc41e928f176ad765ba468704e382c36a243464579a60f4d02bfac86f2b693",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_v1.py": "9270fc66b678eb0eb7fedfef1fa16e43d2d74361c76c7c7824317753ec0f24ea",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-v1-current.json": "27f4e28bfa3667a0b5152d6bc1cfa0630ed1562a384bf9a2004ea2e62b56b54e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-nested-v1-current.json": "b8cb5cb92fafcc1e531cafecf7dbc00a9da116d64f01bb8ab8062cd887eb0181",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/v39-frame-acquire-header-fault-reviewed-v1-current.json": "182764109e159ff2f2dd35905a74b7abaa4b19de301615de2f8c82f0da1b9409",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-wait-format-disc-build-current.json": "c29191707fc6e789cfe7efdf2f74f3b052bec967e605e93334961d4d07dfb0b4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-fast-core-wait-format/20261018T224704.637643Z/resident-linked.bin": "28ebbfc09e43af054cc791cddda9a871241c59f19b07fd27f7f2d60a60f9c2c2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-v1/20261021T121012.659248Z/build/native.bin": "f72914774f38c6c668bcd2c94cd5bb2c5aa0a2efcb29ec01e0747aeb591dbac8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-nested-v1/20261021T121042.508692Z/providers.bin": "cd838f2cd29559b7503e30db41c1a1aef1c1549e29bcd0e436da1e98c082d87d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-task-stack-v1/20261021T121310.733376Z/cases.json": "a9f195923a0b9460f38b084f9dd1a5bb60df1399e7b90662262b0319e69ac3da"
+  }
+}

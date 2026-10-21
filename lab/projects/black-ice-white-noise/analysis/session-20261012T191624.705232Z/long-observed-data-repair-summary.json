@@ -1,0 +1,83 @@
+{
+  "recorded_at": "2026-10-13T03:29:07.717262+00:00",
+  "status": "three_observed_data_conflicts_reclassified",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/long-observed-data-repair-20261013T032858.453461Z",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/long-observed-disassembly-20261013T032644.137384Z",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "reclassified_interval": "[0x1851e,0x1852c)",
+  "reclassified_bytes": 14,
+  "new_instructions": 3,
+  "total_new_instructions_since_18225": 81,
+  "instructions_total": 18306,
+  "function_count": 206,
+  "long_stable_sampled_PCs_missing_after": 0,
+  "old_instruction_rows_unchanged": true,
+  "baseline_project_unchanged": true,
+  "reclassification": {
+    "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+    "previous_code_units": [
+      {
+        "address": "0001851e",
+        "bytes": 1,
+        "description": "?? 3Fh    ?",
+        "class": "DataDB"
+      },
+      {
+        "address": "0001851f",
+        "bytes": 1,
+        "description": "?? 3Ch    <",
+        "class": "DataDB"
+      },
+      {
+        "address": "00018520",
+        "bytes": 4,
+        "description": "addr 00023f3c",
+        "class": "DataDB"
+      },
+      {
+        "address": "00018524",
+        "bytes": 4,
+        "description": "addr 00034879",
+        "class": "DataDB"
+      },
+      {
+        "address": "00018528",
+        "bytes": 4,
+        "description": "addr 0004c3e0",
+        "class": "DataDB"
+      }
+    ],
+    "results": [
+      {
+        "address": "0001851e",
+        "size": 4,
+        "bytes": "3f3c0002",
+        "assembly": "move.w #0x2,-(SP)",
+        "status": "observed_instruction_reclassified_from_data"
+      },
+      {
+        "address": "00018522",
+        "size": 4,
+        "bytes": "3f3c0003",
+        "assembly": "move.w #0x3,-(SP)",
+        "status": "observed_instruction_reclassified_from_data"
+      },
+      {
+        "address": "00018526",
+        "size": 6,
+        "bytes": "48790004c3e0",
+        "assembly": "pea (0x4c3e0).l",
+        "status": "observed_instruction_reclassified_from_data"
+      }
+    ],
+    "scope": "Only selected14bytes reclassified in project copy; no memory bytes or existing instructions intentionally changed."
+  },
+  "artifact_sha256": {
+    "plan.json": "2d390d26eaf030c104dc6fc5427997fd39a86fff885631ee2658cc544a1d9373",
+    "reclassified.json": "b2cd6d38af12e2cf3a1f3bb3069ad4e5979cfb17243d13e2416c94e0289eb321",
+    "export/manifest.json": "850ca0c6bb0ebd52592f3ac2bbdbc81c681c8a2cae303e6c4dda578ae5f4cfed",
+    "export/listing.asm": "0c5bf49cc0c57444c592a6aa4011036a8006a572cc8cc09b453ba46041964727",
+    "export/decompiled.c": "57229065264d332e658c446f5bcab171ea6f46369d766810ae6536ac262ea59a"
+  },
+  "scope": "Observed instruction boundaries in separate copy, not recovered original names/ABI, full CPU coverage, executable reconstruction or hardware verification."
+}

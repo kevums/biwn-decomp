@@ -1,0 +1,78 @@
+[
+  {
+    "name": "begin_PC",
+    "rejected": true
+  },
+  {
+    "name": "begin_bank",
+    "rejected": true
+  },
+  {
+    "name": "return_word",
+    "rejected": true
+  },
+  {
+    "name": "saved_D0",
+    "rejected": true
+  },
+  {
+    "name": "D0",
+    "rejected": true
+  },
+  {
+    "name": "A0",
+    "rejected": true
+  },
+  {
+    "name": "SP",
+    "rejected": true
+  },
+  {
+    "name": "PC",
+    "rejected": true
+  },
+  {
+    "name": "USP",
+    "rejected": true
+  },
+  {
+    "name": "SSP",
+    "rejected": true
+  },
+  {
+    "name": "SR_X",
+    "rejected": true
+  },
+  {
+    "name": "error",
+    "rejected": true
+  },
+  {
+    "name": "active",
+    "rejected": true
+  },
+  {
+    "name": "bus",
+    "rejected": true
+  },
+  {
+    "name": "service",
+    "rejected": true
+  },
+  {
+    "name": "budget",
+    "rejected": true
+  },
+  {
+    "name": "missing_begin",
+    "rejected": true
+  },
+  {
+    "name": "missing_end",
+    "rejected": true
+  },
+  {
+    "name": "physical_stack",
+    "rejected": true
+  }
+]

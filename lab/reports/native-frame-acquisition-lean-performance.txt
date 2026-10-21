@@ -1,0 +1,13 @@
+BIWN complete frame acquisition:lean native C variant
+
+Same631frozen normal fixtures:old70243976 vslean6002162 emulatedCPUcycles;old6349126 vslean530266 instructions. Full finalCPU matches in every case.
+All173original instruction locations covered;192zero fixtures/320actualDIVS exceptions and RTE match;144nested loader comparisons and24ordered comparisons pass.
+Code2838 ->1600bytes. Finalresident16292/16384bytes;parent14690bytes andheap floor unchanged.96startup cases andallocation/compaction witness passed.
+First-call stopped-device preloader:118instructions/1464cycles original;542/7464lean;oldcontextport5337/59246. Actual loader/return fullCPU,public44bytes/cache144bytes match with mappedPC.
+Fresh live candidate29773frames;116calls/returns,13loader calls,no ABI/stack monitor errors;minimum headroom88bytes (oldcontextport56). This does not prove arbitrary stack/timing/handler safety.
+Same-layout original-entry control24975frames matches parent route fields andPCM. Candidate returns outdoors butvideo/audio/trajectory differ;no defaultpromotion orcurrentpreviewrestart.
+No new logical function ornativeport count;optimized variant of existing1AC68port. Coordinator adaptation,no new local-model prompts orweight-training for this native work.
+
+Identical631-fixture input bytes permit controlled cost comparison;these are fixed native-CPU cycle/instruction counts with a guest loader fixture,not Mac wall-clock or whole-game speed. Live runs have different adaptive trajectories despite116calls each;instruction totals are descriptive,not paired performance estimates. First-call isolated exact CPU/publicRAM/argument match with source/relocated code and disabled devices. Original function semantics retained at tested boundaries;all173source locations covered. Original and accepted context-array source/evidence unchanged.
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-acquire-lean-performance/20261019T031122.978007Z/review.json

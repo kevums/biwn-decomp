@@ -1,0 +1,68 @@
+{
+  "status": "terminal_deeper_candidate_final_component_startup_heap_gates_pass",
+  "pid": 66332,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z",
+  "build": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json",
+  "build_sha256": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+  "results": {
+    "geometry.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/geometry.py.log"
+    },
+    "retained.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/retained.py.log"
+    },
+    "startup.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/startup.py.log"
+    },
+    "fallback.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/fallback.py.log"
+    },
+    "capacity.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/capacity.py.log"
+    },
+    "outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/outer.py.log"
+    },
+    "fallback-outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/fallback-outer.py.log"
+    },
+    "waits-outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/waits-outer.py.log"
+    }
+  },
+  "whole_game_complete": false,
+  "new_training": false,
+  "fresh_gameplay_verified": false,
+  "new_outer_connected_matrix_verified": false,
+  "child_pids": {},
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_frame_phased_image_final_v1.py": "da3a760561ae9ccdd40fb2c9f2ff8dc82fc06f2f4163a30a6111f080584a124c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/geometry.py": "f847ea4236d9493f9e0a7de68f288de798dd9680b471fecfebe701f532e6d840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/retained.py": "a9b2c5181fe1880505bb661e86323236d730f0b3c6e769067e7cfbb26f417aa1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/fallback.py": "70d370afd22c91775458d32d3fe52edcdd7c0c5b63904da2b90a86b3bbcbd4f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/startup.py": "f9ecf594ec796080b00c1c457dd932d7d97462b109709f390b4be4f0ccdb0c7d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/capacity.py": "0a27679768f87bc3c89709455346771faf207daf0df894ef4f0a267f4c5bb90b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/native_outer_final_checker.py": "15afe571ec24575f2cb680fd6a6e89959553853766d7e74cfeab10896e89494f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/fallback-outer.py": "d4fffa03f1d98c169c15b2664863889734dc4f03e77bd248f68674544b3b197f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/waits-outer.py": "d185583b08ca58875e5ecc3d55c6e5c505c7456f85a074394327144d2ecc84f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-v1/20261021T121842.307822Z/native_retained_final_checker.py": "a9b2c5181fe1880505bb661e86323236d730f0b3c6e769067e7cfbb26f417aa1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-geometry-v1-current.json": "e4d9f45257158da971528115e8ffb9126cc83767acbeae3f8e01855f540e57c3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-frame-phased-image-final-v1-current.json": "054160a4db7763a0e89f85db694d70673a02820fcaad54ace3b0da5c93327613",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-fallback-frame-phased-image-final-v1-current.json": "368eb6b5c88c2f5eaaa81c9bef8951a421785c545dedebcf51a6d1b3655e1fb2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-startup-heap-v1-current.json": "f265105d59c0f726155b6675361dc65d5b77d51caeefeb29556b9c94459b438f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-capacity-v1-current.json": "0af6f09511d163778682663e161d42a187216fd99e37a651abe3fdd3e91fe23d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-frame-phased-image-final-v1-current.json": "39c43de83694ea16080963ae2a4602e444dcdc3f8693eb63367229f3200d8a83",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-fallback-frame-phased-image-final-v1-current.json": "d59d0f0719173c791c311d9168643f30201af35e3d1665b3d6c4f7c001d8736c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-frame-phased-image-final-v1-current.json": "e50dd4709494bbdda9cb3ac88fc579ea2d993a1c70b055f7c93f036354775f86"
+  },
+  "scope": "Exact candidate-address module/startup/heap gates; new nesting/freshness pending. Exact image bytes checked for both modules; geometry256,retained4992,fallback1280,startup6,heap192,capacity36,outer1280,fallback384,wait192pairs. New alias/nested six-caller integration,real helper suspension,resource peaks and fresh gameplay remain pending. No preview promotion."
+}

@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/m68k-elf/bin/m68k-elf-gcc",
+    "-m68000",
+    "-msoft-float",
+    "-std=c11",
+    "-Os",
+    "-ffreestanding",
+    "-fno-builtin",
+    "-fno-pie",
+    "-fno-common",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-Wno-misleading-indentation",
+    "-Dinline=inline __attribute__((always_inline))",
+    "-c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-geometry-helpers-v1/coordinator-reference.c",
+    "-o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153545.559683Z/native-build/helpers.o"
+  ],
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-geometry-helpers-v1/coordinator-reference.c",
+  "source_sha256": "8072d70470f078900117b5c555f3f5ba95ef72a511b257d848d4a60f0d8e1b6c",
+  "object": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T153545.559683Z/native-build/helpers.o",
+  "object_sha256": "784f058dc3f6309a9beb8ebff652b49c61b3d33c7630db571bed3d40e8e5a144",
+  "undefined_symbols": [],
+  "native_execution_verified": false,
+  "disc_installed": false
+}

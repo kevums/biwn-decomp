@@ -1,0 +1,13 @@
+include Makefile.native
+.DEFAULT_GOAL := controller
+CONTROLLER_SOURCE ?= controller-native.c
+.PHONY: controller
+controller: $(BUILD)/native-controller.elf $(BUILD)/native-controller.bin
+$(BUILD)/controller-shim.o: controller-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/controller-native.o: $(CONTROLLER_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-controller.elf: $(BUILD)/controller-shim.o $(BUILD)/controller-native.o controller.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T controller.ld -Map $(BUILD)/native-controller.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-controller.bin: $(BUILD)/native-controller.elf
+	$(CROSS)objcopy -O binary $< $@

@@ -1,0 +1,41 @@
+{
+  "time": "2026-10-12T21:15:39.102271+00:00",
+  "status": "candidate_static_mapping_requires_runtime_validation",
+  "source_raw_track": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-02-raw.bin",
+  "raw_track_sha256": "44f0e6412d05a91fd7cd3b1f298faeddc91b22b0a8c8619c1fd929d84fee9ef6",
+  "marker": {
+    "normalized_hex": "53545542",
+    "run_count": 16,
+    "raw_track_offset": 376994,
+    "raw_track_sector": 160,
+    "byte_in_sector": 674
+  },
+  "payload_raw_track_offset": 377058,
+  "payload_raw_cdi_offset": 3267666,
+  "payload_sector": 160,
+  "payload_sector_byte": 738,
+  "derived": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin",
+  "derived_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "bytes": 1032192,
+  "load_address": "0x4000",
+  "nominal_end_address": "0x100000",
+  "selection_basis": [
+    "68000 listing passes A0=0x4000,A1=0x100000,D1=STUB,D2=0 to JSR0x303c; polls JSR0x304e until A0>0x100000, terminates with JSR0x3042 and JMP0x4000.",
+    "Pinned Atari SDK CD.INC identifies303c asCD_read,304e asCD_ptr,3042 asCD_uread,3060 asCD_initm.",
+    "Original scanned Atari manual printedPage12 describes CD_initm marker search and data delivered immediately past the partition marker; up to64 bytes may be written beyondA1.",
+    "Pinned VirtualJaguar HLE reference skips a complete repeated marker run. It is reference implementation behavior, not observedBIOS/hardware execution.",
+    "At chosen marker-run end, bytes begin46fc2700 (MOVE.W immediate toSR) and plausible68000 initialization with absolute call targets inside the proposedRAM mapping."
+  ],
+  "prior_boot_overlap": {
+    "boot_payload_offset": "0x5bb8",
+    "bytes_equal": 36520,
+    "basis": "Byte equality only; the initial60000-byte declared payload contains the first portion of this later streamed candidate."
+  },
+  "limits": [
+    "CD timecode and actual TOC-selected track runtime mapping are not yet replayed.",
+    "No BIOS/emulator/hardware execution observed.",
+    "Nominal buffer length is not proof of exact executable/file extent; range can contain data, padding or mastering trailer.",
+    "No original symbols/source recovered."
+  ],
+  "entry_observations": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/binary-analysis/20261012T211539.142796Z/observations.json"
+}

@@ -1,0 +1,11 @@
+FIVE-HELPER CANDIDATE — INVENTORY HANDOFF DIFFERENCE
+
+The extra trace left every recorded frame unchanged versus its earlier same-image run:24,967frames in each lane. No trace rows overflowed. Existing acceptance monitors remain byte-identical;the added logger reads RAM/registers and writes only host storage. This proves nonintrusion at the recorded frame boundaries,not arbitrary midframe timing.
+
+The candidate outer Deck task returns at trial offset 146;the original-geometry control returns at 91. The inventory handler resumes at offsets 256and200respectively. The prescribed keypad0window is225..233. Only the control enters inventory selection with held bit0x10 at226;its digit helper executes and selection changes from0to9at227. The candidate sees no keypad0in that handler and keeps0.
+
+The existing recovered1A1F0selection block maps keypad0to start slot9. Thus the trace directly explains this final menu difference as input reaching a different context after a different Deck-return schedule. It does not establish that all339differing video frames share this cause,or prove the new candidate faithful. The earlier assumption that keypad0caused both Deck exits was wrong:both outer tasks had already returned.
+
+Final player coordinates match. The final scene region and top HUD match;all5,190different RGB pixels lie in the right inventory panel,bounding box(228,61)-(319,216). Both images are326x240. Other active-frame render/state/timing differences remain. Do not erase this result by adjusting test inputs or accepting only a matching subregion.
+
+The installed preview remains unchanged. Next:identify and reduce the new helper path timing difference while preserving complete CPU/RAM/call contracts;then repeat a separately qualified candidate/control comparison. Full game/source/physical/audio/IRQ fidelity remains incomplete.

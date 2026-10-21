@@ -1,0 +1,16 @@
+BIWN — current delivery
+
+The separate v29 experimental image completes 25,027 candidate and 24,964 control frames from a fresh HLE CD boot. All 6,286 native scene calls and 26,514 captured-helper calls return. Display-list, rotation and clear each return 5,284 times. Every retained/shared/face/geometry/outer/reset/clear/rotation/display monitor finishes clear and quiescent. No checkpoint or host guest-state repair was used.
+
+There are still 8,478 paired video differences and 471 held-input differences. Final video and selected final game fields agree. The identical 1,000-frame input prefix differs on 445 video frames; the new original-scene control differs from the prior layout on 100 frames. Different feedback inputs and layouts prevent attributing these counts to a source-logic or speed improvement. Both audio captures have zero nonzero samples. Fidelity remains unapproved.
+
+Scene C-stack use stays at 168 of 208 bytes, leaving 40 bytes. Sampled free heap while the outer task was active is 880 bytes in both lanes; this is not a global heap minimum. The shared module is 48,410 bytes, linked native code 89,240 bytes, reservation 277,248 bytes, boot copy 115,648 bytes and initial heap 120,640 bytes. Copied sources and SDK rebuild the exact deployed module. Global original helpers and other original CPU/GPU/DSP, rendering, device and HLE dependencies remain.
+
+The default portable Reader is now version37. It selects the current replay metric and distinguishes pending work from the latest tested disc. Its actual copied-runtime evidence preflight passes with 18 MCP tools and no origin-access violations. It has not generated an answer. The prior Reader36 response remains the latest actual output test: 11.58 seconds, 156 words against 150 requested, with scoped v27 factual claims reviewed. That older response is not a briefing on this new result.
+
+Who did the work: Codex coordinated and reviewed deterministic compiler/emulator, alias/nesting, observer and fresh-route checks. The selected target dispatch was authored in the prior continuation. No new unique original functions, local model coding predictions or optimizer updates were produced in this continuation. No trained weights were adopted. Root/copied prompt indexes remain 186/187 records; preflights are not predictions.
+
+Whole readable-source and same-console rebuilding, remaining game source recovery, useful trained-model quality, copied-weight Native Chat usability, audio/IRQ/physical-console fidelity and future256GB performance remain incomplete. The Desktop checkpoint preview is unchanged.
+
+Game review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN Direct Scene Dispatch and Gameplay Review.txt
+Reader entry: /Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/portable_biwn.py

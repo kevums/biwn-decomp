@@ -1,0 +1,23 @@
+BIWN number conversion: verified progress on 2026-10-18T18:50:51.377252+00:00
+
+One more original game routine now runs as reconstructed C: number-to-text conversion at 0x1B212. The coordinator generated it from the pinned instruction semantics. The local model did not write this C. The compiler and test runners are programs, not agents.
+
+The standalone and linked routine each passed 1,196 normal cases with CPU and ordered memory comparisons, 256 divide-by-zero cases,and all 50 original instruction addresses. The full formatter matched 3,654 number-helper returns across 1,654 calls. These finite fixtures cover the public registers, stack and shared digit buffer. They do not prove arbitrary exception handlers, aliases or interrupt timing.
+
+The experimental disc uses 11,224 resident bytes inside an 11,264 byte reservation. The heap starts at 0x1619C0. The larger layout passed all 19 installation, component and resource checks. The original CDI and default preview are unchanged.
+
+Fresh gameplay completed the merchant and return-outdoors route in 24,974 frames, versus 24,958 for the immediate parent. A separate 2,600 frame repaired Deck test observed 445 completed compiled number calls with no task-stack violation; minimum observed headroom was 444 bytes. Player positions, video and audio differ. This is neither a whole-game speedup nor frame-equivalence result.
+
+Easy local inference
+Double-click Ask BIWN Candidate Status.command in the Desktop Local AI Lab folder. It now reads this new publication through the configured MCP connection. The actual local workflow took 27.59 seconds and produced 84 words. It uses the existing local 27B 6bit model; no weights were retrained. This run used the LM Studio SDK. Native Chat UI observation timed out, so no new native Chat generation is claimed.
+The Reader fetches the evidence through MCP. If its draft exceeds the limit, a same-model Editor generates four short structured fields that are joined without truncation. This run used the Editor: True. These are sequential roles using the same weights, not independent verification. Raw drafts, Editor requests and constrained outputs are retained. The first scoped answer and unconstrained editing attempts failed their scope/length checks; those records remain available.
+Exact system/user prompts, tool results and raw model response:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T184947.164005Z/prompts-and-responses.txt
+
+Experimental CDI:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-number-format/20261018T183942.455657Z/BIWN-23-native-number-format-experimental.cdi
+
+Full scoped report and exact rebuild command:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-number-restoration.txt
+
+Remaining work includes the rest of the game/platform source, broader gameplay/audio, interrupt timing and authentic physical-console boot. Advertising research/education reliability, representative training gains and the future 256GB deployment remain active requirements.

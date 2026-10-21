@@ -1,0 +1,13 @@
+include Makefile.fast-rng
+.DEFAULT_GOAL := controller-bundle
+CONTROLLER_SOURCE ?= controller-native.c
+.PHONY: controller-bundle
+controller-bundle: $(BUILD)/native-controller-bundle.elf $(BUILD)/native-controller-bundle.bin $(BUILD)/runtime-original.bin
+$(BUILD)/controller-shim.o: controller-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/controller-native.o: $(CONTROLLER_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-controller-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o controller-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T controller-bundle.ld -Map $(BUILD)/native-controller-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-controller-bundle.bin: $(BUILD)/native-controller-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

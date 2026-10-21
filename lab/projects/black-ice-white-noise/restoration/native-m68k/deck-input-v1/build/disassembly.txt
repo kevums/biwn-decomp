@@ -1,0 +1,1923 @@
+
+build/native-input.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+00180000 <biwn_native_deck_input>:
+  180000:	40e7           	movew %sr,%sp@-
+  180002:	48e7 8080      	moveml %d0/%a0,%sp@-
+  180006:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  18000c:	0480 000c 0928 	subil #788776,%d0
+  180012:	0c80 0001 9400 	cmpil #103424,%d0
+  180018:	6400 0094      	bccw 1800ae <biwn_native_deck_input_return+0x4>
+  18001c:	2040           	moveal %d0,%a0
+  18001e:	0280 0000 03ff 	andil #1023,%d0
+  180024:	6600 0088      	bnew 1800ae <biwn_native_deck_input_return+0x4>
+  180028:	d1fc 0016 0090 	addal #1441936,%a0
+  18002e:	4aa8 0064      	tstl %a0@(100)
+  180032:	6600 007a      	bnew 1800ae <biwn_native_deck_input_return+0x4>
+  180036:	48e8 00fe 0004 	moveml %d1-%d7,%a0@(4)
+  18003c:	48e8 7e00 0024 	moveml %a1-%fp,%a0@(36)
+  180042:	2097           	movel %sp@,%a0@
+  180044:	216f 0004 0020 	movel %sp@(4),%a0@(32)
+  18004a:	43ef 000a      	lea %sp@(10),%a1
+  18004e:	2149 003c      	movel %a1,%a0@(60)
+  180052:	217c 0001 1b4c 	movel #72524,%a0@(64)
+  180058:	0040 
+  18005a:	42a8 0044      	clrl %a0@(68)
+  18005e:	42a8 0048      	clrl %a0@(72)
+  180062:	316f 0008 004c 	movew %sp@(8),%a0@(76)
+  180068:	0828 0005 004c 	btst #5,%a0@(76)
+  18006e:	6706           	beqs 180076 <biwn_native_deck_input+0x76>
+  180070:	2149 0048      	movel %a1,%a0@(72)
+  180074:	6004           	bras 18007a <biwn_native_deck_input+0x7a>
+  180076:	2149 0044      	movel %a1,%a0@(68)
+  18007a:	217c 0000 0001 	movel #1,%a0@(100)
+  180080:	0064 
+  180082:	4fe8 0230      	lea %a0@(560),%sp
+  180086:	2f08           	movel %a0,%sp@-
+  180088:	6100 026e      	bsrw 1802f8 <biwn_native_deck_input_body>
+  18008c:	4fef 0004      	lea %sp@(4),%sp
+  180090:	41ef fdd0      	lea %sp@(-560),%a0
+  180094:	4aa8 0060      	tstl %a0@(96)
+  180098:	6612           	bnes 1800ac <biwn_native_deck_input_return+0x2>
+  18009a:	42a8 0064      	clrl %a0@(100)
+  18009e:	2e68 003c      	moveal %a0@(60),%sp
+  1800a2:	44e8 004c      	movew %a0@(76),%ccr
+  1800a6:	4cd0 7fff      	moveml %a0@,%d0-%fp
+
+001800aa <biwn_native_deck_input_return>:
+  1800aa:	4e75           	rts
+  1800ac:	4afc           	illegal
+  1800ae:	4cdf 0101      	moveml %sp@+,%d0/%a0
+  1800b2:	44df           	movew %sp@+,%ccr
+
+001800b4 <biwn_native_input_original_fallback>:
+  1800b4:	2f03           	movel %d3,%sp@-
+  1800b6:	2f02           	movel %d2,%sp@-
+  1800b8:	4879 0001 1b56 	pea 11b56 <C_STACK_FROM_FRAME+0x11926>
+  1800be:	4ef9 0000 e4c0 	jmp e4c0 <C_STACK_FROM_FRAME+0xe290>
+
+001800c4 <biwn_input_poll_capture>:
+  1800c4:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1800c8:	206f 0030      	moveal %sp@(48),%a0
+  1800cc:	226f 0034      	moveal %sp@(52),%a1
+  1800d0:	214f 0050      	movel %sp,%a0@(80)
+  1800d4:	2149 0054      	movel %a1,%a0@(84)
+  1800d8:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  1800de:	2469 003c      	moveal %a1@(60),%a2
+  1800e2:	2152 005c      	movel %a2@,%a0@(92)
+  1800e6:	24bc 0018 01dc 	movel #1573340,%a2@
+  1800ec:	2e4a           	moveal %a2,%sp
+  1800ee:	44e9 004c      	movew %a1@(76),%ccr
+  1800f2:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  1800f6:	4ef9 0000 e4c0 	jmp e4c0 <C_STACK_FROM_FRAME+0xe290>
+
+001800fc <biwn_input_record_capture>:
+  1800fc:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  180100:	206f 0030      	moveal %sp@(48),%a0
+  180104:	226f 0034      	moveal %sp@(52),%a1
+  180108:	214f 0050      	movel %sp,%a0@(80)
+  18010c:	2149 0054      	movel %a1,%a0@(84)
+  180110:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  180116:	2469 003c      	moveal %a1@(60),%a2
+  18011a:	2152 005c      	movel %a2@,%a0@(92)
+  18011e:	24bc 0018 01dc 	movel #1573340,%a2@
+  180124:	2e4a           	moveal %a2,%sp
+  180126:	44e9 004c      	movew %a1@(76),%ccr
+  18012a:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  18012e:	4ef9 0001 0c6e 	jmp 10c6e <C_STACK_FROM_FRAME+0x10a3e>
+
+00180134 <biwn_input_first_texture_capture>:
+  180134:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  180138:	206f 0030      	moveal %sp@(48),%a0
+  18013c:	226f 0034      	moveal %sp@(52),%a1
+  180140:	214f 0050      	movel %sp,%a0@(80)
+  180144:	2149 0054      	movel %a1,%a0@(84)
+  180148:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  18014e:	2469 003c      	moveal %a1@(60),%a2
+  180152:	2152 005c      	movel %a2@,%a0@(92)
+  180156:	24bc 0018 01dc 	movel #1573340,%a2@
+  18015c:	2e4a           	moveal %a2,%sp
+  18015e:	44e9 004c      	movew %a1@(76),%ccr
+  180162:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  180166:	4ef9 0001 0e72 	jmp 10e72 <C_STACK_FROM_FRAME+0x10c42>
+
+0018016c <biwn_input_texture_capture>:
+  18016c:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  180170:	206f 0030      	moveal %sp@(48),%a0
+  180174:	226f 0034      	moveal %sp@(52),%a1
+  180178:	214f 0050      	movel %sp,%a0@(80)
+  18017c:	2149 0054      	movel %a1,%a0@(84)
+  180180:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  180186:	2469 003c      	moveal %a1@(60),%a2
+  18018a:	2152 005c      	movel %a2@,%a0@(92)
+  18018e:	24bc 0018 01dc 	movel #1573340,%a2@
+  180194:	2e4a           	moveal %a2,%sp
+  180196:	44e9 004c      	movew %a1@(76),%ccr
+  18019a:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  18019e:	4ef9 0001 0cb6 	jmp 10cb6 <C_STACK_FROM_FRAME+0x10a86>
+
+001801a4 <biwn_input_reset_capture>:
+  1801a4:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1801a8:	206f 0030      	moveal %sp@(48),%a0
+  1801ac:	226f 0034      	moveal %sp@(52),%a1
+  1801b0:	214f 0050      	movel %sp,%a0@(80)
+  1801b4:	2149 0054      	movel %a1,%a0@(84)
+  1801b8:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  1801be:	2469 003c      	moveal %a1@(60),%a2
+  1801c2:	2152 005c      	movel %a2@,%a0@(92)
+  1801c6:	24bc 0018 01dc 	movel #1573340,%a2@
+  1801cc:	2e4a           	moveal %a2,%sp
+  1801ce:	44e9 004c      	movew %a1@(76),%ccr
+  1801d2:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  1801d6:	4ef9 0001 102a 	jmp 1102a <C_STACK_FROM_FRAME+0x10dfa>
+
+001801dc <biwn_native_input_helper_return>:
+  1801dc:	2e79 000c 0920 	moveal c0920 <POOL_BYTES+0xa7520>,%sp
+  1801e2:	dffc 0009 f768 	addal #653160,%sp
+  1801e8:	2e6f 0050      	moveal %sp@(80),%sp
+  1801ec:	40e7           	movew %sr,%sp@-
+  1801ee:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  1801f2:	2079 000c 0920 	moveal c0920 <POOL_BYTES+0xa7520>,%a0
+  1801f8:	d1fc 0009 f768 	addal #653160,%a0
+  1801fe:	2268 0054      	moveal %a0@(84),%a1
+  180202:	244f           	moveal %sp,%a2
+  180204:	700e           	moveq #14,%d0
+  180206:	22da           	movel %a2@+,%a1@+
+  180208:	51c8 fffc      	dbf %d0,180206 <biwn_native_input_helper_return+0x2a>
+  18020c:	22a8 0058      	movel %a0@(88),%a1@
+  180210:	237c 0000 0000 	movel #0,%a1@(4)
+  180216:	0004 
+  180218:	336f 003c 0010 	movew %sp@(60),%a1@(16)
+  18021e:	2468 0058      	moveal %a0@(88),%a2
+  180222:	24a8 005c      	movel %a0@(92),%a2@
+  180226:	2e68 0050      	moveal %a0@(80),%sp
+  18022a:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  18022e:	7000           	moveq #0,%d0
+  180230:	4e75           	rts
+
+00180232 <r8>:
+  180232:	206f 0008      	moveal %sp@(8),%a0
+  180236:	1010           	moveb %a0@,%d0
+  180238:	206f 000c      	moveal %sp@(12),%a0
+  18023c:	1080           	moveb %d0,%a0@
+  18023e:	7000           	moveq #0,%d0
+  180240:	4e75           	rts
+
+00180242 <r16>:
+  180242:	206f 0008      	moveal %sp@(8),%a0
+  180246:	3010           	movew %a0@,%d0
+  180248:	206f 000c      	moveal %sp@(12),%a0
+  18024c:	3080           	movew %d0,%a0@
+  18024e:	7000           	moveq #0,%d0
+  180250:	4e75           	rts
+
+00180252 <r32>:
+  180252:	206f 0008      	moveal %sp@(8),%a0
+  180256:	2010           	movel %a0@,%d0
+  180258:	206f 000c      	moveal %sp@(12),%a0
+  18025c:	2080           	movel %d0,%a0@
+  18025e:	7000           	moveq #0,%d0
+  180260:	4e75           	rts
+
+00180262 <w16>:
+  180262:	206f 0008      	moveal %sp@(8),%a0
+  180266:	30af 000e      	movew %sp@(14),%a0@
+  18026a:	7000           	moveq #0,%d0
+  18026c:	4e75           	rts
+
+0018026e <w32>:
+  18026e:	206f 0008      	moveal %sp@(8),%a0
+  180272:	20af 000c      	movel %sp@(12),%a0@
+  180276:	7000           	moveq #0,%d0
+  180278:	4e75           	rts
+
+0018027a <service>:
+  18027a:	202f 0004      	movel %sp@(4),%d0
+  18027e:	222f 000c      	movel %sp@(12),%d1
+  180282:	206f 0010      	moveal %sp@(16),%a0
+  180286:	b1fc 0000 e4c0 	cmpal #58560,%a0
+  18028c:	660e           	bnes 18029c <service+0x22>
+  18028e:	2f41 0008      	movel %d1,%sp@(8)
+  180292:	2f40 0004      	movel %d0,%sp@(4)
+  180296:	4ef9 0018 00c4 	jmp 1800c4 <biwn_input_poll_capture>
+  18029c:	b1fc 0001 0c6e 	cmpal #68718,%a0
+  1802a2:	660e           	bnes 1802b2 <service+0x38>
+  1802a4:	2f41 0008      	movel %d1,%sp@(8)
+  1802a8:	2f40 0004      	movel %d0,%sp@(4)
+  1802ac:	4ef9 0018 00fc 	jmp 1800fc <biwn_input_record_capture>
+  1802b2:	b1fc 0001 0e72 	cmpal #69234,%a0
+  1802b8:	660e           	bnes 1802c8 <service+0x4e>
+  1802ba:	2f41 0008      	movel %d1,%sp@(8)
+  1802be:	2f40 0004      	movel %d0,%sp@(4)
+  1802c2:	4ef9 0018 0134 	jmp 180134 <biwn_input_first_texture_capture>
+  1802c8:	b1fc 0001 0cb6 	cmpal #68790,%a0
+  1802ce:	660e           	bnes 1802de <service+0x64>
+  1802d0:	2f41 0008      	movel %d1,%sp@(8)
+  1802d4:	2f40 0004      	movel %d0,%sp@(4)
+  1802d8:	4ef9 0018 016c 	jmp 18016c <biwn_input_texture_capture>
+  1802de:	b1fc 0001 102a 	cmpal #69674,%a0
+  1802e4:	660e           	bnes 1802f4 <service+0x7a>
+  1802e6:	2f41 0008      	movel %d1,%sp@(8)
+  1802ea:	2f40 0004      	movel %d0,%sp@(4)
+  1802ee:	4ef9 0018 01a4 	jmp 1801a4 <biwn_input_reset_capture>
+  1802f4:	7001           	moveq #1,%d0
+  1802f6:	4e75           	rts
+
+001802f8 <biwn_native_deck_input_body>:
+  1802f8:	4e56 ff48      	linkw %fp,#-184
+  1802fc:	48e7 3f3c      	moveml %d2-%d7/%a2-%a5,%sp@-
+  180300:	246e 0008      	moveal %fp@(8),%a2
+  180304:	b4fc 0000      	cmpaw #0,%a2
+  180308:	6700 150c      	beqw 181816 <biwn_native_deck_input_body+0x151e>
+  18030c:	4ab9 0018 1886 	tstl 181886 <memory+0x4>
+  180312:	6700 1502      	beqw 181816 <biwn_native_deck_input_body+0x151e>
+  180316:	4ab9 0018 188a 	tstl 18188a <memory+0x8>
+  18031c:	6700 14f8      	beqw 181816 <biwn_native_deck_input_body+0x151e>
+  180320:	4ab9 0018 188e 	tstl 18188e <memory+0xc>
+  180326:	6700 14ee      	beqw 181816 <biwn_native_deck_input_body+0x151e>
+  18032a:	2a79 0018 1892 	moveal 181892 <memory+0x10>,%a5
+  180330:	bafc 0000      	cmpaw #0,%a5
+  180334:	6700 14e0      	beqw 181816 <biwn_native_deck_input_body+0x151e>
+  180338:	0caa 0001 1b4c 	cmpil #72524,%a2@(64)
+  18033e:	0040 
+  180340:	6600 14d4      	bnew 181816 <biwn_native_deck_input_body+0x151e>
+  180344:	240e           	movel %fp,%d2
+  180346:	0682 ffff ff50 	addil #-176,%d2
+  18034c:	4878 004e      	pea 4e <FRAME_OFFSET-0x42>
+  180350:	2f0a           	movel %a2,%sp@-
+  180352:	2f02           	movel %d2,%sp@-
+  180354:	47f9 0018 181c 	lea 18181c <memcpy>,%a3
+  18035a:	4e93           	jsr %a3@
+  18035c:	2d7c 0018 1882 	movel #1579138,%fp@(-98)
+  180362:	ff9e 
+  180364:	49ee ffa2      	lea %fp@(-94),%a4
+  180368:	4878 004e      	pea 4e <FRAME_OFFSET-0x42>
+  18036c:	2f02           	movel %d2,%sp@-
+  18036e:	2f0c           	movel %a4,%sp@-
+  180370:	4e93           	jsr %a3@
+  180372:	2d7c 0018 027a 	movel #1573498,%fp@(-16)
+  180378:	fff0 
+  18037a:	2d4a fff4      	movel %a2,%fp@(-12)
+  18037e:	7010           	moveq #16,%d0
+  180380:	2d40 fff8      	movel %d0,%fp@(-8)
+  180384:	42ae fffc      	clrl %fp@(-4)
+  180388:	222e ffae      	movel %fp@(-82),%d1
+  18038c:	202e ffde      	movel %fp@(-34),%d0
+  180390:	5980           	subql #4,%d0
+  180392:	2d40 ffde      	movel %d0,%fp@(-34)
+  180396:	4fef 0018      	lea %sp@(24),%sp
+  18039a:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1803a0:	6700 0348      	beqw 1806ea <biwn_native_deck_input_body+0x3f2>
+  1803a4:	2d40 ffea      	movel %d0,%fp@(-22)
+  1803a8:	2f01           	movel %d1,%sp@-
+  1803aa:	0280 00ff ffff 	andil #16777215,%d0
+  1803b0:	2f00           	movel %d0,%sp@-
+  1803b2:	2f39 0018 189a 	movel 18189a <memory+0x18>,%sp@-
+  1803b8:	4e95           	jsr %a5@
+  1803ba:	4fef 000c      	lea %sp@(12),%sp
+  1803be:	4a80           	tstl %d0
+  1803c0:	6706           	beqs 1803c8 <biwn_native_deck_input_body+0xd0>
+  1803c2:	7e02           	moveq #2,%d7
+  1803c4:	2d47 fffc      	movel %d7,%fp@(-4)
+  1803c8:	202e ffae      	movel %fp@(-82),%d0
+  1803cc:	322e ffee      	movew %fp@(-18),%d1
+  1803d0:	0241 fff0      	andiw #-16,%d1
+  1803d4:	4a80           	tstl %d0
+  1803d6:	6600 031a      	bnew 1806f2 <biwn_native_deck_input_body+0x3fa>
+  1803da:	0041 0004      	oriw #4,%d1
+  1803de:	8240           	orw %d0,%d1
+  1803e0:	3d41 ffee      	movew %d1,%fp@(-18)
+  1803e4:	226e ffaa      	moveal %fp@(-86),%a1
+  1803e8:	202e ffde      	movel %fp@(-34),%d0
+  1803ec:	5980           	subql #4,%d0
+  1803ee:	2d40 ffde      	movel %d0,%fp@(-34)
+  1803f2:	0801 000d      	btst #13,%d1
+  1803f6:	6700 0306      	beqw 1806fe <biwn_native_deck_input_body+0x406>
+  1803fa:	2d40 ffea      	movel %d0,%fp@(-22)
+  1803fe:	4aae fffc      	tstl %fp@(-4)
+  180402:	6626           	bnes 18042a <biwn_native_deck_input_body+0x132>
+  180404:	206e ff9e      	moveal %fp@(-98),%a0
+  180408:	2f09           	movel %a1,%sp@-
+  18040a:	0280 00ff ffff 	andil #16777215,%d0
+  180410:	2f00           	movel %d0,%sp@-
+  180412:	2f28 0018      	movel %a0@(24),%sp@-
+  180416:	2068 0010      	moveal %a0@(16),%a0
+  18041a:	4e90           	jsr %a0@
+  18041c:	4fef 000c      	lea %sp@(12),%sp
+  180420:	4a80           	tstl %d0
+  180422:	6706           	beqs 18042a <biwn_native_deck_input_body+0x132>
+  180424:	7c02           	moveq #2,%d6
+  180426:	2d46 fffc      	movel %d6,%fp@(-4)
+  18042a:	202e ffaa      	movel %fp@(-86),%d0
+  18042e:	322e ffee      	movew %fp@(-18),%d1
+  180432:	0241 fff0      	andiw #-16,%d1
+  180436:	4a80           	tstl %d0
+  180438:	6600 02cc      	bnew 180706 <biwn_native_deck_input_body+0x40e>
+  18043c:	0041 0004      	oriw #4,%d1
+  180440:	8240           	orw %d0,%d1
+  180442:	3d41 ffee      	movew %d1,%fp@(-18)
+  180446:	4aae fffc      	tstl %fp@(-4)
+  18044a:	660e           	bnes 18045a <biwn_native_deck_input_body+0x162>
+  18044c:	202e fff8      	movel %fp@(-8),%d0
+  180450:	6600 02c0      	bnew 180712 <biwn_native_deck_input_body+0x41a>
+  180454:	7a04           	moveq #4,%d5
+  180456:	2d45 fffc      	movel %d5,%fp@(-4)
+  18045a:	42ae ff4c      	clrl %fp@(-180)
+  18045e:	4aae fffc      	tstl %fp@(-4)
+  180462:	6600 03b2      	bnew 180816 <biwn_native_deck_input_body+0x51e>
+  180466:	206e ff9e      	moveal %fp@(-98),%a0
+  18046a:	486e ff4c      	pea %fp@(-180)
+  18046e:	2f3c 0004 9ba4 	movel #301988,%sp@-
+  180474:	2f28 0018      	movel %a0@(24),%sp@-
+  180478:	2068 0008      	moveal %a0@(8),%a0
+  18047c:	4e90           	jsr %a0@
+  18047e:	4fef 000c      	lea %sp@(12),%sp
+  180482:	4a80           	tstl %d0
+  180484:	6706           	beqs 18048c <biwn_native_deck_input_body+0x194>
+  180486:	7002           	moveq #2,%d0
+  180488:	2d40 fffc      	movel %d0,%fp@(-4)
+  18048c:	202e ff4c      	movel %fp@(-180),%d0
+  180490:	2d40 ffa6      	movel %d0,%fp@(-90)
+  180494:	322e ffee      	movew %fp@(-18),%d1
+  180498:	0241 fff0      	andiw #-16,%d1
+  18049c:	4a80           	tstl %d0
+  18049e:	6600 037c      	bnew 18081c <biwn_native_deck_input_body+0x524>
+  1804a2:	0041 0004      	oriw #4,%d1
+  1804a6:	8240           	orw %d0,%d1
+  1804a8:	3d41 ffee      	movew %d1,%fp@(-18)
+  1804ac:	42ae ff4c      	clrl %fp@(-180)
+  1804b0:	4aae fffc      	tstl %fp@(-4)
+  1804b4:	6600 0372      	bnew 180828 <biwn_native_deck_input_body+0x530>
+  1804b8:	206e ff9e      	moveal %fp@(-98),%a0
+  1804bc:	486e ff4c      	pea %fp@(-180)
+  1804c0:	2f3c 0004 9bac 	movel #301996,%sp@-
+  1804c6:	2f28 0018      	movel %a0@(24),%sp@-
+  1804ca:	2068 0008      	moveal %a0@(8),%a0
+  1804ce:	4e90           	jsr %a0@
+  1804d0:	4fef 000c      	lea %sp@(12),%sp
+  1804d4:	4a80           	tstl %d0
+  1804d6:	6706           	beqs 1804de <biwn_native_deck_input_body+0x1e6>
+  1804d8:	7e02           	moveq #2,%d7
+  1804da:	2d47 fffc      	movel %d7,%fp@(-4)
+  1804de:	222e ff4c      	movel %fp@(-180),%d1
+  1804e2:	2d41 ffaa      	movel %d1,%fp@(-86)
+  1804e6:	302e ffee      	movew %fp@(-18),%d0
+  1804ea:	0240 fff0      	andiw #-16,%d0
+  1804ee:	4a81           	tstl %d1
+  1804f0:	6604           	bnes 1804f6 <biwn_native_deck_input_body+0x1fe>
+  1804f2:	0040 0004      	oriw #4,%d0
+  1804f6:	222e ffa6      	movel %fp@(-90),%d1
+  1804fa:	0240 fff0      	andiw #-16,%d0
+  1804fe:	4a81           	tstl %d1
+  180500:	6604           	bnes 180506 <biwn_native_deck_input_body+0x20e>
+  180502:	0040 0004      	oriw #4,%d0
+  180506:	7409           	moveq #9,%d2
+  180508:	2d42 ffae      	movel %d2,%fp@(-82)
+  18050c:	0240 fff0      	andiw #-16,%d0
+  180510:	2601           	movel %d1,%d3
+  180512:	e289           	lsrl #1,%d1
+  180514:	5382           	subql #1,%d2
+  180516:	66f8           	bnes 180510 <biwn_native_deck_input_body+0x218>
+  180518:	0283 0000 0001 	andil #1,%d3
+  18051e:	4a81           	tstl %d1
+  180520:	6604           	bnes 180526 <biwn_native_deck_input_body+0x22e>
+  180522:	0040 0004      	oriw #4,%d0
+  180526:	0240 ffec      	andiw #-20,%d0
+  18052a:	4a83           	tstl %d3
+  18052c:	6700 0300      	beqw 18082e <biwn_native_deck_input_body+0x536>
+  180530:	7611           	moveq #17,%d3
+  180532:	2a01           	movel %d1,%d5
+  180534:	0245 0001      	andiw #1,%d5
+  180538:	2d45 ffa2      	movel %d5,%fp@(-94)
+  18053c:	0281 0000 0001 	andil #1,%d1
+  180542:	8043           	orw %d3,%d0
+  180544:	0240 fff0      	andiw #-16,%d0
+  180548:	2601           	movel %d1,%d3
+  18054a:	0a43 0001      	eoriw #1,%d3
+  18054e:	3043           	moveaw %d3,%a0
+  180550:	d0c3           	addaw %d3,%a0
+  180552:	d0c8           	addaw %a0,%a0
+  180554:	3e08           	movew %a0,%d7
+  180556:	8e40           	orw %d0,%d7
+  180558:	3d47 ffee      	movew %d7,%fp@(-18)
+  18055c:	4aae fffc      	tstl %fp@(-4)
+  180560:	6624           	bnes 180586 <biwn_native_deck_input_body+0x28e>
+  180562:	206e ff9e      	moveal %fp@(-98),%a0
+  180566:	2f01           	movel %d1,%sp@-
+  180568:	2f3c 0004 03cc 	movel #263116,%sp@-
+  18056e:	2f28 0018      	movel %a0@(24),%sp@-
+  180572:	2068 000c      	moveal %a0@(12),%a0
+  180576:	4e90           	jsr %a0@
+  180578:	4fef 000c      	lea %sp@(12),%sp
+  18057c:	4a80           	tstl %d0
+  18057e:	6706           	beqs 180586 <biwn_native_deck_input_body+0x28e>
+  180580:	7c02           	moveq #2,%d6
+  180582:	2d46 fffc      	movel %d6,%fp@(-4)
+  180586:	202e ffa2      	movel %fp@(-94),%d0
+  18058a:	3200           	movew %d0,%d1
+  18058c:	760f           	moveq #15,%d3
+  18058e:	e669           	lsrw %d3,%d1
+  180590:	e749           	lslw #3,%d1
+  180592:	4a40           	tstw %d0
+  180594:	57c0           	seq %d0
+  180596:	4880           	extw %d0
+  180598:	4440           	negw %d0
+  18059a:	d040           	addw %d0,%d0
+  18059c:	d040           	addw %d0,%d0
+  18059e:	8041           	orw %d1,%d0
+  1805a0:	322e ffee      	movew %fp@(-18),%d1
+  1805a4:	0241 fff0      	andiw #-16,%d1
+  1805a8:	8041           	orw %d1,%d0
+  1805aa:	3d40 ffee      	movew %d0,%fp@(-18)
+  1805ae:	4aae fffc      	tstl %fp@(-4)
+  1805b2:	6624           	bnes 1805d8 <biwn_native_deck_input_body+0x2e0>
+  1805b4:	206e ff9e      	moveal %fp@(-98),%a0
+  1805b8:	42a7           	clrl %sp@-
+  1805ba:	2f3c 0004 040a 	movel #263178,%sp@-
+  1805c0:	2f28 0018      	movel %a0@(24),%sp@-
+  1805c4:	2068 0010      	moveal %a0@(16),%a0
+  1805c8:	4e90           	jsr %a0@
+  1805ca:	4fef 000c      	lea %sp@(12),%sp
+  1805ce:	4a80           	tstl %d0
+  1805d0:	6706           	beqs 1805d8 <biwn_native_deck_input_body+0x2e0>
+  1805d2:	7a02           	moveq #2,%d5
+  1805d4:	2d45 fffc      	movel %d5,%fp@(-4)
+  1805d8:	302e ffee      	movew %fp@(-18),%d0
+  1805dc:	0240 fff0      	andiw #-16,%d0
+  1805e0:	0040 0004      	oriw #4,%d0
+  1805e4:	3d40 ffee      	movew %d0,%fp@(-18)
+  1805e8:	4aae fffc      	tstl %fp@(-4)
+  1805ec:	6624           	bnes 180612 <biwn_native_deck_input_body+0x31a>
+  1805ee:	206e ff9e      	moveal %fp@(-98),%a0
+  1805f2:	42a7           	clrl %sp@-
+  1805f4:	2f3c 0004 0406 	movel #263174,%sp@-
+  1805fa:	2f28 0018      	movel %a0@(24),%sp@-
+  1805fe:	2068 0010      	moveal %a0@(16),%a0
+  180602:	4e90           	jsr %a0@
+  180604:	4fef 000c      	lea %sp@(12),%sp
+  180608:	4a80           	tstl %d0
+  18060a:	6706           	beqs 180612 <biwn_native_deck_input_body+0x31a>
+  18060c:	7802           	moveq #2,%d4
+  18060e:	2d44 fffc      	movel %d4,%fp@(-4)
+  180612:	302e ffee      	movew %fp@(-18),%d0
+  180616:	0240 fff0      	andiw #-16,%d0
+  18061a:	0040 0004      	oriw #4,%d0
+  18061e:	3d40 ffee      	movew %d0,%fp@(-18)
+  180622:	4aae fffc      	tstl %fp@(-4)
+  180626:	6624           	bnes 18064c <biwn_native_deck_input_body+0x354>
+  180628:	206e ff9e      	moveal %fp@(-98),%a0
+  18062c:	42a7           	clrl %sp@-
+  18062e:	2f3c 0004 0402 	movel #263170,%sp@-
+  180634:	2f28 0018      	movel %a0@(24),%sp@-
+  180638:	2068 0010      	moveal %a0@(16),%a0
+  18063c:	4e90           	jsr %a0@
+  18063e:	4fef 000c      	lea %sp@(12),%sp
+  180642:	4a80           	tstl %d0
+  180644:	6706           	beqs 18064c <biwn_native_deck_input_body+0x354>
+  180646:	7602           	moveq #2,%d3
+  180648:	2d43 fffc      	movel %d3,%fp@(-4)
+  18064c:	222e ffa6      	movel %fp@(-90),%d1
+  180650:	2601           	movel %d1,%d3
+  180652:	4243           	clrw %d3
+  180654:	4843           	swap %d3
+  180656:	e84b           	lsrw #4,%d3
+  180658:	0283 0000 0001 	andil #1,%d3
+  18065e:	206e fffc      	moveal %fp@(-4),%a0
+  180662:	382e ffee      	movew %fp@(-18),%d4
+  180666:	0244 fff0      	andiw #-16,%d4
+  18066a:	2003           	movel %d3,%d0
+  18066c:	0a40 0001      	eoriw #1,%d0
+  180670:	d040           	addw %d0,%d0
+  180672:	d040           	addw %d0,%d0
+  180674:	8840           	orw %d0,%d4
+  180676:	0244 fffb      	andiw #-5,%d4
+  18067a:	4a83           	tstl %d3
+  18067c:	6700 0632      	beqw 180cb0 <biwn_native_deck_input_body+0x9b8>
+  180680:	7019           	moveq #25,%d0
+  180682:	e0a9           	lsrl %d0,%d1
+  180684:	7601           	moveq #1,%d3
+  180686:	c681           	andl %d1,%d3
+  180688:	0244 fff0      	andiw #-16,%d4
+  18068c:	0801 0000      	btst #0,%d1
+  180690:	6700 01a2      	beqw 180834 <biwn_native_deck_input_body+0x53c>
+  180694:	7202           	moveq #2,%d1
+  180696:	2d41 ffae      	movel %d1,%fp@(-82)
+  18069a:	3d44 ffee      	movew %d4,%fp@(-18)
+  18069e:	b0fc 0000      	cmpaw #0,%a0
+  1806a2:	6626           	bnes 1806ca <biwn_native_deck_input_body+0x3d2>
+  1806a4:	206e ff9e      	moveal %fp@(-98),%a0
+  1806a8:	4878 0002      	pea 2 <FRAME_OFFSET-0x8e>
+  1806ac:	2f3c 0004 0402 	movel #263170,%sp@-
+  1806b2:	2f28 0018      	movel %a0@(24),%sp@-
+  1806b6:	2068 0010      	moveal %a0@(16),%a0
+  1806ba:	4e90           	jsr %a0@
+  1806bc:	4fef 000c      	lea %sp@(12),%sp
+  1806c0:	4a80           	tstl %d0
+  1806c2:	6706           	beqs 1806ca <biwn_native_deck_input_body+0x3d2>
+  1806c4:	7602           	moveq #2,%d3
+  1806c6:	2d43 fffc      	movel %d3,%fp@(-4)
+  1806ca:	202e ffae      	movel %fp@(-82),%d0
+  1806ce:	322e ffee      	movew %fp@(-18),%d1
+  1806d2:	0241 fff0      	andiw #-16,%d1
+  1806d6:	4a80           	tstl %d0
+  1806d8:	6600 062e      	bnew 180d08 <biwn_native_deck_input_body+0xa10>
+  1806dc:	0041 0004      	oriw #4,%d1
+  1806e0:	8240           	orw %d0,%d1
+  1806e2:	3d41 ffee      	movew %d1,%fp@(-18)
+  1806e6:	6000 029a      	braw 180982 <biwn_native_deck_input_body+0x68a>
+  1806ea:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1806ee:	6000 fcb8      	braw 1803a8 <biwn_native_deck_input_body+0xb0>
+  1806f2:	d080           	addl %d0,%d0
+  1806f4:	9180           	subxl %d0,%d0
+  1806f6:	4480           	negl %d0
+  1806f8:	e748           	lslw #3,%d0
+  1806fa:	6000 fce2      	braw 1803de <biwn_native_deck_input_body+0xe6>
+  1806fe:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180702:	6000 fcfa      	braw 1803fe <biwn_native_deck_input_body+0x106>
+  180706:	d080           	addl %d0,%d0
+  180708:	9180           	subxl %d0,%d0
+  18070a:	4480           	negl %d0
+  18070c:	e748           	lslw #3,%d0
+  18070e:	6000 fd30      	braw 180440 <biwn_native_deck_input_body+0x148>
+  180712:	5380           	subql #1,%d0
+  180714:	2d40 fff8      	movel %d0,%fp@(-8)
+  180718:	202e ffde      	movel %fp@(-34),%d0
+  18071c:	5980           	subql #4,%d0
+  18071e:	2d40 ffde      	movel %d0,%fp@(-34)
+  180722:	0801 000d      	btst #13,%d1
+  180726:	676a           	beqs 180792 <biwn_native_deck_input_body+0x49a>
+  180728:	2d40 ffea      	movel %d0,%fp@(-22)
+  18072c:	206e ff9e      	moveal %fp@(-98),%a0
+  180730:	2f3c 0001 1b56 	movel #72534,%sp@-
+  180736:	0280 00ff ffff 	andil #16777215,%d0
+  18073c:	2f00           	movel %d0,%sp@-
+  18073e:	2f28 0018      	movel %a0@(24),%sp@-
+  180742:	2068 0010      	moveal %a0@(16),%a0
+  180746:	4e90           	jsr %a0@
+  180748:	4fef 000c      	lea %sp@(12),%sp
+  18074c:	4a80           	tstl %d0
+  18074e:	6706           	beqs 180756 <biwn_native_deck_input_body+0x45e>
+  180750:	7802           	moveq #2,%d4
+  180752:	2d44 fffc      	movel %d4,%fp@(-4)
+  180756:	2d7c 0000 e4c0 	movel #58560,%fp@(-30)
+  18075c:	ffe2 
+  18075e:	4aae fffc      	tstl %fp@(-4)
+  180762:	6600 fcf6      	bnew 18045a <biwn_native_deck_input_body+0x162>
+  180766:	242e ffde      	movel %fp@(-34),%d2
+  18076a:	2f3c 0000 e4c0 	movel #58560,%sp@-
+  180770:	2f0c           	movel %a4,%sp@-
+  180772:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  180776:	2f2e fff4      	movel %fp@(-12),%sp@-
+  18077a:	206e fff0      	moveal %fp@(-16),%a0
+  18077e:	4e90           	jsr %a0@
+  180780:	4fef 0010      	lea %sp@(16),%sp
+  180784:	4a80           	tstl %d0
+  180786:	6710           	beqs 180798 <biwn_native_deck_input_body+0x4a0>
+  180788:	7603           	moveq #3,%d3
+  18078a:	2d43 fffc      	movel %d3,%fp@(-4)
+  18078e:	6000 fcca      	braw 18045a <biwn_native_deck_input_body+0x162>
+  180792:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180796:	6094           	bras 18072c <biwn_native_deck_input_body+0x434>
+  180798:	b4ae ffde      	cmpl %fp@(-34),%d2
+  18079c:	670a           	beqs 1807a8 <biwn_native_deck_input_body+0x4b0>
+  18079e:	7405           	moveq #5,%d2
+  1807a0:	2d42 fffc      	movel %d2,%fp@(-4)
+  1807a4:	6000 fcb4      	braw 18045a <biwn_native_deck_input_body+0x162>
+  1807a8:	42ae ff4c      	clrl %fp@(-180)
+  1807ac:	4aae fffc      	tstl %fp@(-4)
+  1807b0:	665a           	bnes 18080c <biwn_native_deck_input_body+0x514>
+  1807b2:	206e ff9e      	moveal %fp@(-98),%a0
+  1807b6:	486e ff4c      	pea %fp@(-180)
+  1807ba:	0282 00ff ffff 	andil #16777215,%d2
+  1807c0:	2f02           	movel %d2,%sp@-
+  1807c2:	2f28 0018      	movel %a0@(24),%sp@-
+  1807c6:	2068 0008      	moveal %a0@(8),%a0
+  1807ca:	4e90           	jsr %a0@
+  1807cc:	4fef 000c      	lea %sp@(12),%sp
+  1807d0:	4a80           	tstl %d0
+  1807d2:	6706           	beqs 1807da <biwn_native_deck_input_body+0x4e2>
+  1807d4:	7202           	moveq #2,%d1
+  1807d6:	2d41 fffc      	movel %d1,%fp@(-4)
+  1807da:	202e ff4c      	movel %fp@(-180),%d0
+  1807de:	222e ffde      	movel %fp@(-34),%d1
+  1807e2:	5881           	addql #4,%d1
+  1807e4:	2d41 ffde      	movel %d1,%fp@(-34)
+  1807e8:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1807ee:	6720           	beqs 180810 <biwn_native_deck_input_body+0x518>
+  1807f0:	2d41 ffea      	movel %d1,%fp@(-22)
+  1807f4:	4aae fffc      	tstl %fp@(-4)
+  1807f8:	6600 fc60      	bnew 18045a <biwn_native_deck_input_body+0x162>
+  1807fc:	0c80 0001 1b56 	cmpil #72534,%d0
+  180802:	669a           	bnes 18079e <biwn_native_deck_input_body+0x4a6>
+  180804:	2d40 ffe2      	movel %d0,%fp@(-30)
+  180808:	6000 fc50      	braw 18045a <biwn_native_deck_input_body+0x162>
+  18080c:	7000           	moveq #0,%d0
+  18080e:	60ce           	bras 1807de <biwn_native_deck_input_body+0x4e6>
+  180810:	2d41 ffe6      	movel %d1,%fp@(-26)
+  180814:	60de           	bras 1807f4 <biwn_native_deck_input_body+0x4fc>
+  180816:	7000           	moveq #0,%d0
+  180818:	6000 fc76      	braw 180490 <biwn_native_deck_input_body+0x198>
+  18081c:	d080           	addl %d0,%d0
+  18081e:	9180           	subxl %d0,%d0
+  180820:	4480           	negl %d0
+  180822:	e748           	lslw #3,%d0
+  180824:	6000 fc80      	braw 1804a6 <biwn_native_deck_input_body+0x1ae>
+  180828:	7200           	moveq #0,%d1
+  18082a:	6000 fcb6      	braw 1804e2 <biwn_native_deck_input_body+0x1ea>
+  18082e:	4243           	clrw %d3
+  180830:	6000 fd00      	braw 180532 <biwn_native_deck_input_body+0x23a>
+  180834:	2d7c 0004 0104 	movel #262404,%fp@(-62)
+  18083a:	ffc2 
+  18083c:	700f           	moveq #15,%d0
+  18083e:	2d40 ffae      	movel %d0,%fp@(-82)
+  180842:	3d44 ffee      	movew %d4,%fp@(-18)
+  180846:	42ae ff4c      	clrl %fp@(-180)
+  18084a:	b0fc 0000      	cmpaw #0,%a0
+  18084e:	6600 043e      	bnew 180c8e <biwn_native_deck_input_body+0x996>
+  180852:	206e ff9e      	moveal %fp@(-98),%a0
+  180856:	486e ff4c      	pea %fp@(-180)
+  18085a:	2f3c 0004 0104 	movel #262404,%sp@-
+  180860:	2f28 0018      	movel %a0@(24),%sp@-
+  180864:	2068 0008      	moveal %a0@(8),%a0
+  180868:	4e90           	jsr %a0@
+  18086a:	4fef 000c      	lea %sp@(12),%sp
+  18086e:	4a80           	tstl %d0
+  180870:	6706           	beqs 180878 <biwn_native_deck_input_body+0x580>
+  180872:	7e02           	moveq #2,%d7
+  180874:	2d47 fffc      	movel %d7,%fp@(-4)
+  180878:	2c2e ff4c      	movel %fp@(-180),%d6
+  18087c:	282e ffae      	movel %fp@(-82),%d4
+  180880:	2004           	movel %d4,%d0
+  180882:	9086           	subl %d6,%d0
+  180884:	2204           	movel %d4,%d1
+  180886:	bd81           	eorl %d6,%d1
+  180888:	2a04           	movel %d4,%d5
+  18088a:	b185           	eorl %d0,%d5
+  18088c:	c285           	andl %d5,%d1
+  18088e:	d281           	addl %d1,%d1
+  180890:	9381           	subxl %d1,%d1
+  180892:	4481           	negl %d1
+  180894:	3a2e ffee      	movew %fp@(-18),%d5
+  180898:	0245 fff0      	andiw #-16,%d5
+  18089c:	4a80           	tstl %d0
+  18089e:	6600 03f4      	bnew 180c94 <biwn_native_deck_input_body+0x99c>
+  1808a2:	0045 0004      	oriw #4,%d5
+  1808a6:	91c8           	subal %a0,%a0
+  1808a8:	3001           	movew %d1,%d0
+  1808aa:	d041           	addw %d1,%d0
+  1808ac:	bc84           	cmpl %d4,%d6
+  1808ae:	52c4           	shi %d4
+  1808b0:	4884           	extw %d4
+  1808b2:	4444           	negw %d4
+  1808b4:	8044           	orw %d4,%d0
+  1808b6:	3e08           	movew %a0,%d7
+  1808b8:	8047           	orw %d7,%d0
+  1808ba:	8045           	orw %d5,%d0
+  1808bc:	3d40 ffee      	movew %d0,%fp@(-18)
+  1808c0:	3200           	movew %d0,%d1
+  1808c2:	e649           	lsrw #3,%d1
+  1808c4:	e248           	lsrw #1,%d0
+  1808c6:	b340           	eorw %d1,%d0
+  1808c8:	3800           	movew %d0,%d4
+  1808ca:	0244 0001      	andiw #1,%d4
+  1808ce:	0800 0000      	btst #0,%d0
+  1808d2:	6600 00ae      	bnew 180982 <biwn_native_deck_input_body+0x68a>
+  1808d6:	202e ffc2      	movel %fp@(-62),%d0
+  1808da:	42ae ff4c      	clrl %fp@(-180)
+  1808de:	4aae fffc      	tstl %fp@(-4)
+  1808e2:	662c           	bnes 180910 <biwn_native_deck_input_body+0x618>
+  1808e4:	206e ff9e      	moveal %fp@(-98),%a0
+  1808e8:	486e ff4c      	pea %fp@(-180)
+  1808ec:	0280 00ff ffff 	andil #16777215,%d0
+  1808f2:	2f00           	movel %d0,%sp@-
+  1808f4:	2f28 0018      	movel %a0@(24),%sp@-
+  1808f8:	2068 0008      	moveal %a0@(8),%a0
+  1808fc:	4e90           	jsr %a0@
+  1808fe:	4fef 000c      	lea %sp@(12),%sp
+  180902:	4a80           	tstl %d0
+  180904:	6706           	beqs 18090c <biwn_native_deck_input_body+0x614>
+  180906:	7c02           	moveq #2,%d6
+  180908:	2d46 fffc      	movel %d6,%fp@(-4)
+  18090c:	262e ff4c      	movel %fp@(-180),%d3
+  180910:	2a03           	movel %d3,%d5
+  180912:	5285           	addql #1,%d5
+  180914:	2203           	movel %d3,%d1
+  180916:	bb81           	eorl %d5,%d1
+  180918:	2003           	movel %d3,%d0
+  18091a:	0a80 ffff fffe 	eoril #-2,%d0
+  180920:	c081           	andl %d1,%d0
+  180922:	d080           	addl %d0,%d0
+  180924:	9180           	subxl %d0,%d0
+  180926:	4480           	negl %d0
+  180928:	3c2e ffee      	movew %fp@(-18),%d6
+  18092c:	0246 fff0      	andiw #-16,%d6
+  180930:	4a85           	tstl %d5
+  180932:	6600 036e      	bnew 180ca2 <biwn_native_deck_input_body+0x9aa>
+  180936:	0046 0004      	oriw #4,%d6
+  18093a:	4241           	clrw %d1
+  18093c:	8246           	orw %d6,%d1
+  18093e:	0241 ffec      	andiw #-20,%d1
+  180942:	ba83           	cmpl %d3,%d5
+  180944:	6402           	bccs 180948 <biwn_native_deck_input_body+0x650>
+  180946:	7811           	moveq #17,%d4
+  180948:	d040           	addw %d0,%d0
+  18094a:	8041           	orw %d1,%d0
+  18094c:	8044           	orw %d4,%d0
+  18094e:	3d40 ffee      	movew %d0,%fp@(-18)
+  180952:	4aae fffc      	tstl %fp@(-4)
+  180956:	662a           	bnes 180982 <biwn_native_deck_input_body+0x68a>
+  180958:	206e ff9e      	moveal %fp@(-98),%a0
+  18095c:	2f05           	movel %d5,%sp@-
+  18095e:	222e ffc2      	movel %fp@(-62),%d1
+  180962:	0281 00ff ffff 	andil #16777215,%d1
+  180968:	2f01           	movel %d1,%sp@-
+  18096a:	2f28 0018      	movel %a0@(24),%sp@-
+  18096e:	2068 0010      	moveal %a0@(16),%a0
+  180972:	4e90           	jsr %a0@
+  180974:	4fef 000c      	lea %sp@(12),%sp
+  180978:	4a80           	tstl %d0
+  18097a:	6706           	beqs 180982 <biwn_native_deck_input_body+0x68a>
+  18097c:	7a02           	moveq #2,%d5
+  18097e:	2d45 fffc      	movel %d5,%fp@(-4)
+  180982:	262e ffaa      	movel %fp@(-86),%d3
+  180986:	780d           	moveq #13,%d4
+  180988:	e8ab           	lsrl %d4,%d3
+  18098a:	0283 0000 0001 	andil #1,%d3
+  180990:	302e ffee      	movew %fp@(-18),%d0
+  180994:	0240 fffb      	andiw #-5,%d0
+  180998:	2203           	movel %d3,%d1
+  18099a:	0a41 0001      	eoriw #1,%d1
+  18099e:	d241           	addw %d1,%d1
+  1809a0:	d241           	addw %d1,%d1
+  1809a2:	8041           	orw %d1,%d0
+  1809a4:	3d40 ffee      	movew %d0,%fp@(-18)
+  1809a8:	4a83           	tstl %d3
+  1809aa:	6734           	beqs 1809e0 <biwn_native_deck_input_body+0x6e8>
+  1809ac:	4aae fffc      	tstl %fp@(-4)
+  1809b0:	6626           	bnes 1809d8 <biwn_native_deck_input_body+0x6e0>
+  1809b2:	206e ff9e      	moveal %fp@(-98),%a0
+  1809b6:	4878 0001      	pea 1 <FRAME_OFFSET-0x8f>
+  1809ba:	2f3c 0004 0400 	movel #263168,%sp@-
+  1809c0:	2f28 0018      	movel %a0@(24),%sp@-
+  1809c4:	2068 000c      	moveal %a0@(12),%a0
+  1809c8:	4e90           	jsr %a0@
+  1809ca:	4fef 000c      	lea %sp@(12),%sp
+  1809ce:	4a80           	tstl %d0
+  1809d0:	6706           	beqs 1809d8 <biwn_native_deck_input_body+0x6e0>
+  1809d2:	7802           	moveq #2,%d4
+  1809d4:	2d44 fffc      	movel %d4,%fp@(-4)
+  1809d8:	302e ffee      	movew %fp@(-18),%d0
+  1809dc:	0240 fff0      	andiw #-16,%d0
+  1809e0:	262e ffa6      	movel %fp@(-90),%d3
+  1809e4:	2803           	movel %d3,%d4
+  1809e6:	4244           	clrw %d4
+  1809e8:	4844           	swap %d4
+  1809ea:	ec4c           	lsrw #6,%d4
+  1809ec:	0284 0000 0001 	andil #1,%d4
+  1809f2:	2204           	movel %d4,%d1
+  1809f4:	0a41 0001      	eoriw #1,%d1
+  1809f8:	d241           	addw %d1,%d1
+  1809fa:	d241           	addw %d1,%d1
+  1809fc:	0240 fffb      	andiw #-5,%d0
+  180a00:	8240           	orw %d0,%d1
+  180a02:	4a84           	tstl %d4
+  180a04:	6700 049c      	beqw 180ea2 <biwn_native_deck_input_body+0xbaa>
+  180a08:	3001           	movew %d1,%d0
+  180a0a:	0240 fff0      	andiw #-16,%d0
+  180a0e:	7202           	moveq #2,%d1
+  180a10:	2d41 ffae      	movel %d1,%fp@(-82)
+  180a14:	3d40 ffee      	movew %d0,%fp@(-18)
+  180a18:	4aae fffc      	tstl %fp@(-4)
+  180a1c:	6624           	bnes 180a42 <biwn_native_deck_input_body+0x74a>
+  180a1e:	206e ff9e      	moveal %fp@(-98),%a0
+  180a22:	2f01           	movel %d1,%sp@-
+  180a24:	2f3c 0004 040a 	movel #263178,%sp@-
+  180a2a:	2f28 0018      	movel %a0@(24),%sp@-
+  180a2e:	2068 0010      	moveal %a0@(16),%a0
+  180a32:	4e90           	jsr %a0@
+  180a34:	4fef 000c      	lea %sp@(12),%sp
+  180a38:	4a80           	tstl %d0
+  180a3a:	6706           	beqs 180a42 <biwn_native_deck_input_body+0x74a>
+  180a3c:	7602           	moveq #2,%d3
+  180a3e:	2d43 fffc      	movel %d3,%fp@(-4)
+  180a42:	202e ffae      	movel %fp@(-82),%d0
+  180a46:	322e ffee      	movew %fp@(-18),%d1
+  180a4a:	0241 fff0      	andiw #-16,%d1
+  180a4e:	4a80           	tstl %d0
+  180a50:	6600 0484      	bnew 180ed6 <biwn_native_deck_input_body+0xbde>
+  180a54:	0041 0004      	oriw #4,%d1
+  180a58:	8240           	orw %d0,%d1
+  180a5a:	3d41 ffee      	movew %d1,%fp@(-18)
+  180a5e:	7600           	moveq #0,%d3
+  180a60:	42ae ff48      	clrl %fp@(-184)
+  180a64:	4bf9 0018 186a 	lea 18186a <pressed_bits.2>,%a5
+  180a6a:	280e           	movel %fp,%d4
+  180a6c:	0684 ffff ff4c 	addil #-180,%d4
+  180a72:	2a2e ffaa      	movel %fp@(-86),%d5
+  180a76:	322e ffee      	movew %fp@(-18),%d1
+  180a7a:	7c02           	moveq #2,%d6
+  180a7c:	bcae ff48      	cmpl %fp@(-184),%d6
+  180a80:	6600 0460      	bnew 180ee2 <biwn_native_deck_input_body+0xbea>
+  180a84:	1c05           	moveb %d5,%d6
+  180a86:	ee0e           	lsrb #7,%d6
+  180a88:	4a05           	tstb %d5
+  180a8a:	57c0           	seq %d0
+  180a8c:	4880           	extw %d0
+  180a8e:	4440           	negw %d0
+  180a90:	d040           	addw %d0,%d0
+  180a92:	d040           	addw %d0,%d0
+  180a94:	4245           	clrw %d5
+  180a96:	1a06           	moveb %d6,%d5
+  180a98:	e74d           	lslw #3,%d5
+  180a9a:	8045           	orw %d5,%d0
+  180a9c:	0241 fff0      	andiw #-16,%d1
+  180aa0:	8041           	orw %d1,%d0
+  180aa2:	7a00           	moveq #0,%d5
+  180aa4:	1a06           	moveb %d6,%d5
+  180aa6:	3d40 ffee      	movew %d0,%fp@(-18)
+  180aaa:	4a85           	tstl %d5
+  180aac:	6600 0454      	bnew 180f02 <biwn_native_deck_input_body+0xc0a>
+  180ab0:	52ae ff48      	addql #1,%fp@(-184)
+  180ab4:	5883           	addql #4,%d3
+  180ab6:	7206           	moveq #6,%d1
+  180ab8:	b2ae ff48      	cmpl %fp@(-184),%d1
+  180abc:	66b4           	bnes 180a72 <biwn_native_deck_input_body+0x77a>
+  180abe:	7200           	moveq #0,%d1
+  180ac0:	322e ffaa      	movew %fp@(-86),%d1
+  180ac4:	0281 0000 0001 	andil #1,%d1
+  180aca:	362e ffee      	movew %fp@(-18),%d3
+  180ace:	0243 fffb      	andiw #-5,%d3
+  180ad2:	2001           	movel %d1,%d0
+  180ad4:	0a40 0001      	eoriw #1,%d0
+  180ad8:	d040           	addw %d0,%d0
+  180ada:	d040           	addw %d0,%d0
+  180adc:	8640           	orw %d0,%d3
+  180ade:	3d43 ffee      	movew %d3,%fp@(-18)
+  180ae2:	4a81           	tstl %d1
+  180ae4:	6700 00c6      	beqw 180bac <biwn_native_deck_input_body+0x8b4>
+  180ae8:	4aae fffc      	tstl %fp@(-4)
+  180aec:	6624           	bnes 180b12 <biwn_native_deck_input_body+0x81a>
+  180aee:	206e ff9e      	moveal %fp@(-98),%a0
+  180af2:	42a7           	clrl %sp@-
+  180af4:	2f3c 0004 040a 	movel #263178,%sp@-
+  180afa:	2f28 0018      	movel %a0@(24),%sp@-
+  180afe:	2068 0010      	moveal %a0@(16),%a0
+  180b02:	4e90           	jsr %a0@
+  180b04:	4fef 000c      	lea %sp@(12),%sp
+  180b08:	4a80           	tstl %d0
+  180b0a:	6706           	beqs 180b12 <biwn_native_deck_input_body+0x81a>
+  180b0c:	7602           	moveq #2,%d3
+  180b0e:	2d43 fffc      	movel %d3,%fp@(-4)
+  180b12:	302e ffee      	movew %fp@(-18),%d0
+  180b16:	0240 fff0      	andiw #-16,%d0
+  180b1a:	0040 0004      	oriw #4,%d0
+  180b1e:	3d40 ffee      	movew %d0,%fp@(-18)
+  180b22:	4aae fffc      	tstl %fp@(-4)
+  180b26:	6624           	bnes 180b4c <biwn_native_deck_input_body+0x854>
+  180b28:	206e ff9e      	moveal %fp@(-98),%a0
+  180b2c:	42a7           	clrl %sp@-
+  180b2e:	2f3c 0004 0406 	movel #263174,%sp@-
+  180b34:	2f28 0018      	movel %a0@(24),%sp@-
+  180b38:	2068 0010      	moveal %a0@(16),%a0
+  180b3c:	4e90           	jsr %a0@
+  180b3e:	4fef 000c      	lea %sp@(12),%sp
+  180b42:	4a80           	tstl %d0
+  180b44:	6706           	beqs 180b4c <biwn_native_deck_input_body+0x854>
+  180b46:	7202           	moveq #2,%d1
+  180b48:	2d41 fffc      	movel %d1,%fp@(-4)
+  180b4c:	302e ffee      	movew %fp@(-18),%d0
+  180b50:	0240 fff0      	andiw #-16,%d0
+  180b54:	0040 0004      	oriw #4,%d0
+  180b58:	3d40 ffee      	movew %d0,%fp@(-18)
+  180b5c:	4aae fffc      	tstl %fp@(-4)
+  180b60:	6624           	bnes 180b86 <biwn_native_deck_input_body+0x88e>
+  180b62:	206e ff9e      	moveal %fp@(-98),%a0
+  180b66:	42a7           	clrl %sp@-
+  180b68:	2f3c 0004 0402 	movel #263170,%sp@-
+  180b6e:	2f28 0018      	movel %a0@(24),%sp@-
+  180b72:	2068 0010      	moveal %a0@(16),%a0
+  180b76:	4e90           	jsr %a0@
+  180b78:	4fef 000c      	lea %sp@(12),%sp
+  180b7c:	4a80           	tstl %d0
+  180b7e:	6706           	beqs 180b86 <biwn_native_deck_input_body+0x88e>
+  180b80:	7002           	moveq #2,%d0
+  180b82:	2d40 fffc      	movel %d0,%fp@(-4)
+  180b86:	322e ffee      	movew %fp@(-18),%d1
+  180b8a:	3001           	movew %d1,%d0
+  180b8c:	0240 fff0      	andiw #-16,%d0
+  180b90:	0040 0004      	oriw #4,%d0
+  180b94:	3d40 ffee      	movew %d0,%fp@(-18)
+  180b98:	4aae fffc      	tstl %fp@(-4)
+  180b9c:	660e           	bnes 180bac <biwn_native_deck_input_body+0x8b4>
+  180b9e:	202e fff8      	movel %fp@(-8),%d0
+  180ba2:	6600 0b3e      	bnew 1816e2 <biwn_native_deck_input_body+0x13ea>
+  180ba6:	7e04           	moveq #4,%d7
+  180ba8:	2d47 fffc      	movel %d7,%fp@(-4)
+  180bac:	202e ffde      	movel %fp@(-34),%d0
+  180bb0:	42ae ff4c      	clrl %fp@(-180)
+  180bb4:	4aae fffc      	tstl %fp@(-4)
+  180bb8:	6600 0c2e      	bnew 1817e8 <biwn_native_deck_input_body+0x14f0>
+  180bbc:	206e ff9e      	moveal %fp@(-98),%a0
+  180bc0:	486e ff4c      	pea %fp@(-180)
+  180bc4:	0280 00ff ffff 	andil #16777215,%d0
+  180bca:	2f00           	movel %d0,%sp@-
+  180bcc:	2f28 0018      	movel %a0@(24),%sp@-
+  180bd0:	2068 0008      	moveal %a0@(8),%a0
+  180bd4:	4e90           	jsr %a0@
+  180bd6:	4fef 000c      	lea %sp@(12),%sp
+  180bda:	4a80           	tstl %d0
+  180bdc:	6706           	beqs 180be4 <biwn_native_deck_input_body+0x8ec>
+  180bde:	7202           	moveq #2,%d1
+  180be0:	2d41 fffc      	movel %d1,%fp@(-4)
+  180be4:	202e ff4c      	movel %fp@(-180),%d0
+  180be8:	262e ffde      	movel %fp@(-34),%d3
+  180bec:	5883           	addql #4,%d3
+  180bee:	2d43 ffde      	movel %d3,%fp@(-34)
+  180bf2:	322e ffee      	movew %fp@(-18),%d1
+  180bf6:	0801 000d      	btst #13,%d1
+  180bfa:	6700 0bf2      	beqw 1817ee <biwn_native_deck_input_body+0x14f6>
+  180bfe:	2d43 ffea      	movel %d3,%fp@(-22)
+  180c02:	2d40 ffaa      	movel %d0,%fp@(-86)
+  180c06:	0241 fff0      	andiw #-16,%d1
+  180c0a:	4a80           	tstl %d0
+  180c0c:	6600 0be8      	bnew 1817f6 <biwn_native_deck_input_body+0x14fe>
+  180c10:	0041 0004      	oriw #4,%d1
+  180c14:	8240           	orw %d0,%d1
+  180c16:	3d41 ffee      	movew %d1,%fp@(-18)
+  180c1a:	42ae ff4c      	clrl %fp@(-180)
+  180c1e:	4aae fffc      	tstl %fp@(-4)
+  180c22:	662c           	bnes 180c50 <biwn_native_deck_input_body+0x958>
+  180c24:	206e ff9e      	moveal %fp@(-98),%a0
+  180c28:	486e ff4c      	pea %fp@(-180)
+  180c2c:	0283 00ff ffff 	andil #16777215,%d3
+  180c32:	2f03           	movel %d3,%sp@-
+  180c34:	2f28 0018      	movel %a0@(24),%sp@-
+  180c38:	2068 0008      	moveal %a0@(8),%a0
+  180c3c:	4e90           	jsr %a0@
+  180c3e:	4fef 000c      	lea %sp@(12),%sp
+  180c42:	4a80           	tstl %d0
+  180c44:	6706           	beqs 180c4c <biwn_native_deck_input_body+0x954>
+  180c46:	7002           	moveq #2,%d0
+  180c48:	2d40 fffc      	movel %d0,%fp@(-4)
+  180c4c:	242e ff4c      	movel %fp@(-180),%d2
+  180c50:	222e ffde      	movel %fp@(-34),%d1
+  180c54:	5881           	addql #4,%d1
+  180c56:	2d41 ffde      	movel %d1,%fp@(-34)
+  180c5a:	302e ffee      	movew %fp@(-18),%d0
+  180c5e:	0800 000d      	btst #13,%d0
+  180c62:	6700 0b9e      	beqw 181802 <biwn_native_deck_input_body+0x150a>
+  180c66:	2d41 ffea      	movel %d1,%fp@(-22)
+  180c6a:	2d42 ffae      	movel %d2,%fp@(-82)
+  180c6e:	0240 fff0      	andiw #-16,%d0
+  180c72:	4a82           	tstl %d2
+  180c74:	6600 0b94      	bnew 18180a <biwn_native_deck_input_body+0x1512>
+  180c78:	0040 0004      	oriw #4,%d0
+  180c7c:	8042           	orw %d2,%d0
+  180c7e:	3d40 ffee      	movew %d0,%fp@(-18)
+  180c82:	2d7c 0001 1d18 	movel #72984,%fp@(-30)
+  180c88:	ffe2 
+  180c8a:	6000 04fe      	braw 18118a <biwn_native_deck_input_body+0xe92>
+  180c8e:	7c00           	moveq #0,%d6
+  180c90:	6000 fbea      	braw 18087c <biwn_native_deck_input_body+0x584>
+  180c94:	d080           	addl %d0,%d0
+  180c96:	9180           	subxl %d0,%d0
+  180c98:	4480           	negl %d0
+  180c9a:	e748           	lslw #3,%d0
+  180c9c:	3040           	moveaw %d0,%a0
+  180c9e:	6000 fc08      	braw 1808a8 <biwn_native_deck_input_body+0x5b0>
+  180ca2:	2205           	movel %d5,%d1
+  180ca4:	d281           	addl %d1,%d1
+  180ca6:	9381           	subxl %d1,%d1
+  180ca8:	4481           	negl %d1
+  180caa:	e749           	lslw #3,%d1
+  180cac:	6000 fc8e      	braw 18093c <biwn_native_deck_input_body+0x644>
+  180cb0:	2601           	movel %d1,%d3
+  180cb2:	4243           	clrw %d3
+  180cb4:	4843           	swap %d3
+  180cb6:	ea4b           	lsrw #5,%d3
+  180cb8:	0283 0000 0001 	andil #1,%d3
+  180cbe:	2003           	movel %d3,%d0
+  180cc0:	0a40 0001      	eoriw #1,%d0
+  180cc4:	d040           	addw %d0,%d0
+  180cc6:	d040           	addw %d0,%d0
+  180cc8:	8044           	orw %d4,%d0
+  180cca:	3d40 ffee      	movew %d0,%fp@(-18)
+  180cce:	4a83           	tstl %d3
+  180cd0:	6700 0192      	beqw 180e64 <biwn_native_deck_input_body+0xb6c>
+  180cd4:	7c19           	moveq #25,%d6
+  180cd6:	eca9           	lsrl %d6,%d1
+  180cd8:	7601           	moveq #1,%d3
+  180cda:	c681           	andl %d1,%d3
+  180cdc:	0240 fff0      	andiw #-16,%d0
+  180ce0:	0040 0008      	oriw #8,%d0
+  180ce4:	0801 0000      	btst #0,%d1
+  180ce8:	672a           	beqs 180d14 <biwn_native_deck_input_body+0xa1c>
+  180cea:	78fe           	moveq #-2,%d4
+  180cec:	2d44 ffae      	movel %d4,%fp@(-82)
+  180cf0:	3d40 ffee      	movew %d0,%fp@(-18)
+  180cf4:	b0fc 0000      	cmpaw #0,%a0
+  180cf8:	6600 f9d0      	bnew 1806ca <biwn_native_deck_input_body+0x3d2>
+  180cfc:	206e ff9e      	moveal %fp@(-98),%a0
+  180d00:	4878 fffe      	pea fffffffe <memory+0xffe7e77c>
+  180d04:	6000 f9a6      	braw 1806ac <biwn_native_deck_input_body+0x3b4>
+  180d08:	d080           	addl %d0,%d0
+  180d0a:	9180           	subxl %d0,%d0
+  180d0c:	4480           	negl %d0
+  180d0e:	e748           	lslw #3,%d0
+  180d10:	6000 f9ce      	braw 1806e0 <biwn_native_deck_input_body+0x3e8>
+  180d14:	2d7c 0004 0104 	movel #262404,%fp@(-62)
+  180d1a:	ffc2 
+  180d1c:	72f0           	moveq #-16,%d1
+  180d1e:	2d41 ffae      	movel %d1,%fp@(-82)
+  180d22:	3d40 ffee      	movew %d0,%fp@(-18)
+  180d26:	42ae ff4c      	clrl %fp@(-180)
+  180d2a:	b0fc 0000      	cmpaw #0,%a0
+  180d2e:	6600 0110      	bnew 180e40 <biwn_native_deck_input_body+0xb48>
+  180d32:	206e ff9e      	moveal %fp@(-98),%a0
+  180d36:	486e ff4c      	pea %fp@(-180)
+  180d3a:	2f3c 0004 0104 	movel #262404,%sp@-
+  180d40:	2f28 0018      	movel %a0@(24),%sp@-
+  180d44:	2068 0008      	moveal %a0@(8),%a0
+  180d48:	4e90           	jsr %a0@
+  180d4a:	4fef 000c      	lea %sp@(12),%sp
+  180d4e:	4a80           	tstl %d0
+  180d50:	6706           	beqs 180d58 <biwn_native_deck_input_body+0xa60>
+  180d52:	7e02           	moveq #2,%d7
+  180d54:	2d47 fffc      	movel %d7,%fp@(-4)
+  180d58:	2c2e ff4c      	movel %fp@(-180),%d6
+  180d5c:	282e ffae      	movel %fp@(-82),%d4
+  180d60:	2004           	movel %d4,%d0
+  180d62:	9086           	subl %d6,%d0
+  180d64:	2204           	movel %d4,%d1
+  180d66:	bd81           	eorl %d6,%d1
+  180d68:	2a04           	movel %d4,%d5
+  180d6a:	b185           	eorl %d0,%d5
+  180d6c:	c285           	andl %d5,%d1
+  180d6e:	d281           	addl %d1,%d1
+  180d70:	9381           	subxl %d1,%d1
+  180d72:	4481           	negl %d1
+  180d74:	3a2e ffee      	movew %fp@(-18),%d5
+  180d78:	0245 fff0      	andiw #-16,%d5
+  180d7c:	4a80           	tstl %d0
+  180d7e:	6600 00c6      	bnew 180e46 <biwn_native_deck_input_body+0xb4e>
+  180d82:	0045 0004      	oriw #4,%d5
+  180d86:	91c8           	subal %a0,%a0
+  180d88:	3001           	movew %d1,%d0
+  180d8a:	d041           	addw %d1,%d0
+  180d8c:	bc84           	cmpl %d4,%d6
+  180d8e:	52c4           	shi %d4
+  180d90:	4884           	extw %d4
+  180d92:	4444           	negw %d4
+  180d94:	8044           	orw %d4,%d0
+  180d96:	3c08           	movew %a0,%d6
+  180d98:	8046           	orw %d6,%d0
+  180d9a:	8045           	orw %d5,%d0
+  180d9c:	3d40 ffee      	movew %d0,%fp@(-18)
+  180da0:	3200           	movew %d0,%d1
+  180da2:	e649           	lsrw #3,%d1
+  180da4:	e248           	lsrw #1,%d0
+  180da6:	b340           	eorw %d1,%d0
+  180da8:	0800 0000      	btst #0,%d0
+  180dac:	6700 fbd4      	beqw 180982 <biwn_native_deck_input_body+0x68a>
+  180db0:	202e ffc2      	movel %fp@(-62),%d0
+  180db4:	42ae ff4c      	clrl %fp@(-180)
+  180db8:	4aae fffc      	tstl %fp@(-4)
+  180dbc:	662c           	bnes 180dea <biwn_native_deck_input_body+0xaf2>
+  180dbe:	206e ff9e      	moveal %fp@(-98),%a0
+  180dc2:	486e ff4c      	pea %fp@(-180)
+  180dc6:	0280 00ff ffff 	andil #16777215,%d0
+  180dcc:	2f00           	movel %d0,%sp@-
+  180dce:	2f28 0018      	movel %a0@(24),%sp@-
+  180dd2:	2068 0008      	moveal %a0@(8),%a0
+  180dd6:	4e90           	jsr %a0@
+  180dd8:	4fef 000c      	lea %sp@(12),%sp
+  180ddc:	4a80           	tstl %d0
+  180dde:	6706           	beqs 180de6 <biwn_native_deck_input_body+0xaee>
+  180de0:	7c02           	moveq #2,%d6
+  180de2:	2d46 fffc      	movel %d6,%fp@(-4)
+  180de6:	262e ff4c      	movel %fp@(-180),%d3
+  180dea:	2803           	movel %d3,%d4
+  180dec:	5384           	subql #1,%d4
+  180dee:	2003           	movel %d3,%d0
+  180df0:	b980           	eorl %d4,%d0
+  180df2:	c083           	andl %d3,%d0
+  180df4:	d080           	addl %d0,%d0
+  180df6:	9180           	subxl %d0,%d0
+  180df8:	4480           	negl %d0
+  180dfa:	3a2e ffee      	movew %fp@(-18),%d5
+  180dfe:	0245 fff0      	andiw #-16,%d5
+  180e02:	4a84           	tstl %d4
+  180e04:	664e           	bnes 180e54 <biwn_native_deck_input_body+0xb5c>
+  180e06:	0045 0004      	oriw #4,%d5
+  180e0a:	4241           	clrw %d1
+  180e0c:	8245           	orw %d5,%d1
+  180e0e:	0241 ffec      	andiw #-20,%d1
+  180e12:	4a83           	tstl %d3
+  180e14:	674a           	beqs 180e60 <biwn_native_deck_input_body+0xb68>
+  180e16:	4243           	clrw %d3
+  180e18:	d040           	addw %d0,%d0
+  180e1a:	8041           	orw %d1,%d0
+  180e1c:	8043           	orw %d3,%d0
+  180e1e:	3d40 ffee      	movew %d0,%fp@(-18)
+  180e22:	4aae fffc      	tstl %fp@(-4)
+  180e26:	6600 fb5a      	bnew 180982 <biwn_native_deck_input_body+0x68a>
+  180e2a:	206e ff9e      	moveal %fp@(-98),%a0
+  180e2e:	2f04           	movel %d4,%sp@-
+  180e30:	202e ffc2      	movel %fp@(-62),%d0
+  180e34:	0280 00ff ffff 	andil #16777215,%d0
+  180e3a:	2f00           	movel %d0,%sp@-
+  180e3c:	6000 fb2c      	braw 18096a <biwn_native_deck_input_body+0x672>
+  180e40:	7c00           	moveq #0,%d6
+  180e42:	6000 ff18      	braw 180d5c <biwn_native_deck_input_body+0xa64>
+  180e46:	d080           	addl %d0,%d0
+  180e48:	9180           	subxl %d0,%d0
+  180e4a:	4480           	negl %d0
+  180e4c:	e748           	lslw #3,%d0
+  180e4e:	3040           	moveaw %d0,%a0
+  180e50:	6000 ff36      	braw 180d88 <biwn_native_deck_input_body+0xa90>
+  180e54:	2204           	movel %d4,%d1
+  180e56:	d281           	addl %d1,%d1
+  180e58:	9381           	subxl %d1,%d1
+  180e5a:	4481           	negl %d1
+  180e5c:	e749           	lslw #3,%d1
+  180e5e:	60ac           	bras 180e0c <biwn_native_deck_input_body+0xb14>
+  180e60:	7611           	moveq #17,%d3
+  180e62:	60b4           	bras 180e18 <biwn_native_deck_input_body+0xb20>
+  180e64:	b0fc 0000      	cmpaw #0,%a0
+  180e68:	6624           	bnes 180e8e <biwn_native_deck_input_body+0xb96>
+  180e6a:	206e ff9e      	moveal %fp@(-98),%a0
+  180e6e:	42a7           	clrl %sp@-
+  180e70:	2f3c 0004 0104 	movel #262404,%sp@-
+  180e76:	2f28 0018      	movel %a0@(24),%sp@-
+  180e7a:	2068 0010      	moveal %a0@(16),%a0
+  180e7e:	4e90           	jsr %a0@
+  180e80:	4fef 000c      	lea %sp@(12),%sp
+  180e84:	4a80           	tstl %d0
+  180e86:	6706           	beqs 180e8e <biwn_native_deck_input_body+0xb96>
+  180e88:	7a02           	moveq #2,%d5
+  180e8a:	2d45 fffc      	movel %d5,%fp@(-4)
+  180e8e:	302e ffee      	movew %fp@(-18),%d0
+  180e92:	0240 fff0      	andiw #-16,%d0
+  180e96:	0040 0004      	oriw #4,%d0
+  180e9a:	3d40 ffee      	movew %d0,%fp@(-18)
+  180e9e:	6000 fae2      	braw 180982 <biwn_native_deck_input_body+0x68a>
+  180ea2:	4243           	clrw %d3
+  180ea4:	4843           	swap %d3
+  180ea6:	ee4b           	lsrw #7,%d3
+  180ea8:	0283 0000 0001 	andil #1,%d3
+  180eae:	2003           	movel %d3,%d0
+  180eb0:	0a40 0001      	eoriw #1,%d0
+  180eb4:	d040           	addw %d0,%d0
+  180eb6:	d040           	addw %d0,%d0
+  180eb8:	0241 fffb      	andiw #-5,%d1
+  180ebc:	8041           	orw %d1,%d0
+  180ebe:	3d40 ffee      	movew %d0,%fp@(-18)
+  180ec2:	4a83           	tstl %d3
+  180ec4:	6700 fb98      	beqw 180a5e <biwn_native_deck_input_body+0x766>
+  180ec8:	0240 fff0      	andiw #-16,%d0
+  180ecc:	0040 0008      	oriw #8,%d0
+  180ed0:	72fe           	moveq #-2,%d1
+  180ed2:	6000 fb3c      	braw 180a10 <biwn_native_deck_input_body+0x718>
+  180ed6:	d080           	addl %d0,%d0
+  180ed8:	9180           	subxl %d0,%d0
+  180eda:	4480           	negl %d0
+  180edc:	e748           	lslw #3,%d0
+  180ede:	6000 fb78      	braw 180a58 <biwn_native_deck_input_body+0x760>
+  180ee2:	2e35 3800      	movel %a5@(0,%d3:l),%d7
+  180ee6:	eead           	lsrl %d7,%d5
+  180ee8:	0285 0000 0001 	andil #1,%d5
+  180eee:	2005           	movel %d5,%d0
+  180ef0:	0a40 0001      	eoriw #1,%d0
+  180ef4:	d040           	addw %d0,%d0
+  180ef6:	d040           	addw %d0,%d0
+  180ef8:	0241 fffb      	andiw #-5,%d1
+  180efc:	8041           	orw %d1,%d0
+  180efe:	6000 fba6      	braw 180aa6 <biwn_native_deck_input_body+0x7ae>
+  180f02:	42ae ff4c      	clrl %fp@(-180)
+  180f06:	4aae fffc      	tstl %fp@(-4)
+  180f0a:	6600 02a0      	bnew 1811ac <biwn_native_deck_input_body+0xeb4>
+  180f0e:	206e ff9e      	moveal %fp@(-98),%a0
+  180f12:	2f04           	movel %d4,%sp@-
+  180f14:	2f3c 0004 00e6 	movel #262374,%sp@-
+  180f1a:	2f28 0018      	movel %a0@(24),%sp@-
+  180f1e:	2068 0008      	moveal %a0@(8),%a0
+  180f22:	4e90           	jsr %a0@
+  180f24:	4fef 000c      	lea %sp@(12),%sp
+  180f28:	4a80           	tstl %d0
+  180f2a:	6706           	beqs 180f32 <biwn_native_deck_input_body+0xc3a>
+  180f2c:	7202           	moveq #2,%d1
+  180f2e:	2d41 fffc      	movel %d1,%fp@(-4)
+  180f32:	202e ff4c      	movel %fp@(-180),%d0
+  180f36:	2d40 ffc2      	movel %d0,%fp@(-62)
+  180f3a:	426e ff4c      	clrw %fp@(-180)
+  180f3e:	4aae fffc      	tstl %fp@(-4)
+  180f42:	6600 026e      	bnew 1811b2 <biwn_native_deck_input_body+0xeba>
+  180f46:	206e ff9e      	moveal %fp@(-98),%a0
+  180f4a:	2f04           	movel %d4,%sp@-
+  180f4c:	0680 0000 0088 	addil #136,%d0
+  180f52:	0280 00ff ffff 	andil #16777215,%d0
+  180f58:	2f00           	movel %d0,%sp@-
+  180f5a:	2f28 0018      	movel %a0@(24),%sp@-
+  180f5e:	2068 0004      	moveal %a0@(4),%a0
+  180f62:	4e90           	jsr %a0@
+  180f64:	4fef 000c      	lea %sp@(12),%sp
+  180f68:	4a80           	tstl %d0
+  180f6a:	6706           	beqs 180f72 <biwn_native_deck_input_body+0xc7a>
+  180f6c:	7002           	moveq #2,%d0
+  180f6e:	2d40 fffc      	movel %d0,%fp@(-4)
+  180f72:	7200           	moveq #0,%d1
+  180f74:	322e ff4c      	movew %fp@(-180),%d1
+  180f78:	3e2e ffee      	movew %fp@(-18),%d7
+  180f7c:	0247 fff0      	andiw #-16,%d7
+  180f80:	4aae ff48      	tstl %fp@(-184)
+  180f84:	6600 0232      	bnew 1811b8 <biwn_native_deck_input_body+0xec0>
+  180f88:	4a81           	tstl %d1
+  180f8a:	57c0           	seq %d0
+  180f8c:	4880           	extw %d0
+  180f8e:	4440           	negw %d0
+  180f90:	d040           	addw %d0,%d0
+  180f92:	d040           	addw %d0,%d0
+  180f94:	8047           	orw %d7,%d0
+  180f96:	2a01           	movel %d1,%d5
+  180f98:	7c0f           	moveq #15,%d6
+  180f9a:	ecad           	lsrl %d6,%d5
+  180f9c:	e74d           	lslw #3,%d5
+  180f9e:	8045           	orw %d5,%d0
+  180fa0:	3d40 ffee      	movew %d0,%fp@(-18)
+  180fa4:	4a81           	tstl %d1
+  180fa6:	6700 fb08      	beqw 180ab0 <biwn_native_deck_input_body+0x7b8>
+  180faa:	222e ffde      	movel %fp@(-34),%d1
+  180fae:	5581           	subql #2,%d1
+  180fb0:	2d41 ffde      	movel %d1,%fp@(-34)
+  180fb4:	0800 000d      	btst #13,%d0
+  180fb8:	6700 0254      	beqw 18120e <biwn_native_deck_input_body+0xf16>
+  180fbc:	2d41 ffea      	movel %d1,%fp@(-22)
+  180fc0:	4aae fffc      	tstl %fp@(-4)
+  180fc4:	6628           	bnes 180fee <biwn_native_deck_input_body+0xcf6>
+  180fc6:	206e ff9e      	moveal %fp@(-98),%a0
+  180fca:	2f2e ff48      	movel %fp@(-184),%sp@-
+  180fce:	0281 00ff ffff 	andil #16777215,%d1
+  180fd4:	2f01           	movel %d1,%sp@-
+  180fd6:	2f28 0018      	movel %a0@(24),%sp@-
+  180fda:	2068 000c      	moveal %a0@(12),%a0
+  180fde:	4e90           	jsr %a0@
+  180fe0:	4fef 000c      	lea %sp@(12),%sp
+  180fe4:	4a80           	tstl %d0
+  180fe6:	6706           	beqs 180fee <biwn_native_deck_input_body+0xcf6>
+  180fe8:	7e02           	moveq #2,%d7
+  180fea:	2d47 fffc      	movel %d7,%fp@(-4)
+  180fee:	322e ffee      	movew %fp@(-18),%d1
+  180ff2:	0241 fff0      	andiw #-16,%d1
+  180ff6:	4aae ff48      	tstl %fp@(-184)
+  180ffa:	57c0           	seq %d0
+  180ffc:	4880           	extw %d0
+  180ffe:	4440           	negw %d0
+  181000:	d040           	addw %d0,%d0
+  181002:	d040           	addw %d0,%d0
+  181004:	8041           	orw %d1,%d0
+  181006:	3d40 ffee      	movew %d0,%fp@(-18)
+  18100a:	4aae ff48      	tstl %fp@(-184)
+  18100e:	6600 043a      	bnew 18144a <biwn_native_deck_input_body+0x1152>
+  181012:	4aae fffc      	tstl %fp@(-4)
+  181016:	660e           	bnes 181026 <biwn_native_deck_input_body+0xd2e>
+  181018:	222e fff8      	movel %fp@(-8),%d1
+  18101c:	6600 01f8      	bnew 181216 <biwn_native_deck_input_body+0xf1e>
+  181020:	7c04           	moveq #4,%d6
+  181022:	2d46 fffc      	movel %d6,%fp@(-4)
+  181026:	42ae ff4c      	clrl %fp@(-180)
+  18102a:	4aae fffc      	tstl %fp@(-4)
+  18102e:	6600 02ec      	bnew 18131c <biwn_native_deck_input_body+0x1024>
+  181032:	206e ff9e      	moveal %fp@(-98),%a0
+  181036:	486e ff4c      	pea %fp@(-180)
+  18103a:	2f3c 0004 03dc 	movel #263132,%sp@-
+  181040:	2f28 0018      	movel %a0@(24),%sp@-
+  181044:	2068 0008      	moveal %a0@(8),%a0
+  181048:	4e90           	jsr %a0@
+  18104a:	4fef 000c      	lea %sp@(12),%sp
+  18104e:	4a80           	tstl %d0
+  181050:	6706           	beqs 181058 <biwn_native_deck_input_body+0xd60>
+  181052:	7c02           	moveq #2,%d6
+  181054:	2d46 fffc      	movel %d6,%fp@(-4)
+  181058:	206e ff4c      	moveal %fp@(-180),%a0
+  18105c:	3c2e ffee      	movew %fp@(-18),%d6
+  181060:	0246 fff0      	andiw #-16,%d6
+  181064:	b0fc 0000      	cmpaw #0,%a0
+  181068:	6604           	bnes 18106e <biwn_native_deck_input_body+0xd76>
+  18106a:	0046 0004      	oriw #4,%d6
+  18106e:	2d7c 0004 03e0 	movel #263136,%fp@(-62)
+  181074:	ffc2 
+  181076:	2008           	movel %a0,%d0
+  181078:	d088           	addl %a0,%d0
+  18107a:	2208           	movel %a0,%d1
+  18107c:	b181           	eorl %d0,%d1
+  18107e:	d281           	addl %d1,%d1
+  181080:	9381           	subxl %d1,%d1
+  181082:	4481           	negl %d1
+  181084:	0246 fff0      	andiw #-16,%d6
+  181088:	4a80           	tstl %d0
+  18108a:	6600 0296      	bnew 181322 <biwn_native_deck_input_body+0x102a>
+  18108e:	0046 0004      	oriw #4,%d6
+  181092:	4245           	clrw %d5
+  181094:	8a46           	orw %d6,%d5
+  181096:	0245 ffec      	andiw #-20,%d5
+  18109a:	b088           	cmpl %a0,%d0
+  18109c:	6500 0292      	bcsw 181330 <biwn_native_deck_input_body+0x1038>
+  1810a0:	4246           	clrw %d6
+  1810a2:	d241           	addw %d1,%d1
+  1810a4:	8245           	orw %d5,%d1
+  1810a6:	8246           	orw %d6,%d1
+  1810a8:	3d41 ffee      	movew %d1,%fp@(-18)
+  1810ac:	2d40 ffa2      	movel %d0,%fp@(-94)
+  1810b0:	426e ff4c      	clrw %fp@(-180)
+  1810b4:	4aae fffc      	tstl %fp@(-4)
+  1810b8:	6600 027c      	bnew 181336 <biwn_native_deck_input_body+0x103e>
+  1810bc:	206e ff9e      	moveal %fp@(-98),%a0
+  1810c0:	486e ff4c      	pea %fp@(-180)
+  1810c4:	0680 0004 03e0 	addil #263136,%d0
+  1810ca:	0280 00ff ffff 	andil #16777215,%d0
+  1810d0:	2f00           	movel %d0,%sp@-
+  1810d2:	2f28 0018      	movel %a0@(24),%sp@-
+  1810d6:	2068 0004      	moveal %a0@(4),%a0
+  1810da:	4e90           	jsr %a0@
+  1810dc:	4fef 000c      	lea %sp@(12),%sp
+  1810e0:	4a80           	tstl %d0
+  1810e2:	6706           	beqs 1810ea <biwn_native_deck_input_body+0xdf2>
+  1810e4:	7a02           	moveq #2,%d5
+  1810e6:	2d45 fffc      	movel %d5,%fp@(-4)
+  1810ea:	7a00           	moveq #0,%d5
+  1810ec:	3a2e ff4c      	movew %fp@(-180),%d5
+  1810f0:	202e ffde      	movel %fp@(-34),%d0
+  1810f4:	5580           	subql #2,%d0
+  1810f6:	2d40 ffde      	movel %d0,%fp@(-34)
+  1810fa:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181100:	6700 023a      	beqw 18133c <biwn_native_deck_input_body+0x1044>
+  181104:	2d40 ffea      	movel %d0,%fp@(-22)
+  181108:	4aae fffc      	tstl %fp@(-4)
+  18110c:	6626           	bnes 181134 <biwn_native_deck_input_body+0xe3c>
+  18110e:	206e ff9e      	moveal %fp@(-98),%a0
+  181112:	2f05           	movel %d5,%sp@-
+  181114:	0280 00ff ffff 	andil #16777215,%d0
+  18111a:	2f00           	movel %d0,%sp@-
+  18111c:	2f28 0018      	movel %a0@(24),%sp@-
+  181120:	2068 000c      	moveal %a0@(12),%a0
+  181124:	4e90           	jsr %a0@
+  181126:	4fef 000c      	lea %sp@(12),%sp
+  18112a:	4a80           	tstl %d0
+  18112c:	6706           	beqs 181134 <biwn_native_deck_input_body+0xe3c>
+  18112e:	7202           	moveq #2,%d1
+  181130:	2d41 fffc      	movel %d1,%fp@(-4)
+  181134:	322e ffee      	movew %fp@(-18),%d1
+  181138:	0241 fff0      	andiw #-16,%d1
+  18113c:	4a85           	tstl %d5
+  18113e:	57c0           	seq %d0
+  181140:	4880           	extw %d0
+  181142:	4440           	negw %d0
+  181144:	d040           	addw %d0,%d0
+  181146:	d040           	addw %d0,%d0
+  181148:	8041           	orw %d1,%d0
+  18114a:	7e0f           	moveq #15,%d7
+  18114c:	eead           	lsrl %d7,%d5
+  18114e:	e74d           	lslw #3,%d5
+  181150:	8045           	orw %d5,%d0
+  181152:	3d40 ffee      	movew %d0,%fp@(-18)
+  181156:	4aae fffc      	tstl %fp@(-4)
+  18115a:	660e           	bnes 18116a <biwn_native_deck_input_body+0xe72>
+  18115c:	222e fff8      	movel %fp@(-8),%d1
+  181160:	6600 01e2      	bnew 181344 <biwn_native_deck_input_body+0x104c>
+  181164:	7004           	moveq #4,%d0
+  181166:	2d40 fffc      	movel %d0,%fp@(-4)
+  18116a:	202e ffde      	movel %fp@(-34),%d0
+  18116e:	5880           	addql #4,%d0
+  181170:	2d40 ffde      	movel %d0,%fp@(-34)
+  181174:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18117a:	6700 055e      	beqw 1816da <biwn_native_deck_input_body+0x13e2>
+  18117e:	2d40 ffea      	movel %d0,%fp@(-22)
+  181182:	4aae fffc      	tstl %fp@(-4)
+  181186:	6700 f928      	beqw 180ab0 <biwn_native_deck_input_body+0x7b8>
+  18118a:	242e fffc      	movel %fp@(-4),%d2
+  18118e:	660e           	bnes 18119e <biwn_native_deck_input_body+0xea6>
+  181190:	4878 004e      	pea 4e <FRAME_OFFSET-0x42>
+  181194:	2f0c           	movel %a4,%sp@-
+  181196:	2f0a           	movel %a2,%sp@-
+  181198:	4e93           	jsr %a3@
+  18119a:	4fef 000c      	lea %sp@(12),%sp
+  18119e:	2542 0060      	movel %d2,%a2@(96)
+  1811a2:	4cee 3cfc ff20 	moveml %fp@(-224),%d2-%d7/%a2-%a5
+  1811a8:	4e5e           	unlk %fp
+  1811aa:	4e75           	rts
+  1811ac:	7000           	moveq #0,%d0
+  1811ae:	6000 fd86      	braw 180f36 <biwn_native_deck_input_body+0xc3e>
+  1811b2:	7200           	moveq #0,%d1
+  1811b4:	6000 fdc2      	braw 180f78 <biwn_native_deck_input_body+0xc80>
+  1811b8:	2a01           	movel %d1,%d5
+  1811ba:	9aae ff48      	subl %fp@(-184),%d5
+  1811be:	2c05           	movel %d5,%d6
+  1811c0:	0286 0000 ffff 	andil #65535,%d6
+  1811c6:	b2ae ff48      	cmpl %fp@(-184),%d1
+  1811ca:	55c0           	scs %d0
+  1811cc:	4880           	extw %d0
+  1811ce:	4440           	negw %d0
+  1811d0:	8047           	orw %d7,%d0
+  1811d2:	4a45           	tstw %d5
+  1811d4:	57c7           	seq %d7
+  1811d6:	4887           	extw %d7
+  1811d8:	4447           	negw %d7
+  1811da:	3047           	moveaw %d7,%a0
+  1811dc:	d0c7           	addaw %d7,%a0
+  1811de:	d0c8           	addaw %a0,%a0
+  1811e0:	3e08           	movew %a0,%d7
+  1811e2:	8047           	orw %d7,%d0
+  1811e4:	7e0f           	moveq #15,%d7
+  1811e6:	ee6d           	lsrw %d7,%d5
+  1811e8:	e74d           	lslw #3,%d5
+  1811ea:	8045           	orw %d5,%d0
+  1811ec:	2a2e ff48      	movel %fp@(-184),%d5
+  1811f0:	b385           	eorl %d1,%d5
+  1811f2:	bd81           	eorl %d6,%d1
+  1811f4:	c285           	andl %d5,%d1
+  1811f6:	ee69           	lsrw %d7,%d1
+  1811f8:	d241           	addw %d1,%d1
+  1811fa:	8041           	orw %d1,%d0
+  1811fc:	3d40 ffee      	movew %d0,%fp@(-18)
+  181200:	3200           	movew %d0,%d1
+  181202:	0241 0005      	andiw #5,%d1
+  181206:	6700 fda2      	beqw 180faa <biwn_native_deck_input_body+0xcb2>
+  18120a:	6000 f8a4      	braw 180ab0 <biwn_native_deck_input_body+0x7b8>
+  18120e:	2d41 ffe6      	movel %d1,%fp@(-26)
+  181212:	6000 fdac      	braw 180fc0 <biwn_native_deck_input_body+0xcc8>
+  181216:	5381           	subql #1,%d1
+  181218:	2d41 fff8      	movel %d1,%fp@(-8)
+  18121c:	222e ffde      	movel %fp@(-34),%d1
+  181220:	5981           	subql #4,%d1
+  181222:	2d41 ffde      	movel %d1,%fp@(-34)
+  181226:	0800 000d      	btst #13,%d0
+  18122a:	676c           	beqs 181298 <biwn_native_deck_input_body+0xfa0>
+  18122c:	2d41 ffea      	movel %d1,%fp@(-22)
+  181230:	206e ff9e      	moveal %fp@(-98),%a0
+  181234:	2f3c 0001 1c16 	movel #72726,%sp@-
+  18123a:	0281 00ff ffff 	andil #16777215,%d1
+  181240:	2f01           	movel %d1,%sp@-
+  181242:	2f28 0018      	movel %a0@(24),%sp@-
+  181246:	2068 0010      	moveal %a0@(16),%a0
+  18124a:	4e90           	jsr %a0@
+  18124c:	4fef 000c      	lea %sp@(12),%sp
+  181250:	4a80           	tstl %d0
+  181252:	6706           	beqs 18125a <biwn_native_deck_input_body+0xf62>
+  181254:	7a02           	moveq #2,%d5
+  181256:	2d45 fffc      	movel %d5,%fp@(-4)
+  18125a:	2d7c 0001 0c6e 	movel #68718,%fp@(-30)
+  181260:	ffe2 
+  181262:	4aae fffc      	tstl %fp@(-4)
+  181266:	6600 fdbe      	bnew 181026 <biwn_native_deck_input_body+0xd2e>
+  18126a:	2a2e ffde      	movel %fp@(-34),%d5
+  18126e:	2f3c 0001 0c6e 	movel #68718,%sp@-
+  181274:	486e ffa2      	pea %fp@(-94)
+  181278:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  18127c:	2f2e fff4      	movel %fp@(-12),%sp@-
+  181280:	206e fff0      	moveal %fp@(-16),%a0
+  181284:	4e90           	jsr %a0@
+  181286:	4fef 0010      	lea %sp@(16),%sp
+  18128a:	4a80           	tstl %d0
+  18128c:	6710           	beqs 18129e <biwn_native_deck_input_body+0xfa6>
+  18128e:	7203           	moveq #3,%d1
+  181290:	2d41 fffc      	movel %d1,%fp@(-4)
+  181294:	6000 fd90      	braw 181026 <biwn_native_deck_input_body+0xd2e>
+  181298:	2d41 ffe6      	movel %d1,%fp@(-26)
+  18129c:	6092           	bras 181230 <biwn_native_deck_input_body+0xf38>
+  18129e:	baae ffde      	cmpl %fp@(-34),%d5
+  1812a2:	670a           	beqs 1812ae <biwn_native_deck_input_body+0xfb6>
+  1812a4:	7005           	moveq #5,%d0
+  1812a6:	2d40 fffc      	movel %d0,%fp@(-4)
+  1812aa:	6000 fd7a      	braw 181026 <biwn_native_deck_input_body+0xd2e>
+  1812ae:	42ae ff4c      	clrl %fp@(-180)
+  1812b2:	4aae fffc      	tstl %fp@(-4)
+  1812b6:	665a           	bnes 181312 <biwn_native_deck_input_body+0x101a>
+  1812b8:	206e ff9e      	moveal %fp@(-98),%a0
+  1812bc:	486e ff4c      	pea %fp@(-180)
+  1812c0:	0285 00ff ffff 	andil #16777215,%d5
+  1812c6:	2f05           	movel %d5,%sp@-
+  1812c8:	2f28 0018      	movel %a0@(24),%sp@-
+  1812cc:	2068 0008      	moveal %a0@(8),%a0
+  1812d0:	4e90           	jsr %a0@
+  1812d2:	4fef 000c      	lea %sp@(12),%sp
+  1812d6:	4a80           	tstl %d0
+  1812d8:	6706           	beqs 1812e0 <biwn_native_deck_input_body+0xfe8>
+  1812da:	7e02           	moveq #2,%d7
+  1812dc:	2d47 fffc      	movel %d7,%fp@(-4)
+  1812e0:	202e ff4c      	movel %fp@(-180),%d0
+  1812e4:	222e ffde      	movel %fp@(-34),%d1
+  1812e8:	5881           	addql #4,%d1
+  1812ea:	2d41 ffde      	movel %d1,%fp@(-34)
+  1812ee:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1812f4:	6720           	beqs 181316 <biwn_native_deck_input_body+0x101e>
+  1812f6:	2d41 ffea      	movel %d1,%fp@(-22)
+  1812fa:	4aae fffc      	tstl %fp@(-4)
+  1812fe:	6600 fd26      	bnew 181026 <biwn_native_deck_input_body+0xd2e>
+  181302:	0c80 0001 1c16 	cmpil #72726,%d0
+  181308:	669a           	bnes 1812a4 <biwn_native_deck_input_body+0xfac>
+  18130a:	2d40 ffe2      	movel %d0,%fp@(-30)
+  18130e:	6000 fd16      	braw 181026 <biwn_native_deck_input_body+0xd2e>
+  181312:	7000           	moveq #0,%d0
+  181314:	60ce           	bras 1812e4 <biwn_native_deck_input_body+0xfec>
+  181316:	2d41 ffe6      	movel %d1,%fp@(-26)
+  18131a:	60de           	bras 1812fa <biwn_native_deck_input_body+0x1002>
+  18131c:	91c8           	subal %a0,%a0
+  18131e:	6000 fd3c      	braw 18105c <biwn_native_deck_input_body+0xd64>
+  181322:	2a00           	movel %d0,%d5
+  181324:	da85           	addl %d5,%d5
+  181326:	9b85           	subxl %d5,%d5
+  181328:	4485           	negl %d5
+  18132a:	e74d           	lslw #3,%d5
+  18132c:	6000 fd66      	braw 181094 <biwn_native_deck_input_body+0xd9c>
+  181330:	7c11           	moveq #17,%d6
+  181332:	6000 fd6e      	braw 1810a2 <biwn_native_deck_input_body+0xdaa>
+  181336:	7a00           	moveq #0,%d5
+  181338:	6000 fdb6      	braw 1810f0 <biwn_native_deck_input_body+0xdf8>
+  18133c:	2d40 ffe6      	movel %d0,%fp@(-26)
+  181340:	6000 fdc6      	braw 181108 <biwn_native_deck_input_body+0xe10>
+  181344:	5381           	subql #1,%d1
+  181346:	2d41 fff8      	movel %d1,%fp@(-8)
+  18134a:	222e ffde      	movel %fp@(-34),%d1
+  18134e:	5981           	subql #4,%d1
+  181350:	2d41 ffde      	movel %d1,%fp@(-34)
+  181354:	0800 000d      	btst #13,%d0
+  181358:	676c           	beqs 1813c6 <biwn_native_deck_input_body+0x10ce>
+  18135a:	2d41 ffea      	movel %d1,%fp@(-22)
+  18135e:	206e ff9e      	moveal %fp@(-98),%a0
+  181362:	2f3c 0001 1c2e 	movel #72750,%sp@-
+  181368:	0281 00ff ffff 	andil #16777215,%d1
+  18136e:	2f01           	movel %d1,%sp@-
+  181370:	2f28 0018      	movel %a0@(24),%sp@-
+  181374:	2068 0010      	moveal %a0@(16),%a0
+  181378:	4e90           	jsr %a0@
+  18137a:	4fef 000c      	lea %sp@(12),%sp
+  18137e:	4a80           	tstl %d0
+  181380:	6706           	beqs 181388 <biwn_native_deck_input_body+0x1090>
+  181382:	7e02           	moveq #2,%d7
+  181384:	2d47 fffc      	movel %d7,%fp@(-4)
+  181388:	2d7c 0001 0e72 	movel #69234,%fp@(-30)
+  18138e:	ffe2 
+  181390:	4aae fffc      	tstl %fp@(-4)
+  181394:	6600 fdd4      	bnew 18116a <biwn_native_deck_input_body+0xe72>
+  181398:	2a2e ffde      	movel %fp@(-34),%d5
+  18139c:	2f3c 0001 0e72 	movel #69234,%sp@-
+  1813a2:	486e ffa2      	pea %fp@(-94)
+  1813a6:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  1813aa:	2f2e fff4      	movel %fp@(-12),%sp@-
+  1813ae:	206e fff0      	moveal %fp@(-16),%a0
+  1813b2:	4e90           	jsr %a0@
+  1813b4:	4fef 0010      	lea %sp@(16),%sp
+  1813b8:	4a80           	tstl %d0
+  1813ba:	6710           	beqs 1813cc <biwn_native_deck_input_body+0x10d4>
+  1813bc:	7c03           	moveq #3,%d6
+  1813be:	2d46 fffc      	movel %d6,%fp@(-4)
+  1813c2:	6000 fda6      	braw 18116a <biwn_native_deck_input_body+0xe72>
+  1813c6:	2d41 ffe6      	movel %d1,%fp@(-26)
+  1813ca:	6092           	bras 18135e <biwn_native_deck_input_body+0x1066>
+  1813cc:	baae ffde      	cmpl %fp@(-34),%d5
+  1813d0:	670a           	beqs 1813dc <biwn_native_deck_input_body+0x10e4>
+  1813d2:	7a05           	moveq #5,%d5
+  1813d4:	2d45 fffc      	movel %d5,%fp@(-4)
+  1813d8:	6000 fd90      	braw 18116a <biwn_native_deck_input_body+0xe72>
+  1813dc:	42ae ff4c      	clrl %fp@(-180)
+  1813e0:	4aae fffc      	tstl %fp@(-4)
+  1813e4:	665a           	bnes 181440 <biwn_native_deck_input_body+0x1148>
+  1813e6:	206e ff9e      	moveal %fp@(-98),%a0
+  1813ea:	486e ff4c      	pea %fp@(-180)
+  1813ee:	0285 00ff ffff 	andil #16777215,%d5
+  1813f4:	2f05           	movel %d5,%sp@-
+  1813f6:	2f28 0018      	movel %a0@(24),%sp@-
+  1813fa:	2068 0008      	moveal %a0@(8),%a0
+  1813fe:	4e90           	jsr %a0@
+  181400:	4fef 000c      	lea %sp@(12),%sp
+  181404:	4a80           	tstl %d0
+  181406:	6706           	beqs 18140e <biwn_native_deck_input_body+0x1116>
+  181408:	7202           	moveq #2,%d1
+  18140a:	2d41 fffc      	movel %d1,%fp@(-4)
+  18140e:	202e ff4c      	movel %fp@(-180),%d0
+  181412:	222e ffde      	movel %fp@(-34),%d1
+  181416:	5881           	addql #4,%d1
+  181418:	2d41 ffde      	movel %d1,%fp@(-34)
+  18141c:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181422:	6720           	beqs 181444 <biwn_native_deck_input_body+0x114c>
+  181424:	2d41 ffea      	movel %d1,%fp@(-22)
+  181428:	4aae fffc      	tstl %fp@(-4)
+  18142c:	6600 fd3c      	bnew 18116a <biwn_native_deck_input_body+0xe72>
+  181430:	0c80 0001 1c2e 	cmpil #72750,%d0
+  181436:	669a           	bnes 1813d2 <biwn_native_deck_input_body+0x10da>
+  181438:	2d40 ffe2      	movel %d0,%fp@(-30)
+  18143c:	6000 fd2c      	braw 18116a <biwn_native_deck_input_body+0xe72>
+  181440:	7000           	moveq #0,%d0
+  181442:	60ce           	bras 181412 <biwn_native_deck_input_body+0x111a>
+  181444:	2d41 ffe6      	movel %d1,%fp@(-26)
+  181448:	60de           	bras 181428 <biwn_native_deck_input_body+0x1130>
+  18144a:	4aae fffc      	tstl %fp@(-4)
+  18144e:	660e           	bnes 18145e <biwn_native_deck_input_body+0x1166>
+  181450:	222e fff8      	movel %fp@(-8),%d1
+  181454:	6600 015e      	bnew 1815b4 <biwn_native_deck_input_body+0x12bc>
+  181458:	7004           	moveq #4,%d0
+  18145a:	2d40 fffc      	movel %d0,%fp@(-4)
+  18145e:	202e ffde      	movel %fp@(-34),%d0
+  181462:	5580           	subql #2,%d0
+  181464:	2d40 ffde      	movel %d0,%fp@(-34)
+  181468:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18146e:	6700 024c      	beqw 1816bc <biwn_native_deck_input_body+0x13c4>
+  181472:	2d40 ffea      	movel %d0,%fp@(-22)
+  181476:	4aae fffc      	tstl %fp@(-4)
+  18147a:	6626           	bnes 1814a2 <biwn_native_deck_input_body+0x11aa>
+  18147c:	206e ff9e      	moveal %fp@(-98),%a0
+  181480:	42a7           	clrl %sp@-
+  181482:	0280 00ff ffff 	andil #16777215,%d0
+  181488:	2f00           	movel %d0,%sp@-
+  18148a:	2f28 0018      	movel %a0@(24),%sp@-
+  18148e:	2068 000c      	moveal %a0@(12),%a0
+  181492:	4e90           	jsr %a0@
+  181494:	4fef 000c      	lea %sp@(12),%sp
+  181498:	4a80           	tstl %d0
+  18149a:	6706           	beqs 1814a2 <biwn_native_deck_input_body+0x11aa>
+  18149c:	7002           	moveq #2,%d0
+  18149e:	2d40 fffc      	movel %d0,%fp@(-4)
+  1814a2:	322e ffee      	movew %fp@(-18),%d1
+  1814a6:	3001           	movew %d1,%d0
+  1814a8:	0240 fff0      	andiw #-16,%d0
+  1814ac:	0040 0004      	oriw #4,%d0
+  1814b0:	3d40 ffee      	movew %d0,%fp@(-18)
+  1814b4:	4aae fffc      	tstl %fp@(-4)
+  1814b8:	6600 fcb0      	bnew 18116a <biwn_native_deck_input_body+0xe72>
+  1814bc:	202e fff8      	movel %fp@(-8),%d0
+  1814c0:	6700 fca2      	beqw 181164 <biwn_native_deck_input_body+0xe6c>
+  1814c4:	41f9 0018 183a 	lea 18183a <second_returns.0>,%a0
+  1814ca:	2a30 3800      	movel %a0@(0,%d3:l),%d5
+  1814ce:	5380           	subql #1,%d0
+  1814d0:	2d40 fff8      	movel %d0,%fp@(-8)
+  1814d4:	202e ffde      	movel %fp@(-34),%d0
+  1814d8:	5980           	subql #4,%d0
+  1814da:	2d40 ffde      	movel %d0,%fp@(-34)
+  1814de:	0801 000d      	btst #13,%d1
+  1814e2:	6700 01e0      	beqw 1816c4 <biwn_native_deck_input_body+0x13cc>
+  1814e6:	2d40 ffea      	movel %d0,%fp@(-22)
+  1814ea:	206e ff9e      	moveal %fp@(-98),%a0
+  1814ee:	2f05           	movel %d5,%sp@-
+  1814f0:	0280 00ff ffff 	andil #16777215,%d0
+  1814f6:	2f00           	movel %d0,%sp@-
+  1814f8:	2f28 0018      	movel %a0@(24),%sp@-
+  1814fc:	2068 0010      	moveal %a0@(16),%a0
+  181500:	4e90           	jsr %a0@
+  181502:	4fef 000c      	lea %sp@(12),%sp
+  181506:	4a80           	tstl %d0
+  181508:	6706           	beqs 181510 <biwn_native_deck_input_body+0x1218>
+  18150a:	7e02           	moveq #2,%d7
+  18150c:	2d47 fffc      	movel %d7,%fp@(-4)
+  181510:	2d7c 0001 0cb6 	movel #68790,%fp@(-30)
+  181516:	ffe2 
+  181518:	4aae fffc      	tstl %fp@(-4)
+  18151c:	6600 fc4c      	bnew 18116a <biwn_native_deck_input_body+0xe72>
+  181520:	2c2e ffde      	movel %fp@(-34),%d6
+  181524:	2f3c 0001 0cb6 	movel #68790,%sp@-
+  18152a:	486e ffa2      	pea %fp@(-94)
+  18152e:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  181532:	2f2e fff4      	movel %fp@(-12),%sp@-
+  181536:	206e fff0      	moveal %fp@(-16),%a0
+  18153a:	4e90           	jsr %a0@
+  18153c:	4fef 0010      	lea %sp@(16),%sp
+  181540:	4a80           	tstl %d0
+  181542:	6600 fe78      	bnew 1813bc <biwn_native_deck_input_body+0x10c4>
+  181546:	bcae ffde      	cmpl %fp@(-34),%d6
+  18154a:	6600 fe86      	bnew 1813d2 <biwn_native_deck_input_body+0x10da>
+  18154e:	42ae ff4c      	clrl %fp@(-180)
+  181552:	4aae fffc      	tstl %fp@(-4)
+  181556:	6600 0174      	bnew 1816cc <biwn_native_deck_input_body+0x13d4>
+  18155a:	206e ff9e      	moveal %fp@(-98),%a0
+  18155e:	486e ff4c      	pea %fp@(-180)
+  181562:	0286 00ff ffff 	andil #16777215,%d6
+  181568:	2f06           	movel %d6,%sp@-
+  18156a:	2f28 0018      	movel %a0@(24),%sp@-
+  18156e:	2068 0008      	moveal %a0@(8),%a0
+  181572:	4e90           	jsr %a0@
+  181574:	4fef 000c      	lea %sp@(12),%sp
+  181578:	4a80           	tstl %d0
+  18157a:	6706           	beqs 181582 <biwn_native_deck_input_body+0x128a>
+  18157c:	7c02           	moveq #2,%d6
+  18157e:	2d46 fffc      	movel %d6,%fp@(-4)
+  181582:	222e ff4c      	movel %fp@(-180),%d1
+  181586:	202e ffde      	movel %fp@(-34),%d0
+  18158a:	5880           	addql #4,%d0
+  18158c:	2d40 ffde      	movel %d0,%fp@(-34)
+  181590:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181596:	6700 013a      	beqw 1816d2 <biwn_native_deck_input_body+0x13da>
+  18159a:	2d40 ffea      	movel %d0,%fp@(-22)
+  18159e:	4aae fffc      	tstl %fp@(-4)
+  1815a2:	6600 fbc6      	bnew 18116a <biwn_native_deck_input_body+0xe72>
+  1815a6:	b285           	cmpl %d5,%d1
+  1815a8:	6600 fe28      	bnew 1813d2 <biwn_native_deck_input_body+0x10da>
+  1815ac:	2d45 ffe2      	movel %d5,%fp@(-30)
+  1815b0:	6000 fbb8      	braw 18116a <biwn_native_deck_input_body+0xe72>
+  1815b4:	41f9 0018 1852 	lea 181852 <first_returns.1>,%a0
+  1815ba:	2a30 3800      	movel %a0@(0,%d3:l),%d5
+  1815be:	5381           	subql #1,%d1
+  1815c0:	2d41 fff8      	movel %d1,%fp@(-8)
+  1815c4:	222e ffde      	movel %fp@(-34),%d1
+  1815c8:	5981           	subql #4,%d1
+  1815ca:	2d41 ffde      	movel %d1,%fp@(-34)
+  1815ce:	0800 000d      	btst #13,%d0
+  1815d2:	6768           	beqs 18163c <biwn_native_deck_input_body+0x1344>
+  1815d4:	2d41 ffea      	movel %d1,%fp@(-22)
+  1815d8:	206e ff9e      	moveal %fp@(-98),%a0
+  1815dc:	2f05           	movel %d5,%sp@-
+  1815de:	0281 00ff ffff 	andil #16777215,%d1
+  1815e4:	2f01           	movel %d1,%sp@-
+  1815e6:	2f28 0018      	movel %a0@(24),%sp@-
+  1815ea:	2068 0010      	moveal %a0@(16),%a0
+  1815ee:	4e90           	jsr %a0@
+  1815f0:	4fef 000c      	lea %sp@(12),%sp
+  1815f4:	4a80           	tstl %d0
+  1815f6:	6706           	beqs 1815fe <biwn_native_deck_input_body+0x1306>
+  1815f8:	7e02           	moveq #2,%d7
+  1815fa:	2d47 fffc      	movel %d7,%fp@(-4)
+  1815fe:	2d7c 0001 0c6e 	movel #68718,%fp@(-30)
+  181604:	ffe2 
+  181606:	4aae fffc      	tstl %fp@(-4)
+  18160a:	6600 fe52      	bnew 18145e <biwn_native_deck_input_body+0x1166>
+  18160e:	2c2e ffde      	movel %fp@(-34),%d6
+  181612:	2f3c 0001 0c6e 	movel #68718,%sp@-
+  181618:	486e ffa2      	pea %fp@(-94)
+  18161c:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  181620:	2f2e fff4      	movel %fp@(-12),%sp@-
+  181624:	206e fff0      	moveal %fp@(-16),%a0
+  181628:	4e90           	jsr %a0@
+  18162a:	4fef 0010      	lea %sp@(16),%sp
+  18162e:	4a80           	tstl %d0
+  181630:	6710           	beqs 181642 <biwn_native_deck_input_body+0x134a>
+  181632:	7c03           	moveq #3,%d6
+  181634:	2d46 fffc      	movel %d6,%fp@(-4)
+  181638:	6000 fe24      	braw 18145e <biwn_native_deck_input_body+0x1166>
+  18163c:	2d41 ffe6      	movel %d1,%fp@(-26)
+  181640:	6096           	bras 1815d8 <biwn_native_deck_input_body+0x12e0>
+  181642:	bcae ffde      	cmpl %fp@(-34),%d6
+  181646:	670a           	beqs 181652 <biwn_native_deck_input_body+0x135a>
+  181648:	7a05           	moveq #5,%d5
+  18164a:	2d45 fffc      	movel %d5,%fp@(-4)
+  18164e:	6000 fe0e      	braw 18145e <biwn_native_deck_input_body+0x1166>
+  181652:	42ae ff4c      	clrl %fp@(-180)
+  181656:	4aae fffc      	tstl %fp@(-4)
+  18165a:	6656           	bnes 1816b2 <biwn_native_deck_input_body+0x13ba>
+  18165c:	206e ff9e      	moveal %fp@(-98),%a0
+  181660:	486e ff4c      	pea %fp@(-180)
+  181664:	0286 00ff ffff 	andil #16777215,%d6
+  18166a:	2f06           	movel %d6,%sp@-
+  18166c:	2f28 0018      	movel %a0@(24),%sp@-
+  181670:	2068 0008      	moveal %a0@(8),%a0
+  181674:	4e90           	jsr %a0@
+  181676:	4fef 000c      	lea %sp@(12),%sp
+  18167a:	4a80           	tstl %d0
+  18167c:	6706           	beqs 181684 <biwn_native_deck_input_body+0x138c>
+  18167e:	7202           	moveq #2,%d1
+  181680:	2d41 fffc      	movel %d1,%fp@(-4)
+  181684:	222e ff4c      	movel %fp@(-180),%d1
+  181688:	202e ffde      	movel %fp@(-34),%d0
+  18168c:	5880           	addql #4,%d0
+  18168e:	2d40 ffde      	movel %d0,%fp@(-34)
+  181692:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181698:	671c           	beqs 1816b6 <biwn_native_deck_input_body+0x13be>
+  18169a:	2d40 ffea      	movel %d0,%fp@(-22)
+  18169e:	4aae fffc      	tstl %fp@(-4)
+  1816a2:	6600 fdba      	bnew 18145e <biwn_native_deck_input_body+0x1166>
+  1816a6:	b285           	cmpl %d5,%d1
+  1816a8:	669e           	bnes 181648 <biwn_native_deck_input_body+0x1350>
+  1816aa:	2d45 ffe2      	movel %d5,%fp@(-30)
+  1816ae:	6000 fdae      	braw 18145e <biwn_native_deck_input_body+0x1166>
+  1816b2:	7200           	moveq #0,%d1
+  1816b4:	60d2           	bras 181688 <biwn_native_deck_input_body+0x1390>
+  1816b6:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1816ba:	60e2           	bras 18169e <biwn_native_deck_input_body+0x13a6>
+  1816bc:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1816c0:	6000 fdb4      	braw 181476 <biwn_native_deck_input_body+0x117e>
+  1816c4:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1816c8:	6000 fe20      	braw 1814ea <biwn_native_deck_input_body+0x11f2>
+  1816cc:	7200           	moveq #0,%d1
+  1816ce:	6000 feb6      	braw 181586 <biwn_native_deck_input_body+0x128e>
+  1816d2:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1816d6:	6000 fec6      	braw 18159e <biwn_native_deck_input_body+0x12a6>
+  1816da:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1816de:	6000 faa2      	braw 181182 <biwn_native_deck_input_body+0xe8a>
+  1816e2:	5380           	subql #1,%d0
+  1816e4:	2d40 fff8      	movel %d0,%fp@(-8)
+  1816e8:	202e ffde      	movel %fp@(-34),%d0
+  1816ec:	5980           	subql #4,%d0
+  1816ee:	2d40 ffde      	movel %d0,%fp@(-34)
+  1816f2:	0801 000d      	btst #13,%d1
+  1816f6:	676c           	beqs 181764 <biwn_native_deck_input_body+0x146c>
+  1816f8:	2d40 ffea      	movel %d0,%fp@(-22)
+  1816fc:	206e ff9e      	moveal %fp@(-98),%a0
+  181700:	2f3c 0001 1d14 	movel #72980,%sp@-
+  181706:	0280 00ff ffff 	andil #16777215,%d0
+  18170c:	2f00           	movel %d0,%sp@-
+  18170e:	2f28 0018      	movel %a0@(24),%sp@-
+  181712:	2068 0010      	moveal %a0@(16),%a0
+  181716:	4e90           	jsr %a0@
+  181718:	4fef 000c      	lea %sp@(12),%sp
+  18171c:	4a80           	tstl %d0
+  18171e:	6706           	beqs 181726 <biwn_native_deck_input_body+0x142e>
+  181720:	7c02           	moveq #2,%d6
+  181722:	2d46 fffc      	movel %d6,%fp@(-4)
+  181726:	2d7c 0001 102a 	movel #69674,%fp@(-30)
+  18172c:	ffe2 
+  18172e:	4aae fffc      	tstl %fp@(-4)
+  181732:	6600 f478      	bnew 180bac <biwn_native_deck_input_body+0x8b4>
+  181736:	262e ffde      	movel %fp@(-34),%d3
+  18173a:	2f3c 0001 102a 	movel #69674,%sp@-
+  181740:	486e ffa2      	pea %fp@(-94)
+  181744:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  181748:	2f2e fff4      	movel %fp@(-12),%sp@-
+  18174c:	206e fff0      	moveal %fp@(-16),%a0
+  181750:	4e90           	jsr %a0@
+  181752:	4fef 0010      	lea %sp@(16),%sp
+  181756:	4a80           	tstl %d0
+  181758:	6710           	beqs 18176a <biwn_native_deck_input_body+0x1472>
+  18175a:	7a03           	moveq #3,%d5
+  18175c:	2d45 fffc      	movel %d5,%fp@(-4)
+  181760:	6000 f44a      	braw 180bac <biwn_native_deck_input_body+0x8b4>
+  181764:	2d40 ffe6      	movel %d0,%fp@(-26)
+  181768:	6092           	bras 1816fc <biwn_native_deck_input_body+0x1404>
+  18176a:	b6ae ffde      	cmpl %fp@(-34),%d3
+  18176e:	670a           	beqs 18177a <biwn_native_deck_input_body+0x1482>
+  181770:	7805           	moveq #5,%d4
+  181772:	2d44 fffc      	movel %d4,%fp@(-4)
+  181776:	6000 f434      	braw 180bac <biwn_native_deck_input_body+0x8b4>
+  18177a:	42ae ff4c      	clrl %fp@(-180)
+  18177e:	4aae fffc      	tstl %fp@(-4)
+  181782:	665a           	bnes 1817de <biwn_native_deck_input_body+0x14e6>
+  181784:	206e ff9e      	moveal %fp@(-98),%a0
+  181788:	486e ff4c      	pea %fp@(-180)
+  18178c:	0283 00ff ffff 	andil #16777215,%d3
+  181792:	2f03           	movel %d3,%sp@-
+  181794:	2f28 0018      	movel %a0@(24),%sp@-
+  181798:	2068 0008      	moveal %a0@(8),%a0
+  18179c:	4e90           	jsr %a0@
+  18179e:	4fef 000c      	lea %sp@(12),%sp
+  1817a2:	4a80           	tstl %d0
+  1817a4:	6706           	beqs 1817ac <biwn_native_deck_input_body+0x14b4>
+  1817a6:	7602           	moveq #2,%d3
+  1817a8:	2d43 fffc      	movel %d3,%fp@(-4)
+  1817ac:	202e ff4c      	movel %fp@(-180),%d0
+  1817b0:	222e ffde      	movel %fp@(-34),%d1
+  1817b4:	5881           	addql #4,%d1
+  1817b6:	2d41 ffde      	movel %d1,%fp@(-34)
+  1817ba:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1817c0:	6720           	beqs 1817e2 <biwn_native_deck_input_body+0x14ea>
+  1817c2:	2d41 ffea      	movel %d1,%fp@(-22)
+  1817c6:	4aae fffc      	tstl %fp@(-4)
+  1817ca:	6600 f3e0      	bnew 180bac <biwn_native_deck_input_body+0x8b4>
+  1817ce:	0c80 0001 1d14 	cmpil #72980,%d0
+  1817d4:	669a           	bnes 181770 <biwn_native_deck_input_body+0x1478>
+  1817d6:	2d40 ffe2      	movel %d0,%fp@(-30)
+  1817da:	6000 f3d0      	braw 180bac <biwn_native_deck_input_body+0x8b4>
+  1817de:	7000           	moveq #0,%d0
+  1817e0:	60ce           	bras 1817b0 <biwn_native_deck_input_body+0x14b8>
+  1817e2:	2d41 ffe6      	movel %d1,%fp@(-26)
+  1817e6:	60de           	bras 1817c6 <biwn_native_deck_input_body+0x14ce>
+  1817e8:	7000           	moveq #0,%d0
+  1817ea:	6000 f3fc      	braw 180be8 <biwn_native_deck_input_body+0x8f0>
+  1817ee:	2d43 ffe6      	movel %d3,%fp@(-26)
+  1817f2:	6000 f40e      	braw 180c02 <biwn_native_deck_input_body+0x90a>
+  1817f6:	d080           	addl %d0,%d0
+  1817f8:	9180           	subxl %d0,%d0
+  1817fa:	4480           	negl %d0
+  1817fc:	e748           	lslw #3,%d0
+  1817fe:	6000 f414      	braw 180c14 <biwn_native_deck_input_body+0x91c>
+  181802:	2d41 ffe6      	movel %d1,%fp@(-26)
+  181806:	6000 f462      	braw 180c6a <biwn_native_deck_input_body+0x972>
+  18180a:	d482           	addl %d2,%d2
+  18180c:	9582           	subxl %d2,%d2
+  18180e:	4482           	negl %d2
+  181810:	e74a           	lslw #3,%d2
+  181812:	6000 f468      	braw 180c7c <biwn_native_deck_input_body+0x984>
+  181816:	7401           	moveq #1,%d2
+  181818:	6000 f984      	braw 18119e <biwn_native_deck_input_body+0xea6>
+
+0018181c <memcpy>:
+  18181c:	202f 0004      	movel %sp@(4),%d0
+  181820:	206f 0008      	moveal %sp@(8),%a0
+  181824:	7200           	moveq #0,%d1
+  181826:	b2af 000c      	cmpl %sp@(12),%d1
+  18182a:	6602           	bnes 18182e <memcpy+0x12>
+  18182c:	4e75           	rts
+  18182e:	2240           	moveal %d0,%a1
+  181830:	13b0 1800 1800 	moveb %a0@(0,%d1:l),%a1@(0,%d1:l)
+  181836:	5281           	addql #1,%d1
+  181838:	60ec           	bras 181826 <memcpy+0xa>
+
+0018183a <second_returns.0>:
+  18183a:	0000 0000 0001 1c56 0001 1c7c 0001 1ca4     .......V...|....
+  18184a:	0001 1ccc 0001 1cf4                         ........
+
+00181852 <first_returns.1>:
+  181852:	0000 0000 0001 1c4e 0001 1c74 0001 1c9c     .......N...t....
+  181862:	0001 1cc4 0001 1cec                         ........
+
+0018186a <pressed_bits.2>:
+  18186a:	0000 0004 0000 0013 0000 0007 0000 0003     ................
+  18187a:	0000 0012 0000 0006                         ........

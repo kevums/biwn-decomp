@@ -1,0 +1,50 @@
+{
+  "status": "terminal_actual_input_image_wide_startup_dual_CPU_and_heap_initialize_pass",
+  "pid": 76096,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-image-startup-heap-v1/20261021T145629.662371Z",
+  "native_startup_cases": 6,
+  "Unicorn_startup_cases": 6,
+  "heap_initialize_cases": 192,
+  "game_frames": 0,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "original_heap_initializer_declared_operand_changes": [
+    {
+      "delta": 0,
+      "operands": 3
+    },
+    {
+      "delta": 4,
+      "operands": 1
+    },
+    {
+      "delta": 8,
+      "operands": 1
+    }
+  ],
+  "all_2MB_startup_RAM_checked": true,
+  "saved_stack_bytes_checked": true,
+  "dirty_arenas_cleared": true,
+  "input_payload_after_startup_exact": true,
+  "resource676_payload_after_startup_exact": true,
+  "heap_start": 1712448,
+  "initial_heap_bytes": 122560,
+  "heap_source_bytes_equal_after_five_operand_changes": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_phased_image_startup_heap_v1.py": "05c77e97c3653fcea9a1f7830540aab27ee713d3c60e05b88d680d0ad388bbc1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-disc-build-v1-current.json": "bafb42080d1cf21827035db3cb77a54e87242e10daee322d3ed288483131cbda",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-phased-v1/20261021T145604.673595Z/resident-with-arenas.bin": "8a203e9219b434501f117e2631082b64fd3341740eeaf4abc4f00f727d8d8fad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-actor-phased-v1/20261021T145604.673595Z/mainstage-actor-phased-v1.bin": "bf30ee17e71d0f6106d3e3f12ee71c31fe6a2bb9ca9de2db38e7854447834a32",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-image-startup-heap-v1/20261021T145629.662371Z/startup-cases.json": "84576901a3a76b44938e92773b7e1f01c93a8fa082ae15c470369533680af9bc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-image-startup-heap-v1/20261021T145629.662371Z/heap-cases.json": "5b25dd18858477563ad74c56df74bc0060bbb8be4ecd3693d41ec33f75427ab5"
+  },
+  "arbitrary_IRQ_qualified": false,
+  "gameplay_verified": false,
+  "physical_console_verified": false,
+  "scope": "Execute the actual new image's wide startup, both arenas, and raised heap.\n\nStartup uses pinned M68000 and Unicorn with independent complete-RAM oracle,\ndirty resident/arena preconditions and saved stack bytes included. The heap\ncomparison uses original instructions with only five declared floor operands\nchanged. No game frame, arbitrary IRQ, audio or physical console is qualified.\n"
+}

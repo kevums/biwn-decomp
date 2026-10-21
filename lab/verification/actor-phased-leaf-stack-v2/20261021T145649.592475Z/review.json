@@ -1,0 +1,66 @@
+{
+  "status": "terminal_fixed_actor_leaf_C_phase_static_bounds_excluding_helpers_IRQ",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-leaf-stack-v2/20261021T145649.592475Z",
+  "previous_qualifier_failure": "v1 incorrectly expected128 dispatch bytes; actual CFG analysis found136. Source code unchanged.",
+  "phases": [
+    {
+      "name": "biwn_actor_dispatch_phase",
+      "start": 1456008,
+      "end": 1456300,
+      "instructions": 104,
+      "maximum_leaf_stack_bytes": 16,
+      "returns": [
+        1456204
+      ],
+      "all_control_flow_joins_SP_consistent": true,
+      "no_calls_or_dynamic_stack_allocation": true,
+      "wrapper_C_phase_depth": 136
+    },
+    {
+      "name": "biwn_actor_initialize_start",
+      "start": 1456580,
+      "end": 1457292,
+      "instructions": 249,
+      "maximum_leaf_stack_bytes": 20,
+      "returns": [
+        1457238
+      ],
+      "all_control_flow_joins_SP_consistent": true,
+      "no_calls_or_dynamic_stack_allocation": true,
+      "wrapper_C_phase_depth": 156
+    },
+    {
+      "name": "biwn_actor_initialize_after_placement",
+      "start": 1457292,
+      "end": 1457896,
+      "instructions": 169,
+      "maximum_leaf_stack_bytes": 8,
+      "returns": [
+        1457552
+      ],
+      "all_control_flow_joins_SP_consistent": true,
+      "no_calls_or_dynamic_stack_allocation": true,
+      "wrapper_C_phase_depth": 144
+    }
+  ],
+  "maximum_wrapper_C_phase_depth": {
+    "dispatch": 136,
+    "initialize": 156
+  },
+  "C_frames_parked_across_helpers": 0,
+  "all_global_stack_paths_proven": false,
+  "helpers_and_exception_handlers_included": false,
+  "illegal_instruction_trap_is_terminal_for_this_analysis": true,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_phased_leaf_stack_v2.py": "457981ecf672e7ce872d2acb7db9ccb4fce287468b4c03c0604cf1ea3a72bba3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-disc-build-v1-current.json": "bafb42080d1cf21827035db3cb77a54e87242e10daee322d3ed288483131cbda",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-dispatch/native.elf": "ff03f009c782b807aba5c319e2d58061882ff8437744c40f0020fb24d49985d2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-leaf-stack-v2/20261021T145649.592475Z/dispatch-disassembly.txt": "5aafec419dec91fc5a682a79ab9b2df7acbac92063b4d34b60b0b42d06677453",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-initialize/native.elf": "48b67a56ca6b2333067f570efaae97bc830fcb788340713c408d741dc362b795",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-leaf-stack-v2/20261021T145649.592475Z/initialize-disassembly.txt": "ef4108f22e902f2a45a44b9942e55d88cd0982b133bbcdc590009a6f752e2669",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-leaf-stack-v2/20261021T145649.592475Z/phases.json": "d61e1a25bcca29daa38e01c6b9b881c9d6d8eb2f2f71f15eefd69a9f283763df"
+  },
+  "scope": "Every linked C-phase instruction is visited by CFG/SP analysis. Joins and loops require consistent SP; normal RTS is balanced. No calls or dynamic SP writes. Illegal-instruction default terminates this analysis; its exception handling, helper/caller stacks, arbitrary IRQ and complete-game bounds are excluded."
+}

@@ -1,0 +1,115 @@
+{
+  "time": "2026-10-12T22:17:22.294039+00:00",
+  "status": "direct_call_entry_candidates_exported",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/observed-call-entries-20261012T221712.563036Z",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "candidates": 7,
+  "created": 7,
+  "results": [
+    {
+      "address": "0000e0a6",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_0000e0a6",
+      "body_bytes": 76,
+      "body_ranges": 1
+    },
+    {
+      "address": "000170a0",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_000170a0",
+      "body_bytes": 554,
+      "body_ranges": 5
+    },
+    {
+      "address": "00017e0e",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_00017e0e",
+      "body_bytes": 108,
+      "body_ranges": 2
+    },
+    {
+      "address": "000181f8",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_000181f8",
+      "body_bytes": 248,
+      "body_ranges": 5
+    },
+    {
+      "address": "0001a188",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_0001a188",
+      "body_bytes": 574,
+      "body_ranges": 11
+    },
+    {
+      "address": "00020820",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_00020820",
+      "body_bytes": 98,
+      "body_ranges": 3
+    },
+    {
+      "address": "000212e8",
+      "status": "created_direct_call_entry_candidate",
+      "name": "observed_call_candidate_000212e8",
+      "body_bytes": 32,
+      "body_ranges": 2
+    }
+  ],
+  "function_count": 206,
+  "decompiled_functions": 206,
+  "instructions_unchanged": 18225,
+  "source_project_unchanged": true,
+  "new_function_status": [
+    {
+      "address": "0000e0a6",
+      "name": "observed_call_candidate_0000e0a6",
+      "decompiled": true,
+      "error": ""
+    },
+    {
+      "address": "000170a0",
+      "name": "observed_call_candidate_000170a0",
+      "decompiled": true,
+      "error": ""
+    },
+    {
+      "address": "00017e0e",
+      "name": "observed_call_candidate_00017e0e",
+      "decompiled": true,
+      "error": ""
+    },
+    {
+      "address": "000181f8",
+      "name": "observed_call_candidate_000181f8",
+      "decompiled": true,
+      "error": ""
+    },
+    {
+      "address": "0001a188",
+      "name": "observed_call_candidate_0001a188",
+      "decompiled": true,
+      "error": ""
+    },
+    {
+      "address": "00020820",
+      "name": "observed_call_candidate_00020820",
+      "decompiled": true,
+      "error": ""
+    },
+    {
+      "address": "000212e8",
+      "name": "observed_call_candidate_000212e8",
+      "decompiled": true,
+      "error": ""
+    }
+  ],
+  "artifact_sha256": {
+    "plan.json": "f37db6dc19385a482c9730b8d6cf1f191870de6180af8e8fa6b73920b2f9ba9f",
+    "entries.json": "f14765a21558fb5220d07dbbac73c6817b444ec49353fac04dad5827d06ca3f5",
+    "export/manifest.json": "0c8f6a14d347f4b59a1608dbf1fbbf26bb2aa4e830ea5667efbe753d36576dae",
+    "export/decompiled.c": "fc401e299028e3f2c2817b33ca4636ad0ee0a3fd40b6cae04ce210d48de497dc",
+    "export/listing.asm": "3260c059f94754a6f8240e8ba4accb14beed36ce6f88cc79c30c0163248ab44b"
+  },
+  "scope": "Entry candidates supported by direct calls and sampled PCs. Bodies and C remain approximations, not original symbols/compiler ABI or validated reconstructed game."
+}

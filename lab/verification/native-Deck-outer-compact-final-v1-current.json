@@ -1,0 +1,68 @@
+{
+  "status": "terminal_deeper_candidate_final_component_startup_heap_gates_pass",
+  "pid": 22803,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z",
+  "build": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-disc-build-v1-current.json",
+  "build_sha256": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+  "results": {
+    "geometry.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/geometry.py.log"
+    },
+    "retained.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/retained.py.log"
+    },
+    "startup.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/startup.py.log"
+    },
+    "fallback.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/fallback.py.log"
+    },
+    "capacity.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/capacity.py.log"
+    },
+    "outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/outer.py.log"
+    },
+    "fallback-outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/fallback-outer.py.log"
+    },
+    "waits-outer.py": {
+      "exit_code": 0,
+      "log": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/waits-outer.py.log"
+    }
+  },
+  "whole_game_complete": false,
+  "new_training": false,
+  "fresh_gameplay_verified": false,
+  "new_outer_connected_matrix_verified": false,
+  "child_pids": {},
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_outer_compact_final_v1.py": "8ecc358070e04466732631c42e1d1ebca65a0af21f161873bb85db4ee47b523a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-disc-build-v1-current.json": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/geometry.py": "340f3588ac1ef49e1b498350b66e4322eb3f615e94026d0a1ece6f8705056095",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/retained.py": "9056d763c33da72e9276f0bba80590e2c6afec009c1887e41ec951ac6e84ad10",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/fallback.py": "a3770af0af37c6a342dce46a8b2ddd01cc523b8f7326426bab8a15e820e41c4b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/startup.py": "a8c621c12127e9f9737295c7e51b0cfa7199a5174fbecb456e508e2641c0e547",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/capacity.py": "aec78925524c8c436da2edb3e2e0bffefdf4cf02f4d5a56fc9b54926efcdc6fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/native_outer_final_checker.py": "3e0d4198a22a2db5876a6b948b8c342982d1ab51faca4d9e452b4088c8758fa6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/fallback-outer.py": "eb0f611e280e6b6d65bef620a02e388fba2fd7f447a96796fae0c47cd3e3bf2a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/waits-outer.py": "228e62e07cdda2bd95fa7b442502d90e9421e65df57bffb536e7dd3181de31cc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-v1/20261021T040013.865520Z/native_retained_final_checker.py": "9056d763c33da72e9276f0bba80590e2c6afec009c1887e41ec951ac6e84ad10",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-final-geometry-v1-current.json": "65f156a68cd51c6550b5eb991594a33ae3f44cc991e513601c548e992fcc8478",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-outer-compact-final-v1-current.json": "ae52ad65fe7f803854a5f47c9901786f927ae7eb2f6fc326a0d351b8950adabb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-fallback-outer-compact-final-v1-current.json": "59a8f736c7ba3b11822bf643d2c1f60a6dcf79a54a63cf2a8abf0d17b0813a46",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-startup-heap-v1-current.json": "18390d3b92ca20ebcc29e6738123fe29cb4ed973eb514c29356d00c09765e166",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-compact-capacity-v1-current.json": "7c5d5ea8803c542bfab1bf4f797320148b08fe76d33119fecc78e9dfc34f267d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-outer-compact-final-v1-current.json": "fcb5b102b79942e851e202159b4b0a2a86aec3ea612920db4d3996a8b2cf6d2b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-fallback-outer-compact-final-v1-current.json": "3353fc15de163f4583ac75e35bbaa318748f8cab4ad2d00a9dfeeacd5b7d20d7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-waits-outer-compact-final-v1-current.json": "a1a9717292bbb5b5ad051f3b876fe5383d544ff9f3600d472e3de4eb1cc853aa"
+  },
+  "scope": "Exact candidate-address module/startup/heap gates; new nesting/freshness pending. Exact image bytes checked for both modules; geometry256,retained4992,fallback1280,startup6,heap192,capacity36,outer1280,fallback384,wait192pairs. New alias/nested six-caller integration,real helper suspension,resource peaks and fresh gameplay remain pending. No preview promotion."
+}

@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-18T23:18:09.209247+00:00",
+  "local_C_authorship": "Local Code Author guided revision; no coordinator edits inside accepted Cunit",
+  "raw_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/GPU-wait-Code-Author-revision-20261018T230347.713918Z/biwn_GPU_wait_repair.c",
+  "raw_source_sha256": "28a1f5a31057eb3a9be645f569900a85de794f419e9194635f415a3ff1ac59c8",
+  "author_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/GPU-wait-Code-Author-revision-current.json",
+  "author_proof_sha256": "bf11a39950165f7b6566fdc2fe3b285a2177ab5b0d96c2b924cc60b2ec9b8c19",
+  "native_gate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/GPU-wait-local-C-check-current.json",
+  "native_gate_sha256": "a2a70f30dfe0b0b1ec1e63648ef5edc2ae9b1da5a1d3285595f2b1dd0fa52eba",
+  "new_training": false,
+  "whole_game_complete": false
+}

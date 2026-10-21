@@ -1,0 +1,53 @@
+{
+  "status": "terminal",
+  "coordinator_pid": 57544,
+  "started_at": "2026-10-12T21:16:03.090178+00:00",
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/ghidra-headless",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-ghidra-projects",
+    "BIWN23-nextstage-candidate",
+    "-import",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-68000-candidate.bin",
+    "-processor",
+    "68000:BE:32:default",
+    "-loader",
+    "BinaryLoader",
+    "-loader-baseAddr",
+    "0x4000",
+    "-scriptPath",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts",
+    "-preScript",
+    "DefineEntry.java",
+    "4000",
+    "-postScript",
+    "ExportDecomp.java",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-ghidra-export",
+    "-analysisTimeoutPerFile",
+    "120",
+    "-max-cpu",
+    "4"
+  ],
+  "source_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "scope": "Static candidate mapping at0x4000 only; not proof of original file extent or runtime behavior.",
+  "exit_code": 0,
+  "elapsed_seconds": 18.99,
+  "language": "68000:BE:32:default",
+  "cancelled": false,
+  "functions": 198,
+  "decompiled": 191,
+  "instructions": 15372,
+  "entry": [
+    {
+      "address": "00004000",
+      "name": "operator_selected_entry",
+      "decompiled": true,
+      "error": ""
+    }
+  ],
+  "artifact_hashes": {
+    "listing.asm": "ce140a91da2ecc9659782f7ff216d444dba2007acdd1b5f4cdd3e2d43feb5da3",
+    "decompiled.c": "8b52e4099ad9a07287a49580a7c8bcce14f6861aef15aab7fbd693fbf4783816",
+    "manifest.json": "6e82ce3cc883302330b6a160fd600d1fa61ef74f6b5bf6b4346737b8ad5fff47"
+  },
+  "finished_at": "2026-10-12T21:16:22.093669+00:00"
+}

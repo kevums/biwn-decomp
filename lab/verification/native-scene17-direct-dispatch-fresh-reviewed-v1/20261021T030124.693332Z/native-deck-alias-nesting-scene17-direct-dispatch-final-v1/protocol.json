@@ -1,0 +1,20 @@
+{
+  "status": "terminal_alias_cross_root_busy_fallback_nested_CPU_match",
+  "pid": 11065,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-alias-nesting-scene17-direct-dispatch-final-v1/20261021T025046.619354Z",
+  "whole_game_complete": false,
+  "new_training": false,
+  "completed": 256,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-alias-nesting-scene17-direct-dispatch-final-v1/20261021T025046.619354Z/build-as-run.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_alias_nesting_scene17_direct_dispatch_v1.py": "535d6b2ed70de7fc38185dc9a4c5ee58a68b4e7d96d4d1eaa061e4b29fbcece0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-alias-nesting-scene17-direct-dispatch-final-v1/20261021T025046.619354Z/component-gate.json": "d34727449e13f1c75dcca9f5f63bb355ffb4d1b94accc2c6f1cf9d002979f5ec",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-scene17-direct-dispatch-final-v1/20261021T024305.748716Z/build/native-shared.bin": "b59d05ec51166a93f6f3bb29ab935e100836927439cad7dc9c75a7ea6d6a3a04",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-alias-nesting-scene17-direct-dispatch-final-v1/20261021T025046.619354Z/cases.json": "c3b93d4f4a64d7f034765c77708ad44c4d3416c3b753bc2b00f9c61dc133828e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_face_contact_v1.py": "2794380c8eca2d4a5db140fee98c35300a79a239da435f17b52f5ecce5ef7ba0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_input_source_v1.py": "7a17b10bfb260533a2f151e6a75ecd049fd74ac11e8288eb11188d6ccf9151f3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_scene_source_v1.py": "a0acfe0c44ddacbf325f4e7e4084c81e19928dc0dded1d760d41b593b1d3d70c"
+  },
+  "scope": "Actual CPU input-to-face and face-to-input alias-busy fallback fixtures.\n\nInjected helper JSRs are explicit component fixtures, not natural game calls.\nThe inner caller must execute its original body without changing the active\nouter C frame/stack. CPU, non-arena RAM and helper entries match original.\n 128eachdirection coverreset/noreset, bothbanks/allCCR,4taskslots,3guestSPdepths. One injected JSR level, declared helper effects; no natural IRQ/reentry claim."
+}

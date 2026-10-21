@@ -1,0 +1,13 @@
+BIWN v29 — exact experimental image gates complete
+
+The separate direct-dispatch CDI passes all8relocated component/startup/heap gates:geometry256,retained4992,fallback1280,startup6/heap192,capacity36,outer1280,fallback384andwait192pairs. The deployed48410byte module is checked against the exact resident bytes. Its actual68000scene772anddisplay1153cases pass CPU/RAM and scoped bus/commit checks;scene stack168/208leaves40bytes. Final-scene fallback384,nesting64,publicbus14andscene/input/face aliases256pass. These are deterministic component fixtures,not fresh gameplay or arbitraryIRQproof.
+
+Linked native code89240bytes,totalreservation277248,bootcopy115648,initialheap120640. Compared withv27,the sharedmodule is84bytes smaller andinitialheap64bytes larger. No v29liveheap sample or speed measurement yet. Global original helpers/remainingrendering,GPU/DSP/HLE/device dependencies remain.
+
+V27remains the latest gameplay-tested image:24990/24963freshframes,5243native display/rotation/clearreturns,8375intermediatevideo differences,finalvideoagreement;sampledouter-activeheap816andscene stack208/208. The installed checkpoint preview is unchanged.
+
+No additional model inference ortraining during these final gates. Earlier queuedReader36completed11.58seconds;156wordsfailed150requested,withscopedv27factsreviewed andpriorfailedqualitypilotomitted. Exactprompts/rawresponsesremainavailable. Copied-weightNativeChatandusefultrainingqualityremainunverified.
+
+Complete v29 final coordinate/geometry aliases and outer connected/suspension checks, qualify read-only scene/display/shared observers, then run fresh candidate/control and fixed-input gameplay. V27 remains the latest gameplay-tested disc. Continue resource/timing work, remaining original CPU/GPU/DSP/HLE source recovery, useful held-out training evaluation and copied-weight Native Chat usability.
+
+Disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-dispatch-v1/20261021T024239.597935Z/BIWN-23-native-scene17-direct-dispatch-v1-experimental.cdi

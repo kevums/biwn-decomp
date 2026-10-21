@@ -1,0 +1,18 @@
+THIS_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+LAB_ROOT := $(abspath $(THIS_DIR)/../../../..)
+CROSS ?= $(LAB_ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= build-frame-lookup
+LOOKUP_SOURCE ?= frame-lookup-candidate.c
+CFLAGS := -m68000 -msoft-float -std=c99 -Os -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror
+.PHONY: frame-lookup
+frame-lookup: $(BUILD)/frame-lookup.bin
+$(BUILD):
+	mkdir -p $@
+$(BUILD)/body.o: $(LOOKUP_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -c $< -o $@
+$(BUILD)/shim.o: $(THIS_DIR)/frame-lookup-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/frame-lookup.elf: $(BUILD)/shim.o $(BUILD)/body.o
+	$(CROSS)ld -Ttext=0x148000 -e biwn_native_frame_lookup -o $@ $^
+$(BUILD)/frame-lookup.bin: $(BUILD)/frame-lookup.elf
+	$(CROSS)objcopy -O binary $< $@

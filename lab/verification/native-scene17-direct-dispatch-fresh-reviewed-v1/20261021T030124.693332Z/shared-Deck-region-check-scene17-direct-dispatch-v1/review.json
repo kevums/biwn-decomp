@@ -1,0 +1,461 @@
+{
+  "status": "terminal_exact_six_caller_observer_region_fault_controls_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-region-check-scene17-direct-dispatch-v1/20261021T025106.647211Z",
+  "synthetic_positive_cases": 1,
+  "negative_controls": [
+    {
+      "name": "prefix_code",
+      "address": "0x15efc0",
+      "rejected": true
+    },
+    {
+      "name": "shared_code",
+      "address": "0x16dc00",
+      "rejected": true
+    },
+    {
+      "name": "finalizer",
+      "address": "0x17afc4",
+      "rejected": true
+    },
+    {
+      "name": "immutable_gap",
+      "address": "0x16dbc0",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_0",
+      "address": "0x17b180",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_15",
+      "address": "0x17b18f",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_136",
+      "address": "0x17b208",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_143",
+      "address": "0x17b20f",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_264",
+      "address": "0x17b288",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_271",
+      "address": "0x17b28f",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_400",
+      "address": "0x17b310",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_415",
+      "address": "0x17b31f",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_592",
+      "address": "0x17b3d0",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_607",
+      "address": "0x17b3df",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_816",
+      "address": "0x17b4b0",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_831",
+      "address": "0x17b4bf",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_1008",
+      "address": "0x17b570",
+      "rejected": true
+    },
+    {
+      "name": "fence_0_1023",
+      "address": "0x17b57f",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_0",
+      "address": "0x187980",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_15",
+      "address": "0x18798f",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_136",
+      "address": "0x187a08",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_143",
+      "address": "0x187a0f",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_264",
+      "address": "0x187a88",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_271",
+      "address": "0x187a8f",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_400",
+      "address": "0x187b10",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_415",
+      "address": "0x187b1f",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_592",
+      "address": "0x187bd0",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_607",
+      "address": "0x187bdf",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_816",
+      "address": "0x187cb0",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_831",
+      "address": "0x187cbf",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_1008",
+      "address": "0x187d70",
+      "rejected": true
+    },
+    {
+      "name": "fence_50_1023",
+      "address": "0x187d7f",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_0",
+      "address": "0x194180",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_15",
+      "address": "0x19418f",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_136",
+      "address": "0x194208",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_143",
+      "address": "0x19420f",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_264",
+      "address": "0x194288",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_271",
+      "address": "0x19428f",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_400",
+      "address": "0x194310",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_415",
+      "address": "0x19431f",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_592",
+      "address": "0x1943d0",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_607",
+      "address": "0x1943df",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_816",
+      "address": "0x1944b0",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_831",
+      "address": "0x1944bf",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_1008",
+      "address": "0x194570",
+      "rejected": true
+    },
+    {
+      "name": "fence_100_1023",
+      "address": "0x19457f",
+      "rejected": true
+    },
+    {
+      "name": "unused_coordinate_frame",
+      "address": "0x17b190",
+      "rejected": true
+    },
+    {
+      "name": "unused_input_frame",
+      "address": "0x17b210",
+      "rejected": true
+    },
+    {
+      "name": "unused_face_frame",
+      "address": "0x17b210",
+      "rejected": true
+    },
+    {
+      "name": "unused_scan_frame",
+      "address": "0x17b290",
+      "rejected": true
+    },
+    {
+      "name": "unused_geometry_frame",
+      "address": "0x17b190",
+      "rejected": true
+    },
+    {
+      "name": "outer_code",
+      "address": "0x17991c",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_0_0",
+      "address": "0x194580",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_0_15",
+      "address": "0x19458f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_0_136",
+      "address": "0x194608",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_0_143",
+      "address": "0x19460f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_0_560",
+      "address": "0x1947b0",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_0_575",
+      "address": "0x1947bf",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_50_0",
+      "address": "0x19b600",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_50_15",
+      "address": "0x19b60f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_50_136",
+      "address": "0x19b688",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_50_143",
+      "address": "0x19b68f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_50_560",
+      "address": "0x19b830",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_50_575",
+      "address": "0x19b83f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_100_0",
+      "address": "0x1a2680",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_100_15",
+      "address": "0x1a268f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_100_136",
+      "address": "0x1a2708",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_100_143",
+      "address": "0x1a270f",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_100_560",
+      "address": "0x1a28b0",
+      "rejected": true
+    },
+    {
+      "name": "outer_fence_100_575",
+      "address": "0x1a28bf",
+      "rejected": true
+    },
+    {
+      "name": "unused_outer_frame",
+      "address": "0x195310",
+      "rejected": true
+    },
+    {
+      "name": "unused_outer_stack",
+      "address": "0x195390",
+      "rejected": true
+    },
+    {
+      "name": "outer_pointer_0_0",
+      "address": "0x17b308",
+      "rejected": true
+    },
+    {
+      "name": "outer_pointer_0_3",
+      "address": "0x17b30b",
+      "rejected": true
+    },
+    {
+      "name": "outer_pointer_50_0",
+      "address": "0x187b08",
+      "rejected": true
+    },
+    {
+      "name": "outer_pointer_50_3",
+      "address": "0x187b0b",
+      "rejected": true
+    },
+    {
+      "name": "outer_pointer_100_0",
+      "address": "0x194308",
+      "rejected": true
+    },
+    {
+      "name": "outer_pointer_100_3",
+      "address": "0x19430b",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_0",
+      "address": "0x17c980",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_136",
+      "address": "0x17ca08",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_264",
+      "address": "0x17ca88",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_400",
+      "address": "0x17cb10",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_592",
+      "address": "0x17cbd0",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_816",
+      "address": "0x17ccb0",
+      "rejected": true
+    },
+    {
+      "name": "used_slot_fence_1008",
+      "address": "0x17cd70",
+      "rejected": true
+    },
+    {
+      "name": "used_outer_fence_0",
+      "address": "0x195300",
+      "rejected": true
+    },
+    {
+      "name": "used_outer_fence_136",
+      "address": "0x195388",
+      "rejected": true
+    },
+    {
+      "name": "used_outer_fence_560",
+      "address": "0x195530",
+      "rejected": true
+    }
+  ],
+  "distinct_negative_addresses": 86,
+  "input_face_slot_is_aliased": true,
+  "coordinate_geometry_slot_is_aliased": true,
+  "used_private_context_and_stack_changes_allowed": true,
+  "game_RAM_modified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_shared_deck_observer_regions_scene17_direct_dispatch_v1.py": "21a6a0f50e6143017d50b3b2d43e620cf001ce5f6f4c39d9bbd7e1d004aeb6a6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/observer.c": "1bf2c0bc616f652d247a91d5633a7246deafe547560a03310d8b5984a635476b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-region-check-scene17-direct-dispatch-v1/20261021T025106.647211Z/checker.c": "272adfa9d734d8a2f4ff676f41c9b5e3dc2fccd38e7397e4cba05651608d6986",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/shared-Deck-region-check-scene17-direct-dispatch-v1/20261021T025106.647211Z/checker.dylib": "8be8560917ecb9d5cc94bcb2c78c681f12a3e1215b491424336241624b115a2f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-disc-build-v1-current.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_shared_v4.py": "ec13d8b3c07a14c64873e657ced52ac9432ae92117572682a8ba1383904b8c2c"
+  },
+  "scope": "Fault-check the exact candidate observer's immutable-code/arena function. Host buffers only. Checks code/gaps, all7fences including both endpoints at3slots, unused frames and used-private allowances. Does not independently validate other live counters or game algorithms."
+}

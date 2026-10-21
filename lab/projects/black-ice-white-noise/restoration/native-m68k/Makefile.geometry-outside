@@ -1,0 +1,13 @@
+ROOT := $(abspath $(dir $(lastword $(MAKEFILE_LIST)))/../../../..)
+SOURCE_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+PREFIX := $(ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= $(SOURCE_DIR)/build-geometry-outside
+GEOMETRY_SOURCE ?=
+.PHONY: geometry-outside
+geometry-outside:
+	@test -n "$(GEOMETRY_SOURCE)"
+	mkdir -p "$(BUILD)"
+	$(PREFIX)gcc -m68000 -msoft-float -std=c99 -Os -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror -c "$(GEOMETRY_SOURCE)" -o "$(BUILD)/body.o"
+	$(PREFIX)as -m68000 -o "$(BUILD)/shim.o" "$(SOURCE_DIR)/geometry-outside-shim.S"
+	$(PREFIX)ld -Ttext=0x148000 -e biwn_native_geometry_outside -o "$(BUILD)/geometry-outside.elf" "$(BUILD)/shim.o" "$(BUILD)/body.o"
+	$(PREFIX)objcopy -O binary "$(BUILD)/geometry-outside.elf" "$(BUILD)/geometry-outside.bin"

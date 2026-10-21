@@ -1,0 +1,52 @@
+{
+  "recorded_at": "2026-10-21T04:35:19.111897+00:00",
+  "status": "geometry_record_builder_fullCPU_actual_copy_and_GPUmatrix_dual_CPU_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/geometry-records-structured-host-v1/20261021T043510.906996Z",
+  "CPU_cases": 512,
+  "completed": 512,
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/geometry-records-structured-host-v1/20261021T043510.906996Z/libgeometry-records-cpu.dylib",
+  "new_components": 0,
+  "count_scope": "Readable170A0 replaces an already counted static/logical recovery; zero new unique original entries. E220/E098 remain legacy generated providers; actual copy and GPU matrix are explicit providers.",
+  "source_instruction_coverage": [
+    166,
+    166
+  ],
+  "geometry_builder_instructions": 152,
+  "host_guards": 19,
+  "actual_copy_calls": 5782,
+  "actual_movement_matrix_submissions": 2569,
+  "scripted_helpers": [],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_geometry_records_structured_host_v1.py": "52eaab05f4ee2b38e2d1927122a038ce5dffabff4c65f82b9c0c700115f37739",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/geometry-records-structured-v1/host-wrapper.c": "d221b7a85ce4472166b34c3b0ad1bbcd64ea00315089e3b3198b66fe276f0602",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/geometry-records-structured-v1/coordinator-reference.inc": "1936f41d23a7967278130a4c96c40fa87b72bb3049065af7fe5626ce6a8bdbcb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_geometry_records_cpu.c": "918dcef1bb3b861448093d2fa68f06367c1a8894db0f825689a28cf21da4eb6e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_geometry_records_cpu.h": "148e1e44aa16fd32276da90c35ce7d4e3602f0b2a50c0e93b23daba19d7277a1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_resource_cpu.c": "90fc5d0e7b4667c5b137060a3372228629d9827ed3a458928c947c90911f8595",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_resource_cpu.h": "2fef579e48a511df1b9f617b8efd81daac6a7c8c696bc244a32f05dc4851a1b6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-scene-source/deck-scene-contract.h": "7be9daf30e1403c283b0f4591d027b2423b6491b20d4ba39ccf250f0cd54075b"
+  },
+  "generator_sha256": "c33f6fe0025538f4a1475311fcb28fa7c4f2426c53fa1c9eda0dcac4c2e7ae78",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "matched": [
+    "NativeCPU and independent Unicorn compare allregisters/PC/SR/USP/SSP,privateframes,complete2MBRAM,orderedCPUbus and actual nested helper CPU states. Both stack banks and body/call contracts.",
+    "Actual64byteCPUcopy and source E220/E098 nested submissions with originalGPU4320 versus reconstructedCmatrix.40actor/40static entries,region filter,modelhandle absence,active/type/flag selection,word/fullcount wrapping and descriptor writes."
+  ],
+  "limits": [
+    "Standalone finite synthetic records/valid handles/buffers and pinned synchronous GPU. Source has no general count/capacity guards; arbitrary invalid memory is not supported. Shared pinned blitter is a device provider if copy reaches it.",
+    "Render record construction only, not GPU4D80geometry transform/full3Ddraw/viewport/scanout/audio/fullgame/physicaltiming. Live disc-scene integration still pending."
+  ],
+  "compiler": [
+    "clang",
+    "-dynamiclib",
+    "-std=c99",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/geometry-records-structured-v1/host-wrapper.c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/biwn_resource_cpu.c",
+    "-o",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/geometry-records-structured-host-v1/20261021T043510.906996Z/libgeometry-records-cpu.dylib"
+  ]
+}

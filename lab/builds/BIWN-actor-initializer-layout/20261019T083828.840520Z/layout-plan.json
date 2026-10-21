@@ -1,0 +1,97 @@
+{
+  "status": "terminal_read_only_initializer_layout_plan_no_changes",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-initializer-layout-plan/20261019T083309.185256Z",
+  "parent_used": 19460,
+  "current_reserve": 20480,
+  "proposed_reserve": 24512,
+  "reserve_increase": 4032,
+  "current_heap_floor": "0x163dc0",
+  "proposed_heap_floor": "0x164d80",
+  "heap_end": "0x1c0000",
+  "current_initial_heap_bytes": 377408,
+  "proposed_initial_heap_bytes": 373376,
+  "heap_floor_operand_relocations": [
+    {
+      "operand_address": "0x15f1cc",
+      "instruction_address": "0x15f1ca",
+      "old_value": "0x163dc0",
+      "new_value": "0x164d80",
+      "source_instruction": "15f1ca:\t23fc 0016 3dc0 \tmovel #1457600,0x112d60"
+    },
+    {
+      "operand_address": "0x15f1dc",
+      "instruction_address": "0x15f1da",
+      "old_value": "0x163dc0",
+      "new_value": "0x164d80",
+      "source_instruction": "15f1da:\t0480 0016 3dc0 \tsubil #1457600,%d0"
+    },
+    {
+      "operand_address": "0x15f1e2",
+      "instruction_address": "0x15f1e0",
+      "old_value": "0x163dc0",
+      "new_value": "0x164d80",
+      "source_instruction": "15f1e0:\t23c0 0016 3dc0 \tmovel %d0,0x163dc0"
+    },
+    {
+      "operand_address": "0x15ff58",
+      "instruction_address": "0x15ff56",
+      "old_value": "0x163dc0",
+      "new_value": "0x164d80",
+      "source_instruction": "15ff56:\t263c 0016 3dc0 \tmovel #1457600,%d3"
+    },
+    {
+      "operand_address": "0x15ff94",
+      "instruction_address": "0x15ff92",
+      "old_value": "0x163dc0",
+      "new_value": "0x164d80",
+      "source_instruction": "15ff92:\t0c80 0016 3dc0 \tcmpil #1457600,%d0"
+    },
+    {
+      "operand_address": "0x15f1e8",
+      "instruction_address": "0x15f1e6",
+      "old_value": "0x163dc4",
+      "new_value": "0x164d84",
+      "source_instruction": "15f1e6:\t42b9 0016 3dc4 \tclrl 0x163dc4"
+    },
+    {
+      "operand_address": "0x15f1ee",
+      "instruction_address": "0x15f1ec",
+      "old_value": "0x163dc8",
+      "new_value": "0x164d88",
+      "source_instruction": "15f1ec:\t42b9 0016 3dc8 \tclrl 0x163dc8"
+    }
+  ],
+  "loader_count": {
+    "operand_address": "0xf801a",
+    "old_WORD": "0x27ff",
+    "new_WORD": "0x2fdf",
+    "instruction": "303c27ff"
+  },
+  "old_native_entry_bytes": 20520,
+  "new_native_entry_bytes": 24552,
+  "staging_clear_bytes": 24576,
+  "remaining_cleared_staging_tail": 24,
+  "initializer_address": "0x1639c4",
+  "initializer_bytes": 1620,
+  "alignment_bytes": 0,
+  "proposed_used": 21080,
+  "proposed_reserve_free": 3432,
+  "changes_made": false,
+  "adoption_requirements": [
+    "Relocate the seven decoded heap-floor/+4/+8 operands and loader WORD count with byte provenance, then relink initializer at final address.",
+    "Recheck full native heap/allocator/compaction/resource/task and startup/loader behavior for new boundary/capacity; no assumption that a raw literal scan proves every dependency.",
+    "Joint native13AE0/134DCframes need actual context-canary/interval guards; SPbelowparent-context is not itself a collision when the child intentionally skips to a deeper private frame.",
+    "Run real-child gameplay against layout-only and original-entry controls, retaining existing timing/media limitations; broader resource paths remain necessary."
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/plan_actor_initializer_reservation_v2.py": "0af836ea97e03a682c84c1ecb4a5ce397acb55b45d655a3f81ab40403ad2c1d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-dispatch-gap320-disc-build-current.json": "95703b8694929191c7d55c0b99c60253d34ef1ef69209389eb2df3679962a079",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-actor-initialize-current.json": "a57ae7f2026120841022ceddf622e31b7c5d87adbbecd206b1533fe36eb7489b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-actor-dispatch-gap320/20261019T081859.682953Z/resident-linked.bin": "be099ceda7ca7e5ae57b05ad7a0e0b67d8c20c4d6c1af1dedf2a6041f5da035c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-actor-dispatch-gap320/20261019T081859.682953Z/mainstage-native-actor-dispatch.bin": "a843206fe9c363f1237aa312a46bfe53710f44060c73e23ce5afaf70f6beefa4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/heap-initialize.S": "2e7175ed7d443bd0df0ac18f75b6b325472151af8456eac5d5a6eaf924e9aee5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/heap-native.h": "f696354f45b0a6f31eebe559ce2054823c080ba0d4265498d71e39ef391c8f71",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-initializer-layout-plan/20261019T083309.185256Z/current-resident.asm": "f2870b7916540f30dff30dc11d99261da8691dd919d33ecc2a1d484e901d91e9"
+  },
+  "scope": "Read-only relocation/capacity plan; never changes heap, loader or a disc."
+}

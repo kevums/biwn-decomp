@@ -1,0 +1,11 @@
+BIWN native scene — measured C-stack headroom
+
+The separate v29prototype replaces redundant private service dispatch with direct calls to three already compiled internal helpers. Canonical readable scene,clear,rotation anddisplay algorithms are unchanged. Logical guest JSR/return and bank checks remain;other services stay captured. This is coordinator work,zero new recovered original functions and no model training.
+
+Connected772cases,680calls to each internal helper: maximum observed scene C stack falls208to168bytes,leaving40of208bytes. Shared module falls48494to48410bytes,84bytes smaller. Direct display1153,retained callers4992+16fallbacks,geometry256,forced fallback384,nested scene64,public bus14 andscene/input/face aliases256pass. Copied sources/SDK rebuild identical48410bytes. These finite tests do not establish arbitraryIRQ,physical console or game speed.
+
+The earlier v28descriptor-pointer experiment passes host1217+17guards,native1153 andscene772but remains208stack and grows20bytes. It is retained as unsuccessful optimization evidence,not selected.
+
+No v29disc orfresh game test yet. V27remains the latest experimental disc:24990/24963freshframes,5243native display/rotation/clearreturns,8375intermediate video differences,finalvideoagreement;sampledouter-activeheap816andscene stack208/208. Prototype savings do not prove new heap availability. The Desktop checkpoint preview is unchanged.
+
+Integrate the exact48410byte direct-dispatch prototype into a separate image, qualify final addresses/resources/alias/observer boundaries, then run fresh candidate/control and fixed-input gameplay. Preserve v27 and the installed checkpoint preview. Continue heap/code-size work, remaining CPU/GPU/DSP/HLE source recovery, useful training and copied-weight Native Chat usability.

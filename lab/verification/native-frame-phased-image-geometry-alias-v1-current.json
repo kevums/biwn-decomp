@@ -1,0 +1,21 @@
+{
+  "status": "terminal_deeper_coordinate_geometry_alias_fallback_match",
+  "pid": 66897,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-phased-image-geometry-alias-v1/20261021T122317.727243Z",
+  "whole_game_complete": false,
+  "new_training": false,
+  "native_disc_changed": false,
+  "completed": 128,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_frame_phased_image_geometry_alias_v1.py": "3e47494e6bd740ea4f867b54da0e59d64214e5c50ffc3679e54f19925ce4cee3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_helpers_v1.py": "1caacf5db7c60eb1a931b941acec47c478cdeb1db2ec64e07800c72d16e3d325",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_debug_overlay_cpu_v1.py": "122792a5afb41cbc1f4d1b7977741e54b2dbd01e795fdbdd4844d41b6cb14b9e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/fixture_ram_delta_v1.py": "b0609d9f1644afd5b8a320c7126a16ee1bf31019618f3f52a977ea4584d94920",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-phased-image-geometry-alias-v1/20261021T122317.727243Z/build-as-run.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-phased-image-geometry-alias-v1/20261021T122317.727243Z/gate-as-run.json": "e4d9f45257158da971528115e8ffb9126cc83767acbeae3f8e01855f540e57c3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-frame-phased-image-final-geometry-v1/20261021T121842.378673Z/build/native-shared.bin": "66809d906fa6508634d04d69f48a0c9e3eb0e33744236d5fcf3850c83f5441b5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-phased-image-geometry-alias-v1/20261021T122317.727243Z/cases.json": "29d3f3deb3316245b4b54c6ebd3dc3ab7caea30df042480c0118ff3a7fd771d7"
+  },
+  "scope": "Coordinate/geometry alias fallback with six real original/native helpers.\n\nOne injected helper JSR per direction. GPU/formatter/text effects remain\nfixtures. Compare CPU/nonarenaRAM/entries and exact suspended frame bytes.\n64eachdirection covers bothbanks/allCCR,4taskslots,3guestSPdepths. Nativegeometry executes6compiledhelpers;busy innergeometry executes6original bodies. Face-count zero path only in this alias matrix;nonzero counts are covered by separate256native geometry cases. Injected1B45AorE26C JSR is an explicit fixture;remaining effects declared. No natural reentry/IRQ/fresh gameplay proof."
+}

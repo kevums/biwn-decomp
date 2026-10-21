@@ -1,0 +1,12 @@
+{
+  "role": "Repair",
+  "seconds": 17.79,
+  "raw_response_sha256": "40409db2a267f1df6c65059d3bda0fa6c11f747ed6bf589179b6c79346c23937",
+  "accepted_host": true,
+  "accepted_native": false,
+  "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Repair/body.inc",
+  "candidate_sha256": "eb3496c23a93e2fd398afa0b61be981036aae88dda74ff5a43683df4d96c7191",
+  "normalization": "outer fence removed",
+  "native_gate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-clear-native-20261021T012913.731494Z-repair-current.json",
+  "native_variant": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/deck-shared-local-clear-20261021t012913.731494z-repair"
+}

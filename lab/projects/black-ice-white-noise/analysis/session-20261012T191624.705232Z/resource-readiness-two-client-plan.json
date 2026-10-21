@@ -1,0 +1,199 @@
+{
+  "recorded_at": "2026-10-13T21:43:16.342393+00:00",
+  "status": "implemented_and_verified_controlled_two_client_fixture",
+  "fixture": "Two real resource acquisition callers share a cold cache entry. First starts actual loader and yields; second increments references and TRAP4-waits on not-ready state. First resumes loading, marks ready, then sourceDF9C/DF04 clears second wait mask. Verify second resumes at1AF56 viaDF96 and both receive the same valid handle/payload.",
+  "required_changes": [
+    "Resource CPU stop_on_yield must also stop/commit atDF8C; nested status6 propagation must accept that PC. Current code stops onlyDF60.",
+    "Controlled fixture uses separate per-context resource frame stacks; real scheduler wait/signal and existing task removal provide continuations. No captured-handle or readiness-flag scripts.",
+    "Keep existing BIOS303C/3042 and explicit completion event boundaries; deliver file bytes after first actual handoff, but resource ready flag changes only in source loader/acquisition code.",
+    "Use checked startupRAM/heap/resource table and cold resource IDs1/2, observed from actual acquisition calls; inventory words0x24/0x29 are separate. Supply supervisor stack outside transfer window. Preserve fullCPU/RAM/heap/cache/privateframes and independent payload hashes.",
+    "If removing the first finished synthetic client, use sourceTRAP2/DEB6, not a fabricated task switch; clearly declare any synthetic call/return glue."
+  ],
+  "scope": "Separate controlled two-client resource-readiness integration before full game task integration. Neither is proved by current synchronization CPU tests.",
+  "captured_cold_resource_observations": [
+    {
+      "capture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-render-actors-runtime/20261013T190116.161377Z/startup-C-0.bin",
+      "sha256": "dcc373258c14b817df81eea5152e5923baabddbf87c42890c46ee662bf3475e4",
+      "active": [
+        {
+          "id": 0,
+          "refs": 1,
+          "ready": 1,
+          "handle": "0x112d50"
+        }
+      ],
+      "resources": [
+        {
+          "id_decimal": 0,
+          "id_hex": "0x0",
+          "disc_offset": 12444496,
+          "tag": "0x4d455350",
+          "bytes": 96350,
+          "already_active": true
+        },
+        {
+          "id_decimal": 1,
+          "id_hex": "0x1",
+          "disc_offset": 12616192,
+          "tag": "0x4d485350",
+          "bytes": 89068,
+          "already_active": false
+        },
+        {
+          "id_decimal": 2,
+          "id_hex": "0x2",
+          "disc_offset": 12341008,
+          "tag": "0x4d415350",
+          "bytes": 103284,
+          "already_active": false
+        }
+      ],
+      "busy_words": [
+        0,
+        0
+      ]
+    },
+    {
+      "capture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-render-actors-runtime/20261013T190116.161377Z/startup-C-1.bin",
+      "sha256": "60f041275596ab9baea09b8c4997bff8362af4621799b93f30406ce3b1a7bbdf",
+      "active": [
+        {
+          "id": 0,
+          "refs": 1,
+          "ready": 1,
+          "handle": "0x112d50"
+        }
+      ],
+      "resources": [
+        {
+          "id_decimal": 0,
+          "id_hex": "0x0",
+          "disc_offset": 12444496,
+          "tag": "0x4d455350",
+          "bytes": 96350,
+          "already_active": true
+        },
+        {
+          "id_decimal": 1,
+          "id_hex": "0x1",
+          "disc_offset": 12616192,
+          "tag": "0x4d485350",
+          "bytes": 89068,
+          "already_active": false
+        },
+        {
+          "id_decimal": 2,
+          "id_hex": "0x2",
+          "disc_offset": 12341008,
+          "tag": "0x4d415350",
+          "bytes": 103284,
+          "already_active": false
+        }
+      ],
+      "busy_words": [
+        0,
+        0
+      ]
+    },
+    {
+      "capture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-render-actors-runtime/20261013T190116.161377Z/startup-C-2.bin",
+      "sha256": "769e5a61052db58f7203d23934946c0e0e7c03d8cd0043d8019f928e80eadb48",
+      "active": [
+        {
+          "id": 0,
+          "refs": 1,
+          "ready": 1,
+          "handle": "0x112d50"
+        }
+      ],
+      "resources": [
+        {
+          "id_decimal": 0,
+          "id_hex": "0x0",
+          "disc_offset": 12444496,
+          "tag": "0x4d455350",
+          "bytes": 96350,
+          "already_active": true
+        },
+        {
+          "id_decimal": 1,
+          "id_hex": "0x1",
+          "disc_offset": 12616192,
+          "tag": "0x4d485350",
+          "bytes": 89068,
+          "already_active": false
+        },
+        {
+          "id_decimal": 2,
+          "id_hex": "0x2",
+          "disc_offset": 12341008,
+          "tag": "0x4d415350",
+          "bytes": 103284,
+          "already_active": false
+        }
+      ],
+      "busy_words": [
+        0,
+        0
+      ]
+    },
+    {
+      "capture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-render-actors-runtime/20261013T190116.161377Z/startup-C-3.bin",
+      "sha256": "dcc6ef37fd9862cf74f4118306af752fd6cbd10b77af139a095c995aaa52557c",
+      "active": [
+        {
+          "id": 0,
+          "refs": 1,
+          "ready": 1,
+          "handle": "0x112d50"
+        }
+      ],
+      "resources": [
+        {
+          "id_decimal": 0,
+          "id_hex": "0x0",
+          "disc_offset": 12444496,
+          "tag": "0x4d455350",
+          "bytes": 96350,
+          "already_active": true
+        },
+        {
+          "id_decimal": 1,
+          "id_hex": "0x1",
+          "disc_offset": 12616192,
+          "tag": "0x4d485350",
+          "bytes": 89068,
+          "already_active": false
+        },
+        {
+          "id_decimal": 2,
+          "id_hex": "0x2",
+          "disc_offset": 12341008,
+          "tag": "0x4d415350",
+          "bytes": 103284,
+          "already_active": false
+        }
+      ],
+      "busy_words": [
+        0,
+        0
+      ]
+    }
+  ],
+  "actual_acquisition_IDs_from_checked_disc_run": [
+    0,
+    1,
+    2
+  ],
+  "selected_cold_acquisition_IDs": [
+    1,
+    2
+  ],
+  "inventory_words_are_not_resource_IDs": [
+    "0x24",
+    "0x29"
+  ],
+  "preparation_correction": "Initial inventory/resource ID assumption was incorrect. Used recorded actual1AF04argument values0/1/2 and readonly table/cache observations; selected cold1/2. No integration execution or game code change.",
+  "evidence": "verification/biwn-resource-readiness-checks.json",
+  "whole_game_complete": false
+}

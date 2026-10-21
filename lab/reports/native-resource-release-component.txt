@@ -1,0 +1,21 @@
+BIWN resource-release source component — 2026-10-18
+
+Original routine:0x1B002..0x1B044,66bytes. New target C/body plus original-public-save ABI/capture:240bytes alone. Shared resident bundle:5986bytes, fits existing6144byte reserve with158bytes remaining.
+Canonical unchanged guided C: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/resource-release-native.c
+
+Both isolated and linked profiles passed768native fullCPU/publicRAM cases and768separate ordered-access cases. Each profile actually called target-compiled free C9024times. Tests cover all50cache slots, multiplematches, countunderflow/retainedrefs, lastslot nested-callD0clobbers, null/emptyhandles, coalescing, both stackmodes/all32CCR. Original12public MOVEM-save bytes checked.
+Private/child8KBstack below the public save slots is excluded. Ordered access uses separate Unicorn and is not the native flags oracle. No changing-read/IRQ/device-concurrency/arbitrary-alias/busfault/livegame/physical proof.
+
+Exact local work
+Author15.80seconds:wrong argument offset, no semantic D0/CCRcommit. First native case rejected it.
+Same-weight Reviewer71.97seconds:1600token budget ended mid-review without a final verdict; also described MULS result width incorrectly. This was not independent validation.
+Targeted Repair22.82seconds:wrong carryflag1 and stale nested-call output handling; rejected first native case.
+Fully guided Author11.33seconds:coordinator supplied the complete final scan/frame-output algorithm; raw generated C accepted unchanged after both full profiles. Coordinator also authored ABI helpers/wrapper/link/build/tests. No manual C edit, new training or model promotion.
+
+Full accepted prompt and response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-release-guided-20261018T082643.830442Z/prompts-and-responses.txt
+Targeted rejected repair: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-release-repair-20261018T082534.209392Z
+Initial Author and Reviewer: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-resource-release-20261018T082219.332780Z
+These are development attempts with different guidance, not a general model ranking or speed benchmark.
+
+No new CDI was built for this component. Other routines relinked into the5986byte bundle have not all been reverified. Component acceptance does not resolve native25's failed fixed-input gameplay control.
+Immutable component publication: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-release-component-publication-current.json

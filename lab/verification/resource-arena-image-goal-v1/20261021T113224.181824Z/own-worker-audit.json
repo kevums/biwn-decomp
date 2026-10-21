@@ -1,0 +1,74 @@
+{
+  "status": "terminal_own_wait_IRQ_image_startup_provider_and_rebuild_workers_finished",
+  "jobs": [
+    {
+      "job": "acquire-arena-real-wait-tasks-v1",
+      "pid": 61753,
+      "status": "terminal_actual_resource_wait_task_arena_failed",
+      "matching_live_process": false
+    },
+    {
+      "job": "acquire-arena-real-wait-tasks-v2",
+      "pid": 61764,
+      "status": "terminal_actual_resource_wait_signal_TRAP_RTE_task_B_GPU_preserves_parked_arena",
+      "matching_live_process": false
+    },
+    {
+      "job": "native-source-GPU-irq-probe-v1",
+      "pid": 61837,
+      "status": "terminal_actual_TOM_GPU_pending_level2_vector64_source_handler_RTE_resumes",
+      "matching_live_process": false
+    },
+    {
+      "job": "acquire-arena-real-wait-GPU-irq-v1",
+      "pid": 61888,
+      "status": "terminal_resource_wait_task_GPU_and_source_GPU_IRQ_preserve_compiler_state",
+      "matching_live_process": false
+    },
+    {
+      "job": "native-input-arena-disc-build-v1",
+      "pid": 61942,
+      "status": "terminal_input_resource_arena_image_built_UNQUALIFIED",
+      "matching_live_process": false
+    },
+    {
+      "job": "native-input-arena-image-startup-heap-v1",
+      "pid": 62040,
+      "status": "terminal_actual_input_image_wide_startup_dual_CPU_and_heap_initialize_pass",
+      "matching_live_process": false
+    },
+    {
+      "job": "acquire-arena-image-real-wait-tasks-v1",
+      "pid": 62090,
+      "status": "terminal_actual_resource_wait_signal_TRAP_RTE_task_B_GPU_preserves_parked_arena",
+      "matching_live_process": false
+    },
+    {
+      "job": "acquire-arena-image-real-wait-GPU-irq-v1",
+      "pid": 62091,
+      "status": "terminal_resource_wait_task_GPU_and_source_GPU_IRQ_preserve_compiler_state",
+      "matching_live_process": false
+    },
+    {
+      "job": "native-input-arena-image-caller-v1",
+      "pid": 62144,
+      "status": "terminal_acquire_shared_arena_prototype_valid_stack_public_state_CPU_and_parked_state_match",
+      "matching_live_process": false
+    },
+    {
+      "job": "native-input-arena-image-second-CPU-v1",
+      "pid": 62145,
+      "status": "terminal_acquire_shared_arena_prototype_pinned_CPU_public_state_and_parked_state_match_bus_unobserved",
+      "matching_live_process": false
+    },
+    {
+      "job": "input-arena-image-copied-rebuild-v1",
+      "pid": 62214,
+      "status": "terminal_v39_newly_relinked_pieces_copied_SDK_byte_identical",
+      "matching_live_process": false
+    }
+  ],
+  "Root_and_copied_CLI_exit_zero": true,
+  "Root_and_copied_MCP_terminal": true,
+  "unrelated_jobs_inspected": false
+}

@@ -1,0 +1,8 @@
+{
+  "status": "copied_SDK_import_path_fixed_pending_live_inference",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-reader-sdk-repair-v1/20261020T202327.226963Z",
+  "cause": "Menu base interpreter did not expose copied venv site-packages;real Reader import failed before prediction",
+  "new_predictions_before_fix": 0,
+  "entry_after_sha256": "a1db07924cc5361dfac57aa215023f77ecc4c9af680cc396208c9c5230e00668"
+}

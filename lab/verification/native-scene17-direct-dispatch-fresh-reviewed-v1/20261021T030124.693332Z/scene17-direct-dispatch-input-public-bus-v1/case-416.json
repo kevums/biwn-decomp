@@ -1,0 +1,858 @@
+{
+  "original": [
+    {
+      "kind": "r",
+      "address": 301988,
+      "value": 0,
+      "PC": "0x11b56"
+    },
+    {
+      "kind": "r",
+      "address": 301996,
+      "value": 0,
+      "PC": "0x11b5c"
+    },
+    {
+      "kind": "w",
+      "address": 263116,
+      "value": 1,
+      "PC": "0x11b6c"
+    },
+    {
+      "kind": "r",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x11b72"
+    },
+    {
+      "kind": "w",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x11b72"
+    },
+    {
+      "kind": "r",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x11b78"
+    },
+    {
+      "kind": "w",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x11b78"
+    },
+    {
+      "kind": "r",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x11b7e"
+    },
+    {
+      "kind": "w",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x11b7e"
+    },
+    {
+      "kind": "r",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x11bd0"
+    },
+    {
+      "kind": "w",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x11bd0"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x11c36"
+    },
+    {
+      "kind": "r",
+      "address": 524424,
+      "value": 0,
+      "PC": "0x11c3c"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x11c5c"
+    },
+    {
+      "kind": "r",
+      "address": 524424,
+      "value": 0,
+      "PC": "0x11c62"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x11cd4"
+    },
+    {
+      "kind": "r",
+      "address": 524424,
+      "value": 0,
+      "PC": "0x11cda"
+    },
+    {
+      "kind": "r",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x11cfc"
+    },
+    {
+      "kind": "w",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x11cfc"
+    },
+    {
+      "kind": "r",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x11d02"
+    },
+    {
+      "kind": "w",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x11d02"
+    },
+    {
+      "kind": "r",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x11d08"
+    },
+    {
+      "kind": "w",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x11d08"
+    },
+    {
+      "kind": "w",
+      "address": 293768,
+      "value": 16384,
+      "PC": "0x1102a"
+    },
+    {
+      "kind": "r",
+      "address": 293770,
+      "value": 0,
+      "PC": "0x11032"
+    },
+    {
+      "kind": "w",
+      "address": 293770,
+      "value": 0,
+      "PC": "0x11032"
+    },
+    {
+      "kind": "r",
+      "address": 293772,
+      "value": 0,
+      "PC": "0x11038"
+    },
+    {
+      "kind": "w",
+      "address": 293772,
+      "value": 0,
+      "PC": "0x11038"
+    },
+    {
+      "kind": "r",
+      "address": 293774,
+      "value": 0,
+      "PC": "0x1103e"
+    },
+    {
+      "kind": "w",
+      "address": 293774,
+      "value": 0,
+      "PC": "0x1103e"
+    },
+    {
+      "kind": "w",
+      "address": 293776,
+      "value": 16384,
+      "PC": "0x11044"
+    },
+    {
+      "kind": "r",
+      "address": 293778,
+      "value": 0,
+      "PC": "0x1104c"
+    },
+    {
+      "kind": "w",
+      "address": 293778,
+      "value": 0,
+      "PC": "0x1104c"
+    },
+    {
+      "kind": "r",
+      "address": 293780,
+      "value": 0,
+      "PC": "0x11052"
+    },
+    {
+      "kind": "w",
+      "address": 293780,
+      "value": 0,
+      "PC": "0x11052"
+    },
+    {
+      "kind": "r",
+      "address": 293782,
+      "value": 0,
+      "PC": "0x11058"
+    },
+    {
+      "kind": "w",
+      "address": 293782,
+      "value": 0,
+      "PC": "0x11058"
+    },
+    {
+      "kind": "w",
+      "address": 293784,
+      "value": 16384,
+      "PC": "0x1105e"
+    },
+    {
+      "kind": "r",
+      "address": 293786,
+      "value": 0,
+      "PC": "0x11066"
+    },
+    {
+      "kind": "w",
+      "address": 293786,
+      "value": 0,
+      "PC": "0x11066"
+    },
+    {
+      "kind": "r",
+      "address": 293788,
+      "value": 0,
+      "PC": "0x1106c"
+    },
+    {
+      "kind": "w",
+      "address": 293788,
+      "value": 0,
+      "PC": "0x1106c"
+    },
+    {
+      "kind": "r",
+      "address": 293790,
+      "value": 0,
+      "PC": "0x11072"
+    },
+    {
+      "kind": "w",
+      "address": 293790,
+      "value": 0,
+      "PC": "0x11072"
+    },
+    {
+      "kind": "r",
+      "address": 293850,
+      "value": 0,
+      "PC": "0x11078"
+    },
+    {
+      "kind": "w",
+      "address": 293850,
+      "value": 0,
+      "PC": "0x11078"
+    },
+    {
+      "kind": "r",
+      "address": 293852,
+      "value": 0,
+      "PC": "0x1107e"
+    },
+    {
+      "kind": "w",
+      "address": 293852,
+      "value": 0,
+      "PC": "0x1107e"
+    },
+    {
+      "kind": "r",
+      "address": 293854,
+      "value": 0,
+      "PC": "0x11084"
+    },
+    {
+      "kind": "w",
+      "address": 293854,
+      "value": 0,
+      "PC": "0x11084"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x1108a"
+    },
+    {
+      "kind": "r",
+      "address": 524292,
+      "value": 0,
+      "PC": "0x11090"
+    },
+    {
+      "kind": "w",
+      "address": 262380,
+      "value": 2014935051,
+      "PC": "0x11090"
+    },
+    {
+      "kind": "r",
+      "address": 524296,
+      "value": 0,
+      "PC": "0x11098"
+    },
+    {
+      "kind": "w",
+      "address": 262384,
+      "value": 2013689864,
+      "PC": "0x11098"
+    },
+    {
+      "kind": "r",
+      "address": 524300,
+      "value": 0,
+      "PC": "0x110a0"
+    },
+    {
+      "kind": "w",
+      "address": 262388,
+      "value": 3205029648,
+      "PC": "0x110a0"
+    },
+    {
+      "kind": "r",
+      "address": 262400,
+      "value": 0,
+      "PC": "0x110a8"
+    },
+    {
+      "kind": "w",
+      "address": 262400,
+      "value": 0,
+      "PC": "0x110a8"
+    },
+    {
+      "kind": "r",
+      "address": 262396,
+      "value": 0,
+      "PC": "0x110ae"
+    },
+    {
+      "kind": "w",
+      "address": 262396,
+      "value": 0,
+      "PC": "0x110ae"
+    },
+    {
+      "kind": "r",
+      "address": 262392,
+      "value": 0,
+      "PC": "0x110b4"
+    },
+    {
+      "kind": "w",
+      "address": 262392,
+      "value": 0,
+      "PC": "0x110b4"
+    },
+    {
+      "kind": "r",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x110ba"
+    },
+    {
+      "kind": "w",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x110ba"
+    },
+    {
+      "kind": "r",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x110c0"
+    },
+    {
+      "kind": "w",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x110c0"
+    },
+    {
+      "kind": "r",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x110c6"
+    },
+    {
+      "kind": "w",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x110c6"
+    },
+    {
+      "kind": "r",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x110cc"
+    },
+    {
+      "kind": "w",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x110cc"
+    }
+  ],
+  "compiled": [
+    {
+      "kind": "r",
+      "address": 301988,
+      "value": 0,
+      "PC": "0x18688c"
+    },
+    {
+      "kind": "r",
+      "address": 301996,
+      "value": 0,
+      "PC": "0x1868b0"
+    },
+    {
+      "kind": "w",
+      "address": 263116,
+      "value": 1,
+      "PC": "0x1868ec"
+    },
+    {
+      "kind": "r",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x186914"
+    },
+    {
+      "kind": "w",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x186914"
+    },
+    {
+      "kind": "r",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x18693a"
+    },
+    {
+      "kind": "w",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x18693a"
+    },
+    {
+      "kind": "r",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x186960"
+    },
+    {
+      "kind": "w",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x186960"
+    },
+    {
+      "kind": "r",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x186e22"
+    },
+    {
+      "kind": "w",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x186e22"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x186fde"
+    },
+    {
+      "kind": "r",
+      "address": 524424,
+      "value": 0,
+      "PC": "0x186ff6"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x186fde"
+    },
+    {
+      "kind": "r",
+      "address": 524424,
+      "value": 0,
+      "PC": "0x186ff6"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x186fde"
+    },
+    {
+      "kind": "r",
+      "address": 524424,
+      "value": 0,
+      "PC": "0x186ff6"
+    },
+    {
+      "kind": "r",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x186af4"
+    },
+    {
+      "kind": "w",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x186af4"
+    },
+    {
+      "kind": "r",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x186b1a"
+    },
+    {
+      "kind": "w",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x186b1a"
+    },
+    {
+      "kind": "r",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x186b40"
+    },
+    {
+      "kind": "w",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x186b40"
+    },
+    {
+      "kind": "w",
+      "address": 293768,
+      "value": 16384,
+      "PC": "0x183df8"
+    },
+    {
+      "kind": "r",
+      "address": 293770,
+      "value": 0,
+      "PC": "0x183e06"
+    },
+    {
+      "kind": "w",
+      "address": 293770,
+      "value": 0,
+      "PC": "0x183e06"
+    },
+    {
+      "kind": "r",
+      "address": 293772,
+      "value": 0,
+      "PC": "0x183e16"
+    },
+    {
+      "kind": "w",
+      "address": 293772,
+      "value": 0,
+      "PC": "0x183e16"
+    },
+    {
+      "kind": "r",
+      "address": 293774,
+      "value": 0,
+      "PC": "0x183e26"
+    },
+    {
+      "kind": "w",
+      "address": 293774,
+      "value": 0,
+      "PC": "0x183e26"
+    },
+    {
+      "kind": "w",
+      "address": 293776,
+      "value": 16384,
+      "PC": "0x183e30"
+    },
+    {
+      "kind": "r",
+      "address": 293778,
+      "value": 0,
+      "PC": "0x183e3e"
+    },
+    {
+      "kind": "w",
+      "address": 293778,
+      "value": 0,
+      "PC": "0x183e3e"
+    },
+    {
+      "kind": "r",
+      "address": 293780,
+      "value": 0,
+      "PC": "0x183e4c"
+    },
+    {
+      "kind": "w",
+      "address": 293780,
+      "value": 0,
+      "PC": "0x183e4c"
+    },
+    {
+      "kind": "r",
+      "address": 293782,
+      "value": 0,
+      "PC": "0x183e5a"
+    },
+    {
+      "kind": "w",
+      "address": 293782,
+      "value": 0,
+      "PC": "0x183e5a"
+    },
+    {
+      "kind": "w",
+      "address": 293784,
+      "value": 16384,
+      "PC": "0x183e62"
+    },
+    {
+      "kind": "r",
+      "address": 293786,
+      "value": 0,
+      "PC": "0x183e70"
+    },
+    {
+      "kind": "w",
+      "address": 293786,
+      "value": 0,
+      "PC": "0x183e70"
+    },
+    {
+      "kind": "r",
+      "address": 293788,
+      "value": 0,
+      "PC": "0x183e7e"
+    },
+    {
+      "kind": "w",
+      "address": 293788,
+      "value": 0,
+      "PC": "0x183e7e"
+    },
+    {
+      "kind": "r",
+      "address": 293790,
+      "value": 0,
+      "PC": "0x183e8c"
+    },
+    {
+      "kind": "w",
+      "address": 293790,
+      "value": 0,
+      "PC": "0x183e8c"
+    },
+    {
+      "kind": "r",
+      "address": 293850,
+      "value": 0,
+      "PC": "0x183e9a"
+    },
+    {
+      "kind": "w",
+      "address": 293850,
+      "value": 0,
+      "PC": "0x183e9a"
+    },
+    {
+      "kind": "r",
+      "address": 293852,
+      "value": 0,
+      "PC": "0x183ea8"
+    },
+    {
+      "kind": "w",
+      "address": 293852,
+      "value": 0,
+      "PC": "0x183ea8"
+    },
+    {
+      "kind": "r",
+      "address": 293854,
+      "value": 0,
+      "PC": "0x183eb6"
+    },
+    {
+      "kind": "w",
+      "address": 293854,
+      "value": 0,
+      "PC": "0x183eb6"
+    },
+    {
+      "kind": "r",
+      "address": 262374,
+      "value": 0,
+      "PC": "0x183ee2"
+    },
+    {
+      "kind": "r",
+      "address": 524292,
+      "value": 0,
+      "PC": "0x183ef8"
+    },
+    {
+      "kind": "w",
+      "address": 262380,
+      "value": 2014935051,
+      "PC": "0x183efa"
+    },
+    {
+      "kind": "r",
+      "address": 524296,
+      "value": 0,
+      "PC": "0x183f0c"
+    },
+    {
+      "kind": "w",
+      "address": 262384,
+      "value": 2013689864,
+      "PC": "0x183f0e"
+    },
+    {
+      "kind": "r",
+      "address": 524300,
+      "value": 0,
+      "PC": "0x183f22"
+    },
+    {
+      "kind": "w",
+      "address": 262388,
+      "value": 3205029648,
+      "PC": "0x183f24"
+    },
+    {
+      "kind": "r",
+      "address": 262400,
+      "value": 0,
+      "PC": "0x183f30"
+    },
+    {
+      "kind": "w",
+      "address": 262400,
+      "value": 0,
+      "PC": "0x183f30"
+    },
+    {
+      "kind": "r",
+      "address": 262396,
+      "value": 0,
+      "PC": "0x183f3e"
+    },
+    {
+      "kind": "w",
+      "address": 262396,
+      "value": 0,
+      "PC": "0x183f3e"
+    },
+    {
+      "kind": "r",
+      "address": 262392,
+      "value": 0,
+      "PC": "0x183f4e"
+    },
+    {
+      "kind": "w",
+      "address": 262392,
+      "value": 0,
+      "PC": "0x183f4e"
+    },
+    {
+      "kind": "r",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x183f5e"
+    },
+    {
+      "kind": "w",
+      "address": 262404,
+      "value": 0,
+      "PC": "0x183f5e"
+    },
+    {
+      "kind": "r",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x183f6e"
+    },
+    {
+      "kind": "w",
+      "address": 263174,
+      "value": 0,
+      "PC": "0x183f6e"
+    },
+    {
+      "kind": "r",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x183f7e"
+    },
+    {
+      "kind": "w",
+      "address": 263178,
+      "value": 0,
+      "PC": "0x183f7e"
+    },
+    {
+      "kind": "r",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x183f8e"
+    },
+    {
+      "kind": "w",
+      "address": 263170,
+      "value": 0,
+      "PC": "0x183f8e"
+    }
+  ]
+}

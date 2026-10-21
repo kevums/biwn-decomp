@@ -1,0 +1,17 @@
+The sampled frame differences now have stronger timing evidence, with sampled helper semantics preserved.
+Two fresh2600frame runs captured42selected helper entries/returns per lane. Each lane exactly repeated its earlier video/position/scene sequence despite the read-only observer snapshots.
+All84real-entry fixtures pass original/compiled full returnCPU,2MBpublicRAM and separate ordered-access comparisons. Only actual observed private compiler scratch and six entry-overlay bytes are excluded. Every sampled actual live returnCPU and helper-written final byte also matches.
+Selected calls include10candidate/1control calls with supervisor execution. Candidate padding call11 intersects the IRQ handler in frame210, the first video difference. Captured RAM vector64at100points toE7D4; core level2ack returns64. This supports a timing explanation; all frame causes remain unproven.
+
+Native test-CPU cost on sampled inputs: padding9976original versus70976compiled cycles(7.11x); string12636versus663520(52.51x). These are retained testCPU instruction-cycle measurements, not physical-console clocks or whole-gameFPS.
+Three separate compiler/ABI candidates fit the unchanged9216byte reserve. All pass84counterfactual real-entry fixtures. O2-lean is best on these sampled calls:9042linked bytes; padding62160cycles andstring199680cycles,12.4%/69.9%belowbasecompiled cost. Many sampled inputs repeat; no general performance benchmark claim.
+O2-lean also passes1668padding+1945string full native/ordered fixture cases,16changing-read cases per helper,and1654complete formatter-caller cases with5161helper returns. Underlying C bodies unchanged; leanABIshim is coordinator-authored.
+The optimized payload has no disc/fresh-game run yet. Other exact-build component/readiness/lifecycle and installation checks remain before integration. Current disc/default preview unchanged.
+
+Local C Author:8019input/601outputtokens,35.71seconds; rejected firstCPUcase forA0/A2. Guided same-weight Repair Author:9452input/586outputtokens,27.69seconds; fixedA2butstillwrongA0. Both raw candidates retained/rejected; no passing C target supplied, no new training or promotion.
+Native LMStudio UI connection timed out120.61seconds this continuation. These two new roles ran viaactual localSDK, not verifiednativeChat; earlier namedChat demos remain available. Exact prompts/responses are in the author records below.
+
+Author prompts: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-string-optimization-author-20261018T161108.646156Z/prompts-and-responses.txt
+Repair prompts: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/native-string-optimization-repair-20261018T161235.253525Z/prompts-and-responses.txt
+Complete bound proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-format-cost-publication/20261018T161504.135995Z/publication.json
+Full goal remains open: optimized integration, broader game/source/audio/console coverage, reliable representative local authorship/training, advertising research/teaching quality, and future256GBhardware validation.

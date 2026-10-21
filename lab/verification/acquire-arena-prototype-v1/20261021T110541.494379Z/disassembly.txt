@@ -1,0 +1,206 @@
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/acquire-arena-prototype-v1/20261021T110541.494379Z/native.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+001f0000 <biwn_acquire_arena_entry>:
+  1f0000:	48e7 3c30      	moveml %d2-%d5/%a2-%a3,%sp@-
+  1f0004:	40e7           	movew %sr,%sp@-
+  1f0006:	48e7 8080      	moveml %d0/%a0,%sp@-
+  1f000a:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  1f0010:	0480 000c 0928 	subil #788776,%d0
+  1f0016:	0c80 0001 9400 	cmpil #103424,%d0
+  1f001c:	6418           	bccs 1f0036 <biwn_acquire_arena_entry+0x36>
+  1f001e:	2040           	moveal %d0,%a0
+  1f0020:	0280 0000 03ff 	andil #1023,%d0
+  1f0026:	660e           	bnes 1f0036 <biwn_acquire_arena_entry+0x36>
+  1f0028:	2008           	movel %a0,%d0
+  1f002a:	e488           	lsrl #2,%d0
+  1f002c:	41f9 0016 7668 	lea 167668 <GPU_ARENA_BASE+0xa8>,%a0
+  1f0032:	d1c0           	addal %d0,%a0
+  1f0034:	6006           	bras 1f003c <biwn_acquire_arena_entry+0x3c>
+  1f0036:	41f9 0016 db68 	lea 16db68 <GPU_ARENA_BASE+0x65a8>,%a0
+  1f003c:	48e8 00fe 0004 	moveml %d1-%d7,%a0@(4)
+  1f0042:	48e8 7e00 0024 	moveml %a1-%fp,%a0@(36)
+  1f0048:	2097           	movel %sp@,%a0@
+  1f004a:	216f 0004 0020 	movel %sp@(4),%a0@(32)
+  1f0050:	43ef 0022      	lea %sp@(34),%a1
+  1f0054:	2149 003c      	movel %a1,%a0@(60)
+  1f0058:	4268 0040      	clrw %a0@(64)
+  1f005c:	316f 0008 0042 	movew %sp@(8),%a0@(66)
+  1f0062:	2e48           	moveal %a0,%sp
+  1f0064:	2f0f           	movel %sp,%sp@-
+  1f0066:	4eb9 0016 0434 	jsr 160434 <ACQUIRE_BODY>
+  1f006c:	4fef 0004      	lea %sp@(4),%sp
+  1f0070:	204f           	moveal %sp,%a0
+  1f0072:	2e68 003c      	moveal %a0@(60),%sp
+  1f0076:	4fef ffe8      	lea %sp@(-24),%sp
+  1f007a:	44e8 0042      	movew %a0@(66),%ccr
+  1f007e:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  1f0082:	4cdf 0c3c      	moveml %sp@+,%d2-%d5/%a2-%a3
+
+001f0086 <biwn_acquire_arena_return>:
+  1f0086:	4e75           	rts
+
+001f0088 <biwn_acquire_arena_wait>:
+  1f0088:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1f008c:	2f2f 0030      	movel %sp@(48),%sp@-
+  1f0090:	2057           	moveal %sp@,%a0
+  1f0092:	214f 0044      	movel %sp,%a0@(68)
+  1f0096:	2e68 003c      	moveal %a0@(60),%sp
+  1f009a:	4fef ffe8      	lea %sp@(-24),%sp
+  1f009e:	44e8 0042      	movew %a0@(66),%ccr
+  1f00a2:	4878 0001      	pea 1 <RESOURCE_CONTEXT-0xa7>
+  1f00a6:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  1f00aa:	4eb9 0000 df8c 	jsr df8c <RESOURCE_CONTEXT+0xdee4>
+
+001f00b0 <biwn_acquire_arena_wait_return>:
+  1f00b0:	40e7           	movew %sr,%sp@-
+  1f00b2:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  1f00b6:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  1f00bc:	0480 000c 0928 	subil #788776,%d0
+  1f00c2:	0c80 0001 9400 	cmpil #103424,%d0
+  1f00c8:	6418           	bccs 1f00e2 <biwn_acquire_arena_wait_return+0x32>
+  1f00ca:	2040           	moveal %d0,%a0
+  1f00cc:	0280 0000 03ff 	andil #1023,%d0
+  1f00d2:	660e           	bnes 1f00e2 <biwn_acquire_arena_wait_return+0x32>
+  1f00d4:	2008           	movel %a0,%d0
+  1f00d6:	e488           	lsrl #2,%d0
+  1f00d8:	41f9 0016 7668 	lea 167668 <GPU_ARENA_BASE+0xa8>,%a0
+  1f00de:	d1c0           	addal %d0,%a0
+  1f00e0:	6006           	bras 1f00e8 <biwn_acquire_arena_wait_return+0x38>
+  1f00e2:	41f9 0016 db68 	lea 16db68 <GPU_ARENA_BASE+0x65a8>,%a0
+  1f00e8:	224f           	moveal %sp,%a1
+  1f00ea:	700e           	moveq #14,%d0
+  1f00ec:	20d9           	movel %a1@+,%a0@+
+  1f00ee:	51c8 fffc      	dbf %d0,1f00ec <biwn_acquire_arena_wait_return+0x3c>
+  1f00f2:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  1f00f8:	2e68 0008      	moveal %a0@(8),%sp
+  1f00fc:	4fef 0004      	lea %sp@(4),%sp
+  1f0100:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  1f0104:	4e75           	rts
+
+001f0106 <biwn_acquire_arena_signal>:
+  1f0106:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1f010a:	2f2f 0030      	movel %sp@(48),%sp@-
+  1f010e:	2057           	moveal %sp@,%a0
+  1f0110:	214f 0044      	movel %sp,%a0@(68)
+  1f0114:	2e68 003c      	moveal %a0@(60),%sp
+  1f0118:	4fef ffe8      	lea %sp@(-24),%sp
+  1f011c:	44e8 0042      	movew %a0@(66),%ccr
+  1f0120:	4878 0001      	pea 1 <RESOURCE_CONTEXT-0xa7>
+  1f0124:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  1f0128:	4eb9 0000 df9c 	jsr df9c <RESOURCE_CONTEXT+0xdef4>
+
+001f012e <biwn_acquire_arena_signal_return>:
+  1f012e:	40e7           	movew %sr,%sp@-
+  1f0130:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  1f0134:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  1f013a:	0480 000c 0928 	subil #788776,%d0
+  1f0140:	0c80 0001 9400 	cmpil #103424,%d0
+  1f0146:	6418           	bccs 1f0160 <biwn_acquire_arena_signal_return+0x32>
+  1f0148:	2040           	moveal %d0,%a0
+  1f014a:	0280 0000 03ff 	andil #1023,%d0
+  1f0150:	660e           	bnes 1f0160 <biwn_acquire_arena_signal_return+0x32>
+  1f0152:	2008           	movel %a0,%d0
+  1f0154:	e488           	lsrl #2,%d0
+  1f0156:	41f9 0016 7668 	lea 167668 <GPU_ARENA_BASE+0xa8>,%a0
+  1f015c:	d1c0           	addal %d0,%a0
+  1f015e:	6006           	bras 1f0166 <biwn_acquire_arena_signal_return+0x38>
+  1f0160:	41f9 0016 db68 	lea 16db68 <GPU_ARENA_BASE+0x65a8>,%a0
+  1f0166:	224f           	moveal %sp,%a1
+  1f0168:	700e           	moveq #14,%d0
+  1f016a:	20d9           	movel %a1@+,%a0@+
+  1f016c:	51c8 fffc      	dbf %d0,1f016a <biwn_acquire_arena_signal_return+0x3c>
+  1f0170:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  1f0176:	2e68 0008      	moveal %a0@(8),%sp
+  1f017a:	4fef 0004      	lea %sp@(4),%sp
+  1f017e:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  1f0182:	4e75           	rts
+
+001f0184 <biwn_acquire_arena_allocate>:
+  1f0184:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1f0188:	2f2f 0030      	movel %sp@(48),%sp@-
+  1f018c:	2057           	moveal %sp@,%a0
+  1f018e:	226f 0038      	moveal %sp@(56),%a1
+  1f0192:	214f 0044      	movel %sp,%a0@(68)
+  1f0196:	2e68 003c      	moveal %a0@(60),%sp
+  1f019a:	4fef ffe8      	lea %sp@(-24),%sp
+  1f019e:	44e8 0042      	movew %a0@(66),%ccr
+  1f01a2:	2f29 0008      	movel %a1@(8),%sp@-
+  1f01a6:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  1f01aa:	4eb9 0001 52a2 	jsr 152a2 <RESOURCE_CONTEXT+0x151fa>
+
+001f01b0 <biwn_acquire_arena_allocate_return>:
+  1f01b0:	40e7           	movew %sr,%sp@-
+  1f01b2:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  1f01b6:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  1f01bc:	0480 000c 0928 	subil #788776,%d0
+  1f01c2:	0c80 0001 9400 	cmpil #103424,%d0
+  1f01c8:	6418           	bccs 1f01e2 <biwn_acquire_arena_allocate_return+0x32>
+  1f01ca:	2040           	moveal %d0,%a0
+  1f01cc:	0280 0000 03ff 	andil #1023,%d0
+  1f01d2:	660e           	bnes 1f01e2 <biwn_acquire_arena_allocate_return+0x32>
+  1f01d4:	2008           	movel %a0,%d0
+  1f01d6:	e488           	lsrl #2,%d0
+  1f01d8:	41f9 0016 7668 	lea 167668 <GPU_ARENA_BASE+0xa8>,%a0
+  1f01de:	d1c0           	addal %d0,%a0
+  1f01e0:	6006           	bras 1f01e8 <biwn_acquire_arena_allocate_return+0x38>
+  1f01e2:	41f9 0016 db68 	lea 16db68 <GPU_ARENA_BASE+0x65a8>,%a0
+  1f01e8:	224f           	moveal %sp,%a1
+  1f01ea:	700e           	moveq #14,%d0
+  1f01ec:	20d9           	movel %a1@+,%a0@+
+  1f01ee:	51c8 fffc      	dbf %d0,1f01ec <biwn_acquire_arena_allocate_return+0x3c>
+  1f01f2:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  1f01f8:	2e68 0008      	moveal %a0@(8),%sp
+  1f01fc:	4fef 0004      	lea %sp@(4),%sp
+  1f0200:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  1f0204:	4e75           	rts
+
+001f0206 <biwn_acquire_arena_load>:
+  1f0206:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1f020a:	2f2f 0030      	movel %sp@(48),%sp@-
+  1f020e:	2057           	moveal %sp@,%a0
+  1f0210:	266f 0038      	moveal %sp@(56),%a3
+  1f0214:	226f 003c      	moveal %sp@(60),%a1
+  1f0218:	45e9 0008      	lea %a1@(8),%a2
+  1f021c:	214a 0004      	movel %a2,%a0@(4)
+  1f0220:	214f 0044      	movel %sp,%a0@(68)
+  1f0224:	2e68 003c      	moveal %a0@(60),%sp
+  1f0228:	4fef ffe8      	lea %sp@(-24),%sp
+  1f022c:	44e8 0042      	movew %a0@(66),%ccr
+  1f0230:	44fc 0000      	movew #0,%ccr
+  1f0234:	2f0a           	movel %a2,%sp@-
+  1f0236:	2f2b 0008      	movel %a3@(8),%sp@-
+  1f023a:	2f29 0002      	movel %a1@(2),%sp@-
+  1f023e:	2f2b 0004      	movel %a3@(4),%sp@-
+  1f0242:	2f13           	movel %a3@,%sp@-
+  1f0244:	4cd0 7fff      	moveml %a0@,%d0-%fp
+  1f0248:	4eb9 0001 b044 	jsr 1b044 <POOL_BYTES+0x1c44>
+
+001f024e <biwn_acquire_arena_load_return>:
+  1f024e:	40e7           	movew %sr,%sp@-
+  1f0250:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  1f0254:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  1f025a:	0480 000c 0928 	subil #788776,%d0
+  1f0260:	0c80 0001 9400 	cmpil #103424,%d0
+  1f0266:	6418           	bccs 1f0280 <biwn_acquire_arena_load_return+0x32>
+  1f0268:	2040           	moveal %d0,%a0
+  1f026a:	0280 0000 03ff 	andil #1023,%d0
+  1f0270:	660e           	bnes 1f0280 <biwn_acquire_arena_load_return+0x32>
+  1f0272:	2008           	movel %a0,%d0
+  1f0274:	e488           	lsrl #2,%d0
+  1f0276:	41f9 0016 7668 	lea 167668 <GPU_ARENA_BASE+0xa8>,%a0
+  1f027c:	d1c0           	addal %d0,%a0
+  1f027e:	6006           	bras 1f0286 <biwn_acquire_arena_load_return+0x38>
+  1f0280:	41f9 0016 db68 	lea 16db68 <GPU_ARENA_BASE+0x65a8>,%a0
+  1f0286:	224f           	moveal %sp,%a1
+  1f0288:	700e           	moveq #14,%d0
+  1f028a:	20d9           	movel %a1@+,%a0@+
+  1f028c:	51c8 fffc      	dbf %d0,1f028a <biwn_acquire_arena_load_return+0x3c>
+  1f0290:	316f 003c 0006 	movew %sp@(60),%a0@(6)
+  1f0296:	2e68 0008      	moveal %a0@(8),%sp
+  1f029a:	4fef 0004      	lea %sp@(4),%sp
+  1f029e:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  1f02a2:	4e75           	rts

@@ -1,0 +1,14 @@
+{
+  "calls": 171129070,
+  "steps": 0,
+  "HLE": 0,
+  "retired": 171129070,
+  "errors": 0,
+  "error_PC": 0,
+  "error_code": 0,
+  "native_CPU_bridge": true,
+  "elapsed_seconds": 94.76125600002706,
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/fast-CPU-bridge-build/20261018T235845.705834Z/libfast-CPU-bridge.dylib",
+  "instruction_trace_recorded": false,
+  "whole_game_complete": false
+}

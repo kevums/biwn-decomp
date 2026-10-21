@@ -1,0 +1,33 @@
+{
+  "status": "terminal_native_display_rotation_actual_CPU_witnesses_and_faults_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z",
+  "actual_native_scene_lanes": 64,
+  "native_display_entries": 55,
+  "native_rotation_entries": 55,
+  "rejected_fault_controls": 44,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_outer_compact_commit_observer_v1.py": "d5355775e5a67af32608cb29ee87cce61895e2901857dd5fb4778fa41724ac72",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_outer_compact_full_observer_v1.py": "0a93a7e217220413c3692b51c6100e812d97ed020c40e0c587425b0b429b6ddf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_outer_compact_complete_observer_v1.py": "45de334b79d35e58f1f4b02313daa636f2f9942b7b2d468ba60b4a591198f1fd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_rotation_display_observer_v2.inc.c": "6295ce018b9b783f47fe1b4c8348ce3ba715d242a87efb108e5c3714d6ecf5df",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_display_observer_v1.inc.c": "e025ad1ce6b18f35adb403eb7c77c2cfe866092ee097414133e17066954ff4a9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-outer-compact-disc-build-v1-current.json": "71229f77eae796580c1506e1808d662aa53657e545fce41b708c50d4a9b16b1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/fixture.c": "7513650d8fbdd8216df7226854a092222f29cf36f11386c983c84c706f977b96",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/fixture.dylib": "7ce85b334c9033e25a4cbbfd8ac914b2d01241bcd669f42e062cbd3434b6b535",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/actual-native-harness.py": "351a3e6ef61c37c39c05021f683a5b3e89d51cba2cf2c60e47b373d1fe1df16e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/cases.json": "35faff15fa7e5bb504e1fca2fa5a8cdb2f107daa421a15ef5ef9f53ebc031238",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/faults.json": "109875d279f32b204013b700df00a74d6fa8e3555c0748734b9d65fb774b45eb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-0-CPU.json": "eb6226c928b76f488de83a4dc47dee112e423727dcbe7bb8bfc9605bc10c76b8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-1-CPU.json": "95f661bcc4a6c9ca71c54b384d9bae0d8d3f2fa0dfd87769fa6931f98aedc296",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-0-RAM.bin": "35908d760efaa01bab67a6a1eb922be8c88e75fad22868fba0d373c106372b9c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-1-RAM.bin": "290ac7db2f296a5d194c45b4c03cbaa3a48cfc17e38c428b26f822c6bc7007c0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-3-CPU.json": "d460b24428c5ad2491205e9caaf139d027e83e54c2ed0194bfaf23201f7c14a6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-2-CPU.json": "6434a5bdcc7e7fe00831deccf89906fc03fdfdf26cec0f1937308778b7f090ef",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-3-RAM.bin": "33288fb59454cda4b0cb665a08907785a08ff20f90abeb2968ee6f8679b546e7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/outer-compact-commit-observer-v1/20261021T040110.815924Z/checkpoint-2-RAM.bin": "7331211cddebf08057e2b928fca89c84d73ddd48c51a783d7742d99d1e1b48d1"
+  },
+  "scope": "Native rotation/display boundary witnesses from actual CPU steps and host-only corruption replays. Four actual native instruction boundaries:rotation begin/display begin/display end/rotation end. Guest frame/table shape, argument/save integrity, full callee saves/banks,finalflags/output commitment and stack/metadata are witnessed. Not a second full packing oracle. Host fault replays mutate copied snapshots only. Remaining services are component fixtures; no fresh-game/IRQ/console claim."
+}

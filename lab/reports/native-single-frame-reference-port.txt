@@ -1,0 +1,22 @@
+BIWN: NATIVE SINGLE FRAME REFERENCE RELEASE
+
+The routine at 0x1AE56 now compiles as native 68000 C with its original calling convention. It preserves the first-match scan, negative ID words and nonzero signed reference counts. This is another native port of an already identified routine, not a new logical-function count or a complete game rebuild.
+
+The standalone checks pass 1,376 stable CPU/RAM cases and 256 changing-read cases, covering all 18 original instruction addresses. The changing-read cases check full native CPU/RAM as well as ordered Unicorn accesses. The final linked address passes 1,376 stable cases and four changing-read checks; 96 startup cases pass.
+
+The new routine uses 238 code bytes plus two alignment bytes. All 14,690 parent resident bytes stay unchanged. The resulting payload uses 14,930 of the existing 16,384-byte reservation; the heap boundary stays fixed.
+
+The fresh candidate completes the merchant, media and outdoor-return route in 24,968 frames. There are 264 compiled calls and returns, including 261 actual reference decrements and three no-match returns. The read-only monitor reports no register, CCR or cache discrepancies. It observes no task-stack bound violations across 89,610 compiled instructions, with 748 bytes of minimum headroom and 96 bytes of maximum private stack depth.
+
+The control retains the identical payload and restores only the original six entry bytes. It completes 24,975 frames and matches the earlier reference in every recorded architectural CPU, GPU/DSP, video, navigation, locomotion and held-control field, plus the complete PCM capture. Its final RAM also matches after normalizing only the 240 unused appended bytes.
+
+The compiled candidate does not match that whole-route trace. The first architectural difference occurs at its first compiled call, frame 2,807; video first differs at frame 2,809. The adaptive controller can choose different later inputs after state drift. Both versions return outdoors, but the candidate ends seven frames earlier. Captured audio differs even after trimming silence. Timing versus private-stack or other effects remains unresolved. No default promotion, general equivalence or speedup is claimed.
+
+This experiment contains the single-entry routine only. The separate multi-frame routine at 0x1AE88 is not installed. The published 24,975-frame combined-source-processor pass remains a separate result on the unchanged repaired parent disc.
+
+Native source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-reference-single-native.c
+Standalone build: make -f "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.frame-reference-single" frame-reference-single BUILD=/tmp/biwn-native-frame-single
+Experimental disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-frame-single/20261019T013841.836680Z/BIWN-23-native-frame-single-experimental.cdi
+Full review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-single-review/20261019T015437.300068Z/review.json
+
+Codex wrote the native adaptation and used compiler/emulator tools for verification. No local-model prompts or weight updates were used for this routine. Original emulator/platform services remain. Physical-console behavior and the full source reconstruction are unverified.

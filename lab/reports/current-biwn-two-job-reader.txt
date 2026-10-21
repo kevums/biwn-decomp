@@ -1,0 +1,14 @@
+CURRENT BIWN STATUS — TWO IDENTIFIED PROCESSOR TESTS
+
+Use Start Local AI.command → S or BIWN Current Status.command. The configured status tool now identifies both test discs by hash and verifies their actual worker handles. One test covers the preceding 16,872-byte cache disc; the other covers the latest 17,084-byte boundary disc. Their progress and eventual verdicts remain separate.
+
+The fresh main-menu run made one evidence lookup. The Reader wrote 215 words, over its cap, so the bounded same-model Editor produced the final 139-word answer. Total reported time was33.01seconds (Reader18.92seconds, Editor14.10seconds) with both deterministic test workers running. This is a development output test on the already-loaded local27Bbase, not an isolated throughput benchmark. All prompts, raw Reader output, exact tool packet and Editor response are saved; no clipping or extra evidence call was used.
+
+The new MCP entry preserves the same18historical tool names and only changes current-status production. The specific upstream lifespan warning is filtered at server startup; real tool errors remain visible. The main launcher and Bootstrap now use the versioned current frontend. Only the current-only installer and this live status workflow were exercised; a complete runtime reinstall and future256GBhardware profile remain untested. Native Chat-window generation remains unverified.
+
+Exact transcript:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-v6-20261019T043000.319640Z/prompts-and-responses.txt
+Atomic/whole-function C-provider report:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-C-provider.txt
+
+No new weights or default preview changes. Full readable game/console reconstruction, broader timing/scene coverage, Advertising semantic source-review reliability and full migration validation remain unfinished.

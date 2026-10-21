@@ -1,0 +1,10 @@
+BIWN — COMPLETE C-PROCESSOR COMPARISON OF THE CACHE DISC
+2026-10-19T04:39:22.227713+00:00
+
+The exact 16,872-byte compiled cache disc completed 24,978 frames under the fixed C CPU/GPU/DSP and IRQ selection/entry providers. Re-reading every frame against the same-disc native control found zero differences in full CPU state, RAM hash, GPU state hash, DSP state hash, video hash, navigation, locomotion state and held buttons. Frame identities and lengths match. The complete 79,929,600-byte captured PCM stream matches; 1,609,520 audio samples are nonzero. The route returned outdoors.
+
+CPU owned 436,052,692 callbacks, including 734,509 platform HLE services. GPU recorded 12,259,571,140 source instructions and DSP 9,933,701,839 owned instructions. IRQ entry handled 150,244 entries. Original/rejected processor counters and reported errors/uncovered counts are zero. These are execution counts, not recovered readable game functions or full instruction-state traces.
+
+The entire read-only live observer result also matches the native route: 555 lookups (552 matches, 3 misses), 264 single-reference calls (261 decrements), 116 acquisitions with 13 loader calls, and one table initialization. The group-reference routine was not reached. Private stack/headroom checks report no errors; the narrowest acquisition headroom is 88 bytes.
+
+This receipt applies only to cache disc SHA256 837dfd143a170b8ee9ea78090271fc57c6eac175e682b323b158b7614d15264c. The newer 17,084-byte boundary disc has a separate running C-processor test; no result is transferred between them. Original firmware HLE, devices, IRQ line/ACK/vector services, host state commit/prefetch, pinned cycle charges/clock, blitter and object processor remain. Per-frame equivalence on this route is not all-path, physical timing, standalone source-game recompilation or hardware readiness. No new training or preview promotion occurred.

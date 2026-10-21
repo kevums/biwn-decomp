@@ -1,0 +1,33 @@
+{
+  "status": "terminal_identical_resource_input_monitor_reuses_prior_finite_qualification",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-resource-observer-identity-v1/20261021T122415.844916Z",
+  "fixture": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/fixture.c",
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/fixture.dylib",
+  "controls": 73,
+  "observer_calls_readonly_checked": 314,
+  "all_CPU_and2MB_fixture_RAM_unchanged_by_observation": true,
+  "actual_guest_execution": false,
+  "same_task_conflicts_rejected_not_repaired": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_resource_input_arena_observer_v1.py": "e1bfdb7692f6f5d4dc7ffec89b33e6e864efc33cf646475c715a30661cc847bb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-arena-disc-build-v1-current.json": "095a47f201dd1ca19983d25a03415074c0cc68555e951f24ec7539d292c244ad",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/resource_input_arena_watch_v1.inc.c": "f53cb6ca3735261b01e437533701e9a68d3057703f91f468eaccfcb79123686a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_input_arena_image_full_observer_v2.py": "39a5580337a0cb23586c41d1079366daf4a6d7b1fad4c0abace11e4ba3d18408",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/fixture.c": "782adef0cf7b9093420cf5746c7b03b0b6c397a31d1dc49d44ab4f2a51219eff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/fixture.dylib": "7b8956c1ed815593a86374f2fefe254e19309b3d2a5c83c46afe4ac362809920",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/compiler.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1/20261021T114349.548363Z/cases.json": "217a70116a286739e874065181930a411125aef6a7b24ec6b18d30e9ae1b9f76",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/bind_frame_phased_resource_observer_identity_v1.py": "ecb9dfe887de778a4ab39c1296bb0ed6fe494f7e52e11d931cdb8d321d4aafde",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1-current.json": "b5d2dcc1b99083acb43b18232c63dbb81c9799f06c3ef750d6e8d0e6348505ae",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_frame_phased_image_full_observer_v3.py": "16b961d34af3f566892153815369081e92f84359c8671bbe2a540292209c9590",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-resource-observer-identity-v1/20261021T122415.844916Z/identical-resource-input-monitor.c": "c6aac3811d011f15126c5898de718ace87653de47f2f3e5797ca7cc80f803904"
+  },
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "scope": "Fault controls for exact v39 resource/input observer; fixture buffers only.",
+  "previous_terminal_status": "terminal_exact_resource_input_observer_fault_and_readonly_fixture_controls_pass",
+  "previous_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/resource-input-arena-observer-qualified-v1-current.json",
+  "new_v40_execution": false,
+  "qualification_reused_only_for_identical_monitor": true
+}

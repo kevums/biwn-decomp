@@ -1,0 +1,39 @@
+{
+  "status": "terminal_isolated_source_roles_mechanical_pass_raw_C_rejected",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-validation-v2/20261020T163347.872763Z",
+  "session": "/Users/kevin/.lmstudio/local-ai-lab/runs/native-chat-teams/2026-10-20T16-29-04.967Z-68683686-0608-41db-b5c8-5927cd2996dd",
+  "actual_predictions": 3,
+  "optimizer_updates": 0,
+  "same_weight_independent": false,
+  "native_Chat_verified": false,
+  "native_UI_verified": false,
+  "prompt_blocks_match_saved_prompts": true,
+  "legacy_history_excluded": true,
+  "Analyst_own_role_JSON": true,
+  "raw_source_compiles": true,
+  "preflight_passed_before_rejection": 1,
+  "preflight_failed_case": {
+    "root": "10968",
+    "variant": 1
+  },
+  "targeted_diagnostic_matches": 1,
+  "targeted_diagnostic_cases": 6,
+  "raw_source_adopted": false,
+  "coordinator_source_findings": [
+    "10968 uses a post-write unsigned loop test, clearing one extra byte; D1 is one too high, A0 is never committed and A1 final increment is not committed.",
+    "10BA4 omits positive timer decrement and uses result bits instead of the complete signed BGT condition; partial registers/flags are lost.",
+    "11384 pushes a word as4bytes, then cleans only the original10argumentbytes; A2 restoration and SP are wrong. Caller-saved/partial-register commits and CCR are also lost."
+  ],
+  "coordinator_Reviewer_findings": "Reviewer rejects overall but includes self-contradictory nondefects. Its BGT explanation is wrong: BGT requires Z clear and N equal V, not N unequal V. Its cleanup complaint incorrectly counts the JSR return word after RTS already consumed it. Word-as-long push is a real defect. No raw Reviewer judgment is accepted as verification.",
+  "actual_model_quality_verified": false,
+  "handler": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-source-isolated-handler-v2-current.json",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-source-isolated-handler-v2-current.json": "3922190d066509e9877771d0dac9cbdf6886ee15c0d37efc9dd135426492bb03",
+    "/Users/kevin/.lmstudio/local-ai-lab/runs/native-chat-teams/2026-10-20T16-29-04.967Z-68683686-0608-41db-b5c8-5927cd2996dd/session.json": "ea0f3f145d326264ffb73abd72ca3d848352cd34952ea00b657bd14ed968a506",
+    "/Users/kevin/.lmstudio/local-ai-lab/runs/native-chat-teams/2026-10-20T16-29-04.967Z-68683686-0608-41db-b5c8-5927cd2996dd/raw-Restorer.c": "ab56acd09fb44c070baad7083f0d2ef49441b9416c44c85a6ee15bbb5d7fee8e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T163202.313431Z/protocol.json": "6c4e5c1f7ac99f4fda86eca7f13e5ebff41faa3d5149a350f4dbb3f2f3230343",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T163202.313431Z/counterexample.json": "235e980822ad026cb995d1ea26b4eaba885d24fd9cce9c22ce9875c0e10601ec",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-geometry-helpers-v1/20261020T163202.313431Z/root-diagnostics.json": "6b803b7e24d74c0018857154b51cea883e8b57738b60ebca07604b82441ac1d7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-deeper-validation-v2/20261020T163347.872763Z/prompts-and-responses.txt": "fa588f5188756c9c4e0d6ea46cf65cac93e226975f3c93d5d87b2ca0bd285a71"
+  }
+}

@@ -1,0 +1,7 @@
+"""Experimental instruction-step variants of checked boot/BIOS code, not new coverage."""
+import re,json,hashlib
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1];src=ROOT/'projects/black-ice-white-noise/restoration';dest=src/'experimental';rows=[]
+for original,new in [('biwn_game_firstboot_cpu','biwn_handoff_game_cpu'),('biwn_bios_transport_cpu','biwn_handoff_bios_cpu')]:
+ code=(src/(original+'.c')).read_text();header=(src/(original+'.h')).read_text();code=code.replace(original,new).replace(original.upper(),new.upper());header=header.replace(original,new).replace(original.upper(),new.upper());code,count=re.subn(r'CHECK\(invoke\(&s,0x[0-9a-f]+u,0x[0-9a-f]+u\)\);break;', 'break;',code);assert count>0;code=code.replace('s.bus=bus;s.cpu=*state;','(void)invoke;s.bus=bus;s.cpu=*state;',1);needle='}}return '+new.upper()+'_WORK_LIMIT;';assert needle in code;code=code.replace(needle,'}}*state=s.cpu;return '+new.upper()+'_WORK_LIMIT;',1);(dest/(new+'.c')).write_text(code);(dest/(new+'.h')).write_text(header);rows.append(dict(original=original,variant=new,removed_nested_invoke_sites=count,scope='Single-instruction budget1;JSRtransfers to actualcallee,RTSpops actualframe;worklimit commits thatinstruction. Not new gamecode/coverage.'))
+(ROOT/'verification/handoff-CPU-step-generation.json').write_text(json.dumps(dict(status='generated_pending_checks',variants=rows,source_sha256={p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in dest.glob('biwn_handoff_*cpu.*')}),indent=2)+'\n')

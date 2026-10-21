@@ -1,0 +1,9 @@
+BIWN — bounded local22instruction prologue
+
+Two actual copied-model generations completed:Author50.23seconds/915tokens,Repair34.62seconds/650tokens. Both now produce complete short C,unlike the previous full-function truncations. Original prompt and exact outputs are preserved. Target block was withheld,while the existing coordinator remainder supplies the rest of the full function. This is development scaffolding,not independent or held-out review.
+
+The initial checker rejected an extra gr_work guard with opaque AssertionError feedback;Repair then failed raw-only signature parsing because it included a complete Markdown fence. Corrected parsing removes only an outer complete fence and reports block-contract violations explicitly. No model source statements were edited.
+
+Both saved candidates were actually passed to the unchanged strict C host build. Each fails compilation for unused local variable u under existing -Werror. Zero semantic machine cases ran. Both also contain an extra gr_work call despite a prompt requiring the outer budget guard to remain singular;budget/CPU/RAM/helper semantics are unverified. Neither is installed,no source is adopted,and no optimizer updates occurred. Corrected feedback can cite the compiler error and redundant guard before another bounded Repair.
+
+Exact transcript: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-geometry-prologue-reviewed-v2/20261021T055140.815763Z/prompts-and-responses.txt

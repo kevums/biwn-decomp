@@ -1,0 +1,17 @@
+{
+  "status": "terminal_unedited_local_clear_shared_native_prototype_correctness_pass_cost_regression_unpromoted",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z",
+  "facts": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/facts.json",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Local Model Shared Native Prototype Review.txt",
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/publish_native_local_clear_prototype_v1.py": "79ab7e6da23a667d0e6aaf2de24aed9b4d8068c56f80fb9919f84c4ba3c43534",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/facts.json": "1a3cebb9f037c3e7895561c1831bb3bcb6b72602396ca4ffa7ceb1eac0bdb41c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Local Model Shared Native Prototype Review.txt": "4ef7c3a7ef08b08c6bd2cbaf78fb7cfe33baa25709ee1d2b4dd027f87b33fe71",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/native-Deck-local-clear-real-v1-current.json": "79d35c162faf59ec438eb766e4379f7b9f72197a8cc4df47d5687ad68287877f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/native-deck-retained-local-clear-v1-current.json": "caf05e3e98cc8e990ae85e6f3d67a36a4752f9312eaa0b3cea0222d6c45376da",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/native-local-clear-module-order-v1-current.json": "2a0e756648ef7f5475538cb378da19c9331b719ea29ab4443e8641acc7fe45b6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/native-local-clear-full-module-v1-current.json": "7bb581a7db61a8aee33d6cac889d37e7f1ca2414c96c0367602bd2249bc5f91c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-prototype-reviewed-v1/20261020T202108.495304Z/native-local-clear-cost-v1-current.json": "c2aac9cd803dcd4d96889c6c31431bfb2bf0da308c822722700840f87fa1c6e7"
+  },
+  "whole_objective_complete": false
+}

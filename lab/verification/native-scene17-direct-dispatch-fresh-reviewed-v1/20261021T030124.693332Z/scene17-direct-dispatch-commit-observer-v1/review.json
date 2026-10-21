@@ -1,0 +1,33 @@
+{
+  "status": "terminal_native_display_rotation_actual_CPU_witnesses_and_faults_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z",
+  "actual_native_scene_lanes": 64,
+  "native_display_entries": 55,
+  "native_rotation_entries": 55,
+  "rejected_fault_controls": 44,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/qualify_scene17_direct_dispatch_commit_observer_v1.py": "eccce02a0028df24f1121718e730525674af8e38f77993074b79aab7656e1849",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_scene17_direct_dispatch_full_observer_v1.py": "b3f64b1432d67d6d029268572c121123c6a5a22a2a85ab3d2dbe5d39166d4dac",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/shared_deck_scene17_direct_dispatch_complete_observer_v1.py": "b2fc53ad539afe0453b6d4e89fb462c490b2d56321bebbac6e46f7507b314b38",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_rotation_display_observer_v2.inc.c": "6295ce018b9b783f47fe1b4c8348ce3ba715d242a87efb108e5c3714d6ecf5df",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/scene_display_observer_v1.inc.c": "e025ad1ce6b18f35adb403eb7c77c2cfe866092ee097414133e17066954ff4a9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-disc-build-v1-current.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/fixture.c": "3afa64e5e5f3dabe7a3c90cdbfc8c28f149c5cfd9b8b611f5edf22464b90e1ae",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/fixture.dylib": "1c0b62fb2fab0e43789414d477979aeef57f16967e177af83928cdf16d2abbfc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/actual-native-harness.py": "e6eddc28721ce1e847d764afb35707e30bae7f031b49818e5be93172016a83f2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/cases.json": "35faff15fa7e5bb504e1fca2fa5a8cdb2f107daa421a15ef5ef9f53ebc031238",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/faults.json": "109875d279f32b204013b700df00a74d6fa8e3555c0748734b9d65fb774b45eb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-0-CPU.json": "8e7c36d7331dafa6724b9de749b0b6b3ca2a4d60fe0a799fc1c18afebc9041b6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-1-CPU.json": "66c036d0e0e8038409fbcc92e47196489893cbc0426f272c2ca7160b69ef1127",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-0-RAM.bin": "8d3a00c6323a26ae8dcab35a5604caf09039b8fd65b3bf8753371ded8ff06604",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-1-RAM.bin": "92c9f80b58fed32261cdf279dd0cda1252704cfcb7556a8d1243d0ec38029179",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-3-CPU.json": "3b52ceb9bcae8d049541b10006448db5fe00da3e0d8f784040e4e07d1768bb1b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-2-CPU.json": "64bcf0f8ad3fbde570d3d96eb8a507f6b788ed34f56b243f7a2e102cb314c1e6",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-3-RAM.bin": "7501abca3013c98474ffb4275284b88bb722521750502bc9da10b3dcc4536db2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-commit-observer-v1/20261021T025101.706826Z/checkpoint-2-RAM.bin": "ca8a3aca8fff77d1c6e9ad1a66f138912a4e5b54880d818f818b41f408d793ba"
+  },
+  "scope": "Native rotation/display boundary witnesses from actual CPU steps and host-only corruption replays. Four actual native instruction boundaries:rotation begin/display begin/display end/rotation end. Guest frame/table shape, argument/save integrity, full callee saves/banks,finalflags/output commitment and stack/metadata are witnessed. Not a second full packing oracle. Host fault replays mutate copied snapshots only. Remaining services are component fixtures; no fresh-game/IRQ/console claim."
+}

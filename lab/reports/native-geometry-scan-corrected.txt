@@ -1,0 +1,16 @@
+BIWN — SCANNER VERIFIER CORRECTION AND CURRENT VERIFIED RESULT
+
+An ordered-access tracer defect wrote four bytes when a declared changed-read injection was two bytes. The first C-provider scanner test exposed the discrepancy: final native/C CPU andRAM matched, but recorded access values did not. Earlier WORD changed-read ordered-event evidence is superseded. Original failed/as-run files are preserved.
+
+The versioned tracer writes exactly the declared width. All1377stable+768changing-read cases pass again for standalone and exact final-linked scanner bytes, with added native-versus-tracer publicRAM equality on both original and compiled sides. All69original instruction sites are reached. No scanner C, ABI, component or CDI byte changed. The correction therefore retains the prior96startup checks and fresh24996/24978frame native gameplay runs by exact disc identity; these runs were not repeated by this correction.
+
+Candidate live scanner checks:4753compiled calls,11success and4742failure returns,56868record iterations; zero errors/pending/stack-outside. Original-entry control:4787original calls,11success and4776failure returns. Candidate private depth64bytes/minimum task headroom678bytes. Both returned outdoors. Route frame counts, video/audio/CPU/GPU/DSP/navigation differ; no whole-machine/cycle or physical-console equivalence. Default preview is unchanged.
+
+All three local C candidates failed before any WORD changing-read fixture; their rejection and five saved prediction records remain applicable. The accepted code and verifier correction are coordinator work. No weights changed. The exact-disc C instruction provider separately passed105216atomic CPU/RAM/cost cases,1280+512indexed-selector function cases and1377+768scanner function cases. Its fresh C CPU/GPU/DSP/IRQ gameplay comparison is a separately observed job.
+
+Exact original gameplay review:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-scan-live.txt
+Corrected verifier receipt:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-scan-word-correction/20261019T055743.132114Z/protocol.json
+Exact model prompts:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-scan-prompts-and-responses.txt

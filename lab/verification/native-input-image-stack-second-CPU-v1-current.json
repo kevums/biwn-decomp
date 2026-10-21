@@ -1,0 +1,38 @@
+{
+  "status": "terminal_same_input_image_task_stack_boundary_failure_confirmed_pinned_CPU",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-stack-second-CPU-v1/20261021T105337.902815Z",
+  "pid": 59993,
+  "completed": 0,
+  "planned_cases": 27,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "game_image_changed": false,
+  "real_helper_bodies_qualified": false,
+  "arbitrary_IRQ_qualified": false,
+  "current_case": {
+    "input": 0,
+    "path": "native",
+    "task": 788776,
+    "initial_SP": 789796
+  },
+  "negative_counterexamples_confirmed": 1,
+  "error": "AssertionError(('Taskstackboundary', '0x1603fe', '0xc0966', '0xc0928'))",
+  "PC": 1442814,
+  "SP": 788838,
+  "stack_bytes_at_first_violation": 958,
+  "all_stack_low_events_match_primary": true,
+  "ordered_CPU_bus_not_observed": true,
+  "gameplay_verified": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_input_image_stack_second_CPU_v1.py": "1c63e4b58dc5d74664418d5261a42d0fe378206c955ee96dad6854c60d3a3e82",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-provider-stack-diagnostic-v1-current.json": "05250186b7329615931fff6ddccde9c4ac501be3cf7831f5f0fdee513d5955d8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-provider-stack-diagnostic-v1/20261021T105204.154459Z/stack-boundary-counterexample.json": "9bed0e20fc77af7215d9c8687308a419bd71ce6ad178ccc727c5d4b57188c46a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-image-stack-second-CPU-v1/20261021T105337.902815Z/stack-boundary-counterexample.json": "b4a97ea25df62c069268f6f841172640b5cf80be81b300f2d94e964aef34394e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-callsite-disc-build-v1-current.json": "26a55d79e1504665debf3c9bc327064cb15f4a444237af21385108bd8c84c043",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-callsite-v1/20261021T104940.051327Z/resident-with-arenas.bin": "ae99ad378d7f6034cd0de87317d3b63aae1e0623a9b9839f8839b29623ed0fec",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-input-callsite-v1/20261021T104940.051327Z/mainstage-native-input-callsite-v1.bin": "c72c69746a7d3fcd26c8c6e41df605053d39b1757d4eba0f7473b76c49ae44a0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/native_stream_CPU_adapter_v1.py": "50e31456f42e20d578f914ec8bf346ae154589657e23187148c398a49fb774f5"
+  },
+  "scope": "Oneexpectednegativecaseonly: actualpinnedM68000executesfirstnativeimagecallerandmatchesprimaryCPUfirsttaskguardviolationPC/SP/allstack-lowevents. No27casepass,finalstateorbusorderclaim."
+}

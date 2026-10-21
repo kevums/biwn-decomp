@@ -1,0 +1,69 @@
+{
+  "status": "terminal_native_interior_select_CPU_RAM_ordered_pass",
+  "pid": 34236,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-interior-select/20261019T070407.073880Z",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-kernel.c",
+  "source_sha256": "39359b668cb4c150c49910ab2ec0916fdf29c93edcf65d786e48ecb22fd15d82",
+  "source_accepted": true,
+  "code_address": 1455392,
+  "parent_build": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-interior-select/20261019T070407.039399Z/parent-build.json",
+  "game_frames": 0,
+  "new_training": false,
+  "default_promoted": false,
+  "whole_game_complete": false,
+  "planned": 1958,
+  "planned_changing": 768,
+  "stable_completed": 1958,
+  "changing_completed": 513,
+  "stable_cases": 1958,
+  "changing_cases": 768,
+  "original_instruction_coverage": {
+    "0": [
+      60,
+      60
+    ],
+    "1": [
+      39,
+      39
+    ]
+  },
+  "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-interior-select/20261019T070407.073880Z/build/interior-select.bin",
+  "binary_sha256": "59e5e50de1e3cae2e9e09b1661a4c7a8ac88706a88da4d5b79a20f3ee1486b2a",
+  "binary_bytes": 616,
+  "symbols": {
+    "biwn_native_interior_actor_select": 1455392,
+    "biwn_native_interior_sprite_select": 1455398,
+    "biwn_native_interior_select_return": 1455438,
+    "biwn_interior_select_kernel": 1455440,
+    "__bss_start": 1464200,
+    "_edata": 1464200,
+    "_end": 1464200
+  },
+  "max_private_stack_bytes": 100,
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_interior_select_v2.py": "70b31a08fe6e3b0f1cf02d7f56c13a47cd0c6368d99313c80fbd4a9d33b581b4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_doorway.py": "daca539368f09653ac6421a73fd93bd48452b0dec91b35b46d0448d67a02ed5c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-kernel.c": "39359b668cb4c150c49910ab2ec0916fdf29c93edcf65d786e48ecb22fd15d82",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-native.h": "bfdb50c2f7144324fa78b65ce6a531c5414e877b1a70e758af56e70f566747a3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-shim.S": "cae3262aa8a751541e78a63eba985486a955d96eb9171d6654d446e772ab3989",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.interior-select": "c2731d3d4a7ec17cd0fdce198072643e729363d46abda8b3fd06b894adc1342e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-interior-select/20261019T070407.039399Z/parent-build.json": "0c7b390cff3d756e73b48919a4db83c11540478e1d9ccc43051348d5380a1a74",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-doorway/20261019T061151.648340Z/mainstage-native-doorway.bin": "3e4f0271a4db0fb39cf1f27e37774024180156f4bc9daf8f8185f8b466e28276",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-doorway/20261019T061151.648340Z/resident-padded.bin": "c66545762ed1d5f025222719af7582764e7cac06e2dae0b54faf9ed7b828ab6a"
+  },
+  "before_execution_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_interior_select_v2.py": "70b31a08fe6e3b0f1cf02d7f56c13a47cd0c6368d99313c80fbd4a9d33b581b4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_doorway.py": "daca539368f09653ac6421a73fd93bd48452b0dec91b35b46d0448d67a02ed5c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-kernel.c": "39359b668cb4c150c49910ab2ec0916fdf29c93edcf65d786e48ecb22fd15d82",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-native.h": "bfdb50c2f7144324fa78b65ce6a531c5414e877b1a70e758af56e70f566747a3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/interior-select-shim.S": "cae3262aa8a751541e78a63eba985486a955d96eb9171d6654d446e772ab3989",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/Makefile.interior-select": "c2731d3d4a7ec17cd0fdce198072643e729363d46abda8b3fd06b894adc1342e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3"
+  },
+  "scope": "Complete original10520/105DA native ABI and logical ordered public accesses. Full retained-native CPU D/A/PC/SR/USP/SSP plus public2MBRAM; width-correct changing reads and native/tracer publicRAM agreement. Private8KBstack, two entry patches and isolated declared isolated code address excluded. Dense32768*24 fixture ends160000 and cannot overwritecode. Bounded fixtures, no arbitraryfault/IRQ/cycle equivalence, final-link/disc/gameplay/physical/full-game proof. Not a new logical-function recovery or model-training gain."
+}

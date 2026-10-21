@@ -1,0 +1,9 @@
+BIWN reset route — offline timing review
+
+No game or model was rerun. All24967pairedframe records were compared. Fourteen video differences start at24629and end24793;pretrialvideo is equal. Recorded position,scene,mode,tile,floor,equipment,locomotion,navigation and movie-controller fields agree. Movie flags differ on3frames;held buttons differ on3otherframes. The candidate movie-flag transitions are2and1frames later;three held-button transitions are1frame later. These are frame-boundary observations,not instruction-level timing or isolated reset-cost attribution.
+
+Twenty native geometry returns and120GPUhelper returns occur in each lane;the control retains compiled geometry and restores original input. Both audio streams contain0nonzerosamples. FullCPU/RAM/GPU snapshots differ;finalvideoequality is not full-state fidelity.
+
+Current candidate counters now come from this exact run. Prior-image transition/cost/heap/model-review details remain in the historical packet instead of being inherited as current results. Experimental fidelity and whole-game rebuilding remain incomplete.
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene-reset-timeline-reviewed-v1/20261020T223124.952731Z/timeline.json

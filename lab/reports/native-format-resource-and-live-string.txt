@@ -1,0 +1,17 @@
+Exact8742byte format payload now passes the listed component/resource/readiness/lifecycle inventory.
+
+Earlier eight matrices: controller,RNG,tasks,scheduler,heap,copy,free,release.
+New controlled acquire3072native+3072ordered; actual-allocator acquire384+384; initializer192+192; repaired loader1100native+114ordered with71/71instruction coverage.
+Coupled heap lifecycle:8sequences,240paired native calls,84,121known payload-byte comparisons. Separate232byte compaction/blitter witness.
+Four two-client readiness profiles:16cases each, covering standalone/relocated acquire and standalone/nested loader. Explicit BIOS adapters, startup captures, provider/exclusion limits remain. These are component fixtures, not64fresh full-game runs.
+
+Live string path: a separate fresh HLEboot pair now enters the Deck/debug path after identical existing selector/count repairs at464A6/10AC2. Declared38patch bytes,37actual candidate CDI bytes changed. Candidate/control still differ only12formatter-redirect bytes.
+Candidate:5427padding+119string calls; all observed returning. Control:6552padding+144string calls,all returning. No observed user-task stack violations or pending/tracking errors. Minimum observed candidate stack headroom602padding/512string bytes; control694/688bytes.
+Debug word active on frames1800..1999,editor state2afterexit. Final X9535/Z40399/scene0/floor0 in both lanes. Resident payload and new heap boundary preserved.
+Video differs453frames; X differs42/Z76frames. Different helper call counts/return rates show execution cadence differs; this does not by itself prove the cause or full semantic equivalence. PCM equal butsilent. No default promotion.
+
+Test-harness corrections: wrapper initially looked for the wrong acquire receipt filename; completed child evidence was reused, not rerun. Initial loader adaptation used the general gate and omitted scan-kernel ownership; existing kernel-aware gate restored exact ELF/object-derived range. Original failures retained; stack comparisons/assertions preserved. No production-source/payload change for these fixes.
+
+This is meaningful source-built integration progress, not a standalone/full-game decompilation or physical Jaguar rebuild. Full goal including reliable local training, broader advertising quality and future hardware remains active.
+
+Full bound publication: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-format-resource-live-publication/20261018T155918.143781Z/publication.json

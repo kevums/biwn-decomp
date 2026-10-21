@@ -1,0 +1,17 @@
+BIWN — NATIVE BOUNDARY CHECK (1028E)
+
+The complete 1028E–102C2 routine checks four signed 32-bit, half-open boundaries. It rereads positions between comparisons. Early returns write all of D0; the final path writes only its low word and leaves different flags.
+
+The 212-byte C/ABI component passes 1,376 stable and 256 changing-coordinate comparisons against the original CPU, including full registers, stack banks, 2MB of public RAM and ordered memory accesses. Tests cover all 18 original instruction locations. It uses at most 48 bytes of private stack. Code, entry redirect bytes and 8KB of private scratch are excluded from RAM identity. Arbitrary aliasing, faults, IRQ interleaving and physical timing remain unverified.
+
+Three actual local 27B model calls were made: Author, Reviewer and one repair Author. The first draft rounded byte offsets such as 30 down to a four-byte array index. The Reviewer missed this error. The original CPU and ordered-read checker rejected it. The repair used correct byte addresses but retained an unused pointer, so strict compilation rejected the raw repair too.
+
+The coordinator removed that one unused declaration in a separate copy. No access expression or control flow was changed. The coordinator also supplied the ABI wrapper, compiler, checker and diagnostic. This is hybrid local/coordinator code, not an unchanged accepted model output. No model weights were updated, and this is not an independent benchmark or a measured training gain.
+
+The initial repair runner mistakenly called the lookup checker. The correct boundary checker separately confirmed the same unused-variable error. Both failed attempts are retained. No additional Author repair was requested.
+
+Canonical source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/geometry-outside-hybrid-verified.c
+Component proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-geometry-outside/20261019T035639.886193Z/protocol.json
+Exact prompts and raw responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-outside-prompts-and-responses.txt
+
+Live integration is recorded separately in reports/native-geometry-outside-live.txt.

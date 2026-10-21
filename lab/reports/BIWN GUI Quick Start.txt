@@ -1,0 +1,11 @@
+RUN THE LOCAL BIWN GUI
+
+Double-click BIWN Test Preview on your Desktop. Click inside the window and press P.
+Arrows move/turn. Shift+Up or C+Up sends run input. Z attacks/reads. Esc closes.
+1 then D sends the Deck chord; 2 then D sends the equip chord. D is B+C.
+LM Studio is not needed. This experimental preview starts at a saved outdoor checkpoint.
+
+Terminal:
+~/.lmstudio/local-ai-lab/.venv/bin/python3.12 ~/.lmstudio/local-ai-lab/native-preview-v4/scripts/run_biwn_native_keyboard_v4.py --play-audio
+
+The menu's P choice now opens this same v4 Python frontend. It previously selected an older preview path. The Python game code, disc and checkpoint are unchanged.

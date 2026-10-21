@@ -1,0 +1,11 @@
+LOCAL CODER — GREEDY AUTHOR/REPAIR TRIAL REJECTED
+
+One Author and two Repair generations completed with the installed17GBQwen3Coder30BA3B4bit model. All three produced repetitive incomplete C and failed compilation. None reached originalCPU comparison. Each used2,999output tokens from a3,000token budget. No game source or model was adopted;daily27Bmodel restored.
+
+The first zero-generation launch failed because the model exposes no reasoning configuration. A separate stream transport now omits that unsupported field;the error and exact original script are retained.
+
+A read-only integrity check matched all four weight shards and cached tokenizer/config metadata against their cached download ETags. This rules out a mismatch with those cached checksums,not backend numerical errors or poor generation.
+
+The downloaded generation_config.json specifies sampling enabled,temperature0.7,topP0.8,topK20,repetition penalty1.05. The rejected diagnostic forced greedy temperature0 and did not apply those sampling values. A separately recorded v2development trial now uses the installed SDK to request and verify the model generation settings. This does not change the original training benchmark or the clarified paired diagnostic.
+
+View exact prompts and streams:BIWN Coder Live.command on the Desktop. NativeChat rendering remains unverified because the computer-use connection timed out.

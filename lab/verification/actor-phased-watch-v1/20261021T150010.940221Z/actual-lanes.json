@@ -1,0 +1,866 @@
+[
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 0,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 0,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 4,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 4,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 5,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 5,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 6,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 6,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 70,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 70,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 118,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 0,
+    "fixture": 118,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 0,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 0,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 4,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 4,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 5,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 5,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 6,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 6,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 70,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 70,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 118,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "initialize",
+    "slot": 100,
+    "fixture": 118,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 0,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 0,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 4,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 4,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 5,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 5,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 6,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 6,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 70,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 70,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 118,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 0,
+    "fixture": 118,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 0,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 0,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 4,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 4,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 5,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 5,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 6,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 6,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 70,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 70,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 118,
+    "compiled": false,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  },
+  {
+    "kind": "joint",
+    "slot": 100,
+    "fixture": 118,
+    "compiled": true,
+    "stats": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "full_off_on_equal_without_exclusions": true
+  }
+]

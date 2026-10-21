@@ -1,0 +1,18 @@
+include Makefile.scheduler-bundle
+.DEFAULT_GOAL := heap-bundle
+ALLOCATE_SOURCE ?= heap-allocate-native.c
+COMPACT_SOURCE ?= heap-compact-native.c
+.PHONY: heap-bundle
+heap-bundle: $(BUILD)/native-heap-bundle.elf $(BUILD)/native-heap-bundle.bin $(BUILD)/runtime-original.bin $(BUILD)/scheduler-yield.bin $(BUILD)/scheduler-remove.bin
+$(BUILD)/startup-finalize-heap.o: startup-finalize-heap.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/heap-shims.o: heap-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/heap-allocate-native.o: $(ALLOCATE_SOURCE) heap-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/heap-compact-native.o: $(COMPACT_SOURCE) heap-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-heap-bundle.elf: $(BUILD)/button-digit-movable-shim.o $(BUILD)/inventory-select.o $(BUILD)/startup-finalize-heap.o $(BUILD)/rng-shims.o $(BUILD)/rng-native-fast.o $(BUILD)/rng-fast-math.o $(BUILD)/controller-shim.o $(BUILD)/controller-native.o $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o $(BUILD)/scheduler-shims.o $(BUILD)/scheduler-native.o $(BUILD)/heap-shims.o $(BUILD)/heap-allocate-native.o $(BUILD)/heap-compact-native.o heap-bundle.ld $(LIBGCC) $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T heap-bundle.ld -Map $(BUILD)/native-heap-bundle.map -o $@ $(filter %.o,$^) $(LIBGCC)
+$(BUILD)/native-heap-bundle.bin: $(BUILD)/native-heap-bundle.elf
+	$(CROSS)objcopy -O binary $< $@

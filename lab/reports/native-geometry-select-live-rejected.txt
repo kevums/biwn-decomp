@@ -1,0 +1,19 @@
+BIWN SELECTOR — INITIAL LIVE CHECKS REJECTED
+2026-10-19T04:50:06.915305+00:00
+
+Both fresh24978frame gameplay executions returned outdoors. Both the compiled selector and the untouched original-entry control recorded two generic observer errors and ten selector-contract errors; neither live monitor passed. The original CPU backend itself reported no execution errors. The monitor must be diagnosed before source changes or acceptance. Two separately versioned diagnostic reruns are live, collecting complete incoming/expected/actual return state and entry addresses. The failed runs and checks are retained unchanged.
+
+Per-field differences on aligned frames:
+{
+  "CPU_full": 22613,
+  "full_RAM_sha256": 24970,
+  "full_GPU_state_sha256": 24424,
+  "full_DSP_state_sha256": 9141,
+  "video_sha256": 12250,
+  "navigation": 9245,
+  "locomotion_state": 170,
+  "held_buttons": 228
+}
+Full captured PCM equal: False
+
+The324byte coordinator implementation passed component/final-address/startup fixtures, but this does not waive the failed live checks. No preview promotion, latest-status publication or full console rebuild is approved by these results. Both local Author candidates were rejected; this native implementation is coordinator code.

@@ -1,0 +1,114 @@
+{
+  "source_cdi_sha256": "0aaef12221309e3266861ebe5da0c14f419de49aac7eb727302e0f5983ec532f",
+  "raw_track": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/raw-tracks/track-02-raw.bin",
+  "raw_track_sha256": "44f0e6412d05a91fd7cd3b1f298faeddc91b22b0a8c8619c1fd929d84fee9ef6",
+  "track": 2,
+  "session": 2,
+  "header_track_offset": 353538,
+  "header_source_offset": 3244146,
+  "header_program_offset": 738,
+  "normalized_magic": "ATARI APPROVED DATA HEADER ATRI ",
+  "normalized_header_40_hex": "415441524920415050524f564544204441544120484541444552204154524920001800000000ea60",
+  "transformation": "Swap adjacent bytes within each 16-bit word; raw originals and raw tracks retained",
+  "declared_load_address": 1572864,
+  "declared_load_address_hex": "0x180000",
+  "declared_length": 60000,
+  "payload_raw_track_offset": 353578,
+  "payload_raw_cdi_offset": 3244186,
+  "normalized_payload": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/boot-payload-68000-candidate.bin",
+  "normalized_payload_sha256": "235b342638e4face19e82b68d1fdd6592e58dbf689792ee41d572db465cfc8a4",
+  "tailer_track_offset": 1402370,
+  "tailer_immediately_after_payload": false,
+  "selected_prefix_bytes": 62,
+  "first_prefix_instructions": [
+    {
+      "address": 1572864,
+      "size": 10,
+      "bytes": "23fc0007000700f0210c",
+      "assembly": "move.l #$70007, $f0210c.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572874,
+      "size": 6,
+      "bytes": "2e7c00200000",
+      "assembly": "movea.l #$200000, a7",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572880,
+      "size": 6,
+      "bytes": "303900f14002",
+      "assembly": "move.w $f14002.l, d0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572886,
+      "size": 4,
+      "bytes": "08000004",
+      "assembly": "btst.b #$4, d0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572890,
+      "size": 2,
+      "bytes": "6622",
+      "assembly": "bne.b $18003e",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572892,
+      "size": 8,
+      "bytes": "33fc068c00f0003c",
+      "assembly": "move.w #$68c, $f0003c.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572900,
+      "size": 8,
+      "bytes": "33fc00af00f00038",
+      "assembly": "move.w #$af, $f00038.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572908,
+      "size": 8,
+      "bytes": "33fc00af00f0003a",
+      "assembly": "move.w #$af, $f0003a.l",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572916,
+      "size": 4,
+      "bytes": "3a3c0023",
+      "assembly": "move.w #$23, d5",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572920,
+      "size": 4,
+      "bytes": "383c0263",
+      "assembly": "move.w #$263, d4",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 1572924,
+      "size": 2,
+      "bytes": "6020",
+      "assembly": "bra.b $18005e",
+      "classification": "decoded_instruction"
+    }
+  ],
+  "decoder": {
+    "name": "Capstone",
+    "version": "5.0.7",
+    "mode": "M68K_000, big endian",
+    "boundary_guard": "32 zero bytes used only for required-length detection; missing real bytes rejected"
+  },
+  "reference": {
+    "path": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/virtualjaguar-cd-reference/cdintf.c",
+    "revision": "dbed6843a22e3fdbbbfada23d4663e8bdee4bc16",
+    "scope": "Header fields follow emulator extraction implementation; actual hardware execution not observed"
+  },
+  "status": "Header-derived 68000 boot-payload candidate; entry at load address is an analysis assumption based on boot-loader reference, not observed execution."
+}

@@ -1,0 +1,75 @@
+BIWN —134DCACTOR INITIALIZER INTEGRATED INTO AN EXPERIMENTAL DISC
+
+Native resident code21080bytes in a24512byte reservation; heapfloor164D80,
+3432bytes spare. Larger reservation reduces initial heap capacity4032bytes to
+373376. Original disc unchanged; experimental APFSclone derivatives retain byte
+provenance. Seven decoded heap-floor/+4/+8operands and loaderWORD27FF→2FDFare
+relocated. Layout-only clone differs16actualdisc bytes; adding1620initializer
+bytes and the8byte134DCentry redirect changes1340more actual bytes. Parent
+code remains identical relative to that explicitly relocated layout.
+
+VERIFICATION
+96layout startup and192heap-initializer cases; original raised-boundary heap
+init matches the source assembly transcription byte-for-byte after its five
+explicit operands change. Newfullpayload passes96startup cases. Native
+allocator/compactor/copy+emulatedblitter3392cases and a separate3392ordered-bus
+comparison pass against original routines at the same declared heap boundary.
+36actual-native-constructor capacity requests cover zero/small/exact/over-capacity
+sizes. These do not establish arbitrary allocation sequences or all resources.
+
+134DCfinal-address1639C4passes1024cases/all148original sites. Both final-address
+C routines together pass856dispatcher-rooted cases; direct initializer1024cases
+also execute through the read-only context monitor, original and C lanes each:
+3760root executions. Original10520or the common parent's compiled10520is used as
+declared by the proof; four leaf services remain prescribed in component lanes.
+Monitor callbacks run before those scripts mutate returns. Wrong rootD0, childX,
+parent context and initializer context inputs are rejected. Context negatives
+change only a RAM mirror; the monitor never writes fixture or native gameRAM.
+Unknown modified jump-table targets, faults/interrupt/device concurrency remain
+outside the finite algorithm proof.
+
+REAL GAMEPLAY / REAL HELPERS
+Candidate29790frames; matching layout control29777. Both return outdoors and
+hold120frames. Only8bytes of134DCentry are restored in the control; enlarged
+heap/reservation, unused initializer code and prior compiled routines including
+13AE0remain common. Both dispatch13calls(12actor/1sprite); initializer12calls,
+helper16calls. Candidate executes12native initializers/zero original-body steps;
+control executes961original initializer steps. All caller/helperSP/args/callback,
+loaded full contextCPU/SR,callee-save/root-return and task-stack checks pass.
+13parent and16initializer saved-context canary checks pass in the candidate;
+control has13parent checks and no initializer context because its body is
+original. No monitor errors,pending calls,context corruption or task-stack-outside.
+Prior resource/cache/geometry/door/interior/heap monitors also report zero errors.
+
+Actual nested private depth600bytes/minimum182task-stack bytes of headroom;
+initializer564relative to its own entry. There are4008valid observations below
+parent context, zero observations inside its occupied interval. The oldSP-only
+rule would reject legitimate deeper private frames; actual saved bytes remain
+unchanged. This finite route is not a bound for every future caller/helper path.
+
+Fresh aligned prefix29777differs in25987CPUframes,29766RAMhashes,29072GPUstate,
+13905DSPstate,23406video,25118navigation,210locomotion and282button records.
+PCMhash and length differ95328000versus95286400bytes. Functional completion and
+ABI/context agreement do not establish timing/media/full-state equivalence.
+The earlier scanner media differences and unexercised fullpool/selector paths
+remain. Native emulator CPU/GPU/DSP/IRQandplatform services execute both routes;
+no new strict-Cprocessor job or physical-console test applies to this21080disc.
+
+LOCAL MODEL PROFILE TEST — SEPARATE, NO SOURCE ADOPTION
+One adaptive13AE0repair Author used supported reasoning=low,6000token budget,
+temperature0,32768context. It received saved compiler/native mismatch evidence
+and explicitCCR/index findings, with the coordinator reference withheld. In
+273.37seconds it emitted5999reasoning tokens and zero final C; the linker then
+rejected the missing function. Same-weight structured Reviewer returned empty
+issues in4.36seconds despite that empty candidate/error. Two actual predictions;
+no code acceptance,source edit,weights or default-profile change. Feedback and
+reasoning setting both changed, so this is not an isolated reasoning comparison
+or independent held-out benchmark. It demonstrates failure to deliver within
+this profile's budget, not executed semantic quality of nonexistent code.
+Exact prompts/final outputs/stats are saved and indexed under StartLocalAI→I.
+
+Current disc source/ABI/layout/verification is coordinator work. Prior accepted
+local functions retain their historical attribution. Full readable game/original
+console rebuild,137E0andremaining actual game logic/interfaces, broader resources
+and stack paths,timing/media,native LMStudioChat usability,Advertising reliability
+and complete workbench migration/future256GBpreparation remain unfinished.

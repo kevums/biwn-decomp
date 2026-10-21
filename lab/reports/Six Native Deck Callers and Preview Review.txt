@@ -1,0 +1,14 @@
+BIWN — SIX NATIVE DECK CALLERS AND PYTHON PREVIEW
+
+Six recovered Deck callers now execute natively in the reviewed experimental disc and installed Python preview. Fresh candidate and same-layout original-outer control each ran 24,965 frames. The inner five stay native in both; the candidate outer returned once versus one original-outer control return. Forty video frames differ despite equal final video; cycle identity is unverified. The checkpoint GUI passed movement, pause, close and Shift+Up to C+Up mapping; all six callers returned in its 415-frame held-digit session. Expected Deck appearance remains unverified. The six callers are one subsystem; full-game source rebuilding, arbitrary suspension/reentry/IRQ, timing, visual, audio and physical fidelity remain incomplete. The retained 13-frame restoration changes original 16-frame behavior. Outer integration is coordinator work; no new model-authored algorithm or training update.
+
+Native fresh returns: {"coordinate": 19, "input": 19, "face": 19, "scan": 19, "geometry": 18, "outer": 1}. Geometry calls five original helpers 18 times each in both lanes. The native outer makes 19 iteration boundaries,55 wait slices and222 protected-frame checks. Its lowest observed C-stack offset is204 against lower bound144:60 bytes observed margin. Scheduler boundary visits do not establish arbitrary interrupt or reentry safety. Minimum sampled free heap while outer active is17,968 bytes, not a global route minimum.
+
+Native code72,204 bytes; total reservation260,160; initial heap137,728. All three arena fences and immutable code pass. The separate2,400-frame observed/unobserved replay matches full CPU,RAM,video,GPU,DSP and final serialized state in its finite scope.
+
+GUI run-alias session:367 frames,77 C+Up frames. Held-digit Deck session:415 frames,58 C+Up frames; all six native callers return. A short digit press selected nothing; hold1 about one second, release, then holdD. Native execution is observed but the expected Deck visual transition is not confirmed.
+
+Fresh source review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-six-reviewed-v1-current.json
+GUI review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-six-current-v1/20261020T152423.959633Z/GUI-review.json
+Disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-six-v1/20261020T094253.240761Z/BIWN-23-native-Deck-six-v1-experimental.cdi
+SHA-256: c47f48fe8dbffa5dd1e362247d833375b9ee392886294ad1972cd6bc86560bad

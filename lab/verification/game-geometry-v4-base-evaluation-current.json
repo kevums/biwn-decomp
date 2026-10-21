@@ -1,0 +1,63 @@
+{
+  "status": "terminal_code_evaluation",
+  "phase": "base",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z",
+  "dataset": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z",
+  "pid": 35642,
+  "results": [
+    {
+      "function": "resource_release",
+      "seconds": 34.05854058393743,
+      "generation_tokens": 763,
+      "finish_reason": "stop",
+      "verified": false,
+      "candidate_sha256": "26ded2ba62b34b667ff445e9d833cff3239322fa559ee24ecdb8de143d28144d"
+    },
+    {
+      "function": "resource_acquire",
+      "seconds": 96.86653437500354,
+      "generation_tokens": 2001,
+      "finish_reason": "stop",
+      "verified": false,
+      "candidate_sha256": "ecd1d3ac868c10ad9a30959c01e55107e0b8f30f79b433c172afa7019f61d272"
+    },
+    {
+      "function": "resource_load",
+      "seconds": 82.42447466694284,
+      "generation_tokens": 1638,
+      "finish_reason": "stop",
+      "verified": false,
+      "candidate_sha256": "c9953ece89a534fbde75a6f6b8069e9a4a4e81ec84566d1336841d3e994039c9"
+    },
+    {
+      "function": "plane_layout",
+      "seconds": 250.4048301250441,
+      "generation_tokens": 5000,
+      "finish_reason": "length",
+      "verified": false,
+      "candidate_sha256": "8150dbafaa8f0ba22d5a72deaf985403154f7253d129f1ac75c76306e456828c"
+    }
+  ],
+  "default_promoted": false,
+  "raw_model_C_unchanged": true,
+  "sampling": {
+    "temperature": 0,
+    "max_output_tokens": 5000,
+    "enable_thinking": false
+  },
+  "scope": "Adaptive development training.17train,1scheduler validation,4test tasks. Three previous resource tests retain prior exposure;new110D4test family excluded from gradients and checkpoint selection,but shares ABI primitives and project concepts. No independent general model-reliability claim. Complete examples/targets retained,8960token ceiling,no truncation.",
+  "execution_scripts_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/evaluate_game_geometry_curriculum_v4.py": "0bfc1d39bb9b285e08ee0c87c40004f293575242d4b8f7900ec406943f73058e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/select_game_geometry_checkpoint_v4.py": "34ea4347301861f3548ab39b3121a5b06a7d002f9ff216a5a2518971a808c3b8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_curriculum_candidate.py": "3cdd6532c83cb7c843de6f64cb48e257bed08d4846f67be0dccc18f3e6eeb08d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_release.py": "7a71245a29f46e3c92a3fc968f5e2462304438a0e8a6d2e8e179c1e58e0376bc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_acquire.py": "c14731381cd304cba04a9c5197073dfefa77cce31f64fbe7f6bc8a6d42496b8f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_native_resource_load.py": "d1666082d13728551336cb2f073fa013fa35ca13a68044b7ba06420ce1d58ee8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_plane_layout_v1.py": "51446d9c5cec7b9f62e0234f54758b66fac1c3e0c69e87c41d335ba7b28b0acd"
+  },
+  "current_function": "plane_layout",
+  "passed": 0,
+  "total": 4,
+  "accepted_pointers_unchanged": true,
+  "daily_model_restored": true
+}

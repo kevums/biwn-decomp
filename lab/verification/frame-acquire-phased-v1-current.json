@@ -1,0 +1,38 @@
+{
+  "status": "terminal_native_frame_acquire_CPU_RAM_loader_ordered_DIVS_pass",
+  "pid": 65756,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-v1/20261021T121012.659248Z",
+  "source_accepted": true,
+  "game_frames": 0,
+  "new_training": false,
+  "local_model_authored": false,
+  "goal_complete": false,
+  "original_image_sha256": "fa206777573908b207db07517781bd2a6157b7fd8222fad1a6cce9e7de3bdd13",
+  "binary_bytes": 1776,
+  "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-v1/20261021T121012.659248Z/build/native.bin",
+  "binary_sha256": "f72914774f38c6c668bcd2c94cd5bb2c5aa0a2efcb29ec01e0747aeb591dbac8",
+  "planned_normal": 631,
+  "planned_zero": 192,
+  "completed_normal": 631,
+  "completed_zero": 192,
+  "original_instruction_coverage": [
+    173,
+    173
+  ],
+  "minimum_stack_address": "0x1fef48",
+  "maximum_stack_bytes": 184,
+  "transient_context_bytes": 96,
+  "parked_C_frames_across_helpers": 0,
+  "new_private_arena_bytes": 0,
+  "frame_acquire_phased": true,
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_acquire_phased_v1.py": "9270fc66b678eb0eb7fedfef1fa16e43d2d74361c76c7c7824317753ec0f24ea",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_local_frame_resource_acquire.py": "6e4e6290dfafc04b4da64da7e9da0588fac5985cbde686d7aeb26928b6e32ff5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-acquire-lean.h": "38d938c86c695e031c5c548b3d25ca3220739a39c330fae90af92000eabe4a8f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-acquire-phased-v1/native.c": "c38985123e6f71325e83f7aff2812514c5b33345543873ec5580f021b9098d30",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-acquire-phased-v1/native.S": "e48ce4d1f373d771a581b5dbe9acded840e7418962a971299a6c0a733b1fa966",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-acquire-phased-v1/native.ld": "0e29b51a0bf4f3f8c7d47d414c37e2491d418d2c3d751a2f7a7cd6736a386114",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/frame-acquire-phased-v1/Makefile": "ac83c44d7a5f7c05bd363b8cde13f3bb527722a644171b12a123165dc7f5c677"
+  },
+  "scope": "Phased C/assembly continuation wrapper releases all C frames before actual DIVS/loader. Complete 173-instruction original control flow, two stack modes/all CCR on selected paths, stable and declared changing reserved-index reads; full D/A/PC/SR/USP/SSP and 2MB RAM including all 44 public LINK/MOVEM/scratch bytes. Separate ordered nonzero public bus and loader ABI captures. Loader is an actual guest fixture with caller-saved clobbers/scratch/index effects, not the production loader. Zero DIVS executes natively with inert RTE and declared source/relocated saved PC mapping. C-private384bytes stack excluded below public saves, loader arguments/registers checked separately; alternate exception stack excluded only after frame/CPU comparison. No arbitrary alias/handler/IRQ/timing/gameplay/console/whole-game proof; coordinator C adaptation, no local-model authorship or new training."
+}

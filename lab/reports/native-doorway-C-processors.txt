@@ -1,0 +1,10 @@
+BIWN — COMPLETE18270BYTE DOORWAY DISC C-PROCESSOR COMPARISON
+2026-10-19T07:07:42.479803+00:00
+
+The exact18270byte resident doorway disc completed24996frames through the fixed C CPU/GPU/DSP and interrupt selection/entry providers. Every frame identity and all eight recorded fields match its same-disc retained-native control: fullCPU, RAMhash, GPUstatehash, DSPstatehash, videohash, navigation, locomotion and heldbuttons. The complete79987200byte captured stereo16bitPCM stream matches;1609436samples are nonzero. Both returned outdoors.
+
+CPUowned 436,659,469 callbacks, including 734,527 retained platformHLE services. GPUsource instructions 12,268,292,905; DSPowned instructions 9,951,724,387; sourceIRQentries 150,352. Reported Original/Rejected/errors/uncovered counts are zero under the separate recorded backend counters. These are execution counts, not recovered readable-function counts or a full all-instruction trace.
+
+The entire read-only observer result matches the native route, including1compiled doorway success return atframe8557, zero live failure returns,80byte private depth/minimum816byte headroom, and4753compiled scanner calls/11success/4742failure returns. There are no original doorway or scanner body steps and no reported monitor errors/pending/stack-outside. Doorway failure paths remain component-test coverage. SourceCPU begins at the HLE-prepared initial entry, with no original CPU opcodes before owner installation.
+
+This compares C versus native providers executing the SAME modified18270doorway disc. It does not resolve the separate compiled-scanner-versus-original-scanner-entry timing/video/audio differences, and it does not establish the newer18888interior-selector disc, whose gameplay is untested. PlatformHLE, device services, IRQline/ACK/vector selection plumbing, hostcommit/prefetch/cost/clock, blitter and objectprocessor services remain. No all-path, physical timing, standalone/full source rebuild, default preview promotion or new model training proof.

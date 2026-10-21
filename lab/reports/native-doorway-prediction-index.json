@@ -1,0 +1,45 @@
+{
+  "count": 4,
+  "predictions": [
+    {
+      "role": "Author",
+      "model": "advertising-scholar",
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-doorway-20261019T060633.867496Z/author.json",
+      "response_sha256": "7ae5a29ff1c18600a0d7ada6852c8e180ddee478319b9d4e0de3f4dd65fe2acb",
+      "seconds": 81.13,
+      "same_weight_review": false,
+      "independent_review": false
+    },
+    {
+      "role": "Reviewer",
+      "model": "advertising-scholar",
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-doorway-20261019T060633.867496Z/reviewer.json",
+      "response_sha256": "03c5ab7b51de052dfb83acd4a234ddb9a694b010a8369d4e3116399d52c905dd",
+      "seconds": 7.845136250020005,
+      "same_weight_review": true,
+      "independent_review": false
+    },
+    {
+      "role": "one repair Author",
+      "model": "advertising-scholar",
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-doorway-repair-20261019T060933.164160Z/author-repair.json",
+      "response_sha256": "30fe7043c24189384add3fd4b1d1dd0ecea0a8077de7ee49b8745b5ba536fcbb",
+      "seconds": 77.46,
+      "same_weight_review": false,
+      "independent_review": false
+    },
+    {
+      "role": "Reviewer",
+      "model": "advertising-scholar",
+      "response": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-doorway-repair-20261019T060933.164160Z/reviewer.json",
+      "response_sha256": "1555ca56c6fcaa766f1f65b77d00d7df63a3b675aebe865a224d87afa8293e60",
+      "seconds": 14.08244599995669,
+      "same_weight_review": true,
+      "independent_review": false
+    }
+  ],
+  "combined_seconds": 180.51758224997667,
+  "source": "Actual sequential LM Studio local calls; coordinator work/load/build/test time excluded",
+  "new_training": false,
+  "native_Chat_verified": false
+}

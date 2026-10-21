@@ -1,0 +1,19 @@
+{
+  "old_reserve": 28544,
+  "new_reserve": 30080,
+  "additional_reserve": 1536,
+  "old_floor": "0x165d40",
+  "new_floor": "0x166340",
+  "old_initial_heap": 369344,
+  "new_initial_heap": 367808,
+  "old_staging": "0xf7000",
+  "new_staging": "0xf6c00",
+  "clear_bytes": 30208,
+  "clear_end": "0xfe200",
+  "original_window_all_zero": true,
+  "trailer_unchanged": true,
+  "native_bytes": 1428,
+  "new_resident_bytes": 29876,
+  "free_reserved_bytes": 204,
+  "original_heap_semantics_and_runtime_use_still_require_fresh_checks": true
+}

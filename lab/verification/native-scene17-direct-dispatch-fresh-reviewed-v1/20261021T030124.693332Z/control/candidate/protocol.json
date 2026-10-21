@@ -1,0 +1,64 @@
+{
+  "status": "running",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-fresh-route-v2/20261021T025621.188598Z-control/candidate",
+  "core": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/CPU-IRQ-selection-core-build/20261017T094441.859213Z/source/virtualjaguar_libretro.dylib",
+  "core_sha256": "b691f3176f0a4a8087dfa0c7f77f41a42294b5c1a0d32c5e10f1ebc9bbb7ed0a",
+  "disc": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-fresh-route-v2/20261021T025621.188598Z-control/same-layout-original-scene17.cdi",
+  "disc_sha256": "c69511b745a8b5433287d593a2488a8fba91f6a5e33c05f81849b6a204c072c2",
+  "requested_options": {
+    "virtualjaguar_bios": "enabled",
+    "virtualjaguar_usefastblitter": "enabled",
+    "virtualjaguar_cd_bios_type": "retail",
+    "virtualjaguar_cd_boot_mode": "hle",
+    "virtualjaguar_crash_detect": "enabled"
+  },
+  "captured_state_input": false,
+  "host_CPU_or_GPU_register_seed": false,
+  "external_BIOS_input": false,
+  "diagnostic_switches_set": false,
+  "firmware_assists": "default",
+  "input_plan": "none",
+  "frame_controller_script": null,
+  "input_windows": [],
+  "normal_input_only": true,
+  "navigation_actor": null,
+  "navigation_point": null,
+  "navigation_waypoints": [
+    [
+      9408,
+      41216
+    ],
+    [
+      11296,
+      41216
+    ],
+    [
+      11296,
+      41376
+    ]
+  ],
+  "navigation_waypoints_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/normal-route-312-plan.json",
+  "stop_after_scene_change_frames": 26000,
+  "scene_change_controller_windows": [],
+  "post_scene_navigation_actor": 2,
+  "post_scene_navigation_offset": 1101,
+  "post_scene_waypoints": [
+    [
+      11488,
+      41568
+    ],
+    [
+      11680,
+      41568
+    ],
+    [
+      12832,
+      41568
+    ]
+  ],
+  "navigation_scope": "Coordinator deterministic steering from live position/heading; ordinary pad inputs only; not local-LLM navigation or C verification",
+  "built_in_firmware_assists": "Default BIOS strategy clears cart authentication bit; instruction hook writes GPU auth magic and injects boot stub/trampoline/TOC. These are emulator interventions, not source firmware proof.",
+  "source_C_execution": false,
+  "whole_game_complete": false,
+  "scope": "Original full-core emulation after ordinary libretro content load; included BIOS, private empty system/save dirs, documented normal frontend input. HLE boot bypasses real firmware and cannot prove authenticated boot."
+}

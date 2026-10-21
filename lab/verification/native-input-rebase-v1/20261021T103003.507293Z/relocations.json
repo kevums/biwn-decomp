@@ -1,0 +1,434 @@
+[
+  {
+    "offset": 16,
+    "type": 1,
+    "symbol": ".rodata",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845230,
+    "new_value": 1568530
+  },
+  {
+    "offset": 24,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835472,
+    "new_value": 1558772
+  },
+  {
+    "offset": 42,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835122,
+    "new_value": 1558422
+  },
+  {
+    "offset": 50,
+    "type": 1,
+    "symbol": "biwn_input_dispatch",
+    "internal": true,
+    "changed": true,
+    "old_value": 1836302,
+    "new_value": 1559602
+  },
+  {
+    "offset": 202,
+    "type": 1,
+    "symbol": "biwn_signed_division",
+    "internal": true,
+    "changed": true,
+    "old_value": 1844874,
+    "new_value": 1568174
+  },
+  {
+    "offset": 358,
+    "type": 1,
+    "symbol": "biwn_input_physical_call",
+    "internal": true,
+    "changed": true,
+    "old_value": 1844990,
+    "new_value": 1568290
+  },
+  {
+    "offset": 1738,
+    "type": 1,
+    "symbol": ".rodata",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845262,
+    "new_value": 1568562
+  },
+  {
+    "offset": 2146,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 2528,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 3152,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 3234,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 3310,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 3452,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 3584,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 3610,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1836090,
+    "new_value": 1559390
+  },
+  {
+    "offset": 5676,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 5702,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1836090,
+    "new_value": 1559390
+  },
+  {
+    "offset": 6832,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 6910,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 6982,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835730,
+    "new_value": 1559030
+  },
+  {
+    "offset": 7582,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 7676,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 7778,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835730,
+    "new_value": 1559030
+  },
+  {
+    "offset": 7878,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835730,
+    "new_value": 1559030
+  },
+  {
+    "offset": 7986,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 8104,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 8256,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 8332,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835730,
+    "new_value": 1559030
+  },
+  {
+    "offset": 8562,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835730,
+    "new_value": 1559030
+  },
+  {
+    "offset": 8944,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 9096,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 9214,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 9298,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835730,
+    "new_value": 1559030
+  },
+  {
+    "offset": 9420,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 9732,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835506,
+    "new_value": 1558806
+  },
+  {
+    "offset": 9922,
+    "type": 1,
+    "symbol": "__udivsi3",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845056,
+    "new_value": 1568356
+  },
+  {
+    "offset": 9936,
+    "type": 1,
+    "symbol": "__umodsi3",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845148,
+    "new_value": 1568448
+  },
+  {
+    "offset": 10154,
+    "type": 1,
+    "symbol": "__udivsi3_internal",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845056,
+    "new_value": 1568356
+  },
+  {
+    "offset": 10170,
+    "type": 1,
+    "symbol": "__mulsi3_internal",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845196,
+    "new_value": 1568496
+  },
+  {
+    "offset": 10222,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835074,
+    "new_value": 1558374
+  },
+  {
+    "offset": 10226,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835090,
+    "new_value": 1558390
+  },
+  {
+    "offset": 10230,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835106,
+    "new_value": 1558406
+  },
+  {
+    "offset": 10234,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835134,
+    "new_value": 1558434
+  },
+  {
+    "offset": 10238,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835146,
+    "new_value": 1558446
+  },
+  {
+    "offset": 10242,
+    "type": 1,
+    "symbol": ".text",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835158,
+    "new_value": 1558458
+  },
+  {
+    "offset": 10288,
+    "type": 1,
+    "symbol": "biwn_native_input_fixture",
+    "internal": true,
+    "changed": true,
+    "old_value": 1835008,
+    "new_value": 1558308
+  },
+  {
+    "offset": 10534,
+    "type": 1,
+    "symbol": "biwn_input_task_admit",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845312,
+    "new_value": 1568612
+  },
+  {
+    "offset": 10554,
+    "type": 1,
+    "symbol": "biwn_native_input_entry",
+    "internal": true,
+    "changed": true,
+    "old_value": 1845288,
+    "new_value": 1568588
+  }
+]

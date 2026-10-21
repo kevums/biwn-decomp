@@ -1,0 +1,26 @@
+{
+  "status": "terminal_portable_native_context_and_synthetic_handler_contracts_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "plugin": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/biwn-portable-4f565868-team",
+  "actual_context_ready": true,
+  "actual_busy_lock_rejected_before_inference": true,
+  "synthetic_handler_cases": 8,
+  "actual_model_predictions": 0,
+  "new_training": false,
+  "actual_model_quality_verified": false,
+  "native_UI_verified": false,
+  "lease_released_after_normal_failure_and_cancel": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_portable_native_team_v1.py": "4c2fdb6919fc9e003dd986d38d57148b97c4cfab60dc3f9c83145d9b76ce21ff",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/biwn-portable-4f565868-team/index.mjs": "43f7ba51de7cbccd4250813996f1f69d2c9418e93f2017e0bebbb9d6140a5e6b",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/portable_native_context.py": "f01a24ef4585d2feaff2aec12e63a93eb10c1a9a249f3cb1bda91574b11d8e68",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts/handler-check.mjs": "0a5ffb14aa1e3670fd50a4a3a6ea276284e4dee08ecdb0d111276348d55f1fd7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts/shadow-workbench/portable_native_context.py": "9e0081913c06a51143654524c5dd7175602ad6c5ad58b800b38df1157cb3d79d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts/actual-package-context.json": "3a0a2b2947f0f79f15990aef5c1490cad378d985cdf3cd43ac7640eabbaf2e70",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts/actual-shared-lock-response.json": "9788d701ed0163540b84da36f11134b3a7175aa06c0fad8a3a4571f7d908a3c7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts/handler-cases.json": "1f4642115adf19cd8bda346db504c680726ced76238cd7b1751f2c7a59902a83",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-native-team-v1/20261020T195229.941883Z/contracts/handler-check.log": "9681946c6dd271b531c5c04b4ac325977fecbca06607d80e5294b10b70867210"
+  },
+  "scope": "Exact ported handler with real SDK Chat objects and synthetic model replies.\nActual package source context is obtained read-only. These are software contract\nchecks,not model predictions,semantic approval or native UI rendering.\n"
+}

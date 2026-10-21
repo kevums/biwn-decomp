@@ -1,0 +1,18 @@
+CURRENT QUALIFICATION — 2026-10-20T08:16:55.258826+00:00
+The earlier defect label below was premature. The creator manual explicitly documents intentionally garish3DC-Space. This particularrevision23view is not visually validated, but a renderer/decoder bug is not established. Both original-routine controls reproduce the unusual appearance. Creator audio-not-hooked-up statement is consistent with silent PCM, without proving complete audio-path fidelity. Manual0personal-node behavior differs from the observed0street-exit in this build.
+Primary source qualification: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-keyboard-appearance-review-v1/20261020T081608.201977Z/review.json
+
+HISTORICAL LIVE CHECK AND DIAGNOSTIC OBSERVATIONS
+
+BIWN TEST PREVIEW — LIVE KEYBOARD REVIEW
+
+The installed three-caller Test Preview opens through its actual app bundle. CUA observed P start/pause, Up movement,1thenD entering Deck,0returning to the street,and Esc closing. Runtime recorded1981frames,21keyevents,842coordinate returns,842input returns and421scan returns. GPU/Deck guards and immutable native code checks pass. Audio output remains silent (zero nonzero PCM samples). C+Up was not verified: CUA rejected that two-nonmodifier chord before execution.
+
+A live-observed visual defect remains: Deck appears as a green diagonal area surrounded by distorted geometry. An exact-input headless replay matches all1423sampled CPU-PC,RAM hashes,video hashes and joypad states. This reproduces the visual defect independently of the Tkinter display.
+
+Two explicit diagnostic RAM controls restored18original Deck entry bytes,and then66original Deck-plus-eight-GPU-wrapper entry bytes. Both execute original Deck bodies,with zero native Deck entries;the second also has zero native GPU-wrapper entries. Both still show the visual defect. Other compiled routines,the13frame restoration and emulator remain in these controls,so root cause is still unresolved. Control captures differ in animation phase and are not claimed pixel-identical. Installed app and disc unchanged.
+
+Artifacts and exact diagnostic patches:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-keyboard-live-v2/20261020T080755.190068Z
+
+Latest four-caller image is still separate;full source reconstruction,physical console fidelity and complete model/teaching acceptance remain unfinished.

@@ -1,0 +1,23 @@
+BIWN — 110D4 COORDINATE LAYOUT RECOVERY
+
+The complete110D4routine is recovered as coordinator C. It selects one of six coordinate layouts and emits twelve words,retaining source/destination ordering for aliases. Its extent is688bytes:676instructionbytes across185instructionlocations plus12jump-table data bytes.
+
+1,408host C/original68000 cases pass across six valid/five invalid selectors,source indices,partial registers,flags,both stack banks and eight alias patterns.65host bus-error cases retain earlier writes and leave supplied CPU unchanged. Four compiled source mutations are rejected:wrong shift scale,D1high-word loss,X-flag loss,and cached source reads that break aliases. This finite aggregate is not every flag/index/alias cross-product.
+
+A256case geometry comparison executes geometry plus all four recovered helpers as C against all five original68000bodies.110D4 is no longer a substituted service there;only1142E/10734 remain fixtures. An early invalid fixture overwrote descriptor pointer400E6 while seeding an overlapping source record;its failure/diagnosis are retained. Corrected valid-RAM seeds pass256cases.
+
+The new compiled68000prototype also passes256geometry/four-helper cases across101task slots. First integration used164of176private stack bytes. Observing the actual C-service entry instead of an added marker call reduced this to152,leaving24measured finite bytes. The36,548byte module passes4,992retained caller and1,280fullCPU/fullRAM invalid/busy fallback cases. No new arena is added. It is not yet a final-address disc or a fresh gameplay result;the Desktop preview is unchanged.
+
+The prior three-helper fresh pair still has92video-frame differences. Read-only comparison now identifies first nonstatic CPU/GPU divergence atframe24619,first video divergence24621,57movie-flag difference frames,29held-button-state difference frames and four sparse actor-snapshot differences. Host input requests match for the first400trial frames;player coordinates match in compared recorded frames. Final image equality does not prove gameplay equivalence. Timing is a candidate cause,not a proven sole cause.
+
+A new frozen training set has17train,one scheduler validation and four code-test tasks. It includes the exact rejected geometry branch/counterexample and correct whole-file C,plus corrections to the Reviewer BGT/RTS mistakes. The new110D4code family is excluded from gradients and selection. The three resource tests retain prior exposure;shared headers/concepts prevent a broad independent-generalization claim. Complete examples fit8,834tokens under the tested8,960limit.
+
+Four actual fresh-base local generations pass zero of four code gates. The plane output reaches its5,000token limit and is incomplete. A reference scoring-wrapper metadata bug was found before optimizer updates;the launcher was stopped while its evaluation child finished. The corrected exact wrapper passes1,408reference/65error cases;unchanged saved C is regraded without new inference. The stopped attempt is retained separately.
+
+The frozen64update,one-layer rank8 pilot is now dispatched from the locked27B6bit base,with512MiBfree-cache cap,full context,128token target-head chunks and eager execution. Actual saved checkpoints will be rescored on validation before adapter test generation. No default promotion is authorized by loss. Completed optimizer reports at this snapshot: 1. Job: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/jobs/20261020T165024.164982Z
+
+Next: Build and qualify a final-address four-helper candidate with exact aliases/nested caller checks and updated real-service observers. Finish64update game pilot,select solely on actual saved validation checkpoints,and grade the same four unedited code outputs before model adoption. Whole-game rebuilding,broader accepted game training,arbitrary suspension/IRQ,fidelity and portable migration remain incomplete.
+
+Recovered source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-plane-layout-v1/coordinator-reference.c
+Native prototype: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-plane-v3b/20261020T164841.177273Z/build/native-shared.bin
+Training baseline: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/game/geometry-v4-20261020T164053.588459Z/base-evaluation/20261020T164154.567504Z

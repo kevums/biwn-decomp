@@ -1,0 +1,212 @@
+{
+  "status": "generated_unverified",
+  "instructions": 33,
+  "instructions_decoded": [
+    {
+      "address": 15740960,
+      "size": 6,
+      "bytes": "981c314000f0",
+      "assembly": "movei   $f03140,r28"
+    },
+    {
+      "address": 15740966,
+      "size": 6,
+      "bytes": "981e210000f0",
+      "assembly": "movei   $f02100,r30"
+    },
+    {
+      "address": 15740972,
+      "size": 2,
+      "bytes": "d380",
+      "assembly": "jump    (r28)"
+    },
+    {
+      "address": 15740974,
+      "size": 2,
+      "bytes": "a7dd",
+      "assembly": "load    (r30),r29"
+    },
+    {
+      "address": 15741248,
+      "size": 6,
+      "bytes": "981c78cc0007",
+      "assembly": "movei   $778cc,r28"
+    },
+    {
+      "address": 15741254,
+      "size": 2,
+      "bytes": "a79e",
+      "assembly": "load    (r28),r30"
+    },
+    {
+      "address": 15741256,
+      "size": 2,
+      "bytes": "083e",
+      "assembly": "addq    $1,r30"
+    },
+    {
+      "address": 15741258,
+      "size": 2,
+      "bytes": "bf9e",
+      "assembly": "store   r30,(r28)"
+    },
+    {
+      "address": 15741260,
+      "size": 2,
+      "bytes": "189f",
+      "assembly": "subq    $4,r31"
+    },
+    {
+      "address": 15741262,
+      "size": 2,
+      "bytes": "bfe0",
+      "assembly": "store   r0,(r31)"
+    },
+    {
+      "address": 15741264,
+      "size": 6,
+      "bytes": "981cd858000b",
+      "assembly": "movei   $bd858,r28"
+    },
+    {
+      "address": 15741270,
+      "size": 2,
+      "bytes": "a79e",
+      "assembly": "load    (r28),r30"
+    },
+    {
+      "address": 15741272,
+      "size": 2,
+      "bytes": "189c",
+      "assembly": "subq    $4,r28"
+    },
+    {
+      "address": 15741274,
+      "size": 2,
+      "bytes": "a780",
+      "assembly": "load    (r28),r0"
+    },
+    {
+      "address": 15741276,
+      "size": 2,
+      "bytes": "03c0",
+      "assembly": "add     r30,r0"
+    },
+    {
+      "address": 15741278,
+      "size": 2,
+      "bytes": "d4a4",
+      "assembly": "jr      nc,00F0316A"
+    },
+    {
+      "address": 15741280,
+      "size": 2,
+      "bytes": "bf80",
+      "assembly": "store   r0,(r28)"
+    },
+    {
+      "address": 15741282,
+      "size": 2,
+      "bytes": "185c",
+      "assembly": "subq    $2,r28"
+    },
+    {
+      "address": 15741284,
+      "size": 2,
+      "bytes": "a380",
+      "assembly": "loadw   (r28),r0"
+    },
+    {
+      "address": 15741286,
+      "size": 2,
+      "bytes": "0820",
+      "assembly": "addq    $1,r0"
+    },
+    {
+      "address": 15741288,
+      "size": 2,
+      "bytes": "bb80",
+      "assembly": "storew  r0,(r28)"
+    },
+    {
+      "address": 15741290,
+      "size": 2,
+      "bytes": "a7e0",
+      "assembly": "load    (r31),r0"
+    },
+    {
+      "address": 15741292,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741294,
+      "size": 6,
+      "bytes": "981e31ac00f0",
+      "assembly": "movei   $f031ac,r30"
+    },
+    {
+      "address": 15741300,
+      "size": 2,
+      "bytes": "d3c0",
+      "assembly": "jump    (r30)"
+    },
+    {
+      "address": 15741302,
+      "size": 2,
+      "bytes": "397d",
+      "assembly": "bset    $b,r29"
+    },
+    {
+      "address": 15741356,
+      "size": 2,
+      "bytes": "a7fc",
+      "assembly": "load    (r31),r28"
+    },
+    {
+      "address": 15741358,
+      "size": 6,
+      "bytes": "981e210000f0",
+      "assembly": "movei   $f02100,r30"
+    },
+    {
+      "address": 15741364,
+      "size": 2,
+      "bytes": "085c",
+      "assembly": "addq    $2,r28"
+    },
+    {
+      "address": 15741366,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31"
+    },
+    {
+      "address": 15741368,
+      "size": 2,
+      "bytes": "3c7d",
+      "assembly": "bclr    $3,r29"
+    },
+    {
+      "address": 15741370,
+      "size": 2,
+      "bytes": "d380",
+      "assembly": "jump    (r28)"
+    },
+    {
+      "address": 15741372,
+      "size": 2,
+      "bytes": "bfdd",
+      "assembly": "store   r29,(r30)"
+    }
+  ],
+  "source_payload_sha256": "e301842fdd6b91640e24888484e5b405ee86dd6cdba02f84b577e9d0cfa589ee",
+  "source_sha256": {
+    "biwn_gpu_timer.c": "ac28a65268cf118f6ded3b37981d0ba52ca886b36f415c9658e77515b089575b",
+    "biwn_gpu_timer.h": "4ea5cddf794aed56b0c6ed109633209aa84e10a64dc86e9b04215f582a1f1c6a"
+  },
+  "generator_sha256": "147f1cfcd4eec4f7927abcb135f18e553bdc14ed713e6ce26aa5680def40050b",
+  "whole_game_complete": false,
+  "new_published_components": 0
+}

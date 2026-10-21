@@ -1,0 +1,70 @@
+{
+  "status": "terminal_unedited_local_predicate_host_and_M68000_oracle_pass_not_runtime_guard",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z",
+  "pid": 54973,
+  "host_cases": 1440596,
+  "native_cases": 16280,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "game_image_changed": false,
+  "installed_preview_changed": false,
+  "runtime_entry_guard_qualified": false,
+  "native_Chat_verified": false,
+  "host_case_digest": "8175cf7ead83ec06b125f18d3501dc94f3bb051081ccec51ce186b9e3cd467e9",
+  "planned_native_cases": 16280,
+  "native_module_bytes": 120,
+  "native_stack_bytes": 8,
+  "native_max_instructions": 40,
+  "host_groups": {
+    "exhaustive_one_slot_stack_and_reserve_boundaries": {
+      "cases": 998911,
+      "admitted": 114481,
+      "rejected": 884430
+    },
+    "every_slot_stack_reserve_mode_cross_product": {
+      "cases": 72720,
+      "admitted": 3232,
+      "rejected": 69488
+    },
+    "all_interior_pool_task_addresses": {
+      "cases": 103429,
+      "admitted": 101,
+      "rejected": 103328
+    },
+    "every_SR_low_word": {
+      "cases": 65536,
+      "admitted": 32768,
+      "rejected": 32768
+    },
+    "seeded_full_uint32_and_near_valid_random": {
+      "cases": 200000,
+      "admitted": 5024,
+      "rejected": 194976
+    }
+  },
+  "candidate_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/candidate.c",
+  "candidate_statement_edits": 0,
+  "local_model_authored": true,
+  "admitted_native_cases": 941,
+  "elapsed_seconds": 2.23,
+  "all_101_slots_exercised": true,
+  "C_ABI_callee_save_and_return_SP_verified": true,
+  "external_memory_accesses": false,
+  "linked_external_calls": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_local_input_task_admission_v1.py": "662bba212f6dbcc16e9c2c2cbc2111f008c8cf72d42abac748b3884ea379b789",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-author-v1-current.json": "3e53578ddc3fc162fc627bf38f922b3afbf651a824004e9b12fe92fc9dcb708a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-task-admission-author-v1/20261021T093410.005331Z/candidate.c": "5fc5b121cb0130839d4d4e46009e0153317601c41651b60f607304d7776b06d4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/host-groups.json": "a13e6ba021eba7def46dd8a8eabbab2518250527bdb67a9828129f46f7a2f0c1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/native-cases.json": "42b802234c9819d98ffbff86f2125a433efa7b07bb51f3613401274ecb543047",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/build-commands.json": "a033523b9269229692d377321dbb12f683648c67c78a483e9d2e1d2200207a92",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/build.log": "e548ee1fdae1555b7031339effb65bcde7e6b65ef499882e25a83568d2b30c31",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/link.ld": "db6f18a2b3187a1a43428cbf7bc9d0b72c8fbef2c97048bf03e9c498ed0bb55a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/admission.dylib": "fbccccef63535adeb7ca2c7d068e46e64b477f8d52911b20ee5025cc3f36e8c2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/admission.o": "11300afffcd3759cca87c06e7e4e7ac3c44772325b30c2580a9eef9436622fcf",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/admission.elf": "971da9043026b35e426430dec0210b1446eb9241863200e7d7e2558595561ea7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/admission.bin": "05673eb7f484b3096fa5d38294b5efc2a109018558807b261863f0765dc87e1f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/admission.disassembly.txt": "0c06f3dacd3c2495b555c3614d339f099814d17d009b78accf139a99b6f8953a"
+  },
+  "scope": "Unedited local C99 predicate on trusted fixture C-ABI stack. Independent Python big-integer set/range oracle. Every original slot, boundaries, uint32 extremes, exhaustive one-slot SP/reserve and all65536lowSRwords tested. Real68000instructions, callee-save/returnSP and private-only accesses pass. Does not establish safe preflight on invalid stacks, real helper or arbitraryIRQ bound, caller equivalence, image placement, fresh game or training gain."
+}

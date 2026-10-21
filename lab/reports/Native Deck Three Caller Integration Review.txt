@@ -1,0 +1,24 @@
+BIWN THREE-CALLER NATIVE INTEGRATION — 2026-10-20T07:09:03.962904+00:00
+
+The separate experimental disc now compiles object scan11828, input11B4C and coordinate11D1A to68000. Three of the six recovered Deck callers remain hosted-only:11AD4geometry collection,11E6Couter task and1186Aface contact. These six callers are a Deck subsystem, not the entire game. The existing algorithm files were retained; this turn added one native caller integration and a new shared-frame bridge.
+
+Fresh candidate/control:25008frames each, including400ordinary input frames. Candidate126calls/returns for EACH of scan/input/coordinate; control original scan139calls and native input/coordinate139returns. Recorded CPU/GPU/DSP/video/navigation fields match for24608pre-input frames, excluding declared RAM/stage hashes. Final images match. All retained monitor errors/pending/outside counts are zero, all101Deck slots retain7fences, all102GPU slots retain fences, and immutable code matches. NativeGPUreturns: [5523, 85, 85, 5733, 5733, 15593, 876, 1649].
+
+The scan has252helper returns:126input+126coordinate. Optional face contact was not reached naturally in this route; its branch is covered by declared component/nesting fixtures. Arbitrary suspension/reentrancy/IRQ, cycle/audio/physical fidelity remain unverified.126versus139updates is a real timing difference. The explicit13-frame restoration changes original16-frame behavior.
+
+Components:2880cases at prototype addresses and the same2880fixture family at final addresses;128connected scenarios at each layout with800input+800coordinate calls and1600suspended-frame comparisons per matrix.768fallback cases compare fullCPU and allRAM without normalization across both banks/allCCR.6startup+192heap-initialization cases,36capacity requests and56region negative controls pass. Code53892bytes, total reservation183616bytes, initialheap214272bytes; no increase to the101x1024Deck arena.
+
+Local model work:3actual sequential review roles on the loaded advertising-scholar model, plus2actual local status streams. Same weights do not provide independent verification. Analyst mislabeled PC/USP/SSP as return words; Reviewer did not correct it. Raw responses retained; coordinator source correction is separate. No model code adopted. No optimizer updates;1exposed source-offset curriculum family prepared,0heldout families. The actual one-click briefing returned44words in4.35seconds.
+
+LM Studio UI observation timed out after120.61seconds; this turn continued headless as authorized. No native Chat display or locked-screen state is inferred. Updated native Chat evidence routing passes a zero-inference check for current3/3game facts and the Advertising2-role grammar workflow. Advertising research/teaching training and broader reliability remain unfinished.
+
+Desktop BIWN Native Preview still uses the earlier reviewed coordinate-only image; the new disc is separate. Whole-game source rebuilding and physical-console validation are incomplete. New artifacts still need migration and future-hardware testing.
+
+NEW EXPERIMENTAL DISC
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-shared-v2/20261020T065849.288955Z/BIWN-23-native-Deck-shared-v2-experimental.cdi
+
+EXACT MODEL PROMPTS AND RESPONSES
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-shared-delivery-v2/20261020T070903.962904Z/prompts-and-responses.txt
+
+DETAILED GAME PROOF
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-shared-reviewed-v2-current.json

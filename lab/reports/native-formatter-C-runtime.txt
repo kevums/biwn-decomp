@@ -1,0 +1,31 @@
+BIWN: FRESH C CPU INTEGRATION AND LOCAL CODE AUTHOR
+2026-10-18T23:20:30.148983+00:00
+
+The repaired 14,690-byte experimental disc now has a matching host C CPU provider. In a fresh 24,975-frame merchant and outdoor-return comparison, full CPU state, all 2 MB RAM, saved GPU/DSP state, video and navigation match at every recorded frame. Captured PCM is byte-identical. A separate fresh 1,600-frame pair also matches. Neither test restores a checkpoint or patches live guest RAM.
+
+The long C run implements 433,073,691 ordinary 68000 instruction steps in C and 25,440 HLE return adapters after mainstage4000, with zero original 68000 opcode fallback or rejections. The 2,837,350 pre-mainstage bootstrap callbacks still use the native core. GPU, DSP, device, blitter/object-processor and IRQ event services remain retained emulator providers. Frame equality is scoped to these exact runs, not arbitrary internal instruction interleavings, other scenes, hardware or a standalone console source build.
+
+LOCAL MODEL CONTRIBUTION
+The local Code Author's first draft failed 832 of 1,024 native cases because of SR bits and stack handling. A guided revision, with explicit bitmasks and native counterexamples, passes 8,192 individual-instruction cases across all CCR values, both CPU modes and all interrupt masks, plus seven host-error checks. The accepted C text was not edited by the coordinator. This is six fixed entries implementing a coordinator-authored restoration repair; it is not a newly recovered original BIWN function, a held-out general code benchmark or new weight training.
+
+The coordinator added the other missing instruction forms and runtime wiring. Their 414 newly supported instruction entries pass 79,488 native CPU fixtures with full CPU and 2 MB RAM comparisons. The 24,962-entry static catalogue and its 4,916 native-image starts are compile metadata, not original-game function coverage. Older failed preparation receipts remain unchanged; the later completed bridge and runtime proofs supersede them for this candidate.
+
+The earlier native formatter-versus-original-helper Deck lanes retain their position/video differences. The new equal result compares C and native execution of the same repaired disc. It does not erase those earlier differences, prove an overall speedup or establish physical audio quality.
+
+Exact model prompts and responses:
+Initial: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/GPU-wait-Code-Author-20261018T225926.828920Z
+Guided revision: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/GPU-wait-Code-Author-revision-20261018T230347.713918Z
+
+Reusable C source and build instructions:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/native-formatter-runtime-C
+
+Proofs:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/GPU-wait-Code-Author-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/GPU-wait-Code-Author-revision-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/GPU-wait-local-C-check-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-C-bridge-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-C-new-forms-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-C-fresh-pair-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-C-merchant-pair-current.json
+
+No existing preview or model weights were promoted. Advertising research and teaching entry points remain available; no advertising training or evaluation data changed in this work. Remaining work includes broader source/runtime integration, more scenes and exception/IRQ cases, native Chat usability, useful training gains, authenticated console boot, audio listening and future 256 GB hardware testing.

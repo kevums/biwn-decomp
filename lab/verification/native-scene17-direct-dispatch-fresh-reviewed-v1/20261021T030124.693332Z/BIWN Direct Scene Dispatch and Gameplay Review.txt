@@ -1,0 +1,18 @@
+BIWN — direct internal scene dispatch, fresh route review
+
+The v29 experimental image completes 25,027 candidate and 24,964 control frames from a fresh HLE CD boot. All 6,286 native scene calls and 26,514 captured-helper calls return. Native display-list, rotation and clear helpers each return 5,284 times. Retained/shared/face/geometry/outer/reset/clear/rotation/display monitors finish clear and quiescent. No checkpoint restoration or host RAM/CPU/task repair was used.
+
+The shared module is 48,410 bytes. Exact deployed tests cover 1,153 display-body cases and 772 scene cases; observed connected C stack is 168 of 208 bytes, leaving 40 bytes. Copied sources and SDK rebuild the exact deployed module. All eight final component/startup/heap gates pass, with additional fallback, nesting, alias, connected and read-only witness controls. This specializes private helper dispatch; it adds zero newly recovered original functions and no model-authored code.
+
+The feedback routes differ on 8,478 paired video frames and 471 held-input samples. Final video agrees: True. Selected final game fields agree: True. Their feedback inputs differ, so these counts do not isolate a logic, timing or speed cause. Audio captures are retained in the raw comparison; no audio-fidelity claim follows.
+
+The identical-input 1,000-frame prefix differs on 445 video frames, first at frame 550. The new original-scene control differs from the prior v27 control on 100 video frames. Layout and boot-copy changes confound comparisons across variants. Prefix calls may still be active; raw pending/end-arena data and independent fence checks are retained. This prefix is not complete-route acceptance.
+
+Linked native code is 89,240 bytes; total reservation is 277,248 bytes; boot copy is 115,648 bytes; initial heap is 120,640 bytes. Minimum sampled free heap while the outer task was active: candidate 880, control 880 bytes. These samples do not establish the global heap minimum. Scene C-stack margin is measured separately from heap availability.
+
+Other original rendering, CPU/GPU/DSP, device and HLE dependencies remain. The global original helpers remain available to other callers. Normal-call component and finite game-route checks do not prove arbitrary IRQ/intermediate shadow-state behavior, audio or physical-console fidelity. The installed Desktop checkpoint preview is unchanged.
+
+No new local predictions, optimizer updates or adopted trained weights were produced in this continuation. The earlier Reader36 response remains a separate development test. Whole readable-source rebuilding, complete same-console rebuilding, useful training quality and copied-weight Native Chat usability remain incomplete.
+
+Disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-dispatch-v1/20261021T024239.597935Z/BIWN-23-native-scene17-direct-dispatch-v1-experimental.cdi
+Comparison: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-fresh-reviewed-v1/20261021T030124.693332Z/fresh-comparison.json

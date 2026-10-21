@@ -1,0 +1,89 @@
+{
+  "status": "terminal_actual_TOM_GPU_pending_level2_vector64_source_handler_RTE_resumes",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-source-GPU-irq-probe-v1/20261021T112103.440048Z",
+  "pid": 61837,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "initial_INT1": 2,
+  "initial_TOM_request": 1,
+  "final_INT1": 0,
+  "final_TOM_request": 0,
+  "steps": [
+    {
+      "PC": 24576,
+      "SR": 0,
+      "SP": 789760
+    },
+    {
+      "PC": 59352,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59358,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59362,
+      "SR": 8708,
+      "SP": 1900526
+    },
+    {
+      "PC": 59384,
+      "SR": 8708,
+      "SP": 1900526
+    },
+    {
+      "PC": 59388,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59390,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59398,
+      "SR": 8712,
+      "SP": 1900526
+    },
+    {
+      "PC": 59402,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59406,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59412,
+      "SR": 8704,
+      "SP": 1900526
+    },
+    {
+      "PC": 59420,
+      "SR": 8708,
+      "SP": 1900526
+    },
+    {
+      "PC": 59424,
+      "SR": 8708,
+      "SP": 1900538
+    }
+  ],
+  "source_GPU_IRQ_flag": 65535,
+  "source_handler": 59348,
+  "resolved_vector": 64,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/probe_native_source_GPU_irq_v1.py": "c6146b41b562947d397a584256e19ed6ca3d7e6e5cd342e402ec6e2fd78868d9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/libbiwn-movement-device.dylib": "8fce35edb67c6f547864e32cde7acabf98a6bc0269efe7a147647c4f33ad095e"
+  },
+  "scope": "OneexplicitTOMGPU-pendingeventwithINT1enable3andCPUlevel2. Actualnativeexceptionentry/sourcehandler/RTE,no fabricatedframe. IdleNOPboundaryonly;notresourcearena,firmwarebit0,arbitraryIRQorconsolequalification."
+}

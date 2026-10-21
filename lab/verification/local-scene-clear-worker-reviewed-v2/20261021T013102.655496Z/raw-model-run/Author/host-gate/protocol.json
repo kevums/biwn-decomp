@@ -1,0 +1,32 @@
+{
+  "status": "terminal_structured_clear_dual_CPU_RAM_order_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate",
+  "pid": 85580,
+  "completed": 256,
+  "new_predictions": 0,
+  "new_training": false,
+  "host_guards": 14,
+  "original_instruction_coverage": [
+    15,
+    15
+  ],
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/clear.dylib",
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene_clear_candidate_host_v1.py": "1d0f62588fb96707b49833874a851f58417d9dc7ee17389497357feca73d95ff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/body.inc": "eb3496c23a93e2fd398afa0b61be981036aae88dda74ff5a43683df4d96c7191",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/candidate-with-primitives.inc": "79d42e3e12c6416cc26d2133db182259f2863576576e80697df6fcf735499fc4",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/candidate-wrapper.c": "820b90494b64e3626d07c7293d386dde7b83b4353a856ecdd6bf60b85f567d10",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_structured_host_v2.py": "cf0c3808835f26089974aa66cba997a8fd472abb790bdb9c17ccd8c589621cd7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-structured-host-v1/20261020T230553.352177Z/libscene-draw-cpu.dylib": "65e7bda162f6db8ce79c202abae789b17594b8e9f4ea14119e1935731917bc91",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/scene-draw-fullCPU-generation.json": "5b29199377d602a836309b3d785e8161e7c40cf8ae9c3d0002af622e211353b1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-clear-structured-v1/host-wrapper.c": "c40b30c59ba1289d79c1270f9486abee51149557253a90f8144a9895d02e2be0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/scene-clear-structured-v1/coordinator-reference.inc": "ae7fc24840dc1cb8c2b853eb429bf0d6bc65a0821d5c0b26f3b9867098dbfd9d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/clear.dylib": "d9be0d3400c6c1f520318c8af3e2b0f6f6788bd78851f2eb0723608548fc4c43",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/cases.json": "6cbeb8c33ae133f63bdb4f1cd825aa609f54dbf29e826109a4b56865d0eaad34",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/vectors.json": "4fba5c0a8522e3046b83efab70ba1af2e676ce16feac075ec3af545a0e11bc95",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/host-gate/guards.json": "c13c05331dfb5a78b63fd6dcd9584243a5002124d3aae247b5120095d4a05dbf"
+  },
+  "candidate_body": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene-clear-worker-v2/20261021T012913.731494Z/Author/body.inc",
+  "supplied_coordinator_primitives": true,
+  "scope": "Readable clear versus original pinned M68000 and Unicorn; actual pinned blitter and controlled busy reads. All256complete CPU/2MB RAM/private guest frames and ordered Unicorn/C bus comparisons. All32CCR and both banks; body/full-call; edge-valued clear patterns and controlled busy MMIO reads; actual pinned blitter rasterizes submissions. No target machine code, fresh game, IRQ or console proof. No new unique original routine."
+}

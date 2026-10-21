@@ -1,0 +1,18 @@
+BIWN — readable scene caller and native integration
+
+The scene drawing caller at 17E0E now has a readable implementation covering the complete CPU state and a compiled 68000 bridge in a separate experimental disc. Logical and static instruction-level source already existed for this routine. This is not a new unique original function or a complete decompilation. The Desktop preview is unchanged.
+
+Who did what: Codex reconstructed the body and bridge and reviewed the evidence. The copied local 27B 6-bit model ran Author and Repair sequentially, taking 69.84 and 90.76 seconds. Both returned identical code and failed CPU/RAM verification. Neither was adopted. Exact prompts and raw answers:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-scene17-source-v1/20261020T231757.204147Z/prompts-and-responses.txt
+
+Host checks: 1,024 matrix cases across scene/clear/rotation, including 768 scene cases, plus 33 separate error controls. The first full run completed its matrix but failed an added guard expectation; that run remains failed. Separate corrected guard checks reused the unchanged completed matrix. Initial harness faults are preserved. Four original CPU traces verify all three CLR read/write sites. The recorder cannot supply read values or access widths; separate expanded Unicorn comparisons check those semantics.
+
+Actual target code: 64 standalone and 64 in-place native cases. Shared bridge: 768 cases across 101 task slots, all 32 CCR values and both stack banks; 92 of the available 208 C stack bytes used. Existing callers: 4,992 regressions plus 16 fallbacks; geometry: 256. Another 384 fallback cases preserved the entire arena. An actual injected nested scene JSR passed 64 cases and preserved the suspended 118-byte context and 208-byte C stack. Public bus order passed 14 scene and 13 input cases. No arena bytes were added.
+
+The new experimental CDI contains a 44,514-byte shared module and 85,344 linked native bytes, leaving 124,544 initial heap bytes. The copied portable sources and copied 68000 SDK rebuild the same 44,514-byte module. Its exact deployed scene module passes 768 cases. Eight existing final-address, startup, heap and outer-caller gates pass. A generated startup-path error stopped the first driver; its successful geometry and caller matrices were reused by the corrected continuation. The failed first driver remains preserved. Final scene fallback (384), nested JSR (64), and public bus (14) cases also pass. Cross-root alias, read-only observer qualification and fresh gameplay remain pending. Original clear/rotation and lower service/device dependencies remain as declared. Physical-console and whole-game rebuilding are unverified.
+
+The older input-CLR candidate still has eight video differences, with matching final video. That comparison does not qualify this new scene disc. No optimizer updates or accepted adapter were added here. Copied-weight native Chat and useful model quality remain open.
+
+Next: Qualify scene17 at final disc addresses with cross-root input/face alias and connected calls,then extend read-only observers for the new root and validate fresh candidate/control gameplay. Preserve8video differences from the older inputCLR candidate;new scene disc has no fresh fidelity result yet. Continue remaining CPU/GPU/DSP/HLE/device recovery,same-console whole-game building,useful model training/untouched evaluations and copied-weight native Chat.
+
+Experimental disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-v1/20261020T232840.228908Z/BIWN-23-native-scene17-v1-experimental.cdi

@@ -1,0 +1,5 @@
+ACTUAL LOCAL REVIEWER ANSWER — BOUNDED FINAL ANSWER ACCEPTED
+
+**Reviewer:** The repaired native CDI installs only 11D1A; five callers remain hosted-only: 11B4C input (462 bytes), 11828 object scan, 11AD4 geometry collection, 11E6C outer task, and 1186A face contact (618 bytes). The repaired disc reaches 140 coordinate calls/returns and all 8 GPU roots. The earlier unrepaired native test image had zero calls and four read retries; the unmodified original-disc baseline stopped before the matching input trial. Next step: extend 11B4C Deck input to native source. Critical verification: actual helper-suspension, reentrancy, and IRQ paths under the fresh repaired-disc boot.
+
+This final answer was checked against current source evidence after repeated feedback. The Restorer handoff still incorrectly says input drives the other callers; it is retained as rejected reasoning. The 140-call fresh-disc proof and 2444-call restored keyboard test are separate runs. No new native game routine or optimizer update was produced in this usability turn.

@@ -1,0 +1,45 @@
+{
+  "movie0": {
+    "candidate_changes": 16,
+    "control_changes": 16,
+    "same_value_sequence": true,
+    "paired_offset_shifts": [
+      0,
+      0,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14,
+      14
+    ]
+  },
+  "movie1": {
+    "candidate_changes": 0,
+    "control_changes": 0,
+    "same_value_sequence": true,
+    "paired_offset_shifts": []
+  },
+  "held": {
+    "candidate_changes": 7,
+    "control_changes": 7,
+    "same_value_sequence": true,
+    "paired_offset_shifts": [
+      0,
+      0,
+      0,
+      0,
+      14,
+      -1,
+      0
+    ]
+  }
+}

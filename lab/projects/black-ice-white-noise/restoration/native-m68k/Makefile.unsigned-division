@@ -1,0 +1,12 @@
+include Makefile
+UNSIGNED_SOURCE ?= unsigned-division-native.c
+.PHONY: unsigned-division
+unsigned-division: $(BUILD)/native-unsigned-division.bin
+$(BUILD)/unsigned-division-shim.o: unsigned-division-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/unsigned-division-native.o: $(UNSIGNED_SOURCE) unsigned-division-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Os -Wall -Wextra -Werror -I. -c $< -o $@
+$(BUILD)/native-unsigned-division.elf: $(BUILD)/unsigned-division-shim.o $(BUILD)/unsigned-division-native.o unsigned-division.ld
+	$(CROSS)ld --gc-sections -T unsigned-division.ld -Map $(BUILD)/native-unsigned-division.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-unsigned-division.bin: $(BUILD)/native-unsigned-division.elf
+	$(CROSS)objcopy -O binary $< $@

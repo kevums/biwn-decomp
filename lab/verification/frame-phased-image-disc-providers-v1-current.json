@@ -1,0 +1,22 @@
+{
+  "status": "terminal_readable_records_actual_inherited_providers_CPU_RAM_boundaries_pass",
+  "pid": 66851,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-disc-providers-v1/20261021T122302.031444Z",
+  "completed": 512,
+  "new_predictions": 0,
+  "new_training": false,
+  "disc_changed": false,
+  "maximum_C_stack_bytes": 120,
+  "actual_inherited_provider_calls": 8351,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_frame_phased_image_disc_providers_v1.py": "8dda3b3c2ea8297a6682b3b04d6066fe8ffb6c525088bbe7b9d6373bd9319067",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_geometry_records_structured_native_v4.py": "01a22ab2c18eb9390dbd9eed693b95ea7c504d3e78efd1c2197df5c76034d01e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_geometry_records_structured_host_v1.py": "52eaab05f4ee2b38e2d1927122a038ce5dffabff4c65f82b9c0c700115f37739",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-acquire-phased-disc-build-v1-current.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-frame-phased-image-final-bridge-v1-current.json": "3ccf5f8a9d23d2720a8facf0042d2ef0ba596179bd5fb3434ea5be39327e345f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/resident-with-arenas.bin": "0c916fb9f75ad61fb2d8246ad947b7a92ec9a9f2c70f85c783e1673d1cdce2fd",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-frame-acquire-phased-v1/20261021T121514.474648Z/mainstage-frame-acquire-phased-v1.bin": "c67b413b3d6e44c38a84143cb2748c39dce1c872af08a49def9d1caeb7668a5f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/frame-phased-image-disc-providers-v1/20261021T122302.031444Z/cases.json": "91a301e8847710f40cbd0a2f1ccfd97380fb6aede0c17222be1983a413143acc"
+  },
+  "scope": "Readable170A0 against its actual inherited disc copy/matrix providers.\n\nBoth lanes load the same built stage/resident,including older native global\nE3E0/E220/E098 redirects. Reference executes original170A0; target executes new\ncompiled body/capture assembly. Synchronous originalGPU4320 is a declared device\nprovider. This compares the new body against inherited restoration behavior,\nnot original helper equivalence,gameplay,arbitraryIRQ or console timing.\n No bus-order proof in this fixture. All2MBRAM except supplied118byte context and208byteCstack compares,including inherited helper guest-stack bytes. Physical return-PC at capture seam alone is normalized to original guest continuation for CPU snapshot comparison. Both lanes execute the identical older provider machine code."
+}

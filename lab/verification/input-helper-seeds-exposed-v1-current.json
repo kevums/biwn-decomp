@@ -1,0 +1,23 @@
+{
+  "status": "prepared_exposed_input_helper_seed_lessons_not_trained",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/input-helper-seeds-exposed-v1/20261021T085422.457195Z",
+  "examples": 2,
+  "exposed_case_families": 1,
+  "heldout_families": 0,
+  "optimizer_updates": 0,
+  "new_weights": false,
+  "new_predictions": 0,
+  "target_author": "Coordinator lessons grounded in preserved26failed cases and2315passing corrected component cases;not model-authored.",
+  "excluded_from_untouched_quality_evaluation": true,
+  "sft_sha256": "9a259f45223fd661429ff8d1ec96e63bdea5183cae81f78b9facda04d078aaec",
+  "source_proofs": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-all-states-v2-current.json",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-all-states-v3-current.json"
+  ],
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/prepare_input_helper_seed_lesson_v1.py": "726a33ea8c0a7d167ca069553465be1747a1ff06ba32d31c347402e034c69fa7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-all-states-v2-current.json": "ff02e793b5e60ded6984f6e996ce6423391d1a9a1eb35c5b03a079c9ec0247f2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-all-states-v3-current.json": "6118d427b5cd75600d78a890e855194b25edfecc048c42dde1332d2fab9462c1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/training/input-helper-seeds-exposed-v1/20261021T085422.457195Z/sft.jsonl": "9a259f45223fd661429ff8d1ec96e63bdea5183cae81f78b9facda04d078aaec"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "status": "local_dispatcher31_accepted_scoped_C_draw_zero_GPU_four_references_match",
+  "programs": [
+    {
+      "status": "accepted_standalone_C_full_instruction_comparison_not_live_renderer_integration",
+      "CPU_header": "0x52e0",
+      "GPU_load_address": "0xf03240",
+      "payload_words": 300,
+      "payload_bytes": 1200,
+      "payload_SHA256": "015e07d4c6fbfa726c9af2f5bc9a15b99e4d0ff225d38402f23eff4239bd9b92",
+      "C_reconstructed": true,
+      "bounded_C_comparison": true,
+      "source_instruction_coverage": [
+        450,
+        450
+      ],
+      "live_CPU_wrapper_linked": false,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-projection-checks.json",
+      "GPU_cases": 48
+    },
+    {
+      "status": "accepted_local_model_case_bodies_with_coordinator_framework_standalone_and_hybrid_checks",
+      "CPU_header": "0x57a0",
+      "GPU_load_address": "0xf03240",
+      "payload_words": 58,
+      "payload_bytes": 232,
+      "payload_SHA256": "fce74d073b12af994ccb8a0f38f3882e65f5614ce5c8c594093cefe12b8bb760",
+      "C_reconstructed": true,
+      "source_instruction_coverage": [
+        73,
+        73
+      ],
+      "standalone_cases": 64,
+      "hybrid_cases": 4,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-setup57-checks.json"
+    },
+    {
+      "status": "resident_C_bounded84_and_experimental_six_program_hybrid4_passed_83instructions_unexercised",
+      "CPU_header": "0x58a0",
+      "GPU_load_address": "0xf03440",
+      "payload_words": 694,
+      "payload_bytes": 2776,
+      "payload_SHA256": "9f14522e92bc2a5b3d9bb2db0adb7a2dfb897709bf3f500ef7c6f58203ef25ff",
+      "C_reconstructed": false,
+      "C_candidate_present": true,
+      "experimental": true,
+      "source_instruction_coverage": [
+        1192,
+        1275
+      ],
+      "candidate_cases": 84,
+      "host_guards": 17,
+      "hybrid_cases": 4,
+      "hybrid_resident_calls": 28,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-resident-candidate-checks.json"
+    },
+    {
+      "status": "accepted_local27B_case_bodies_unchanged_standalone36_and_combined_hybrid4",
+      "CPU_header": "0x6380",
+      "GPU_load_address": "0xf03240",
+      "payload_words": 54,
+      "payload_bytes": 216,
+      "payload_SHA256": "cc814113b2caff027e238494608ec6cf47c3f3036dc981c76bd2a299ade050c8",
+      "C_reconstructed": true,
+      "source_instruction_coverage": [
+        67,
+        67
+      ],
+      "standalone_cases": 36,
+      "host_guards": 16,
+      "combined_hybrid_cases": 4,
+      "combined_hybrid_calls": 32,
+      "local_model_case_bodies": true,
+      "coordinator_case_body_edits": false,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-consumer6380-checks.json"
+    },
+    {
+      "status": "accepted_material_C_all402_instructions_standalone45_and_five_program_hybrid4",
+      "CPU_header": "0x6460",
+      "GPU_load_address": "0xf03240",
+      "payload_words": 90,
+      "payload_bytes": 360,
+      "payload_SHA256": "23bb9e1f9a7f540f688d105c7462a6565cb9456c6ee4e082224e992729d44882",
+      "C_reconstructed": true,
+      "cases": 17,
+      "source_instruction_coverage": [
+        148,
+        148
+      ],
+      "uncovered_instruction_addresses": [],
+      "host_guards": 18,
+      "source_sha256": {
+        "biwn_gpu_material6460.c": "8472d424c6c3b59b83b17f9e9a03f8c654bf10d2c8a3971258331a636a076e35",
+        "biwn_gpu_material6460.h": "b9ea0d598817833af407ae020fea3911972ef15aeb47f79c3280dbc47d253691"
+      },
+      "coordinator_generated": true,
+      "local_model_case_bodies": false,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-material-checks.json"
+    },
+    {
+      "status": "accepted_material_C_all402_instructions_standalone45_and_five_program_hybrid4",
+      "CPU_header": "0x6720",
+      "GPU_load_address": "0xf03240",
+      "payload_words": 72,
+      "payload_bytes": 288,
+      "payload_SHA256": "40824dca5c4441aff0622243188446168665ca9c118dc2157dfca3148aee4cac",
+      "C_reconstructed": true,
+      "source_stage_SHA256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+      "observed_in_integer_draw_chain": true,
+      "scope": "Complete header-sized source payload preserved and linearly decoded. Dynamic command reach does not prove every instruction, code/data boundary, renderer completeness or original author intent.",
+      "cases": 14,
+      "source_instruction_coverage": [
+        127,
+        127
+      ],
+      "uncovered_instruction_addresses": [],
+      "host_guards": 19,
+      "source_sha256": {
+        "biwn_gpu_material6720.c": "5cb6be732de3718ff5f5374413cfa2a019123822fb6ae6cbd38146669a5c9b58",
+        "biwn_gpu_material6720.h": "2f35605ff02f31edc6cc88dd3cc6a75e16f2b3b1cd7080febbb374b921c9bef1"
+      },
+      "coordinator_generated": true,
+      "local_model_case_bodies": false,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-material-checks.json"
+    },
+    {
+      "status": "accepted_material_C_all402_instructions_standalone45_and_five_program_hybrid4",
+      "CPU_header": "0x69a0",
+      "GPU_load_address": "0xf03240",
+      "payload_words": 72,
+      "payload_bytes": 288,
+      "payload_SHA256": "a481cad27128cc3dd1ae7af358eb950a27dc49d97f41c57c9aa0ff05e210ce98",
+      "C_reconstructed": true,
+      "source_stage_SHA256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+      "observed_in_integer_draw_chain": true,
+      "scope": "Complete header-sized source payload preserved and linearly decoded. Dynamic command reach does not prove every instruction, code/data boundary, renderer completeness or original author intent.",
+      "cases": 14,
+      "source_instruction_coverage": [
+        127,
+        127
+      ],
+      "uncovered_instruction_addresses": [],
+      "host_guards": 19,
+      "source_sha256": {
+        "biwn_gpu_material69a0.c": "34aa7093690eca8c782fa950334f82565117af31cdcb06398c4f4a83d76556e7",
+        "biwn_gpu_material69a0.h": "e9c98f35bc760c88a95d8459c893bc79804a11780a04800978b4b171829290f1"
+      },
+      "coordinator_generated": true,
+      "local_model_case_bodies": false,
+      "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-material-checks.json"
+    }
+  ],
+  "CPU_wrappers": {
+    "0xe19e": {
+      "program": "GPU52E0",
+      "C_standalone_verified": true,
+      "source_instructions": 14,
+      "cases": 128,
+      "live_linked": false
+    },
+    "0xe202": "GPU57A0"
+  },
+  "scope": "The source31-instruction GPU dispatcher loop now passes72original-GPU comparisons and15hostguards, including flags before every sampled instruction. Its final C instruction bodies are local27Boutputs composed from24remediator bodies,5flag repairs and2CMP repairs. Codex supplied engine/primitives/typed operands, native tests and PC-based assembly, including missing case-label scaffolding for2bodies. No instruction text was hand-edited. Earlier drafts failed compilation for nonexistent state fields and missing ADDQflag updates; an intermediate compiled candidate matched end state but failed per-instruction CMPflags. All attempts retained. This is task-specific repaired output, not general autonomous coding reliability. Four observed draw slices now run dispatcher plussixshader routines as C after host submission:61dispatcher calls,4setup calls,32consumer calls,21material calls,28resident calls and2722shared pinned-blitter commands. GPU execution through the bridge is guarded:zeroattempts andzerooriginalGPUExec calls during these draw slices. Actual command order,sourcePCorder,fullRAM/GPUarchitecture and blitter readbacks match original references. Preceding world/geometry/projection still execute native code in this test; CPU E19E/E202 remain host-adapted, and the shared synchronous emulator blitter remains a backend dependency. Resident58A0 remains experimental with1192of1275instructions covered in84separatecases;83unexercised. 122selected components112CPU/10GPU now include the dispatcher LOOP, not the complete636byte mainGPUboot program. Resident candidate is not counted. Counts are not completion percentage. Localmodel instruction bodies total171across setup/consumer/dispatcher; material/resident C is coordinator-generated. Full live C scene integration, whole-GPU context, remaining resident paths/modes, overlay/display, tasks/scenes/audio/boot/fullgame, raster-backend disagreement and native easy Chat/advertising evaluation remain unfinished.",
+  "draw_chain": {
+    "source_GPU57A0": "Loads2776bytes from CPU58A8 toGPUF03440 then queues command6380 before returning dispatcher.",
+    "sequence": [
+      "0x57a0",
+      "resident0x58a0",
+      "0x6380"
+    ],
+    "original_dispatcher_executed": true,
+    "draw_chain_verified": "OriginalGPUoracleonly_fourcases",
+    "projection_list_head_values": [
+      1
+    ],
+    "projection_completion_scope": "Integer-mode projection leaves head1 in all four retained draw inputs. The later original draw chain consumes and clears it.",
+    "queued_commands": [
+      "0x57a0",
+      "0x6380",
+      "0x6460",
+      "0x6720",
+      "0x69a0"
+    ],
+    "C_reconstructed": false,
+    "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-draw-integer-original-probes.json",
+    "C_setup57_verified": true,
+    "C_full_draw_chain_verified": false,
+    "hybrid_C_setup_calls": 4,
+    "hybrid_report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-material-hybrid-checks.json",
+    "GPU_division_control": 0,
+    "remaining_C_programs": [
+      "resident dispatcher F031BE",
+      "0x58a0"
+    ],
+    "C_consumer6380_verified": true,
+    "hybrid_C_consumer_calls": 32,
+    "C_materials_verified": true,
+    "hybrid_C_material_calls": {
+      "0x6460": 9,
+      "0x6720": 6,
+      "0x69a0": 6
+    },
+    "experimental_C_resident_verified_in_retained_cases": true,
+    "experimental_hybrid_report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-resident-hybrid-checks.json",
+    "original_GPU_execution_remaining_in_experiment": [
+      "resident dispatcher F031BE"
+    ],
+    "observed_C_dispatch_draw_slice_verified": true,
+    "observed_C_draw_report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-GPU-C-draw-checks.json",
+    "original_GPU_execution_remaining_in_observed_C_draw": [],
+    "C_full_draw_chain_all_paths_verified": false
+  },
+  "dispatcher_loop": {
+    "source_interval": [
+      "0xf031be",
+      "0xf03200"
+    ],
+    "source_instruction_coverage": [
+      31,
+      31
+    ],
+    "cases": 72,
+    "host_guards": 15,
+    "local_model_instruction_bodies": true,
+    "complete_mainGPUboot_reconstructed": false,
+    "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/biwn-gpu-dispatcher-checks.json"
+  }
+}

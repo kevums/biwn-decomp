@@ -1,0 +1,7 @@
+{
+  "parent": "projects/black-ice-white-noise/restoration/native-m68k/deck-shared-v33-geometry-records-v1",
+  "source": "projects/black-ice-white-noise/restoration/experimental/geometry-records-strides-v1/coordinator-reference.inc",
+  "changes": "Two signed lowword index multiplications use actual MULS.W and capture NZVC;all logical registers,bus/helper/guest-stack effects unchanged. No source or disc promotion.",
+  "authorship": "coordinator",
+  "original_instructions_recovered_new": 0
+}

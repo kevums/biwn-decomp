@@ -1,0 +1,17 @@
+THIS_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+LAB_ROOT := $(abspath $(THIS_DIR)/../../../..)
+CROSS ?= $(LAB_ROOT)/tools/m68k-elf/bin/m68k-elf-
+BUILD ?= build-resource-table-initialize
+CFLAGS := -m68000 -msoft-float -std=c99 -Os -ffreestanding -fno-pie -fno-common -Wall -Wextra -Werror
+.PHONY: resource-table-initialize
+resource-table-initialize: $(BUILD)/resource-table-initialize.bin
+$(BUILD):
+	mkdir -p $@
+$(BUILD)/body.o: $(THIS_DIR)/resource-table-initialize.c | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -c $< -o $@
+$(BUILD)/shim.o: $(THIS_DIR)/resource-table-initialize-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/resource-table-initialize.elf: $(BUILD)/shim.o $(BUILD)/body.o
+	$(CROSS)ld -Ttext=0x148000 -e biwn_native_resource_table_initialize -o $@ $^
+$(BUILD)/resource-table-initialize.bin: $(BUILD)/resource-table-initialize.elf
+	$(CROSS)objcopy -O binary $< $@

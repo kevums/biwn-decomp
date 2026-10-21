@@ -1,0 +1,19 @@
+DECK SCENE RECOVERY AND VISIBLE LOCAL OUTPUT
+
+Recovered two more complete routines as coordinator-authored structured C:11828..1186A active-object scan and11AD4..11B4C geometry collection. Together186originalbytes/54instruction locations,byte-matched to extracted mainstage. Both are complete callers with explicit helper dependencies and original CPU/private-stack/CCR effects; no per-instruction switch in these bodies.
+
+512 original-native-CPU comparisons pass,covering both banks/all32CCR,16record masks,later-record mutation,positive/zero/negative movement states,angle wrapping and64orientation combinations. Full16registers/PC/SR/USP/SSP,2MBRAM/privateframes andhelper-entry state match.150 added host-error checks pass. Four compiled defects(wrongrecordstride,missinglastrecord,zerotreatedpositive,wronganglerounding)are rejected. Component helpers are declared ABI/effect fixtures; their internals are separate.
+
+Connected source pipeline executes the new scan17times andgeometrycollection16times alongside17calls to the preceding readable coordinate routine. It renders16iterations,exits,restorescache andresumes theworld. All31 native/Ccheckpoints match;149actual GPUcommands execute with zero originalCPU/GPU on Cpath. CapturedRAM,suppliedworldentry/two-context ring,experimental selector/count13 overlay andBIOS/disc providers remain. This does not prove ordinary unpatched gameplay,timing orphysicalconsole behavior. NativeCDI remains34784codebytes;newhostedcallers are notinstalled in it.
+
+Revised local-code output trial: Author194.02seconds,sole repair224.17seconds,both failcase0. The new Author fixes absolute-memory dereferences but loses the low-byte NOT mask,omits the47B88PEA argument and fails guestregister/flag synchronization. Its repair again changes no executable C after comments/whitespace are removed. No raw source adopted,no weight update. Exactprompts/answers: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-coordinate-native-20261019T165351.550533Z/prompts-and-responses.txt
+
+Live local status Reader: loaded27B model returns the source-checked54word JSON answer in5.71seconds;first message1.184seconds,99message fragments/107events. Raw SSEjournal and partialresponse are saved and match the final answer exactly. The Reader preserves coordinator authorship,hosted/native distinction,unchangeddisc andincompletewholegame/hardware scope. This is one warm evidence-supplied answer,not code-generation reliability or cold-load benchmark.
+
+The Desktop Live BIWN Briefing.command starts this visible local status task immediately. Main menu option11 does the same. Option10 now shows full Author prompts and partial response live through the same tested streaming function; this V3 code driver has not yet completed an actual inference run. Native LM Studio Chat display/tool adoption remains unverified. Streaming protocol source: https://lmstudio.ai/docs/developer/rest/streaming-events
+
+Source: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-scene-source/deck-scene-source.c
+Live Reader transcript: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/Deck-status-live-20261019T170056.581945Z/prompts-and-responses.txt
+Integration proof: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/deck-scene-readable-world-loop-v1-current.json
+
+The full four-part goal remains active:complete readable/native game reconstruction,remainingGPU/DSP/services,reliableAdvertisingworkflows,nativeChat,latestportablemigration andactualfuturehardware checks are incomplete.

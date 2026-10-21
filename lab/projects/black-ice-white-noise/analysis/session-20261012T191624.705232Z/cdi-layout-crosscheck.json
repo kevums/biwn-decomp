@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/cdi-inspect",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/originals/BIWN#23.cdi"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "result": "All track fields agree between bounded Python reader and compiled pinned CDIrip C reader",
+  "limitation": "The Python reader is adapted from CDIrip; this checks porting/implementation differences, not independent format correctness or game execution."
+}

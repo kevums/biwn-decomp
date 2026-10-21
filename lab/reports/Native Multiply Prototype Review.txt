@@ -1,0 +1,9 @@
+NATIVE MULTIPLY — PROTOTYPE REVIEW
+
+E540 remains original in the latest gameimage and was entered23206times in its savedfreshroute. Newcoordinator context/entry adaptations recover its signed32bit product,D1lowunsignedproduct,A0/A1outputs andunusualsign-word-derived flags. Body2192cases pass;publicentry2192cases plus1600guards pass. Newsharedmodule also passes4992retained callers/256geometrycases. The entry uses32privateCstackbytes andno extra gueststackspills;the original2bytesignscratch andordered argument/signword/RTS accesses are checked. One runtime task-pointerread is explicitlyextra.
+
+Performance blocksadoption:8sampled publicentry paths use2288..2516emulatedcycles versus196..374original,about6.7..11.7times thecost. No physicaltiming orwholegamebenchmark isclaimed. GlobalE540redirect,finaladdress/naturalalias/IRQ/observer/freshgates remainpending;no newdisc orpreviewpromotion.
+
+Standalonecontext and shared-module entry prototypes. All logical/physical returnCPU and publicRAM/stack bytes plus original guest bus order compare with originalM68000;one task metadataread is declared extra. Internalcoordinate dispatch is also checked in the new module. Publicguards coverzero,negativeA,INT_MIN,twonegatives,negativeB acrossallCCR/bothmodes withbusy/invalidtask reasons. Newglobalentry isnotredirected in a game image;actualnestedaliases/IRQ/finaladdresses/freshglobalplayability remain unproven. The existing disc still uses originalglobalE540.
+
+Evidence:/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/multiply-and-copied-training-reviewed-v1/20261020T211512.585430Z

@@ -1,0 +1,27 @@
+{
+  "entries": [
+    {
+      "entry": "0xe3e0",
+      "pinned_original_bytes": "226f0004206f0008222f000c",
+      "inherited_disc_bytes": "4ef90015f1220008222f000c",
+      "inherited_native_target": "0x15f122",
+      "unchanged_by_this_build": true
+    },
+    {
+      "entry": "0xe220",
+      "pinned_original_bytes": "4eb90000e09823ef000400f0",
+      "inherited_disc_bytes": "4ef9001673d223ef000400f0",
+      "inherited_native_target": "0x1673d2",
+      "unchanged_by_this_build": true
+    },
+    {
+      "entry": "0xe098",
+      "pinned_original_bytes": "0cb90000000000f0320066f4",
+      "inherited_disc_bytes": "4ef90016270800f0320066f4",
+      "inherited_native_target": "0x162708",
+      "unchanged_by_this_build": true
+    }
+  ],
+  "prototype_used_pinned_original_providers": true,
+  "final_image_provider_equivalence_unproven": true
+}

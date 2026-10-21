@@ -1,0 +1,32 @@
+{
+  "status": "terminal_native_input_copied_sources_SDK_build_byte_identical",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-copied-build-v2/20261021T084117.925704Z",
+  "copied_source": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1",
+  "copied_build": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/builds/native-input-copied-v2/20261021T084117.925704Z",
+  "copied_SDK": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/tools/m68k-elf",
+  "bytes": 10240,
+  "copied_compiler_resolves_inside_package": true,
+  "package_path_contains_spaces": true,
+  "relative_recipe_handles_spaces": true,
+  "byte_identical": true,
+  "new_predictions": 0,
+  "new_training": false,
+  "new_disc_built": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_input_copied_build_v2.py": "273b25aea32321e34abf0e613b882d3886acb6d87527e2c407364a8a95b129fb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-prototype-v1-current.json": "6df6dbc755a763ebef9491b4b8100c18e81a6beccfe69f5d63c410f0559cd31d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-copied-build-v2/20261021T084117.925704Z/compiler.log": "f3ce51303bf7d842025e43c3ee12bafa40cbfa715a3eee9d40d7501d6467678e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-input-copied-build-v2/20261021T084117.925704Z/copied-native-input.bin": "7f4d07eb937ba711d43abc839c77aa26de091d627ac745cd4edf4078e6eb7502",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/Makefile.portable": "2204e70412d0032671310a44c4c7e18bf15a3db9876a083a78ea156aeecb1158"
+  },
+  "copied_source_sha256": {
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/native.ld": "5b91cb95529959d6075e87b310c5014c923ea5d63816b9ce27a227f2d7c58f5f",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/Makefile": "4a9330f921b290c78b986d9003846d0a6041ab2e5727084be8249e0a7caf2ccb",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/Makefile.portable": "2204e70412d0032671310a44c4c7e18bf15a3db9876a083a78ea156aeecb1158",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/input-source.c": "bbf9b65ac9614b18c3dfe95b28b0eca14e4f6c3c95c65d841e789a24e8ff839f",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/first-build-error.txt": "49b1fb0bb0102a9977d0397c2481383635bc3529cde1796403a4cfd7a3f2d502",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/native-input.c": "b2155201a3e74e500e6d6c2ac9a3b3e928ec99a5c7175d88081cf0202188937f",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/source-provenance.json": "256628523ad9249bacb1fb6556120ba3330d137a06cdf74316b31b67474894f3",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/projects/black-ice-white-noise/restoration/native-m68k/input-dispatch-native-v1/physical-call.S": "2c7b0aa1912777859d758690ddf8e6cc44864e68e4e8308a22b4668f43eec450"
+  }
+}

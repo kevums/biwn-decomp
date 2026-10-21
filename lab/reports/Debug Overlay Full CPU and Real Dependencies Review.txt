@@ -1,0 +1,9 @@
+BIWN — 10734 DEBUG CALLER: FULL CPU AND ACTUAL DEPENDENCIES
+
+Structured C now recovers the entire10734..10968caller,including its56byte private frame,register preservation,flags,all eight display rows and seven ordered MMIO writes. Against original68000it passes256fullCPU/bank/wholeRAM/hardware/public-bus cases,all141instruction locations and172host-error cases. The standalone matrix uses declared formatter/text fixtures for3,072calls. Neither fixture supplies pixels:the real pinned blitter regenerates10,080poisoned bytes each case.
+
+A separate256case chain removes those helper fixtures. Actual recovered fullCPU formatter1B45A/numeric/string/math and149AEtext/alignment/multiply C execute against their original68000bodies. CompleteCPU/banks,whole2MBRAM including private/global scratch,blitter registers,top-level entries and provider call counts match.600original instruction locations are reached in this captured-font/valid-string-index set;this is not full coverage of every formatter/text path. Their broader earlier proofs remain separate.
+
+Four compiled defects are rejected:unsigned MOVEA.W,signed MULU,wrong final argument cleanup,and issuing the blitter command before its count. The source also compiles to a3,808byte M68000object with no undefined symbols. That object has not executed or entered a candidate disc.
+
+Remaining:compose it with all geometry helpers,then integrate target code with stack/capture/error/nesting/final-address/fresh checks. Real dependency chain uses captured font and string indices0,1,2,31. Arbitrary DMA aliases,async mutation/IRQ,timing,physical display and full-game rebuilding are unverified. This new source is coordinator work;no model-authored routine or optimizer update was adopted.

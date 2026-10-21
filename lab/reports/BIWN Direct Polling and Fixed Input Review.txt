@@ -1,0 +1,18 @@
+BIWN — direct GPU completion polling, v24
+
+The candidate completes 24,978 fresh frames and the same-layout original-scene control completes 24,962. All 6,473 native scene calls and 38,424 helper calls return; the control records 6,717 original scene calls. Shared, geometry, outer and reset monitors finish clear and quiescent. No checkpoint restore or host RAM/CPU/task repair.
+
+There are 7,374 differing paired video frames and 323 differing held-input samples. Final video equal: True. Final selected game fields equal: True. Navigation uses feedback, so these full routes do not receive identical frame-by-frame input. Raw differences remain preserved.
+
+The separate equal-input comparison replays the exact original control buttons for1,000frames. V23 has189video differences and v24 has194; both first differ at549, before the held-input sample difference600. Controls match video, selected gameplay fields and GPU/DSP states across the two builds. One control CPU N-flag difference at frame181 is preserved; full CPU identity is not claimed. The v23 control replay also matches the prior CPU/video/full-RAM capture. This experiment shows that direct polling alone does not resolve the early presentation differences. Live GPU calls at the fixed cutoff are recorded, with all102slot fences independently checked; this is a prefix measurement, not route completion.
+
+V24 replaces the native callback polling path with physical TST.L $10A684/BNE instructions. The two long-wait cases add two target instructions per extra busy read versus28previously. This is not a14times game speedup or a hardware-cycle result. Logical flags commit on completion; intermediate logical flags and arbitrary interrupt equivalence remain unproven. The44,108-byte module occupies the previous44,226-byte reservation using118NOPpadding. Staging/copy sizes, arena addresses and124,864initial heap bytes are retained. Linked native code totals84,938bytes.
+
+The deployed module passes770CPU/RAM/helper cases and all eight final image gates, plus384fallback,64nested-scene,14bus-order,256scene/input/face alias,256cross-root alias,128geometry alias and128connected cases. Read-only monitors pass512actual scene/fallback/reentry lanes,64geometry lanes and64reset input pairs plus corruption controls. Copied SDK/source rebuilding is byte-identical. These are finite emulator/component results; full game, audio, arbitrary IRQ and physical-console fidelity are incomplete.
+
+Codex authored this target glue. Earlier local Scene Author/Repair outputs remain rejected; this turn performs no optimizer updates or new local predictions. The local poll-review attempt was busy and generated no responses. LM Studio UI inspection timed out. The installed game preview remains unchanged. Its launcher menu now selects the current v4 GUI; launch validation passes and saved controls include Shift+Up.
+
+Next: diagnose the original/native scene boundary differences under fixed inputs; remove remaining original helper dependencies with readable source and real native checks. Continue useful model training/evaluation when the shared model runtime is available. Do not promote this image as fidelity-approved.
+
+Experimental disc: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-scene17-direct-poll-stable-v1/20261021T002129.590699Z/BIWN-23-native-scene17-direct-poll-stable-experimental.cdi
+Detailed full-route comparison: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-poll-fresh-reviewed-v1/20261021T003910.324662Z/fresh-comparison.json

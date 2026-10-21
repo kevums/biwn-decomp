@@ -1,0 +1,5 @@
+In file included from /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/geometry-records-structured-v1/host-wrapper.c:14:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-geometry-prologue-reviewed-v2/20261021T055140.815763Z/Author_Prologue/composite.inc:62:17: error: unused variable 'u' [-Werror,-Wunused-variable]
+   62 |     uint32_t v, u;
+      |                 ^
+1 error generated.

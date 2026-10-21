@@ -1,0 +1,426 @@
+[
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "callee",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "commit",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "SP",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "word",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "SR",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "missing_return",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "duplicate_public",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "GPU_alias",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "resource_inside_GPU",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "C_low",
+    "rejected": true
+  },
+  {
+    "group": "resource_commit_and_owner",
+    "fault": "C_other_slot",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "other_task_GPU",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "parked_low",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "parked_high",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "wrong_frame",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "wrong_guest",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "wrong_low_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "duplicate_switch",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "wrong_return_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 0,
+    "fault": "missing_helper_return",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "other_task_GPU",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "parked_low",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "parked_high",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "wrong_frame",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "wrong_guest",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "wrong_low_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "duplicate_switch",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "wrong_return_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 1,
+    "fault": "missing_helper_return",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "other_task_GPU",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "parked_low",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "parked_high",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "wrong_frame",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "wrong_guest",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "wrong_low_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "duplicate_switch",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "wrong_return_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 2,
+    "fault": "missing_helper_return",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "other_task_GPU",
+    "rejected": false
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "parked_low",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "parked_high",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "wrong_frame",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "wrong_guest",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "wrong_low_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "duplicate_switch",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "wrong_return_SP",
+    "rejected": true
+  },
+  {
+    "group": "parked_state_and_helper_return",
+    "kind": 3,
+    "fault": "missing_helper_return",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "callee",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "SP",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "missing_route",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "duplicate_call",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "bad_entry_SP",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "bad_entry_word",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "native_stack_low",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "native_supervisor",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "native",
+    "fault": "missing_return",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "none",
+    "rejected": false
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "callee",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "SP",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "missing_route",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "duplicate_call",
+    "rejected": true
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "bad_entry_SP",
+    "rejected": false
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "bad_entry_word",
+    "rejected": false
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "native_stack_low",
+    "rejected": false
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "native_supervisor",
+    "rejected": false
+  },
+  {
+    "group": "input_route_commit",
+    "route": "original",
+    "fault": "missing_return",
+    "rejected": true
+  },
+  {
+    "group": "missing_public_resource",
+    "rejected": true
+  }
+]

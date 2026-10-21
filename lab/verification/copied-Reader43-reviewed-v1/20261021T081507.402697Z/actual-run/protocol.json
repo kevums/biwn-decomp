@@ -1,0 +1,57 @@
+{
+  "status": "terminal_streamed_current_Reader43_pending_source_review",
+  "directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z",
+  "pid": 49873,
+  "new_predictions": 1,
+  "new_training": false,
+  "native_Chat_verified": false,
+  "MCP_connection": {
+    "transport": "actual_reference_MCP_stdio",
+    "configuration_sha256": "e9c917a22b1bcc3f6d64b48b7a4045e2e08b26ddf05b74c3f42f5c71a14eb696",
+    "server": {
+      "name": "Local AI Lab",
+      "title": null,
+      "version": "1.26.0",
+      "websiteUrl": null,
+      "icons": null
+    },
+    "tools": [
+      "start_biwn_frame_test",
+      "biwn_frame_test_status",
+      "verify_68000_fixture",
+      "render_inventory_preview",
+      "plan_checked_outdoor_doorway",
+      "plan_checked_indoor_exit",
+      "show_latest_checked_scene",
+      "show_checked_actor_motion",
+      "render_animation_preview",
+      "get_mode3_source_task_status",
+      "inspect_boot",
+      "verify_scene_record_candidate",
+      "verify_scene_initial_candidate",
+      "score_supplied_rubric",
+      "get_game_function_task",
+      "verify_game_function_candidate",
+      "project_evidence",
+      "search_references"
+    ]
+  },
+  "main_start_to_evidence_ready_seconds": 15.458,
+  "model_identifier": "portable-ailab-4f5658686590-daily",
+  "main_start_to_generation_seconds": 15.758,
+  "seconds": 8.27,
+  "first_stream_message_seconds": 2.124,
+  "main_start_to_completion_seconds": 24.061,
+  "words": 99,
+  "word_limit_pass": true,
+  "source_sha256": {
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/scripts/run_deck_status_live_v43.py": "6253f735637860b49bd33e8e223903fb29acc8a491ea47a912dd23d4c16ff3db",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/local_stream_inference_v2.py": "9a74221d95d65a6bbf24ba6e91e41f341d6d81f532b839c6ed38ba8356a3bc95",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/full-MCP-evidence.json": "aa7339df19ba5612e9ed13961721fbe68af5043e2e133c6e778ec9ceb0485f1c",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/evidence.json": "8607ef0b19da20e2f2f4d3fa16d8a8becd22fc111742cee098a772083b27603a",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/prompt.json": "55c239223d53d24a16fbe653cf04f4fe1b2c1488a0ad4eecee7c52776e4b6889",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/response.json": "2ffc6d6d8d8c70b627a86a4b619e1f8f89707a44f4fe1a10b51878b978751dcc",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/response.txt": "db279fe714691445b92cda9db4813c1fff359966cfc3f57f263e4b86ec003282",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v43-20261021T080902.416070Z/stream-events.jsonl": "35d9c3c4f2a4dd2dd3b05adc71ed873b847ffa32e4ee3b5b22f23bb47c50b0f5"
+  }
+}

@@ -1,0 +1,5890 @@
+[
+  {
+    "outer": "input",
+    "case": 0,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 778,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 1,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 2,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 3,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 4,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 5,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 6,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 7,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 8,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 9,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 10,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 11,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 12,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 13,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 14,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 15,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 16,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 17,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 18,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 19,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 20,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 21,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 22,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 23,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 24,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 25,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 26,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 27,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 28,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 29,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 30,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 31,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 782,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 32,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 33,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 34,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 771,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 35,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 36,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 37,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 38,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 39,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 40,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 41,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 42,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 43,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 44,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 45,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 46,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 47,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 48,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 49,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 50,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 51,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 52,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 53,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 54,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 55,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 56,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 57,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 58,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 59,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 60,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 61,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 62,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 63,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 775,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 0,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1006,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 1,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 2,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 3,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 4,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 5,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 6,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 7,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 8,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 9,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 10,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 11,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 12,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 13,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 14,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 15,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 16,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 17,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 18,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 19,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 20,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 21,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 22,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 23,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 24,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 25,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 26,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 27,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 28,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 29,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 30,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 31,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1010,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 32,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 33,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 34,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 996,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 35,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 36,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 37,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 38,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 39,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 40,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 41,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 42,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 43,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 44,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 45,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 46,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 47,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 48,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 49,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 50,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 51,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 52,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 53,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 54,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 55,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 56,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 57,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 58,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 59,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 60,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 61,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 62,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "input",
+    "case": 63,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 1000,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 1,
+      "face": 0
+    },
+    "fallback_entries": {
+      "input": 0,
+      "face": 1
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 0,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2540,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 1,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 2,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 3,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 4,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 5,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 6,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 7,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 8,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2622,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 9,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 10,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 11,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 12,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 13,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 14,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 15,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 16,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2622,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 17,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 18,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 19,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 20,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 21,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 22,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 23,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 24,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2622,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 25,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 26,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 27,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 28,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 29,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 30,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 31,
+    "reset_trigger": false,
+    "mode": 0,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2625,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 32,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2577,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 33,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 34,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2495,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 35,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 36,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 37,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 38,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 39,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 40,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2577,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 41,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 42,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 43,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 44,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 45,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 46,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 47,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 48,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2577,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 49,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 50,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 51,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 52,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 53,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 54,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 55,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 56,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2577,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 57,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 58,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 59,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 60,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 61,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 62,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 63,
+    "reset_trigger": false,
+    "mode": 8192,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2580,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 0,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2545,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 1,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 2,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 3,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 4,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 5,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 6,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 7,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 8,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2627,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 9,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 10,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 11,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 12,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 13,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 14,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 15,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 16,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2627,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 17,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 18,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 19,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 20,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 21,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 22,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 23,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 24,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2627,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 25,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 26,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 27,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 28,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 29,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 30,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 31,
+    "reset_trigger": true,
+    "mode": 0,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2630,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 32,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 0,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2582,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 33,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 1,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 34,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 2,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2500,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 35,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 3,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 36,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 4,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 37,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 5,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 38,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 6,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 39,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 7,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 40,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 8,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2582,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 41,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 9,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 42,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 10,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 43,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 11,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 44,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 12,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 45,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 13,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 46,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 14,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 47,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 15,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 48,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 16,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2582,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 49,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 17,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 50,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 18,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 51,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 19,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 52,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 20,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 53,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 21,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 54,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 22,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 55,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 23,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 56,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 24,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2582,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 57,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 25,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 58,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 26,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 59,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 27,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 60,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 28,
+    "task": "0xc0928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 61,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 29,
+    "task": "0xc0d28",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 62,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 30,
+    "task": "0xc2128",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  },
+  {
+    "outer": "face",
+    "case": 63,
+    "reset_trigger": true,
+    "mode": 8192,
+    "flags": 31,
+    "task": "0xd9928",
+    "full_CPU_nonarena_RAM_helper_entries_match": true,
+    "instructions": 2585,
+    "native_entries": {
+      "input": 1,
+      "face": 1
+    },
+    "native_returns": {
+      "input": 0,
+      "face": 1
+    },
+    "fallback_entries": {
+      "input": 1,
+      "face": 0
+    },
+    "suspended_alias_frame_preserved": true
+  }
+]

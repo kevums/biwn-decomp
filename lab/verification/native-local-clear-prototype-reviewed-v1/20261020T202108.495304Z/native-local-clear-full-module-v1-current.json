@@ -1,0 +1,25 @@
+{
+  "status": "terminal_exact_shared_local_body_260_original_and_42_budget_contracts_match",
+  "pid": 52092,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-full-module-v1/20261020T201724.242957Z",
+  "completed": 260,
+  "new_predictions": 0,
+  "new_training": false,
+  "native_disc_changed": false,
+  "budget_cases": 42,
+  "payload_sha256": "2597267a2f361129d1af52b8bf8c90ebff94f75f90fca7d566f37d993e5cc21a",
+  "module_bytes": 40064,
+  "actual_instruction_work_bound": 50000000,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_local_clear_full_module_v1.py": "3f1df3a3dfb688b95d0f6d5a50ad883ed9508b79c47a145cf477106d3019919e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-local-clear-real-v1-current.json": "79d35c162faf59ec438eb766e4379f7b9f72197a8cc4df47d5687ad68287877f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/deck-clear-local-typed-v3/clear-records.c": "d62febdc4606d9c614b9c37d3e2c298a09eac668ceeed744ad489c800f6daf4a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/typed-deck-primitives-v1/typed-registers.h": "b6c08d9786cd63dccde003136cc4b9a8f69752b934326b360d83f450223424ab",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-full-module-v1/20261020T201724.242957Z/raw-body-reference.c": "314fb3e24cc429618b6faadf697c60befe361e8f3d8710abc296e8547a0c25ed",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-full-module-v1/20261020T201724.242957Z/reference.dylib": "3c25bed2ef41e187bc1ec2b890b155492262c558050b3163e4c775df5152a585",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-local-clear-real-v1/20261020T201002.772831Z/build/native-shared.bin": "2597267a2f361129d1af52b8bf8c90ebff94f75f90fca7d566f37d993e5cc21a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-full-module-v1/20261020T201724.242957Z/cases.json": "bfa233dbcc6458f4526f6ab3d5702af93abe3fbc36a3f66b27d2185e53eb594d",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-full-module-v1/20261020T201724.242957Z/budgets.json": "14c400839d1870a880adbb8185d8587a27805519d09c235cdcee1220db7b788d"
+  },
+  "scope": "Exact shared-module local body across the full original helper matrix.\nExecute unmodified linked bytes under the pinned68000and independentUnicorn;\ncompare raw-body CPU,publicRAM and ordered bus accesses with the raw local C.\nNative directbus cannot report host callback failures. No disc/IRQ/fidelity claim.\n Contextservice/opaque/budget bytes andcallee-savedphysicalCregisters remainintact. Task-privatecontext/Cstack alone normalized. ActualmoduleCPUlogicalRTSstate comparesoriginalafter reversingonlyitsouterRTSpop. All32CCR/bothbanks andlarge/signedcountboundaries retained.42budgetcasescomparepartialprivateCPU/RAM/order withrawfunctionbody,includingzerobudget. Hostcallbackfailurebehavior remains theseparatelyqualifiedportablecontract."
+}

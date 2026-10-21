@@ -1,0 +1,3 @@
+The reviewed baseline is the v34 signed record strides variant. It reports 4,777 native record/display returns and 8,717 differing video frames, with the final video agreeing. A newer pending image exists but remains unpromoted. Its final matrix-video gate failed, showing different expanded poses alongside the pixel mismatch.
+
+The baseline connected scene stack used 168 bytes and reserved 208 bytes. Sampled outer-active free heap was 14,320 bytes. The preview is unchanged, and a full source-only same-console rebuild is unproven. Coordinator authorship is confirmed. Latest local coding failed, with zero new weight updates. Earlier base and adapter scores were 0/4 each.

@@ -1,0 +1,13 @@
+00000060 a TRANSIENT_CONTEXT
+00162724 A NATIVE_ADDRESS
+00162724 T biwn_frame_phased_entry
+00162790 T biwn_frame_phased_divs_first_instruction
+001627c6 T biwn_frame_phased_divs_empty_instruction
+001627d6 T biwn_frame_phased_divs_evict_instruction
+00162820 T biwn_frame_phased_after_loader
+00162860 T biwn_frame_phased_return
+00162862 T biwn_frame_phased_start
+00162abe T biwn_frame_phased_after_first_divs
+00162cd0 T biwn_frame_phased_after_group_divs
+0017f31c A TAIL_ADDRESS
+0017f31c T biwn_frame_phased_after_load

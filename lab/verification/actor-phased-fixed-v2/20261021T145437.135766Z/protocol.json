@@ -1,0 +1,99 @@
+{
+  "status": "terminal_fixed_actor_phased_components_and101taskslots_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z",
+  "pid": 75959,
+  "completed": 2112,
+  "new_predictions": 0,
+  "new_training": false,
+  "disc_integrated": false,
+  "source_accepted": true,
+  "artifacts": {
+    "dispatch": {
+      "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-dispatch/native.bin",
+      "ELF": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-dispatch/native.elf",
+      "symbols": {
+        "TRANSIENT_CONTEXT": 96,
+        "biwn_actor_dispatch_phase": 1456008,
+        "biwn_native_actor_dispatch": 1456328,
+        "biwn_actor_dispatch_after_actor": 1456426,
+        "biwn_actor_dispatch_after_sprite": 1456460,
+        "biwn_native_actor_dispatch_return": 1456482,
+        "NATIVE_ADDRESS": 1638400
+      },
+      "code_address": 1456008,
+      "binary_bytes": 476,
+      "entry": 1456328
+    },
+    "initialize": {
+      "binary": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-initialize/native.bin",
+      "ELF": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-initialize/native.elf",
+      "symbols": {
+        "TRANSIENT_CONTEXT": 96,
+        "biwn_actor_initialize_start": 1456580,
+        "biwn_actor_initialize_after_placement": 1457292,
+        "biwn_native_actor_initialize": 1457900,
+        "biwn_actor_initialize_after_outside": 1458012,
+        "biwn_actor_initialize_after_inside": 1458038,
+        "biwn_actor_initialize_after_task": 1458126,
+        "biwn_native_actor_initialize_return": 1458148,
+        "NATIVE_ADDRESS": 1638400
+      },
+      "code_address": 1456580,
+      "binary_bytes": 1570,
+      "entry": 1457900
+    }
+  },
+  "summaries": {
+    "initialize": {
+      "cases": 1024,
+      "maximum_stack_bytes": 156,
+      "task_layout_pairs": 116,
+      "captured_entry_SP_above_task": 520
+    },
+    "joint": {
+      "cases": 856,
+      "maximum_stack_bytes": 192,
+      "task_layout_pairs": 116,
+      "captured_entry_SP_above_task": 556
+    }
+  },
+  "task_slots": 101,
+  "protected_task_bytes": 64,
+  "physical_metadata_bytes": 38,
+  "new_per_task_arena_bytes": 0,
+  "captured_fixture_uses_baseline_geometry": true,
+  "captured_gameplay_resumed": false,
+  "lower_helpers_prescribed": true,
+  "arbitrary_IRQ_qualified": false,
+  "global_stack_bound_proven": false,
+  "dependencies_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_phased_fixed_v2.py": "e9149337dbea75b6a40d85503b8137bf54d2890561467325ce303e4ca15d593e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_actor_phased_v1.py": "539e20317a460670bd1c3a49e632338a856ec08ae7e4155a5a835f12e8358a40",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-v1-current.json": "6dc7aea36b235dd836592125e9a1d064441230f6bb1060481287aac0bab98661",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/dispatch.ld": "4039f9b71099c89b36c0d026f365efe2a23e3156149bdb59ec5f1853478977a2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/dispatch.c": "809ac43b9a22fc321bf1cf5e20bb8bee18dc63fa349b2324911659b556542af0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/initialize.c": "6d89e169d91f9da3e2ed6a5e7392773dcc1adab17a8f125c65b82969d9f2a3fe",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/native.h": "46a31281d57f0f451d3a29df271d98202e472c44b2742cb1253f4d37c69e7de1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/Makefile": "b5cfc94c7248e411f299d4008cc517b6e52c07487c1609e263ac39345af57a1c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/initialize.ld": "2abf45aa7442ce5e1c044117eca42fb077b3b41375a7b612b85cf4b957df6a5e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/dispatch.S": "f50a4096e8f01aa7ac374680c70a4e562de226113b1405105c409948db3feadb",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k/actor-phased-fixed-v2/initialize.S": "1d5b97a8c5a9611ec1ad1061e620085cb15a2c395a9d837d66e822d389669f12",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-dispatch/native.bin": "1c43908876c19919b6bafcd8b5d8172ca85ec381a49e7be40cfdc7bcfda198d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-dispatch/native.elf": "ff03f009c782b807aba5c319e2d58061882ff8437744c40f0020fb24d49985d2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-initialize/native.bin": "aaba9dbe14cb495afc7ec8e5210f23f4c950d67b7b5f8bd8a040b4f03eedc0dc",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/build-initialize/native.elf": "48b67a56ca6b2333067f570efaae97bc830fcb788340713c408d741dc362b795",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/fixed_init_engine.py": "b511e751250c2f78dd4d72b37f3cf8b65648f2e47120b703f91b612c1e3e790b",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/fixed_joint_engine.py": "2b0542443ccf2d08c9ba6796cd9dd2ba4599128332ab9890fdbc4cc687944104",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/review_v40_actor_initialize_header_fault_v1.py": "cd07d3eba89133f1ecb8d347ca9dc31b1aec047e8a8151c4c9780f9cca2c63f2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_actor_source_group_v3.py": "91e5b6fb29c51ec79a3ccb0f0a31705be706edec9d3d72e3dd0e5218cb23af00",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_actor_creation.py": "c4c3ae6234a7fbed7e6dd235d485f6e1656189a3308b19fe195fdb7cb3691a4c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_biwn_scheduler.py": "3146a0f854074c6053caaabce9d7f636d44f56b8a3dd02ae5149d2968e900d9a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/render-assets/biwn-inventory-baseline.bin": "f3f70dadee1b6241419da361460208337dbbf9333e2da977144e8c97923a20d3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/tools/blitter-runtime/virtualjaguar_libretro.dylib": "c2990c86f54473b55a68ee2493c50b6e584e4ac81a46bfb7e593611133e8e856",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/v40-input-transition-fault-trace-v2-current.json": "1386306fdb715abb81b9e1177ade572085070ccff21b8ea361d6e1a7221662ac",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/v40-input-transition-fault-trace-v2/20261021T123729.660742Z/instruction-ring.bin": "f77aa85b294606eafcbbddd125f51e15018b8b99e060e67228d9dd54ec495fb7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/v40-input-transition-fault-trace-v2/20261021T123729.660742Z/first-watch-RAM.bin": "bc4dd4d33af92c224ec77914586693e6a549aa1779a5185f596ded0a76355316",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/actor-phased-fixed-v2/20261021T145437.135766Z/captured-entry-fixtures.json": "4c94a8718d705809687a8613eb9ef30c42f1cf635312b9d862fb06418319ed87"
+  },
+  "new_unique_original_functions": 0
+}

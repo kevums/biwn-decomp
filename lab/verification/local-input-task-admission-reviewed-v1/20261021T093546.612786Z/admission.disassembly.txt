@@ -1,0 +1,49 @@
+
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-input-task-admission-reviewed-v1/20261021T093546.612786Z/admission.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+001c0000 <biwn_input_task_admit>:
+  1c0000:	2f03           	movel %d3,%sp@-
+  1c0002:	2f02           	movel %d2,%sp@-
+  1c0004:	226f 000c      	moveal %sp@(12),%a1
+  1c0008:	206f 0010      	moveal %sp@(16),%a0
+  1c000c:	202f 0018      	movel %sp@(24),%d0
+  1c0010:	b3fc 000c 0927 	cmpal #788775,%a1
+  1c0016:	635c           	blss 1c0074 <biwn_input_task_admit+0x74>
+  1c0018:	2409           	movel %a1,%d2
+  1c001a:	0682 fff3 f6d8 	addil #-788776,%d2
+  1c0020:	0c82 0001 9000 	cmpil #102400,%d2
+  1c0026:	624c           	bhis 1c0074 <biwn_input_task_admit+0x74>
+  1c0028:	2208           	movel %a0,%d1
+  1c002a:	8280           	orl %d0,%d1
+  1c002c:	0281 0000 0001 	andil #1,%d1
+  1c0032:	262f 0014      	movel %sp@(20),%d3
+  1c0036:	0283 0000 2000 	andil #8192,%d3
+  1c003c:	8283           	orl %d3,%d1
+  1c003e:	0282 0000 03ff 	andil #1023,%d2
+  1c0044:	8282           	orl %d2,%d1
+  1c0046:	662c           	bnes 1c0074 <biwn_input_task_admit+0x74>
+  1c0048:	7240           	moveq #64,%d1
+  1c004a:	d289           	addl %a1,%d1
+  1c004c:	b288           	cmpl %a0,%d1
+  1c004e:	6224           	bhis 1c0074 <biwn_input_task_admit+0x74>
+  1c0050:	43e9 03fc      	lea %a1@(1020),%a1
+  1c0054:	b3c8           	cmpal %a0,%a1
+  1c0056:	651c           	bcss 1c0074 <biwn_input_task_admit+0x74>
+  1c0058:	2240           	moveal %d0,%a1
+  1c005a:	5589           	subql #2,%a1
+  1c005c:	b2fc 03be      	cmpaw #958,%a1
+  1c0060:	6212           	bhis 1c0074 <biwn_input_task_admit+0x74>
+  1c0062:	91c1           	subal %d1,%a0
+  1c0064:	b1c0           	cmpal %d0,%a0
+  1c0066:	54c0           	scc %d0
+  1c0068:	4880           	extw %d0
+  1c006a:	48c0           	extl %d0
+  1c006c:	4480           	negl %d0
+  1c006e:	241f           	movel %sp@+,%d2
+  1c0070:	261f           	movel %sp@+,%d3
+  1c0072:	4e75           	rts
+  1c0074:	7000           	moveq #0,%d0
+  1c0076:	60f6           	bras 1c006e <biwn_input_task_admit+0x6e>

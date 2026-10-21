@@ -1,0 +1,13 @@
+include Makefile
+.DEFAULT_GOAL := resource-release
+RELEASE_SOURCE ?= resource-release-native.c
+.PHONY: resource-release
+resource-release: $(BUILD)/native-resource-release.elf $(BUILD)/native-resource-release.bin
+$(BUILD)/resource-release-shim.o: resource-release-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/resource-release-native.o: $(RELEASE_SOURCE) resource-release-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-resource-release.elf: $(BUILD)/resource-release-shim.o $(BUILD)/resource-release-native.o resource-release.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T resource-release.ld -Map $(BUILD)/native-resource-release.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-resource-release.bin: $(BUILD)/native-resource-release.elf
+	$(CROSS)objcopy -O binary $< $@

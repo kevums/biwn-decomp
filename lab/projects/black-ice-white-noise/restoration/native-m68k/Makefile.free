@@ -1,0 +1,13 @@
+include Makefile
+.DEFAULT_GOAL := free
+FREE_SOURCE ?= free-native.c
+.PHONY: free
+free: $(BUILD)/native-free.elf $(BUILD)/native-free.bin
+$(BUILD)/free-shims.o: free-shims.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/free-native.o: $(FREE_SOURCE) free-native.h | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -I. -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-free.elf: $(BUILD)/free-shims.o $(BUILD)/free-native.o free.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T free.ld -Map $(BUILD)/native-free.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-free.bin: $(BUILD)/native-free.elf
+	$(CROSS)objcopy -O binary $< $@

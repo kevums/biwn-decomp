@@ -1,0 +1,2892 @@
+
+build/native-deck.elf:     file format elf32-m68k
+
+
+Disassembly of section .text:
+
+00180000 <biwn_native_deck_coordinate>:
+  180000:	40e7           	movew %sr,%sp@-
+  180002:	48e7 8080      	moveml %d0/%a0,%sp@-
+  180006:	2039 000c 0920 	movel c0920 <POOL_BYTES+0xa7520>,%d0
+  18000c:	0480 000c 0928 	subil #788776,%d0
+  180012:	0c80 0001 9400 	cmpil #103424,%d0
+  180018:	6400 0080      	bccw 18009a <biwn_native_deck_coordinate_return+0x4>
+  18001c:	2040           	moveal %d0,%a0
+  18001e:	0280 0000 03ff 	andil #1023,%d0
+  180024:	6600 0074      	bnew 18009a <biwn_native_deck_coordinate_return+0x4>
+  180028:	d1fc 0016 0010 	addal #1441808,%a0
+  18002e:	48e8 00fe 0004 	moveml %d1-%d7,%a0@(4)
+  180034:	48e8 7e00 0024 	moveml %a1-%fp,%a0@(36)
+  18003a:	2097           	movel %sp@,%a0@
+  18003c:	216f 0004 0020 	movel %sp@(4),%a0@(32)
+  180042:	43ef 000a      	lea %sp@(10),%a1
+  180046:	2149 003c      	movel %a1,%a0@(60)
+  18004a:	217c 0001 1d1a 	movel #72986,%a0@(64)
+  180050:	0040 
+  180052:	42a8 0044      	clrl %a0@(68)
+  180056:	42a8 0048      	clrl %a0@(72)
+  18005a:	316f 0008 004c 	movew %sp@(8),%a0@(76)
+  180060:	0828 0005 004c 	btst #5,%a0@(76)
+  180066:	6706           	beqs 18006e <biwn_native_deck_coordinate+0x6e>
+  180068:	2149 0048      	movel %a1,%a0@(72)
+  18006c:	6004           	bras 180072 <biwn_native_deck_coordinate+0x72>
+  18006e:	2149 0044      	movel %a1,%a0@(68)
+  180072:	4fe8 03e0      	lea %a0@(992),%sp
+  180076:	2f08           	movel %a0,%sp@-
+  180078:	6100 0180      	bsrw 1801fa <biwn_native_deck_coordinate_body>
+  18007c:	4fef 0004      	lea %sp@(4),%sp
+  180080:	41ef fc20      	lea %sp@(-992),%a0
+  180084:	4aa8 0060      	tstl %a0@(96)
+  180088:	660e           	bnes 180098 <biwn_native_deck_coordinate_return+0x2>
+  18008a:	2e68 003c      	moveal %a0@(60),%sp
+  18008e:	44e8 004c      	movew %a0@(76),%ccr
+  180092:	4cd0 7fff      	moveml %a0@,%d0-%fp
+
+00180096 <biwn_native_deck_coordinate_return>:
+  180096:	4e75           	rts
+  180098:	4afc           	illegal
+  18009a:	4cdf 0101      	moveml %sp@+,%d0/%a0
+  18009e:	44df           	movew %sp@+,%ccr
+
+001800a0 <biwn_native_deck_original_fallback>:
+  1800a0:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1800a4:	2039 0004 00f8 	movel 400f8 <POOL_BYTES+0x26cf8>,%d0
+  1800aa:	4ef9 0001 1d24 	jmp 11d24 <C_STACK_FROM_FRAME+0x11944>
+
+001800b0 <biwn_deck_gpu_capture>:
+  1800b0:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1800b4:	206f 0030      	moveal %sp@(48),%a0
+  1800b8:	226f 0034      	moveal %sp@(52),%a1
+  1800bc:	214f 0050      	movel %sp,%a0@(80)
+  1800c0:	2149 0054      	movel %a1,%a0@(84)
+  1800c4:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  1800ca:	2469 003c      	moveal %a1@(60),%a2
+  1800ce:	2152 005c      	movel %a2@,%a0@(92)
+  1800d2:	24bc 0018 0120 	movel #1573152,%a2@
+  1800d8:	2e4a           	moveal %a2,%sp
+  1800da:	44e9 004c      	movew %a1@(76),%ccr
+  1800de:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  1800e2:	4ef9 0000 e26c 	jmp e26c <C_STACK_FROM_FRAME+0xde8c>
+
+001800e8 <biwn_deck_math_capture>:
+  1800e8:	48e7 3f3e      	moveml %d2-%d7/%a2-%fp,%sp@-
+  1800ec:	206f 0030      	moveal %sp@(48),%a0
+  1800f0:	226f 0034      	moveal %sp@(52),%a1
+  1800f4:	214f 0050      	movel %sp,%a0@(80)
+  1800f8:	2149 0054      	movel %a1,%a0@(84)
+  1800fc:	2169 003c 0058 	movel %a1@(60),%a0@(88)
+  180102:	2469 003c      	moveal %a1@(60),%a2
+  180106:	2152 005c      	movel %a2@,%a0@(92)
+  18010a:	24bc 0018 0120 	movel #1573152,%a2@
+  180110:	2e4a           	moveal %a2,%sp
+  180112:	44e9 004c      	movew %a1@(76),%ccr
+  180116:	4cd1 7fff      	moveml %a1@,%d0-%fp
+  18011a:	4ef9 0000 e540 	jmp e540 <C_STACK_FROM_FRAME+0xe160>
+
+00180120 <biwn_native_deck_helper_return>:
+  180120:	2e79 000c 0920 	moveal c0920 <POOL_BYTES+0xa7520>,%sp
+  180126:	dffc 0009 f6e8 	addal #653032,%sp
+  18012c:	2e6f 0050      	moveal %sp@(80),%sp
+  180130:	40e7           	movew %sr,%sp@-
+  180132:	48e7 fffe      	moveml %d0-%fp,%sp@-
+  180136:	2079 000c 0920 	moveal c0920 <POOL_BYTES+0xa7520>,%a0
+  18013c:	d1fc 0009 f6e8 	addal #653032,%a0
+  180142:	2268 0054      	moveal %a0@(84),%a1
+  180146:	244f           	moveal %sp,%a2
+  180148:	700e           	moveq #14,%d0
+  18014a:	22da           	movel %a2@+,%a1@+
+  18014c:	51c8 fffc      	dbf %d0,18014a <biwn_native_deck_helper_return+0x2a>
+  180150:	22a8 0058      	movel %a0@(88),%a1@
+  180154:	237c 0000 0000 	movel #0,%a1@(4)
+  18015a:	0004 
+  18015c:	336f 003c 0010 	movew %sp@(60),%a1@(16)
+  180162:	2468 0058      	moveal %a0@(88),%a2
+  180166:	24a8 005c      	movel %a0@(92),%a2@
+  18016a:	2e68 0050      	moveal %a0@(80),%sp
+  18016e:	4cdf 7cfc      	moveml %sp@+,%d2-%d7/%a2-%fp
+  180172:	7000           	moveq #0,%d0
+  180174:	4e75           	rts
+
+00180176 <r8>:
+  180176:	206f 0008      	moveal %sp@(8),%a0
+  18017a:	1010           	moveb %a0@,%d0
+  18017c:	206f 000c      	moveal %sp@(12),%a0
+  180180:	1080           	moveb %d0,%a0@
+  180182:	7000           	moveq #0,%d0
+  180184:	4e75           	rts
+
+00180186 <r16>:
+  180186:	206f 0008      	moveal %sp@(8),%a0
+  18018a:	3010           	movew %a0@,%d0
+  18018c:	206f 000c      	moveal %sp@(12),%a0
+  180190:	3080           	movew %d0,%a0@
+  180192:	7000           	moveq #0,%d0
+  180194:	4e75           	rts
+
+00180196 <r32>:
+  180196:	206f 0008      	moveal %sp@(8),%a0
+  18019a:	2010           	movel %a0@,%d0
+  18019c:	206f 000c      	moveal %sp@(12),%a0
+  1801a0:	2080           	movel %d0,%a0@
+  1801a2:	7000           	moveq #0,%d0
+  1801a4:	4e75           	rts
+
+001801a6 <w16>:
+  1801a6:	206f 0008      	moveal %sp@(8),%a0
+  1801aa:	30af 000e      	movew %sp@(14),%a0@
+  1801ae:	7000           	moveq #0,%d0
+  1801b0:	4e75           	rts
+
+001801b2 <w32>:
+  1801b2:	206f 0008      	moveal %sp@(8),%a0
+  1801b6:	20af 000c      	movel %sp@(12),%a0@
+  1801ba:	7000           	moveq #0,%d0
+  1801bc:	4e75           	rts
+
+001801be <service>:
+  1801be:	202f 0004      	movel %sp@(4),%d0
+  1801c2:	222f 000c      	movel %sp@(12),%d1
+  1801c6:	206f 0010      	moveal %sp@(16),%a0
+  1801ca:	b1fc 0000 e26c 	cmpal #57964,%a0
+  1801d0:	660e           	bnes 1801e0 <service+0x22>
+  1801d2:	2f41 0008      	movel %d1,%sp@(8)
+  1801d6:	2f40 0004      	movel %d0,%sp@(4)
+  1801da:	4ef9 0018 00b0 	jmp 1800b0 <biwn_deck_gpu_capture>
+  1801e0:	b1fc 0000 e540 	cmpal #58688,%a0
+  1801e6:	660e           	bnes 1801f6 <service+0x38>
+  1801e8:	2f41 0008      	movel %d1,%sp@(8)
+  1801ec:	2f40 0004      	movel %d0,%sp@(4)
+  1801f0:	4ef9 0018 00e8 	jmp 1800e8 <biwn_deck_math_capture>
+  1801f6:	7001           	moveq #1,%d0
+  1801f8:	4e75           	rts
+
+001801fa <biwn_native_deck_coordinate_body>:
+  1801fa:	4e56 ff98      	linkw %fp,#-104
+  1801fe:	48e7 3c30      	moveml %d2-%d5/%a2-%a3,%sp@-
+  180202:	2d7c 0018 252c 	movel #1582380,%fp@(-98)
+  180208:	ff9e 
+  18020a:	4878 004e      	pea 4e <FRAME_OFFSET+0x3e>
+  18020e:	2f2e 0008      	movel %fp@(8),%sp@-
+  180212:	486e ffa2      	pea %fp@(-94)
+  180216:	4eb9 0018 250e 	jsr 18250e <memcpy>
+  18021c:	2d7c 0018 01be 	movel #1573310,%fp@(-16)
+  180222:	fff0 
+  180224:	2d6e 0008 fff4 	movel %fp@(8),%fp@(-12)
+  18022a:	7a04           	moveq #4,%d5
+  18022c:	2d45 fff8      	movel %d5,%fp@(-8)
+  180230:	42ae fffc      	clrl %fp@(-4)
+  180234:	222e ffda      	movel %fp@(-38),%d1
+  180238:	202e ffde      	movel %fp@(-34),%d0
+  18023c:	5980           	subql #4,%d0
+  18023e:	2d40 ffde      	movel %d0,%fp@(-34)
+  180242:	4fef 000c      	lea %sp@(12),%sp
+  180246:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18024c:	6700 08f0      	beqw 180b3e <biwn_native_deck_coordinate_body+0x944>
+  180250:	2d40 ffea      	movel %d0,%fp@(-22)
+  180254:	2f01           	movel %d1,%sp@-
+  180256:	0280 00ff ffff 	andil #16777215,%d0
+  18025c:	2f00           	movel %d0,%sp@-
+  18025e:	2f39 0018 2544 	movel 182544 <memory+0x18>,%sp@-
+  180264:	2079 0018 253c 	moveal 18253c <memory+0x10>,%a0
+  18026a:	4e90           	jsr %a0@
+  18026c:	4fef 000c      	lea %sp@(12),%sp
+  180270:	4a80           	tstl %d0
+  180272:	6706           	beqs 18027a <biwn_native_deck_coordinate_body+0x80>
+  180274:	7802           	moveq #2,%d4
+  180276:	2d44 fffc      	movel %d4,%fp@(-4)
+  18027a:	222e ffd6      	movel %fp@(-42),%d1
+  18027e:	202e ffde      	movel %fp@(-34),%d0
+  180282:	5980           	subql #4,%d0
+  180284:	2d40 ffde      	movel %d0,%fp@(-34)
+  180288:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18028e:	6700 08b6      	beqw 180b46 <biwn_native_deck_coordinate_body+0x94c>
+  180292:	2d40 ffea      	movel %d0,%fp@(-22)
+  180296:	4aae fffc      	tstl %fp@(-4)
+  18029a:	6626           	bnes 1802c2 <biwn_native_deck_coordinate_body+0xc8>
+  18029c:	206e ff9e      	moveal %fp@(-98),%a0
+  1802a0:	2f01           	movel %d1,%sp@-
+  1802a2:	0280 00ff ffff 	andil #16777215,%d0
+  1802a8:	2f00           	movel %d0,%sp@-
+  1802aa:	2f28 0018      	movel %a0@(24),%sp@-
+  1802ae:	2068 0010      	moveal %a0@(16),%a0
+  1802b2:	4e90           	jsr %a0@
+  1802b4:	4fef 000c      	lea %sp@(12),%sp
+  1802b8:	4a80           	tstl %d0
+  1802ba:	6706           	beqs 1802c2 <biwn_native_deck_coordinate_body+0xc8>
+  1802bc:	7602           	moveq #2,%d3
+  1802be:	2d43 fffc      	movel %d3,%fp@(-4)
+  1802c2:	222e ffd2      	movel %fp@(-46),%d1
+  1802c6:	202e ffde      	movel %fp@(-34),%d0
+  1802ca:	5980           	subql #4,%d0
+  1802cc:	2d40 ffde      	movel %d0,%fp@(-34)
+  1802d0:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1802d6:	6700 0876      	beqw 180b4e <biwn_native_deck_coordinate_body+0x954>
+  1802da:	2d40 ffea      	movel %d0,%fp@(-22)
+  1802de:	4aae fffc      	tstl %fp@(-4)
+  1802e2:	6626           	bnes 18030a <biwn_native_deck_coordinate_body+0x110>
+  1802e4:	206e ff9e      	moveal %fp@(-98),%a0
+  1802e8:	2f01           	movel %d1,%sp@-
+  1802ea:	0280 00ff ffff 	andil #16777215,%d0
+  1802f0:	2f00           	movel %d0,%sp@-
+  1802f2:	2f28 0018      	movel %a0@(24),%sp@-
+  1802f6:	2068 0010      	moveal %a0@(16),%a0
+  1802fa:	4e90           	jsr %a0@
+  1802fc:	4fef 000c      	lea %sp@(12),%sp
+  180300:	4a80           	tstl %d0
+  180302:	6706           	beqs 18030a <biwn_native_deck_coordinate_body+0x110>
+  180304:	7402           	moveq #2,%d2
+  180306:	2d42 fffc      	movel %d2,%fp@(-4)
+  18030a:	222e ffce      	movel %fp@(-50),%d1
+  18030e:	202e ffde      	movel %fp@(-34),%d0
+  180312:	5980           	subql #4,%d0
+  180314:	2d40 ffde      	movel %d0,%fp@(-34)
+  180318:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18031e:	6700 0836      	beqw 180b56 <biwn_native_deck_coordinate_body+0x95c>
+  180322:	2d40 ffea      	movel %d0,%fp@(-22)
+  180326:	4aae fffc      	tstl %fp@(-4)
+  18032a:	6626           	bnes 180352 <biwn_native_deck_coordinate_body+0x158>
+  18032c:	206e ff9e      	moveal %fp@(-98),%a0
+  180330:	2f01           	movel %d1,%sp@-
+  180332:	0280 00ff ffff 	andil #16777215,%d0
+  180338:	2f00           	movel %d0,%sp@-
+  18033a:	2f28 0018      	movel %a0@(24),%sp@-
+  18033e:	2068 0010      	moveal %a0@(16),%a0
+  180342:	4e90           	jsr %a0@
+  180344:	4fef 000c      	lea %sp@(12),%sp
+  180348:	4a80           	tstl %d0
+  18034a:	6706           	beqs 180352 <biwn_native_deck_coordinate_body+0x158>
+  18034c:	7202           	moveq #2,%d1
+  18034e:	2d41 fffc      	movel %d1,%fp@(-4)
+  180352:	222e ffca      	movel %fp@(-54),%d1
+  180356:	202e ffde      	movel %fp@(-34),%d0
+  18035a:	5980           	subql #4,%d0
+  18035c:	2d40 ffde      	movel %d0,%fp@(-34)
+  180360:	082e 0005 ffee 	btst #5,%fp@(-18)
+  180366:	6700 07f6      	beqw 180b5e <biwn_native_deck_coordinate_body+0x964>
+  18036a:	2d40 ffea      	movel %d0,%fp@(-22)
+  18036e:	4aae fffc      	tstl %fp@(-4)
+  180372:	6626           	bnes 18039a <biwn_native_deck_coordinate_body+0x1a0>
+  180374:	206e ff9e      	moveal %fp@(-98),%a0
+  180378:	2f01           	movel %d1,%sp@-
+  18037a:	0280 00ff ffff 	andil #16777215,%d0
+  180380:	2f00           	movel %d0,%sp@-
+  180382:	2f28 0018      	movel %a0@(24),%sp@-
+  180386:	2068 0010      	moveal %a0@(16),%a0
+  18038a:	4e90           	jsr %a0@
+  18038c:	4fef 000c      	lea %sp@(12),%sp
+  180390:	4a80           	tstl %d0
+  180392:	6706           	beqs 18039a <biwn_native_deck_coordinate_body+0x1a0>
+  180394:	7002           	moveq #2,%d0
+  180396:	2d40 fffc      	movel %d0,%fp@(-4)
+  18039a:	222e ffbe      	movel %fp@(-66),%d1
+  18039e:	202e ffde      	movel %fp@(-34),%d0
+  1803a2:	5980           	subql #4,%d0
+  1803a4:	2d40 ffde      	movel %d0,%fp@(-34)
+  1803a8:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1803ae:	6700 07b6      	beqw 180b66 <biwn_native_deck_coordinate_body+0x96c>
+  1803b2:	2d40 ffea      	movel %d0,%fp@(-22)
+  1803b6:	4aae fffc      	tstl %fp@(-4)
+  1803ba:	6626           	bnes 1803e2 <biwn_native_deck_coordinate_body+0x1e8>
+  1803bc:	206e ff9e      	moveal %fp@(-98),%a0
+  1803c0:	2f01           	movel %d1,%sp@-
+  1803c2:	0280 00ff ffff 	andil #16777215,%d0
+  1803c8:	2f00           	movel %d0,%sp@-
+  1803ca:	2f28 0018      	movel %a0@(24),%sp@-
+  1803ce:	2068 0010      	moveal %a0@(16),%a0
+  1803d2:	4e90           	jsr %a0@
+  1803d4:	4fef 000c      	lea %sp@(12),%sp
+  1803d8:	4a80           	tstl %d0
+  1803da:	6706           	beqs 1803e2 <biwn_native_deck_coordinate_body+0x1e8>
+  1803dc:	7a02           	moveq #2,%d5
+  1803de:	2d45 fffc      	movel %d5,%fp@(-4)
+  1803e2:	222e ffba      	movel %fp@(-70),%d1
+  1803e6:	202e ffde      	movel %fp@(-34),%d0
+  1803ea:	5980           	subql #4,%d0
+  1803ec:	2d40 ffde      	movel %d0,%fp@(-34)
+  1803f0:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1803f6:	6700 0776      	beqw 180b6e <biwn_native_deck_coordinate_body+0x974>
+  1803fa:	2d40 ffea      	movel %d0,%fp@(-22)
+  1803fe:	4aae fffc      	tstl %fp@(-4)
+  180402:	6626           	bnes 18042a <biwn_native_deck_coordinate_body+0x230>
+  180404:	206e ff9e      	moveal %fp@(-98),%a0
+  180408:	2f01           	movel %d1,%sp@-
+  18040a:	0280 00ff ffff 	andil #16777215,%d0
+  180410:	2f00           	movel %d0,%sp@-
+  180412:	2f28 0018      	movel %a0@(24),%sp@-
+  180416:	2068 0010      	moveal %a0@(16),%a0
+  18041a:	4e90           	jsr %a0@
+  18041c:	4fef 000c      	lea %sp@(12),%sp
+  180420:	4a80           	tstl %d0
+  180422:	6706           	beqs 18042a <biwn_native_deck_coordinate_body+0x230>
+  180424:	7802           	moveq #2,%d4
+  180426:	2d44 fffc      	movel %d4,%fp@(-4)
+  18042a:	222e ffb6      	movel %fp@(-74),%d1
+  18042e:	202e ffde      	movel %fp@(-34),%d0
+  180432:	5980           	subql #4,%d0
+  180434:	2d40 ffde      	movel %d0,%fp@(-34)
+  180438:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18043e:	6700 0736      	beqw 180b76 <biwn_native_deck_coordinate_body+0x97c>
+  180442:	2d40 ffea      	movel %d0,%fp@(-22)
+  180446:	4aae fffc      	tstl %fp@(-4)
+  18044a:	6626           	bnes 180472 <biwn_native_deck_coordinate_body+0x278>
+  18044c:	206e ff9e      	moveal %fp@(-98),%a0
+  180450:	2f01           	movel %d1,%sp@-
+  180452:	0280 00ff ffff 	andil #16777215,%d0
+  180458:	2f00           	movel %d0,%sp@-
+  18045a:	2f28 0018      	movel %a0@(24),%sp@-
+  18045e:	2068 0010      	moveal %a0@(16),%a0
+  180462:	4e90           	jsr %a0@
+  180464:	4fef 000c      	lea %sp@(12),%sp
+  180468:	4a80           	tstl %d0
+  18046a:	6706           	beqs 180472 <biwn_native_deck_coordinate_body+0x278>
+  18046c:	7602           	moveq #2,%d3
+  18046e:	2d43 fffc      	movel %d3,%fp@(-4)
+  180472:	222e ffb2      	movel %fp@(-78),%d1
+  180476:	202e ffde      	movel %fp@(-34),%d0
+  18047a:	5980           	subql #4,%d0
+  18047c:	2d40 ffde      	movel %d0,%fp@(-34)
+  180480:	082e 0005 ffee 	btst #5,%fp@(-18)
+  180486:	6700 06f6      	beqw 180b7e <biwn_native_deck_coordinate_body+0x984>
+  18048a:	2d40 ffea      	movel %d0,%fp@(-22)
+  18048e:	4aae fffc      	tstl %fp@(-4)
+  180492:	6626           	bnes 1804ba <biwn_native_deck_coordinate_body+0x2c0>
+  180494:	206e ff9e      	moveal %fp@(-98),%a0
+  180498:	2f01           	movel %d1,%sp@-
+  18049a:	0280 00ff ffff 	andil #16777215,%d0
+  1804a0:	2f00           	movel %d0,%sp@-
+  1804a2:	2f28 0018      	movel %a0@(24),%sp@-
+  1804a6:	2068 0010      	moveal %a0@(16),%a0
+  1804aa:	4e90           	jsr %a0@
+  1804ac:	4fef 000c      	lea %sp@(12),%sp
+  1804b0:	4a80           	tstl %d0
+  1804b2:	6706           	beqs 1804ba <biwn_native_deck_coordinate_body+0x2c0>
+  1804b4:	7402           	moveq #2,%d2
+  1804b6:	2d42 fffc      	movel %d2,%fp@(-4)
+  1804ba:	222e ffae      	movel %fp@(-82),%d1
+  1804be:	202e ffde      	movel %fp@(-34),%d0
+  1804c2:	5980           	subql #4,%d0
+  1804c4:	2d40 ffde      	movel %d0,%fp@(-34)
+  1804c8:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1804ce:	6700 06b6      	beqw 180b86 <biwn_native_deck_coordinate_body+0x98c>
+  1804d2:	2d40 ffea      	movel %d0,%fp@(-22)
+  1804d6:	4aae fffc      	tstl %fp@(-4)
+  1804da:	6626           	bnes 180502 <biwn_native_deck_coordinate_body+0x308>
+  1804dc:	206e ff9e      	moveal %fp@(-98),%a0
+  1804e0:	2f01           	movel %d1,%sp@-
+  1804e2:	0280 00ff ffff 	andil #16777215,%d0
+  1804e8:	2f00           	movel %d0,%sp@-
+  1804ea:	2f28 0018      	movel %a0@(24),%sp@-
+  1804ee:	2068 0010      	moveal %a0@(16),%a0
+  1804f2:	4e90           	jsr %a0@
+  1804f4:	4fef 000c      	lea %sp@(12),%sp
+  1804f8:	4a80           	tstl %d0
+  1804fa:	6706           	beqs 180502 <biwn_native_deck_coordinate_body+0x308>
+  1804fc:	7202           	moveq #2,%d1
+  1804fe:	2d41 fffc      	movel %d1,%fp@(-4)
+  180502:	222e ffaa      	movel %fp@(-86),%d1
+  180506:	202e ffde      	movel %fp@(-34),%d0
+  18050a:	5980           	subql #4,%d0
+  18050c:	2d40 ffde      	movel %d0,%fp@(-34)
+  180510:	082e 0005 ffee 	btst #5,%fp@(-18)
+  180516:	6700 0676      	beqw 180b8e <biwn_native_deck_coordinate_body+0x994>
+  18051a:	2d40 ffea      	movel %d0,%fp@(-22)
+  18051e:	4aae fffc      	tstl %fp@(-4)
+  180522:	6626           	bnes 18054a <biwn_native_deck_coordinate_body+0x350>
+  180524:	206e ff9e      	moveal %fp@(-98),%a0
+  180528:	2f01           	movel %d1,%sp@-
+  18052a:	0280 00ff ffff 	andil #16777215,%d0
+  180530:	2f00           	movel %d0,%sp@-
+  180532:	2f28 0018      	movel %a0@(24),%sp@-
+  180536:	2068 0010      	moveal %a0@(16),%a0
+  18053a:	4e90           	jsr %a0@
+  18053c:	4fef 000c      	lea %sp@(12),%sp
+  180540:	4a80           	tstl %d0
+  180542:	6706           	beqs 18054a <biwn_native_deck_coordinate_body+0x350>
+  180544:	7002           	moveq #2,%d0
+  180546:	2d40 fffc      	movel %d0,%fp@(-4)
+  18054a:	42ae ff9a      	clrl %fp@(-102)
+  18054e:	4aae fffc      	tstl %fp@(-4)
+  180552:	6600 0642      	bnew 180b96 <biwn_native_deck_coordinate_body+0x99c>
+  180556:	206e ff9e      	moveal %fp@(-98),%a0
+  18055a:	486e ff9a      	pea %fp@(-102)
+  18055e:	2f3c 0004 00f8 	movel #262392,%sp@-
+  180564:	2f28 0018      	movel %a0@(24),%sp@-
+  180568:	2068 0008      	moveal %a0@(8),%a0
+  18056c:	4e90           	jsr %a0@
+  18056e:	4fef 000c      	lea %sp@(12),%sp
+  180572:	4a80           	tstl %d0
+  180574:	6706           	beqs 18057c <biwn_native_deck_coordinate_body+0x382>
+  180576:	7a02           	moveq #2,%d5
+  180578:	2d45 fffc      	movel %d5,%fp@(-4)
+  18057c:	202e ff9a      	movel %fp@(-102),%d0
+  180580:	2d40 ffa2      	movel %d0,%fp@(-94)
+  180584:	322e ffee      	movew %fp@(-18),%d1
+  180588:	0241 fff0      	andiw #-16,%d1
+  18058c:	4a80           	tstl %d0
+  18058e:	6600 060c      	bnew 180b9c <biwn_native_deck_coordinate_body+0x9a2>
+  180592:	0041 0004      	oriw #4,%d1
+  180596:	8240           	orw %d0,%d1
+  180598:	3d41 ffee      	movew %d1,%fp@(-18)
+  18059c:	42ae ff9a      	clrl %fp@(-102)
+  1805a0:	4aae fffc      	tstl %fp@(-4)
+  1805a4:	6600 0602      	bnew 180ba8 <biwn_native_deck_coordinate_body+0x9ae>
+  1805a8:	206e ff9e      	moveal %fp@(-98),%a0
+  1805ac:	486e ff9a      	pea %fp@(-102)
+  1805b0:	2f3c 0004 0402 	movel #263170,%sp@-
+  1805b6:	2f28 0018      	movel %a0@(24),%sp@-
+  1805ba:	2068 0008      	moveal %a0@(8),%a0
+  1805be:	4e90           	jsr %a0@
+  1805c0:	4fef 000c      	lea %sp@(12),%sp
+  1805c4:	4a80           	tstl %d0
+  1805c6:	6706           	beqs 1805ce <biwn_native_deck_coordinate_body+0x3d4>
+  1805c8:	7802           	moveq #2,%d4
+  1805ca:	2d44 fffc      	movel %d4,%fp@(-4)
+  1805ce:	222e ff9a      	movel %fp@(-102),%d1
+  1805d2:	282e ffa2      	movel %fp@(-94),%d4
+  1805d6:	2404           	movel %d4,%d2
+  1805d8:	d481           	addl %d1,%d2
+  1805da:	b981           	eorl %d4,%d1
+  1805dc:	4681           	notl %d1
+  1805de:	2004           	movel %d4,%d0
+  1805e0:	b580           	eorl %d2,%d0
+  1805e2:	c280           	andl %d0,%d1
+  1805e4:	d281           	addl %d1,%d1
+  1805e6:	9381           	subxl %d1,%d1
+  1805e8:	4481           	negl %d1
+  1805ea:	362e ffee      	movew %fp@(-18),%d3
+  1805ee:	0243 fff0      	andiw #-16,%d3
+  1805f2:	4a82           	tstl %d2
+  1805f4:	6600 05b8      	bnew 180bae <biwn_native_deck_coordinate_body+0x9b4>
+  1805f8:	0043 0004      	oriw #4,%d3
+  1805fc:	4240           	clrw %d0
+  1805fe:	8640           	orw %d0,%d3
+  180600:	0243 ffec      	andiw #-20,%d3
+  180604:	b484           	cmpl %d4,%d2
+  180606:	6500 05b4      	bcsw 180bbc <biwn_native_deck_coordinate_body+0x9c2>
+  18060a:	4244           	clrw %d4
+  18060c:	3001           	movew %d1,%d0
+  18060e:	d041           	addw %d1,%d0
+  180610:	8043           	orw %d3,%d0
+  180612:	8044           	orw %d4,%d0
+  180614:	0240 fff0      	andiw #-16,%d0
+  180618:	2d7c 0000 00ff 	movel #255,%fp@(-90)
+  18061e:	ffa6 
+  180620:	0282 0000 00ff 	andil #255,%d2
+  180626:	2d42 ffa2      	movel %d2,%fp@(-94)
+  18062a:	6604           	bnes 180630 <biwn_native_deck_coordinate_body+0x436>
+  18062c:	0040 0004      	oriw #4,%d0
+  180630:	3d40 ffee      	movew %d0,%fp@(-18)
+  180634:	4aae fffc      	tstl %fp@(-4)
+  180638:	6624           	bnes 18065e <biwn_native_deck_coordinate_body+0x464>
+  18063a:	206e ff9e      	moveal %fp@(-98),%a0
+  18063e:	2f02           	movel %d2,%sp@-
+  180640:	2f3c 0004 00f8 	movel #262392,%sp@-
+  180646:	2f28 0018      	movel %a0@(24),%sp@-
+  18064a:	2068 0010      	moveal %a0@(16),%a0
+  18064e:	4e90           	jsr %a0@
+  180650:	4fef 000c      	lea %sp@(12),%sp
+  180654:	4a80           	tstl %d0
+  180656:	6706           	beqs 18065e <biwn_native_deck_coordinate_body+0x464>
+  180658:	7602           	moveq #2,%d3
+  18065a:	2d43 fffc      	movel %d3,%fp@(-4)
+  18065e:	42ae ff9a      	clrl %fp@(-102)
+  180662:	4aae fffc      	tstl %fp@(-4)
+  180666:	6600 055a      	bnew 180bc2 <biwn_native_deck_coordinate_body+0x9c8>
+  18066a:	206e ff9e      	moveal %fp@(-98),%a0
+  18066e:	486e ff9a      	pea %fp@(-102)
+  180672:	2f3c 0004 00fc 	movel #262396,%sp@-
+  180678:	2f28 0018      	movel %a0@(24),%sp@-
+  18067c:	2068 0008      	moveal %a0@(8),%a0
+  180680:	4e90           	jsr %a0@
+  180682:	4fef 000c      	lea %sp@(12),%sp
+  180686:	4a80           	tstl %d0
+  180688:	6706           	beqs 180690 <biwn_native_deck_coordinate_body+0x496>
+  18068a:	7402           	moveq #2,%d2
+  18068c:	2d42 fffc      	movel %d2,%fp@(-4)
+  180690:	202e ff9a      	movel %fp@(-102),%d0
+  180694:	2d40 ffa2      	movel %d0,%fp@(-94)
+  180698:	322e ffee      	movew %fp@(-18),%d1
+  18069c:	0241 fff0      	andiw #-16,%d1
+  1806a0:	4a80           	tstl %d0
+  1806a2:	6600 0524      	bnew 180bc8 <biwn_native_deck_coordinate_body+0x9ce>
+  1806a6:	0041 0004      	oriw #4,%d1
+  1806aa:	8240           	orw %d0,%d1
+  1806ac:	3d41 ffee      	movew %d1,%fp@(-18)
+  1806b0:	42ae ff9a      	clrl %fp@(-102)
+  1806b4:	4aae fffc      	tstl %fp@(-4)
+  1806b8:	6600 051a      	bnew 180bd4 <biwn_native_deck_coordinate_body+0x9da>
+  1806bc:	206e ff9e      	moveal %fp@(-98),%a0
+  1806c0:	486e ff9a      	pea %fp@(-102)
+  1806c4:	2f3c 0004 040a 	movel #263178,%sp@-
+  1806ca:	2f28 0018      	movel %a0@(24),%sp@-
+  1806ce:	2068 0008      	moveal %a0@(8),%a0
+  1806d2:	4e90           	jsr %a0@
+  1806d4:	4fef 000c      	lea %sp@(12),%sp
+  1806d8:	4a80           	tstl %d0
+  1806da:	6706           	beqs 1806e2 <biwn_native_deck_coordinate_body+0x4e8>
+  1806dc:	7202           	moveq #2,%d1
+  1806de:	2d41 fffc      	movel %d1,%fp@(-4)
+  1806e2:	222e ff9a      	movel %fp@(-102),%d1
+  1806e6:	282e ffa2      	movel %fp@(-94),%d4
+  1806ea:	2404           	movel %d4,%d2
+  1806ec:	d481           	addl %d1,%d2
+  1806ee:	b981           	eorl %d4,%d1
+  1806f0:	4681           	notl %d1
+  1806f2:	2004           	movel %d4,%d0
+  1806f4:	b580           	eorl %d2,%d0
+  1806f6:	c280           	andl %d0,%d1
+  1806f8:	d281           	addl %d1,%d1
+  1806fa:	9381           	subxl %d1,%d1
+  1806fc:	4481           	negl %d1
+  1806fe:	362e ffee      	movew %fp@(-18),%d3
+  180702:	0243 fff0      	andiw #-16,%d3
+  180706:	4a82           	tstl %d2
+  180708:	6600 04d0      	bnew 180bda <biwn_native_deck_coordinate_body+0x9e0>
+  18070c:	0043 0004      	oriw #4,%d3
+  180710:	4240           	clrw %d0
+  180712:	8640           	orw %d0,%d3
+  180714:	0243 ffec      	andiw #-20,%d3
+  180718:	b484           	cmpl %d4,%d2
+  18071a:	6500 04cc      	bcsw 180be8 <biwn_native_deck_coordinate_body+0x9ee>
+  18071e:	4244           	clrw %d4
+  180720:	c4ae ffa6      	andl %fp@(-90),%d2
+  180724:	2d42 ffa2      	movel %d2,%fp@(-94)
+  180728:	3001           	movew %d1,%d0
+  18072a:	d041           	addw %d1,%d0
+  18072c:	8043           	orw %d3,%d0
+  18072e:	8044           	orw %d4,%d0
+  180730:	0240 fff0      	andiw #-16,%d0
+  180734:	4a82           	tstl %d2
+  180736:	6600 04b6      	bnew 180bee <biwn_native_deck_coordinate_body+0x9f4>
+  18073a:	0040 0004      	oriw #4,%d0
+  18073e:	4241           	clrw %d1
+  180740:	8041           	orw %d1,%d0
+  180742:	3d40 ffee      	movew %d0,%fp@(-18)
+  180746:	4aae fffc      	tstl %fp@(-4)
+  18074a:	6624           	bnes 180770 <biwn_native_deck_coordinate_body+0x576>
+  18074c:	206e ff9e      	moveal %fp@(-98),%a0
+  180750:	2f02           	movel %d2,%sp@-
+  180752:	2f3c 0004 00fc 	movel #262396,%sp@-
+  180758:	2f28 0018      	movel %a0@(24),%sp@-
+  18075c:	2068 0010      	moveal %a0@(16),%a0
+  180760:	4e90           	jsr %a0@
+  180762:	4fef 000c      	lea %sp@(12),%sp
+  180766:	4a80           	tstl %d0
+  180768:	6706           	beqs 180770 <biwn_native_deck_coordinate_body+0x576>
+  18076a:	7002           	moveq #2,%d0
+  18076c:	2d40 fffc      	movel %d0,%fp@(-4)
+  180770:	42ae ff9a      	clrl %fp@(-102)
+  180774:	4aae fffc      	tstl %fp@(-4)
+  180778:	6600 0482      	bnew 180bfc <biwn_native_deck_coordinate_body+0xa02>
+  18077c:	206e ff9e      	moveal %fp@(-98),%a0
+  180780:	486e ff9a      	pea %fp@(-102)
+  180784:	2f3c 0004 0100 	movel #262400,%sp@-
+  18078a:	2f28 0018      	movel %a0@(24),%sp@-
+  18078e:	2068 0008      	moveal %a0@(8),%a0
+  180792:	4e90           	jsr %a0@
+  180794:	4fef 000c      	lea %sp@(12),%sp
+  180798:	4a80           	tstl %d0
+  18079a:	6706           	beqs 1807a2 <biwn_native_deck_coordinate_body+0x5a8>
+  18079c:	7a02           	moveq #2,%d5
+  18079e:	2d45 fffc      	movel %d5,%fp@(-4)
+  1807a2:	202e ff9a      	movel %fp@(-102),%d0
+  1807a6:	2d40 ffa2      	movel %d0,%fp@(-94)
+  1807aa:	322e ffee      	movew %fp@(-18),%d1
+  1807ae:	0241 fff0      	andiw #-16,%d1
+  1807b2:	4a80           	tstl %d0
+  1807b4:	6600 044c      	bnew 180c02 <biwn_native_deck_coordinate_body+0xa08>
+  1807b8:	0041 0004      	oriw #4,%d1
+  1807bc:	8240           	orw %d0,%d1
+  1807be:	3d41 ffee      	movew %d1,%fp@(-18)
+  1807c2:	42ae ff9a      	clrl %fp@(-102)
+  1807c6:	4aae fffc      	tstl %fp@(-4)
+  1807ca:	6600 0442      	bnew 180c0e <biwn_native_deck_coordinate_body+0xa14>
+  1807ce:	206e ff9e      	moveal %fp@(-98),%a0
+  1807d2:	486e ff9a      	pea %fp@(-102)
+  1807d6:	2f3c 0004 0406 	movel #263174,%sp@-
+  1807dc:	2f28 0018      	movel %a0@(24),%sp@-
+  1807e0:	2068 0008      	moveal %a0@(8),%a0
+  1807e4:	4e90           	jsr %a0@
+  1807e6:	4fef 000c      	lea %sp@(12),%sp
+  1807ea:	4a80           	tstl %d0
+  1807ec:	6706           	beqs 1807f4 <biwn_native_deck_coordinate_body+0x5fa>
+  1807ee:	7802           	moveq #2,%d4
+  1807f0:	2d44 fffc      	movel %d4,%fp@(-4)
+  1807f4:	222e ff9a      	movel %fp@(-102),%d1
+  1807f8:	282e ffa2      	movel %fp@(-94),%d4
+  1807fc:	2404           	movel %d4,%d2
+  1807fe:	d481           	addl %d1,%d2
+  180800:	b981           	eorl %d4,%d1
+  180802:	4681           	notl %d1
+  180804:	2004           	movel %d4,%d0
+  180806:	b580           	eorl %d2,%d0
+  180808:	c280           	andl %d0,%d1
+  18080a:	d281           	addl %d1,%d1
+  18080c:	9381           	subxl %d1,%d1
+  18080e:	4481           	negl %d1
+  180810:	362e ffee      	movew %fp@(-18),%d3
+  180814:	0243 fff0      	andiw #-16,%d3
+  180818:	4a82           	tstl %d2
+  18081a:	6600 03f8      	bnew 180c14 <biwn_native_deck_coordinate_body+0xa1a>
+  18081e:	0043 0004      	oriw #4,%d3
+  180822:	4240           	clrw %d0
+  180824:	8640           	orw %d0,%d3
+  180826:	0243 ffec      	andiw #-20,%d3
+  18082a:	b484           	cmpl %d4,%d2
+  18082c:	6500 03f4      	bcsw 180c22 <biwn_native_deck_coordinate_body+0xa28>
+  180830:	4244           	clrw %d4
+  180832:	c4ae ffa6      	andl %fp@(-90),%d2
+  180836:	2d42 ffa2      	movel %d2,%fp@(-94)
+  18083a:	3001           	movew %d1,%d0
+  18083c:	d041           	addw %d1,%d0
+  18083e:	8043           	orw %d3,%d0
+  180840:	8044           	orw %d4,%d0
+  180842:	0240 fff0      	andiw #-16,%d0
+  180846:	4a82           	tstl %d2
+  180848:	6600 03de      	bnew 180c28 <biwn_native_deck_coordinate_body+0xa2e>
+  18084c:	0040 0004      	oriw #4,%d0
+  180850:	4241           	clrw %d1
+  180852:	8041           	orw %d1,%d0
+  180854:	3d40 ffee      	movew %d0,%fp@(-18)
+  180858:	4aae fffc      	tstl %fp@(-4)
+  18085c:	6624           	bnes 180882 <biwn_native_deck_coordinate_body+0x688>
+  18085e:	206e ff9e      	moveal %fp@(-98),%a0
+  180862:	2f02           	movel %d2,%sp@-
+  180864:	2f3c 0004 0100 	movel #262400,%sp@-
+  18086a:	2f28 0018      	movel %a0@(24),%sp@-
+  18086e:	2068 0010      	moveal %a0@(16),%a0
+  180872:	4e90           	jsr %a0@
+  180874:	4fef 000c      	lea %sp@(12),%sp
+  180878:	4a80           	tstl %d0
+  18087a:	6706           	beqs 180882 <biwn_native_deck_coordinate_body+0x688>
+  18087c:	7602           	moveq #2,%d3
+  18087e:	2d43 fffc      	movel %d3,%fp@(-4)
+  180882:	42ae ff9a      	clrl %fp@(-102)
+  180886:	4aae fffc      	tstl %fp@(-4)
+  18088a:	6600 03aa      	bnew 180c36 <biwn_native_deck_coordinate_body+0xa3c>
+  18088e:	206e ff9e      	moveal %fp@(-98),%a0
+  180892:	486e ff9a      	pea %fp@(-102)
+  180896:	2f3c 0004 0104 	movel #262404,%sp@-
+  18089c:	2f28 0018      	movel %a0@(24),%sp@-
+  1808a0:	2068 0008      	moveal %a0@(8),%a0
+  1808a4:	4e90           	jsr %a0@
+  1808a6:	4fef 000c      	lea %sp@(12),%sp
+  1808aa:	4a80           	tstl %d0
+  1808ac:	6706           	beqs 1808b4 <biwn_native_deck_coordinate_body+0x6ba>
+  1808ae:	7402           	moveq #2,%d2
+  1808b0:	2d42 fffc      	movel %d2,%fp@(-4)
+  1808b4:	242e ff9a      	movel %fp@(-102),%d2
+  1808b8:	202e ffde      	movel %fp@(-34),%d0
+  1808bc:	5980           	subql #4,%d0
+  1808be:	2d40 ffde      	movel %d0,%fp@(-34)
+  1808c2:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1808c8:	6700 0372      	beqw 180c3c <biwn_native_deck_coordinate_body+0xa42>
+  1808cc:	2d40 ffea      	movel %d0,%fp@(-22)
+  1808d0:	4aae fffc      	tstl %fp@(-4)
+  1808d4:	6626           	bnes 1808fc <biwn_native_deck_coordinate_body+0x702>
+  1808d6:	206e ff9e      	moveal %fp@(-98),%a0
+  1808da:	2f02           	movel %d2,%sp@-
+  1808dc:	0280 00ff ffff 	andil #16777215,%d0
+  1808e2:	2f00           	movel %d0,%sp@-
+  1808e4:	2f28 0018      	movel %a0@(24),%sp@-
+  1808e8:	2068 0010      	moveal %a0@(16),%a0
+  1808ec:	4e90           	jsr %a0@
+  1808ee:	4fef 000c      	lea %sp@(12),%sp
+  1808f2:	4a80           	tstl %d0
+  1808f4:	6706           	beqs 1808fc <biwn_native_deck_coordinate_body+0x702>
+  1808f6:	7202           	moveq #2,%d1
+  1808f8:	2d41 fffc      	movel %d1,%fp@(-4)
+  1808fc:	302e ffee      	movew %fp@(-18),%d0
+  180900:	0240 fff0      	andiw #-16,%d0
+  180904:	4a82           	tstl %d2
+  180906:	6600 033c      	bnew 180c44 <biwn_native_deck_coordinate_body+0xa4a>
+  18090a:	0040 0004      	oriw #4,%d0
+  18090e:	8042           	orw %d2,%d0
+  180910:	3d40 ffee      	movew %d0,%fp@(-18)
+  180914:	42ae ff9a      	clrl %fp@(-102)
+  180918:	4aae fffc      	tstl %fp@(-4)
+  18091c:	6600 0332      	bnew 180c50 <biwn_native_deck_coordinate_body+0xa56>
+  180920:	206e ff9e      	moveal %fp@(-98),%a0
+  180924:	486e ff9a      	pea %fp@(-102)
+  180928:	2f3c 0004 0406 	movel #263174,%sp@-
+  18092e:	2f28 0018      	movel %a0@(24),%sp@-
+  180932:	2068 0008      	moveal %a0@(8),%a0
+  180936:	4e90           	jsr %a0@
+  180938:	4fef 000c      	lea %sp@(12),%sp
+  18093c:	4a80           	tstl %d0
+  18093e:	6706           	beqs 180946 <biwn_native_deck_coordinate_body+0x74c>
+  180940:	7002           	moveq #2,%d0
+  180942:	2d40 fffc      	movel %d0,%fp@(-4)
+  180946:	242e ff9a      	movel %fp@(-102),%d2
+  18094a:	202e ffde      	movel %fp@(-34),%d0
+  18094e:	5980           	subql #4,%d0
+  180950:	2d40 ffde      	movel %d0,%fp@(-34)
+  180954:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18095a:	6700 02fa      	beqw 180c56 <biwn_native_deck_coordinate_body+0xa5c>
+  18095e:	2d40 ffea      	movel %d0,%fp@(-22)
+  180962:	4aae fffc      	tstl %fp@(-4)
+  180966:	6626           	bnes 18098e <biwn_native_deck_coordinate_body+0x794>
+  180968:	206e ff9e      	moveal %fp@(-98),%a0
+  18096c:	2f02           	movel %d2,%sp@-
+  18096e:	0280 00ff ffff 	andil #16777215,%d0
+  180974:	2f00           	movel %d0,%sp@-
+  180976:	2f28 0018      	movel %a0@(24),%sp@-
+  18097a:	2068 0010      	moveal %a0@(16),%a0
+  18097e:	4e90           	jsr %a0@
+  180980:	4fef 000c      	lea %sp@(12),%sp
+  180984:	4a80           	tstl %d0
+  180986:	6706           	beqs 18098e <biwn_native_deck_coordinate_body+0x794>
+  180988:	7a02           	moveq #2,%d5
+  18098a:	2d45 fffc      	movel %d5,%fp@(-4)
+  18098e:	302e ffee      	movew %fp@(-18),%d0
+  180992:	0240 fff0      	andiw #-16,%d0
+  180996:	4a82           	tstl %d2
+  180998:	6600 02c4      	bnew 180c5e <biwn_native_deck_coordinate_body+0xa64>
+  18099c:	0040 0004      	oriw #4,%d0
+  1809a0:	8042           	orw %d2,%d0
+  1809a2:	3d40 ffee      	movew %d0,%fp@(-18)
+  1809a6:	42ae ff9a      	clrl %fp@(-102)
+  1809aa:	4aae fffc      	tstl %fp@(-4)
+  1809ae:	6600 02ba      	bnew 180c6a <biwn_native_deck_coordinate_body+0xa70>
+  1809b2:	206e ff9e      	moveal %fp@(-98),%a0
+  1809b6:	486e ff9a      	pea %fp@(-102)
+  1809ba:	2f3c 0004 040a 	movel #263178,%sp@-
+  1809c0:	2f28 0018      	movel %a0@(24),%sp@-
+  1809c4:	2068 0008      	moveal %a0@(8),%a0
+  1809c8:	4e90           	jsr %a0@
+  1809ca:	4fef 000c      	lea %sp@(12),%sp
+  1809ce:	4a80           	tstl %d0
+  1809d0:	6706           	beqs 1809d8 <biwn_native_deck_coordinate_body+0x7de>
+  1809d2:	7802           	moveq #2,%d4
+  1809d4:	2d44 fffc      	movel %d4,%fp@(-4)
+  1809d8:	242e ff9a      	movel %fp@(-102),%d2
+  1809dc:	202e ffde      	movel %fp@(-34),%d0
+  1809e0:	5980           	subql #4,%d0
+  1809e2:	2d40 ffde      	movel %d0,%fp@(-34)
+  1809e6:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1809ec:	6700 0282      	beqw 180c70 <biwn_native_deck_coordinate_body+0xa76>
+  1809f0:	2d40 ffea      	movel %d0,%fp@(-22)
+  1809f4:	4aae fffc      	tstl %fp@(-4)
+  1809f8:	6626           	bnes 180a20 <biwn_native_deck_coordinate_body+0x826>
+  1809fa:	206e ff9e      	moveal %fp@(-98),%a0
+  1809fe:	2f02           	movel %d2,%sp@-
+  180a00:	0280 00ff ffff 	andil #16777215,%d0
+  180a06:	2f00           	movel %d0,%sp@-
+  180a08:	2f28 0018      	movel %a0@(24),%sp@-
+  180a0c:	2068 0010      	moveal %a0@(16),%a0
+  180a10:	4e90           	jsr %a0@
+  180a12:	4fef 000c      	lea %sp@(12),%sp
+  180a16:	4a80           	tstl %d0
+  180a18:	6706           	beqs 180a20 <biwn_native_deck_coordinate_body+0x826>
+  180a1a:	7602           	moveq #2,%d3
+  180a1c:	2d43 fffc      	movel %d3,%fp@(-4)
+  180a20:	302e ffee      	movew %fp@(-18),%d0
+  180a24:	0240 fff0      	andiw #-16,%d0
+  180a28:	4a82           	tstl %d2
+  180a2a:	6600 024c      	bnew 180c78 <biwn_native_deck_coordinate_body+0xa7e>
+  180a2e:	0040 0004      	oriw #4,%d0
+  180a32:	8440           	orw %d0,%d2
+  180a34:	3d42 ffee      	movew %d2,%fp@(-18)
+  180a38:	42ae ff9a      	clrl %fp@(-102)
+  180a3c:	4aae fffc      	tstl %fp@(-4)
+  180a40:	6600 0242      	bnew 180c84 <biwn_native_deck_coordinate_body+0xa8a>
+  180a44:	206e ff9e      	moveal %fp@(-98),%a0
+  180a48:	486e ff9a      	pea %fp@(-102)
+  180a4c:	2f3c 0004 0402 	movel #263170,%sp@-
+  180a52:	2f28 0018      	movel %a0@(24),%sp@-
+  180a56:	2068 0008      	moveal %a0@(8),%a0
+  180a5a:	4e90           	jsr %a0@
+  180a5c:	4fef 000c      	lea %sp@(12),%sp
+  180a60:	4a80           	tstl %d0
+  180a62:	6706           	beqs 180a6a <biwn_native_deck_coordinate_body+0x870>
+  180a64:	7202           	moveq #2,%d1
+  180a66:	2d41 fffc      	movel %d1,%fp@(-4)
+  180a6a:	242e ff9a      	movel %fp@(-102),%d2
+  180a6e:	202e ffde      	movel %fp@(-34),%d0
+  180a72:	5980           	subql #4,%d0
+  180a74:	2d40 ffde      	movel %d0,%fp@(-34)
+  180a78:	082e 0005 ffee 	btst #5,%fp@(-18)
+  180a7e:	6700 020a      	beqw 180c8a <biwn_native_deck_coordinate_body+0xa90>
+  180a82:	2d40 ffea      	movel %d0,%fp@(-22)
+  180a86:	4aae fffc      	tstl %fp@(-4)
+  180a8a:	6626           	bnes 180ab2 <biwn_native_deck_coordinate_body+0x8b8>
+  180a8c:	206e ff9e      	moveal %fp@(-98),%a0
+  180a90:	2f02           	movel %d2,%sp@-
+  180a92:	0280 00ff ffff 	andil #16777215,%d0
+  180a98:	2f00           	movel %d0,%sp@-
+  180a9a:	2f28 0018      	movel %a0@(24),%sp@-
+  180a9e:	2068 0010      	moveal %a0@(16),%a0
+  180aa2:	4e90           	jsr %a0@
+  180aa4:	4fef 000c      	lea %sp@(12),%sp
+  180aa8:	4a80           	tstl %d0
+  180aaa:	6706           	beqs 180ab2 <biwn_native_deck_coordinate_body+0x8b8>
+  180aac:	7002           	moveq #2,%d0
+  180aae:	2d40 fffc      	movel %d0,%fp@(-4)
+  180ab2:	302e ffee      	movew %fp@(-18),%d0
+  180ab6:	0240 fff0      	andiw #-16,%d0
+  180aba:	4a82           	tstl %d2
+  180abc:	6600 01d4      	bnew 180c92 <biwn_native_deck_coordinate_body+0xa98>
+  180ac0:	0040 0004      	oriw #4,%d0
+  180ac4:	8440           	orw %d0,%d2
+  180ac6:	3d42 ffee      	movew %d2,%fp@(-18)
+  180aca:	202e ffde      	movel %fp@(-34),%d0
+  180ace:	5980           	subql #4,%d0
+  180ad0:	2d40 ffde      	movel %d0,%fp@(-34)
+  180ad4:	0802 000d      	btst #13,%d2
+  180ad8:	6700 01c4      	beqw 180c9e <biwn_native_deck_coordinate_body+0xaa4>
+  180adc:	2d40 ffea      	movel %d0,%fp@(-22)
+  180ae0:	45ee ffa2      	lea %fp@(-94),%a2
+  180ae4:	4aae fffc      	tstl %fp@(-4)
+  180ae8:	662c           	bnes 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180aea:	206e ff9e      	moveal %fp@(-98),%a0
+  180aee:	2f3c 0004 7b88 	movel #293768,%sp@-
+  180af4:	0280 00ff ffff 	andil #16777215,%d0
+  180afa:	2f00           	movel %d0,%sp@-
+  180afc:	2f28 0018      	movel %a0@(24),%sp@-
+  180b00:	2068 0010      	moveal %a0@(16),%a0
+  180b04:	4e90           	jsr %a0@
+  180b06:	4fef 000c      	lea %sp@(12),%sp
+  180b0a:	4a80           	tstl %d0
+  180b0c:	6700 0198      	beqw 180ca6 <biwn_native_deck_coordinate_body+0xaac>
+  180b10:	7a02           	moveq #2,%d5
+  180b12:	2d45 fffc      	movel %d5,%fp@(-4)
+  180b16:	4878 004e      	pea 4e <FRAME_OFFSET+0x3e>
+  180b1a:	2f0a           	movel %a2,%sp@-
+  180b1c:	2f2e 0008      	movel %fp@(8),%sp@-
+  180b20:	4eb9 0018 250e 	jsr 18250e <memcpy>
+  180b26:	206e 0008      	moveal %fp@(8),%a0
+  180b2a:	216e fffc 0060 	movel %fp@(-4),%a0@(96)
+  180b30:	4fef 000c      	lea %sp@(12),%sp
+  180b34:	4cee 0c3c ff80 	moveml %fp@(-128),%d2-%d5/%a2-%a3
+  180b3a:	4e5e           	unlk %fp
+  180b3c:	4e75           	rts
+  180b3e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b42:	6000 f710      	braw 180254 <biwn_native_deck_coordinate_body+0x5a>
+  180b46:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b4a:	6000 f74a      	braw 180296 <biwn_native_deck_coordinate_body+0x9c>
+  180b4e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b52:	6000 f78a      	braw 1802de <biwn_native_deck_coordinate_body+0xe4>
+  180b56:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b5a:	6000 f7ca      	braw 180326 <biwn_native_deck_coordinate_body+0x12c>
+  180b5e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b62:	6000 f80a      	braw 18036e <biwn_native_deck_coordinate_body+0x174>
+  180b66:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b6a:	6000 f84a      	braw 1803b6 <biwn_native_deck_coordinate_body+0x1bc>
+  180b6e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b72:	6000 f88a      	braw 1803fe <biwn_native_deck_coordinate_body+0x204>
+  180b76:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b7a:	6000 f8ca      	braw 180446 <biwn_native_deck_coordinate_body+0x24c>
+  180b7e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b82:	6000 f90a      	braw 18048e <biwn_native_deck_coordinate_body+0x294>
+  180b86:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b8a:	6000 f94a      	braw 1804d6 <biwn_native_deck_coordinate_body+0x2dc>
+  180b8e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180b92:	6000 f98a      	braw 18051e <biwn_native_deck_coordinate_body+0x324>
+  180b96:	7000           	moveq #0,%d0
+  180b98:	6000 f9e6      	braw 180580 <biwn_native_deck_coordinate_body+0x386>
+  180b9c:	d080           	addl %d0,%d0
+  180b9e:	9180           	subxl %d0,%d0
+  180ba0:	4480           	negl %d0
+  180ba2:	e748           	lslw #3,%d0
+  180ba4:	6000 f9f0      	braw 180596 <biwn_native_deck_coordinate_body+0x39c>
+  180ba8:	7200           	moveq #0,%d1
+  180baa:	6000 fa26      	braw 1805d2 <biwn_native_deck_coordinate_body+0x3d8>
+  180bae:	2002           	movel %d2,%d0
+  180bb0:	d080           	addl %d0,%d0
+  180bb2:	9180           	subxl %d0,%d0
+  180bb4:	4480           	negl %d0
+  180bb6:	e748           	lslw #3,%d0
+  180bb8:	6000 fa44      	braw 1805fe <biwn_native_deck_coordinate_body+0x404>
+  180bbc:	7811           	moveq #17,%d4
+  180bbe:	6000 fa4c      	braw 18060c <biwn_native_deck_coordinate_body+0x412>
+  180bc2:	7000           	moveq #0,%d0
+  180bc4:	6000 face      	braw 180694 <biwn_native_deck_coordinate_body+0x49a>
+  180bc8:	d080           	addl %d0,%d0
+  180bca:	9180           	subxl %d0,%d0
+  180bcc:	4480           	negl %d0
+  180bce:	e748           	lslw #3,%d0
+  180bd0:	6000 fad8      	braw 1806aa <biwn_native_deck_coordinate_body+0x4b0>
+  180bd4:	7200           	moveq #0,%d1
+  180bd6:	6000 fb0e      	braw 1806e6 <biwn_native_deck_coordinate_body+0x4ec>
+  180bda:	2002           	movel %d2,%d0
+  180bdc:	d080           	addl %d0,%d0
+  180bde:	9180           	subxl %d0,%d0
+  180be0:	4480           	negl %d0
+  180be2:	e748           	lslw #3,%d0
+  180be4:	6000 fb2c      	braw 180712 <biwn_native_deck_coordinate_body+0x518>
+  180be8:	7811           	moveq #17,%d4
+  180bea:	6000 fb34      	braw 180720 <biwn_native_deck_coordinate_body+0x526>
+  180bee:	2202           	movel %d2,%d1
+  180bf0:	d281           	addl %d1,%d1
+  180bf2:	9381           	subxl %d1,%d1
+  180bf4:	4481           	negl %d1
+  180bf6:	e749           	lslw #3,%d1
+  180bf8:	6000 fb46      	braw 180740 <biwn_native_deck_coordinate_body+0x546>
+  180bfc:	7000           	moveq #0,%d0
+  180bfe:	6000 fba6      	braw 1807a6 <biwn_native_deck_coordinate_body+0x5ac>
+  180c02:	d080           	addl %d0,%d0
+  180c04:	9180           	subxl %d0,%d0
+  180c06:	4480           	negl %d0
+  180c08:	e748           	lslw #3,%d0
+  180c0a:	6000 fbb0      	braw 1807bc <biwn_native_deck_coordinate_body+0x5c2>
+  180c0e:	7200           	moveq #0,%d1
+  180c10:	6000 fbe6      	braw 1807f8 <biwn_native_deck_coordinate_body+0x5fe>
+  180c14:	2002           	movel %d2,%d0
+  180c16:	d080           	addl %d0,%d0
+  180c18:	9180           	subxl %d0,%d0
+  180c1a:	4480           	negl %d0
+  180c1c:	e748           	lslw #3,%d0
+  180c1e:	6000 fc04      	braw 180824 <biwn_native_deck_coordinate_body+0x62a>
+  180c22:	7811           	moveq #17,%d4
+  180c24:	6000 fc0c      	braw 180832 <biwn_native_deck_coordinate_body+0x638>
+  180c28:	2202           	movel %d2,%d1
+  180c2a:	d281           	addl %d1,%d1
+  180c2c:	9381           	subxl %d1,%d1
+  180c2e:	4481           	negl %d1
+  180c30:	e749           	lslw #3,%d1
+  180c32:	6000 fc1e      	braw 180852 <biwn_native_deck_coordinate_body+0x658>
+  180c36:	7400           	moveq #0,%d2
+  180c38:	6000 fc7e      	braw 1808b8 <biwn_native_deck_coordinate_body+0x6be>
+  180c3c:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180c40:	6000 fc8e      	braw 1808d0 <biwn_native_deck_coordinate_body+0x6d6>
+  180c44:	d482           	addl %d2,%d2
+  180c46:	9582           	subxl %d2,%d2
+  180c48:	4482           	negl %d2
+  180c4a:	e74a           	lslw #3,%d2
+  180c4c:	6000 fcc0      	braw 18090e <biwn_native_deck_coordinate_body+0x714>
+  180c50:	7400           	moveq #0,%d2
+  180c52:	6000 fcf6      	braw 18094a <biwn_native_deck_coordinate_body+0x750>
+  180c56:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180c5a:	6000 fd06      	braw 180962 <biwn_native_deck_coordinate_body+0x768>
+  180c5e:	d482           	addl %d2,%d2
+  180c60:	9582           	subxl %d2,%d2
+  180c62:	4482           	negl %d2
+  180c64:	e74a           	lslw #3,%d2
+  180c66:	6000 fd38      	braw 1809a0 <biwn_native_deck_coordinate_body+0x7a6>
+  180c6a:	7400           	moveq #0,%d2
+  180c6c:	6000 fd6e      	braw 1809dc <biwn_native_deck_coordinate_body+0x7e2>
+  180c70:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180c74:	6000 fd7e      	braw 1809f4 <biwn_native_deck_coordinate_body+0x7fa>
+  180c78:	d482           	addl %d2,%d2
+  180c7a:	9582           	subxl %d2,%d2
+  180c7c:	4482           	negl %d2
+  180c7e:	e74a           	lslw #3,%d2
+  180c80:	6000 fdb0      	braw 180a32 <biwn_native_deck_coordinate_body+0x838>
+  180c84:	7400           	moveq #0,%d2
+  180c86:	6000 fde6      	braw 180a6e <biwn_native_deck_coordinate_body+0x874>
+  180c8a:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180c8e:	6000 fdf6      	braw 180a86 <biwn_native_deck_coordinate_body+0x88c>
+  180c92:	d482           	addl %d2,%d2
+  180c94:	9582           	subxl %d2,%d2
+  180c96:	4482           	negl %d2
+  180c98:	e74a           	lslw #3,%d2
+  180c9a:	6000 fe28      	braw 180ac4 <biwn_native_deck_coordinate_body+0x8ca>
+  180c9e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180ca2:	6000 fe3c      	braw 180ae0 <biwn_native_deck_coordinate_body+0x8e6>
+  180ca6:	4aae fffc      	tstl %fp@(-4)
+  180caa:	6600 fe6a      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180cae:	202e fff8      	movel %fp@(-8),%d0
+  180cb2:	660a           	bnes 180cbe <biwn_native_deck_coordinate_body+0xac4>
+  180cb4:	7804           	moveq #4,%d4
+  180cb6:	2d44 fffc      	movel %d4,%fp@(-4)
+  180cba:	6000 fe5a      	braw 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180cbe:	5380           	subql #1,%d0
+  180cc0:	2d40 fff8      	movel %d0,%fp@(-8)
+  180cc4:	202e ffde      	movel %fp@(-34),%d0
+  180cc8:	5980           	subql #4,%d0
+  180cca:	2d40 ffde      	movel %d0,%fp@(-34)
+  180cce:	082e 0005 ffee 	btst #5,%fp@(-18)
+  180cd4:	676a           	beqs 180d40 <biwn_native_deck_coordinate_body+0xb46>
+  180cd6:	2d40 ffea      	movel %d0,%fp@(-22)
+  180cda:	206e ff9e      	moveal %fp@(-98),%a0
+  180cde:	2f3c 0001 1d82 	movel #73090,%sp@-
+  180ce4:	0280 00ff ffff 	andil #16777215,%d0
+  180cea:	2f00           	movel %d0,%sp@-
+  180cec:	2f28 0018      	movel %a0@(24),%sp@-
+  180cf0:	2068 0010      	moveal %a0@(16),%a0
+  180cf4:	4e90           	jsr %a0@
+  180cf6:	4fef 000c      	lea %sp@(12),%sp
+  180cfa:	4a80           	tstl %d0
+  180cfc:	6706           	beqs 180d04 <biwn_native_deck_coordinate_body+0xb0a>
+  180cfe:	7602           	moveq #2,%d3
+  180d00:	2d43 fffc      	movel %d3,%fp@(-4)
+  180d04:	2d7c 0000 e26c 	movel #57964,%fp@(-30)
+  180d0a:	ffe2 
+  180d0c:	4aae fffc      	tstl %fp@(-4)
+  180d10:	6600 fe04      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180d14:	242e ffde      	movel %fp@(-34),%d2
+  180d18:	2f3c 0000 e26c 	movel #57964,%sp@-
+  180d1e:	2f0a           	movel %a2,%sp@-
+  180d20:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  180d24:	2f2e fff4      	movel %fp@(-12),%sp@-
+  180d28:	206e fff0      	moveal %fp@(-16),%a0
+  180d2c:	4e90           	jsr %a0@
+  180d2e:	4fef 0010      	lea %sp@(16),%sp
+  180d32:	4a80           	tstl %d0
+  180d34:	6710           	beqs 180d46 <biwn_native_deck_coordinate_body+0xb4c>
+  180d36:	7403           	moveq #3,%d2
+  180d38:	2d42 fffc      	movel %d2,%fp@(-4)
+  180d3c:	6000 fdd8      	braw 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180d40:	2d40 ffe6      	movel %d0,%fp@(-26)
+  180d44:	6094           	bras 180cda <biwn_native_deck_coordinate_body+0xae0>
+  180d46:	b4ae ffde      	cmpl %fp@(-34),%d2
+  180d4a:	670a           	beqs 180d56 <biwn_native_deck_coordinate_body+0xb5c>
+  180d4c:	7205           	moveq #5,%d1
+  180d4e:	2d41 fffc      	movel %d1,%fp@(-4)
+  180d52:	6000 fdc2      	braw 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180d56:	42ae ff9a      	clrl %fp@(-102)
+  180d5a:	4aae fffc      	tstl %fp@(-4)
+  180d5e:	6600 14ce      	bnew 18222e <biwn_native_deck_coordinate_body+0x2034>
+  180d62:	206e ff9e      	moveal %fp@(-98),%a0
+  180d66:	486e ff9a      	pea %fp@(-102)
+  180d6a:	0282 00ff ffff 	andil #16777215,%d2
+  180d70:	2f02           	movel %d2,%sp@-
+  180d72:	2f28 0018      	movel %a0@(24),%sp@-
+  180d76:	2068 0008      	moveal %a0@(8),%a0
+  180d7a:	4e90           	jsr %a0@
+  180d7c:	4fef 000c      	lea %sp@(12),%sp
+  180d80:	4a80           	tstl %d0
+  180d82:	6706           	beqs 180d8a <biwn_native_deck_coordinate_body+0xb90>
+  180d84:	7002           	moveq #2,%d0
+  180d86:	2d40 fffc      	movel %d0,%fp@(-4)
+  180d8a:	202e ff9a      	movel %fp@(-102),%d0
+  180d8e:	222e ffde      	movel %fp@(-34),%d1
+  180d92:	5881           	addql #4,%d1
+  180d94:	2d41 ffde      	movel %d1,%fp@(-34)
+  180d98:	082e 0005 ffee 	btst #5,%fp@(-18)
+  180d9e:	6700 1494      	beqw 182234 <biwn_native_deck_coordinate_body+0x203a>
+  180da2:	2d41 ffea      	movel %d1,%fp@(-22)
+  180da6:	4aae fffc      	tstl %fp@(-4)
+  180daa:	6600 fd6a      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  180dae:	0c80 0001 1d82 	cmpil #73090,%d0
+  180db4:	6696           	bnes 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  180db6:	2d40 ffe2      	movel %d0,%fp@(-30)
+  180dba:	206e ff9e      	moveal %fp@(-98),%a0
+  180dbe:	42a7           	clrl %sp@-
+  180dc0:	2f3c 0004 0406 	movel #263174,%sp@-
+  180dc6:	2f28 0018      	movel %a0@(24),%sp@-
+  180dca:	2068 0010      	moveal %a0@(16),%a0
+  180dce:	4e90           	jsr %a0@
+  180dd0:	4fef 000c      	lea %sp@(12),%sp
+  180dd4:	4a80           	tstl %d0
+  180dd6:	6706           	beqs 180dde <biwn_native_deck_coordinate_body+0xbe4>
+  180dd8:	7a02           	moveq #2,%d5
+  180dda:	2d45 fffc      	movel %d5,%fp@(-4)
+  180dde:	302e ffee      	movew %fp@(-18),%d0
+  180de2:	0240 fff0      	andiw #-16,%d0
+  180de6:	0040 0004      	oriw #4,%d0
+  180dea:	3d40 ffee      	movew %d0,%fp@(-18)
+  180dee:	4aae fffc      	tstl %fp@(-4)
+  180df2:	6624           	bnes 180e18 <biwn_native_deck_coordinate_body+0xc1e>
+  180df4:	206e ff9e      	moveal %fp@(-98),%a0
+  180df8:	42a7           	clrl %sp@-
+  180dfa:	2f3c 0004 040a 	movel #263178,%sp@-
+  180e00:	2f28 0018      	movel %a0@(24),%sp@-
+  180e04:	2068 0010      	moveal %a0@(16),%a0
+  180e08:	4e90           	jsr %a0@
+  180e0a:	4fef 000c      	lea %sp@(12),%sp
+  180e0e:	4a80           	tstl %d0
+  180e10:	6706           	beqs 180e18 <biwn_native_deck_coordinate_body+0xc1e>
+  180e12:	7802           	moveq #2,%d4
+  180e14:	2d44 fffc      	movel %d4,%fp@(-4)
+  180e18:	302e ffee      	movew %fp@(-18),%d0
+  180e1c:	0240 fff0      	andiw #-16,%d0
+  180e20:	0040 0004      	oriw #4,%d0
+  180e24:	3d40 ffee      	movew %d0,%fp@(-18)
+  180e28:	4aae fffc      	tstl %fp@(-4)
+  180e2c:	6624           	bnes 180e52 <biwn_native_deck_coordinate_body+0xc58>
+  180e2e:	206e ff9e      	moveal %fp@(-98),%a0
+  180e32:	42a7           	clrl %sp@-
+  180e34:	2f3c 0004 0402 	movel #263170,%sp@-
+  180e3a:	2f28 0018      	movel %a0@(24),%sp@-
+  180e3e:	2068 0010      	moveal %a0@(16),%a0
+  180e42:	4e90           	jsr %a0@
+  180e44:	4fef 000c      	lea %sp@(12),%sp
+  180e48:	4a80           	tstl %d0
+  180e4a:	6706           	beqs 180e52 <biwn_native_deck_coordinate_body+0xc58>
+  180e4c:	7602           	moveq #2,%d3
+  180e4e:	2d43 fffc      	movel %d3,%fp@(-4)
+  180e52:	302e ffee      	movew %fp@(-18),%d0
+  180e56:	0240 fff0      	andiw #-16,%d0
+  180e5a:	0040 0004      	oriw #4,%d0
+  180e5e:	3d40 ffee      	movew %d0,%fp@(-18)
+  180e62:	2d7c 0004 7b9a 	movel #293786,%fp@(-54)
+  180e68:	ffca 
+  180e6a:	426e ff9a      	clrw %fp@(-102)
+  180e6e:	4aae fffc      	tstl %fp@(-4)
+  180e72:	6600 13c8      	bnew 18223c <biwn_native_deck_coordinate_body+0x2042>
+  180e76:	206e ff9e      	moveal %fp@(-98),%a0
+  180e7a:	486e ff9a      	pea %fp@(-102)
+  180e7e:	2f3c 0004 7b9a 	movel #293786,%sp@-
+  180e84:	2f28 0018      	movel %a0@(24),%sp@-
+  180e88:	2068 0004      	moveal %a0@(4),%a0
+  180e8c:	4e90           	jsr %a0@
+  180e8e:	4fef 000c      	lea %sp@(12),%sp
+  180e92:	4a80           	tstl %d0
+  180e94:	6706           	beqs 180e9c <biwn_native_deck_coordinate_body+0xca2>
+  180e96:	7402           	moveq #2,%d2
+  180e98:	2d42 fffc      	movel %d2,%fp@(-4)
+  180e9c:	7000           	moveq #0,%d0
+  180e9e:	302e ff9a      	movew %fp@(-102),%d0
+  180ea2:	2200           	movel %d0,%d1
+  180ea4:	0281 0000 7fff 	andil #32767,%d1
+  180eaa:	0280 0000 8000 	andil #32768,%d0
+  180eb0:	9280           	subl %d0,%d1
+  180eb2:	2d41 ffce      	movel %d1,%fp@(-50)
+  180eb6:	426e ff9a      	clrw %fp@(-102)
+  180eba:	4aae fffc      	tstl %fp@(-4)
+  180ebe:	6600 1382      	bnew 182242 <biwn_native_deck_coordinate_body+0x2048>
+  180ec2:	206e ff9e      	moveal %fp@(-98),%a0
+  180ec6:	486e ff9a      	pea %fp@(-102)
+  180eca:	2f3c 0004 7b9c 	movel #293788,%sp@-
+  180ed0:	2f28 0018      	movel %a0@(24),%sp@-
+  180ed4:	2068 0004      	moveal %a0@(4),%a0
+  180ed8:	4e90           	jsr %a0@
+  180eda:	4fef 000c      	lea %sp@(12),%sp
+  180ede:	4a80           	tstl %d0
+  180ee0:	6706           	beqs 180ee8 <biwn_native_deck_coordinate_body+0xcee>
+  180ee2:	7202           	moveq #2,%d1
+  180ee4:	2d41 fffc      	movel %d1,%fp@(-4)
+  180ee8:	7000           	moveq #0,%d0
+  180eea:	302e ff9a      	movew %fp@(-102),%d0
+  180eee:	2200           	movel %d0,%d1
+  180ef0:	0281 0000 7fff 	andil #32767,%d1
+  180ef6:	0280 0000 8000 	andil #32768,%d0
+  180efc:	9280           	subl %d0,%d1
+  180efe:	2d41 ffd2      	movel %d1,%fp@(-46)
+  180f02:	2d7c 0004 7b9e 	movel #293790,%fp@(-62)
+  180f08:	ffc2 
+  180f0a:	426e ff9a      	clrw %fp@(-102)
+  180f0e:	4aae fffc      	tstl %fp@(-4)
+  180f12:	6600 1334      	bnew 182248 <biwn_native_deck_coordinate_body+0x204e>
+  180f16:	206e ff9e      	moveal %fp@(-98),%a0
+  180f1a:	486e ff9a      	pea %fp@(-102)
+  180f1e:	2f3c 0004 7b9e 	movel #293790,%sp@-
+  180f24:	2f28 0018      	movel %a0@(24),%sp@-
+  180f28:	2068 0004      	moveal %a0@(4),%a0
+  180f2c:	4e90           	jsr %a0@
+  180f2e:	4fef 000c      	lea %sp@(12),%sp
+  180f32:	4a80           	tstl %d0
+  180f34:	6706           	beqs 180f3c <biwn_native_deck_coordinate_body+0xd42>
+  180f36:	7002           	moveq #2,%d0
+  180f38:	2d40 fffc      	movel %d0,%fp@(-4)
+  180f3c:	7000           	moveq #0,%d0
+  180f3e:	302e ff9a      	movew %fp@(-102),%d0
+  180f42:	2200           	movel %d0,%d1
+  180f44:	0281 0000 7fff 	andil #32767,%d1
+  180f4a:	0280 0000 8000 	andil #32768,%d0
+  180f50:	9280           	subl %d0,%d1
+  180f52:	2d41 ffd6      	movel %d1,%fp@(-42)
+  180f56:	4aae fffc      	tstl %fp@(-4)
+  180f5a:	662a           	bnes 180f86 <biwn_native_deck_coordinate_body+0xd8c>
+  180f5c:	206e ff9e      	moveal %fp@(-98),%a0
+  180f60:	42a7           	clrl %sp@-
+  180f62:	202e ffca      	movel %fp@(-54),%d0
+  180f66:	0280 00ff ffff 	andil #16777215,%d0
+  180f6c:	2f00           	movel %d0,%sp@-
+  180f6e:	2f28 0018      	movel %a0@(24),%sp@-
+  180f72:	2068 000c      	moveal %a0@(12),%a0
+  180f76:	4e90           	jsr %a0@
+  180f78:	4fef 000c      	lea %sp@(12),%sp
+  180f7c:	4a80           	tstl %d0
+  180f7e:	6706           	beqs 180f86 <biwn_native_deck_coordinate_body+0xd8c>
+  180f80:	7a02           	moveq #2,%d5
+  180f82:	2d45 fffc      	movel %d5,%fp@(-4)
+  180f86:	302e ffee      	movew %fp@(-18),%d0
+  180f8a:	0240 fff0      	andiw #-16,%d0
+  180f8e:	0040 0004      	oriw #4,%d0
+  180f92:	3d40 ffee      	movew %d0,%fp@(-18)
+  180f96:	4aae fffc      	tstl %fp@(-4)
+  180f9a:	6624           	bnes 180fc0 <biwn_native_deck_coordinate_body+0xdc6>
+  180f9c:	206e ff9e      	moveal %fp@(-98),%a0
+  180fa0:	42a7           	clrl %sp@-
+  180fa2:	2f3c 0004 7b9c 	movel #293788,%sp@-
+  180fa8:	2f28 0018      	movel %a0@(24),%sp@-
+  180fac:	2068 000c      	moveal %a0@(12),%a0
+  180fb0:	4e90           	jsr %a0@
+  180fb2:	4fef 000c      	lea %sp@(12),%sp
+  180fb6:	4a80           	tstl %d0
+  180fb8:	6706           	beqs 180fc0 <biwn_native_deck_coordinate_body+0xdc6>
+  180fba:	7802           	moveq #2,%d4
+  180fbc:	2d44 fffc      	movel %d4,%fp@(-4)
+  180fc0:	302e ffee      	movew %fp@(-18),%d0
+  180fc4:	0240 fff0      	andiw #-16,%d0
+  180fc8:	0040 0004      	oriw #4,%d0
+  180fcc:	3d40 ffee      	movew %d0,%fp@(-18)
+  180fd0:	4aae fffc      	tstl %fp@(-4)
+  180fd4:	662a           	bnes 181000 <biwn_native_deck_coordinate_body+0xe06>
+  180fd6:	206e ff9e      	moveal %fp@(-98),%a0
+  180fda:	42a7           	clrl %sp@-
+  180fdc:	202e ffc2      	movel %fp@(-62),%d0
+  180fe0:	0280 00ff ffff 	andil #16777215,%d0
+  180fe6:	2f00           	movel %d0,%sp@-
+  180fe8:	2f28 0018      	movel %a0@(24),%sp@-
+  180fec:	2068 000c      	moveal %a0@(12),%a0
+  180ff0:	4e90           	jsr %a0@
+  180ff2:	4fef 000c      	lea %sp@(12),%sp
+  180ff6:	4a80           	tstl %d0
+  180ff8:	6706           	beqs 181000 <biwn_native_deck_coordinate_body+0xe06>
+  180ffa:	7602           	moveq #2,%d3
+  180ffc:	2d43 fffc      	movel %d3,%fp@(-4)
+  181000:	302e ffee      	movew %fp@(-18),%d0
+  181004:	0240 fff0      	andiw #-16,%d0
+  181008:	0040 0004      	oriw #4,%d0
+  18100c:	3d40 ffee      	movew %d0,%fp@(-18)
+  181010:	2d7c 0004 00ec 	movel #262380,%fp@(-66)
+  181016:	ffbe 
+  181018:	2d6e ffce ffb6 	movel %fp@(-50),%fp@(-74)
+  18101e:	2d7c 0004 00ec 	movel #262380,%fp@(-58)
+  181024:	ffc6 
+  181026:	42ae ff9a      	clrl %fp@(-102)
+  18102a:	4aae fffc      	tstl %fp@(-4)
+  18102e:	6600 121e      	bnew 18224e <biwn_native_deck_coordinate_body+0x2054>
+  181032:	206e ff9e      	moveal %fp@(-98),%a0
+  181036:	486e ff9a      	pea %fp@(-102)
+  18103a:	2f3c 0004 00ec 	movel #262380,%sp@-
+  181040:	2f28 0018      	movel %a0@(24),%sp@-
+  181044:	2068 0008      	moveal %a0@(8),%a0
+  181048:	4e90           	jsr %a0@
+  18104a:	4fef 000c      	lea %sp@(12),%sp
+  18104e:	4a80           	tstl %d0
+  181050:	6706           	beqs 181058 <biwn_native_deck_coordinate_body+0xe5e>
+  181052:	7402           	moveq #2,%d2
+  181054:	2d42 fffc      	movel %d2,%fp@(-4)
+  181058:	202e ff9a      	movel %fp@(-102),%d0
+  18105c:	262e ffb6      	movel %fp@(-74),%d3
+  181060:	2403           	movel %d3,%d2
+  181062:	d480           	addl %d0,%d2
+  181064:	b780           	eorl %d3,%d0
+  181066:	4680           	notl %d0
+  181068:	2203           	movel %d3,%d1
+  18106a:	b581           	eorl %d2,%d1
+  18106c:	c081           	andl %d1,%d0
+  18106e:	d080           	addl %d0,%d0
+  181070:	9180           	subxl %d0,%d0
+  181072:	4480           	negl %d0
+  181074:	382e ffee      	movew %fp@(-18),%d4
+  181078:	0244 fff0      	andiw #-16,%d4
+  18107c:	4a82           	tstl %d2
+  18107e:	6600 11d4      	bnew 182254 <biwn_native_deck_coordinate_body+0x205a>
+  181082:	0044 0004      	oriw #4,%d4
+  181086:	4241           	clrw %d1
+  181088:	8244           	orw %d4,%d1
+  18108a:	0241 ffec      	andiw #-20,%d1
+  18108e:	b483           	cmpl %d3,%d2
+  181090:	6500 11d0      	bcsw 182262 <biwn_native_deck_coordinate_body+0x2068>
+  181094:	4243           	clrw %d3
+  181096:	d040           	addw %d0,%d0
+  181098:	8041           	orw %d1,%d0
+  18109a:	8043           	orw %d3,%d0
+  18109c:	3d40 ffee      	movew %d0,%fp@(-18)
+  1810a0:	2d42 ffb6      	movel %d2,%fp@(-74)
+  1810a4:	42ae ff9a      	clrl %fp@(-102)
+  1810a8:	4aae fffc      	tstl %fp@(-4)
+  1810ac:	6600 11ba      	bnew 182268 <biwn_native_deck_coordinate_body+0x206e>
+  1810b0:	206e ff9e      	moveal %fp@(-98),%a0
+  1810b4:	486e ff9a      	pea %fp@(-102)
+  1810b8:	2f3c 0004 00e6 	movel #262374,%sp@-
+  1810be:	2f28 0018      	movel %a0@(24),%sp@-
+  1810c2:	2068 0008      	moveal %a0@(8),%a0
+  1810c6:	4e90           	jsr %a0@
+  1810c8:	4fef 000c      	lea %sp@(12),%sp
+  1810cc:	4a80           	tstl %d0
+  1810ce:	6706           	beqs 1810d6 <biwn_native_deck_coordinate_body+0xedc>
+  1810d0:	7202           	moveq #2,%d1
+  1810d2:	2d41 fffc      	movel %d1,%fp@(-4)
+  1810d6:	222e ff9a      	movel %fp@(-102),%d1
+  1810da:	2d41 ffce      	movel %d1,%fp@(-50)
+  1810de:	202e ffb6      	movel %fp@(-74),%d0
+  1810e2:	2d40 ffa2      	movel %d0,%fp@(-94)
+  1810e6:	342e ffee      	movew %fp@(-18),%d2
+  1810ea:	0242 fff0      	andiw #-16,%d2
+  1810ee:	4a80           	tstl %d0
+  1810f0:	6600 117c      	bnew 18226e <biwn_native_deck_coordinate_body+0x2074>
+  1810f4:	0042 0004      	oriw #4,%d2
+  1810f8:	8440           	orw %d0,%d2
+  1810fa:	3d42 ffee      	movew %d2,%fp@(-18)
+  1810fe:	42ae ff9a      	clrl %fp@(-102)
+  181102:	4aae fffc      	tstl %fp@(-4)
+  181106:	6600 1172      	bnew 18227a <biwn_native_deck_coordinate_body+0x2080>
+  18110a:	206e ff9e      	moveal %fp@(-98),%a0
+  18110e:	486e ff9a      	pea %fp@(-102)
+  181112:	5881           	addql #4,%d1
+  181114:	0281 00ff ffff 	andil #16777215,%d1
+  18111a:	2f01           	movel %d1,%sp@-
+  18111c:	2f28 0018      	movel %a0@(24),%sp@-
+  181120:	2068 0008      	moveal %a0@(8),%a0
+  181124:	4e90           	jsr %a0@
+  181126:	4fef 000c      	lea %sp@(12),%sp
+  18112a:	4a80           	tstl %d0
+  18112c:	6706           	beqs 181134 <biwn_native_deck_coordinate_body+0xf3a>
+  18112e:	7002           	moveq #2,%d0
+  181130:	2d40 fffc      	movel %d0,%fp@(-4)
+  181134:	262e ff9a      	movel %fp@(-102),%d3
+  181138:	282e ffa2      	movel %fp@(-94),%d4
+  18113c:	2404           	movel %d4,%d2
+  18113e:	9483           	subl %d3,%d2
+  181140:	2004           	movel %d4,%d0
+  181142:	b780           	eorl %d3,%d0
+  181144:	2204           	movel %d4,%d1
+  181146:	b581           	eorl %d2,%d1
+  181148:	c081           	andl %d1,%d0
+  18114a:	d080           	addl %d0,%d0
+  18114c:	9180           	subxl %d0,%d0
+  18114e:	4480           	negl %d0
+  181150:	3a2e ffee      	movew %fp@(-18),%d5
+  181154:	0245 fff0      	andiw #-16,%d5
+  181158:	4a82           	tstl %d2
+  18115a:	6600 1124      	bnew 182280 <biwn_native_deck_coordinate_body+0x2086>
+  18115e:	0045 0004      	oriw #4,%d5
+  181162:	4241           	clrw %d1
+  181164:	8245           	orw %d5,%d1
+  181166:	0241 ffec      	andiw #-20,%d1
+  18116a:	b684           	cmpl %d4,%d3
+  18116c:	6200 1120      	bhiw 18228e <biwn_native_deck_coordinate_body+0x2094>
+  181170:	4243           	clrw %d3
+  181172:	d040           	addw %d0,%d0
+  181174:	8041           	orw %d1,%d0
+  181176:	8043           	orw %d3,%d0
+  181178:	3d40 ffee      	movew %d0,%fp@(-18)
+  18117c:	2d42 ffa2      	movel %d2,%fp@(-94)
+  181180:	2d7c 0004 00f0 	movel #262384,%fp@(-70)
+  181186:	ffba 
+  181188:	2d7c 0004 00f0 	movel #262384,%fp@(-58)
+  18118e:	ffc6 
+  181190:	242e ffd2      	movel %fp@(-46),%d2
+  181194:	42ae ff9a      	clrl %fp@(-102)
+  181198:	4aae fffc      	tstl %fp@(-4)
+  18119c:	6600 10f6      	bnew 182294 <biwn_native_deck_coordinate_body+0x209a>
+  1811a0:	206e ff9e      	moveal %fp@(-98),%a0
+  1811a4:	486e ff9a      	pea %fp@(-102)
+  1811a8:	2f3c 0004 00f0 	movel #262384,%sp@-
+  1811ae:	2f28 0018      	movel %a0@(24),%sp@-
+  1811b2:	2068 0008      	moveal %a0@(8),%a0
+  1811b6:	4e90           	jsr %a0@
+  1811b8:	4fef 000c      	lea %sp@(12),%sp
+  1811bc:	4a80           	tstl %d0
+  1811be:	6706           	beqs 1811c6 <biwn_native_deck_coordinate_body+0xfcc>
+  1811c0:	7a02           	moveq #2,%d5
+  1811c2:	2d45 fffc      	movel %d5,%fp@(-4)
+  1811c6:	202e ff9a      	movel %fp@(-102),%d0
+  1811ca:	d082           	addl %d2,%d0
+  1811cc:	2d40 ffd2      	movel %d0,%fp@(-46)
+  1811d0:	2d40 ffae      	movel %d0,%fp@(-82)
+  1811d4:	322e ffee      	movew %fp@(-18),%d1
+  1811d8:	0241 fff0      	andiw #-16,%d1
+  1811dc:	4a80           	tstl %d0
+  1811de:	6600 10ba      	bnew 18229a <biwn_native_deck_coordinate_body+0x20a0>
+  1811e2:	0041 0004      	oriw #4,%d1
+  1811e6:	8240           	orw %d0,%d1
+  1811e8:	3d41 ffee      	movew %d1,%fp@(-18)
+  1811ec:	202e ffce      	movel %fp@(-50),%d0
+  1811f0:	42ae ff9a      	clrl %fp@(-102)
+  1811f4:	4aae fffc      	tstl %fp@(-4)
+  1811f8:	6600 10ac      	bnew 1822a6 <biwn_native_deck_coordinate_body+0x20ac>
+  1811fc:	206e ff9e      	moveal %fp@(-98),%a0
+  181200:	486e ff9a      	pea %fp@(-102)
+  181204:	5080           	addql #8,%d0
+  181206:	0280 00ff ffff 	andil #16777215,%d0
+  18120c:	2f00           	movel %d0,%sp@-
+  18120e:	2f28 0018      	movel %a0@(24),%sp@-
+  181212:	2068 0008      	moveal %a0@(8),%a0
+  181216:	4e90           	jsr %a0@
+  181218:	4fef 000c      	lea %sp@(12),%sp
+  18121c:	4a80           	tstl %d0
+  18121e:	6706           	beqs 181226 <biwn_native_deck_coordinate_body+0x102c>
+  181220:	7802           	moveq #2,%d4
+  181222:	2d44 fffc      	movel %d4,%fp@(-4)
+  181226:	262e ff9a      	movel %fp@(-102),%d3
+  18122a:	282e ffae      	movel %fp@(-82),%d4
+  18122e:	2404           	movel %d4,%d2
+  181230:	9483           	subl %d3,%d2
+  181232:	2004           	movel %d4,%d0
+  181234:	b780           	eorl %d3,%d0
+  181236:	2204           	movel %d4,%d1
+  181238:	b581           	eorl %d2,%d1
+  18123a:	c081           	andl %d1,%d0
+  18123c:	d080           	addl %d0,%d0
+  18123e:	9180           	subxl %d0,%d0
+  181240:	4480           	negl %d0
+  181242:	3a2e ffee      	movew %fp@(-18),%d5
+  181246:	0245 fff0      	andiw #-16,%d5
+  18124a:	4a82           	tstl %d2
+  18124c:	6600 105e      	bnew 1822ac <biwn_native_deck_coordinate_body+0x20b2>
+  181250:	0045 0004      	oriw #4,%d5
+  181254:	4241           	clrw %d1
+  181256:	8245           	orw %d5,%d1
+  181258:	0241 ffec      	andiw #-20,%d1
+  18125c:	b684           	cmpl %d4,%d3
+  18125e:	6200 105a      	bhiw 1822ba <biwn_native_deck_coordinate_body+0x20c0>
+  181262:	4243           	clrw %d3
+  181264:	d040           	addw %d0,%d0
+  181266:	8041           	orw %d1,%d0
+  181268:	8043           	orw %d3,%d0
+  18126a:	3d40 ffee      	movew %d0,%fp@(-18)
+  18126e:	2d42 ffae      	movel %d2,%fp@(-82)
+  181272:	2d7c 0004 00f4 	movel #262388,%fp@(-38)
+  181278:	ffda 
+  18127a:	242e ffd6      	movel %fp@(-42),%d2
+  18127e:	42ae ff9a      	clrl %fp@(-102)
+  181282:	4aae fffc      	tstl %fp@(-4)
+  181286:	6600 1038      	bnew 1822c0 <biwn_native_deck_coordinate_body+0x20c6>
+  18128a:	206e ff9e      	moveal %fp@(-98),%a0
+  18128e:	486e ff9a      	pea %fp@(-102)
+  181292:	2f3c 0004 00f4 	movel #262388,%sp@-
+  181298:	2f28 0018      	movel %a0@(24),%sp@-
+  18129c:	2068 0008      	moveal %a0@(8),%a0
+  1812a0:	4e90           	jsr %a0@
+  1812a2:	4fef 000c      	lea %sp@(12),%sp
+  1812a6:	4a80           	tstl %d0
+  1812a8:	6706           	beqs 1812b0 <biwn_native_deck_coordinate_body+0x10b6>
+  1812aa:	7602           	moveq #2,%d3
+  1812ac:	2d43 fffc      	movel %d3,%fp@(-4)
+  1812b0:	202e ff9a      	movel %fp@(-102),%d0
+  1812b4:	d082           	addl %d2,%d0
+  1812b6:	2d40 ffd6      	movel %d0,%fp@(-42)
+  1812ba:	2d40 ffb2      	movel %d0,%fp@(-78)
+  1812be:	322e ffee      	movew %fp@(-18),%d1
+  1812c2:	0241 fff0      	andiw #-16,%d1
+  1812c6:	4a80           	tstl %d0
+  1812c8:	6600 0ffc      	bnew 1822c6 <biwn_native_deck_coordinate_body+0x20cc>
+  1812cc:	0041 0004      	oriw #4,%d1
+  1812d0:	8240           	orw %d0,%d1
+  1812d2:	3d41 ffee      	movew %d1,%fp@(-18)
+  1812d6:	206e ffce      	moveal %fp@(-50),%a0
+  1812da:	42ae ff9a      	clrl %fp@(-102)
+  1812de:	4aae fffc      	tstl %fp@(-4)
+  1812e2:	6600 0fee      	bnew 1822d2 <biwn_native_deck_coordinate_body+0x20d8>
+  1812e6:	226e ff9e      	moveal %fp@(-98),%a1
+  1812ea:	486e ff9a      	pea %fp@(-102)
+  1812ee:	700c           	moveq #12,%d0
+  1812f0:	d088           	addl %a0,%d0
+  1812f2:	0280 00ff ffff 	andil #16777215,%d0
+  1812f8:	2f00           	movel %d0,%sp@-
+  1812fa:	2f29 0018      	movel %a1@(24),%sp@-
+  1812fe:	2069 0008      	moveal %a1@(8),%a0
+  181302:	4e90           	jsr %a0@
+  181304:	4fef 000c      	lea %sp@(12),%sp
+  181308:	4a80           	tstl %d0
+  18130a:	6706           	beqs 181312 <biwn_native_deck_coordinate_body+0x1118>
+  18130c:	7202           	moveq #2,%d1
+  18130e:	2d41 fffc      	movel %d1,%fp@(-4)
+  181312:	282e ff9a      	movel %fp@(-102),%d4
+  181316:	2a2e ffb2      	movel %fp@(-78),%d5
+  18131a:	2605           	movel %d5,%d3
+  18131c:	9684           	subl %d4,%d3
+  18131e:	2205           	movel %d5,%d1
+  181320:	b981           	eorl %d4,%d1
+  181322:	2005           	movel %d5,%d0
+  181324:	b780           	eorl %d3,%d0
+  181326:	c280           	andl %d0,%d1
+  181328:	d281           	addl %d1,%d1
+  18132a:	9381           	subxl %d1,%d1
+  18132c:	4481           	negl %d1
+  18132e:	342e ffee      	movew %fp@(-18),%d2
+  181332:	0242 fff0      	andiw #-16,%d2
+  181336:	4a83           	tstl %d3
+  181338:	6600 0f9e      	bnew 1822d8 <biwn_native_deck_coordinate_body+0x20de>
+  18133c:	0042 0004      	oriw #4,%d2
+  181340:	4240           	clrw %d0
+  181342:	8440           	orw %d0,%d2
+  181344:	0242 ffec      	andiw #-20,%d2
+  181348:	b885           	cmpl %d5,%d4
+  18134a:	6200 0f9a      	bhiw 1822e6 <biwn_native_deck_coordinate_body+0x20ec>
+  18134e:	4244           	clrw %d4
+  181350:	3001           	movew %d1,%d0
+  181352:	d041           	addw %d1,%d0
+  181354:	8042           	orw %d2,%d0
+  181356:	8044           	orw %d4,%d0
+  181358:	3d40 ffee      	movew %d0,%fp@(-18)
+  18135c:	2d43 ffb2      	movel %d3,%fp@(-78)
+  181360:	2d7c 0000 e540 	movel #58688,%fp@(-54)
+  181366:	ffca 
+  181368:	226e ffa2      	moveal %fp@(-94),%a1
+  18136c:	222e ffde      	movel %fp@(-34),%d1
+  181370:	5981           	subql #4,%d1
+  181372:	2d41 ffde      	movel %d1,%fp@(-34)
+  181376:	0800 000d      	btst #13,%d0
+  18137a:	6700 0f70      	beqw 1822ec <biwn_native_deck_coordinate_body+0x20f2>
+  18137e:	2d41 ffea      	movel %d1,%fp@(-22)
+  181382:	4aae fffc      	tstl %fp@(-4)
+  181386:	6626           	bnes 1813ae <biwn_native_deck_coordinate_body+0x11b4>
+  181388:	206e ff9e      	moveal %fp@(-98),%a0
+  18138c:	2f09           	movel %a1,%sp@-
+  18138e:	0281 00ff ffff 	andil #16777215,%d1
+  181394:	2f01           	movel %d1,%sp@-
+  181396:	2f28 0018      	movel %a0@(24),%sp@-
+  18139a:	2068 0010      	moveal %a0@(16),%a0
+  18139e:	4e90           	jsr %a0@
+  1813a0:	4fef 000c      	lea %sp@(12),%sp
+  1813a4:	4a80           	tstl %d0
+  1813a6:	6706           	beqs 1813ae <biwn_native_deck_coordinate_body+0x11b4>
+  1813a8:	7002           	moveq #2,%d0
+  1813aa:	2d40 fffc      	movel %d0,%fp@(-4)
+  1813ae:	242e ffa2      	movel %fp@(-94),%d2
+  1813b2:	302e ffee      	movew %fp@(-18),%d0
+  1813b6:	0240 fff0      	andiw #-16,%d0
+  1813ba:	4a82           	tstl %d2
+  1813bc:	6600 0f36      	bnew 1822f4 <biwn_native_deck_coordinate_body+0x20fa>
+  1813c0:	0040 0004      	oriw #4,%d0
+  1813c4:	4241           	clrw %d1
+  1813c6:	8041           	orw %d1,%d0
+  1813c8:	3d40 ffee      	movew %d0,%fp@(-18)
+  1813cc:	222e ffde      	movel %fp@(-34),%d1
+  1813d0:	5981           	subql #4,%d1
+  1813d2:	2d41 ffde      	movel %d1,%fp@(-34)
+  1813d6:	0800 000d      	btst #13,%d0
+  1813da:	6700 0f26      	beqw 182302 <biwn_native_deck_coordinate_body+0x2108>
+  1813de:	2d41 ffea      	movel %d1,%fp@(-22)
+  1813e2:	4aae fffc      	tstl %fp@(-4)
+  1813e6:	6626           	bnes 18140e <biwn_native_deck_coordinate_body+0x1214>
+  1813e8:	206e ff9e      	moveal %fp@(-98),%a0
+  1813ec:	2f02           	movel %d2,%sp@-
+  1813ee:	0281 00ff ffff 	andil #16777215,%d1
+  1813f4:	2f01           	movel %d1,%sp@-
+  1813f6:	2f28 0018      	movel %a0@(24),%sp@-
+  1813fa:	2068 0010      	moveal %a0@(16),%a0
+  1813fe:	4e90           	jsr %a0@
+  181400:	4fef 000c      	lea %sp@(12),%sp
+  181404:	4a80           	tstl %d0
+  181406:	6706           	beqs 18140e <biwn_native_deck_coordinate_body+0x1214>
+  181408:	7a02           	moveq #2,%d5
+  18140a:	2d45 fffc      	movel %d5,%fp@(-4)
+  18140e:	202e ffa2      	movel %fp@(-94),%d0
+  181412:	322e ffee      	movew %fp@(-18),%d1
+  181416:	0241 fff0      	andiw #-16,%d1
+  18141a:	4a80           	tstl %d0
+  18141c:	6600 0eec      	bnew 18230a <biwn_native_deck_coordinate_body+0x2110>
+  181420:	0041 0004      	oriw #4,%d1
+  181424:	8240           	orw %d0,%d1
+  181426:	3d41 ffee      	movew %d1,%fp@(-18)
+  18142a:	4aae fffc      	tstl %fp@(-4)
+  18142e:	6600 f6e6      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  181432:	202e fff8      	movel %fp@(-8),%d0
+  181436:	6700 f87c      	beqw 180cb4 <biwn_native_deck_coordinate_body+0xaba>
+  18143a:	262e ffca      	movel %fp@(-54),%d3
+  18143e:	5380           	subql #1,%d0
+  181440:	2d40 fff8      	movel %d0,%fp@(-8)
+  181444:	202e ffde      	movel %fp@(-34),%d0
+  181448:	5980           	subql #4,%d0
+  18144a:	2d40 ffde      	movel %d0,%fp@(-34)
+  18144e:	0801 000d      	btst #13,%d1
+  181452:	6700 0ec2      	beqw 182316 <biwn_native_deck_coordinate_body+0x211c>
+  181456:	2d40 ffea      	movel %d0,%fp@(-22)
+  18145a:	206e ff9e      	moveal %fp@(-98),%a0
+  18145e:	2f3c 0001 1df6 	movel #73206,%sp@-
+  181464:	0280 00ff ffff 	andil #16777215,%d0
+  18146a:	2f00           	movel %d0,%sp@-
+  18146c:	2f28 0018      	movel %a0@(24),%sp@-
+  181470:	2068 0010      	moveal %a0@(16),%a0
+  181474:	4e90           	jsr %a0@
+  181476:	4fef 000c      	lea %sp@(12),%sp
+  18147a:	4a80           	tstl %d0
+  18147c:	6706           	beqs 181484 <biwn_native_deck_coordinate_body+0x128a>
+  18147e:	7802           	moveq #2,%d4
+  181480:	2d44 fffc      	movel %d4,%fp@(-4)
+  181484:	2d43 ffe2      	movel %d3,%fp@(-30)
+  181488:	4aae fffc      	tstl %fp@(-4)
+  18148c:	6600 f688      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  181490:	242e ffde      	movel %fp@(-34),%d2
+  181494:	2f03           	movel %d3,%sp@-
+  181496:	47ee ffa2      	lea %fp@(-94),%a3
+  18149a:	2f0b           	movel %a3,%sp@-
+  18149c:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  1814a0:	2f2e fff4      	movel %fp@(-12),%sp@-
+  1814a4:	206e fff0      	moveal %fp@(-16),%a0
+  1814a8:	4e90           	jsr %a0@
+  1814aa:	4fef 0010      	lea %sp@(16),%sp
+  1814ae:	4a80           	tstl %d0
+  1814b0:	6600 f884      	bnew 180d36 <biwn_native_deck_coordinate_body+0xb3c>
+  1814b4:	b4ae ffde      	cmpl %fp@(-34),%d2
+  1814b8:	6600 f892      	bnew 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  1814bc:	42ae ff9a      	clrl %fp@(-102)
+  1814c0:	4aae fffc      	tstl %fp@(-4)
+  1814c4:	6600 0e58      	bnew 18231e <biwn_native_deck_coordinate_body+0x2124>
+  1814c8:	206e ff9e      	moveal %fp@(-98),%a0
+  1814cc:	486e ff9a      	pea %fp@(-102)
+  1814d0:	0282 00ff ffff 	andil #16777215,%d2
+  1814d6:	2f02           	movel %d2,%sp@-
+  1814d8:	2f28 0018      	movel %a0@(24),%sp@-
+  1814dc:	2068 0008      	moveal %a0@(8),%a0
+  1814e0:	4e90           	jsr %a0@
+  1814e2:	4fef 000c      	lea %sp@(12),%sp
+  1814e6:	4a80           	tstl %d0
+  1814e8:	6706           	beqs 1814f0 <biwn_native_deck_coordinate_body+0x12f6>
+  1814ea:	7602           	moveq #2,%d3
+  1814ec:	2d43 fffc      	movel %d3,%fp@(-4)
+  1814f0:	222e ff9a      	movel %fp@(-102),%d1
+  1814f4:	206e ffde      	moveal %fp@(-34),%a0
+  1814f8:	43e8 0004      	lea %a0@(4),%a1
+  1814fc:	2d49 ffde      	movel %a1,%fp@(-34)
+  181500:	302e ffee      	movew %fp@(-18),%d0
+  181504:	3400           	movew %d0,%d2
+  181506:	0242 2000      	andiw #8192,%d2
+  18150a:	0800 000d      	btst #13,%d0
+  18150e:	6700 0e14      	beqw 182324 <biwn_native_deck_coordinate_body+0x212a>
+  181512:	2d49 ffea      	movel %a1,%fp@(-22)
+  181516:	4aae fffc      	tstl %fp@(-4)
+  18151a:	6600 f5fa      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  18151e:	0c81 0001 1df6 	cmpil #73206,%d1
+  181524:	6600 f826      	bnew 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  181528:	2d41 ffe2      	movel %d1,%fp@(-30)
+  18152c:	43e8 000c      	lea %a0@(12),%a1
+  181530:	4a42           	tstw %d2
+  181532:	6700 0df8      	beqw 18232c <biwn_native_deck_coordinate_body+0x2132>
+  181536:	2d49 ffea      	movel %a1,%fp@(-22)
+  18153a:	222e ffa2      	movel %fp@(-94),%d1
+  18153e:	2d41 ffaa      	movel %d1,%fp@(-86)
+  181542:	0240 fff0      	andiw #-16,%d0
+  181546:	4a81           	tstl %d1
+  181548:	6600 0dea      	bnew 182334 <biwn_native_deck_coordinate_body+0x213a>
+  18154c:	0040 0004      	oriw #4,%d0
+  181550:	8041           	orw %d1,%d0
+  181552:	3d40 ffee      	movew %d0,%fp@(-18)
+  181556:	226e ffae      	moveal %fp@(-82),%a1
+  18155a:	2208           	movel %a0,%d1
+  18155c:	5081           	addql #8,%d1
+  18155e:	2d41 ffde      	movel %d1,%fp@(-34)
+  181562:	0800 000d      	btst #13,%d0
+  181566:	6700 0dd8      	beqw 182340 <biwn_native_deck_coordinate_body+0x2146>
+  18156a:	2d41 ffea      	movel %d1,%fp@(-22)
+  18156e:	206e ff9e      	moveal %fp@(-98),%a0
+  181572:	2f09           	movel %a1,%sp@-
+  181574:	0281 00ff ffff 	andil #16777215,%d1
+  18157a:	2f01           	movel %d1,%sp@-
+  18157c:	2f28 0018      	movel %a0@(24),%sp@-
+  181580:	2068 0010      	moveal %a0@(16),%a0
+  181584:	4e90           	jsr %a0@
+  181586:	4fef 000c      	lea %sp@(12),%sp
+  18158a:	4a80           	tstl %d0
+  18158c:	6706           	beqs 181594 <biwn_native_deck_coordinate_body+0x139a>
+  18158e:	7402           	moveq #2,%d2
+  181590:	2d42 fffc      	movel %d2,%fp@(-4)
+  181594:	242e ffae      	movel %fp@(-82),%d2
+  181598:	302e ffee      	movew %fp@(-18),%d0
+  18159c:	0240 fff0      	andiw #-16,%d0
+  1815a0:	4a82           	tstl %d2
+  1815a2:	6600 0da4      	bnew 182348 <biwn_native_deck_coordinate_body+0x214e>
+  1815a6:	0040 0004      	oriw #4,%d0
+  1815aa:	4241           	clrw %d1
+  1815ac:	8041           	orw %d1,%d0
+  1815ae:	3d40 ffee      	movew %d0,%fp@(-18)
+  1815b2:	222e ffde      	movel %fp@(-34),%d1
+  1815b6:	5981           	subql #4,%d1
+  1815b8:	2d41 ffde      	movel %d1,%fp@(-34)
+  1815bc:	0800 000d      	btst #13,%d0
+  1815c0:	6700 0d94      	beqw 182356 <biwn_native_deck_coordinate_body+0x215c>
+  1815c4:	2d41 ffea      	movel %d1,%fp@(-22)
+  1815c8:	4aae fffc      	tstl %fp@(-4)
+  1815cc:	6626           	bnes 1815f4 <biwn_native_deck_coordinate_body+0x13fa>
+  1815ce:	206e ff9e      	moveal %fp@(-98),%a0
+  1815d2:	2f02           	movel %d2,%sp@-
+  1815d4:	0281 00ff ffff 	andil #16777215,%d1
+  1815da:	2f01           	movel %d1,%sp@-
+  1815dc:	2f28 0018      	movel %a0@(24),%sp@-
+  1815e0:	2068 0010      	moveal %a0@(16),%a0
+  1815e4:	4e90           	jsr %a0@
+  1815e6:	4fef 000c      	lea %sp@(12),%sp
+  1815ea:	4a80           	tstl %d0
+  1815ec:	6706           	beqs 1815f4 <biwn_native_deck_coordinate_body+0x13fa>
+  1815ee:	7202           	moveq #2,%d1
+  1815f0:	2d41 fffc      	movel %d1,%fp@(-4)
+  1815f4:	202e ffae      	movel %fp@(-82),%d0
+  1815f8:	322e ffee      	movew %fp@(-18),%d1
+  1815fc:	0241 fff0      	andiw #-16,%d1
+  181600:	4a80           	tstl %d0
+  181602:	6600 0d5a      	bnew 18235e <biwn_native_deck_coordinate_body+0x2164>
+  181606:	0041 0004      	oriw #4,%d1
+  18160a:	8240           	orw %d0,%d1
+  18160c:	3d41 ffee      	movew %d1,%fp@(-18)
+  181610:	4aae fffc      	tstl %fp@(-4)
+  181614:	6600 f500      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  181618:	202e fff8      	movel %fp@(-8),%d0
+  18161c:	6700 f696      	beqw 180cb4 <biwn_native_deck_coordinate_body+0xaba>
+  181620:	262e ffca      	movel %fp@(-54),%d3
+  181624:	5380           	subql #1,%d0
+  181626:	2d40 fff8      	movel %d0,%fp@(-8)
+  18162a:	202e ffde      	movel %fp@(-34),%d0
+  18162e:	5980           	subql #4,%d0
+  181630:	2d40 ffde      	movel %d0,%fp@(-34)
+  181634:	0801 000d      	btst #13,%d1
+  181638:	6700 0d30      	beqw 18236a <biwn_native_deck_coordinate_body+0x2170>
+  18163c:	2d40 ffea      	movel %d0,%fp@(-22)
+  181640:	206e ff9e      	moveal %fp@(-98),%a0
+  181644:	2f3c 0001 1e00 	movel #73216,%sp@-
+  18164a:	0280 00ff ffff 	andil #16777215,%d0
+  181650:	2f00           	movel %d0,%sp@-
+  181652:	2f28 0018      	movel %a0@(24),%sp@-
+  181656:	2068 0010      	moveal %a0@(16),%a0
+  18165a:	4e90           	jsr %a0@
+  18165c:	4fef 000c      	lea %sp@(12),%sp
+  181660:	4a80           	tstl %d0
+  181662:	6706           	beqs 18166a <biwn_native_deck_coordinate_body+0x1470>
+  181664:	7002           	moveq #2,%d0
+  181666:	2d40 fffc      	movel %d0,%fp@(-4)
+  18166a:	2d43 ffe2      	movel %d3,%fp@(-30)
+  18166e:	4aae fffc      	tstl %fp@(-4)
+  181672:	6600 f4a2      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  181676:	242e ffde      	movel %fp@(-34),%d2
+  18167a:	2f03           	movel %d3,%sp@-
+  18167c:	2f0b           	movel %a3,%sp@-
+  18167e:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  181682:	2f2e fff4      	movel %fp@(-12),%sp@-
+  181686:	206e fff0      	moveal %fp@(-16),%a0
+  18168a:	4e90           	jsr %a0@
+  18168c:	4fef 0010      	lea %sp@(16),%sp
+  181690:	4a80           	tstl %d0
+  181692:	6600 f6a2      	bnew 180d36 <biwn_native_deck_coordinate_body+0xb3c>
+  181696:	b4ae ffde      	cmpl %fp@(-34),%d2
+  18169a:	6600 f6b0      	bnew 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  18169e:	42ae ff9a      	clrl %fp@(-102)
+  1816a2:	4aae fffc      	tstl %fp@(-4)
+  1816a6:	6600 0cca      	bnew 182372 <biwn_native_deck_coordinate_body+0x2178>
+  1816aa:	206e ff9e      	moveal %fp@(-98),%a0
+  1816ae:	486e ff9a      	pea %fp@(-102)
+  1816b2:	0282 00ff ffff 	andil #16777215,%d2
+  1816b8:	2f02           	movel %d2,%sp@-
+  1816ba:	2f28 0018      	movel %a0@(24),%sp@-
+  1816be:	2068 0008      	moveal %a0@(8),%a0
+  1816c2:	4e90           	jsr %a0@
+  1816c4:	4fef 000c      	lea %sp@(12),%sp
+  1816c8:	4a80           	tstl %d0
+  1816ca:	6706           	beqs 1816d2 <biwn_native_deck_coordinate_body+0x14d8>
+  1816cc:	7a02           	moveq #2,%d5
+  1816ce:	2d45 fffc      	movel %d5,%fp@(-4)
+  1816d2:	222e ff9a      	movel %fp@(-102),%d1
+  1816d6:	206e ffde      	moveal %fp@(-34),%a0
+  1816da:	43e8 0004      	lea %a0@(4),%a1
+  1816de:	2d49 ffde      	movel %a1,%fp@(-34)
+  1816e2:	302e ffee      	movew %fp@(-18),%d0
+  1816e6:	3400           	movew %d0,%d2
+  1816e8:	0242 2000      	andiw #8192,%d2
+  1816ec:	0800 000d      	btst #13,%d0
+  1816f0:	6700 0c86      	beqw 182378 <biwn_native_deck_coordinate_body+0x217e>
+  1816f4:	2d49 ffea      	movel %a1,%fp@(-22)
+  1816f8:	4aae fffc      	tstl %fp@(-4)
+  1816fc:	6600 f418      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  181700:	0c81 0001 1e00 	cmpil #73216,%d1
+  181706:	6600 f644      	bnew 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  18170a:	2d41 ffe2      	movel %d1,%fp@(-30)
+  18170e:	43e8 000c      	lea %a0@(12),%a1
+  181712:	4a42           	tstw %d2
+  181714:	6700 0c6a      	beqw 182380 <biwn_native_deck_coordinate_body+0x2186>
+  181718:	2d49 ffea      	movel %a1,%fp@(-22)
+  18171c:	282e ffaa      	movel %fp@(-86),%d4
+  181720:	262e ffa2      	movel %fp@(-94),%d3
+  181724:	d684           	addl %d4,%d3
+  181726:	222e ffa2      	movel %fp@(-94),%d1
+  18172a:	b981           	eorl %d4,%d1
+  18172c:	4681           	notl %d1
+  18172e:	2404           	movel %d4,%d2
+  181730:	b782           	eorl %d3,%d2
+  181732:	c282           	andl %d2,%d1
+  181734:	d281           	addl %d1,%d1
+  181736:	9381           	subxl %d1,%d1
+  181738:	4481           	negl %d1
+  18173a:	3400           	movew %d0,%d2
+  18173c:	0242 fff0      	andiw #-16,%d2
+  181740:	4a83           	tstl %d3
+  181742:	6600 0c44      	bnew 182388 <biwn_native_deck_coordinate_body+0x218e>
+  181746:	0042 0004      	oriw #4,%d2
+  18174a:	4240           	clrw %d0
+  18174c:	8440           	orw %d0,%d2
+  18174e:	0242 ffec      	andiw #-20,%d2
+  181752:	b684           	cmpl %d4,%d3
+  181754:	6500 0c40      	bcsw 182396 <biwn_native_deck_coordinate_body+0x219c>
+  181758:	4244           	clrw %d4
+  18175a:	3001           	movew %d1,%d0
+  18175c:	d041           	addw %d1,%d0
+  18175e:	8042           	orw %d2,%d0
+  181760:	8044           	orw %d4,%d0
+  181762:	3d40 ffee      	movew %d0,%fp@(-18)
+  181766:	2d43 ffaa      	movel %d3,%fp@(-86)
+  18176a:	226e ffb2      	moveal %fp@(-78),%a1
+  18176e:	2208           	movel %a0,%d1
+  181770:	5081           	addql #8,%d1
+  181772:	2d41 ffde      	movel %d1,%fp@(-34)
+  181776:	0800 000d      	btst #13,%d0
+  18177a:	6700 0c20      	beqw 18239c <biwn_native_deck_coordinate_body+0x21a2>
+  18177e:	2d41 ffea      	movel %d1,%fp@(-22)
+  181782:	206e ff9e      	moveal %fp@(-98),%a0
+  181786:	2f09           	movel %a1,%sp@-
+  181788:	0281 00ff ffff 	andil #16777215,%d1
+  18178e:	2f01           	movel %d1,%sp@-
+  181790:	2f28 0018      	movel %a0@(24),%sp@-
+  181794:	2068 0010      	moveal %a0@(16),%a0
+  181798:	4e90           	jsr %a0@
+  18179a:	4fef 000c      	lea %sp@(12),%sp
+  18179e:	4a80           	tstl %d0
+  1817a0:	6706           	beqs 1817a8 <biwn_native_deck_coordinate_body+0x15ae>
+  1817a2:	7802           	moveq #2,%d4
+  1817a4:	2d44 fffc      	movel %d4,%fp@(-4)
+  1817a8:	242e ffb2      	movel %fp@(-78),%d2
+  1817ac:	302e ffee      	movew %fp@(-18),%d0
+  1817b0:	0240 fff0      	andiw #-16,%d0
+  1817b4:	4a82           	tstl %d2
+  1817b6:	6600 0bec      	bnew 1823a4 <biwn_native_deck_coordinate_body+0x21aa>
+  1817ba:	0040 0004      	oriw #4,%d0
+  1817be:	4241           	clrw %d1
+  1817c0:	8041           	orw %d1,%d0
+  1817c2:	3d40 ffee      	movew %d0,%fp@(-18)
+  1817c6:	222e ffde      	movel %fp@(-34),%d1
+  1817ca:	5981           	subql #4,%d1
+  1817cc:	2d41 ffde      	movel %d1,%fp@(-34)
+  1817d0:	0800 000d      	btst #13,%d0
+  1817d4:	6700 0bdc      	beqw 1823b2 <biwn_native_deck_coordinate_body+0x21b8>
+  1817d8:	2d41 ffea      	movel %d1,%fp@(-22)
+  1817dc:	4aae fffc      	tstl %fp@(-4)
+  1817e0:	6626           	bnes 181808 <biwn_native_deck_coordinate_body+0x160e>
+  1817e2:	206e ff9e      	moveal %fp@(-98),%a0
+  1817e6:	2f02           	movel %d2,%sp@-
+  1817e8:	0281 00ff ffff 	andil #16777215,%d1
+  1817ee:	2f01           	movel %d1,%sp@-
+  1817f0:	2f28 0018      	movel %a0@(24),%sp@-
+  1817f4:	2068 0010      	moveal %a0@(16),%a0
+  1817f8:	4e90           	jsr %a0@
+  1817fa:	4fef 000c      	lea %sp@(12),%sp
+  1817fe:	4a80           	tstl %d0
+  181800:	6706           	beqs 181808 <biwn_native_deck_coordinate_body+0x160e>
+  181802:	7602           	moveq #2,%d3
+  181804:	2d43 fffc      	movel %d3,%fp@(-4)
+  181808:	202e ffb2      	movel %fp@(-78),%d0
+  18180c:	322e ffee      	movew %fp@(-18),%d1
+  181810:	0241 fff0      	andiw #-16,%d1
+  181814:	4a80           	tstl %d0
+  181816:	6600 0ba2      	bnew 1823ba <biwn_native_deck_coordinate_body+0x21c0>
+  18181a:	0041 0004      	oriw #4,%d1
+  18181e:	8240           	orw %d0,%d1
+  181820:	3d41 ffee      	movew %d1,%fp@(-18)
+  181824:	4aae fffc      	tstl %fp@(-4)
+  181828:	6600 f2ec      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  18182c:	202e fff8      	movel %fp@(-8),%d0
+  181830:	6700 f482      	beqw 180cb4 <biwn_native_deck_coordinate_body+0xaba>
+  181834:	262e ffca      	movel %fp@(-54),%d3
+  181838:	5380           	subql #1,%d0
+  18183a:	2d40 fff8      	movel %d0,%fp@(-8)
+  18183e:	202e ffde      	movel %fp@(-34),%d0
+  181842:	5980           	subql #4,%d0
+  181844:	2d40 ffde      	movel %d0,%fp@(-34)
+  181848:	0801 000d      	btst #13,%d1
+  18184c:	6700 0b78      	beqw 1823c6 <biwn_native_deck_coordinate_body+0x21cc>
+  181850:	2d40 ffea      	movel %d0,%fp@(-22)
+  181854:	206e ff9e      	moveal %fp@(-98),%a0
+  181858:	2f3c 0001 1e0a 	movel #73226,%sp@-
+  18185e:	0280 00ff ffff 	andil #16777215,%d0
+  181864:	2f00           	movel %d0,%sp@-
+  181866:	2f28 0018      	movel %a0@(24),%sp@-
+  18186a:	2068 0010      	moveal %a0@(16),%a0
+  18186e:	4e90           	jsr %a0@
+  181870:	4fef 000c      	lea %sp@(12),%sp
+  181874:	4a80           	tstl %d0
+  181876:	6706           	beqs 18187e <biwn_native_deck_coordinate_body+0x1684>
+  181878:	7402           	moveq #2,%d2
+  18187a:	2d42 fffc      	movel %d2,%fp@(-4)
+  18187e:	2d43 ffe2      	movel %d3,%fp@(-30)
+  181882:	4aae fffc      	tstl %fp@(-4)
+  181886:	6600 f28e      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  18188a:	242e ffde      	movel %fp@(-34),%d2
+  18188e:	2f03           	movel %d3,%sp@-
+  181890:	486e ffa2      	pea %fp@(-94)
+  181894:	2f2e ff9e      	movel %fp@(-98),%sp@-
+  181898:	2f2e fff4      	movel %fp@(-12),%sp@-
+  18189c:	206e fff0      	moveal %fp@(-16),%a0
+  1818a0:	4e90           	jsr %a0@
+  1818a2:	4fef 0010      	lea %sp@(16),%sp
+  1818a6:	4a80           	tstl %d0
+  1818a8:	6600 f48c      	bnew 180d36 <biwn_native_deck_coordinate_body+0xb3c>
+  1818ac:	b4ae ffde      	cmpl %fp@(-34),%d2
+  1818b0:	6600 f49a      	bnew 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  1818b4:	42ae ff9a      	clrl %fp@(-102)
+  1818b8:	4aae fffc      	tstl %fp@(-4)
+  1818bc:	6600 0b10      	bnew 1823ce <biwn_native_deck_coordinate_body+0x21d4>
+  1818c0:	206e ff9e      	moveal %fp@(-98),%a0
+  1818c4:	486e ff9a      	pea %fp@(-102)
+  1818c8:	0282 00ff ffff 	andil #16777215,%d2
+  1818ce:	2f02           	movel %d2,%sp@-
+  1818d0:	2f28 0018      	movel %a0@(24),%sp@-
+  1818d4:	2068 0008      	moveal %a0@(8),%a0
+  1818d8:	4e90           	jsr %a0@
+  1818da:	4fef 000c      	lea %sp@(12),%sp
+  1818de:	4a80           	tstl %d0
+  1818e0:	6706           	beqs 1818e8 <biwn_native_deck_coordinate_body+0x16ee>
+  1818e2:	7202           	moveq #2,%d1
+  1818e4:	2d41 fffc      	movel %d1,%fp@(-4)
+  1818e8:	202e ff9a      	movel %fp@(-102),%d0
+  1818ec:	206e ffde      	moveal %fp@(-34),%a0
+  1818f0:	43e8 0004      	lea %a0@(4),%a1
+  1818f4:	2d49 ffde      	movel %a1,%fp@(-34)
+  1818f8:	322e ffee      	movew %fp@(-18),%d1
+  1818fc:	3401           	movew %d1,%d2
+  1818fe:	0242 2000      	andiw #8192,%d2
+  181902:	0801 000d      	btst #13,%d1
+  181906:	6700 0acc      	beqw 1823d4 <biwn_native_deck_coordinate_body+0x21da>
+  18190a:	2d49 ffea      	movel %a1,%fp@(-22)
+  18190e:	4aae fffc      	tstl %fp@(-4)
+  181912:	6600 f202      	bnew 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  181916:	0c80 0001 1e0a 	cmpil #73226,%d0
+  18191c:	6600 f42e      	bnew 180d4c <biwn_native_deck_coordinate_body+0xb52>
+  181920:	2d40 ffe2      	movel %d0,%fp@(-30)
+  181924:	43e8 000c      	lea %a0@(12),%a1
+  181928:	4a42           	tstw %d2
+  18192a:	6700 0ab0      	beqw 1823dc <biwn_native_deck_coordinate_body+0x21e2>
+  18192e:	2d49 ffea      	movel %a1,%fp@(-22)
+  181932:	282e ffaa      	movel %fp@(-86),%d4
+  181936:	242e ffa2      	movel %fp@(-94),%d2
+  18193a:	d484           	addl %d4,%d2
+  18193c:	202e ffa2      	movel %fp@(-94),%d0
+  181940:	b980           	eorl %d4,%d0
+  181942:	4680           	notl %d0
+  181944:	2604           	movel %d4,%d3
+  181946:	b583           	eorl %d2,%d3
+  181948:	c083           	andl %d3,%d0
+  18194a:	d080           	addl %d0,%d0
+  18194c:	9180           	subxl %d0,%d0
+  18194e:	4480           	negl %d0
+  181950:	3601           	movew %d1,%d3
+  181952:	0243 fff0      	andiw #-16,%d3
+  181956:	4a82           	tstl %d2
+  181958:	6600 0a8a      	bnew 1823e4 <biwn_native_deck_coordinate_body+0x21ea>
+  18195c:	0043 0004      	oriw #4,%d3
+  181960:	4241           	clrw %d1
+  181962:	8243           	orw %d3,%d1
+  181964:	0241 ffec      	andiw #-20,%d1
+  181968:	b484           	cmpl %d4,%d2
+  18196a:	6500 0a86      	bcsw 1823f2 <biwn_native_deck_coordinate_body+0x21f8>
+  18196e:	4243           	clrw %d3
+  181970:	d040           	addw %d0,%d0
+  181972:	8041           	orw %d1,%d0
+  181974:	8640           	orw %d0,%d3
+  181976:	2d42 ffaa      	movel %d2,%fp@(-86)
+  18197a:	41e8 0020      	lea %a0@(32),%a0
+  18197e:	2d48 ffde      	movel %a0,%fp@(-34)
+  181982:	0800 000d      	btst #13,%d0
+  181986:	6700 0a70      	beqw 1823f8 <biwn_native_deck_coordinate_body+0x21fe>
+  18198a:	2d48 ffea      	movel %a0,%fp@(-22)
+  18198e:	42ae ffa2      	clrl %fp@(-94)
+  181992:	0243 fff0      	andiw #-16,%d3
+  181996:	0043 0004      	oriw #4,%d3
+  18199a:	3d43 ffee      	movew %d3,%fp@(-18)
+  18199e:	426e ff9a      	clrw %fp@(-102)
+  1819a2:	206e ff9e      	moveal %fp@(-98),%a0
+  1819a6:	47ee ff9a      	lea %fp@(-102),%a3
+  1819aa:	2f0b           	movel %a3,%sp@-
+  1819ac:	262e ffce      	movel %fp@(-50),%d3
+  1819b0:	0283 00ff ffff 	andil #16777215,%d3
+  1819b6:	2f03           	movel %d3,%sp@-
+  1819b8:	2f28 0018      	movel %a0@(24),%sp@-
+  1819bc:	2068 0004      	moveal %a0@(4),%a0
+  1819c0:	4e90           	jsr %a0@
+  1819c2:	4fef 000c      	lea %sp@(12),%sp
+  1819c6:	4a80           	tstl %d0
+  1819c8:	6706           	beqs 1819d0 <biwn_native_deck_coordinate_body+0x17d6>
+  1819ca:	7002           	moveq #2,%d0
+  1819cc:	2d40 fffc      	movel %d0,%fp@(-4)
+  1819d0:	342e ff9a      	movew %fp@(-102),%d2
+  1819d4:	7200           	moveq #0,%d1
+  1819d6:	3202           	movew %d2,%d1
+  1819d8:	302e ffee      	movew %fp@(-18),%d0
+  1819dc:	0240 fff0      	andiw #-16,%d0
+  1819e0:	4a42           	tstw %d2
+  1819e2:	6600 0a1c      	bnew 182400 <biwn_native_deck_coordinate_body+0x2206>
+  1819e6:	0040 0004      	oriw #4,%d0
+  1819ea:	8042           	orw %d2,%d0
+  1819ec:	7405           	moveq #5,%d2
+  1819ee:	7600           	moveq #0,%d3
+  1819f0:	2801           	movel %d1,%d4
+  1819f2:	d281           	addl %d1,%d1
+  1819f4:	2a01           	movel %d1,%d5
+  1819f6:	b985           	eorl %d4,%d5
+  1819f8:	da85           	addl %d5,%d5
+  1819fa:	9b85           	subxl %d5,%d5
+  1819fc:	4485           	negl %d5
+  1819fe:	8685           	orl %d5,%d3
+  181a00:	5382           	subql #1,%d2
+  181a02:	66ec           	bnes 1819f0 <biwn_native_deck_coordinate_body+0x17f6>
+  181a04:	d884           	addl %d4,%d4
+  181a06:	9984           	subxl %d4,%d4
+  181a08:	4484           	negl %d4
+  181a0a:	0240 fff0      	andiw #-16,%d0
+  181a0e:	4a81           	tstl %d1
+  181a10:	6600 09f8      	bnew 18240a <biwn_native_deck_coordinate_body+0x2210>
+  181a14:	0040 0004      	oriw #4,%d0
+  181a18:	4245           	clrw %d5
+  181a1a:	8045           	orw %d5,%d0
+  181a1c:	0240 ffec      	andiw #-20,%d0
+  181a20:	4a84           	tstl %d4
+  181a22:	6700 09f4      	beqw 182418 <biwn_native_deck_coordinate_body+0x221e>
+  181a26:	7811           	moveq #17,%d4
+  181a28:	d643           	addw %d3,%d3
+  181a2a:	8640           	orw %d0,%d3
+  181a2c:	8644           	orw %d4,%d3
+  181a2e:	3d43 ffee      	movew %d3,%fp@(-18)
+  181a32:	2d41 ffa2      	movel %d1,%fp@(-94)
+  181a36:	2d7c 0004 00c4 	movel #262340,%fp@(-62)
+  181a3c:	ffc2 
+  181a3e:	42ae ff9a      	clrl %fp@(-102)
+  181a42:	4aae fffc      	tstl %fp@(-4)
+  181a46:	6600 09d6      	bnew 18241e <biwn_native_deck_coordinate_body+0x2224>
+  181a4a:	206e ff9e      	moveal %fp@(-98),%a0
+  181a4e:	2f0b           	movel %a3,%sp@-
+  181a50:	0681 0004 00e0 	addil #262368,%d1
+  181a56:	0281 00ff ffff 	andil #16777215,%d1
+  181a5c:	2f01           	movel %d1,%sp@-
+  181a5e:	2f28 0018      	movel %a0@(24),%sp@-
+  181a62:	2068 0008      	moveal %a0@(8),%a0
+  181a66:	4e90           	jsr %a0@
+  181a68:	4fef 000c      	lea %sp@(12),%sp
+  181a6c:	4a80           	tstl %d0
+  181a6e:	6706           	beqs 181a76 <biwn_native_deck_coordinate_body+0x187c>
+  181a70:	7a02           	moveq #2,%d5
+  181a72:	2d45 fffc      	movel %d5,%fp@(-4)
+  181a76:	282e ff9a      	movel %fp@(-102),%d4
+  181a7a:	206e ffaa      	moveal %fp@(-86),%a0
+  181a7e:	2008           	movel %a0,%d0
+  181a80:	9084           	subl %d4,%d0
+  181a82:	2208           	movel %a0,%d1
+  181a84:	b981           	eorl %d4,%d1
+  181a86:	2608           	movel %a0,%d3
+  181a88:	b183           	eorl %d0,%d3
+  181a8a:	c283           	andl %d3,%d1
+  181a8c:	d281           	addl %d1,%d1
+  181a8e:	9381           	subxl %d1,%d1
+  181a90:	4481           	negl %d1
+  181a92:	362e ffee      	movew %fp@(-18),%d3
+  181a96:	0243 fff0      	andiw #-16,%d3
+  181a9a:	4a80           	tstl %d0
+  181a9c:	6600 0986      	bnew 182424 <biwn_native_deck_coordinate_body+0x222a>
+  181aa0:	0043 0004      	oriw #4,%d3
+  181aa4:	4245           	clrw %d5
+  181aa6:	3001           	movew %d1,%d0
+  181aa8:	d041           	addw %d1,%d0
+  181aaa:	b888           	cmpl %a0,%d4
+  181aac:	52c1           	shi %d1
+  181aae:	4881           	extw %d1
+  181ab0:	4441           	negw %d1
+  181ab2:	8041           	orw %d1,%d0
+  181ab4:	8045           	orw %d5,%d0
+  181ab6:	8043           	orw %d3,%d0
+  181ab8:	3d40 ffee      	movew %d0,%fp@(-18)
+  181abc:	0800 0000      	btst #0,%d0
+  181ac0:	6700 00f4      	beqw 181bb6 <biwn_native_deck_coordinate_body+0x19bc>
+  181ac4:	202e ffbe      	movel %fp@(-66),%d0
+  181ac8:	2d40 ffc6      	movel %d0,%fp@(-58)
+  181acc:	4aae fffc      	tstl %fp@(-4)
+  181ad0:	6628           	bnes 181afa <biwn_native_deck_coordinate_body+0x1900>
+  181ad2:	206e ff9e      	moveal %fp@(-98),%a0
+  181ad6:	2f2e ffb6      	movel %fp@(-74),%sp@-
+  181ada:	0280 00ff ffff 	andil #16777215,%d0
+  181ae0:	2f00           	movel %d0,%sp@-
+  181ae2:	2f28 0018      	movel %a0@(24),%sp@-
+  181ae6:	2068 0010      	moveal %a0@(16),%a0
+  181aea:	4e90           	jsr %a0@
+  181aec:	4fef 000c      	lea %sp@(12),%sp
+  181af0:	4a80           	tstl %d0
+  181af2:	6706           	beqs 181afa <biwn_native_deck_coordinate_body+0x1900>
+  181af4:	7802           	moveq #2,%d4
+  181af6:	2d44 fffc      	movel %d4,%fp@(-4)
+  181afa:	202e ffb6      	movel %fp@(-74),%d0
+  181afe:	322e ffee      	movew %fp@(-18),%d1
+  181b02:	0241 fff0      	andiw #-16,%d1
+  181b06:	4a80           	tstl %d0
+  181b08:	6600 0928      	bnew 182432 <biwn_native_deck_coordinate_body+0x2238>
+  181b0c:	0041 0004      	oriw #4,%d1
+  181b10:	8240           	orw %d0,%d1
+  181b12:	3d41 ffee      	movew %d1,%fp@(-18)
+  181b16:	202e ffba      	movel %fp@(-70),%d0
+  181b1a:	2d40 ffc6      	movel %d0,%fp@(-58)
+  181b1e:	4aae fffc      	tstl %fp@(-4)
+  181b22:	6628           	bnes 181b4c <biwn_native_deck_coordinate_body+0x1952>
+  181b24:	206e ff9e      	moveal %fp@(-98),%a0
+  181b28:	2f2e ffd2      	movel %fp@(-46),%sp@-
+  181b2c:	0280 00ff ffff 	andil #16777215,%d0
+  181b32:	2f00           	movel %d0,%sp@-
+  181b34:	2f28 0018      	movel %a0@(24),%sp@-
+  181b38:	2068 0010      	moveal %a0@(16),%a0
+  181b3c:	4e90           	jsr %a0@
+  181b3e:	4fef 000c      	lea %sp@(12),%sp
+  181b42:	4a80           	tstl %d0
+  181b44:	6706           	beqs 181b4c <biwn_native_deck_coordinate_body+0x1952>
+  181b46:	7602           	moveq #2,%d3
+  181b48:	2d43 fffc      	movel %d3,%fp@(-4)
+  181b4c:	202e ffd2      	movel %fp@(-46),%d0
+  181b50:	322e ffee      	movew %fp@(-18),%d1
+  181b54:	0241 fff0      	andiw #-16,%d1
+  181b58:	4a80           	tstl %d0
+  181b5a:	6600 08e2      	bnew 18243e <biwn_native_deck_coordinate_body+0x2244>
+  181b5e:	0041 0004      	oriw #4,%d1
+  181b62:	8240           	orw %d0,%d1
+  181b64:	3d41 ffee      	movew %d1,%fp@(-18)
+  181b68:	4aae fffc      	tstl %fp@(-4)
+  181b6c:	662c           	bnes 181b9a <biwn_native_deck_coordinate_body+0x19a0>
+  181b6e:	206e ff9e      	moveal %fp@(-98),%a0
+  181b72:	2f2e ffd6      	movel %fp@(-42),%sp@-
+  181b76:	202e ffda      	movel %fp@(-38),%d0
+  181b7a:	0280 00ff ffff 	andil #16777215,%d0
+  181b80:	2f00           	movel %d0,%sp@-
+  181b82:	2f28 0018      	movel %a0@(24),%sp@-
+  181b86:	2068 0010      	moveal %a0@(16),%a0
+  181b8a:	4e90           	jsr %a0@
+  181b8c:	4fef 000c      	lea %sp@(12),%sp
+  181b90:	4a80           	tstl %d0
+  181b92:	6706           	beqs 181b9a <biwn_native_deck_coordinate_body+0x19a0>
+  181b94:	7202           	moveq #2,%d1
+  181b96:	2d41 fffc      	movel %d1,%fp@(-4)
+  181b9a:	202e ffd6      	movel %fp@(-42),%d0
+  181b9e:	322e ffee      	movew %fp@(-18),%d1
+  181ba2:	0241 fff0      	andiw #-16,%d1
+  181ba6:	4a80           	tstl %d0
+  181ba8:	6600 08a0      	bnew 18244a <biwn_native_deck_coordinate_body+0x2250>
+  181bac:	0041 0004      	oriw #4,%d1
+  181bb0:	8240           	orw %d0,%d1
+  181bb2:	3d41 ffee      	movew %d1,%fp@(-18)
+  181bb6:	426e ff9a      	clrw %fp@(-102)
+  181bba:	4aae fffc      	tstl %fp@(-4)
+  181bbe:	6600 0896      	bnew 182456 <biwn_native_deck_coordinate_body+0x225c>
+  181bc2:	206e ff9e      	moveal %fp@(-98),%a0
+  181bc6:	2f0b           	movel %a3,%sp@-
+  181bc8:	2f3c 0004 00ee 	movel #262382,%sp@-
+  181bce:	2f28 0018      	movel %a0@(24),%sp@-
+  181bd2:	2068 0004      	moveal %a0@(4),%a0
+  181bd6:	4e90           	jsr %a0@
+  181bd8:	4fef 000c      	lea %sp@(12),%sp
+  181bdc:	4a80           	tstl %d0
+  181bde:	6706           	beqs 181be6 <biwn_native_deck_coordinate_body+0x19ec>
+  181be0:	7002           	moveq #2,%d0
+  181be2:	2d40 fffc      	movel %d0,%fp@(-4)
+  181be6:	7000           	moveq #0,%d0
+  181be8:	302e ff9a      	movew %fp@(-102),%d0
+  181bec:	2600           	movel %d0,%d3
+  181bee:	0283 0000 7fff 	andil #32767,%d3
+  181bf4:	0280 0000 8000 	andil #32768,%d0
+  181bfa:	9680           	subl %d0,%d3
+  181bfc:	2d43 ffc6      	movel %d3,%fp@(-58)
+  181c00:	202e ffce      	movel %fp@(-50),%d0
+  181c04:	426e ff9a      	clrw %fp@(-102)
+  181c08:	4aae fffc      	tstl %fp@(-4)
+  181c0c:	6600 084e      	bnew 18245c <biwn_native_deck_coordinate_body+0x2262>
+  181c10:	206e ff9e      	moveal %fp@(-98),%a0
+  181c14:	2f0b           	movel %a3,%sp@-
+  181c16:	5c80           	addql #6,%d0
+  181c18:	0280 00ff ffff 	andil #16777215,%d0
+  181c1e:	2f00           	movel %d0,%sp@-
+  181c20:	2f28 0018      	movel %a0@(24),%sp@-
+  181c24:	2068 0004      	moveal %a0@(4),%a0
+  181c28:	4e90           	jsr %a0@
+  181c2a:	4fef 000c      	lea %sp@(12),%sp
+  181c2e:	4a80           	tstl %d0
+  181c30:	6706           	beqs 181c38 <biwn_native_deck_coordinate_body+0x1a3e>
+  181c32:	7a02           	moveq #2,%d5
+  181c34:	2d45 fffc      	movel %d5,%fp@(-4)
+  181c38:	7200           	moveq #0,%d1
+  181c3a:	322e ff9a      	movew %fp@(-102),%d1
+  181c3e:	2001           	movel %d1,%d0
+  181c40:	0280 0000 8000 	andil #32768,%d0
+  181c46:	d083           	addl %d3,%d0
+  181c48:	0281 0000 7fff 	andil #32767,%d1
+  181c4e:	9081           	subl %d1,%d0
+  181c50:	2d40 ffc6      	movel %d0,%fp@(-58)
+  181c54:	4aae fffc      	tstl %fp@(-4)
+  181c58:	6626           	bnes 181c80 <biwn_native_deck_coordinate_body+0x1a86>
+  181c5a:	206e ff9e      	moveal %fp@(-98),%a0
+  181c5e:	3f00           	movew %d0,%sp@-
+  181c60:	4267           	clrw %sp@-
+  181c62:	2f3c 0004 9b8c 	movel #301964,%sp@-
+  181c68:	2f28 0018      	movel %a0@(24),%sp@-
+  181c6c:	2068 000c      	moveal %a0@(12),%a0
+  181c70:	4e90           	jsr %a0@
+  181c72:	4fef 000c      	lea %sp@(12),%sp
+  181c76:	4a80           	tstl %d0
+  181c78:	6706           	beqs 181c80 <biwn_native_deck_coordinate_body+0x1a86>
+  181c7a:	7802           	moveq #2,%d4
+  181c7c:	2d44 fffc      	movel %d4,%fp@(-4)
+  181c80:	202e ffc6      	movel %fp@(-58),%d0
+  181c84:	3200           	movew %d0,%d1
+  181c86:	760f           	moveq #15,%d3
+  181c88:	e669           	lsrw %d3,%d1
+  181c8a:	e749           	lslw #3,%d1
+  181c8c:	4a40           	tstw %d0
+  181c8e:	57c0           	seq %d0
+  181c90:	4880           	extw %d0
+  181c92:	4440           	negw %d0
+  181c94:	d040           	addw %d0,%d0
+  181c96:	d040           	addw %d0,%d0
+  181c98:	8041           	orw %d1,%d0
+  181c9a:	322e ffee      	movew %fp@(-18),%d1
+  181c9e:	0241 fff0      	andiw #-16,%d1
+  181ca2:	8041           	orw %d1,%d0
+  181ca4:	3d40 ffee      	movew %d0,%fp@(-18)
+  181ca8:	426e ff9a      	clrw %fp@(-102)
+  181cac:	4aae fffc      	tstl %fp@(-4)
+  181cb0:	6600 07b0      	bnew 182462 <biwn_native_deck_coordinate_body+0x2268>
+  181cb4:	206e ff9e      	moveal %fp@(-98),%a0
+  181cb8:	2f0b           	movel %a3,%sp@-
+  181cba:	2f3c 0004 00f2 	movel #262386,%sp@-
+  181cc0:	2f28 0018      	movel %a0@(24),%sp@-
+  181cc4:	2068 0004      	moveal %a0@(4),%a0
+  181cc8:	4e90           	jsr %a0@
+  181cca:	4fef 000c      	lea %sp@(12),%sp
+  181cce:	4a80           	tstl %d0
+  181cd0:	6706           	beqs 181cd8 <biwn_native_deck_coordinate_body+0x1ade>
+  181cd2:	7602           	moveq #2,%d3
+  181cd4:	2d43 fffc      	movel %d3,%fp@(-4)
+  181cd8:	7000           	moveq #0,%d0
+  181cda:	302e ff9a      	movew %fp@(-102),%d0
+  181cde:	2600           	movel %d0,%d3
+  181ce0:	0283 0000 7fff 	andil #32767,%d3
+  181ce6:	0280 0000 8000 	andil #32768,%d0
+  181cec:	9680           	subl %d0,%d3
+  181cee:	2d43 ffc6      	movel %d3,%fp@(-58)
+  181cf2:	206e ffce      	moveal %fp@(-50),%a0
+  181cf6:	426e ff9a      	clrw %fp@(-102)
+  181cfa:	4aae fffc      	tstl %fp@(-4)
+  181cfe:	6600 0768      	bnew 182468 <biwn_native_deck_coordinate_body+0x226e>
+  181d02:	226e ff9e      	moveal %fp@(-98),%a1
+  181d06:	2f0b           	movel %a3,%sp@-
+  181d08:	700a           	moveq #10,%d0
+  181d0a:	d088           	addl %a0,%d0
+  181d0c:	0280 00ff ffff 	andil #16777215,%d0
+  181d12:	2f00           	movel %d0,%sp@-
+  181d14:	2f29 0018      	movel %a1@(24),%sp@-
+  181d18:	2069 0004      	moveal %a1@(4),%a0
+  181d1c:	4e90           	jsr %a0@
+  181d1e:	4fef 000c      	lea %sp@(12),%sp
+  181d22:	4a80           	tstl %d0
+  181d24:	6706           	beqs 181d2c <biwn_native_deck_coordinate_body+0x1b32>
+  181d26:	7202           	moveq #2,%d1
+  181d28:	2d41 fffc      	movel %d1,%fp@(-4)
+  181d2c:	7200           	moveq #0,%d1
+  181d2e:	322e ff9a      	movew %fp@(-102),%d1
+  181d32:	2001           	movel %d1,%d0
+  181d34:	0280 0000 8000 	andil #32768,%d0
+  181d3a:	d083           	addl %d3,%d0
+  181d3c:	0281 0000 7fff 	andil #32767,%d1
+  181d42:	9081           	subl %d1,%d0
+  181d44:	2d40 ffc6      	movel %d0,%fp@(-58)
+  181d48:	4aae fffc      	tstl %fp@(-4)
+  181d4c:	6626           	bnes 181d74 <biwn_native_deck_coordinate_body+0x1b7a>
+  181d4e:	206e ff9e      	moveal %fp@(-98),%a0
+  181d52:	3f00           	movew %d0,%sp@-
+  181d54:	4267           	clrw %sp@-
+  181d56:	2f3c 0004 9b8e 	movel #301966,%sp@-
+  181d5c:	2f28 0018      	movel %a0@(24),%sp@-
+  181d60:	2068 000c      	moveal %a0@(12),%a0
+  181d64:	4e90           	jsr %a0@
+  181d66:	4fef 000c      	lea %sp@(12),%sp
+  181d6a:	4a80           	tstl %d0
+  181d6c:	6706           	beqs 181d74 <biwn_native_deck_coordinate_body+0x1b7a>
+  181d6e:	7002           	moveq #2,%d0
+  181d70:	2d40 fffc      	movel %d0,%fp@(-4)
+  181d74:	202e ffc6      	movel %fp@(-58),%d0
+  181d78:	3200           	movew %d0,%d1
+  181d7a:	760f           	moveq #15,%d3
+  181d7c:	e669           	lsrw %d3,%d1
+  181d7e:	e749           	lslw #3,%d1
+  181d80:	4a40           	tstw %d0
+  181d82:	57c0           	seq %d0
+  181d84:	4880           	extw %d0
+  181d86:	4440           	negw %d0
+  181d88:	d040           	addw %d0,%d0
+  181d8a:	d040           	addw %d0,%d0
+  181d8c:	8041           	orw %d1,%d0
+  181d8e:	322e ffee      	movew %fp@(-18),%d1
+  181d92:	0241 fff0      	andiw #-16,%d1
+  181d96:	8041           	orw %d1,%d0
+  181d98:	3d40 ffee      	movew %d0,%fp@(-18)
+  181d9c:	426e ff9a      	clrw %fp@(-102)
+  181da0:	4aae fffc      	tstl %fp@(-4)
+  181da4:	6600 06c8      	bnew 18246e <biwn_native_deck_coordinate_body+0x2274>
+  181da8:	206e ff9e      	moveal %fp@(-98),%a0
+  181dac:	2f0b           	movel %a3,%sp@-
+  181dae:	2f3c 0004 00f6 	movel #262390,%sp@-
+  181db4:	2f28 0018      	movel %a0@(24),%sp@-
+  181db8:	2068 0004      	moveal %a0@(4),%a0
+  181dbc:	4e90           	jsr %a0@
+  181dbe:	4fef 000c      	lea %sp@(12),%sp
+  181dc2:	4a80           	tstl %d0
+  181dc4:	6706           	beqs 181dcc <biwn_native_deck_coordinate_body+0x1bd2>
+  181dc6:	7a02           	moveq #2,%d5
+  181dc8:	2d45 fffc      	movel %d5,%fp@(-4)
+  181dcc:	7000           	moveq #0,%d0
+  181dce:	302e ff9a      	movew %fp@(-102),%d0
+  181dd2:	2600           	movel %d0,%d3
+  181dd4:	0283 0000 7fff 	andil #32767,%d3
+  181dda:	0280 0000 8000 	andil #32768,%d0
+  181de0:	9680           	subl %d0,%d3
+  181de2:	2d43 ffc6      	movel %d3,%fp@(-58)
+  181de6:	206e ffce      	moveal %fp@(-50),%a0
+  181dea:	426e ff9a      	clrw %fp@(-102)
+  181dee:	4aae fffc      	tstl %fp@(-4)
+  181df2:	6600 0680      	bnew 182474 <biwn_native_deck_coordinate_body+0x227a>
+  181df6:	226e ff9e      	moveal %fp@(-98),%a1
+  181dfa:	2f0b           	movel %a3,%sp@-
+  181dfc:	700e           	moveq #14,%d0
+  181dfe:	d088           	addl %a0,%d0
+  181e00:	0280 00ff ffff 	andil #16777215,%d0
+  181e06:	2f00           	movel %d0,%sp@-
+  181e08:	2f29 0018      	movel %a1@(24),%sp@-
+  181e0c:	2069 0004      	moveal %a1@(4),%a0
+  181e10:	4e90           	jsr %a0@
+  181e12:	4fef 000c      	lea %sp@(12),%sp
+  181e16:	4a80           	tstl %d0
+  181e18:	6706           	beqs 181e20 <biwn_native_deck_coordinate_body+0x1c26>
+  181e1a:	7802           	moveq #2,%d4
+  181e1c:	2d44 fffc      	movel %d4,%fp@(-4)
+  181e20:	7200           	moveq #0,%d1
+  181e22:	322e ff9a      	movew %fp@(-102),%d1
+  181e26:	2001           	movel %d1,%d0
+  181e28:	0280 0000 8000 	andil #32768,%d0
+  181e2e:	d083           	addl %d3,%d0
+  181e30:	0281 0000 7fff 	andil #32767,%d1
+  181e36:	9081           	subl %d1,%d0
+  181e38:	2d40 ffc6      	movel %d0,%fp@(-58)
+  181e3c:	4aae fffc      	tstl %fp@(-4)
+  181e40:	6626           	bnes 181e68 <biwn_native_deck_coordinate_body+0x1c6e>
+  181e42:	206e ff9e      	moveal %fp@(-98),%a0
+  181e46:	3f00           	movew %d0,%sp@-
+  181e48:	4267           	clrw %sp@-
+  181e4a:	2f3c 0004 9b90 	movel #301968,%sp@-
+  181e50:	2f28 0018      	movel %a0@(24),%sp@-
+  181e54:	2068 000c      	moveal %a0@(12),%a0
+  181e58:	4e90           	jsr %a0@
+  181e5a:	4fef 000c      	lea %sp@(12),%sp
+  181e5e:	4a80           	tstl %d0
+  181e60:	6706           	beqs 181e68 <biwn_native_deck_coordinate_body+0x1c6e>
+  181e62:	7202           	moveq #2,%d1
+  181e64:	2d41 fffc      	movel %d1,%fp@(-4)
+  181e68:	202e ffc6      	movel %fp@(-58),%d0
+  181e6c:	3200           	movew %d0,%d1
+  181e6e:	760f           	moveq #15,%d3
+  181e70:	e669           	lsrw %d3,%d1
+  181e72:	e749           	lslw #3,%d1
+  181e74:	4a40           	tstw %d0
+  181e76:	57c0           	seq %d0
+  181e78:	4880           	extw %d0
+  181e7a:	4440           	negw %d0
+  181e7c:	d040           	addw %d0,%d0
+  181e7e:	d040           	addw %d0,%d0
+  181e80:	8041           	orw %d1,%d0
+  181e82:	322e ffee      	movew %fp@(-18),%d1
+  181e86:	0241 fff0      	andiw #-16,%d1
+  181e8a:	8041           	orw %d1,%d0
+  181e8c:	3d40 ffee      	movew %d0,%fp@(-18)
+  181e90:	202e ffde      	movel %fp@(-34),%d0
+  181e94:	42ae ff9a      	clrl %fp@(-102)
+  181e98:	4aae fffc      	tstl %fp@(-4)
+  181e9c:	6600 05dc      	bnew 18247a <biwn_native_deck_coordinate_body+0x2280>
+  181ea0:	206e ff9e      	moveal %fp@(-98),%a0
+  181ea4:	2f0b           	movel %a3,%sp@-
+  181ea6:	0280 00ff ffff 	andil #16777215,%d0
+  181eac:	2f00           	movel %d0,%sp@-
+  181eae:	2f28 0018      	movel %a0@(24),%sp@-
+  181eb2:	2068 0008      	moveal %a0@(8),%a0
+  181eb6:	4e90           	jsr %a0@
+  181eb8:	4fef 000c      	lea %sp@(12),%sp
+  181ebc:	4a80           	tstl %d0
+  181ebe:	6706           	beqs 181ec6 <biwn_native_deck_coordinate_body+0x1ccc>
+  181ec0:	7002           	moveq #2,%d0
+  181ec2:	2d40 fffc      	movel %d0,%fp@(-4)
+  181ec6:	222e ff9a      	movel %fp@(-102),%d1
+  181eca:	202e ffde      	movel %fp@(-34),%d0
+  181ece:	5880           	addql #4,%d0
+  181ed0:	2d40 ffde      	movel %d0,%fp@(-34)
+  181ed4:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181eda:	6700 05a4      	beqw 182480 <biwn_native_deck_coordinate_body+0x2286>
+  181ede:	2d40 ffea      	movel %d0,%fp@(-22)
+  181ee2:	2d41 ffaa      	movel %d1,%fp@(-86)
+  181ee6:	42ae ff9a      	clrl %fp@(-102)
+  181eea:	4aae fffc      	tstl %fp@(-4)
+  181eee:	6600 0598      	bnew 182488 <biwn_native_deck_coordinate_body+0x228e>
+  181ef2:	206e ff9e      	moveal %fp@(-98),%a0
+  181ef6:	2f0b           	movel %a3,%sp@-
+  181ef8:	0280 00ff ffff 	andil #16777215,%d0
+  181efe:	2f00           	movel %d0,%sp@-
+  181f00:	2f28 0018      	movel %a0@(24),%sp@-
+  181f04:	2068 0008      	moveal %a0@(8),%a0
+  181f08:	4e90           	jsr %a0@
+  181f0a:	4fef 000c      	lea %sp@(12),%sp
+  181f0e:	4a80           	tstl %d0
+  181f10:	6706           	beqs 181f18 <biwn_native_deck_coordinate_body+0x1d1e>
+  181f12:	7a02           	moveq #2,%d5
+  181f14:	2d45 fffc      	movel %d5,%fp@(-4)
+  181f18:	222e ff9a      	movel %fp@(-102),%d1
+  181f1c:	202e ffde      	movel %fp@(-34),%d0
+  181f20:	5880           	addql #4,%d0
+  181f22:	2d40 ffde      	movel %d0,%fp@(-34)
+  181f26:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181f2c:	6700 0560      	beqw 18248e <biwn_native_deck_coordinate_body+0x2294>
+  181f30:	2d40 ffea      	movel %d0,%fp@(-22)
+  181f34:	2d41 ffae      	movel %d1,%fp@(-82)
+  181f38:	42ae ff9a      	clrl %fp@(-102)
+  181f3c:	4aae fffc      	tstl %fp@(-4)
+  181f40:	6600 0554      	bnew 182496 <biwn_native_deck_coordinate_body+0x229c>
+  181f44:	206e ff9e      	moveal %fp@(-98),%a0
+  181f48:	2f0b           	movel %a3,%sp@-
+  181f4a:	0280 00ff ffff 	andil #16777215,%d0
+  181f50:	2f00           	movel %d0,%sp@-
+  181f52:	2f28 0018      	movel %a0@(24),%sp@-
+  181f56:	2068 0008      	moveal %a0@(8),%a0
+  181f5a:	4e90           	jsr %a0@
+  181f5c:	4fef 000c      	lea %sp@(12),%sp
+  181f60:	4a80           	tstl %d0
+  181f62:	6706           	beqs 181f6a <biwn_native_deck_coordinate_body+0x1d70>
+  181f64:	7802           	moveq #2,%d4
+  181f66:	2d44 fffc      	movel %d4,%fp@(-4)
+  181f6a:	222e ff9a      	movel %fp@(-102),%d1
+  181f6e:	202e ffde      	movel %fp@(-34),%d0
+  181f72:	5880           	addql #4,%d0
+  181f74:	2d40 ffde      	movel %d0,%fp@(-34)
+  181f78:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181f7e:	6700 051c      	beqw 18249c <biwn_native_deck_coordinate_body+0x22a2>
+  181f82:	2d40 ffea      	movel %d0,%fp@(-22)
+  181f86:	2d41 ffb2      	movel %d1,%fp@(-78)
+  181f8a:	42ae ff9a      	clrl %fp@(-102)
+  181f8e:	4aae fffc      	tstl %fp@(-4)
+  181f92:	6600 0510      	bnew 1824a4 <biwn_native_deck_coordinate_body+0x22aa>
+  181f96:	206e ff9e      	moveal %fp@(-98),%a0
+  181f9a:	2f0b           	movel %a3,%sp@-
+  181f9c:	0280 00ff ffff 	andil #16777215,%d0
+  181fa2:	2f00           	movel %d0,%sp@-
+  181fa4:	2f28 0018      	movel %a0@(24),%sp@-
+  181fa8:	2068 0008      	moveal %a0@(8),%a0
+  181fac:	4e90           	jsr %a0@
+  181fae:	4fef 000c      	lea %sp@(12),%sp
+  181fb2:	4a80           	tstl %d0
+  181fb4:	6706           	beqs 181fbc <biwn_native_deck_coordinate_body+0x1dc2>
+  181fb6:	7602           	moveq #2,%d3
+  181fb8:	2d43 fffc      	movel %d3,%fp@(-4)
+  181fbc:	222e ff9a      	movel %fp@(-102),%d1
+  181fc0:	202e ffde      	movel %fp@(-34),%d0
+  181fc4:	5880           	addql #4,%d0
+  181fc6:	2d40 ffde      	movel %d0,%fp@(-34)
+  181fca:	082e 0005 ffee 	btst #5,%fp@(-18)
+  181fd0:	6700 04d8      	beqw 1824aa <biwn_native_deck_coordinate_body+0x22b0>
+  181fd4:	2d40 ffea      	movel %d0,%fp@(-22)
+  181fd8:	2d41 ffb6      	movel %d1,%fp@(-74)
+  181fdc:	42ae ff9a      	clrl %fp@(-102)
+  181fe0:	4aae fffc      	tstl %fp@(-4)
+  181fe4:	6600 04cc      	bnew 1824b2 <biwn_native_deck_coordinate_body+0x22b8>
+  181fe8:	206e ff9e      	moveal %fp@(-98),%a0
+  181fec:	2f0b           	movel %a3,%sp@-
+  181fee:	0280 00ff ffff 	andil #16777215,%d0
+  181ff4:	2f00           	movel %d0,%sp@-
+  181ff6:	2f28 0018      	movel %a0@(24),%sp@-
+  181ffa:	2068 0008      	moveal %a0@(8),%a0
+  181ffe:	4e90           	jsr %a0@
+  182000:	4fef 000c      	lea %sp@(12),%sp
+  182004:	4a80           	tstl %d0
+  182006:	6706           	beqs 18200e <biwn_native_deck_coordinate_body+0x1e14>
+  182008:	7202           	moveq #2,%d1
+  18200a:	2d41 fffc      	movel %d1,%fp@(-4)
+  18200e:	222e ff9a      	movel %fp@(-102),%d1
+  182012:	202e ffde      	movel %fp@(-34),%d0
+  182016:	5880           	addql #4,%d0
+  182018:	2d40 ffde      	movel %d0,%fp@(-34)
+  18201c:	082e 0005 ffee 	btst #5,%fp@(-18)
+  182022:	6700 0494      	beqw 1824b8 <biwn_native_deck_coordinate_body+0x22be>
+  182026:	2d40 ffea      	movel %d0,%fp@(-22)
+  18202a:	2d41 ffba      	movel %d1,%fp@(-70)
+  18202e:	42ae ff9a      	clrl %fp@(-102)
+  182032:	4aae fffc      	tstl %fp@(-4)
+  182036:	6600 0488      	bnew 1824c0 <biwn_native_deck_coordinate_body+0x22c6>
+  18203a:	206e ff9e      	moveal %fp@(-98),%a0
+  18203e:	2f0b           	movel %a3,%sp@-
+  182040:	0280 00ff ffff 	andil #16777215,%d0
+  182046:	2f00           	movel %d0,%sp@-
+  182048:	2f28 0018      	movel %a0@(24),%sp@-
+  18204c:	2068 0008      	moveal %a0@(8),%a0
+  182050:	4e90           	jsr %a0@
+  182052:	4fef 000c      	lea %sp@(12),%sp
+  182056:	4a80           	tstl %d0
+  182058:	6706           	beqs 182060 <biwn_native_deck_coordinate_body+0x1e66>
+  18205a:	7002           	moveq #2,%d0
+  18205c:	2d40 fffc      	movel %d0,%fp@(-4)
+  182060:	222e ff9a      	movel %fp@(-102),%d1
+  182064:	202e ffde      	movel %fp@(-34),%d0
+  182068:	5880           	addql #4,%d0
+  18206a:	2d40 ffde      	movel %d0,%fp@(-34)
+  18206e:	082e 0005 ffee 	btst #5,%fp@(-18)
+  182074:	6700 0450      	beqw 1824c6 <biwn_native_deck_coordinate_body+0x22cc>
+  182078:	2d40 ffea      	movel %d0,%fp@(-22)
+  18207c:	2d41 ffbe      	movel %d1,%fp@(-66)
+  182080:	42ae ff9a      	clrl %fp@(-102)
+  182084:	4aae fffc      	tstl %fp@(-4)
+  182088:	6600 0444      	bnew 1824ce <biwn_native_deck_coordinate_body+0x22d4>
+  18208c:	206e ff9e      	moveal %fp@(-98),%a0
+  182090:	486e ff9a      	pea %fp@(-102)
+  182094:	0280 00ff ffff 	andil #16777215,%d0
+  18209a:	2f00           	movel %d0,%sp@-
+  18209c:	2f28 0018      	movel %a0@(24),%sp@-
+  1820a0:	2068 0008      	moveal %a0@(8),%a0
+  1820a4:	4e90           	jsr %a0@
+  1820a6:	4fef 000c      	lea %sp@(12),%sp
+  1820aa:	4a80           	tstl %d0
+  1820ac:	6706           	beqs 1820b4 <biwn_native_deck_coordinate_body+0x1eba>
+  1820ae:	7a02           	moveq #2,%d5
+  1820b0:	2d45 fffc      	movel %d5,%fp@(-4)
+  1820b4:	222e ff9a      	movel %fp@(-102),%d1
+  1820b8:	202e ffde      	movel %fp@(-34),%d0
+  1820bc:	5880           	addql #4,%d0
+  1820be:	2d40 ffde      	movel %d0,%fp@(-34)
+  1820c2:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1820c8:	6700 040a      	beqw 1824d4 <biwn_native_deck_coordinate_body+0x22da>
+  1820cc:	2d40 ffea      	movel %d0,%fp@(-22)
+  1820d0:	2d41 ffca      	movel %d1,%fp@(-54)
+  1820d4:	42ae ff9a      	clrl %fp@(-102)
+  1820d8:	4aae fffc      	tstl %fp@(-4)
+  1820dc:	6600 03fe      	bnew 1824dc <biwn_native_deck_coordinate_body+0x22e2>
+  1820e0:	206e ff9e      	moveal %fp@(-98),%a0
+  1820e4:	486e ff9a      	pea %fp@(-102)
+  1820e8:	0280 00ff ffff 	andil #16777215,%d0
+  1820ee:	2f00           	movel %d0,%sp@-
+  1820f0:	2f28 0018      	movel %a0@(24),%sp@-
+  1820f4:	2068 0008      	moveal %a0@(8),%a0
+  1820f8:	4e90           	jsr %a0@
+  1820fa:	4fef 000c      	lea %sp@(12),%sp
+  1820fe:	4a80           	tstl %d0
+  182100:	6706           	beqs 182108 <biwn_native_deck_coordinate_body+0x1f0e>
+  182102:	7802           	moveq #2,%d4
+  182104:	2d44 fffc      	movel %d4,%fp@(-4)
+  182108:	222e ff9a      	movel %fp@(-102),%d1
+  18210c:	202e ffde      	movel %fp@(-34),%d0
+  182110:	5880           	addql #4,%d0
+  182112:	2d40 ffde      	movel %d0,%fp@(-34)
+  182116:	082e 0005 ffee 	btst #5,%fp@(-18)
+  18211c:	6700 03c4      	beqw 1824e2 <biwn_native_deck_coordinate_body+0x22e8>
+  182120:	2d40 ffea      	movel %d0,%fp@(-22)
+  182124:	2d41 ffce      	movel %d1,%fp@(-50)
+  182128:	42ae ff9a      	clrl %fp@(-102)
+  18212c:	4aae fffc      	tstl %fp@(-4)
+  182130:	6600 03b8      	bnew 1824ea <biwn_native_deck_coordinate_body+0x22f0>
+  182134:	206e ff9e      	moveal %fp@(-98),%a0
+  182138:	486e ff9a      	pea %fp@(-102)
+  18213c:	0280 00ff ffff 	andil #16777215,%d0
+  182142:	2f00           	movel %d0,%sp@-
+  182144:	2f28 0018      	movel %a0@(24),%sp@-
+  182148:	2068 0008      	moveal %a0@(8),%a0
+  18214c:	4e90           	jsr %a0@
+  18214e:	4fef 000c      	lea %sp@(12),%sp
+  182152:	4a80           	tstl %d0
+  182154:	6706           	beqs 18215c <biwn_native_deck_coordinate_body+0x1f62>
+  182156:	7602           	moveq #2,%d3
+  182158:	2d43 fffc      	movel %d3,%fp@(-4)
+  18215c:	222e ff9a      	movel %fp@(-102),%d1
+  182160:	202e ffde      	movel %fp@(-34),%d0
+  182164:	5880           	addql #4,%d0
+  182166:	2d40 ffde      	movel %d0,%fp@(-34)
+  18216a:	082e 0005 ffee 	btst #5,%fp@(-18)
+  182170:	6700 037e      	beqw 1824f0 <biwn_native_deck_coordinate_body+0x22f6>
+  182174:	2d40 ffea      	movel %d0,%fp@(-22)
+  182178:	2d41 ffd2      	movel %d1,%fp@(-46)
+  18217c:	42ae ff9a      	clrl %fp@(-102)
+  182180:	4aae fffc      	tstl %fp@(-4)
+  182184:	6600 0372      	bnew 1824f8 <biwn_native_deck_coordinate_body+0x22fe>
+  182188:	206e ff9e      	moveal %fp@(-98),%a0
+  18218c:	486e ff9a      	pea %fp@(-102)
+  182190:	0280 00ff ffff 	andil #16777215,%d0
+  182196:	2f00           	movel %d0,%sp@-
+  182198:	2f28 0018      	movel %a0@(24),%sp@-
+  18219c:	2068 0008      	moveal %a0@(8),%a0
+  1821a0:	4e90           	jsr %a0@
+  1821a2:	4fef 000c      	lea %sp@(12),%sp
+  1821a6:	4a80           	tstl %d0
+  1821a8:	6706           	beqs 1821b0 <biwn_native_deck_coordinate_body+0x1fb6>
+  1821aa:	7202           	moveq #2,%d1
+  1821ac:	2d41 fffc      	movel %d1,%fp@(-4)
+  1821b0:	222e ff9a      	movel %fp@(-102),%d1
+  1821b4:	202e ffde      	movel %fp@(-34),%d0
+  1821b8:	5880           	addql #4,%d0
+  1821ba:	2d40 ffde      	movel %d0,%fp@(-34)
+  1821be:	082e 0005 ffee 	btst #5,%fp@(-18)
+  1821c4:	6700 0338      	beqw 1824fe <biwn_native_deck_coordinate_body+0x2304>
+  1821c8:	2d40 ffea      	movel %d0,%fp@(-22)
+  1821cc:	2d41 ffd6      	movel %d1,%fp@(-42)
+  1821d0:	42ae ff9a      	clrl %fp@(-102)
+  1821d4:	4aae fffc      	tstl %fp@(-4)
+  1821d8:	662c           	bnes 182206 <biwn_native_deck_coordinate_body+0x200c>
+  1821da:	206e ff9e      	moveal %fp@(-98),%a0
+  1821de:	486e ff9a      	pea %fp@(-102)
+  1821e2:	0280 00ff ffff 	andil #16777215,%d0
+  1821e8:	2f00           	movel %d0,%sp@-
+  1821ea:	2f28 0018      	movel %a0@(24),%sp@-
+  1821ee:	2068 0008      	moveal %a0@(8),%a0
+  1821f2:	4e90           	jsr %a0@
+  1821f4:	4fef 000c      	lea %sp@(12),%sp
+  1821f8:	4a80           	tstl %d0
+  1821fa:	6706           	beqs 182202 <biwn_native_deck_coordinate_body+0x2008>
+  1821fc:	7002           	moveq #2,%d0
+  1821fe:	2d40 fffc      	movel %d0,%fp@(-4)
+  182202:	242e ff9a      	movel %fp@(-102),%d2
+  182206:	202e ffde      	movel %fp@(-34),%d0
+  18220a:	5880           	addql #4,%d0
+  18220c:	2d40 ffde      	movel %d0,%fp@(-34)
+  182210:	082e 0005 ffee 	btst #5,%fp@(-18)
+  182216:	6700 02ee      	beqw 182506 <biwn_native_deck_coordinate_body+0x230c>
+  18221a:	2d40 ffea      	movel %d0,%fp@(-22)
+  18221e:	2d42 ffda      	movel %d2,%fp@(-38)
+  182222:	2d7c 0001 1e62 	movel #73314,%fp@(-30)
+  182228:	ffe2 
+  18222a:	6000 e8ea      	braw 180b16 <biwn_native_deck_coordinate_body+0x91c>
+  18222e:	7000           	moveq #0,%d0
+  182230:	6000 eb5c      	braw 180d8e <biwn_native_deck_coordinate_body+0xb94>
+  182234:	2d41 ffe6      	movel %d1,%fp@(-26)
+  182238:	6000 eb6c      	braw 180da6 <biwn_native_deck_coordinate_body+0xbac>
+  18223c:	7000           	moveq #0,%d0
+  18223e:	6000 ec62      	braw 180ea2 <biwn_native_deck_coordinate_body+0xca8>
+  182242:	7000           	moveq #0,%d0
+  182244:	6000 eca8      	braw 180eee <biwn_native_deck_coordinate_body+0xcf4>
+  182248:	7000           	moveq #0,%d0
+  18224a:	6000 ecf6      	braw 180f42 <biwn_native_deck_coordinate_body+0xd48>
+  18224e:	7000           	moveq #0,%d0
+  182250:	6000 ee0a      	braw 18105c <biwn_native_deck_coordinate_body+0xe62>
+  182254:	2202           	movel %d2,%d1
+  182256:	d281           	addl %d1,%d1
+  182258:	9381           	subxl %d1,%d1
+  18225a:	4481           	negl %d1
+  18225c:	e749           	lslw #3,%d1
+  18225e:	6000 ee28      	braw 181088 <biwn_native_deck_coordinate_body+0xe8e>
+  182262:	7611           	moveq #17,%d3
+  182264:	6000 ee30      	braw 181096 <biwn_native_deck_coordinate_body+0xe9c>
+  182268:	7200           	moveq #0,%d1
+  18226a:	6000 ee6e      	braw 1810da <biwn_native_deck_coordinate_body+0xee0>
+  18226e:	d080           	addl %d0,%d0
+  182270:	9180           	subxl %d0,%d0
+  182272:	4480           	negl %d0
+  182274:	e748           	lslw #3,%d0
+  182276:	6000 ee80      	braw 1810f8 <biwn_native_deck_coordinate_body+0xefe>
+  18227a:	7600           	moveq #0,%d3
+  18227c:	6000 eeba      	braw 181138 <biwn_native_deck_coordinate_body+0xf3e>
+  182280:	2202           	movel %d2,%d1
+  182282:	d281           	addl %d1,%d1
+  182284:	9381           	subxl %d1,%d1
+  182286:	4481           	negl %d1
+  182288:	e749           	lslw #3,%d1
+  18228a:	6000 eed8      	braw 181164 <biwn_native_deck_coordinate_body+0xf6a>
+  18228e:	7611           	moveq #17,%d3
+  182290:	6000 eee0      	braw 181172 <biwn_native_deck_coordinate_body+0xf78>
+  182294:	7000           	moveq #0,%d0
+  182296:	6000 ef32      	braw 1811ca <biwn_native_deck_coordinate_body+0xfd0>
+  18229a:	d080           	addl %d0,%d0
+  18229c:	9180           	subxl %d0,%d0
+  18229e:	4480           	negl %d0
+  1822a0:	e748           	lslw #3,%d0
+  1822a2:	6000 ef42      	braw 1811e6 <biwn_native_deck_coordinate_body+0xfec>
+  1822a6:	7600           	moveq #0,%d3
+  1822a8:	6000 ef80      	braw 18122a <biwn_native_deck_coordinate_body+0x1030>
+  1822ac:	2202           	movel %d2,%d1
+  1822ae:	d281           	addl %d1,%d1
+  1822b0:	9381           	subxl %d1,%d1
+  1822b2:	4481           	negl %d1
+  1822b4:	e749           	lslw #3,%d1
+  1822b6:	6000 ef9e      	braw 181256 <biwn_native_deck_coordinate_body+0x105c>
+  1822ba:	7611           	moveq #17,%d3
+  1822bc:	6000 efa6      	braw 181264 <biwn_native_deck_coordinate_body+0x106a>
+  1822c0:	7000           	moveq #0,%d0
+  1822c2:	6000 eff0      	braw 1812b4 <biwn_native_deck_coordinate_body+0x10ba>
+  1822c6:	d080           	addl %d0,%d0
+  1822c8:	9180           	subxl %d0,%d0
+  1822ca:	4480           	negl %d0
+  1822cc:	e748           	lslw #3,%d0
+  1822ce:	6000 f000      	braw 1812d0 <biwn_native_deck_coordinate_body+0x10d6>
+  1822d2:	7800           	moveq #0,%d4
+  1822d4:	6000 f040      	braw 181316 <biwn_native_deck_coordinate_body+0x111c>
+  1822d8:	2003           	movel %d3,%d0
+  1822da:	d080           	addl %d0,%d0
+  1822dc:	9180           	subxl %d0,%d0
+  1822de:	4480           	negl %d0
+  1822e0:	e748           	lslw #3,%d0
+  1822e2:	6000 f05e      	braw 181342 <biwn_native_deck_coordinate_body+0x1148>
+  1822e6:	7811           	moveq #17,%d4
+  1822e8:	6000 f066      	braw 181350 <biwn_native_deck_coordinate_body+0x1156>
+  1822ec:	2d41 ffe6      	movel %d1,%fp@(-26)
+  1822f0:	6000 f090      	braw 181382 <biwn_native_deck_coordinate_body+0x1188>
+  1822f4:	2202           	movel %d2,%d1
+  1822f6:	d281           	addl %d1,%d1
+  1822f8:	9381           	subxl %d1,%d1
+  1822fa:	4481           	negl %d1
+  1822fc:	e749           	lslw #3,%d1
+  1822fe:	6000 f0c6      	braw 1813c6 <biwn_native_deck_coordinate_body+0x11cc>
+  182302:	2d41 ffe6      	movel %d1,%fp@(-26)
+  182306:	6000 f0da      	braw 1813e2 <biwn_native_deck_coordinate_body+0x11e8>
+  18230a:	d080           	addl %d0,%d0
+  18230c:	9180           	subxl %d0,%d0
+  18230e:	4480           	negl %d0
+  182310:	e748           	lslw #3,%d0
+  182312:	6000 f110      	braw 181424 <biwn_native_deck_coordinate_body+0x122a>
+  182316:	2d40 ffe6      	movel %d0,%fp@(-26)
+  18231a:	6000 f13e      	braw 18145a <biwn_native_deck_coordinate_body+0x1260>
+  18231e:	7200           	moveq #0,%d1
+  182320:	6000 f1d2      	braw 1814f4 <biwn_native_deck_coordinate_body+0x12fa>
+  182324:	2d49 ffe6      	movel %a1,%fp@(-26)
+  182328:	6000 f1ec      	braw 181516 <biwn_native_deck_coordinate_body+0x131c>
+  18232c:	2d49 ffe6      	movel %a1,%fp@(-26)
+  182330:	6000 f208      	braw 18153a <biwn_native_deck_coordinate_body+0x1340>
+  182334:	d281           	addl %d1,%d1
+  182336:	9381           	subxl %d1,%d1
+  182338:	4481           	negl %d1
+  18233a:	e749           	lslw #3,%d1
+  18233c:	6000 f212      	braw 181550 <biwn_native_deck_coordinate_body+0x1356>
+  182340:	2d41 ffe6      	movel %d1,%fp@(-26)
+  182344:	6000 f228      	braw 18156e <biwn_native_deck_coordinate_body+0x1374>
+  182348:	2202           	movel %d2,%d1
+  18234a:	d281           	addl %d1,%d1
+  18234c:	9381           	subxl %d1,%d1
+  18234e:	4481           	negl %d1
+  182350:	e749           	lslw #3,%d1
+  182352:	6000 f258      	braw 1815ac <biwn_native_deck_coordinate_body+0x13b2>
+  182356:	2d41 ffe6      	movel %d1,%fp@(-26)
+  18235a:	6000 f26c      	braw 1815c8 <biwn_native_deck_coordinate_body+0x13ce>
+  18235e:	d080           	addl %d0,%d0
+  182360:	9180           	subxl %d0,%d0
+  182362:	4480           	negl %d0
+  182364:	e748           	lslw #3,%d0
+  182366:	6000 f2a2      	braw 18160a <biwn_native_deck_coordinate_body+0x1410>
+  18236a:	2d40 ffe6      	movel %d0,%fp@(-26)
+  18236e:	6000 f2d0      	braw 181640 <biwn_native_deck_coordinate_body+0x1446>
+  182372:	7200           	moveq #0,%d1
+  182374:	6000 f360      	braw 1816d6 <biwn_native_deck_coordinate_body+0x14dc>
+  182378:	2d49 ffe6      	movel %a1,%fp@(-26)
+  18237c:	6000 f37a      	braw 1816f8 <biwn_native_deck_coordinate_body+0x14fe>
+  182380:	2d49 ffe6      	movel %a1,%fp@(-26)
+  182384:	6000 f396      	braw 18171c <biwn_native_deck_coordinate_body+0x1522>
+  182388:	2003           	movel %d3,%d0
+  18238a:	d080           	addl %d0,%d0
+  18238c:	9180           	subxl %d0,%d0
+  18238e:	4480           	negl %d0
+  182390:	e748           	lslw #3,%d0
+  182392:	6000 f3b8      	braw 18174c <biwn_native_deck_coordinate_body+0x1552>
+  182396:	7811           	moveq #17,%d4
+  182398:	6000 f3c0      	braw 18175a <biwn_native_deck_coordinate_body+0x1560>
+  18239c:	2d41 ffe6      	movel %d1,%fp@(-26)
+  1823a0:	6000 f3e0      	braw 181782 <biwn_native_deck_coordinate_body+0x1588>
+  1823a4:	2202           	movel %d2,%d1
+  1823a6:	d281           	addl %d1,%d1
+  1823a8:	9381           	subxl %d1,%d1
+  1823aa:	4481           	negl %d1
+  1823ac:	e749           	lslw #3,%d1
+  1823ae:	6000 f410      	braw 1817c0 <biwn_native_deck_coordinate_body+0x15c6>
+  1823b2:	2d41 ffe6      	movel %d1,%fp@(-26)
+  1823b6:	6000 f424      	braw 1817dc <biwn_native_deck_coordinate_body+0x15e2>
+  1823ba:	d080           	addl %d0,%d0
+  1823bc:	9180           	subxl %d0,%d0
+  1823be:	4480           	negl %d0
+  1823c0:	e748           	lslw #3,%d0
+  1823c2:	6000 f45a      	braw 18181e <biwn_native_deck_coordinate_body+0x1624>
+  1823c6:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1823ca:	6000 f488      	braw 181854 <biwn_native_deck_coordinate_body+0x165a>
+  1823ce:	7000           	moveq #0,%d0
+  1823d0:	6000 f51a      	braw 1818ec <biwn_native_deck_coordinate_body+0x16f2>
+  1823d4:	2d49 ffe6      	movel %a1,%fp@(-26)
+  1823d8:	6000 f534      	braw 18190e <biwn_native_deck_coordinate_body+0x1714>
+  1823dc:	2d49 ffe6      	movel %a1,%fp@(-26)
+  1823e0:	6000 f550      	braw 181932 <biwn_native_deck_coordinate_body+0x1738>
+  1823e4:	2202           	movel %d2,%d1
+  1823e6:	d281           	addl %d1,%d1
+  1823e8:	9381           	subxl %d1,%d1
+  1823ea:	4481           	negl %d1
+  1823ec:	e749           	lslw #3,%d1
+  1823ee:	6000 f572      	braw 181962 <biwn_native_deck_coordinate_body+0x1768>
+  1823f2:	7611           	moveq #17,%d3
+  1823f4:	6000 f57a      	braw 181970 <biwn_native_deck_coordinate_body+0x1776>
+  1823f8:	2d48 ffe6      	movel %a0,%fp@(-26)
+  1823fc:	6000 f590      	braw 18198e <biwn_native_deck_coordinate_body+0x1794>
+  182400:	760f           	moveq #15,%d3
+  182402:	e66a           	lsrw %d3,%d2
+  182404:	e74a           	lslw #3,%d2
+  182406:	6000 f5e2      	braw 1819ea <biwn_native_deck_coordinate_body+0x17f0>
+  18240a:	2a01           	movel %d1,%d5
+  18240c:	da85           	addl %d5,%d5
+  18240e:	9b85           	subxl %d5,%d5
+  182410:	4485           	negl %d5
+  182412:	e74d           	lslw #3,%d5
+  182414:	6000 f604      	braw 181a1a <biwn_native_deck_coordinate_body+0x1820>
+  182418:	4244           	clrw %d4
+  18241a:	6000 f60c      	braw 181a28 <biwn_native_deck_coordinate_body+0x182e>
+  18241e:	7800           	moveq #0,%d4
+  182420:	6000 f658      	braw 181a7a <biwn_native_deck_coordinate_body+0x1880>
+  182424:	d080           	addl %d0,%d0
+  182426:	9180           	subxl %d0,%d0
+  182428:	4480           	negl %d0
+  18242a:	3a00           	movew %d0,%d5
+  18242c:	e74d           	lslw #3,%d5
+  18242e:	6000 f676      	braw 181aa6 <biwn_native_deck_coordinate_body+0x18ac>
+  182432:	d080           	addl %d0,%d0
+  182434:	9180           	subxl %d0,%d0
+  182436:	4480           	negl %d0
+  182438:	e748           	lslw #3,%d0
+  18243a:	6000 f6d4      	braw 181b10 <biwn_native_deck_coordinate_body+0x1916>
+  18243e:	d080           	addl %d0,%d0
+  182440:	9180           	subxl %d0,%d0
+  182442:	4480           	negl %d0
+  182444:	e748           	lslw #3,%d0
+  182446:	6000 f71a      	braw 181b62 <biwn_native_deck_coordinate_body+0x1968>
+  18244a:	d080           	addl %d0,%d0
+  18244c:	9180           	subxl %d0,%d0
+  18244e:	4480           	negl %d0
+  182450:	e748           	lslw #3,%d0
+  182452:	6000 f75c      	braw 181bb0 <biwn_native_deck_coordinate_body+0x19b6>
+  182456:	7000           	moveq #0,%d0
+  182458:	6000 f792      	braw 181bec <biwn_native_deck_coordinate_body+0x19f2>
+  18245c:	7200           	moveq #0,%d1
+  18245e:	6000 f7de      	braw 181c3e <biwn_native_deck_coordinate_body+0x1a44>
+  182462:	7000           	moveq #0,%d0
+  182464:	6000 f878      	braw 181cde <biwn_native_deck_coordinate_body+0x1ae4>
+  182468:	7200           	moveq #0,%d1
+  18246a:	6000 f8c6      	braw 181d32 <biwn_native_deck_coordinate_body+0x1b38>
+  18246e:	7000           	moveq #0,%d0
+  182470:	6000 f960      	braw 181dd2 <biwn_native_deck_coordinate_body+0x1bd8>
+  182474:	7200           	moveq #0,%d1
+  182476:	6000 f9ae      	braw 181e26 <biwn_native_deck_coordinate_body+0x1c2c>
+  18247a:	7200           	moveq #0,%d1
+  18247c:	6000 fa4c      	braw 181eca <biwn_native_deck_coordinate_body+0x1cd0>
+  182480:	2d40 ffe6      	movel %d0,%fp@(-26)
+  182484:	6000 fa5c      	braw 181ee2 <biwn_native_deck_coordinate_body+0x1ce8>
+  182488:	7200           	moveq #0,%d1
+  18248a:	6000 fa90      	braw 181f1c <biwn_native_deck_coordinate_body+0x1d22>
+  18248e:	2d40 ffe6      	movel %d0,%fp@(-26)
+  182492:	6000 faa0      	braw 181f34 <biwn_native_deck_coordinate_body+0x1d3a>
+  182496:	7200           	moveq #0,%d1
+  182498:	6000 fad4      	braw 181f6e <biwn_native_deck_coordinate_body+0x1d74>
+  18249c:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824a0:	6000 fae4      	braw 181f86 <biwn_native_deck_coordinate_body+0x1d8c>
+  1824a4:	7200           	moveq #0,%d1
+  1824a6:	6000 fb18      	braw 181fc0 <biwn_native_deck_coordinate_body+0x1dc6>
+  1824aa:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824ae:	6000 fb28      	braw 181fd8 <biwn_native_deck_coordinate_body+0x1dde>
+  1824b2:	7200           	moveq #0,%d1
+  1824b4:	6000 fb5c      	braw 182012 <biwn_native_deck_coordinate_body+0x1e18>
+  1824b8:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824bc:	6000 fb6c      	braw 18202a <biwn_native_deck_coordinate_body+0x1e30>
+  1824c0:	7200           	moveq #0,%d1
+  1824c2:	6000 fba0      	braw 182064 <biwn_native_deck_coordinate_body+0x1e6a>
+  1824c6:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824ca:	6000 fbb0      	braw 18207c <biwn_native_deck_coordinate_body+0x1e82>
+  1824ce:	7200           	moveq #0,%d1
+  1824d0:	6000 fbe6      	braw 1820b8 <biwn_native_deck_coordinate_body+0x1ebe>
+  1824d4:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824d8:	6000 fbf6      	braw 1820d0 <biwn_native_deck_coordinate_body+0x1ed6>
+  1824dc:	7200           	moveq #0,%d1
+  1824de:	6000 fc2c      	braw 18210c <biwn_native_deck_coordinate_body+0x1f12>
+  1824e2:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824e6:	6000 fc3c      	braw 182124 <biwn_native_deck_coordinate_body+0x1f2a>
+  1824ea:	7200           	moveq #0,%d1
+  1824ec:	6000 fc72      	braw 182160 <biwn_native_deck_coordinate_body+0x1f66>
+  1824f0:	2d40 ffe6      	movel %d0,%fp@(-26)
+  1824f4:	6000 fc82      	braw 182178 <biwn_native_deck_coordinate_body+0x1f7e>
+  1824f8:	7200           	moveq #0,%d1
+  1824fa:	6000 fcb8      	braw 1821b4 <biwn_native_deck_coordinate_body+0x1fba>
+  1824fe:	2d40 ffe6      	movel %d0,%fp@(-26)
+  182502:	6000 fcc8      	braw 1821cc <biwn_native_deck_coordinate_body+0x1fd2>
+  182506:	2d40 ffe6      	movel %d0,%fp@(-26)
+  18250a:	6000 fd12      	braw 18221e <biwn_native_deck_coordinate_body+0x2024>
+
+0018250e <memcpy>:
+  18250e:	202f 0004      	movel %sp@(4),%d0
+  182512:	206f 0008      	moveal %sp@(8),%a0
+  182516:	7200           	moveq #0,%d1
+  182518:	b2af 000c      	cmpl %sp@(12),%d1
+  18251c:	6602           	bnes 182520 <memcpy+0x12>
+  18251e:	4e75           	rts
+  182520:	2240           	moveal %d0,%a1
+  182522:	13b0 1800 1800 	moveb %a0@(0,%d1:l),%a1@(0,%d1:l)
+  182528:	5281           	addql #1,%d1
+  18252a:	60ec           	bras 182518 <memcpy+0xa>

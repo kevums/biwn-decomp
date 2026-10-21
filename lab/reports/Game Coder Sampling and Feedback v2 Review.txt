@@ -1,0 +1,13 @@
+LOCAL CODER — SAMPLING SETTINGS FIX REPETITION, NOT CPU CORRECTNESS
+
+The separate settings diagnostic completed one Author and one Repair response with the installed Qwen3 Coder 30B A3B 4bit model. Both completed at EOS, with 336 and 270 tokens in 3.35 and 6.58 seconds respectively. Both compiled and then failed the original CPU comparison. No source or model was adopted; the daily 27B model was restored.
+
+Requested and backend-effective settings match the downloaded generation_config.json: temperature 0.7, topP 0.8, topK 20, repetition penalty 1.05. These two responses avoided the long repetitive incomplete output of the greedy trial. This is a small adaptive diagnostic with a different transport and several sampling changes; it does not isolate one cause or establish broad coding reliability.
+
+The first counterexample was supplied unchanged to Repair. The new source still overwrote caller-visible state incorrectly. No hand edits, altered acceptance gates, automatic integration or independent model review occurred. Exact requests, stream fragments, responses, effective settings and compiler/CPU receipts are retained.
+
+Four coder weight shards and cached tokenizer/config files match cached download ETags. This proves local checksum agreement, not model capability or backend numerical equivalence. The earlier zero-generation unsupported-reasoning API failure is retained; this nonreasoning coder now omits that option.
+
+Next: decompose source work using validated CPU/CCR primitives and focused feedback, retaining whole-routine machine acceptance. More blind optimizer updates or repeated greedy runs are unsupported by these results.
+
+Desktop: BIWN Coder Live.command shows exact prompts and responses. Model Prompts and Responses.command exports completed transcripts. Viewers start no inference. Native LM Studio Chat rendering remains unverified after two computer-use connection timeouts.

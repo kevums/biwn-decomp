@@ -1,0 +1,39 @@
+BIWN resource-acquire integration — 2026-10-18T11:15:29.943209+00:00
+
+Outcome: coordinator source/reference verified in controlled, actual allocator, and real load/wait/wake component profiles. A proposed relocated bundle links; its execution gates are NOT RUN. Full goal remains active; no new disc publication.
+
+WHAT CHANGED / WHO DID IT
+Codex coordinator wrote the native interface, reference C, tests and staged build. The first connected test exposed differences missed by isolated fixtures: a scheduler-returned stack pointer and register values inherited by a freshly started task. Target68000 assembly now parks compiler state512bytes below the original public save area, calls dependencies at original stack positions, and seeds full semantic D/A/CCR. C now commits the original helper-visible register values, including partial WORD writes. Host code does not repair continuations or returned state. The same source/binary passed all profiles below.
+
+TESTED RESULTS
+-3072nativefullCPU/publicRAM +3072orderedaccess cases;71/71original acquire instructions covered.
+-384nativefullCPU/publicRAM +384orderedaccess cases with original/source-built real allocator.
+-16two-client cases with original native allocator/loader/CD/copy/wait/signal/kernel: first client loads/yields, second waits, source sets ready/signals, first removes, second resumes;32acquire returns.
+-16more cases with source-built native26allocator/copy/scheduler plus the original loader/CD/wait/signal code; allocator/copy/selection C bodies execute1/1/3times per case.32acquire returns.
+-Each connected profile independently checks1538816payload bytes across its cases against the preserved normalized disc data. Both clients return the same live handle; reference count2, ready0→1 and wait-mask1→0 are checked.
+-Returned fullCPU/publicRAM including task records and original24savebytes match. Compiled private client stack is excluded; max observed depth636bytes,350bytes above the supplied38byte task header in a1KBallocation. Target helper stacks are asserted not to collide with the512byte compiler-state gap.
+-Native26scheduler C scratch differs as expected below the original6byte exception frame. Only its observed private supervisor-stack footprint is excluded; exception frame and returnedSSP are checked. This is the existing scheduler ABI scope.
+-Five deliberate defects are rejected: missing reference reread, lost X/carry, wrong allocator address, and missing semantic D4/D5. D4/D5 mutants pass the limited isolated24casepreflight but fail the connected scheduler test, demonstrating why that integration gate is needed.
+
+BUILD STAGING
+The new combined C/assembly bundle links at7246bytes, requiring8192reservedbytes (946padding),2048more heap reservation than native26. Its heap floor is160DC0. This links all previous components plus acquire, but relocated execution gates have NOT RUN. Existing published native entry contracts remain26. No completion percentage is inferred from that count.
+
+LOCAL INFERENCE TEST / EXACT PROMPTS
+No additional local C was accepted; the previous3drafts remain rejected.
+A local Game Assistant Reader answered from a small verified packet in8.46seconds, but incorrectly called unrun relocated tests failed. The coordinator packet used an ambiguous false boolean. That answer is rejected. With an explicit not_run status and status-distinction instruction, a fresh7.44second answer is source-consistent in 121words. It remains one known-packet evidence-reading test, not general coding/research readiness. Raw responses are unchanged; no new training/default change. Same daily27B6bitbase,32Kcontext,oneworker; nativeLMStudioChat display is not verified.
+Initial prompt/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-acquire-reader-20261018T111159.627323Z/prompts-and-responses.txt
+Revised prompt/response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-acquire-reader-20261018T111315.309099Z/prompts-and-responses.txt
+Reader review: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-native-acquire-reader-20261018T111315.309099Z/coordinator-review.json
+
+EVIDENCE
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-integrated-component-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-resource-acquire/20261018T110605.469640Z/protocol.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-allocator/20261018T110605.471312Z/protocol.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-readiness/20261018T111238.832537Z/protocol.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-readiness-native26/20261018T110948.165553Z/protocol.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-acquire-bundle-preflight-current.json
+
+REMAINING REQUIRED WORK
+Run every affected component, acquire/realdependencies, heap/initializer/lifecycle, entry/staging/boot/coldgame route, fixed-input/IRQ/timing gate against the new relocated binary before publishing a disc. Existing native26fixed-input/timing limits remain. Tests use supplied two-client rings, captures, BIOS file-transfer/stop adapters and explicit completion events, so they do not establish physical drive/console/full-game equivalence. Advertising quality/training, nativeChat discovery/display, full engine/source-disc completion and future256GBhardware requirements remain active.
+
+2026-10-18T11:47:28.714379+00:00 — Native27newdisc boots/adaptive routepasses; fixed-input differs, notdefaultpromoted. Original-acquire same-layout control matches native27selectedgame/video; compact5930bytes fits6144reserve,480compiler-support cases only; fullcompactgates not_run. /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-acquire-prototype.txt

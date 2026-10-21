@@ -1,0 +1,9 @@
+{
+  "parent": "deck-shared-v33-geometry-records-v1",
+  "model_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-geometry-records-prologue-repair-v2/20261021T055453.475528Z/Repair_Corrected/response.txt",
+  "model_block_statement_edits": 0,
+  "normalization": "Outer complete Markdown fence and function wrapper removed;interior bytes inserted verbatim into a nested lexical scope.",
+  "scope": "Model22instruction prologue;coordinator remainder and supplied primitives. No weight training or heldout-quality claim.",
+  "accepted_composite_sha256": "19f6e2fb1c9366787996f9540ab38eaecdfc4674b029c923726c313c5f0ba345",
+  "new_unique_original_functions": 0
+}

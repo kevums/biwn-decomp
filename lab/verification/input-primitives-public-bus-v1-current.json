@@ -1,0 +1,9 @@
+{
+  "status": "terminal_public_input_bus_order_failed",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-primitives-public-bus-v1/20261020T223637.907683Z",
+  "pid": 62863,
+  "completed": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "error": "AssertionError(('public bus order', 0, 11, 7))"
+}

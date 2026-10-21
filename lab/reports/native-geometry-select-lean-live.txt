@@ -1,0 +1,26 @@
+BIWN — NATIVE INDEXED SELECTOR GAMEPLAY COMPARISON
+2026-10-19T05:05:35.095372+00:00
+
+The 17,382-byte native selector disc completed 24,978 frames; the same-layout control restoring only the eight-byte original1039Centry completed 24,978. Both returned outdoors through the merchant/media route with live ABI/object-write/task-stack checks passing. The candidate executed the compiled selector 13 times: 13 success paths and 0 failure paths. The control executed 13 original calls. Unreached return paths remain component-test coverage.
+
+Candidate private selector depth was 64 bytes; minimum observed headroom was 798 bytes. Reported selector/register/SR/bank/object-write errors, pending calls and stack-outside observations are zero. The live oracle samples entry RAM and assumes stability during each call; changing-read behavior was separately tested by component fixtures.
+
+Per-field differences over aligned recorded frames:
+{
+  "CPU_full": 22612,
+  "full_RAM_sha256": 24970,
+  "full_GPU_state_sha256": 24424,
+  "full_DSP_state_sha256": 9141,
+  "video_sha256": 12250,
+  "navigation": 9245,
+  "locomotion_state": 170,
+  "held_buttons": 228
+}
+Full PCM streams equal: False. Frame-count equality: True. Per-frame differences are measured, not waived; no claim of whole-state or cycle equivalence is made. RAM observations are hashes, not classification of all changed addresses.
+
+The corrected observer applies the24bit guest bus mask before guarded RAM reads, retaining all full-register/pointer checks. Tagged-pointer component coverage passed1280stable+512changing cases on the selected298byte source/binary. The original failed monitor receipts remain rejected. Both gameplay runs retain emulator CPU/GPU/DSP/IRQ and platform services. C-processor results for preceding cache/boundary discs do not apply to this new selector disc. The accepted selector C, ABI, verification and integration are coordinator work after two rejected local Author drafts and unreliable same-weight reviews. No new weights, independent model review, whole-game source rebuild, physical-console readiness or default preview promotion is established.
+
+Exact local prompts/raw outputs:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-select-prompts-and-responses.txt
+Component/final-address evidence:
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-geometry-select-lean.txt

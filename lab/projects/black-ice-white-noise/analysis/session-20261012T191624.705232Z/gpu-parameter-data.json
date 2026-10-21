@@ -1,0 +1,28 @@
+{
+  "time": "2026-10-12T19:32:27.184442+00:00",
+  "source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/boot-payload-68000-candidate.bin",
+  "sha256": "235b342638e4face19e82b68d1fdd6592e58dbf689792ee41d572db465cfc8a4",
+  "basis": "Initial GPU setup writes 0x180580 as first parameter; inspect64 bytes at payload offset0x580. Data interpretation unverified.",
+  "offset": 1408,
+  "address": 1574272,
+  "length": 64,
+  "hex": "00000002000050160000960000000014000026e1a0f00000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+  "be32_words": [
+    "0x00000002",
+    "0x00005016",
+    "0x00009600",
+    "0x00000014",
+    "0x000026e1",
+    "0xa0f00000",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff",
+    "0xffffffff"
+  ]
+}

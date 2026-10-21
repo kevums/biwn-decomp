@@ -1,0 +1,21 @@
+{
+  "status": "terminal_deeper_coordinate_geometry_alias_fallback_match",
+  "pid": 11066,
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-geometry-alias-v1/20261021T025046.665423Z",
+  "whole_game_complete": false,
+  "new_training": false,
+  "native_disc_changed": false,
+  "completed": 128,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_scene17_direct_dispatch_geometry_alias_v1.py": "4ec3f02d32440a9af697b2bfc01f8368f04c1996498386c92c401af72eb1d984",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_helpers_v1.py": "1caacf5db7c60eb1a931b941acec47c478cdeb1db2ec64e07800c72d16e3d325",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_debug_overlay_cpu_v1.py": "122792a5afb41cbc1f4d1b7977741e54b2dbd01e795fdbdd4844d41b6cb14b9e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/fixture_ram_delta_v1.py": "b0609d9f1644afd5b8a320c7126a16ee1bf31019618f3f52a977ea4584d94920",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-geometry-alias-v1/20261021T025046.665423Z/build-as-run.json": "44f978cb9b061331e8144b811838514c5e82251c027554cc0c31e71c959aaaff",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-geometry-alias-v1/20261021T025046.665423Z/gate-as-run.json": "afdee8a3697bcea3d0ae7b317d59aa2ec34530124453613634e3bd9edd28fc0c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-scene17-direct-dispatch-final-geometry-v1/20261021T024305.751259Z/build/native-shared.bin": "b59d05ec51166a93f6f3bb29ab935e100836927439cad7dc9c75a7ea6d6a3a04",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-scene17-direct-dispatch-geometry-alias-v1/20261021T025046.665423Z/cases.json": "29d3f3deb3316245b4b54c6ebd3dc3ab7caea30df042480c0118ff3a7fd771d7"
+  },
+  "scope": "Coordinate/geometry alias fallback with six real original/native helpers.\n\nOne injected helper JSR per direction. GPU/formatter/text effects remain\nfixtures. Compare CPU/nonarenaRAM/entries and exact suspended frame bytes.\n64eachdirection covers bothbanks/allCCR,4taskslots,3guestSPdepths. Nativegeometry executes6compiledhelpers;busy innergeometry executes6original bodies. Face-count zero path only in this alias matrix;nonzero counts are covered by separate256native geometry cases. Injected1B45AorE26C JSR is an explicit fixture;remaining effects declared. No natural reentry/IRQ/fresh gameplay proof."
+}

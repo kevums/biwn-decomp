@@ -1,0 +1,6386 @@
+{
+  "status": "source_workmap_unverified_no_new_C_acceptance",
+  "stage_sha256": "52dc987c755b711390dc46353e552b8038a97f9993bbab08947a85d8b033b453",
+  "groups": {
+    "overlay": {
+      "ranges": [
+        [
+          "0x181f8",
+          "0x18554"
+        ]
+      ],
+      "candidate_instructions": 184,
+      "rows": [
+        {
+          "address": 98808,
+          "size": 4,
+          "bytes": "4e56ffcc",
+          "assembly": "link.w a6, #$ffcc",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98812,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98814,
+          "size": 6,
+          "bytes": "4a790004451c",
+          "assembly": "tst.w $4451c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98820,
+          "size": 2,
+          "bytes": "6772",
+          "assembly": "beq.b $18278",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98822,
+          "size": 6,
+          "bytes": "207c00f02268",
+          "assembly": "movea.l #$f02268, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98828,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 98830,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98832,
+          "size": 6,
+          "bytes": "207c00f0226c",
+          "assembly": "movea.l #$f0226c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98838,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98840,
+          "size": 6,
+          "bytes": "207c00f02200",
+          "assembly": "movea.l #$f02200, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98846,
+          "size": 6,
+          "bytes": "20bc000b29d0",
+          "assembly": "move.l #$b29d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98852,
+          "size": 6,
+          "bytes": "207c00f02204",
+          "assembly": "movea.l #$f02204, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98858,
+          "size": 6,
+          "bytes": "20bc00014600",
+          "assembly": "move.l #$14600, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98864,
+          "size": 6,
+          "bytes": "207c00f0220c",
+          "assembly": "movea.l #$f0220c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98870,
+          "size": 6,
+          "bytes": "323900044518",
+          "assembly": "move.w $44518.l, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98876,
+          "size": 2,
+          "bytes": "5141",
+          "assembly": "subq.w #$8, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98878,
+          "size": 2,
+          "bytes": "4841",
+          "assembly": "swap d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98880,
+          "size": 2,
+          "bytes": "4241",
+          "assembly": "clr.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98882,
+          "size": 6,
+          "bytes": "30390004451a",
+          "assembly": "move.w $4451a.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98888,
+          "size": 4,
+          "bytes": "0640fff0",
+          "assembly": "addi.w #$fff0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98892,
+          "size": 2,
+          "bytes": "48c0",
+          "assembly": "ext.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98894,
+          "size": 2,
+          "bytes": "d080",
+          "assembly": "add.l d0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98896,
+          "size": 2,
+          "bytes": "d280",
+          "assembly": "add.l d0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98898,
+          "size": 2,
+          "bytes": "2081",
+          "assembly": "move.l d1, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98900,
+          "size": 6,
+          "bytes": "207c00f02210",
+          "assembly": "movea.l #$f02210, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98906,
+          "size": 6,
+          "bytes": "20bc00000180",
+          "assembly": "move.l #$180, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98912,
+          "size": 6,
+          "bytes": "207c00f0223c",
+          "assembly": "movea.l #$f0223c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98918,
+          "size": 6,
+          "bytes": "20bc000f0040",
+          "assembly": "move.l #$f0040, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98924,
+          "size": 6,
+          "bytes": "207c00f02238",
+          "assembly": "movea.l #$f02238, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98930,
+          "size": 6,
+          "bytes": "20bc10010208",
+          "assembly": "move.l #$10010208, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98936,
+          "size": 10,
+          "bytes": "33f900049d6a00044518",
+          "assembly": "move.w $49d6a.l, $44518.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98946,
+          "size": 10,
+          "bytes": "33f900049d680004451a",
+          "assembly": "move.w $49d68.l, $4451a.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98956,
+          "size": 10,
+          "bytes": "33f900049d5c0004451c",
+          "assembly": "move.w $49d5c.l, $4451c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98966,
+          "size": 4,
+          "bytes": "6700009a",
+          "assembly": "beq.w $18332",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98970,
+          "size": 6,
+          "bytes": "207c00f02200",
+          "assembly": "movea.l #$f02200, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98976,
+          "size": 6,
+          "bytes": "20bc000b29d0",
+          "assembly": "move.l #$b29d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98982,
+          "size": 6,
+          "bytes": "207c00f02204",
+          "assembly": "movea.l #$f02204, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98988,
+          "size": 6,
+          "bytes": "20bc00014600",
+          "assembly": "move.l #$14600, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 98994,
+          "size": 6,
+          "bytes": "207c00f0220c",
+          "assembly": "movea.l #$f0220c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99000,
+          "size": 6,
+          "bytes": "323900049d6a",
+          "assembly": "move.w $49d6a.l, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99006,
+          "size": 2,
+          "bytes": "5141",
+          "assembly": "subq.w #$8, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99008,
+          "size": 2,
+          "bytes": "4841",
+          "assembly": "swap d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99010,
+          "size": 2,
+          "bytes": "4241",
+          "assembly": "clr.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99012,
+          "size": 6,
+          "bytes": "303900049d68",
+          "assembly": "move.w $49d68.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99018,
+          "size": 4,
+          "bytes": "0640fff0",
+          "assembly": "addi.w #$fff0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99022,
+          "size": 2,
+          "bytes": "48c0",
+          "assembly": "ext.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99024,
+          "size": 2,
+          "bytes": "d080",
+          "assembly": "add.l d0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99026,
+          "size": 2,
+          "bytes": "d280",
+          "assembly": "add.l d0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99028,
+          "size": 2,
+          "bytes": "2081",
+          "assembly": "move.l d1, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99030,
+          "size": 6,
+          "bytes": "207c00f02210",
+          "assembly": "movea.l #$f02210, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99036,
+          "size": 6,
+          "bytes": "20bc0001ffc0",
+          "assembly": "move.l #$1ffc0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99042,
+          "size": 6,
+          "bytes": "4a7900049d5e",
+          "assembly": "tst.w $49d5e.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99048,
+          "size": 2,
+          "bytes": "670e",
+          "assembly": "beq.b $182f8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99050,
+          "size": 6,
+          "bytes": "207c00f02224",
+          "assembly": "movea.l #$f02224, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99056,
+          "size": 6,
+          "bytes": "20bc000444a0",
+          "assembly": "move.l #$444a0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99062,
+          "size": 2,
+          "bytes": "600c",
+          "assembly": "bra.b $18304",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99064,
+          "size": 6,
+          "bytes": "207c00f02224",
+          "assembly": "movea.l #$f02224, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99070,
+          "size": 6,
+          "bytes": "20bc00044428",
+          "assembly": "move.l #$44428, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99076,
+          "size": 6,
+          "bytes": "207c00f02228",
+          "assembly": "movea.l #$f02228, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99082,
+          "size": 6,
+          "bytes": "20bc00013000",
+          "assembly": "move.l #$13000, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99088,
+          "size": 6,
+          "bytes": "207c00f02230",
+          "assembly": "movea.l #$f02230, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99094,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 99096,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99098,
+          "size": 6,
+          "bytes": "207c00f0223c",
+          "assembly": "movea.l #$f0223c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99104,
+          "size": 6,
+          "bytes": "20bc000f0040",
+          "assembly": "move.l #$f0040, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99110,
+          "size": 6,
+          "bytes": "207c00f02238",
+          "assembly": "movea.l #$f02238, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99116,
+          "size": 6,
+          "bytes": "20bc11800209",
+          "assembly": "move.l #$11800209, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99122,
+          "size": 6,
+          "bytes": "4a7900113060",
+          "assembly": "tst.w $113060.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99128,
+          "size": 2,
+          "bytes": "6670",
+          "assembly": "bne.b $183aa",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99130,
+          "size": 6,
+          "bytes": "207c00f02200",
+          "assembly": "movea.l #$f02200, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99136,
+          "size": 6,
+          "bytes": "20bc000b29d0",
+          "assembly": "move.l #$b29d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99142,
+          "size": 6,
+          "bytes": "207c00f02204",
+          "assembly": "movea.l #$f02204, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99148,
+          "size": 6,
+          "bytes": "20bc00012620",
+          "assembly": "move.l #$12620, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99154,
+          "size": 6,
+          "bytes": "207c00f0220c",
+          "assembly": "movea.l #$f0220c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99160,
+          "size": 6,
+          "bytes": "20bc00040010",
+          "assembly": "move.l #$40010, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99166,
+          "size": 6,
+          "bytes": "207c00f02210",
+          "assembly": "movea.l #$f02210, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99172,
+          "size": 2,
+          "bytes": "7412",
+          "assembly": "moveq #$12, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 18,
+              "unsigned_value": 18
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 99174,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99176,
+          "size": 6,
+          "bytes": "207c00f02224",
+          "assembly": "movea.l #$f02224, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99182,
+          "size": 6,
+          "bytes": "20bc00044000",
+          "assembly": "move.l #$44000, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99188,
+          "size": 6,
+          "bytes": "207c00f02228",
+          "assembly": "movea.l #$f02228, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99194,
+          "size": 6,
+          "bytes": "20bc00011a20",
+          "assembly": "move.l #$11a20, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99200,
+          "size": 6,
+          "bytes": "207c00f02230",
+          "assembly": "movea.l #$f02230, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99206,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 99208,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99210,
+          "size": 6,
+          "bytes": "207c00f0223c",
+          "assembly": "movea.l #$f0223c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99216,
+          "size": 6,
+          "bytes": "20bc0012000a",
+          "assembly": "move.l #$12000a, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99222,
+          "size": 6,
+          "bytes": "207c00f02238",
+          "assembly": "movea.l #$f02238, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99228,
+          "size": 6,
+          "bytes": "20bc01800201",
+          "assembly": "move.l #$1800201, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99234,
+          "size": 8,
+          "bytes": "33fc000100113060",
+          "assembly": "move.w #$1, $113060.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99242,
+          "size": 6,
+          "bytes": "207c00f02200",
+          "assembly": "movea.l #$f02200, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99248,
+          "size": 6,
+          "bytes": "20bc000b29d0",
+          "assembly": "move.l #$b29d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99254,
+          "size": 6,
+          "bytes": "207c00f02204",
+          "assembly": "movea.l #$f02204, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99260,
+          "size": 6,
+          "bytes": "20bc00014600",
+          "assembly": "move.l #$14600, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99266,
+          "size": 6,
+          "bytes": "207c00f0220c",
+          "assembly": "movea.l #$f0220c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99272,
+          "size": 6,
+          "bytes": "20bc00090102",
+          "assembly": "move.l #$90102, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99278,
+          "size": 6,
+          "bytes": "207c00f02210",
+          "assembly": "movea.l #$f02210, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99284,
+          "size": 6,
+          "bytes": "20bc00000124",
+          "assembly": "move.l #$124, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99290,
+          "size": 6,
+          "bytes": "207c00f02224",
+          "assembly": "movea.l #$f02224, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99296,
+          "size": 6,
+          "bytes": "20bc00044168",
+          "assembly": "move.l #$44168, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99302,
+          "size": 6,
+          "bytes": "207c00f02228",
+          "assembly": "movea.l #$f02228, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99308,
+          "size": 6,
+          "bytes": "20bc00014800",
+          "assembly": "move.l #$14800, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99314,
+          "size": 6,
+          "bytes": "207c00f02230",
+          "assembly": "movea.l #$f02230, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99320,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99322,
+          "size": 6,
+          "bytes": "103900049cba",
+          "assembly": "move.b $49cba.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99328,
+          "size": 2,
+          "bytes": "74b0",
+          "assembly": "moveq #$b0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": -80,
+              "unsigned_value": 4294967216
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 1,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 99330,
+          "size": 2,
+          "bytes": "9440",
+          "assembly": "sub.w d0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99332,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99334,
+          "size": 6,
+          "bytes": "0280000000fe",
+          "assembly": "andi.l #$fe, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99340,
+          "size": 2,
+          "bytes": "2080",
+          "assembly": "move.l d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99342,
+          "size": 6,
+          "bytes": "207c00f02234",
+          "assembly": "movea.l #$f02234, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99348,
+          "size": 6,
+          "bytes": "20bc00000164",
+          "assembly": "move.l #$164, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99354,
+          "size": 6,
+          "bytes": "207c00f0223c",
+          "assembly": "movea.l #$f0223c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99360,
+          "size": 6,
+          "bytes": "20bc000b009c",
+          "assembly": "move.l #$b009c, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99366,
+          "size": 6,
+          "bytes": "207c00f02238",
+          "assembly": "movea.l #$f02238, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99372,
+          "size": 6,
+          "bytes": "20bc01800609",
+          "assembly": "move.l #$1800609, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99378,
+          "size": 6,
+          "bytes": "203900049c50",
+          "assembly": "move.l $49c50.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99384,
+          "size": 2,
+          "bytes": "ec80",
+          "assembly": "asr.l #$6, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99386,
+          "size": 6,
+          "bytes": "b0790004451e",
+          "assembly": "cmp.w $4451e.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99392,
+          "size": 2,
+          "bytes": "6620",
+          "assembly": "bne.b $18462",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99394,
+          "size": 6,
+          "bytes": "203900049c56",
+          "assembly": "move.l $49c56.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99400,
+          "size": 2,
+          "bytes": "ec80",
+          "assembly": "asr.l #$6, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99402,
+          "size": 6,
+          "bytes": "b07900044520",
+          "assembly": "cmp.w $44520.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99408,
+          "size": 2,
+          "bytes": "6610",
+          "assembly": "bne.b $18462",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99410,
+          "size": 6,
+          "bytes": "343900049c62",
+          "assembly": "move.w $49c62.l, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99416,
+          "size": 6,
+          "bytes": "b47900044522",
+          "assembly": "cmp.w $44522.l, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99422,
+          "size": 4,
+          "bytes": "670000ec",
+          "assembly": "beq.w $1854c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99426,
+          "size": 6,
+          "bytes": "203900049c50",
+          "assembly": "move.l $49c50.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99432,
+          "size": 2,
+          "bytes": "2200",
+          "assembly": "move.l d0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99434,
+          "size": 2,
+          "bytes": "ec81",
+          "assembly": "asr.l #$6, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99436,
+          "size": 6,
+          "bytes": "33c10004451e",
+          "assembly": "move.w d1, $4451e.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99442,
+          "size": 6,
+          "bytes": "203900049c56",
+          "assembly": "move.l $49c56.l, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99448,
+          "size": 2,
+          "bytes": "ec80",
+          "assembly": "asr.l #$6, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99450,
+          "size": 6,
+          "bytes": "33c000044520",
+          "assembly": "move.w d0, $44520.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99456,
+          "size": 6,
+          "bytes": "41f900049c62",
+          "assembly": "lea.l $49c62.l, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99462,
+          "size": 6,
+          "bytes": "33d000044522",
+          "assembly": "move.w (a0), $44522.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99468,
+          "size": 2,
+          "bytes": "6c16",
+          "assembly": "bge.b $184a4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99470,
+          "size": 6,
+          "bytes": "343900044522",
+          "assembly": "move.w $44522.l, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99476,
+          "size": 2,
+          "bytes": "4442",
+          "assembly": "neg.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99478,
+          "size": 2,
+          "bytes": "3f02",
+          "assembly": "move.w d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99480,
+          "size": 2,
+          "bytes": "3f00",
+          "assembly": "move.w d0, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99482,
+          "size": 2,
+          "bytes": "3f01",
+          "assembly": "move.w d1, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99484,
+          "size": 6,
+          "bytes": "4879000181da",
+          "assembly": "pea.l $181da.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99490,
+          "size": 2,
+          "bytes": "6014",
+          "assembly": "bra.b $184b8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99492,
+          "size": 6,
+          "bytes": "343900044522",
+          "assembly": "move.w $44522.l, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99498,
+          "size": 2,
+          "bytes": "5242",
+          "assembly": "addq.w #$1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99500,
+          "size": 2,
+          "bytes": "3f02",
+          "assembly": "move.w d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99502,
+          "size": 2,
+          "bytes": "3f00",
+          "assembly": "move.w d0, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99504,
+          "size": 2,
+          "bytes": "3f01",
+          "assembly": "move.w d1, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99506,
+          "size": 6,
+          "bytes": "4879000181e9",
+          "assembly": "pea.l $181e9.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99512,
+          "size": 4,
+          "bytes": "486effce",
+          "assembly": "pea.l -$32(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99516,
+          "size": 6,
+          "bytes": "4eb90001b45a",
+          "assembly": "jsr $1b45a.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99522,
+          "size": 4,
+          "bytes": "defc000e",
+          "assembly": "adda.w #$e, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99526,
+          "size": 6,
+          "bytes": "207c00f02268",
+          "assembly": "movea.l #$f02268, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99532,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 99534,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99536,
+          "size": 6,
+          "bytes": "207c00f0226c",
+          "assembly": "movea.l #$f0226c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99542,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99544,
+          "size": 6,
+          "bytes": "207c00f02200",
+          "assembly": "movea.l #$f02200, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99550,
+          "size": 6,
+          "bytes": "20bc000b29d0",
+          "assembly": "move.l #$b29d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99556,
+          "size": 6,
+          "bytes": "207c00f02204",
+          "assembly": "movea.l #$f02204, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99562,
+          "size": 6,
+          "bytes": "20bc00002620",
+          "assembly": "move.l #$2620, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99568,
+          "size": 6,
+          "bytes": "207c00f02210",
+          "assembly": "movea.l #$f02210, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99574,
+          "size": 2,
+          "bytes": "7413",
+          "assembly": "moveq #$13, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 19,
+              "unsigned_value": 19
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 99576,
+          "size": 2,
+          "bytes": "2082",
+          "assembly": "move.l d2, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99578,
+          "size": 6,
+          "bytes": "207c00f0220c",
+          "assembly": "movea.l #$f0220c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99584,
+          "size": 6,
+          "bytes": "20bc00040002",
+          "assembly": "move.l #$40002, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99590,
+          "size": 6,
+          "bytes": "207c00f0223c",
+          "assembly": "movea.l #$f0223c, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99596,
+          "size": 6,
+          "bytes": "20bc00070009",
+          "assembly": "move.l #$70009, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99602,
+          "size": 6,
+          "bytes": "207c00f02238",
+          "assembly": "movea.l #$f02238, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99608,
+          "size": 6,
+          "bytes": "20bc00010200",
+          "assembly": "move.l #$10200, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99614,
+          "size": 4,
+          "bytes": "3f3c0002",
+          "assembly": "move.w #$2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99618,
+          "size": 4,
+          "bytes": "3f3c0003",
+          "assembly": "move.w #$3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99622,
+          "size": 6,
+          "bytes": "48790004c3e0",
+          "assembly": "pea.l $4c3e0.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99628,
+          "size": 4,
+          "bytes": "48783e08",
+          "assembly": "pea.l $3e08.w",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99632,
+          "size": 6,
+          "bytes": "4879000b29d0",
+          "assembly": "pea.l $b29d0.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99638,
+          "size": 4,
+          "bytes": "486effce",
+          "assembly": "pea.l -$32(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99642,
+          "size": 4,
+          "bytes": "3f3c0002",
+          "assembly": "move.w #$2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99646,
+          "size": 4,
+          "bytes": "3f3c0016",
+          "assembly": "move.w #$16, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99650,
+          "size": 6,
+          "bytes": "4eb9000149ae",
+          "assembly": "jsr $149ae.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99656,
+          "size": 4,
+          "bytes": "defc0018",
+          "assembly": "adda.w #$18, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99660,
+          "size": 4,
+          "bytes": "242effc8",
+          "assembly": "move.l -$38(a6), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99664,
+          "size": 2,
+          "bytes": "4e5e",
+          "assembly": "unlk a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99666,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ],
+      "unsupported_generator_forms": {},
+      "calls": [
+        {
+          "address": 99516,
+          "size": 6,
+          "bytes": "4eb90001b45a",
+          "assembly": "jsr $1b45a.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 99650,
+          "size": 6,
+          "bytes": "4eb9000149ae",
+          "assembly": "jsr $149ae.l",
+          "classification": "decoded_instruction"
+        }
+      ]
+    },
+    "formatter_candidate": {
+      "ranges": [
+        [
+          "0x1b160",
+          "0x1b1a0"
+        ],
+        [
+          "0x1b1a8",
+          "0x1b200"
+        ],
+        [
+          "0x1b212",
+          "0x1b478"
+        ]
+      ],
+      "candidate_instructions": 280,
+      "rows": [
+        {
+          "address": 110944,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110946,
+          "size": 4,
+          "bytes": "206f0008",
+          "assembly": "movea.l $8(a7), a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110950,
+          "size": 4,
+          "bytes": "226f000e",
+          "assembly": "movea.l $e(a7), a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110954,
+          "size": 4,
+          "bytes": "322f0012",
+          "assembly": "move.w $12(a7), d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110958,
+          "size": 2,
+          "bytes": "7401",
+          "assembly": "moveq #$1, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 1,
+              "unsigned_value": 1
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 110960,
+          "size": 2,
+          "bytes": "4a51",
+          "assembly": "tst.w (a1)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110962,
+          "size": 2,
+          "bytes": "6e04",
+          "assembly": "bgt.b $1b178",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110964,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110966,
+          "size": 2,
+          "bytes": "6024",
+          "assembly": "bra.b $1b19c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110968,
+          "size": 4,
+          "bytes": "10ef000d",
+          "assembly": "move.b $d(a7), (a0)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110972,
+          "size": 2,
+          "bytes": "3011",
+          "assembly": "move.w (a1), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110974,
+          "size": 2,
+          "bytes": "5340",
+          "assembly": "subq.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110976,
+          "size": 2,
+          "bytes": "3280",
+          "assembly": "move.w d0, (a1)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110978,
+          "size": 2,
+          "bytes": "6f16",
+          "assembly": "ble.b $1b19a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110980,
+          "size": 2,
+          "bytes": "5341",
+          "assembly": "subq.w #$1, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110982,
+          "size": 2,
+          "bytes": "4a41",
+          "assembly": "tst.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110984,
+          "size": 2,
+          "bytes": "6f10",
+          "assembly": "ble.b $1b19a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110986,
+          "size": 4,
+          "bytes": "10fc0020",
+          "assembly": "move.b #$20, (a0)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110990,
+          "size": 2,
+          "bytes": "3011",
+          "assembly": "move.w (a1), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110992,
+          "size": 2,
+          "bytes": "5340",
+          "assembly": "subq.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110994,
+          "size": 2,
+          "bytes": "3280",
+          "assembly": "move.w d0, (a1)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110996,
+          "size": 2,
+          "bytes": "5242",
+          "assembly": "addq.w #$1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 110998,
+          "size": 2,
+          "bytes": "4a40",
+          "assembly": "tst.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111000,
+          "size": 2,
+          "bytes": "6eea",
+          "assembly": "bgt.b $1b184",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111002,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111004,
+          "size": 2,
+          "bytes": "241f",
+          "assembly": "move.l (a7)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111006,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111016,
+          "size": 2,
+          "bytes": "2f0a",
+          "assembly": "move.l a2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111018,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111020,
+          "size": 4,
+          "bytes": "226f000c",
+          "assembly": "movea.l $c(a7), a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111024,
+          "size": 4,
+          "bytes": "206f0010",
+          "assembly": "movea.l $10(a7), a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111028,
+          "size": 4,
+          "bytes": "246f0014",
+          "assembly": "movea.l $14(a7), a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111032,
+          "size": 4,
+          "bytes": "322f0018",
+          "assembly": "move.w $18(a7), d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111036,
+          "size": 2,
+          "bytes": "4242",
+          "assembly": "clr.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111038,
+          "size": 4,
+          "bytes": "b0fc0000",
+          "assembly": "cmpa.w #$0, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111042,
+          "size": 2,
+          "bytes": "6606",
+          "assembly": "bne.b $1b1ca",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111044,
+          "size": 6,
+          "bytes": "41f90001b1a0",
+          "assembly": "lea.l $1b1a0.l, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111050,
+          "size": 2,
+          "bytes": "4a52",
+          "assembly": "tst.w (a2)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111052,
+          "size": 2,
+          "bytes": "6f22",
+          "assembly": "ble.b $1b1f0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111054,
+          "size": 2,
+          "bytes": "4a10",
+          "assembly": "tst.b (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111056,
+          "size": 2,
+          "bytes": "671e",
+          "assembly": "beq.b $1b1f0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111058,
+          "size": 2,
+          "bytes": "12d8",
+          "assembly": "move.b (a0)+, (a1)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111060,
+          "size": 2,
+          "bytes": "5242",
+          "assembly": "addq.w #$1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111062,
+          "size": 2,
+          "bytes": "3012",
+          "assembly": "move.w (a2), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111064,
+          "size": 2,
+          "bytes": "5340",
+          "assembly": "subq.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111066,
+          "size": 2,
+          "bytes": "3480",
+          "assembly": "move.w d0, (a2)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111068,
+          "size": 2,
+          "bytes": "5341",
+          "assembly": "subq.w #$1, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111070,
+          "size": 2,
+          "bytes": "4a40",
+          "assembly": "tst.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111072,
+          "size": 2,
+          "bytes": "6eec",
+          "assembly": "bgt.b $1b1ce",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111074,
+          "size": 2,
+          "bytes": "600c",
+          "assembly": "bra.b $1b1f0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111076,
+          "size": 2,
+          "bytes": "4a52",
+          "assembly": "tst.w (a2)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111078,
+          "size": 2,
+          "bytes": "6f10",
+          "assembly": "ble.b $1b1f8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111080,
+          "size": 4,
+          "bytes": "12fc0020",
+          "assembly": "move.b #$20, (a1)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111084,
+          "size": 2,
+          "bytes": "5242",
+          "assembly": "addq.w #$1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111086,
+          "size": 2,
+          "bytes": "5352",
+          "assembly": "subq.w #$1, (a2)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111088,
+          "size": 2,
+          "bytes": "3001",
+          "assembly": "move.w d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111090,
+          "size": 2,
+          "bytes": "5341",
+          "assembly": "subq.w #$1, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111092,
+          "size": 2,
+          "bytes": "4a40",
+          "assembly": "tst.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111094,
+          "size": 2,
+          "bytes": "6eec",
+          "assembly": "bgt.b $1b1e4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111096,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111098,
+          "size": 2,
+          "bytes": "241f",
+          "assembly": "move.l (a7)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111100,
+          "size": 2,
+          "bytes": "245f",
+          "assembly": "movea.l (a7)+, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111102,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111122,
+          "size": 4,
+          "bytes": "48e7383e",
+          "assembly": "movem.l d2-d4/a2-a6, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111126,
+          "size": 4,
+          "bytes": "246f0024",
+          "assembly": "movea.l $24(a7), a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111130,
+          "size": 4,
+          "bytes": "242f0028",
+          "assembly": "move.l $28(a7), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111134,
+          "size": 4,
+          "bytes": "2a6f002e",
+          "assembly": "movea.l $2e(a7), a5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111138,
+          "size": 4,
+          "bytes": "362f0032",
+          "assembly": "move.w $32(a7), d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111142,
+          "size": 2,
+          "bytes": "4244",
+          "assembly": "clr.w d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111144,
+          "size": 6,
+          "bytes": "47f90015b7a0",
+          "assembly": "lea.l $15b7a0.l, a3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111150,
+          "size": 4,
+          "bytes": "386f002c",
+          "assembly": "movea.w $2c(a7), a4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111154,
+          "size": 6,
+          "bytes": "4df90001b200",
+          "assembly": "lea.l $1b200.l, a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111160,
+          "size": 2,
+          "bytes": "2f0c",
+          "assembly": "move.l a4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111162,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111164,
+          "size": 6,
+          "bytes": "4eb90000e67c",
+          "assembly": "jsr $e67c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111170,
+          "size": 2,
+          "bytes": "504f",
+          "assembly": "addq.w #$8, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111172,
+          "size": 4,
+          "bytes": "16f60800",
+          "assembly": "move.b (a6, d0.l), (a3)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111176,
+          "size": 2,
+          "bytes": "2f0c",
+          "assembly": "move.l a4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111178,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111180,
+          "size": 6,
+          "bytes": "4eb90000e61c",
+          "assembly": "jsr $e61c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111186,
+          "size": 2,
+          "bytes": "504f",
+          "assembly": "addq.w #$8, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111188,
+          "size": 2,
+          "bytes": "2400",
+          "assembly": "move.l d0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111190,
+          "size": 2,
+          "bytes": "5343",
+          "assembly": "subq.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111192,
+          "size": 2,
+          "bytes": "4a82",
+          "assembly": "tst.l d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111194,
+          "size": 2,
+          "bytes": "66dc",
+          "assembly": "bne.b $1b238",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111196,
+          "size": 2,
+          "bytes": "3003",
+          "assembly": "move.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111198,
+          "size": 2,
+          "bytes": "5343",
+          "assembly": "subq.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111200,
+          "size": 2,
+          "bytes": "4a40",
+          "assembly": "tst.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111202,
+          "size": 2,
+          "bytes": "6f16",
+          "assembly": "ble.b $1b27a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111204,
+          "size": 4,
+          "bytes": "122f0035",
+          "assembly": "move.b $35(a7), d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111208,
+          "size": 2,
+          "bytes": "4a55",
+          "assembly": "tst.w (a5)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111210,
+          "size": 2,
+          "bytes": "6f28",
+          "assembly": "ble.b $1b294",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111212,
+          "size": 2,
+          "bytes": "14c1",
+          "assembly": "move.b d1, (a2)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111214,
+          "size": 2,
+          "bytes": "5244",
+          "assembly": "addq.w #$1, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111216,
+          "size": 2,
+          "bytes": "5355",
+          "assembly": "subq.w #$1, (a5)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111218,
+          "size": 2,
+          "bytes": "3003",
+          "assembly": "move.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111220,
+          "size": 2,
+          "bytes": "5343",
+          "assembly": "subq.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111222,
+          "size": 2,
+          "bytes": "4a40",
+          "assembly": "tst.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111224,
+          "size": 2,
+          "bytes": "6eee",
+          "assembly": "bgt.b $1b268",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111226,
+          "size": 2,
+          "bytes": "4a55",
+          "assembly": "tst.w (a5)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111228,
+          "size": 2,
+          "bytes": "6f16",
+          "assembly": "ble.b $1b294",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111230,
+          "size": 6,
+          "bytes": "223c0015b7a0",
+          "assembly": "move.l #$15b7a0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111236,
+          "size": 2,
+          "bytes": "b28b",
+          "assembly": "cmp.l a3, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111238,
+          "size": 2,
+          "bytes": "670c",
+          "assembly": "beq.b $1b294",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111240,
+          "size": 2,
+          "bytes": "14e3",
+          "assembly": "move.b -(a3), (a2)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111242,
+          "size": 2,
+          "bytes": "5244",
+          "assembly": "addq.w #$1, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111244,
+          "size": 2,
+          "bytes": "3015",
+          "assembly": "move.w (a5), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111246,
+          "size": 2,
+          "bytes": "5340",
+          "assembly": "subq.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111248,
+          "size": 2,
+          "bytes": "3a80",
+          "assembly": "move.w d0, (a5)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111250,
+          "size": 2,
+          "bytes": "6ef0",
+          "assembly": "bgt.b $1b284",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111252,
+          "size": 2,
+          "bytes": "3004",
+          "assembly": "move.w d4, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111254,
+          "size": 4,
+          "bytes": "4cdf7c1c",
+          "assembly": "movem.l (a7)+, d2-d4/a2-a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111258,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111260,
+          "size": 4,
+          "bytes": "4e56fffc",
+          "assembly": "link.w a6, #$fffc",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111264,
+          "size": 4,
+          "bytes": "48e73e38",
+          "assembly": "movem.l d2-d6/a2-a4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111268,
+          "size": 4,
+          "bytes": "2c2e0008",
+          "assembly": "move.l $8(a6), d6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111272,
+          "size": 4,
+          "bytes": "286e000c",
+          "assembly": "movea.l $c(a6), a4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111276,
+          "size": 4,
+          "bytes": "266e0010",
+          "assembly": "movea.l $10(a6), a3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111280,
+          "size": 2,
+          "bytes": "2446",
+          "assembly": "movea.l d6, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111282,
+          "size": 6,
+          "bytes": "3d7c00fefffe",
+          "assembly": "move.w #$fe, -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111288,
+          "size": 2,
+          "bytes": "121c",
+          "assembly": "move.b (a4)+, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111290,
+          "size": 4,
+          "bytes": "6700018e",
+          "assembly": "beq.w $1b44a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111294,
+          "size": 4,
+          "bytes": "1a3c00d0",
+          "assembly": "move.b #$d0, d5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111298,
+          "size": 4,
+          "bytes": "0c010025",
+          "assembly": "cmpi.b #$25, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111302,
+          "size": 2,
+          "bytes": "6710",
+          "assembly": "beq.b $1b2d8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111304,
+          "size": 4,
+          "bytes": "3f3c0001",
+          "assembly": "move.w #$1, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111308,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111312,
+          "size": 2,
+          "bytes": "4881",
+          "assembly": "ext.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111314,
+          "size": 2,
+          "bytes": "3f01",
+          "assembly": "move.w d1, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111316,
+          "size": 4,
+          "bytes": "600000a8",
+          "assembly": "bra.w $1b37e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111320,
+          "size": 2,
+          "bytes": "121c",
+          "assembly": "move.b (a4)+, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111322,
+          "size": 2,
+          "bytes": "4243",
+          "assembly": "clr.w d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111324,
+          "size": 2,
+          "bytes": "4242",
+          "assembly": "clr.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111326,
+          "size": 4,
+          "bytes": "183c0020",
+          "assembly": "move.b #$20, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111330,
+          "size": 4,
+          "bytes": "0c010030",
+          "assembly": "cmpi.b #$30, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111334,
+          "size": 2,
+          "bytes": "6622",
+          "assembly": "bne.b $1b30a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111336,
+          "size": 2,
+          "bytes": "1801",
+          "assembly": "move.b d1, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111338,
+          "size": 2,
+          "bytes": "601e",
+          "assembly": "bra.b $1b30a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111340,
+          "size": 2,
+          "bytes": "1001",
+          "assembly": "move.b d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111342,
+          "size": 2,
+          "bytes": "d005",
+          "assembly": "add.b d5, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111344,
+          "size": 4,
+          "bytes": "0c000009",
+          "assembly": "cmpi.b #$9, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111348,
+          "size": 2,
+          "bytes": "6218",
+          "assembly": "bhi.b $1b30e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111350,
+          "size": 2,
+          "bytes": "3003",
+          "assembly": "move.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111352,
+          "size": 2,
+          "bytes": "e540",
+          "assembly": "asl.w #$2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111354,
+          "size": 2,
+          "bytes": "d043",
+          "assembly": "add.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111356,
+          "size": 2,
+          "bytes": "e340",
+          "assembly": "asl.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111358,
+          "size": 4,
+          "bytes": "0640ffd0",
+          "assembly": "addi.w #$ffd0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111362,
+          "size": 2,
+          "bytes": "4881",
+          "assembly": "ext.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111364,
+          "size": 2,
+          "bytes": "3600",
+          "assembly": "move.w d0, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111366,
+          "size": 2,
+          "bytes": "d641",
+          "assembly": "add.w d1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111368,
+          "size": 2,
+          "bytes": "121c",
+          "assembly": "move.b (a4)+, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111370,
+          "size": 2,
+          "bytes": "4a01",
+          "assembly": "tst.b d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111372,
+          "size": 2,
+          "bytes": "66de",
+          "assembly": "bne.b $1b2ec",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111374,
+          "size": 4,
+          "bytes": "0c01006c",
+          "assembly": "cmpi.b #$6c, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111378,
+          "size": 2,
+          "bytes": "6706",
+          "assembly": "beq.b $1b31a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111380,
+          "size": 4,
+          "bytes": "0c01004c",
+          "assembly": "cmpi.b #$4c, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111384,
+          "size": 2,
+          "bytes": "6604",
+          "assembly": "bne.b $1b31e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111386,
+          "size": 2,
+          "bytes": "7401",
+          "assembly": "moveq #$1, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 1,
+              "unsigned_value": 1
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111388,
+          "size": 2,
+          "bytes": "121c",
+          "assembly": "move.b (a4)+, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111390,
+          "size": 2,
+          "bytes": "4a01",
+          "assembly": "tst.b d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111392,
+          "size": 4,
+          "bytes": "67000128",
+          "assembly": "beq.w $1b44a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111396,
+          "size": 4,
+          "bytes": "0c01006f",
+          "assembly": "cmpi.b #$6f, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111400,
+          "size": 4,
+          "bytes": "670000b6",
+          "assembly": "beq.w $1b3e0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111404,
+          "size": 2,
+          "bytes": "6e1c",
+          "assembly": "bgt.b $1b34a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111406,
+          "size": 4,
+          "bytes": "0c010063",
+          "assembly": "cmpi.b #$63, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111410,
+          "size": 2,
+          "bytes": "6742",
+          "assembly": "beq.b $1b376",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111412,
+          "size": 2,
+          "bytes": "6e0a",
+          "assembly": "bgt.b $1b340",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111414,
+          "size": 4,
+          "bytes": "0c010025",
+          "assembly": "cmpi.b #$25, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111418,
+          "size": 2,
+          "bytes": "672e",
+          "assembly": "beq.b $1b36a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111420,
+          "size": 4,
+          "bytes": "60000106",
+          "assembly": "bra.w $1b444",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111424,
+          "size": 4,
+          "bytes": "0c010064",
+          "assembly": "cmpi.b #$64, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111428,
+          "size": 2,
+          "bytes": "6768",
+          "assembly": "beq.b $1b3ae",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111430,
+          "size": 4,
+          "bytes": "600000fc",
+          "assembly": "bra.w $1b444",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111434,
+          "size": 4,
+          "bytes": "0c010075",
+          "assembly": "cmpi.b #$75, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111438,
+          "size": 4,
+          "bytes": "670000c8",
+          "assembly": "beq.w $1b418",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111442,
+          "size": 2,
+          "bytes": "6e0a",
+          "assembly": "bgt.b $1b35e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111444,
+          "size": 4,
+          "bytes": "0c010073",
+          "assembly": "cmpi.b #$73, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111448,
+          "size": 2,
+          "bytes": "6738",
+          "assembly": "beq.b $1b392",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111450,
+          "size": 4,
+          "bytes": "600000e8",
+          "assembly": "bra.w $1b444",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111454,
+          "size": 4,
+          "bytes": "0c010078",
+          "assembly": "cmpi.b #$78, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111458,
+          "size": 4,
+          "bytes": "67000098",
+          "assembly": "beq.w $1b3fc",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111462,
+          "size": 4,
+          "bytes": "600000dc",
+          "assembly": "bra.w $1b444",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111466,
+          "size": 2,
+          "bytes": "3f03",
+          "assembly": "move.w d3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111468,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111472,
+          "size": 4,
+          "bytes": "3f3c0025",
+          "assembly": "move.w #$25, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111476,
+          "size": 2,
+          "bytes": "6008",
+          "assembly": "bra.b $1b37e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111478,
+          "size": 2,
+          "bytes": "3f03",
+          "assembly": "move.w d3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111480,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111484,
+          "size": 2,
+          "bytes": "3f1b",
+          "assembly": "move.w (a3)+, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111486,
+          "size": 2,
+          "bytes": "2f0a",
+          "assembly": "move.l a2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111488,
+          "size": 6,
+          "bytes": "4eb90001b160",
+          "assembly": "jsr $1b160.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111494,
+          "size": 2,
+          "bytes": "3040",
+          "assembly": "movea.w d0, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111496,
+          "size": 2,
+          "bytes": "d5c8",
+          "assembly": "adda.l a0, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111498,
+          "size": 4,
+          "bytes": "defc000c",
+          "assembly": "adda.w #$c, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111502,
+          "size": 4,
+          "bytes": "600000b4",
+          "assembly": "bra.w $1b444",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111506,
+          "size": 2,
+          "bytes": "3f03",
+          "assembly": "move.w d3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111508,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111512,
+          "size": 2,
+          "bytes": "2f1b",
+          "assembly": "move.l (a3)+, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111514,
+          "size": 2,
+          "bytes": "2f0a",
+          "assembly": "move.l a2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111516,
+          "size": 6,
+          "bytes": "4eb90001b1a8",
+          "assembly": "jsr $1b1a8.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111522,
+          "size": 2,
+          "bytes": "3040",
+          "assembly": "movea.w d0, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111524,
+          "size": 2,
+          "bytes": "d5c8",
+          "assembly": "adda.l a0, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111526,
+          "size": 4,
+          "bytes": "defc000e",
+          "assembly": "adda.w #$e, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111530,
+          "size": 4,
+          "bytes": "60000098",
+          "assembly": "bra.w $1b444",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111534,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111536,
+          "size": 2,
+          "bytes": "6704",
+          "assembly": "beq.b $1b3b6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111538,
+          "size": 2,
+          "bytes": "241b",
+          "assembly": "move.l (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111540,
+          "size": 2,
+          "bytes": "6004",
+          "assembly": "bra.b $1b3ba",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111542,
+          "size": 2,
+          "bytes": "341b",
+          "assembly": "move.w (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111544,
+          "size": 2,
+          "bytes": "48c2",
+          "assembly": "ext.l d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111546,
+          "size": 2,
+          "bytes": "4a82",
+          "assembly": "tst.l d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111548,
+          "size": 2,
+          "bytes": "6c66",
+          "assembly": "bge.b $1b424",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111550,
+          "size": 4,
+          "bytes": "3f3c0001",
+          "assembly": "move.w #$1, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111554,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111558,
+          "size": 4,
+          "bytes": "3f3c002d",
+          "assembly": "move.w #$2d, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111562,
+          "size": 2,
+          "bytes": "2f0a",
+          "assembly": "move.l a2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111564,
+          "size": 6,
+          "bytes": "4eb90001b160",
+          "assembly": "jsr $1b160.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111570,
+          "size": 2,
+          "bytes": "3040",
+          "assembly": "movea.w d0, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111572,
+          "size": 2,
+          "bytes": "d5c8",
+          "assembly": "adda.l a0, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111574,
+          "size": 2,
+          "bytes": "5343",
+          "assembly": "subq.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111576,
+          "size": 2,
+          "bytes": "4482",
+          "assembly": "neg.l d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111578,
+          "size": 4,
+          "bytes": "defc000c",
+          "assembly": "adda.w #$c, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111582,
+          "size": 2,
+          "bytes": "6044",
+          "assembly": "bra.b $1b424",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111584,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111586,
+          "size": 2,
+          "bytes": "6704",
+          "assembly": "beq.b $1b3e8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111588,
+          "size": 2,
+          "bytes": "241b",
+          "assembly": "move.l (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111590,
+          "size": 2,
+          "bytes": "6004",
+          "assembly": "bra.b $1b3ec",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111592,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111594,
+          "size": 2,
+          "bytes": "341b",
+          "assembly": "move.w (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111596,
+          "size": 2,
+          "bytes": "4884",
+          "assembly": "ext.w d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111598,
+          "size": 2,
+          "bytes": "3f04",
+          "assembly": "move.w d4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111600,
+          "size": 2,
+          "bytes": "3f03",
+          "assembly": "move.w d3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111602,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111606,
+          "size": 4,
+          "bytes": "3f3c0008",
+          "assembly": "move.w #$8, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111610,
+          "size": 2,
+          "bytes": "6036",
+          "assembly": "bra.b $1b432",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111612,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111614,
+          "size": 2,
+          "bytes": "6704",
+          "assembly": "beq.b $1b404",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111616,
+          "size": 2,
+          "bytes": "241b",
+          "assembly": "move.l (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111618,
+          "size": 2,
+          "bytes": "6004",
+          "assembly": "bra.b $1b408",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111620,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111622,
+          "size": 2,
+          "bytes": "341b",
+          "assembly": "move.w (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111624,
+          "size": 2,
+          "bytes": "4884",
+          "assembly": "ext.w d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111626,
+          "size": 2,
+          "bytes": "3f04",
+          "assembly": "move.w d4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111628,
+          "size": 2,
+          "bytes": "3f03",
+          "assembly": "move.w d3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111630,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111634,
+          "size": 4,
+          "bytes": "3f3c0010",
+          "assembly": "move.w #$10, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111638,
+          "size": 2,
+          "bytes": "601a",
+          "assembly": "bra.b $1b432",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111640,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111642,
+          "size": 2,
+          "bytes": "6704",
+          "assembly": "beq.b $1b420",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111644,
+          "size": 2,
+          "bytes": "241b",
+          "assembly": "move.l (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111646,
+          "size": 2,
+          "bytes": "6004",
+          "assembly": "bra.b $1b424",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111648,
+          "size": 2,
+          "bytes": "7400",
+          "assembly": "moveq #$0, d2",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d2",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111650,
+          "size": 2,
+          "bytes": "341b",
+          "assembly": "move.w (a3)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111652,
+          "size": 2,
+          "bytes": "4884",
+          "assembly": "ext.w d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111654,
+          "size": 2,
+          "bytes": "3f04",
+          "assembly": "move.w d4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111656,
+          "size": 2,
+          "bytes": "3f03",
+          "assembly": "move.w d3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111658,
+          "size": 4,
+          "bytes": "486efffe",
+          "assembly": "pea.l -$2(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111662,
+          "size": 4,
+          "bytes": "3f3c000a",
+          "assembly": "move.w #$a, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111666,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111668,
+          "size": 2,
+          "bytes": "2f0a",
+          "assembly": "move.l a2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111670,
+          "size": 6,
+          "bytes": "4eb90001b212",
+          "assembly": "jsr $1b212.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111676,
+          "size": 2,
+          "bytes": "3040",
+          "assembly": "movea.w d0, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111678,
+          "size": 2,
+          "bytes": "d5c8",
+          "assembly": "adda.l a0, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111680,
+          "size": 4,
+          "bytes": "defc0012",
+          "assembly": "adda.w #$12, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111684,
+          "size": 2,
+          "bytes": "121c",
+          "assembly": "move.b (a4)+, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111686,
+          "size": 4,
+          "bytes": "6600fe7a",
+          "assembly": "bne.w $1b2c2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111690,
+          "size": 2,
+          "bytes": "4212",
+          "assembly": "clr.b (a2)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111692,
+          "size": 2,
+          "bytes": "300a",
+          "assembly": "move.w a2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111694,
+          "size": 2,
+          "bytes": "9046",
+          "assembly": "sub.w d6, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111696,
+          "size": 6,
+          "bytes": "4cee1c7cffdc",
+          "assembly": "movem.l -$24(a6), d2-d6/a2-a4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111702,
+          "size": 2,
+          "bytes": "4e5e",
+          "assembly": "unlk a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111704,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 111706,
+          "size": 4,
+          "bytes": "4e560000",
+          "assembly": "link.w a6, #$0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111710,
+          "size": 4,
+          "bytes": "486e0010",
+          "assembly": "pea.l $10(a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111714,
+          "size": 4,
+          "bytes": "2f2e000c",
+          "assembly": "move.l $c(a6), -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111718,
+          "size": 4,
+          "bytes": "2f2e0008",
+          "assembly": "move.l $8(a6), -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111722,
+          "size": 6,
+          "bytes": "4eb90001b29c",
+          "assembly": "jsr $1b29c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111728,
+          "size": 4,
+          "bytes": "defc000c",
+          "assembly": "adda.w #$c, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111732,
+          "size": 2,
+          "bytes": "4e5e",
+          "assembly": "unlk a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111734,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ],
+      "unsupported_generator_forms": {
+        "move.b": [
+          {
+            "PC": "0x1b288",
+            "assembly": "move.b -(a3), (a2)+"
+          }
+        ]
+      },
+      "calls": [
+        {
+          "address": 111164,
+          "size": 6,
+          "bytes": "4eb90000e67c",
+          "assembly": "jsr $e67c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111180,
+          "size": 6,
+          "bytes": "4eb90000e61c",
+          "assembly": "jsr $e61c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111488,
+          "size": 6,
+          "bytes": "4eb90001b160",
+          "assembly": "jsr $1b160.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111516,
+          "size": 6,
+          "bytes": "4eb90001b1a8",
+          "assembly": "jsr $1b1a8.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111564,
+          "size": 6,
+          "bytes": "4eb90001b160",
+          "assembly": "jsr $1b160.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111670,
+          "size": 6,
+          "bytes": "4eb90001b212",
+          "assembly": "jsr $1b212.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 111722,
+          "size": 6,
+          "bytes": "4eb90001b29c",
+          "assembly": "jsr $1b29c.l",
+          "classification": "decoded_instruction"
+        }
+      ]
+    },
+    "arithmetic_helpers": {
+      "ranges": [
+        [
+          "0xe61c",
+          "0xe68c"
+        ],
+        [
+          "0xe540",
+          "0xe588"
+        ]
+      ],
+      "candidate_instructions": 72,
+      "rows": [
+        {
+          "address": 58908,
+          "size": 2,
+          "bytes": "2042",
+          "assembly": "movea.l d2, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58910,
+          "size": 2,
+          "bytes": "2243",
+          "assembly": "movea.l d3, a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58912,
+          "size": 2,
+          "bytes": "7000",
+          "assembly": "moveq #$0, d0",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d0",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 58914,
+          "size": 4,
+          "bytes": "242f0008",
+          "assembly": "move.l $8(a7), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58918,
+          "size": 4,
+          "bytes": "67000050",
+          "assembly": "beq.w $e678",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58922,
+          "size": 4,
+          "bytes": "222f0004",
+          "assembly": "move.l $4(a7), d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58926,
+          "size": 2,
+          "bytes": "b282",
+          "assembly": "cmp.l d2, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58928,
+          "size": 4,
+          "bytes": "65000040",
+          "assembly": "bcs.w $e672",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58932,
+          "size": 4,
+          "bytes": "4a6f0008",
+          "assembly": "tst.w $8(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58936,
+          "size": 4,
+          "bytes": "66000020",
+          "assembly": "bne.w $e65a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58940,
+          "size": 2,
+          "bytes": "3601",
+          "assembly": "move.w d1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58942,
+          "size": 2,
+          "bytes": "4241",
+          "assembly": "clr.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58944,
+          "size": 2,
+          "bytes": "4841",
+          "assembly": "swap d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58946,
+          "size": 4,
+          "bytes": "67000004",
+          "assembly": "beq.w $e648",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58950,
+          "size": 2,
+          "bytes": "82c2",
+          "assembly": "divu.w d2, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58952,
+          "size": 2,
+          "bytes": "3001",
+          "assembly": "move.w d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58954,
+          "size": 2,
+          "bytes": "4840",
+          "assembly": "swap d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58956,
+          "size": 2,
+          "bytes": "3203",
+          "assembly": "move.w d3, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58958,
+          "size": 2,
+          "bytes": "82c2",
+          "assembly": "divu.w d2, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58960,
+          "size": 2,
+          "bytes": "3001",
+          "assembly": "move.w d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58962,
+          "size": 2,
+          "bytes": "4241",
+          "assembly": "clr.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58964,
+          "size": 2,
+          "bytes": "4841",
+          "assembly": "swap d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58966,
+          "size": 4,
+          "bytes": "6000001a",
+          "assembly": "bra.w $e672",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58970,
+          "size": 2,
+          "bytes": "761f",
+          "assembly": "moveq #$1f, d3",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d3",
+              "bits": 32,
+              "signed_value": 31,
+              "unsigned_value": 31
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 58972,
+          "size": 2,
+          "bytes": "d281",
+          "assembly": "add.l d1, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58974,
+          "size": 2,
+          "bytes": "d180",
+          "assembly": "addx.l d0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58976,
+          "size": 2,
+          "bytes": "b082",
+          "assembly": "cmp.l d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58978,
+          "size": 4,
+          "bytes": "65000008",
+          "assembly": "bcs.w $e66c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58982,
+          "size": 2,
+          "bytes": "9082",
+          "assembly": "sub.l d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58984,
+          "size": 4,
+          "bytes": "d27c0001",
+          "assembly": "add.w #$1, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58988,
+          "size": 4,
+          "bytes": "51cbffee",
+          "assembly": "dbra d3, $e65c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58992,
+          "size": 2,
+          "bytes": "c141",
+          "assembly": "exg.l d0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58994,
+          "size": 2,
+          "bytes": "2609",
+          "assembly": "move.l a1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58996,
+          "size": 2,
+          "bytes": "2408",
+          "assembly": "move.l a0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58998,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 59000,
+          "size": 2,
+          "bytes": "82c2",
+          "assembly": "divu.w d2, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59002,
+          "size": 2,
+          "bytes": "60f6",
+          "assembly": "bra.b $e672",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59004,
+          "size": 4,
+          "bytes": "2f2f0008",
+          "assembly": "move.l $8(a7), -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59008,
+          "size": 4,
+          "bytes": "2f2f0008",
+          "assembly": "move.l $8(a7), -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59012,
+          "size": 2,
+          "bytes": "6196",
+          "assembly": "bsr.b $e61c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59014,
+          "size": 2,
+          "bytes": "508f",
+          "assembly": "addq.l #$8, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59016,
+          "size": 2,
+          "bytes": "2001",
+          "assembly": "move.l d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 59018,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 58688,
+          "size": 2,
+          "bytes": "2042",
+          "assembly": "movea.l d2, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58690,
+          "size": 2,
+          "bytes": "2243",
+          "assembly": "movea.l d3, a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58692,
+          "size": 6,
+          "bytes": "4caf000f0004",
+          "assembly": "movem.w $4(a7), d0-d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58698,
+          "size": 2,
+          "bytes": "3f00",
+          "assembly": "move.w d0, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58700,
+          "size": 4,
+          "bytes": "6a000006",
+          "assembly": "bpl.w $e554",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58704,
+          "size": 2,
+          "bytes": "4441",
+          "assembly": "neg.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58706,
+          "size": 2,
+          "bytes": "4040",
+          "assembly": "negx.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58708,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58710,
+          "size": 4,
+          "bytes": "6a000008",
+          "assembly": "bpl.w $e560",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58714,
+          "size": 2,
+          "bytes": "4443",
+          "assembly": "neg.w d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58716,
+          "size": 2,
+          "bytes": "4042",
+          "assembly": "negx.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58718,
+          "size": 2,
+          "bytes": "4657",
+          "assembly": "not.w (a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58720,
+          "size": 2,
+          "bytes": "48c0",
+          "assembly": "ext.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58722,
+          "size": 4,
+          "bytes": "67000004",
+          "assembly": "beq.w $e568",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58726,
+          "size": 2,
+          "bytes": "c0c3",
+          "assembly": "mulu.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58728,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58730,
+          "size": 4,
+          "bytes": "67000006",
+          "assembly": "beq.w $e572",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58734,
+          "size": 2,
+          "bytes": "c4c1",
+          "assembly": "mulu.w d1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58736,
+          "size": 2,
+          "bytes": "d042",
+          "assembly": "add.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58738,
+          "size": 2,
+          "bytes": "4840",
+          "assembly": "swap d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58740,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58742,
+          "size": 2,
+          "bytes": "c2c3",
+          "assembly": "mulu.w d3, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58744,
+          "size": 2,
+          "bytes": "d081",
+          "assembly": "add.l d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58746,
+          "size": 2,
+          "bytes": "2609",
+          "assembly": "move.l a1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58748,
+          "size": 2,
+          "bytes": "2408",
+          "assembly": "move.l a0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58750,
+          "size": 2,
+          "bytes": "4a5f",
+          "assembly": "tst.w (a7)+",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58752,
+          "size": 4,
+          "bytes": "6a000004",
+          "assembly": "bpl.w $e586",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58756,
+          "size": 2,
+          "bytes": "4480",
+          "assembly": "neg.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 58758,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ],
+      "unsupported_generator_forms": {
+        "divu.w": [
+          {
+            "PC": "0xe646",
+            "assembly": "divu.w d2, d1"
+          },
+          {
+            "PC": "0xe64e",
+            "assembly": "divu.w d2, d1"
+          },
+          {
+            "PC": "0xe678",
+            "assembly": "divu.w d2, d1"
+          }
+        ],
+        "addx.l": [
+          {
+            "PC": "0xe65e",
+            "assembly": "addx.l d0, d0"
+          }
+        ],
+        "exg.l": [
+          {
+            "PC": "0xe670",
+            "assembly": "exg.l d0, d1"
+          }
+        ],
+        "bsr.b": [
+          {
+            "PC": "0xe684",
+            "assembly": "bsr.b $e61c"
+          }
+        ],
+        "movem.w": [
+          {
+            "PC": "0xe544",
+            "assembly": "movem.w $4(a7), d0-d3"
+          }
+        ],
+        "negx.w": [
+          {
+            "PC": "0xe552",
+            "assembly": "negx.w d0"
+          },
+          {
+            "PC": "0xe55c",
+            "assembly": "negx.w d2"
+          }
+        ],
+        "mulu.w": [
+          {
+            "PC": "0xe566",
+            "assembly": "mulu.w d3, d0"
+          },
+          {
+            "PC": "0xe56e",
+            "assembly": "mulu.w d1, d2"
+          },
+          {
+            "PC": "0xe576",
+            "assembly": "mulu.w d3, d1"
+          }
+        ]
+      },
+      "calls": [
+        {
+          "address": 59012,
+          "size": 2,
+          "bytes": "6196",
+          "assembly": "bsr.b $e61c",
+          "classification": "decoded_instruction"
+        }
+      ]
+    },
+    "text149AE": {
+      "ranges": [
+        [
+          "0x149ae",
+          "0x14caa"
+        ]
+      ],
+      "candidate_instructions": 255,
+      "rows": [
+        {
+          "address": 84398,
+          "size": 4,
+          "bytes": "defcffec",
+          "assembly": "adda.w #$ffec, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84402,
+          "size": 4,
+          "bytes": "48e73f3e",
+          "assembly": "movem.l d2-d7/a2-a6, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84406,
+          "size": 4,
+          "bytes": "346f0044",
+          "assembly": "movea.w $44(a7), a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84410,
+          "size": 4,
+          "bytes": "3a2f0046",
+          "assembly": "move.w $46(a7), d5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84414,
+          "size": 4,
+          "bytes": "2c6f004c",
+          "assembly": "movea.l $4c(a7), a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84418,
+          "size": 4,
+          "bytes": "266f0054",
+          "assembly": "movea.l $54(a7), a3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84422,
+          "size": 4,
+          "bytes": "362f0058",
+          "assembly": "move.w $58(a7), d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84426,
+          "size": 4,
+          "bytes": "342f005a",
+          "assembly": "move.w $5a(a7), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84430,
+          "size": 4,
+          "bytes": "286f0048",
+          "assembly": "movea.l $48(a7), a4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84434,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84436,
+          "size": 2,
+          "bytes": "1013",
+          "assembly": "move.b (a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84438,
+          "size": 4,
+          "bytes": "0c400002",
+          "assembly": "cmpi.w #$2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84442,
+          "size": 2,
+          "bytes": "6722",
+          "assembly": "beq.b $149fe",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84444,
+          "size": 4,
+          "bytes": "0c400003",
+          "assembly": "cmpi.w #$3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84448,
+          "size": 2,
+          "bytes": "6640",
+          "assembly": "bne.b $14a22",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84450,
+          "size": 2,
+          "bytes": "2f0b",
+          "assembly": "move.l a3, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84452,
+          "size": 4,
+          "bytes": "2f2f0054",
+          "assembly": "move.l $54(a7), -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84456,
+          "size": 2,
+          "bytes": "2f0e",
+          "assembly": "move.l a6, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84458,
+          "size": 2,
+          "bytes": "2f0c",
+          "assembly": "move.l a4, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84460,
+          "size": 2,
+          "bytes": "3f05",
+          "assembly": "move.w d5, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84462,
+          "size": 2,
+          "bytes": "3f0a",
+          "assembly": "move.w a2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84464,
+          "size": 6,
+          "bytes": "4eb9000147a6",
+          "assembly": "jsr $147a6.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84470,
+          "size": 4,
+          "bytes": "defc0014",
+          "assembly": "adda.w #$14, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84474,
+          "size": 4,
+          "bytes": "600002a4",
+          "assembly": "bra.w $14ca0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84478,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84480,
+          "size": 4,
+          "bytes": "102b0001",
+          "assembly": "move.b $1(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84484,
+          "size": 2,
+          "bytes": "4281",
+          "assembly": "clr.l d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84486,
+          "size": 4,
+          "bytes": "122b0003",
+          "assembly": "move.b $3(a3), d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84490,
+          "size": 2,
+          "bytes": "2f01",
+          "assembly": "move.l d1, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84492,
+          "size": 2,
+          "bytes": "2f00",
+          "assembly": "move.l d0, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84494,
+          "size": 6,
+          "bytes": "4eb90000e540",
+          "assembly": "jsr $e540.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84500,
+          "size": 2,
+          "bytes": "504f",
+          "assembly": "addq.w #$8, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84502,
+          "size": 2,
+          "bytes": "d080",
+          "assembly": "add.l d0, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84504,
+          "size": 4,
+          "bytes": "43f30808",
+          "assembly": "lea.l $8(a3, d0.l), a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84508,
+          "size": 4,
+          "bytes": "2f490032",
+          "assembly": "move.l a1, $32(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84512,
+          "size": 2,
+          "bytes": "6004",
+          "assembly": "bra.b $14a26",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84514,
+          "size": 4,
+          "bytes": "42af0032",
+          "assembly": "clr.l $32(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84518,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84520,
+          "size": 4,
+          "bytes": "102b0002",
+          "assembly": "move.b $2(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84524,
+          "size": 2,
+          "bytes": "5e40",
+          "assembly": "addq.w #$7, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84526,
+          "size": 4,
+          "bytes": "0240fff8",
+          "assembly": "andi.w #$fff8, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84530,
+          "size": 4,
+          "bytes": "0c400018",
+          "assembly": "cmpi.w #$18, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84534,
+          "size": 2,
+          "bytes": "6726",
+          "assembly": "beq.b $14a5e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84536,
+          "size": 2,
+          "bytes": "6e08",
+          "assembly": "bgt.b $14a42",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84538,
+          "size": 4,
+          "bytes": "0c400010",
+          "assembly": "cmpi.w #$10, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84542,
+          "size": 2,
+          "bytes": "6712",
+          "assembly": "beq.b $14a52",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84544,
+          "size": 2,
+          "bytes": "6006",
+          "assembly": "bra.b $14a48",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84546,
+          "size": 4,
+          "bytes": "0c400020",
+          "assembly": "cmpi.w #$20, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84550,
+          "size": 2,
+          "bytes": "6716",
+          "assembly": "beq.b $14a5e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84552,
+          "size": 4,
+          "bytes": "426f003a",
+          "assembly": "clr.w $3a(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84556,
+          "size": 4,
+          "bytes": "3a7c0001",
+          "assembly": "movea.w #$1, a5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84560,
+          "size": 2,
+          "bytes": "6016",
+          "assembly": "bra.b $14a68",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84562,
+          "size": 6,
+          "bytes": "3f7c0001003a",
+          "assembly": "move.w #$1, $3a(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84568,
+          "size": 4,
+          "bytes": "3a7c0002",
+          "assembly": "movea.w #$2, a5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84572,
+          "size": 2,
+          "bytes": "600a",
+          "assembly": "bra.b $14a68",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84574,
+          "size": 6,
+          "bytes": "3f7c0002003a",
+          "assembly": "move.w #$2, $3a(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84580,
+          "size": 4,
+          "bytes": "3a7c0004",
+          "assembly": "movea.w #$4, a5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84584,
+          "size": 4,
+          "bytes": "4aaf0032",
+          "assembly": "tst.l $32(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84588,
+          "size": 2,
+          "bytes": "6632",
+          "assembly": "bne.b $14aa0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84590,
+          "size": 6,
+          "bytes": "0c2b00080002",
+          "assembly": "cmpi.b #$8, $2(a3)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84596,
+          "size": 2,
+          "bytes": "6310",
+          "assembly": "bls.b $14a86",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84598,
+          "size": 4,
+          "bytes": "102b0002",
+          "assembly": "move.b $2(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84602,
+          "size": 2,
+          "bytes": "5e40",
+          "assembly": "addq.w #$7, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84604,
+          "size": 4,
+          "bytes": "02400007",
+          "assembly": "andi.w #$7, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84608,
+          "size": 2,
+          "bytes": "3800",
+          "assembly": "move.w d0, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84610,
+          "size": 2,
+          "bytes": "5244",
+          "assembly": "addq.w #$1, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84612,
+          "size": 2,
+          "bytes": "6006",
+          "assembly": "bra.b $14a8c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84614,
+          "size": 2,
+          "bytes": "4244",
+          "assembly": "clr.w d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84616,
+          "size": 4,
+          "bytes": "182b0002",
+          "assembly": "move.b $2(a3), d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84620,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84622,
+          "size": 4,
+          "bytes": "102b0003",
+          "assembly": "move.b $3(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84626,
+          "size": 2,
+          "bytes": "4840",
+          "assembly": "swap d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84628,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84630,
+          "size": 2,
+          "bytes": "3204",
+          "assembly": "move.w d4, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84632,
+          "size": 2,
+          "bytes": "48c1",
+          "assembly": "ext.l d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84634,
+          "size": 2,
+          "bytes": "8081",
+          "assembly": "or.l d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84636,
+          "size": 4,
+          "bytes": "2f400036",
+          "assembly": "move.l d0, $36(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84640,
+          "size": 2,
+          "bytes": "2205",
+          "assembly": "move.l d5, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84642,
+          "size": 2,
+          "bytes": "4841",
+          "assembly": "swap d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84644,
+          "size": 2,
+          "bytes": "4241",
+          "assembly": "clr.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84646,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84648,
+          "size": 2,
+          "bytes": "300a",
+          "assembly": "move.w a2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84650,
+          "size": 2,
+          "bytes": "2a01",
+          "assembly": "move.l d1, d5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84652,
+          "size": 2,
+          "bytes": "8a80",
+          "assembly": "or.l d0, d5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84654,
+          "size": 6,
+          "bytes": "247c14010604",
+          "assembly": "movea.l #$14010604, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84660,
+          "size": 2,
+          "bytes": "7038",
+          "assembly": "moveq #$38, d0",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d0",
+              "bits": 32,
+              "signed_value": 56,
+              "unsigned_value": 56
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 84662,
+          "size": 4,
+          "bytes": "c0af0050",
+          "assembly": "and.l $50(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84666,
+          "size": 2,
+          "bytes": "7c08",
+          "assembly": "moveq #$8, d6",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d6",
+              "bits": 32,
+              "signed_value": 8,
+              "unsigned_value": 8
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 84668,
+          "size": 2,
+          "bytes": "bc80",
+          "assembly": "cmp.l d0, d6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84670,
+          "size": 2,
+          "bytes": "6722",
+          "assembly": "beq.b $14ae2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84672,
+          "size": 2,
+          "bytes": "6d06",
+          "assembly": "blt.b $14ac8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84674,
+          "size": 2,
+          "bytes": "4a80",
+          "assembly": "tst.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84676,
+          "size": 2,
+          "bytes": "670a",
+          "assembly": "beq.b $14ad0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84678,
+          "size": 2,
+          "bytes": "6038",
+          "assembly": "bra.b $14b00",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84680,
+          "size": 2,
+          "bytes": "7e10",
+          "assembly": "moveq #$10, d7",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d7",
+              "bits": 32,
+              "signed_value": 16,
+              "unsigned_value": 16
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 84682,
+          "size": 2,
+          "bytes": "be80",
+          "assembly": "cmp.l d0, d7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84684,
+          "size": 2,
+          "bytes": "6720",
+          "assembly": "beq.b $14aee",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84686,
+          "size": 2,
+          "bytes": "6030",
+          "assembly": "bra.b $14b00",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84688,
+          "size": 2,
+          "bytes": "4a43",
+          "assembly": "tst.w d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84690,
+          "size": 2,
+          "bytes": "6704",
+          "assembly": "beq.b $14ad8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84692,
+          "size": 4,
+          "bytes": "363c00ff",
+          "assembly": "move.w #$ff, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84696,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84698,
+          "size": 2,
+          "bytes": "671e",
+          "assembly": "beq.b $14afa",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84700,
+          "size": 4,
+          "bytes": "343c00ff",
+          "assembly": "move.w #$ff, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84704,
+          "size": 2,
+          "bytes": "6018",
+          "assembly": "bra.b $14afa",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84706,
+          "size": 2,
+          "bytes": "3003",
+          "assembly": "move.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84708,
+          "size": 2,
+          "bytes": "e540",
+          "assembly": "asl.w #$2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84710,
+          "size": 2,
+          "bytes": "8640",
+          "assembly": "or.w d0, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84712,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84714,
+          "size": 2,
+          "bytes": "e540",
+          "assembly": "asl.w #$2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84716,
+          "size": 2,
+          "bytes": "8440",
+          "assembly": "or.w d0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84718,
+          "size": 2,
+          "bytes": "3003",
+          "assembly": "move.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84720,
+          "size": 2,
+          "bytes": "e940",
+          "assembly": "asl.w #$4, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84722,
+          "size": 2,
+          "bytes": "8640",
+          "assembly": "or.w d0, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84724,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84726,
+          "size": 2,
+          "bytes": "e940",
+          "assembly": "asl.w #$4, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84728,
+          "size": 2,
+          "bytes": "8440",
+          "assembly": "or.w d0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84730,
+          "size": 6,
+          "bytes": "247c1401060c",
+          "assembly": "movea.l #$1401060c, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84736,
+          "size": 6,
+          "bytes": "207c00f02268",
+          "assembly": "movea.l #$f02268, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84742,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84744,
+          "size": 2,
+          "bytes": "3003",
+          "assembly": "move.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84746,
+          "size": 2,
+          "bytes": "2080",
+          "assembly": "move.l d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84748,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84750,
+          "size": 2,
+          "bytes": "670e",
+          "assembly": "beq.b $14b1e",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84752,
+          "size": 6,
+          "bytes": "207c00f02248",
+          "assembly": "movea.l #$f02248, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84758,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84760,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84762,
+          "size": 2,
+          "bytes": "2080",
+          "assembly": "move.l d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84764,
+          "size": 2,
+          "bytes": "6008",
+          "assembly": "bra.b $14b26",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84766,
+          "size": 2,
+          "bytes": "2c0a",
+          "assembly": "move.l a2, d6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84768,
+          "size": 2,
+          "bytes": "7e08",
+          "assembly": "moveq #$8, d7",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d7",
+              "bits": 32,
+              "signed_value": 8,
+              "unsigned_value": 8
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 84770,
+          "size": 2,
+          "bytes": "8c87",
+          "assembly": "or.l d7, d6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84772,
+          "size": 2,
+          "bytes": "2446",
+          "assembly": "movea.l d6, a2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84774,
+          "size": 6,
+          "bytes": "227c00f02224",
+          "assembly": "movea.l #$f02224, a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84780,
+          "size": 4,
+          "bytes": "41eb0008",
+          "assembly": "lea.l $8(a3), a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84784,
+          "size": 2,
+          "bytes": "2288",
+          "assembly": "move.l a0, (a1)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84786,
+          "size": 6,
+          "bytes": "207c00f02200",
+          "assembly": "movea.l #$f02200, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84792,
+          "size": 2,
+          "bytes": "208e",
+          "assembly": "move.l a6, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84794,
+          "size": 6,
+          "bytes": "207c00f02228",
+          "assembly": "movea.l #$f02228, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84800,
+          "size": 4,
+          "bytes": "302b0006",
+          "assembly": "move.w $6(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84804,
+          "size": 4,
+          "bytes": "02407e00",
+          "assembly": "andi.w #$7e00, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84808,
+          "size": 4,
+          "bytes": "0640e800",
+          "assembly": "addi.w #$e800, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84812,
+          "size": 2,
+          "bytes": "48c0",
+          "assembly": "ext.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84814,
+          "size": 6,
+          "bytes": "008000010018",
+          "assembly": "ori.l #$10018, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84820,
+          "size": 2,
+          "bytes": "2080",
+          "assembly": "move.l d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84822,
+          "size": 6,
+          "bytes": "207c00f02204",
+          "assembly": "movea.l #$f02204, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84828,
+          "size": 4,
+          "bytes": "202f0050",
+          "assembly": "move.l $50(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84832,
+          "size": 6,
+          "bytes": "0280fffcffff",
+          "assembly": "andi.l #$fffcffff, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84838,
+          "size": 4,
+          "bytes": "08c00010",
+          "assembly": "bset.b #$10, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84842,
+          "size": 2,
+          "bytes": "2080",
+          "assembly": "move.l d0, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84844,
+          "size": 6,
+          "bytes": "207c00f02234",
+          "assembly": "movea.l #$f02234, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84850,
+          "size": 6,
+          "bytes": "20bc0001ffff",
+          "assembly": "move.l #$1ffff, (a0)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84856,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84858,
+          "size": 4,
+          "bytes": "102b0003",
+          "assembly": "move.b $3(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84862,
+          "size": 2,
+          "bytes": "4840",
+          "assembly": "swap d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84864,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84866,
+          "size": 4,
+          "bytes": "2f40002c",
+          "assembly": "move.l d0, $2c(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84870,
+          "size": 2,
+          "bytes": "4242",
+          "assembly": "clr.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84872,
+          "size": 2,
+          "bytes": "141c",
+          "assembly": "move.b (a4)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84874,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84876,
+          "size": 4,
+          "bytes": "6700010e",
+          "assembly": "beq.w $14c9c",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84880,
+          "size": 4,
+          "bytes": "426f0030",
+          "assembly": "clr.w $30(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84884,
+          "size": 6,
+          "bytes": "2c7c00f0223c",
+          "assembly": "movea.l #$f0223c, a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84890,
+          "size": 6,
+          "bytes": "1f6b00040031",
+          "assembly": "move.b $4(a3), $31(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84896,
+          "size": 4,
+          "bytes": "b46f0030",
+          "assembly": "cmp.w $30(a7), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84900,
+          "size": 2,
+          "bytes": "6d0a",
+          "assembly": "blt.b $14bb0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84902,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84904,
+          "size": 4,
+          "bytes": "102b0005",
+          "assembly": "move.b $5(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84908,
+          "size": 2,
+          "bytes": "b042",
+          "assembly": "cmp.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84910,
+          "size": 2,
+          "bytes": "6c04",
+          "assembly": "bge.b $14bb4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84912,
+          "size": 2,
+          "bytes": "4242",
+          "assembly": "clr.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84914,
+          "size": 2,
+          "bytes": "6004",
+          "assembly": "bra.b $14bb8",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84916,
+          "size": 4,
+          "bytes": "946f0030",
+          "assembly": "sub.w $30(a7), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84920,
+          "size": 4,
+          "bytes": "4aaf0032",
+          "assembly": "tst.l $32(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84924,
+          "size": 2,
+          "bytes": "674a",
+          "assembly": "beq.b $14c08",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84926,
+          "size": 4,
+          "bytes": "226f0032",
+          "assembly": "movea.l $32(a7), a1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84930,
+          "size": 2,
+          "bytes": "4244",
+          "assembly": "clr.w d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84932,
+          "size": 4,
+          "bytes": "18312000",
+          "assembly": "move.b (a1, d2.w), d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84936,
+          "size": 2,
+          "bytes": "3004",
+          "assembly": "move.w d4, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84938,
+          "size": 2,
+          "bytes": "5e40",
+          "assembly": "addq.w #$7, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84940,
+          "size": 2,
+          "bytes": "3600",
+          "assembly": "move.w d0, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84942,
+          "size": 2,
+          "bytes": "e64b",
+          "assembly": "lsr.w #$3, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84944,
+          "size": 4,
+          "bytes": "0c440008",
+          "assembly": "cmpi.w #$8, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84948,
+          "size": 2,
+          "bytes": "6f0c",
+          "assembly": "ble.b $14be2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84950,
+          "size": 2,
+          "bytes": "3004",
+          "assembly": "move.w d4, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84952,
+          "size": 2,
+          "bytes": "5340",
+          "assembly": "subq.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84954,
+          "size": 4,
+          "bytes": "02400007",
+          "assembly": "andi.w #$7, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84958,
+          "size": 2,
+          "bytes": "3800",
+          "assembly": "move.w d0, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84960,
+          "size": 2,
+          "bytes": "5244",
+          "assembly": "addq.w #$1, d4",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84962,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84964,
+          "size": 4,
+          "bytes": "102b0003",
+          "assembly": "move.b $3(a3), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84968,
+          "size": 2,
+          "bytes": "4840",
+          "assembly": "swap d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84970,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84972,
+          "size": 2,
+          "bytes": "3204",
+          "assembly": "move.w d4, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84974,
+          "size": 2,
+          "bytes": "48c1",
+          "assembly": "ext.l d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84976,
+          "size": 2,
+          "bytes": "8081",
+          "assembly": "or.l d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84978,
+          "size": 4,
+          "bytes": "2f400036",
+          "assembly": "move.l d0, $36(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84982,
+          "size": 4,
+          "bytes": "3c2f003a",
+          "assembly": "move.w $3a(a7), d6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84986,
+          "size": 2,
+          "bytes": "ed62",
+          "assembly": "asl.w d6, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84988,
+          "size": 2,
+          "bytes": "b64d",
+          "assembly": "cmp.w a5, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84990,
+          "size": 2,
+          "bytes": "6c10",
+          "assembly": "bge.b $14c10",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84992,
+          "size": 2,
+          "bytes": "300d",
+          "assembly": "move.w a5, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84994,
+          "size": 2,
+          "bytes": "9043",
+          "assembly": "sub.w d3, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84996,
+          "size": 2,
+          "bytes": "d440",
+          "assembly": "add.w d0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84998,
+          "size": 2,
+          "bytes": "6008",
+          "assembly": "bra.b $14c10",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85000,
+          "size": 2,
+          "bytes": "360d",
+          "assembly": "move.w a5, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85002,
+          "size": 4,
+          "bytes": "3e2f003a",
+          "assembly": "move.w $3a(a7), d7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85006,
+          "size": 2,
+          "bytes": "ef62",
+          "assembly": "asl.w d7, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85008,
+          "size": 2,
+          "bytes": "3042",
+          "assembly": "movea.w d2, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85010,
+          "size": 6,
+          "bytes": "23c800f02230",
+          "assembly": "move.l a0, $f02230.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85016,
+          "size": 6,
+          "bytes": "23c500f0220c",
+          "assembly": "move.l d5, $f0220c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85022,
+          "size": 4,
+          "bytes": "2caf0036",
+          "assembly": "move.l $36(a7), (a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85026,
+          "size": 2,
+          "bytes": "3004",
+          "assembly": "move.w d4, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85028,
+          "size": 2,
+          "bytes": "4440",
+          "assembly": "neg.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85030,
+          "size": 6,
+          "bytes": "02800000ffff",
+          "assembly": "andi.l #$ffff, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85036,
+          "size": 4,
+          "bytes": "08c00010",
+          "assembly": "bset.b #$10, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85040,
+          "size": 6,
+          "bytes": "23c000f02210",
+          "assembly": "move.l d0, $f02210.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85046,
+          "size": 6,
+          "bytes": "23ca00f02238",
+          "assembly": "move.l a2, $f02238.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85052,
+          "size": 2,
+          "bytes": "3044",
+          "assembly": "movea.w d4, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85054,
+          "size": 2,
+          "bytes": "da88",
+          "assembly": "add.l a0, d5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85056,
+          "size": 2,
+          "bytes": "2c08",
+          "assembly": "move.l a0, d6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85058,
+          "size": 4,
+          "bytes": "ddaf002c",
+          "assembly": "add.l d6, $2c(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85062,
+          "size": 4,
+          "bytes": "0c430001",
+          "assembly": "cmpi.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85066,
+          "size": 2,
+          "bytes": "6f46",
+          "assembly": "ble.b $14c92",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85068,
+          "size": 2,
+          "bytes": "5343",
+          "assembly": "subq.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85070,
+          "size": 2,
+          "bytes": "5242",
+          "assembly": "addq.w #$1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85072,
+          "size": 10,
+          "bytes": "23fc0001fff800f02210",
+          "assembly": "move.l #$1fff8, $f02210.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85082,
+          "size": 2,
+          "bytes": "4a43",
+          "assembly": "tst.w d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85084,
+          "size": 2,
+          "bytes": "6f34",
+          "assembly": "ble.b $14c92",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85086,
+          "size": 2,
+          "bytes": "7200",
+          "assembly": "moveq #$0, d1",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d1",
+              "bits": 32,
+              "signed_value": 0,
+              "unsigned_value": 0
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 1,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 85088,
+          "size": 2,
+          "bytes": "3042",
+          "assembly": "movea.w d2, a0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85090,
+          "size": 6,
+          "bytes": "23c800f02230",
+          "assembly": "move.l a0, $f02230.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85096,
+          "size": 6,
+          "bytes": "23c500f0220c",
+          "assembly": "move.l d5, $f0220c.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85102,
+          "size": 4,
+          "bytes": "122b0003",
+          "assembly": "move.b $3(a3), d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85106,
+          "size": 2,
+          "bytes": "2001",
+          "assembly": "move.l d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85108,
+          "size": 2,
+          "bytes": "4840",
+          "assembly": "swap d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85110,
+          "size": 2,
+          "bytes": "4240",
+          "assembly": "clr.w d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85112,
+          "size": 2,
+          "bytes": "7e08",
+          "assembly": "moveq #$8, d7",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "MOVEQ only; M68000 manual printed 4-134",
+            "register_write": {
+              "register": "d7",
+              "bits": 32,
+              "signed_value": 8,
+              "unsigned_value": 8
+            },
+            "condition_codes": {
+              "X": "unchanged",
+              "N": 0,
+              "Z": 0,
+              "V": 0,
+              "C": 0
+            },
+            "other_data_registers": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        },
+        {
+          "address": 85114,
+          "size": 2,
+          "bytes": "8087",
+          "assembly": "or.l d7, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85116,
+          "size": 2,
+          "bytes": "2c80",
+          "assembly": "move.l d0, (a6)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85118,
+          "size": 6,
+          "bytes": "23ca00f02238",
+          "assembly": "move.l a2, $f02238.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85124,
+          "size": 2,
+          "bytes": "5085",
+          "assembly": "addq.l #$8, d5",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85126,
+          "size": 2,
+          "bytes": "5242",
+          "assembly": "addq.w #$1, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85128,
+          "size": 4,
+          "bytes": "50af002c",
+          "assembly": "addq.l #$8, $2c(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85132,
+          "size": 2,
+          "bytes": "5343",
+          "assembly": "subq.w #$1, d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85134,
+          "size": 2,
+          "bytes": "4a43",
+          "assembly": "tst.w d3",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85136,
+          "size": 2,
+          "bytes": "6ece",
+          "assembly": "bgt.b $14c60",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85138,
+          "size": 2,
+          "bytes": "4242",
+          "assembly": "clr.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85140,
+          "size": 2,
+          "bytes": "141c",
+          "assembly": "move.b (a4)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85142,
+          "size": 2,
+          "bytes": "4a42",
+          "assembly": "tst.w d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85144,
+          "size": 4,
+          "bytes": "6600ff00",
+          "assembly": "bne.w $14b9a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85148,
+          "size": 4,
+          "bytes": "202f002c",
+          "assembly": "move.l $2c(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85152,
+          "size": 4,
+          "bytes": "4cdf7cfc",
+          "assembly": "movem.l (a7)+, d2-d7/a2-a6",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85156,
+          "size": 4,
+          "bytes": "defc0014",
+          "assembly": "adda.w #$14, a7",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 85160,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ],
+      "unsupported_generator_forms": {
+        "ori.l": [
+          {
+            "PC": "0x14b4e",
+            "assembly": "ori.l #$10018, d0"
+          }
+        ],
+        "bset.b": [
+          {
+            "PC": "0x14b66",
+            "assembly": "bset.b #$10, d0"
+          },
+          {
+            "PC": "0x14c2c",
+            "assembly": "bset.b #$10, d0"
+          }
+        ],
+        "lsr.w": [
+          {
+            "PC": "0x14bce",
+            "assembly": "lsr.w #$3, d3"
+          }
+        ]
+      },
+      "calls": [
+        {
+          "address": 84464,
+          "size": 6,
+          "bytes": "4eb9000147a6",
+          "assembly": "jsr $147a6.l",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 84494,
+          "size": 6,
+          "bytes": "4eb90000e540",
+          "assembly": "jsr $e540.l",
+          "classification": "decoded_instruction"
+        }
+      ]
+    },
+    "text_alignment14776": {
+      "ranges": [
+        [
+          "0x14776",
+          "0x147a6"
+        ]
+      ],
+      "candidate_instructions": 18,
+      "rows": [
+        {
+          "address": 83830,
+          "size": 2,
+          "bytes": "2f02",
+          "assembly": "move.l d2, -(a7)",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83832,
+          "size": 4,
+          "bytes": "302f000c",
+          "assembly": "move.w $c(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83836,
+          "size": 4,
+          "bytes": "342f000e",
+          "assembly": "move.w $e(a7), d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83840,
+          "size": 2,
+          "bytes": "3200",
+          "assembly": "move.w d0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83842,
+          "size": 2,
+          "bytes": "4441",
+          "assembly": "neg.w d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83844,
+          "size": 4,
+          "bytes": "d06f000a",
+          "assembly": "add.w $a(a7), d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83848,
+          "size": 2,
+          "bytes": "c042",
+          "assembly": "and.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83850,
+          "size": 6,
+          "bytes": "02800000ffff",
+          "assembly": "andi.l #$ffff, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83856,
+          "size": 2,
+          "bytes": "6708",
+          "assembly": "beq.b $1479a",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83858,
+          "size": 2,
+          "bytes": "5340",
+          "assembly": "subq.w #$1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83860,
+          "size": 2,
+          "bytes": "9440",
+          "assembly": "sub.w d0, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83862,
+          "size": 2,
+          "bytes": "3002",
+          "assembly": "move.w d2, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83864,
+          "size": 2,
+          "bytes": "9240",
+          "assembly": "sub.w d0, d1",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83866,
+          "size": 2,
+          "bytes": "4280",
+          "assembly": "clr.l d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83868,
+          "size": 2,
+          "bytes": "3001",
+          "assembly": "move.w d1, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83870,
+          "size": 4,
+          "bytes": "08c00010",
+          "assembly": "bset.b #$10, d0",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83874,
+          "size": 2,
+          "bytes": "241f",
+          "assembly": "move.l (a7)+, d2",
+          "classification": "decoded_instruction"
+        },
+        {
+          "address": 83876,
+          "size": 2,
+          "bytes": "4e75",
+          "assembly": "rts",
+          "classification": "decoded_instruction",
+          "manual_semantics": {
+            "scope": "RTS only; M68000 manual printed 4-169",
+            "stack_pointer_delta": 4,
+            "program_counter": "loaded from return stack; value unknown",
+            "condition_codes": "unchanged",
+            "reference": "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf"
+          }
+        }
+      ],
+      "unsupported_generator_forms": {
+        "bset.b": [
+          {
+            "PC": "0x1479e",
+            "assembly": "bset.b #$10, d0"
+          }
+        ]
+      },
+      "calls": []
+    }
+  },
+  "possible_formatter_data_intervals": [
+    [
+      "0x1b1a0",
+      "0x1b1a8"
+    ],
+    [
+      "0x1b200",
+      "0x1b212"
+    ]
+  ],
+  "limits": [
+    "Formatter boundaries/data intervals require CFG/source review; do not count linear decoded words as instructions without control-flow evidence.",
+    "Font3 blitter routine147A6 has embedded dispatch data at14800; table-aware workmap still needed.",
+    "Prior snprintf/text adapters omit source fullCPU/private/global scratch and are insufficient for exact overlay scene linkage."
+  ]
+}

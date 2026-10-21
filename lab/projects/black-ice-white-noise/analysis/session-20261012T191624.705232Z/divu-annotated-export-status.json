@@ -1,0 +1,23 @@
+{
+  "status": "terminal",
+  "pid": 59889,
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/ghidra-headless",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-divu-projects",
+    "BIWN23-divu-candidate",
+    "-process",
+    "nextstage-68000-candidate.bin",
+    "-noanalysis",
+    "-scriptPath",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts",
+    "-postScript",
+    "AnnotateBiwnArithmetic.java",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/divu-arithmetic-annotations.json",
+    "-postScript",
+    "ExportDecomp.java",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-divu-export"
+  ],
+  "started_at": "2026-10-12T21:48:47.986227+00:00",
+  "exit_code": 0,
+  "finished_at": "2026-10-12T21:48:56.716660+00:00"
+}

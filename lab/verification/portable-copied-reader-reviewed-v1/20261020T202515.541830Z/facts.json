@@ -1,0 +1,62 @@
+{
+  "status": "terminal_copied_model_Reader_inference_and_launcher_fix_verified_scoped_output_pass",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-copied-reader-reviewed-v1/20261020T202515.541830Z",
+  "package": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+  "report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/Portable Copied Model Reader Review.txt",
+  "new_predictions": 2,
+  "new_training": false,
+  "copied_model_resource_inference_tested": true,
+  "copied_training_tested": false,
+  "copied_model_key": "local/portable-ailab-4f5658686590-daily-configured",
+  "model_identifier": "portable-ailab-4f5658686590-daily",
+  "copied_weights": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+  "weights_resolution_evidence": "Owned registered raw-resource symlink resolves into package;configured definition provenance/base and actual response model_instance_id agree. No OS-level backend file-read trace claimed.",
+  "first_failure": "Base interpreter did not include copied venv SDK,ModuleNotFoundError before any prediction",
+  "second_failure": "Reader29 formatted output passed,but incorrectly called disc-integrated10734host-only",
+  "fix": "Entryv2 exposes copied SDK. Reader30 replaces misleading host-only source prompt with distinct10734disc and10968unpromoted scopes.",
+  "runs": [
+    {
+      "version": 29,
+      "directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v29-20261020T202328.173767Z",
+      "frozen_directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-copied-reader-reviewed-v1/20261020T202515.541830Z/Reader29",
+      "seconds": 8.3,
+      "usage": {
+        "prompt_tokens": 626,
+        "completion_tokens": 181,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "format_pass": true,
+      "scoped_source_attribution_review_pass": false,
+      "new_source": "Host-only 0x10734 executed in linked native component (40062 bytes). Older standalone object (3808 bytes) was compile-only and not executed. Local 10968 Repair remains outside the disc.",
+      "new_predictions": 1,
+      "model_identifier": "portable-ailab-4f5658686590-daily",
+      "actual_native_Chat_display_test": false
+    },
+    {
+      "version": 30,
+      "directory": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/workbench/runs/Deck-status-live-v30-20261020T202414.177134Z",
+      "frozen_directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/portable-copied-reader-reviewed-v1/20261020T202515.541830Z/Reader30",
+      "seconds": 8.08,
+      "usage": {
+        "prompt_tokens": 624,
+        "completion_tokens": 174,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      },
+      "format_pass": true,
+      "scoped_source_attribution_review_pass": true,
+      "new_source": "0x10734 runs in experimental native disc; older standalone object was compile-only. Local 10968Repair ran only in separate target68000 test image and remains outside the disc.",
+      "new_predictions": 1,
+      "model_identifier": "portable-ailab-4f5658686590-daily",
+      "actual_native_Chat_display_test": false
+    }
+  ],
+  "native_Chat_copied_weight_inference_tested": false,
+  "broader_model_quality_approved": false,
+  "whole_game_rebuild": false,
+  "installed_preview_changed": false,
+  "scope": "Actual same-host moved-package Reader launcher with copied SDK/MCP/context/model resource. Two sequential development prompts,not untouched evaluation or independent model verification. Reader30scoped claim reviewed against frozen MCP evidence. No training update or new nativeChat/UI run."
+}

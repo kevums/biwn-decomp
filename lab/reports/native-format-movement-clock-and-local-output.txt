@@ -1,0 +1,20 @@
+BIWN MOVEMENT CLOCK / LOCAL OUTPUT TEST
+2026-10-18T17:04:43.387224+00:00
+
+The first position difference atframe9920 is immediately explained by when the world task samples the clock. Base samples after the first clockIRQentry at47775; optimized samples before it at47774. Both start update6812with identical player coordinates/fractions,heading226,heldpad0x100000 and saved movement fraction44514. Elapsed ticks are5versus4. Original fractional movement logic therefore produces1unit/fraction5192versus0units/fraction65485. The next update reverses elapsed ticks4versus5 and the fractional state rejoins at26163; recorded player components match again by update6814.
+
+Two new fresh10050frame prefixes reproduce every recorded selected game/video/audio-count field and navigation decision of their respective prior builds, and use identical recorded buttons throughout. No live guest RAM,CPU,disc or controller-policy change. This isolates the immediate quantization mechanism, not the full earlier task/IRQ phase shift or all later gameplay differences.
+
+The original full input-routine path was replayed in four explicit offline captured-RAM fixtures with elapsed ticks4and5. Original native CPU and unchanged recovered hostC input routine plus real recoveredC division match all D/A registers,PC,SR,USP,SSP and all2MBRAM. No helper-result stubs. CPUentry/elapsed ticks are supplied and IRQ is disabled in this isolated test. No native console/liveC substitution,whole-game timing,ordered-native-access,fault or physical-console proof.
+
+LOCAL MODEL
+One local Optimization Author call to the daily Qwen3_5 27B6bit model. Complete passing C reference supplied; source editing,not recovery from scratch. 3925inputtokens,101.86seconds. AST accepted,first CPUcase rejected: expectedA0=0x1B1A0,actual0,after reversing the NULLfallback branch. Raw model source was not edited or promoted. No full CPU gate/efficiency claim,new training or independent Reviewer. Exact prompt/output: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/format-string-reference-optimizer-20261018T165524.429645Z/prompts-and-responses.txt
+
+WHO DID WHAT
+Codex coordinator derived the read-only clock/GPU/IRQobserver, ran two fresh prefix processes, compared repeatability, replayed original and recoveredC input logic, checked original instruction facts and rejected the model source. The observer/compiler/CPUcomparison are deterministic tools,not extra LLMagents. A diagnostic disassembly excerpt initially ended mid-instruction; the analysis failed explicitly, the excerpt boundary was corrected, and that metadata analysis reran. Gameplay traces were not restarted for this.
+
+LOCAL FRONTEND
+Configured local-ai-lab MCP project_evidence(topic=status) now includes movement_clock_diagnosis and the Author rejection. Fresh configured stdio verified; source and installed modules match. Existing Ask BIWN Candidate Status.command uses that tool. No additional Reader generation or native Chat-window generation was tested this continuation. Previous successful Reader demonstrations remain historical scoped results.
+
+Detailed trace/source analysis: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/native-format-movement-clock-diagnosis.txt
+Next: investigate the upstream task/IRQphase shift and improve efficient source lowering/compilation. Preserve model failures as development feedback; validate separate representative tasks before training promotion. Full recovery/platform replacement,physical console/audio,advertising training/reliability and future256GBhardware remain open.

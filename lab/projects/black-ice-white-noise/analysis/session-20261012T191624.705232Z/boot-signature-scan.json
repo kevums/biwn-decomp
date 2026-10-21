@@ -1,0 +1,42 @@
+{
+  "pattern_hex": "415441524920415050524f564544204441544120484541444552",
+  "hits": [
+    {
+      "track": 2,
+      "encoding": "swap16",
+      "track_byte_offset": 353538,
+      "source_byte_offset": 3244146,
+      "sector_index": 150,
+      "byte_in_sector": 738,
+      "following_96_hex": "54415241204950415250564f444544205441204145484441524541205254204918000000000060eafc2307000700f0000c217c2e200000003930f1000240000804002266fc338c06f0003c00fc33af00f0003800fc33af00f0003a003c3a2300"
+    },
+    {
+      "track": 3,
+      "encoding": "swap16",
+      "track_byte_offset": 738,
+      "source_byte_offset": 4650642,
+      "sector_index": 0,
+      "byte_in_sector": 738,
+      "following_96_hex": "54415241204950415250564f444544205441204145484441524541205254214900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "track": 4,
+      "encoding": "swap16",
+      "track_byte_offset": 738,
+      "source_byte_offset": 27759042,
+      "sector_index": 0,
+      "byte_in_sector": 738,
+      "following_96_hex": "54415241204950415250564f4445442054412041454844415245412052542249ff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffffff7fffff"
+    },
+    {
+      "track": 5,
+      "encoding": "swap16",
+      "track_byte_offset": 738,
+      "source_byte_offset": 668813106,
+      "sector_index": 0,
+      "byte_in_sector": 738,
+      "following_96_hex": "54415241204950415250564f44454420544120414548444152454120525423494b74e70bb56daae90abaf5f500d3aa764a9579b78e3b18b7d0af3b34e525a2c990b6bfb104708e968f66bbbf40dd7b2c39b5b513f959f57778492c6261737377"
+    }
+  ],
+  "scope": "Signature candidates only; metadata interpretation and code map still require verification."
+}

@@ -1,0 +1,631 @@
+{
+  "status": "generated_unverified",
+  "instructions": 88,
+  "instructions_decoded": [
+    {
+      "address": 15839232,
+      "size": 6,
+      "bytes": "981db03000f1",
+      "assembly": "movei   $f1b030,r29",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839238,
+      "size": 2,
+      "bytes": "d3a0",
+      "assembly": "jump    (r29)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839240,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839280,
+      "size": 6,
+      "bytes": "981da10000f1",
+      "assembly": "movei   $f1a100,r29",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839286,
+      "size": 2,
+      "bytes": "a7be",
+      "assembly": "load    (r29),r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839288,
+      "size": 6,
+      "bytes": "9819badc00f1",
+      "assembly": "movei   $f1badc,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839294,
+      "size": 2,
+      "bytes": "8c00",
+      "assembly": "moveq   0,r0",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839296,
+      "size": 2,
+      "bytes": "a73c",
+      "assembly": "load    (r25),r28",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839298,
+      "size": 6,
+      "bytes": "981bb08000f1",
+      "assembly": "movei   $f1b080,r27",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839304,
+      "size": 2,
+      "bytes": "7c3c",
+      "assembly": "cmpq    $1,r28",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839306,
+      "size": 2,
+      "bytes": "d361",
+      "assembly": "jump    nz,(r27)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839308,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839360,
+      "size": 6,
+      "bytes": "981bb04e00f1",
+      "assembly": "movei   $f1b04e,r27",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839366,
+      "size": 2,
+      "bytes": "7c5c",
+      "assembly": "cmpq    $2,r28",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839368,
+      "size": 2,
+      "bytes": "d361",
+      "assembly": "jump    nz,(r27)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839370,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839372,
+      "size": 2,
+      "bytes": "393e",
+      "assembly": "bset    $9,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839374,
+      "size": 2,
+      "bytes": "395e",
+      "assembly": "bset    $a,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839376,
+      "size": 2,
+      "bytes": "397e",
+      "assembly": "bset    $b,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839378,
+      "size": 2,
+      "bytes": "3c7e",
+      "assembly": "bclr    $3,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839380,
+      "size": 2,
+      "bytes": "389e",
+      "assembly": "bset    $4,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839382,
+      "size": 2,
+      "bytes": "3cbe",
+      "assembly": "bclr    $5,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839384,
+      "size": 2,
+      "bytes": "3cde",
+      "assembly": "bclr    $6,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839386,
+      "size": 2,
+      "bytes": "3dde",
+      "assembly": "bclr    $e,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839388,
+      "size": 2,
+      "bytes": "089f",
+      "assembly": "addq    $4,r31",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839390,
+      "size": 2,
+      "bytes": "bfbe",
+      "assembly": "store   r30,(r29)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839392,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839394,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839396,
+      "size": 2,
+      "bytes": "0899",
+      "assembly": "addq    $4,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839398,
+      "size": 2,
+      "bytes": "a721",
+      "assembly": "load    (r25),r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839400,
+      "size": 2,
+      "bytes": "a422",
+      "assembly": "load    (r1),r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839402,
+      "size": 2,
+      "bytes": "0881",
+      "assembly": "addq    $4,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839404,
+      "size": 2,
+      "bytes": "a423",
+      "assembly": "load    (r1),r3",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839406,
+      "size": 2,
+      "bytes": "0881",
+      "assembly": "addq    $4,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839408,
+      "size": 2,
+      "bytes": "a424",
+      "assembly": "load    (r1),r4",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839410,
+      "size": 2,
+      "bytes": "0881",
+      "assembly": "addq    $4,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839412,
+      "size": 2,
+      "bytes": "6444",
+      "assembly": "shrq    $2,r4",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839414,
+      "size": 2,
+      "bytes": "a445",
+      "assembly": "load    (r2),r5",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839416,
+      "size": 2,
+      "bytes": "1824",
+      "assembly": "subq    $1,r4",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839418,
+      "size": 2,
+      "bytes": "bc65",
+      "assembly": "store   r5,(r3)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839420,
+      "size": 2,
+      "bytes": "0c82",
+      "assembly": "addqt   $4,r2",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839422,
+      "size": 2,
+      "bytes": "d761",
+      "assembly": "jr      nz,00F1B0B6",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839424,
+      "size": 2,
+      "bytes": "0c83",
+      "assembly": "addqt   $4,r3",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839426,
+      "size": 6,
+      "bytes": "9806bb0c00f1",
+      "assembly": "movei   $f1bb0c,r6",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839432,
+      "size": 2,
+      "bytes": "a427",
+      "assembly": "load    (r1),r7",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839434,
+      "size": 2,
+      "bytes": "bcc7",
+      "assembly": "store   r7,(r6)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839436,
+      "size": 2,
+      "bytes": "0881",
+      "assembly": "addq    $4,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839438,
+      "size": 6,
+      "bytes": "9808000200f1",
+      "assembly": "movei   $f10002,r8",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839444,
+      "size": 2,
+      "bytes": "a429",
+      "assembly": "load    (r1),r9",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839446,
+      "size": 2,
+      "bytes": "b909",
+      "assembly": "storew  r9,(r8)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839448,
+      "size": 2,
+      "bytes": "0881",
+      "assembly": "addq    $4,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839450,
+      "size": 6,
+      "bytes": "980a000000f1",
+      "assembly": "movei   $f10000,r10",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839456,
+      "size": 2,
+      "bytes": "a42b",
+      "assembly": "load    (r1),r11",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839458,
+      "size": 2,
+      "bytes": "b94b",
+      "assembly": "storew  r11,(r10)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839460,
+      "size": 2,
+      "bytes": "0881",
+      "assembly": "addq    $4,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839462,
+      "size": 2,
+      "bytes": "0899",
+      "assembly": "addq    $4,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839464,
+      "size": 2,
+      "bytes": "0901",
+      "assembly": "addq    $8,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839466,
+      "size": 2,
+      "bytes": "a72c",
+      "assembly": "load    (r25),r12",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839468,
+      "size": 2,
+      "bytes": "63cc",
+      "assembly": "shlq    $2,r12",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839470,
+      "size": 2,
+      "bytes": "0181",
+      "assembly": "add     r12,r1",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839472,
+      "size": 6,
+      "bytes": "980dbb0800f1",
+      "assembly": "movei   $f1bb08,r13",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839478,
+      "size": 2,
+      "bytes": "a42e",
+      "assembly": "load    (r1),r14",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839480,
+      "size": 2,
+      "bytes": "bdae",
+      "assembly": "store   r14,(r13)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839482,
+      "size": 6,
+      "bytes": "980fbd1000f1",
+      "assembly": "movei   $f1bd10,r15",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839488,
+      "size": 6,
+      "bytes": "9810fffcffff",
+      "assembly": "movei   $fffffffc,r16",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839494,
+      "size": 6,
+      "bytes": "981100500000",
+      "assembly": "movei   $50,r17",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839500,
+      "size": 2,
+      "bytes": "a5f2",
+      "assembly": "load    (r15),r18",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839502,
+      "size": 2,
+      "bytes": "7c12",
+      "assembly": "cmpq    $0,r18",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839504,
+      "size": 2,
+      "bytes": "d482",
+      "assembly": "jr      z,00F1B11A",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839506,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839508,
+      "size": 2,
+      "bytes": "bdf0",
+      "assembly": "store   r16,(r15)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839510,
+      "size": 2,
+      "bytes": "d740",
+      "assembly": "jr      00F1B10C",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839512,
+      "size": 2,
+      "bytes": "022f",
+      "assembly": "add     r17,r15",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839514,
+      "size": 6,
+      "bytes": "981bb14800f1",
+      "assembly": "movei   $f1b148,r27",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839520,
+      "size": 2,
+      "bytes": "1919",
+      "assembly": "subq    $8,r25",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839522,
+      "size": 2,
+      "bytes": "d360",
+      "assembly": "jump    (r27)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839524,
+      "size": 2,
+      "bytes": "bf20",
+      "assembly": "store   r0,(r25)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839526,
+      "size": 6,
+      "bytes": "981fb01000f1",
+      "assembly": "movei   $f1b010,r31",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839532,
+      "size": 2,
+      "bytes": "93ff",
+      "assembly": "moveta  r31,r31",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839534,
+      "size": 6,
+      "bytes": "981da10000f1",
+      "assembly": "movei   $f1a100,r29",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839540,
+      "size": 2,
+      "bytes": "a7be",
+      "assembly": "load    (r29),r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839542,
+      "size": 2,
+      "bytes": "389e",
+      "assembly": "bset    $4,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839544,
+      "size": 2,
+      "bytes": "3cbe",
+      "assembly": "bclr    $5,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839546,
+      "size": 2,
+      "bytes": "3cde",
+      "assembly": "bclr    $6,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839548,
+      "size": 2,
+      "bytes": "3dde",
+      "assembly": "bclr    $e,r30",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839550,
+      "size": 2,
+      "bytes": "bfbe",
+      "assembly": "store   r30,(r29)",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839552,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    },
+    {
+      "address": 15839554,
+      "size": 2,
+      "bytes": "e400",
+      "assembly": "nop",
+      "classification": "decoded_instruction"
+    }
+  ],
+  "payload_sha256": "50a863fa6f09c03d9ee2e1f6eb8f8ed410d60a3d89e09d89e7614843195a2a2b",
+  "source_sha256": {
+    "biwn_dsp_music_bootstrap.c": "147063893f9f64a79b89e47cf535db59eb4557b481f2e2d2d96b1e1751267850",
+    "biwn_dsp_music_bootstrap.h": "ebd070f8ff68533c9863b2921fc5bc47fa523bc644682611acdde95ecf8a97f8"
+  },
+  "generator_sha256": "f0cde6b794c78174e82ed548218f61abd994ee0778e9d88f29a764f619086823",
+  "native_discovery": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/BIWN-music-DSP-bootstrap-probe/20261014T201940.901919Z",
+  "whole_game_complete": false,
+  "full_DSP_music_program": false
+}

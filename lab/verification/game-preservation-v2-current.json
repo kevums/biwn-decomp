@@ -1,0 +1,327 @@
+{
+  "status": "terminal_preservation_only_game_models_and_resume_handoff_recorded",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/audits/game-preservation-v2/20261021T151423.888982Z",
+  "pid": 77683,
+  "deletions": 0,
+  "moves": 0,
+  "training_started": false,
+  "inference_started": false,
+  "native_model_state_changed": false,
+  "human_request": {
+    "thread_id": "01a159fa-426f-73f3-bbfa-026d3fd27e99",
+    "message_id": "01a15f04-b224-7402-b1f2-9195fc8b7ff4",
+    "request": "Preserve all work between both chats and store it until dedicated local model machine is set up and work can begin again there."
+  },
+  "supersedes_cleanup_policy_of": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-model-space-audit-v1-current.json",
+  "unique_trained_exports": [
+    {
+      "model_directory": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2",
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-package.json",
+      "files": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/model-00004-of-00004.safetensors",
+          "bytes": 1215804237,
+          "sha256": "f61d6281546df95bab93b3b1a06642767d45596b00328413ccf0f0324009a279",
+          "recorded_sha256": "f61d6281546df95bab93b3b1a06642767d45596b00328413ccf0f0324009a279",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/model-00001-of-00004.safetensors",
+          "bytes": 5319507334,
+          "sha256": "347ff3d703bf6c0e26739f8d7eb6313ea2b9973bfe2e5bbbddcb792277fbc245",
+          "recorded_sha256": "347ff3d703bf6c0e26739f8d7eb6313ea2b9973bfe2e5bbbddcb792277fbc245",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/tokenizer_config.json",
+          "bytes": 731,
+          "sha256": "23ff856b54c821dbd7e3fbcb9f33bd514f03a1ce194390d51bebae7de5a601be",
+          "recorded_sha256": "23ff856b54c821dbd7e3fbcb9f33bd514f03a1ce194390d51bebae7de5a601be",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/config.json",
+          "bytes": 1253,
+          "sha256": "f05919beb68341ef1be47cad8f64101820eeb430d92f2259d51e5a59acb7ab54",
+          "recorded_sha256": "f05919beb68341ef1be47cad8f64101820eeb430d92f2259d51e5a59acb7ab54",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/tokenizer.json",
+          "bytes": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "recorded_sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/generation_config.json",
+          "bytes": 180,
+          "sha256": "c99723ab3ba28630d26ae23def77603b540a46924895af5cf234740d3b27b51d",
+          "recorded_sha256": "c99723ab3ba28630d26ae23def77603b540a46924895af5cf234740d3b27b51d",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/README.md",
+          "bytes": 81,
+          "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "recorded_sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/model-00003-of-00004.safetensors",
+          "bytes": 5274790267,
+          "sha256": "04adbdf1db567b5ee28b45c6e8561b487ac30afa02d0177d47359ea041dcbd57",
+          "recorded_sha256": "04adbdf1db567b5ee28b45c6e8561b487ac30afa02d0177d47359ea041dcbd57",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/chat_template.jinja",
+          "bytes": 6722,
+          "sha256": "672e747c77e990320152343b0a4951222e40de5645297905d89afba05586d827",
+          "recorded_sha256": "672e747c77e990320152343b0a4951222e40de5645297905d89afba05586d827",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/model.safetensors.index.json",
+          "bytes": 119598,
+          "sha256": "a5e9801331ef720bb9cf28635fb6db2bdcacb321c3bf1a44dddf8e3ad6feb1d0",
+          "recorded_sha256": "a5e9801331ef720bb9cf28635fb6db2bdcacb321c3bf1a44dddf8e3ad6feb1d0",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-v2/model-00002-of-00004.safetensors",
+          "bytes": 5364678700,
+          "sha256": "cacdae510f48a1259fd9bf9f0c2d541a476439ec369c3939796c3bdfcb3bc047",
+          "recorded_sha256": "cacdae510f48a1259fd9bf9f0c2d541a476439ec369c3939796c3bdfcb3bc047",
+          "matches_recorded": true
+        }
+      ],
+      "all_recorded_files_match": true,
+      "second_complete_copy_proven": false,
+      "native_shards_in_shared_inventory": 4,
+      "classification": "KEEP_UNIQUE_TRAINED_EXPORT",
+      "recipe_alone_does_not_authorize_deletion": true
+    },
+    {
+      "model_directory": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2",
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-hybrid-package.json",
+      "files": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/README.md",
+          "bytes": 81,
+          "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "recorded_sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/chat_template.jinja",
+          "bytes": 6722,
+          "sha256": "672e747c77e990320152343b0a4951222e40de5645297905d89afba05586d827",
+          "recorded_sha256": "672e747c77e990320152343b0a4951222e40de5645297905d89afba05586d827",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/config.json",
+          "bytes": 4629,
+          "sha256": "4cf9871f4f6339f08b937279d6b381cbfce98c4e96d09d99638fbb4fe3ce433e",
+          "recorded_sha256": "4cf9871f4f6339f08b937279d6b381cbfce98c4e96d09d99638fbb4fe3ce433e",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/generation_config.json",
+          "bytes": 180,
+          "sha256": "c99723ab3ba28630d26ae23def77603b540a46924895af5cf234740d3b27b51d",
+          "recorded_sha256": "c99723ab3ba28630d26ae23def77603b540a46924895af5cf234740d3b27b51d",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/model-00001-of-00004.safetensors",
+          "bytes": 5319507334,
+          "sha256": "347ff3d703bf6c0e26739f8d7eb6313ea2b9973bfe2e5bbbddcb792277fbc245",
+          "recorded_sha256": "347ff3d703bf6c0e26739f8d7eb6313ea2b9973bfe2e5bbbddcb792277fbc245",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/model-00002-of-00004.safetensors",
+          "bytes": 5364678700,
+          "sha256": "cacdae510f48a1259fd9bf9f0c2d541a476439ec369c3939796c3bdfcb3bc047",
+          "recorded_sha256": "cacdae510f48a1259fd9bf9f0c2d541a476439ec369c3939796c3bdfcb3bc047",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/model-00003-of-00004.safetensors",
+          "bytes": 5354436287,
+          "sha256": "badb10603f53635cbce715fe4b79cf203b8da2521443d1df7cd118b35aadf07b",
+          "recorded_sha256": "badb10603f53635cbce715fe4b79cf203b8da2521443d1df7cd118b35aadf07b",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/model-00004-of-00004.safetensors",
+          "bytes": 4719069487,
+          "sha256": "9336d1e543682ce029c0b5fc557b0561251cc0191489e5d9442478495901acaf",
+          "recorded_sha256": "9336d1e543682ce029c0b5fc557b0561251cc0191489e5d9442478495901acaf",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/model.safetensors.index.json",
+          "bytes": 113918,
+          "sha256": "7a2a6f92596b8ae70e4e6a797791e71cb068c389b681054f80a9aec83d15949f",
+          "recorded_sha256": "7a2a6f92596b8ae70e4e6a797791e71cb068c389b681054f80a9aec83d15949f",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/tokenizer.json",
+          "bytes": 11422650,
+          "sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "recorded_sha256": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/restoration-cpu-remediation-hybrid-v2/tokenizer_config.json",
+          "bytes": 731,
+          "sha256": "23ff856b54c821dbd7e3fbcb9f33bd514f03a1ce194390d51bebae7de5a601be",
+          "recorded_sha256": "23ff856b54c821dbd7e3fbcb9f33bd514f03a1ce194390d51bebae7de5a601be",
+          "matches_recorded": true
+        }
+      ],
+      "all_recorded_files_match": true,
+      "second_complete_copy_proven": false,
+      "native_shards_in_shared_inventory": 4,
+      "classification": "KEEP_UNIQUE_TRAINED_EXPORT",
+      "recipe_alone_does_not_authorize_deletion": true
+    },
+    {
+      "model_directory": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2",
+      "receipt": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-source-v2-hybrid-package.json",
+      "files": [
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/model-00003-of-00005.safetensors",
+          "bytes": 5331479308,
+          "sha256": "0d1d68175ddea4b4604a3ca40a66c40ee147d51eb27d30200166b2153576ae90",
+          "recorded_sha256": "0d1d68175ddea4b4604a3ca40a66c40ee147d51eb27d30200166b2153576ae90",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/tokenizer_config.json",
+          "bytes": 10504,
+          "sha256": "2e5e17ee148f9709cc3e70b4751fae1c3262683d5c1a356a1a051285e9ba68b7",
+          "recorded_sha256": "2e5e17ee148f9709cc3e70b4751fae1c3262683d5c1a356a1a051285e9ba68b7",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/config.json",
+          "bytes": 6432,
+          "sha256": "025e0c8370f4a75d59df69690a2252117b08278524f0e897434d614c2bdb34e9",
+          "recorded_sha256": "025e0c8370f4a75d59df69690a2252117b08278524f0e897434d614c2bdb34e9",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/model-00002-of-00005.safetensors",
+          "bytes": 5344200019,
+          "sha256": "5cf1dad3b3e54d39845032685e909040b5da857c7f4f0e7c92d307a03a7c80d9",
+          "recorded_sha256": "5cf1dad3b3e54d39845032685e909040b5da857c7f4f0e7c92d307a03a7c80d9",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/tokenizer.json",
+          "bytes": 19989339,
+          "sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+          "recorded_sha256": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/generation_config.json",
+          "bytes": 202,
+          "sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+          "recorded_sha256": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/README.md",
+          "bytes": 81,
+          "sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "recorded_sha256": "748c964f9b7e5f2c3770ce013bbc0153be7c54311d9692c343b6188eefe77ac6",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/chat_template.jinja",
+          "bytes": 8988,
+          "sha256": "a06e17bbf9c5819c494f80839c3be9235184298b3abafcbb046ac1ca9212ca62",
+          "recorded_sha256": "a06e17bbf9c5819c494f80839c3be9235184298b3abafcbb046ac1ca9212ca62",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/model-00001-of-00005.safetensors",
+          "bytes": 5366732647,
+          "sha256": "369f70b3d05abc5cce01753b9aa25a37e82b28dba622a5451c0a95ee931e48bc",
+          "recorded_sha256": "369f70b3d05abc5cce01753b9aa25a37e82b28dba622a5451c0a95ee931e48bc",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/model-00004-of-00005.safetensors",
+          "bytes": 5321544193,
+          "sha256": "ea0a604270b471ad6f93d0dc5e6706d2caea160555c616b7b1a38dfcf3ef9408",
+          "recorded_sha256": "ea0a604270b471ad6f93d0dc5e6706d2caea160555c616b7b1a38dfcf3ef9408",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/model.safetensors.index.json",
+          "bytes": 186721,
+          "sha256": "0aca560e5c2a1e608472d8d7bf4d7633d07ed4cace2297f4872fcb6702314df5",
+          "recorded_sha256": "0aca560e5c2a1e608472d8d7bf4d7633d07ed4cace2297f4872fcb6702314df5",
+          "matches_recorded": true
+        },
+        {
+          "path": "/Users/kevin/.lmstudio/models/local/game-source-pilot-v2/model-00005-of-00005.safetensors",
+          "bytes": 1389537996,
+          "sha256": "06d194c7e49d316dd1c7a9bc80acd8a5e37f03343766cfb5d181816e5e263d58",
+          "recorded_sha256": "06d194c7e49d316dd1c7a9bc80acd8a5e37f03343766cfb5d181816e5e263d58",
+          "matches_recorded": true
+        }
+      ],
+      "all_recorded_files_match": true,
+      "second_complete_copy_proven": false,
+      "native_shards_in_shared_inventory": 5,
+      "classification": "KEEP_UNIQUE_TRAINED_EXPORT",
+      "recipe_alone_does_not_authorize_deletion": true
+    }
+  ],
+  "older_candidates_reclassified": "KEEP unless exact content/configuration is verified in a retained canonical copy or archive. Public re-download and theoretical fusion are insufficient.",
+  "trained_export_regeneration_run": false,
+  "public_models_to_preserve_including_CoderNext_both_formats": true,
+  "current_daily_target": "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved/lmstudio-home/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+  "native_game_bases_to_preserve": [
+    "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3.8-27B-MLX-6bit",
+    "/Users/kevin/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit"
+  ],
+  "game_checkpoint_files": 84,
+  "game_checkpoint_bytes": 3605304662,
+  "required_game_proof_weight_files": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/multiply-and-copied-training-reviewed-v1/20261020T211512.585430Z/copied-training/adapters/adapters.safetensors"
+  ],
+  "preserve_whole_paths": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab",
+    "/Users/kevin/Documents/Local AI Lab Restore Tests/20261020T194117.103058Z-biwn-current-moved",
+    "/Users/kevin/.lmstudio/local-ai-lab",
+    "/Users/kevin/.lmstudio/models",
+    "/Users/kevin/.lmstudio/hub/models/local",
+    "/Users/kevin/.lmstudio/conversations"
+  ],
+  "copied_v41_status_and_MCP_verified": true,
+  "latest_game_report": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/reports/BIWN v41 Phased Actors and Fresh Route Pass.txt",
+  "whole_game_complete": false,
+  "model_quality_complete": false,
+  "new_predictions": 0,
+  "optimizer_updates": 0,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/preserve_game_model_retention_v2.py": "b0ee1dec9f238b12afcec01ed8297f1b5c1107b8771f0e4346787831bb0449f1",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-model-space-audit-v1-current.json": "eec2f4aa5e78eddc2264c4c6d2333f4d1660fb214e10169ef38692e962e9e5ef",
+    "/Users/kevin/Documents/Codex/2026-10-20/che/outputs/model-storage-audit-20261021/model-and-checkpoint-inventory.json": "04f843b245326ab76858e35b1509cfa8d06a035640a38ed876ea925273eb14b2",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-package.json": "1b2b05f5274e2e405990da9348fff62d29a51ef069269e254600bdec49ce59e9",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/cpu-remediation-hybrid-package.json": "ef4f927ae1af5e185c39d9b799c296ee84d7c939754636931ad96ea3c325bc04",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/game-source-v2-hybrid-package.json": "4058cc407ae056e6021069eb8688e4b8d85f4ac3da5f1e9aab5d2627d928fb88",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/audits/game-preservation-v2/20261021T151423.888982Z/BIWN preservation and resume handoff.txt": "16128c28554f7c41566bc646eb547f92c782cd8aad9daad1da999c8030198892",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/audits/game-preservation-v2/20261021T151423.888982Z/trained-export-hashes.json": "adeabf117bd587bfd6abd3203a3fff071c912450e4b70f63db558b1a2fb1bc01"
+  },
+  "resume_handoff": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/audits/game-preservation-v2/20261021T151423.888982Z/BIWN preservation and resume handoff.txt"
+}

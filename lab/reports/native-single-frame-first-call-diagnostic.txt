@@ -1,0 +1,14 @@
+BIWN — FIRST-CALL COMPARISON AT 0x1AE56
+
+Both fresh runs reach the first call at frame 2,807 with identical CPU state. The only entry RAM difference is the six patched entry bytes. The read-only observers capture all 2 MB of RAM and the full caller CPU at entry and immediately before RTS. No guest memory writes or checkpoint restores are used.
+
+The live return registers, stack banks and SR match apart from the expected code PC. The original executes 166 instructions before RTS; the compiled C executes 335. Both counts also match the stopped-device replays of the exact captured entry state. Those replays reproduce the live return CPU and have no public RAM differences after excluding the entry patch and the 92 private stack bytes. The original four-byte D2 save remains compared.
+
+The live runs differ at eight other RAM bytes, in display-list phrases beginning at 0x776F0. This area belongs to the reconstructed object/display list. The longer compiled call permits different asynchronous display/device work before its return. Isolated emulator CPU cost is 3,644 cycles for the C version and 1,398 for the original; these are stopped-device core measurements, not physical timing or live route speed.
+
+This supports timing and device scheduling as a cause of the first local difference. It does not establish that every later video, navigation or PCM difference has the same cause, and it does not remove the separate private-stack-memory differences. The native build remains experimental. The current preview and published 24,975-frame combined-processor equality result are unchanged.
+
+Roles: Codex coordinator wrote and reviewed the read-only diagnostic. The emulator executes the original and compiled native routines; the compiler and emulator are tools, not AI agents. No local model generation or training was added by this diagnostic.
+
+Review and exact snapshots: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-frame-single-first-call/20261019T020112.372119Z/review.json
+Initial reviewer observation: CPU bank collection was corrected to read active USP from A7 in user mode. The initial reviewer source and note are preserved. Neither capture job was rerun.

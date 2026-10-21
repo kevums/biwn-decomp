@@ -1,0 +1,47 @@
+{
+  "status": "terminal_six_native_callers_six_deeper_helpers_connected_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-connected-frame-phased-image-v1/20261021T122321.750571Z",
+  "pid": 66903,
+  "native_disc_changed": false,
+  "new_training": false,
+  "whole_game_complete": false,
+  "completed": 128,
+  "task_slots": 101,
+  "native_returns": {
+    "coordinate": 832,
+    "input": 800,
+    "face": 278,
+    "scan": 112,
+    "geometry": 16
+  },
+  "native_deeper_helper_markers": {
+    "0x10968": 16,
+    "0x10ba4": 16,
+    "0x11384": 16,
+    "0x110d4": 16,
+    "0x1142e": 16,
+    "0x10734": 16
+  },
+  "protected_suspended_frame_checks": 2038,
+  "maximum_outer_C_stack_bytes": 164,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_frame_phased_image_v1.py": "3da0bfe1c8b8b3f38903e0c44f0fa7b7851c289aaec3c67788bb36c7e85f3195",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_compact_v1.py": "c07d59a7bebae4b9de39cc51428add314ac5b389f898270f743b2bbde2438e5c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_scene_reset_v1.py": "02ac7c9b97e4a757fcdca93acdf1b8a37e36c2e88e2da8360f6462be7925c840",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_helpers_v1.py": "1caacf5db7c60eb1a931b941acec47c478cdeb1db2ec64e07800c72d16e3d325",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_geometry_faces_v1.py": "c887807928fe608f58b506b0c0c068ccde39103ce031d5e69137dbf5483d5972",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_debug_overlay_cpu_v1.py": "122792a5afb41cbc1f4d1b7977741e54b2dbd01e795fdbdd4844d41b6cb14b9e",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/fixture_ram_delta_v1.py": "b0609d9f1644afd5b8a320c7126a16ee1bf31019618f3f52a977ea4584d94920",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_scene_source_v1.py": "a0acfe0c44ddacbf325f4e7e4084c81e19928dc0dded1d760d41b593b1d3d70c",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_input_source_v1.py": "7a17b10bfb260533a2f151e6a75ecd049fd74ac11e8288eb11188d6ccf9151f3",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_face_contact_v1.py": "2794380c8eca2d4a5db140fee98c35300a79a239da435f17b52f5ecce5ef7ba0",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_deck_coordinate_source_v1.py": "9d192e962a79f84602f920b96f63de554805dbd7e638b42ff62fe66df2c8dea5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-connected-frame-phased-image-v1/20261021T122321.750571Z/outer-gate.json": "39c43de83694ea16080963ae2a4602e444dcdc3f8693eb63367229f3200d8a83",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-connected-frame-phased-image-v1/20261021T122321.750571Z/shared-gate.json": "054160a4db7763a0e89f85db694d70673a02820fcaad54ace3b0da5c93327613",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-connected-frame-phased-image-v1/20261021T122321.750571Z/build-as-run.json": "220d50c71ddcac163e84730ac3fc331a842011d8242394426bd5efe2431d7901",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-frame-phased-image-final-v1/20261021T122100.244824Z/build/native-outer.bin": "efb5a4cc1f9cd416d2dcc0116b6757f61dc73311f8177d5fdc776087045ea809",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-deck-retained-frame-phased-image-final-v1/20261021T121842.377346Z/build/native-shared.bin": "66809d906fa6508634d04d69f48a0c9e3eb0e33744236d5fcf3850c83f5441b5",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-outer-connected-frame-phased-image-v1/20261021T122321.750571Z/cases.json": "fcb865955e8e7a198a230f2f4f0d56daab51591847ae51b15136708eead78f4f"
+  },
+  "scope": "Outer task executing all five retained native callers in one CPU image.\n\nAll six original callers and six deeper original helper bodies execute.\nOther remaining helpers and GPU submissions are fixtures; E540 executes.\nThese are seeded component states, not a fresh disc or scheduler trial.\n FullCPU/nonarenaRAM/ordered helper entries compare with all six original bodies. Outstanding compiler return addresses and declared root redirects normalized only. Both native arenas/canaries and suspended parent frames checked. No CPU fixtures are used for the six caller or six recovered helper bodies. Native marker snapshots compare logical CPU context at compiled helper entry; inactive stack bank comes from independently checked physical CPU. E26C,formatter/text and remaining services are explicit fixtures."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "static_main_bank_compiled_new_forms_fixture_pass_bounded_integration_match",
+  "recorded_at": "2026-10-17T03:44:36.847291+00:00",
+  "listing": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/drawing-volatile-20261013T043902.091834Z/export/manifest.json",
+  "listing_sha256": "850ca0c6bb0ebd52592f3ac2bbdbc81c681c8a2cae303e6c4dda578ae5f4cfed",
+  "static_function_entries": 206,
+  "listed_instruction_addresses": 18306,
+  "listed_addresses_in_parent_bank": 6697,
+  "listed_addresses_in_new_bank": 18306,
+  "new_instruction_case_bodies": 11609,
+  "total_instruction_case_addresses": 20029,
+  "candidate": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/main-static-CPU-experimental-candidate.json",
+  "library": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/route-CPU-build/20261017T033836.140881Z/libroute-CPU.dylib",
+  "source_sha256": "69f7f63e978e420ce043f17026bce36014fd90963ae4bb273b00ccf42d729c00",
+  "new_forms_native_CPU_fixture_cases": 3200,
+  "fixture_proof": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/main-static-new-forms-fixtures-current.json",
+  "all_new_addresses_runtime_verified": false,
+  "high_level_function_decompilation_complete": false,
+  "whole_game_complete": false,
+  "default_promoted": false,
+  "new_training": false,
+  "authorship": "Coordinator static instruction generation; not local-model authored code.",
+  "scope": "Complete address coverage of this one18,306instruction static main-image listing, with byte/size agreement to pinned atlas. Native fixtures verify10 newly supplied source-form sites, public CPU/CCR/register/stackbank/mainRAM and pinned-core instruction cycles. The11,609new case bodies are not all individually or naturally executed. Other loaded code images, high-level structures/functions and whole-game behavior remain incomplete.",
+  "references": [
+    "https://www.nxp.com/docs/en/reference-manual/M68000PRM.pdf",
+    "Pinned emulator src/m68000/cpuextra.c and cpuemu.c/m68kinterface.c from DSP-music-context-build/20261016T095846.040285Z"
+  ],
+  "bounded_integration": {
+    "protocol": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/world-controls-20261017T034213.890204Z/protocol.json",
+    "comparison": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/world-controls-20261017T034213.890204Z/comparison.json",
+    "frames": 1200,
+    "CPU_instructions": 22003529,
+    "GPU_counts": {
+      "Owned": 531267205,
+      "Original": 0,
+      "Rejected": 0
+    },
+    "DSP_active": false,
+    "raw_combined_gate_passed": false,
+    "combined_gate_failed_checks": [
+      "DSP_owned_positive"
+    ],
+    "new_static_instruction_addresses_executed": 0
+  },
+  "reviewable_source": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/experimental/main-static-instruction-bank/biwn_main_static_CPU.c",
+  "natural_inventory_route": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/world-inventory-controls-current.json",
+  "natural_new_static_addresses_executed": 46,
+  "natural_new_static_instruction_steps": 548,
+  "experimental_preview_recipe_updated": true,
+  "experimental_preview_recipe": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/interactive-preview-recipe.json"
+}

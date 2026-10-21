@@ -1,0 +1,290 @@
+BIWN: REPRODUCED GPU COMPLETION RACE AND EXPERIMENTAL REPAIR
+2026-10-18T22:50:59.994003+00:00
+
+The latest separate BIWN experimental build has a14690byte resident payload with a26byte GPU wait repair. The prior14664resident bytes,16384byte reservation,heap162DC0 and startup layout remain identical. A captured failed control returned from the old completion wait while command6720 was still pending; the HUD then overwrote blitterA2base before the GPU renderer delay-slot store launched a blit. That single launch exactly reproduces the captured full2MB RAM result in both retained blitter engines. The repair waits for command acceptance as well as busy0.256native scripted mailbox/CCR/mode cases, 96startup and5151installed keypadABI cases pass. Both fresh shared-selector-repaired Deck lanes now complete2600frames without recorded oddPC or formatter stack violations:672compiled variadic returns versus800source-wrapper control returns. Position/video differences remain,so this is not frame equivalence. A fresh repaired raw-disc adaptive route reaches the merchant and completes the outdoor return in24975frames; 1609486nonzero captured audio samples do not prove listening quality. Historical unrepaired control1430 and slowvariant8546failures remain in their original receipts; the slow15408variant was not rebuilt in this repair. No whole-game speedup,whole-source recompilation,authenticated physical-console boot or general IRQ fidelity is proven. Defaults and modelweights remain unpromoted. Both local diagnostic Analyst answers were rejected as complete advice; the repair was coordinator-authored from traces,not localmodelC.
+
+ACTUAL GAME TESTS
+{
+  "Deck": {
+    "candidate": {
+      "frames": 2600,
+      "no_odd_PC_in_recorded_frames": true,
+      "source_variadic_entries": 672,
+      "outer_variadic_returns": 672,
+      "compiled_core_and_variadic_calls": [
+        672,
+        672
+      ],
+      "formatter_stack_violations": [
+        0,
+        0
+      ],
+      "observed_user_headroom_bytes": 382,
+      "wait_body_frame_samples": 255,
+      "frame_samples_are_not_call_counts": true,
+      "final_player": {
+        "X": 9459,
+        "Z": 40473
+      }
+    },
+    "control": {
+      "frames": 2600,
+      "no_odd_PC_in_recorded_frames": true,
+      "source_variadic_entries": 800,
+      "outer_variadic_returns": 800,
+      "compiled_core_and_variadic_calls": [
+        0,
+        0
+      ],
+      "formatter_stack_violations": [
+        0,
+        0
+      ],
+      "observed_user_headroom_bytes": 440,
+      "wait_body_frame_samples": 245,
+      "frame_samples_are_not_call_counts": true,
+      "final_player": {
+        "X": 9448,
+        "Z": 40476
+      }
+    }
+  },
+  "route": {
+    "executed_frames": 24975,
+    "first_scene_change": 8549,
+    "merchant_reached": true,
+    "return_floor_values": [
+      0,
+      1
+    ],
+    "completed_outdoor_hold": true,
+    "nonzero_audio_samples": 1609486,
+    "final_fields": {
+      "raw_player_X": 13049,
+      "raw_player_Z": 42401,
+      "player_mode_word": 1,
+      "floor_word": 0,
+      "scene_word": 312
+    },
+    "observation": {
+      "instructions": 435936481,
+      "entry_copies": 1,
+      "copy_errors": 0,
+      "heap_inits": 1,
+      "heap_base": 1453504,
+      "resident_steps": 159793919,
+      "old_rng_steps": 0,
+      "old_math_steps": 3791996,
+      "old_keypad_steps": 0,
+      "marker_steps": 0,
+      "events": 23,
+      "event_record_bytes": 112,
+      "errors": 0,
+      "controller_entries": 2997772,
+      "old_controller_steps": 0,
+      "word_scan_repaired": 1,
+      "repair_code_checks": 1,
+      "repair_code_errors": 0,
+      "task_native": 1,
+      "task_register_entries": 1,
+      "task_stack_entries": 21,
+      "old_task_steps": 0,
+      "native_task_entries": 22,
+      "task_empty_exceptions": 0,
+      "scheduler_native": 1,
+      "scheduler_dispatch_entries": 321218,
+      "scheduler_remove_entries": 5,
+      "scheduler_yield_entries": 303591,
+      "scheduler_remove_traps": 5,
+      "old_scheduler_steps": 0,
+      "old_remove_steps": 0,
+      "native_dispatch_calls": 321218,
+      "native_remove_calls": 5,
+      "native_C_select_calls": 321223,
+      "native_scheduler_RTEs": 321223,
+      "heap_native": 1,
+      "heap_allocate_entries": 22,
+      "heap_compact_entries": 1,
+      "old_allocate_steps": 0,
+      "old_compact_steps": 0,
+      "native_C_allocate_calls": 22,
+      "native_C_compact_calls": 1,
+      "retained_copy_entries": 27604,
+      "copy_native": 1,
+      "old_copy_body_steps": 0,
+      "native_C_copy_entry_observations": 27604,
+      "copy_entries": [
+        27604,
+        0
+      ],
+      "free_native": 1,
+      "free_entries": 19,
+      "old_free_body_steps": 0,
+      "native_C_free_calls": 19,
+      "initialize_entries": 1,
+      "old_initialize_body_steps": 0,
+      "native_initialize_calls": 1,
+      "resource_native": 1,
+      "resource_release_entries": 9,
+      "old_resource_release_body_steps": 0,
+      "native_C_resource_release_calls": 9,
+      "acquire_native": 1,
+      "acquire_entries": 11,
+      "old_acquire_body_steps": 0,
+      "native_C_acquire_calls": 11,
+      "acquire_user_observations": 10181,
+      "acquire_task_stack_outside": 0,
+      "acquire_min_task_headroom": 254,
+      "loader_entries": 43,
+      "old_loader_body_steps": 0,
+      "native_C_loader_calls": 43,
+      "loader_user_observations": 1808754,
+      "loader_task_stack_outside": 0,
+      "loader_min_task_headroom": 308,
+      "rng_entries": [
+        1,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "math_entries": [
+        86422,
+        61141,
+        264
+      ],
+      "boundary_entries": [
+        0,
+        6,
+        5,
+        7
+      ]
+    },
+    "report_sha256": "25c40bbb8c2a84954b96427e20121601ce74fb32a5c07ca79f1c1618e4ad5de5",
+    "scope": "Adaptive normal-button policy; route completion and timing reported, no identical-input or frame-equivalence claim."
+  },
+  "read_only_replay_prefix_checks": {
+    "native-fast-core-first-corruption": {
+      "frames": 1440,
+      "selected_fields": [
+        "CPU",
+        "GPU",
+        "DSP",
+        "raw_player_X",
+        "raw_player_Z",
+        "stage_sha256",
+        "video_sha256"
+      ],
+      "different_selected_values": 0
+    },
+    "native-fast-core-GPU-corruption": {
+      "frames": 1440,
+      "selected_fields": [
+        "CPU",
+        "GPU",
+        "DSP",
+        "raw_player_X",
+        "raw_player_Z",
+        "stage_sha256",
+        "video_sha256"
+      ],
+      "different_selected_values": 0
+    },
+    "native-fast-core-blitter-handoff": {
+      "frames": 1440,
+      "selected_fields": [
+        "CPU",
+        "GPU",
+        "DSP",
+        "raw_player_X",
+        "raw_player_Z",
+        "stage_sha256",
+        "video_sha256"
+      ],
+      "different_selected_values": 0
+    },
+    "native-fast-core-GPU-wait": {
+      "frames": 1440,
+      "selected_fields": [
+        "CPU",
+        "GPU",
+        "DSP",
+        "raw_player_X",
+        "raw_player_Z",
+        "stage_sha256",
+        "video_sha256"
+      ],
+      "different_selected_values": 0
+    }
+  }
+}
+
+LOCAL MODEL OUTPUT TEST
+{
+  "status": "terminal_two_local_diagnostic_answers_reviewed_and_rejected",
+  "records": [
+    {
+      "status": "rejected_as_complete_diagnostic_answer",
+      "source_protocol": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-corruption-Analyst-current.json",
+      "source_protocol_sha256": "5581a2ed7914e345cc0a4646d98e6708038fdffd7e3ba3c09f46343019a008f2",
+      "role": "Diagnostic Analyst",
+      "seconds": 35.333498124964535,
+      "output_words": 231,
+      "word_cap": 200,
+      "word_cap_pass": false,
+      "independent_review": false,
+      "native_Chat_verified": false,
+      "new_training": false,
+      "raw_answer_modified": false,
+      "errors": [
+        "Phase2 cycles field was GPUopcode,not elapsedcycles; latency/stall inference invalid. The tool context failed to include the raw trace phase-definition metadata.",
+        "Doesnotidentify the immediate blit command as writer; focuseson unrelated markerXY withoutsource support."
+      ],
+      "coordinator_input_fault": true
+    },
+    {
+      "status": "rejected_as_complete_diagnostic_answer",
+      "source_protocol": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-readable-Analyst-current.json",
+      "source_protocol_sha256": "4b32fc302533fd9ed8731382e9d566ca994da28027b552ef1059d79353a0edad",
+      "role": "Diagnostic Analyst",
+      "seconds": 26.599496125010774,
+      "output_words": 243,
+      "word_cap": 200,
+      "word_cap_pass": false,
+      "independent_review": false,
+      "native_Chat_verified": false,
+      "new_training": false,
+      "raw_answer_modified": false,
+      "errors": [
+        "Proposed0xDEADBEEF is written to B_CMD,a commandregister,not pixeldata; arbitrarycommand replacement is not a controlled data-payload experiment.",
+        "Wordcap exceeded; lackof proof of intent doesnot make corruptedplayerstate a validatedfeature."
+      ],
+      "qualified_supported_observations": [
+        "Correctly identifies CPU183E0 as lastA2basewriter and delay-slotstoretoF02238.",
+        "Correctly reports isolated wholeRAM replay and A2base counterfactual."
+      ],
+      "coordinator_input_fault_corrected": true
+    }
+  ],
+  "same_weights": true,
+  "new_training": false,
+  "model_authored_repair": false,
+  "repair_authorship": "Coordinator deterministic assembly from actual waittrace; localAnalyst suggestions not used asfix.",
+  "total_inference_seconds": 61.93299424997531,
+  "native_Chat_verified": false
+}
+
+EVIDENCE POINTERS
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-first-corruption-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-GPU-corruption-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-blitter-handoff-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-GPU-wait-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-corrupt-blit-replay-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-wait-format-disc-build-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-wait-format-disc-entry-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-wait-entry-selector-deck-pair-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-wait-format-long-route-current.json
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-formatter-diagnostic-Analyst-reviewed-current.json

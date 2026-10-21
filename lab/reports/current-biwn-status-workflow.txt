@@ -1,0 +1,27 @@
+CURRENT BIWN LOCAL STATUS WORKFLOW
+2026-10-18T16:39:58.694801+00:00
+
+Open Desktop → Local AI Lab → Ask BIWN Candidate Status.command.
+The existing launcher now uses the current experimental publication through the actual configured LM Studio MCP server. It no longer defaults to the older native28 question. The model runs locally through the SDK; this is not native Chat generation.
+
+WHO DID WHAT
+Codex coordinator: updated the compact evidence reader, installed source/runtime copies, reviewed raw output and published this receipt.
+Local Reader: daily advertising-scholar / Qwen3_5 27B 6bit; one role using the existing weights. Two development runs, one evidence call each. First answer217words failed the180word limit; preserved. A tighter prompt produced161words in14.97seconds. No independent Reviewer model or new training.
+MCP/tool: verifies all2012 bound evidence files and exact binary/CDI hashes, then returns scoped facts. The lookup does not execute CPU/gameplay tests or inspect unrelated live processes. An isolated changed-artifact test rejected corrupt evidence without returning an older milestone.
+
+WHAT THE LOCAL READER REPORTED
+The latest verified experimental build is a mixed original/new Jaguar CD bundle with a 9042-byte resident payload and 25 declared stage JMP redirects, which do not represent a recovered-function total or completion percentage. Helper checks for pad, string, and caller logic passed terminal gates on the linked bundle, confirming CPU and RAM access integrity. Fresh adaptive routes completed a merchant visit and outdoor hold, but the optimized build required 4816 more frames than the base, demonstrating no whole-game speedup. While isolated string cost reduction is noted in emulated test cycles, it does not translate to measured hardware performance. Captured audio samples were nonzero, yet listening quality and physical audibility remain unverified. A separate repaired Deck comparison showed video and player-position differences, confirming the build is not frame-equivalent. Remaining work includes diagnosing route delays, verifying physical console boot, and completing whole-game decompilation and platform replacement. No new model weights were trained, and the build is not ready for standalone physical console use.
+
+REGRESSION CHECKS
+Configured advertising MCP:2 reference results; model-proposed supplied rubric arithmetic3.25/5. This proves retrieval/arithmetic transport, not paper interpretation or grading correctness.
+Configured string MCP: exact existing checked C and1945case CPU receipt reused; source certificate unchanged. No fresh CPU test was run by this call.
+
+WATCH IN LM STUDIO
+The earlier native chats BIWN — Visible String Recovery and Advertising — Visible Research Desk remain saved. For current progress in a game chat, enable the existing local-ai-lab integration and ask: Call project_evidence with topic status once and explain the latest experimental build and its limits. That integration must be enabled in the particular chat. The last native-window inspection timed out; this publication verifies configured stdio and SDK inference, not a new visible Chat response or an already-running cached tool process.
+
+EXACT PROMPTS AND RESPONSES
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T163831.945947Z/prompts-and-responses.txt
+First overlong response: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/current-biwn-status-20261018T163753.921975Z/prompts-and-responses.txt
+
+REMAINING FULL GOAL
+Complete source/game/platform recovery, timing fidelity, physical-console and audio verification; reliable local C authorship and advertising research/education training; future256GBhardware validation. Existing previews/model weights were not promoted. The full goal remains active.

@@ -1,0 +1,28 @@
+{
+  "installed_preview": "BIWN Test Preview.app on Desktop;click window and press P. Arrows move;C+Up orShift+Up sends run input. Reviewed earlier six-caller checkpoint build remains installed.",
+  "experimental_candidate": {
+    "variant": "six-helper native debug candidate v1",
+    "fresh_route_completed": true,
+    "component_checks_pass": true,
+    "candidate_frames": 24965,
+    "control_frames": 24964,
+    "video_differences": 62,
+    "final_video_equal": true,
+    "runtime_guards_pass": true,
+    "fidelity_approved": false,
+    "preview_promoted": false
+  },
+  "new_source": {
+    "debug_entry": "0x10734",
+    "native_disc_integrated": true,
+    "native_linked_module_executed": true,
+    "native_linked_module_bytes": 40062,
+    "native_fresh_gameplay_verified": true,
+    "earlier_standalone_object_executed": false,
+    "earlier_standalone_object_bytes": 3808,
+    "local_clear_Repair": "Unedited10968Repair passes260standalone target68000CPU/RAM/order cases and35budgets with coordinator typed primitives;not in the disc."
+  },
+  "whole_game_rebuild": false,
+  "preview_promoted": false,
+  "remaining": "Whole-game source rebuilding,CPU execution overhead and fidelity,remaining native helpers,broader complete local game-code generation reliability and portable migration remain incomplete."
+}

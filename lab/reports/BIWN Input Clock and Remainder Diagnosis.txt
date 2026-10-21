@@ -1,0 +1,33 @@
+BIWN — input clock and remainder diagnosis
+
+Previous goal turn:Progress. Twelve saved-state renderer/movement lanes and627actual C integration transitions established stationary image equality and a22/23movement-step discrepancy. This turn adds read-only input boundaries and connected dispatcher/division verification;it does not rerun fresh game routes or build a new disc.
+
+CURRENT BASELINE
+v34 remains the reviewed game image. v37 remains unpromoted after its fresh matrix-route final-video comparison failed22858pixels. The installed Desktop outdoor checkpoint preview is unchanged. The earlier fresh-route cause is still unresolved.
+
+NEW CONTROLLED EVIDENCE
+Four180-frame exact-snapshot motion lanes now capture original191F4input entry,1A26Creturn and1A2C2world-integration boundaries. Ordinary Up input is heldframes1..60,then released61..180. Native versus original scene code is the sole ten-byte entry intervention. No player,camera,timer or input normalization. All previously recorded CPU/RAM/GPU/DSP/video rows reproduce exactly,so the new observer does not change those executions.
+
+Origin / scene code | walking calls | admitted clock ticks | movement steps | fraction discarded onrelease
+candidate / native | 41 | 287 | 22 | 62908
+candidate / original | 55 | 290 | 23 | 13087
+control / native | 42 | 293 | 23 | 28829
+control / original | 56 | 293 | 23 | 28815
+
+Every release is observed atframe61 and resets speed/remainder tozero. Candidate-origin native admits287movement ticks and ends with22whole steps plus62908/65536fraction;original admits290ticks and ends with23steps plus13087/65536fraction. Native last processes held Up atframe59;original atframe60. This explains the one-step difference in this controlled trial.
+
+Both control-origin lanes admit293ticks and produce23steps. Their final input remainders differ by14least-significant fraction units(28829/28815),because integer division truncates on each separate call. World update consumes whole movement counts,so both end at the same expanded pose in this second origin.
+
+SOURCE CHECK
+Recovered biwn_input_dispatch.c and biwn_signed_division.c are linked together.425connected fixtures execute original191F4and originalE588instructions as the comparison;no RTS stub supplies division. C matches original D0,all ordered global reads/writes/helper arguments,and nonprivate RAM in every case.194fixtures use the captured walking dt/remainder and match observed speed/remainder exactly;231additional cases cover forward,backward and run branches with wide time/carry boundaries. Other preamble globals are neutral fixture values,so this is not full captured-runtime register/RAM equivalence. Existing source is unchanged;no newly recovered unique routine is claimed.
+
+AGENT / MODEL ACTIVITY
+The coordinator authored the observer,ran the original-CPU/C comparisons and reviewed the evidence. A local Trace Analyst prompt was saved but generated zero responses because the shared inference lease was unavailable. No model was loaded,unloaded or interrupted;no new predictions or optimizer updates. The lock observation does not identify a live job or count as a verified wait. Reader43remains the installed supplied-facts status default. Exact prepared prompt: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-input-timing-analyst-v1/20261021T083035.884435Z/prompt.json
+
+LIMITS / NEXT WORK
+The controlled scene-code intervention changes update timing and which fixed-point threshold is crossed before input release. Wrong walking arithmetic is not observed in these cases. This does not establish the specific earlier fresh-route mismatch cause or waive that failed video gate. Whole-game source-only same-console rebuilding,complete CPU/GPU/DSP/HLEcoverage,audio/IRQ/arbitrary reentry,wider fidelity,useful untouched-task training gain,copied-weight native Chat usability and future256GBhardware measurements remain unfinished.
+
+Continue full-game CPU/GPU/DSP/IRQ source integration and fidelity. Use this measured quantization behavior when interpreting pose-divergent frame comparisons. Do not change controller endpoints or normalize state merely to force image equality. Retry the prepared local analyst only after observing actual shared-slot availability;do not replay these terminal fourlanes/425cases for receipts.
+
+Detailed evidence: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/input-timing-connected-v1-current.json
+Prior equal-state evidence: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/record-loop-equal-state-reviewed-v3-current.json

@@ -1,0 +1,63 @@
+{
+  "status": "terminal_two_local_gpu_family_attempts_rejected_and_preserved",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-scene-gpu-family-reviewed-v1/20261021T034439.881021Z",
+  "roles": [
+    {
+      "role": "Author",
+      "source_directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-gpu-command-family-v1/20261021T032454.741334Z",
+      "seconds": 130.92,
+      "model": "portable-ailab-4f5658686590-daily",
+      "status": "terminal_local_gpu_family_source_restriction_failed",
+      "begin_occurrences": 6,
+      "end_occurrences": 53,
+      "complete_outer_code_fence": false,
+      "compiled": false,
+      "semantic_verifier_executed": false,
+      "accepted": false,
+      "unedited_raw_response": true,
+      "manual_findings": [
+        "Output ends mid-function near its2600token cap. The raw signature is correct; the coarse parser could not extract an incomplete fence.",
+        "Multiple lexical begin/end markers violate the explicit one-occurrence constraint.",
+        "Acknowledgement-loop conditions test the carry mask0x1; BEQ requires the zero mask0x4.",
+        "Final E098 calls pass the JSR instruction address instead of its post-JSR return address.",
+        "Projection ADD ignores the arithmetic return value, leaving D0 and the next mailbox pointer unchanged."
+      ]
+    },
+    {
+      "role": "Repair",
+      "source_directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/local-gpu-command-family-v2/20261021T033528.437285Z",
+      "seconds": 125.76,
+      "model": "portable-ailab-4f5658686590-daily",
+      "status": "terminal_local_gpu_family_source_restriction_failed",
+      "begin_occurrences": 6,
+      "end_occurrences": 57,
+      "complete_outer_code_fence": true,
+      "compiled": false,
+      "semantic_verifier_executed": false,
+      "accepted": false,
+      "unedited_raw_response": true,
+      "manual_findings": [
+        "Multiple lexical begin/end markers violate the explicit one-occurrence constraint.",
+        "Acknowledgement-loop conditions test the carry mask0x1; BEQ requires the zero mask0x4.",
+        "Final E098 calls pass the JSR instruction address instead of its post-JSR return address.",
+        "Projection ADD ignores the arithmetic return value, leaving D0 and the next mailbox pointer unchanged."
+      ]
+    }
+  ],
+  "actual_predictions": 2,
+  "new_predictions": 0,
+  "recovered_completed_predictions": 2,
+  "new_training": false,
+  "optimizer_updates": 0,
+  "model_source_installed": false,
+  "native_Chat_verified": false,
+  "selected_source_authorship": "Coordinator",
+  "prompt_and_interpretation_limits": [
+    "Same copied27B model ran both roles; Repair is feedback continuation, not independent review.",
+    "Repair feedback used ambiguous bit-number shorthand for carry and zero. Future prompts should use explicit masks0x1 and0x4.",
+    "The primitive description did not explicitly state that deck_alu returns the arithmetic result for assignment. Clarify this before treating the ADD error as an independent capability result.",
+    "Static issues were inspected after source rejection. No compiled semantic counterexample exists for these responses.",
+    "The selected and verified source is coordinator-authored, not model-authored. These development attempts are not held-out evaluations or useful training gains."
+  ],
+  "whole_game_complete": false
+}

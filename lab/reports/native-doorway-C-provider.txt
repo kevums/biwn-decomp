@@ -1,0 +1,8 @@
+BIWN — EXACT18270BYTE DOORWAY DISC C INSTRUCTION PROVIDER
+2026-10-19T06:18:42.997402+00:00
+
+The extension regenerated/added 201 static instruction locations for the458byte local-model doorway component, redirects and startup. All 77184 one-instruction cases passed fullD/A/PC/SR/USP/SSP/2MBRAM and pinned emulator cycle checks, using32CCR/two stack modes/IPL0and7/three controlled operand profiles. Locations are not recovered game-function counts.
+
+The same provider also passed the complete indexed selector1280stable+512changing, scanner1377stable+768changing and doorway2025stable+768changing function comparisons against original native CPU execution. Right lanes execute generated C instruction steps and RAM callbacks, with no original CPU opcode execution. Full register/bank/publicRAM and logical ordered-width/value checks include24bitbus/tagged pointers, signed counts, sentinel and invalid directions, byte sign extension, source-ordered actor/record overlaps, and the scanner32768entry miss. The declared private8KBstack/code/entry exclusions remain.
+
+The active-bank normalization wrapper and exact-core private-state/cost bridge are compiled. Component gates do not establish live C CPU/GPU/DSP/IRQ equality; that is a separate exact-disc job. No physical timing, arbitrary faults/IRQ interleavings, whole-game source rebuild or default preview promotion is established. The selected doorway kernel is unedited repaired local output; instruction translation, bridge and these verifiers are coordinator work. No new model prediction or training occurred in this provider step.

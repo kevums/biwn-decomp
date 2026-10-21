@@ -1,0 +1,4 @@
+Two profiles were compared: daily_base (local/advertising-qwen38, safetensors, ~22.8 GB, 16k context) and coder_next (qwen3-coder-next, GGUF, ~36.3 GB, 16k context). Both scored 0 of 3 strict module passes on the tasks free, resource release, and copy. Rejections included two strict compilation failures and four native return/public RAM hardware mismatches. No defaults or weights changed: no new training, no weight promotion, and no raw candidate replaced canonical code. This was a frozen known-module comparison, not a heldout or general benchmark.
+
+Reported15.51seconds,one pass. Exact prompts/responses: /Users/kevin/.lmstudio/local-ai-lab/runs/ask-20261018T090034.542126Z-game/prompts-and-responses.txt
+Source-reviewed unchanged for this focused factual question;no nativeChatUI/general-quality proof.

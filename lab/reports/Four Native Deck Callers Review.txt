@@ -1,0 +1,27 @@
+FOUR NATIVE DECK CALLERS — 2026-10-20T07:47:34.038608+00:00
+
+Face contact (1186A) now runs as compiled 68000 C alongside scan (11828), input (11B4C) and coordinate updates (11D1A) on a separate experimental disc. Two of the six recovered Deck callers remain hosted-only: geometry collection (11AD4) and the outer task (11E6C). These six routines form a subsystem, not the entire game.
+
+The existing face algorithm was recovered by the coordinator earlier and remains unchanged. The local Author supplied only the appended six-line C service/body bridge; that fragment was accepted unchanged after external gates. Codex wrote the assembly, fallback and shared-slot integration. Input and face share the same frame and C stack. If either is active, a nested attempt uses original code without modifying the suspended frame. The Deck arena remains 101 × 1,024 bytes.
+
+Fresh comparison: the candidate completed 19 calls and returns for EACH of the four native callers. The control restored only the six-byte face entry and completed 19 original face calls, while scan/input/coordinate remained native. Both preserved 19 suspended scan parents. Candidate/control ran 25,010/25,011 frames, with 400/401 input frames; extra released input allowed watched calls to return. The recorded CPU/GPU/DSP/video/navigation fields match for 24,610 pre-input frames, excluding declared RAM/stage hashes. Final images match. All observed errors, pending calls and stack violations are zero. All 101 Deck slots retain seven fences, all 102 GPU slots retain their fences, and immutable code matches.
+
+The same 4,992 component-case family passed at prototype and final addresses. The 128 connected scenarios exercised 800 input, 485 face and 800 coordinate calls, with 2,085 suspended-parent checks per matrix. Another 128-case family tested actual helper JSRs in both alias directions across both CPU banks and all condition codes; it was repeated at final addresses. All 1,024 fallback cases compare full CPU and all RAM without normalization. Six startup, 192 heap-initialization and 36 allocation-boundary cases pass. The live region checker rejects 57 fault records at 56 distinct addresses; the aliased input/face frame accounts for the repeated address.
+
+Native code is 62,036 bytes; total reservation is 191,744 bytes and initial heap is 206,144 bytes. The explicit 13-frame asset restoration still changes original 16-frame behavior. Equal counts and images do not establish cycle identity. Original helpers, original fallback bodies and emulator/HLE dependencies remain; this is not a complete source rebuild or physical-console validation.
+
+LOCAL MODEL WORK
+Six actual predictions used the loaded advertising-scholar weights: Author, Reviewer and four status drafts. The Author bridge passed unchanged. The Reviewer was truncated and self-contradictory, so its review was rejected. Status drafts needed correction for hosted-only wording, length and an instruction echo. All raw prompts/responses and source corrections are retained. The final 54-word one-click briefing passed source and format review in 5.43 seconds. Same weights are not independent verification. No optimizer updates or new model-authored game algorithm occurred.
+
+The native Chat evidence helper now routes four installed/two hosted-only facts and still passes its Advertising grammar-workflow check. This check performs no inference and does not demonstrate current native Chat rendering. The Desktop BIWN Test Preview app still uses the earlier three-caller image; its new GUI/live-key testing remains unverified. Both earlier preview apps remain available.
+
+Advertising research/teaching quality and accepted training remain unfinished. Broader game recovery, arbitrary suspension/reentry/IRQ, timing/audio/physical fidelity, migration and future-hardware acceptance remain unfinished. The full goal remains active.
+
+EXPERIMENTAL DISC
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-Deck-shared-v3/20261020T073207.196855Z/BIWN-23-native-Deck-shared-v3-experimental.cdi
+
+EXACT LOCAL PROMPTS AND RAW RESPONSES
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-shared-delivery-v3/20261020T074734.038608Z/prompts-and-responses.txt
+
+DETAILED GAME PROOF
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-shared-reviewed-v3-current.json

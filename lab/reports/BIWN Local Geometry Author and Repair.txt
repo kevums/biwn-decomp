@@ -1,0 +1,11 @@
+BIWN — local170A0 Author and Repair
+
+Two actual generations used the copied local27B model through LM Studio API. Author324.08seconds,Repair345.03seconds. Each emitted6,499tokens under a6,500token cap and stopped mid-expression before completing the function. First streamed text appeared after7.262/11.135seconds;these timings exclude waiting for the shared lease. Total end-to-end user waiting was not instrumented. Both raw outputs are byte-identical. No optimizer updates or new trained weights.
+
+Neither response was compiled or installed. The source-form parser reported an exact-signature error because it could not remove an unclosed code fence. The opening function signature was valid;the actual problem was incomplete output at the token limit. Repair therefore received misleading feedback and repeated the same truncated code. This is a workflow/feedback defect alongside the model output-budget failure,not evidence of a compiled semantic test failure.
+
+Static inspection also shows risky primitive use:the output copies logical registers into a separate local array/aliases and ignores scene_shift return values while subsequently reading the logical register array. These observations do not substitute for a machine check;no complete candidate was produced. The next coding workflow should detect truncation before ordinary source checks,require direct logical-register aliases and returned arithmetic results,and use concise bounded sections rather than repeating this full noisy response.
+
+Original assembly and supplied flag/memory/stack primitives were exposed. Coordinator target C was withheld. This is scaffolded source development,not a held-out benchmark,independent multi-model review or training-quality improvement. The game candidate remains coordinator-authored for this new routine. Native Chat rendering with copied weights is still unverified;the UI tool timed out again without establishing screen state. Headless work remains authorized.
+
+Exact Author/Repair prompts and raw outputs: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/local-geometry-records-reviewed-v1/20261021T052658.756158Z/prompts-and-responses.txt

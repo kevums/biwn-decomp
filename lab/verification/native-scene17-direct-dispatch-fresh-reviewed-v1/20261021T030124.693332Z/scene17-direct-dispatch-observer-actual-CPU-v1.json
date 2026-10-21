@@ -1,0 +1,21 @@
+{
+  "status": "terminal_exact_debug_observer_actual_combined_CPU_contracts_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-observer-actual-CPU-v1/20261021T025150.371542Z",
+  "CPU_lanes": 64,
+  "geometry_calls": 8,
+  "active_debug_calls": 6,
+  "original_and_native_dependency_calls": 96,
+  "host_guest_RAM_writes": 0,
+  "new_predictions": 0,
+  "new_training": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_scene17_direct_dispatch_geometry_observer_actual_cpu_v1.py": "f7b1291f7f56f9a638d15d7c87be196579baed4ac842cdd13445d4a1ce817010",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_outer_connected_scene17_direct_dispatch_v1.py": "4a5b8a61a674b13b1fa9086de33e829275de894443dc6b151c4981d00cc08350",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualified-v1-current.json": "efd53422447fb19d385c4bd496b89a0ee325c2b6411bc2e0c35d56694d0e2426",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-geometry-observer-qualification-v1/20261021T025046.648067Z/fixture.c": "93c4023a73cfe543def837d4e35f984faa2cc31ba0e241ef35a7d5eb26735ca8",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-observer-actual-CPU-v1/20261021T025150.371542Z/fixture.c": "12d43e24e782f949ab7c7912eb2884105b953ba48a79bee272c364dd025416d7",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-observer-actual-CPU-v1/20261021T025150.371542Z/fixture.dylib": "4c6fbff87445d39d12ab3ded2b353064c1e024f4a5ab9197d1a91d2ea02eda55",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/scene17-direct-dispatch-observer-actual-CPU-v1/20261021T025150.371542Z/cases.json": "bdff1c9ab749f7f4ab60e4c3574af82011dad975bc341a2ea645e8824ceeb92f"
+  },
+  "scope": "Read-only exact geometry monitor over combined original/native CPU execution.\nRAM and register snapshots are copied into a separate host observer fixture.\nOriginal outer/caller/helper bodies execute; GPU/formatter/text effects remain\nexplicit component fixtures. This is not fresh gameplay or an IRQ test.\n"
+}

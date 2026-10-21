@@ -1,0 +1,98 @@
+[
+  {
+    "slot": 0,
+    "order": "resource_inside_GPU",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 0,
+    "order": "resource_inside_GPU",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 0,
+    "order": "GPU_inside_resource",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 0,
+    "order": "GPU_inside_resource",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 50,
+    "order": "resource_inside_GPU",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 50,
+    "order": "resource_inside_GPU",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 50,
+    "order": "GPU_inside_resource",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 50,
+    "order": "GPU_inside_resource",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 100,
+    "order": "resource_inside_GPU",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 100,
+    "order": "resource_inside_GPU",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 100,
+    "order": "GPU_inside_resource",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 100,
+    "order": "GPU_inside_resource",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 101,
+    "order": "resource_inside_GPU",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 101,
+    "order": "resource_inside_GPU",
+    "same_task": true,
+    "alias_rejected": true
+  },
+  {
+    "slot": 101,
+    "order": "GPU_inside_resource",
+    "same_task": false,
+    "alias_rejected": false
+  },
+  {
+    "slot": 101,
+    "order": "GPU_inside_resource",
+    "same_task": true,
+    "alias_rejected": true
+  }
+]

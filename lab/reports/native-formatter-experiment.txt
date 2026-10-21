@@ -1,0 +1,30 @@
+BIWN native formatter experiment — 2026-10-18T22:20:05.335615+00:00
+
+Experimental status: selected candidate runs pass, but an unresolved control regression prevents general acceptance. The default interactive preview and model weights are unchanged.
+
+What is now reconstructed
+The159-instruction formatter core and8-instruction variadic wrapper join the earlier pad,string,number,unsigned quotient and remainder routines. All seven specific entry contracts have native C implementations. Their combined independent retained-CPU tests reach all323original instruction addresses in this subsystem. This is static source-specific C lowering,not recovered original source or a whole-game decompilation. The C keeps explicit semantic registers and public stack effects; original game data and remaining engine code stay in the disc.
+
+Correctness checks on the actual14,664-byte image
+Full core/variadic:1,950nativeCPU and ordered-public-memory cases,including all167new addresses,allCCR/both stack modes and wrapping widths. Number:1,196normal/ordered plus256zero cases. Arithmetic:3,592normal/ordered plus512zero cases. Pad:1,668plus16changing-read cases; string:1,945plus16changing cases. Full registers/PC/SR/stack banks and publicRAM compare within the declared private-frame/code exclusions. Exception tests use an inertRTEhandler and declared fault-PC relocation; arbitrary handlers,aliasing and IRQ timing are unproved.
+All19exact-image installation/component/resource gates pass,including96startup and5,151installed keyABI cases. Heapstart0x162DC0,reservation16,384bytes,payload14,664,padding1,720. Temporary loading uses24KB atF8000..FE000,verified zero in the original stage and restored to zero before original400A.30stageJMPredirects is not a recovered-function count or percentage. A deliberate wrong remaining-count constant was rejected by the earlier comparator through public stack memory even though finalCPU matched.
+
+Runtime evidence — keep failures visible
+The first15,408-byte full formatter prototype corrupted state during the raw scene transition,first oddPC recorded atframe8,546. It never reached the merchant in35,000frames. A same-layout raw control restoring only core/variadic redirects reached the interior atframe8,550. Its code and heap layout are therefore not sufficient by themselves to explain the failure. The cause remains open.
+Read-only captures did not observe a task-stack boundary violation or a paused acquire/load semantic-context/parked-stack change in the checked same-task ranges. The last captured HUD formatter call replayed with identical original and compiled CPU/publicRAM offline when IRQs were disabled. This is a narrowing result,not a proof that every live call or IRQ/device interaction is correct.
+Compiler-only inlining reduces the same captured call from247,926to89,214emulated68000cycles (64.0percent),versus9,172in the original assembly. Instruction count falls22,665to9,237. The measured deepest nativeSP is12bytes deeper,not shallower. No hardware/FPS claim follows from this one offline call.
+The new candidate completed the full merchant/floor0/outdoor route in24,975frames; the separately rerun11,224-byte parent did so in24,974. Both end with the same selected X/Z/mode/floor/scene fields. They have different timing/input and audio records; capturednonzero samples are1,609,602candidate versus1,609,490parent. Listening quality and physical audio are unverified.
+The new candidate's2,600-frame repaired Deck run recorded672Ccorebody entries,672wrapper entries and672completed outer wrapper returns,zero original five-formatter body steps,zero observed stack violations and382bytes minimum observed headroom. However,its same-layout control (original core/wrapper with optimized native number) corrupts state,first oddPC recorded atframe1,430. The pair is NOTa valid equivalence/performance pass. Root cause has not been isolated. Changing inlining also changes code layout/stack writes/timing,so successful candidate gameplay alone does not establish a timing-only cause.
+
+Who did what
+Codex coordinator generated the C and ran deterministic compilers,retainedCPU/Unicorn tests,disc builders and read-only game observers. Those programs are not AI agents.
+The local Scope Reviewer used the daily27B6bit weights through the LMStudioSDK and one real local receipt callback. It returned correct decisions on7guided scope claims in23.82seconds,including rejection of whole-game,physical,timing and local-model-authorship claims. This was advisory and did not receive/discover the subsequent long-route corruption; it is not independent validation or broad reliability evidence.
+Exact Reviewer prompts/responses: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/runs/formatter-scope-Reviewer-20261018T190147.900031Z/prompts-and-responses.txt
+No new weight training or accepted local-model C was produced. NativeChat UI generation was not verified in this source step. Advertising's full-source Educator/Reviewer evaluation is separately recorded and does not change these game receipts.
+
+Experimental disc (not the default preview)
+/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/builds/BIWN-native-fast-core-format/20261018T220952.945980Z/BIWN-23-native-fast-core-format-experimental.cdi
+Rebuild working directory: /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/restoration/native-m68k
+make -f /Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-fast-core-bundle/20261018T220820.261448Z/Makefile format-bundle BUILD=/tmp/biwn-inline-formatter-rebuild
+
+Next work includes the unresolved mixed-control/runtime failure,the rest of the engine/platform,broader source-owned behavior/audio,physical-console boot,and reliable local training improvements. The full user goal remains active.

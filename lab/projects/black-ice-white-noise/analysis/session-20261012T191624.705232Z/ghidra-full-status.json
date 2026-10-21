@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "manifest_exists": true,
+  "language": "68000:BE:32:default",
+  "cancelled": false,
+  "functions": 1,
+  "decompiled_functions": 1,
+  "instructions": 82,
+  "entry_functions": [
+    {
+      "address": "00180000",
+      "name": "operator_selected_entry",
+      "decompiled": true,
+      "error": ""
+    }
+  ]
+}

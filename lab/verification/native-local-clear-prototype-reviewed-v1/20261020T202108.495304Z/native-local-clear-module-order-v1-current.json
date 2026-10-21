@@ -1,0 +1,17 @@
+{
+  "status": "terminal_actual_shared_module_local_clear_order_and_CPU_RAM_match",
+  "directory": "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-module-order-v1/20261020T201139.762405Z",
+  "completed": 4,
+  "deployed_payload_sha256": "2597267a2f361129d1af52b8bf8c90ebff94f75f90fca7d566f37d993e5cc21a",
+  "new_training": false,
+  "new_predictions": 0,
+  "installed_preview_changed": false,
+  "source_sha256": {
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_local_clear_module_order_v1.py": "cc0af044062680dbc91bcef302c034225e061f80bcb646ebaa7b1a85f1015319",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-local-clear-real-v1-current.json": "79d35c162faf59ec438eb766e4379f7b9f72197a8cc4df47d5687ad68287877f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts/check_native_deck_local_clear_v1.py": "dd8de33965456d3e28b0b0f8320a9cb929e96114e53c9fcb31f7096f11cda46f",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-Deck-local-clear-real-v1/20261020T201002.772831Z/build/native-shared.bin": "2597267a2f361129d1af52b8bf8c90ebff94f75f90fca7d566f37d993e5cc21a",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/verification/native-local-clear-module-order-v1/20261020T201139.762405Z/cases.json": "41dc2b159a6faae8686256a32ae81456226957d1824bb772242a3551c175af57"
+  },
+  "scope": "Trace the unedited local clear body in the shared prototype module.\nCapture its real native entry state in the qualified geometry harness,then\nindependently execute that exact ELF byte range in Unicorn until its C return.\nCompare public RAM and ordered accesses with the retained helper contract.\n Four actual shared-prototype geometry contexts;logical helper arguments1,7. No disc/final-layout,arbitrary aliases,IRQ or timing proof. Full helper boundaries and budgets use the separate standalone260/35matrix."
+}

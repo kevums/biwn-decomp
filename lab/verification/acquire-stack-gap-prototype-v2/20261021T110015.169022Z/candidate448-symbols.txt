@@ -1,0 +1,8 @@
+000001c0 a ACQUIRE_PRIVATE_RESERVE
+0015f292 T biwn_native_resource_acquire
+0015f2c8 T biwn_native_resource_acquire_return
+0015f2ca T biwn_native_acquire_wait_capture
+0015f31a T biwn_native_acquire_signal_capture
+0015f36a T biwn_native_acquire_allocate_capture
+0015f3be T biwn_native_acquire_load_capture
+00160434 A biwn_native_resource_acquire_body

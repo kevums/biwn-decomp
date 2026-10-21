@@ -1,0 +1,12 @@
+{
+  "declared_patch_bytes": 6,
+  "actual_changed_bytes": 3,
+  "offsets": [
+    3358394,
+    3358396,
+    3358397
+  ],
+  "checked_entire_disc": true,
+  "original_input_callsite": "0x1A266",
+  "scene_native_in_both_lanes": true
+}

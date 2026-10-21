@@ -1,0 +1,13 @@
+include Makefile
+.DEFAULT_GOAL := task-create
+TASK_CREATE_SOURCE ?= task-create-native.c
+.PHONY: task-create
+task-create: $(BUILD)/native-task-create.elf $(BUILD)/native-task-create.bin
+$(BUILD)/task-create-shim.o: task-create-shim.S | $(BUILD)
+	$(CROSS)as -m68000 -o $@ $<
+$(BUILD)/task-create-native.o: $(TASK_CREATE_SOURCE) | $(BUILD)
+	$(CROSS)gcc $(CFLAGS) -Wall -Wextra -Werror -c $< -o $@
+$(BUILD)/native-task-create.elf: $(BUILD)/task-create-shim.o $(BUILD)/task-create-native.o task-create.ld $(MAKEFILE_LIST)
+	$(CROSS)ld --gc-sections -T task-create.ld -Map $(BUILD)/native-task-create.map -o $@ $(filter %.o,$^)
+$(BUILD)/native-task-create.bin: $(BUILD)/native-task-create.elf
+	$(CROSS)objcopy -O binary $< $@

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/ghidra-headless",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-stack2-projects",
+    "BIWN23-stack2-candidate",
+    "-process",
+    "nextstage-68000-candidate.bin",
+    "-noanalysis",
+    "-scriptPath",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/scripts",
+    "-postScript",
+    "ExportDecomp.java",
+    "/Users/kevin/Documents/Codex/2026-10-10/i-now-am-using-the-following/outputs/local-ai-lab/projects/black-ice-white-noise/analysis/session-20261012T191624.705232Z/nextstage-stack2-export",
+    "-max-cpu",
+    "4"
+  ],
+  "exit_code": 0,
+  "language": "68000:BE:32:default",
+  "language_description": "Motorola 32-bit 68040",
+  "compiler_spec": "stack2candidate",
+  "integer_bytes": 4,
+  "pointer_bytes": 4,
+  "export_script_sha256": "b8e27651559774592b95e85489c09aa6b5661580f4dc44e515a63e95a7bf37cd"
+}
